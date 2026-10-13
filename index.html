@@ -358,7 +358,7 @@ function renderHome() {
   const resume = session && !session.done ? `<button class="banner" data-act="resume">Resume “${esc(session.title)}” — question ${session.i + 1} of ${session.ids.length} ›</button>` : '';
   $app.innerHTML = `<div class="screen">
     <div class="home-head">
-      <h1><small>PA-34-200 Seneca I</small>Multi-Engine Oral</h1>
+      <h1><small>N56307 · PA-34-200 Seneca I</small>Multi-Engine Oral</h1>
       <button class="small-btn" data-act="theme" aria-label="Display mode: ${THEME_LABEL[theme][1]}">${THEME_LABEL[theme][0]}<span class="lbl"> ${THEME_LABEL[theme][1]}</span></button>
       <button class="small-btn" data-go="#/settings" aria-label="Settings and progress">${ICON_GEAR}<span class="lbl"> Settings</span></button>
     </div>
@@ -514,7 +514,7 @@ function renderSettings() {
       </div>
       <div class="section-label">About</div>
       <div class="note">${offline}</div>
-      <div class="note">Questions are written from the ASA Multi-Engine Oral Exam Guide and the PA-34-200 Seneca I Pilot's Operating Manual for s/n 34-7350124. Seneca speeds are MPH. If an answer disagrees with your POH or instructor, the POH wins — flag it so it can be fixed.</div>
+      <div class="note">Questions are written from the ASA Multi-Engine Oral Exam Guide and a PA-34-200 Seneca I Pilot's Operating Manual, set up for N56307 (autopilot and electric pitch trim; no combustion heater or ice protection). Procedures follow your school's checklist where you chose it. Seneca speeds are MPH. If an answer looks wrong, flag it and copy the flagged list so it can be fixed.</div>
       <div class="btn-row" style="justify-content:flex-start"><button class="btn danger" data-act="reset">Reset all progress</button></div>
     </div></div></div>`;
 }

@@ -556,15 +556,15 @@
  {
   "id": "p5-039",
   "topic": "s-elec",
-  "q": "What ice protection does the Seneca I's pitot-static system have?",
-  "a": "An optional heated pitot; the static ports are not heated",
+  "q": "What ice protection does your Seneca's pitot-static system have?",
+  "a": "A heated pitot mast; the static ports are not heated",
   "d": [
-   "A heated pitot and heated static ports, both standard",
+   "A heated pitot and heated static ports",
    "Heated static ports only; the pitot is not heated",
    "None at all; the alternate static is the only backup"
   ],
-  "why": "The pitot mast can have a heating element for ice or heavy rain. The static sensors are not heated, because experience shows they are unlikely to ice up.",
-  "src": "POH 2-18 · OEG App 2",
+  "why": "The pitot mast has a heating element for ice or heavy rain (an option on the Seneca I; your school preflight checks it warm). The static sensors are not heated, because experience shows they are unlikely to ice up.",
+  "src": "POH 2-18 · School checklist · OEG App 2",
   "loc": "poh 036"
  },
  {
@@ -635,7 +635,9 @@
   ],
   "why": "The GNS 530 is one panel-mounted unit with a VHF comm, a VOR/LOC/glideslope receiver, and an IFR-approved GPS navigator. It has separate GPS, NAV and COMM antennas.",
   "src": "POH GNS 530 AFMS p.3 · OEG App 2",
-  "loc": "poh 096"
+  "loc": "poh 096",
+  "drop": true,
+  "drop_reason": "N887SP-specific: Garmin GNS 530 supplement is N887SP's avionics"
  },
  {
   "id": "p5-045",
@@ -649,7 +651,9 @@
   ],
   "why": "GPS approaches must be flown in approach mode with RAIM available at the FAF, using procedures loaded from a current database.",
   "src": "POH GNS 530 AFMS p.4",
-  "loc": "poh 097"
+  "loc": "poh 097",
+  "drop": true,
+  "drop_reason": "N887SP-specific: Garmin GNS 530 supplement is N887SP's avionics"
  },
  {
   "id": "p5-046",
@@ -663,7 +667,9 @@
   ],
   "why": "The supplement says holding the comm transfer button for 2 seconds tunes 121.500 MHz as the active frequency.",
   "src": "POH GNS 530 AFMS p.6",
-  "loc": "poh 099"
+  "loc": "poh 099",
+  "drop": true,
+  "drop_reason": "N887SP-specific: Garmin GNS 530 supplement is N887SP's avionics"
  },
  {
   "id": "p5-047",
@@ -677,7 +683,9 @@
   ],
   "why": "With a position warning, the unit flags and stops giving GPS guidance. The 5-minute rule applies to 'RAIM NOT AVAILABLE' on the final approach segment, not to this warning.",
   "src": "POH GNS 530 AFMS p.5",
-  "loc": "poh 098"
+  "loc": "poh 098",
+  "drop": true,
+  "drop_reason": "N887SP-specific: Garmin GNS 530 supplement is N887SP's avionics"
  },
  {
   "id": "p5-048",
@@ -691,7 +699,9 @@
   ],
   "why": "The supplement lists three ways: the wheel disconnect (AP OFF), the roll rocker OFF, or overpowering it by hand in roll and pitch. A malfunctioning electric trim is disabled with the panel trim switch, or overpowered at the trim wheel.",
   "src": "POH 3-25 · OEG App 2",
-  "loc": "poh 088"
+  "loc": "poh 088",
+  "drop": true,
+  "drop_reason": "autopilot model unknown: disconnect method differs by model (roll ON-OFF / AP OFF wheel switch / wheel trim switch)"
  },
  {
   "id": "p5-049",
@@ -712,14 +722,14 @@
  {
   "id": "p5-050",
   "topic": "s-airframe",
-  "q": "What provides the standard cabin and defroster heat in the Seneca I?",
+  "q": "What provides the cabin and defroster heat in your Seneca?",
   "a": "A heat exchanger (muff) on each engine's exhaust manifold",
   "d": [
    "A Janitrol combustion heater mounted in the nose baggage area",
    "Electric heating elements under the cabin floor panels",
    "Air bled from the engine-driven vacuum pumps"
   ],
-  "why": "Each engine has a heater muff around its exhaust manifold. The Janitrol combustion heater is an optional add-on in the aft fuselage that supplements the muffs.",
+  "why": "Each engine has a heater muff around its exhaust manifold. That is your Seneca's only cabin heat; the optional Janitrol combustion heater (aft fuselage) is not installed.",
   "src": "POH 2-20 · OEG App 2",
   "loc": "poh 038"
  },
@@ -789,7 +799,7 @@
    "On the switch panel to the left of the pilot",
    "On the pedestal below the power quadrant"
   ],
-  "why": "The standard muff-heat and defrost controls are on the right side of the panel. The optional combustion heater has its own console between the front seats.",
+  "why": "The cabin heat and defroster controls for the standard muff system are on the right side of the instrument panel.",
   "src": "POH 2-20 · OEG App 2",
   "loc": "poh 038"
  },
@@ -801,9 +811,9 @@
   "d": [
    "With a separate DEFROST BLOWER switch on the left switch panel",
    "It runs whenever the master switch is ON and cannot be turned off",
-   "It runs only when the combustion heater switch is set to FAN"
+   "It runs whenever cabin heat is on and stops when heat is off"
   ],
-  "why": "The blower defogs the windshield on the ground. It runs when the defrost lever is at full on/HI, and moving the lever back about an inch shuts it off in flight. The lever must be at HI to run the blower even with the combustion heater installed.",
+  "why": "The blower defogs the windshield on the ground. It runs when the defrost lever is at full on/HI, and moving the lever back about an inch shuts it off in flight.",
   "src": "POH 2-20",
   "loc": "poh 038"
  },
@@ -833,7 +843,9 @@
   ],
   "why": "The Janitrol heater is in the aft fuselage. It adds heat for the cabin and defrosting on top of the standard muff system.",
   "src": "POH 2-20 · OEG App 2",
-  "loc": "poh 038"
+  "loc": "poh 038",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-059",
@@ -847,7 +859,9 @@
   ],
   "why": "The switch is on the console between the front seats. FAN is for ventilation or defogging on the ground when you don't want heat.",
   "src": "POH 2-20",
-  "loc": "poh 038"
+  "loc": "poh 038",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-060",
@@ -861,7 +875,9 @@
   ],
   "why": "Two safety switches at the intake valve block both fan and heater operation until the air intake lever is moved off the closed position. A fuel problem would stop the burner but not the fan.",
   "src": "POH 2-20a",
-  "loc": "poh 039"
+  "loc": "poh 039",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-061",
@@ -875,7 +891,9 @@
   ],
   "why": "Include heater fuel in flight planning. With the right fuel selector OFF, the heater will not work. Fuel flow starts only when the switch is set to HEATER.",
   "src": "POH 2-20a · OEG App 2",
-  "loc": "poh 039"
+  "loc": "poh 039",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-062",
@@ -889,7 +907,9 @@
   ],
   "why": "The heater draws from the right engine's fuel line. With the selector on and the mixture in idle cutoff, the aux pump can supply it. First make sure there are no fuel leaks between the tank and the engine.",
   "src": "POH 2-20a",
-  "loc": "poh 039"
+  "loc": "poh 039",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-063",
@@ -903,7 +923,9 @@
   ],
   "why": "The heat-limit switch lights the overheat light on the console between the front seats. Its red reset button is on the heater shroud in the aft fuselage, reached through the bulkhead access panel. Don't restart the heater until the cause has been found and fixed.",
   "src": "POH 2-20a · OEG App 2",
-  "loc": "poh 039"
+  "loc": "poh 039",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-064",
@@ -917,7 +939,9 @@
   ],
   "why": "The red reset button is on the heater shroud in the aft fuselage, reached through a bulkhead access panel, not from the seat. The supplement says not to restart until the cause has been found and fixed.",
   "src": "POH 2-20a, 3-29",
-  "loc": "poh 091"
+  "loc": "poh 091",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-065",
@@ -931,7 +955,9 @@
   ],
   "why": "Running the fan with the intake open cools the heater so the overheat switch doesn't trip. In flight, leave the intake open at least 15 seconds after switching the heater OFF.",
   "src": "POH 2-20a",
-  "loc": "poh 039"
+  "loc": "poh 039",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-066",
@@ -945,7 +971,9 @@
   ],
   "why": "The supplement does not approve heater operation above 20,000 ft. Its other limitation, no electric windshield heat at the same time because of compass error, is placarded near the heater controls.",
   "src": "POH 3-29",
-  "loc": "poh 091"
+  "loc": "poh 091",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p5-067",
@@ -957,7 +985,7 @@
    "Whenever the heated pitot and propeller deice both work",
    "Never; no Seneca I can be approved for known icing"
   ],
-  "why": "Known-icing approval requires the full system: boots, prop deice, electric windshield panel, heated pitot, heated stall warning transmitters, anti-icing fuel vents, governor shields and deflectors, and the wing ice light. Without it, icing flight is prohibited.",
+  "why": "Known-icing approval requires the full system: boots, prop deice, electric windshield panel, heated pitot, heated stall warning transmitters, anti-icing fuel vents, governor shields and deflectors, and the wing ice light. Your Seneca has no ice protection system, so flight in icing is prohibited.",
   "src": "POH 2-22, 3-6, 6-13 · OEG App 2",
   "loc": "poh 064"
  },
@@ -973,7 +1001,9 @@
   ],
   "why": "The list includes anti-icing fuel vents (one under each wing) so ice can't block the tank vent lines. The static ports are not heated in the Seneca.",
   "src": "POH 3-6, 2-26",
-  "loc": "poh 064"
+  "loc": "poh 064",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: known-icing equipment list"
  },
  {
   "id": "p5-069",
@@ -987,7 +1017,9 @@
   ],
   "why": "Suction from the engine-driven vacuum pumps keeps the boots smooth and streamlined between cycles, and it is reapplied after each inflation.",
   "src": "POH 2-22 · OEG App 2",
-  "loc": "poh 042"
+  "loc": "poh 042",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: deice boots"
  },
  {
   "id": "p5-070",
@@ -1001,7 +1033,9 @@
   ],
   "why": "Boots cover the wing, vertical fin and horizontal stabilator leading edges. The props have electric deicer pads instead.",
   "src": "POH 2-22 · OEG App 2",
-  "loc": "poh 042"
+  "loc": "poh 042",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: deice boots"
  },
  {
   "id": "p5-071",
@@ -1015,7 +1049,9 @@
   ],
   "why": "The timer powers the pressure control valves for six seconds and the WING-TAIL DE-ICER light comes on. Then the air is dumped overboard and suction returns. Do not hold the switch ON.",
   "src": "POH 2-22, 3-18a",
-  "loc": "poh 042"
+  "loc": "poh 042",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: surface deice switch/boots"
  },
  {
   "id": "p5-072",
@@ -1061,7 +1097,9 @@
   ],
   "why": "It lets you check the wing for ice during night flight. It has an ICE LIGHT switch to the right of the SURFACE DE-ICE switch and its own WING ICE LIGHT circuit breaker.",
   "src": "POH 2-22",
-  "loc": "poh 042"
+  "loc": "poh 042",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: wing ice light"
  },
  {
   "id": "p5-075",
@@ -1075,7 +1113,9 @@
   ],
   "why": "Each pad has an outboard and an inboard heater. Current goes from the timer through brush blocks to slip rings on the starter ring gear. Heating loosens the ice, and centrifugal force and the airstream throw it off in small pieces.",
   "src": "POH 2-22, 2-24 · OEG App 2",
-  "loc": "poh 044"
+  "loc": "poh 044",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: propeller deice"
  },
  {
   "id": "p5-076",
@@ -1089,7 +1129,9 @@
   ],
   "why": "The cycle may start at any step, depending on where the timer stopped last time. It then runs in this order until the system is turned off.",
   "src": "POH 2-24",
-  "loc": "poh 044"
+  "loc": "poh 044",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: propeller deice"
  },
  {
   "id": "p5-077",
@@ -1119,7 +1161,9 @@
   ],
   "why": "The supplement says never run it more than 30 seconds unless the airplane is flying or there is ice on the panel. Operation is checked by feeling the glass warm.",
   "src": "POH 3-28, 2-24 · OEG App 2",
-  "loc": "poh 090"
+  "loc": "poh 090",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: heated windshield panel"
  },
  {
   "id": "p5-079",
@@ -1133,7 +1177,9 @@
   ],
   "why": "The heated windshield affects the magnetic compass, so a second deviation card is required. For the same reason, it can't be used at the same time as the combustion heater.",
   "src": "POH 3-28",
-  "loc": "poh 090"
+  "loc": "poh 090",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: heated windshield panel"
  },
  {
   "id": "p5-080",
@@ -1163,7 +1209,9 @@
   ],
   "why": "They stop ice and other particles that come in through the front cowl opening from interfering with governor operation.",
   "src": "POH 2-26",
-  "loc": "poh 046"
+  "loc": "poh 046",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: propeller governor ice shields are part of the ice protection system"
  },
  {
   "id": "p5-082",
@@ -1239,7 +1287,7 @@
    "A stick shaker, triggered by an angle-of-attack vane on the nose",
    "A light only, triggered by a pressure port in the left wing"
   ],
-  "why": "Two lift detectors sit on the leading edge of the left wing, outboard of the nacelle. With the ice protection system, both are heated.",
+  "why": "Two lift detectors sit on the leading edge of the left wing, outboard of the nacelle. Heated detectors are part of the optional ice protection system.",
   "src": "POH 2-27",
   "loc": "poh 047"
  },
@@ -1687,6 +1735,8 @@
   ],
   "why": "Prop deice power goes through its own PROP DE-ICER ammeter to the timer, and a reading in the shaded portion is normal. On the ground you can also feel the pads warm in sequence.",
   "src": "POH 2-22",
-  "loc": "poh 042"
+  "loc": "poh 042",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: propeller deice"
  }
 ]

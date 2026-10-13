@@ -1203,9 +1203,9 @@
   "d": [
    "Separate elevator trim tab, set by an overhead crank",
    "Adjustable horizontal stabilizer, set by a jackscrew motor",
-   "Electric trim motor on the stabilator spar"
+   "Bungee springs on the control column, set by a panel knob"
   ],
-  "why": "POH 2-9: the all-movable stabilator's anti-servo tab also acts as the longitudinal trim tab, worked by a control on the tunnel between the front seats.",
+  "why": "POH 2-9: the all-movable stabilator's anti-servo tab also acts as the longitudinal trim tab, worked by a control on the tunnel between the front seats. Your electric pitch trim drives the same trim, and the manual trim can overpower it (AFM electric trim supplement).",
   "src": "POH 2-9",
   "loc": "poh 027"
  },

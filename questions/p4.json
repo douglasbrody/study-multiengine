@@ -191,7 +191,7 @@
    "To reduce the electrical load on the alternators at low RPM",
    "To keep the engines from flooding while idling on the ground"
   ],
-  "why": "POH 6-5: the electric fuel pump should be off during taxi to check the operation of the engine-driven fuel pump. The autopilot, if installed, should also be off.",
+  "why": "POH 6-5: the electric fuel pump should be off during taxi to check the operation of the engine-driven fuel pump. The autopilot should also be off during taxi.",
   "src": "POH 6-5",
   "loc": "poh 157"
  },
@@ -938,10 +938,10 @@
   "a": "90 MPH",
   "d": [
    "80 MPH",
-   "105 MPH",
+   "100 MPH",
    "85 MPH"
   ],
-  "why": "POH 6-12: never fly below Vmc (80 MPH) on one engine, and as a precaution keep indicated airspeed above 90 MPH in single-engine training or emergencies. 105 MPH is Vyse (blue line).",
+  "why": "POH 6-12: never fly below Vmc (80 MPH) on one engine, and as a precaution keep indicated airspeed above 90 MPH in single-engine training or emergencies. That is a floor, not a target: your school's engine-failure memory items hold blue line, 105 MPH.",
   "src": "POH 6-12",
   "loc": "poh 166"
  },
@@ -1015,7 +1015,9 @@
   ],
   "why": "POH 6-13: approved for known icing only when equipped with the complete Piper Ice Protection System. Flight into severe icing is prohibited; avoid moderate icing above 10,000 ft and descend if practical; light icing is approved at all altitudes. Without approved equipment, flight in icing is prohibited (6-9).",
   "src": "POH 6-13",
-  "loc": "poh 172"
+  "loc": "poh 172",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: icing guidance applies only with the complete Piper Ice Protection System"
  },
  {
   "id": "p4-073",
@@ -1045,12 +1047,14 @@
   ],
   "why": "POH 6-13: before flight, turn on pitot heat, windshield heat and propeller heat for 30 seconds and feel for heat. Turn on the defroster and pitot heat before entering icing, and prop and windshield heat immediately upon entering it.",
   "src": "POH 6-13",
-  "loc": "poh 172"
+  "loc": "poh 172",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: preflight check of windshield and prop heat"
  },
  {
   "id": "p4-075",
   "topic": "s-emerg",
-  "q": "In a Seneca without approved deice equipment, you pick up ice in cloud. What does the POH warning direct?",
+  "q": "Your Seneca has no approved deice equipment, and you pick up ice in cloud. What does the POH warning direct?",
   "a": "Take immediate action to fly out of the icing conditions",
   "d": [
    "Continue the flight using alternate air and pitot heat",
@@ -1073,7 +1077,9 @@
   ],
   "why": "The AD's cues: unusually extensive ice on the airframe and windshield in areas not normally seen to collect ice; ice on the upper wing aft of the protected area; ice on the nacelles and spinners farther aft than normal. Ice that builds and sheds on the boots is normal protected-surface icing.",
   "src": "AD 99-14-01",
-  "loc": "poh 168"
+  "loc": "poh 168",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: AD cue is ice aft of the protected area (assumes boots)"
  },
  {
   "id": "p4-077",
@@ -1087,7 +1093,9 @@
   ],
   "why": "That is one of the AD's severe-icing cues. The AD says to immediately request priority handling from ATC for a route or altitude change to exit the conditions, avoid abrupt maneuvering, keep the autopilot off, and report the conditions to ATC.",
   "src": "AD 99-14-01",
-  "loc": "poh 168"
+  "loc": "poh 168",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: AD severe-icing cue scenario assumes routine flight in icing with boots"
  },
  {
   "id": "p4-078",
@@ -1129,7 +1137,9 @@
   ],
   "why": "The AD: do not extend flaps when holding in icing. The reduced wing angle of attack can let ice form farther aft on the upper surface, possibly aft of the protected area. If flaps are already extended, don't retract them until the airframe is clear of ice.",
   "src": "AD 99-14-01",
-  "loc": "poh 169"
+  "loc": "poh 169",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: AD flap guidance is about ice forming aft of the protected area"
  },
  {
   "id": "p4-081",
@@ -1313,7 +1323,9 @@
   ],
   "why": "POH 6-13: cycle the boots when ice has built to between 1/4 and 1/2 inch. Repeated cycles below 1/4 inch can form a cavity under the ice so it won't come off; cycles above 1/2 inch may also fail to remove it. Icing of any kind should be avoided wherever possible.",
   "src": "POH 6-13",
-  "loc": "poh 172"
+  "loc": "poh 172",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: deice boots"
  },
  {
   "id": "p4-094",
@@ -1355,7 +1367,9 @@
   ],
   "why": "The AD's limitations add that all wing icing inspection lights must be operative before flight into known or forecast icing conditions at night, and this supersedes any relief in the Master Minimum Equipment List.",
   "src": "AD 99-14-01",
-  "loc": "poh 168 · 171"
+  "loc": "poh 168 · 171",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: wing icing inspection light"
  },
  {
   "id": "p4-097",

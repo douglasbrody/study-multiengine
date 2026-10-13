@@ -121,7 +121,7 @@
    "80 MPH, single-engine minimum control",
    "125 MPH, maximum flaps extended"
   ],
-  "why": "The blue radial is Vyse, 105 MPH CAS, the speed used throughout the AFM engine-out procedures.",
+  "why": "The blue radial is Vyse, 105 MPH CAS, the best single-engine rate-of-climb speed and the airspeed your school's engine-failure memory items hold. 90 MPH is Vx; the red radial at 80 MPH is Vmc.",
   "src": "POH 3-2 · OEG App 2",
   "loc": "poh 060"
  },
@@ -184,7 +184,7 @@
  {
   "id": "p2-014",
   "topic": "s-speeds",
-  "q": "On a Seneca I without the full known-icing equipment, what kinds of operation does the pilot's placard allow?",
+  "q": "Your Seneca has no ice protection system. What kinds of operation does its limitations placard allow?",
   "a": "VFR and IFR, day and night, non-icing",
   "d": [
    "VFR only, day and night, non-icing",
@@ -779,7 +779,7 @@
    "When flaps pass 25° with the gear up",
    "Whenever airspeed is below 105 MPH"
   ],
-  "why": "The horn sounds at low throttle settings with the gear up. On N887SP (s/n 34-7350124) the red gear light also comes on whenever the horn sounds.",
+  "why": "The horn sounds at low throttle settings with the gear up. On serial numbers 34-7250046 and up, which includes your Seneca (s/n 34-7350315), the red gear light also comes on whenever the horn sounds.",
   "src": "POH 3-9",
   "loc": "poh 067"
  },
@@ -837,7 +837,9 @@
   ],
   "why": "The known-icing equipment list includes electrothermal propeller boots, along with the propeller governor shield and deflectors.",
   "src": "POH 3-6 · OEG App 2",
-  "loc": "poh 064"
+  "loc": "poh 064",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: known-icing equipment list (prop boots)"
  },
  {
   "id": "p2-061",
@@ -851,7 +853,9 @@
   ],
   "why": "The required list: pneumatic wing and empennage boots, electrothermal prop boots, electric windshield panel, heated pitot, anti-icing fuel vents, prop governor shield and deflectors, wing ice light and heated stall warning transmitters.",
   "src": "POH 3-6 · OEG App 2",
-  "loc": "poh 064"
+  "loc": "poh 064",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: known-icing equipment list (surface boots)"
  },
  {
   "id": "p2-062",
@@ -865,7 +869,9 @@
   ],
   "why": "With the windshield heat installation alone, the placard warns the airplane is NOT approved for flight in icing conditions. Icing approval needs the full equipment list in Section M.",
   "src": "POH 3-6",
-  "loc": "poh 064"
+  "loc": "poh 064",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: placard applies only with the windshield heating installation"
  },
  {
   "id": "p2-063",
@@ -879,7 +885,9 @@
   ],
   "why": "Pitot heat, windshield heat and prop deice go on immediately. Wing deice waits until 1/4 to 1/2 inch of ice has built up.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: flight-into-known-icing procedure (windshield heat, prop deice)"
  },
  {
   "id": "p2-064",
@@ -893,7 +901,9 @@
   ],
   "why": "The AFM warns that cycling the boots with less than 1/4 inch of ice can fail to remove it, and says not to hold the momentary deice switch ON.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: deice boots"
  },
  {
   "id": "p2-065",
@@ -907,7 +917,9 @@
   ],
   "why": "If the wing-tail deicer light stays lit for more than 20 seconds, pull the surface deice circuit breaker. Never hold the momentary deice switch ON.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: wing-tail deicer light / surface deice"
  },
  {
   "id": "p2-066",
@@ -921,7 +933,9 @@
   ],
   "why": "The AFM states stall warning transmitter heat is activated by the pitot heat switch.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: heated stall warning transmitters are a component of the optional ice protection system (POH 2-22, 3-6); fact comes from the known-icing special procedures (3-18a)"
  },
  {
   "id": "p2-067",
@@ -935,7 +949,9 @@
   ],
   "why": "Stall speed may rise by up to 12 MPH, and buffet begins only 5 to 10 MPH above the stall, so keep a substantial margin above normal stall speeds.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: flight-into-known-icing special procedures (3-18a)"
  },
  {
   "id": "p2-068",
@@ -949,7 +965,9 @@
   ],
   "why": "With residual ice the AFM recommends full flaps, a slight amount of power when practical, and approach speeds 10 to 15 MPH higher. The 25° flap advice applies to the single-engine icing case.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: flight-into-known-icing special procedures (3-18a)"
  },
  {
   "id": "p2-069",
@@ -963,7 +981,9 @@
   ],
   "why": "Ice can significantly reduce cruise speed. Above 10,000 ft it may be necessary to descend to stay above the best rate-of-climb speed of 105 MPH CAS.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: flight-into-known-icing special procedures (3-18a)"
  },
  {
   "id": "p2-070",
@@ -977,7 +997,9 @@
   ],
   "why": "Installing the ice protection equipment reduces single-engine climb rate by 30 FPM and single-engine service ceiling by 850 feet.",
   "src": "POH 3-18a",
-  "loc": "poh 079"
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: performance penalty of the ice protection installation"
  },
  {
   "id": "p2-071",
@@ -991,7 +1013,9 @@
   ],
   "why": "A placard near the heater controls says combustion heater operation prohibits windshield heat because of excessive compass error. Separately, the heater is not approved above 20,000 ft, and the windshield heat may not run over 30 seconds on the ground unless ice is on the panel.",
   "src": "POH 3-29, 3-28",
-  "loc": "poh 091"
+  "loc": "poh 091",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: windshield heat and combustion heater"
  },
  {
   "id": "p2-072",
@@ -1010,15 +1034,15 @@
  {
   "id": "p2-073",
   "topic": "s-emerg",
-  "q": "Per the AFM feathering procedure (POH 3-11), step c says to maintain direction and airspeed above what speed?",
-  "a": "90 MPH",
+  "q": "Per your school's engine-failure memory items, the first step is 'maintain direction and airspeed' at what speed?",
+  "a": "105 MPH (blue line)",
   "d": [
-   "80 MPH",
-   "105 MPH",
-   "76 MPH"
+   "80 MPH (red line)",
+   "120 MPH (en route climb)",
+   "76 MPH (bottom of green arc)"
   ],
-  "why": "The AFM lists Vmc 80 MPH and Vyse 105 MPH, then says to maintain direction and airspeed above 90 MPH. The school memory items instead target the blue line, 105 MPH.",
-  "src": "POH 3-11",
+  "why": "School memory items: maintain direction and airspeed, blue line 105 MPH (Vyse); then mixtures, props and throttles forward, flaps up, gear up, fuel pumps on, identify and verify. (The printed AFM, POH 3-11, says to maintain airspeed above 90 MPH.)",
+  "src": "School checklist · POH 3-11",
   "loc": "poh 069"
  },
  {
@@ -1388,14 +1412,14 @@
  {
   "id": "p2-100",
   "topic": "s-emerg",
-  "q": "When does the red landing gear unsafe light illuminate on N887SP (s/n 34-7350124)?",
+  "q": "When does the red landing gear unsafe light illuminate on your Seneca (s/n 34-7350315)?",
   "a": "Gear in transit, or whenever the gear horn sounds",
   "d": [
    "Only when the gear is up and locked",
    "Only when a gear leg fails to lock down",
    "Gear in transit, or whenever the stall horn sounds"
   ],
-  "why": "The light shows the gear in transition. On serial numbers 34-7250046 and up it also lights with the gear warning horn, and it is off when the gear is fully up or down and locked.",
+  "why": "The light shows the gear in transition. On serial numbers 34-7250046 and up, which includes 34-7350315, it also lights whenever the gear warning horn sounds. It is off when the gear is fully up, or down and locked.",
   "src": "POH 3-9, 3-14 · OEG App 2",
   "loc": "poh 067"
  },
@@ -1630,7 +1654,7 @@
   "a": "Select alternate air and attempt a restart",
   "d": [
    "Feather immediately and descend out of the ice",
-   "Turn on propeller deice, then attempt a restart",
+   "Close the cowl flaps to warm it, then attempt a restart",
    "Increase RPM to 2700 to shed ice from the prop"
   ],
   "why": "Induction icing may be the cause, so select ALTERNATE AIR and try to restart. If it won't restart, feather and follow the icing engine-out steps.",
@@ -1663,7 +1687,9 @@
   ],
   "why": "Also turn off the electric windshield to hold a 60 A load and leave icing as soon as practical. The windshield may be turned on before landing; the battery may run down and the gear may need free-fall extension.",
   "src": "POH 3-17",
-  "loc": "poh 077"
+  "loc": "poh 077",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: procedure is built around the electric windshield"
  },
  {
   "id": "p2-120",
@@ -1705,7 +1731,9 @@
   ],
   "why": "Overheat cuts off the heater automatically. Do not restart it until it has been inspected and the cause found and corrected. The overheat light on the heater console comes on as well.",
   "src": "POH 3-29 · OEG App 2",
-  "loc": "poh 091"
+  "loc": "poh 091",
+  "drop": true,
+  "drop_reason": "N56307 not equipped: combustion heater"
  },
  {
   "id": "p2-123",
@@ -1719,7 +1747,9 @@
   ],
   "why": "The supplement says disengage and retrim, keep the airplane in trim with the ball centered throughout, perform the normal engine-out procedure, then re-engage.",
   "src": "POH 3-25",
-  "loc": "poh 088"
+  "loc": "poh 088",
+  "drop": true,
+  "drop_reason": "autopilot model unknown: AltiMatic IIIB-1 single-engine procedure; not common to all supplements"
  },
  {
   "id": "p2-124",
@@ -1808,7 +1838,7 @@
  {
   "id": "p2-130",
   "topic": "s-airframe",
-  "q": "If the optional electric pitch trim malfunctions, how does its AFM supplement say to disengage it?",
+  "q": "If the electric pitch trim malfunctions, how does its AFM supplement say to disengage it?",
   "a": "Operate the push-button trim switch on the instrument panel",
   "d": [
    "Depress the center bar on the control wheel switch",

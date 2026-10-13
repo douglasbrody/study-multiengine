@@ -1,5 +1,5 @@
 // Bump VERSION whenever any app file changes so iPads pick up the update.
-const VERSION = 'oral-quiz-v3';
+const VERSION = 'oral-quiz-v4';
 const FILES = ['./', './index.html', './manifest.webmanifest', './questions.js', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
