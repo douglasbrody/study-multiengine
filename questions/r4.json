@@ -1,0 +1,16 @@
+[
+ {
+  "id": "r4-001",
+  "topic": "s-emerg",
+  "q": "Per your school checklist, how do you set up the Seneca for an emergency descent?",
+  "a": "Throttles closed, props full forward, gear down, 140 MPH",
+  "d": [
+   "Throttles closed, props full aft, gear up, 190 MPH",
+   "Throttles closed, props full forward, gear down, 160 MPH",
+   "Throttles closed, props full forward, gear up, flaps 40°, 125 MPH"
+  ],
+  "why": "School checklist (Emergency Descent): throttles closed, props full forward, mixtures as required, landing gear down, 140 MPH (120 MPH listed for a demo), cowl flaps closed. 140 MPH keeps the extended gear under its 150 MPH limit; 160 MPH would exceed it. The POH itself has no emergency descent procedure.",
+  "src": "School checklist · POH 3-2",
+  "loc": "ref checklist-app-defaults.js (Emergency Descent)"
+ }
+]

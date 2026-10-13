@@ -177,7 +177,7 @@
    "Demonstrated crosswind component 17 MPH",
    "Maximum crosswind component 25 MPH"
   ],
-  "why": "The placard reads 'Demonstrated crosswind component 15 MPH.' It is the value shown in testing, not a structural limit.",
+  "why": "The placard reads 'Demonstrated crosswind component 15 MPH,' the value shown in flight testing. POH 6-11 also gives 15 MPH as the maximum crosswind component for landing. Note the unit: MPH, not knots.",
   "src": "POH 3-4 · OEG App 2",
   "loc": "poh 062"
  },
@@ -359,8 +359,8 @@
    "91/96 octane aviation gasoline",
    "Any premium automotive gasoline"
   ],
-  "why": "The limitation is 100/130 octane aviation gasoline minimum, and the filler cap placard reads '100/130 aviation grade.'",
-  "src": "POH 3-1, 3-5",
+  "why": "The limitation is 100/130 octane aviation gasoline minimum, and the filler cap placard reads '100/130 aviation grade.' The POH lists no lower alternate grade: POH 9-7 warns that lower grades can cause serious engine damage in a short time.",
+  "src": "POH 3-1, 3-5 · POH 9-7",
   "loc": "poh 059"
  },
  {
@@ -1573,7 +1573,7 @@
    "Mixture IDLE CUT OFF",
    "Propeller FEATHER"
   ],
-  "why": "AFM order for the affected engine: fuel selector OFF, throttle close, propeller feather, mixture idle cutoff; then heater OFF and defroster OFF (in all cases of fire), and land immediately if terrain permits.",
+  "why": "AFM order for the affected engine: fuel selector OFF, throttle close, propeller feather, mixture idle cutoff; then heater OFF and defroster OFF (in all cases of fire), and land immediately if terrain permits. Your school checklist adds cowl flaps OPEN after the defroster.",
   "src": "POH 3-16 · OEG App 2",
   "loc": "poh 076"
  },

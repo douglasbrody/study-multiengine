@@ -58,14 +58,14 @@
  {
   "id": "p5-005",
   "topic": "s-elec",
-  "q": "Where is the optional external power receptacle on the Seneca I?",
+  "q": "Your school's nose preflight checks the external power plug. Where on the Seneca is that receptacle?",
   "a": "Lower left side of the nose",
   "d": [
    "Lower right side of the nose",
    "Left side of the aft fuselage",
    "Inside the nose baggage compartment"
   ],
-  "why": "When installed, the external power plug is on the lower left side of the nose. It takes a 12–14 volt source.",
+  "why": "POH 2-12 and 9-8 put the external power receptacle on the lower left side of the nose. It is optional on the Seneca I, but your school preflight checks it. It takes a 12–14 volt source; keep the master OFF while plugging in or unplugging.",
   "src": "POH 2-12, 9-8 · OEG App 2",
   "loc": "poh 030"
  },
@@ -211,7 +211,9 @@
   ],
   "why": "All circuit breakers are grouped in the lower right corner of the instrument panel, with room for more if equipment is added.",
   "src": "POH 2-12, 3-8 · OEG App 2",
-  "loc": "poh 030"
+  "loc": "poh 030",
+  "drop": true,
+  "drop_reason": "duplicate of p2-127 (circuit breakers grouped in the lower right of the panel; p2-127 also covers how to reset)"
  },
  {
   "id": "p5-016",
@@ -1407,7 +1409,7 @@
    "Built into the gear hydraulic power pack; at every 50-hour inspection",
    "Under the pilot's floor panel; checked as part of every preflight"
   ],
-  "why": "It's behind a panel marked \"Brake Reservoir Behind\" at the top rear of the nose baggage compartment. Keep the fluid at the marked level. The gear system has its own separate reservoir built into the gear pump.",
+  "why": "It's behind a panel marked \"Brake Reservoir Behind\" at the top rear of the nose baggage compartment. Keep the fluid at the marked level; your school's nose preflight also checks it. The gear system has its own separate reservoir built into the gear pump.",
   "src": "POH 9-6, 2-6 · OEG App 2",
   "loc": "poh 206"
  },

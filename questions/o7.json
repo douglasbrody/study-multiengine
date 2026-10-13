@@ -135,7 +135,7 @@
    "Identify, verify, control, clean up, feather, then power up",
    "Control, clean up, feather, identify, verify, then power up"
   ],
-  "why": "Control and Vyse come first, then maximum power (mixtures, props, throttles), then drag cleanup, then identify, verify with the throttle, and fix or feather. The OEG's generic table lists gear before flaps; the Seneca POH 3-11 says flaps, then gear, then fuel pumps on.",
+  "why": "Control and Vyse come first, then maximum power (mixtures, props, throttles), then drag cleanup, then identify, verify with the throttle, and fix or feather. The OEG's generic table lists gear before flaps. Your school's Seneca memory items hold blue line, 105 MPH, then mixtures, props and throttles forward, flaps up, gear up and fuel pumps on (the AFM, POH 3-11, says airspeed above 90 MPH).",
   "src": "OEG 3C-5 · FAA-H-8083-3",
   "loc": "oeg 051"
  },
@@ -277,19 +277,21 @@
   ],
   "why": "Below Vmc on the ground, the only way to keep directional control is to close both throttles promptly and use rudder and brakes. Continuing is not an option.",
   "src": "OEG 3C-9 · FAA-H-8083-3",
-  "loc": "oeg 052"
+  "loc": "oeg 052",
+  "drop": true,
+  "drop_reason": "duplicate of o1-068 (engine failure on the takeoff roll below Vmc: close both throttles, abort); also o8-052. o7-021 and o7-035 keep 3C-9/3C-19 detail"
  },
  {
   "id": "o7-021",
   "topic": "eo",
-  "q": "Why should a twin never become airborne before its airspeed reaches and exceeds Vmc?",
+  "q": "Per the OEG, why should a twin not become airborne before its airspeed reaches and exceeds Vmc?",
   "a": "If an engine failed, directional control would be impossible",
   "d": [
    "The landing gear cannot be retracted until the airspeed passes Vmc",
    "The stall warning system does not function below Vmc",
    "The propellers cannot be feathered at speeds below Vmc"
   ],
-  "why": "Below Vmc the rudder cannot counter the yaw from the remaining engine at takeoff power. An engine failure in the air at that speed means losing directional control.",
+  "why": "Below Vmc, full rudder can't hold heading against an engine failure, so the OEG wants Vmc or more at lift-off. The Seneca's 25° short-field technique (70 MPH) and your school's 75 MPH flaps-up rotation lift off below the 80 MPH Vmc; if an engine fails there, retard the operating engine's throttle and lower the nose at once (POH 6-7).",
   "src": "OEG 3C-9 · FAA-H-8083-3",
   "loc": "oeg 052"
  },
@@ -515,7 +517,9 @@
   ],
   "why": "The ACS calls for a simulated failure on the takeoff roll before 50 percent of the calculated Vmc: half of 70 is 35 knots. In the Seneca (Vmc 80 mph CAS) that would be before 40 mph.",
   "src": "OEG 3C-20 · FAA-S-ACS-6, FAA-S-ACS-7",
-  "loc": "oeg 054"
+  "loc": "oeg 054",
+  "drop": true,
+  "drop_reason": "duplicate of o8-051 (Vmc 70 kt: simulate before 35 kt, same distractors); Seneca note moved to o8-051"
  },
  {
   "id": "o7-038",
@@ -599,7 +603,9 @@
   ],
   "why": "A steeper bank helps the rudder at first. Once the airplane is under control, you shallow it to the zero-sideslip bank, which gives the best climb. The Seneca POH 3-11 simply calls for 5° of bank toward the operating engine.",
   "src": "OEG 3C-23 · FAA-H-8083-3",
-  "loc": "oeg 054"
+  "loc": "oeg 054",
+  "drop": true,
+  "drop_reason": "duplicate of o6-085 and o7-045 (after control is established, reduce bank to the zero-sideslip/best-climb angle)"
  },
  {
   "id": "o7-044",
@@ -639,7 +645,7 @@
    "15 to 20 degrees toward the operating engine",
    "5 to 10 degrees toward the inoperative engine"
   ],
-  "why": "Per the OEG, 5–10° toward the good engine helps the rudder at first; 2–3° is the later zero-sideslip bank for best climb. Never bank toward the dead engine. The Seneca POH 3-11 says to maintain 5° of bank toward the operating engine.",
+  "why": "Per the OEG, 5–10° toward the good engine helps the rudder at first; the smaller zero-sideslip bank (about 2°: 2–3° in the exam tip, 1.5–2.5° in OEG 3B-12) follows for best climb. Never bank toward the dead engine. The Seneca POH 3-11 says to maintain 5° of bank toward the operating engine.",
   "src": "OEG 3C-37 · FAA-H-8083-3",
   "loc": "oeg 057"
  },
@@ -653,7 +659,7 @@
    "Wings level, ball centered",
    "About 2–3° bank, ball slightly toward the inoperative engine"
   ],
-  "why": "A small bank toward the good engine, with the ball slightly toward that side, cancels the sideslip and minimizes drag; wings level with the ball centered leaves a sideslip. The Seneca POH 3-11 instead calls for 5° of bank toward the operating engine.",
+  "why": "A small bank toward the good engine, with the ball slightly toward that side, cancels the sideslip and minimizes drag; wings level with the ball centered leaves a sideslip. 2–3° is the OEG exam tip's figure; OEG 3B-12 gives 1.5–2.5°, so think 'about 2°'. The Seneca POH 3-11 instead calls for 5° of bank toward the operating engine.",
   "src": "OEG 3C-37 · FAA-H-8083-3",
   "loc": "oeg 057"
  },

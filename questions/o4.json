@@ -198,14 +198,14 @@
  {
   "id": "o4-015",
   "topic": "fuel",
-  "q": "On most light twins, what is the primary purpose of the fuel crossfeed system?",
+  "q": "Per the OEG, what is the primary purpose of the fuel crossfeed system on most light twins?",
   "a": "To extend range and endurance in one-engine-inoperative flight",
   "d": [
    "To balance fuel between the wings during normal two-engine cruise",
    "To let both engines feed from one tank for takeoff",
    "To supply fuel pressure when an engine-driven pump fails"
   ],
-  "why": "In most twins crossfeed is an emergency procedure that lets the operating engine use the dead engine's fuel. Some models also permit it for routine fuel balancing, but that is less common; follow your POH limits.",
+  "why": "In most twins crossfeed is an emergency procedure that lets the operating engine use the dead engine's fuel. Some models also permit it for routine fuel balancing; the Seneca I POH (2-10) lists both single-engine range and fuel balance. Follow your POH limits.",
   "src": "OEG 2E-11 · FAA-H-8083-3",
   "loc": "oeg 029"
  },

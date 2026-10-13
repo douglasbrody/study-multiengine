@@ -37,7 +37,7 @@ TOPICS = [
     ('s-emerg', 'Emergency Procedures', 'seneca', '#c62828'),
 ]
 # Files are read in this order so Study mode follows the book.
-ORDER = ['o1', 'o2', 'o3', 'o4', 'o5', 'o6', 'o7', 'o8', 'p1', 'p5', 'p2', 'p4', 'p3']
+ORDER = ["o1", "o2", "o3", "o4", "o5", "o6", "o7", "o8", "p1", "p5", "p2", "p4", "r4", "p3"]
 
 
 def main():

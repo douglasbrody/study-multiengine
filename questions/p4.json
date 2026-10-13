@@ -44,15 +44,15 @@
  {
   "id": "p4-004",
   "topic": "s-engine",
-  "q": "How does the POH normal starting procedure prime each engine?",
-  "a": "Pumps on, mixture rich until fuel flow steadies, then cut-off",
+  "q": "Per POH 6-3 and your school checklist, how is each engine primed for a normal start?",
+  "a": "Pump on, mixture rich until fuel flow shows, then cut-off",
   "d": [
    "Pump the throttle three times with the mixture full rich",
    "Hold a primer switch for 3 seconds with the electric pumps off",
    "Crank with the mixture full rich and the electric pump on"
   ],
-  "why": "Normal start step 7: with the electric fuel pumps on, move the mixture to rich until a fuel flow is indicated and stabilized, then back to idle cut-off. The mixture is advanced again only as the engine starts.",
-  "src": "POH 6-3",
+  "why": "Both prime the same way: with the electric fuel pump on, move the mixture to rich until a fuel flow is indicated and stabilized, then back to idle cut-off; the mixture is advanced again as the engine starts. Your school then turns that engine's pump OFF before cranking (POH 6-3 leaves both pumps on until both engines are running).",
+  "src": "POH 6-3 · School checklist",
   "loc": "poh 161"
  },
  {
@@ -389,7 +389,7 @@
    "85 MPH",
    "90 MPH"
   ],
-  "why": "School takeoff briefing: short-field Vr 75 MPH with flaps 0° and 70 MPH with flaps 25°. Then climb at Vx 90 MPH over obstacles or Vy 105 MPH. (POH 6-7 lists 80 MPH for the flaps-up technique.)",
+  "why": "School takeoff briefing: short-field Vr 75 MPH with flaps 0° and 70 MPH with flaps 25°; then Vx 90 MPH over obstacles or Vy 105 MPH. 75 MPH is below the 80 MPH Vmc, so if an engine fails right after lift-off, do what POH 6-7 mandates below Vmc: retard the operating engine's throttle and lower the nose immediately. (POH 6-7's flaps-up technique rotates at 80 MPH.)",
   "src": "School briefing · POH 6-7",
   "loc": "poh 159"
  },
@@ -410,14 +410,14 @@
  {
   "id": "p4-030",
   "topic": "s-normal",
-  "q": "Why does the POH call the flaps-up short-field takeoff the safest technique when the obstacle margin is wide?",
+  "q": "Why does the POH call its flaps-up short-field takeoff (rotate at 80 MPH) the safest technique when the obstacle margin is wide?",
   "a": "It's best configured to hold altitude after gear-up if an engine fails",
   "d": [
    "It gives the shortest ground roll of the three POH takeoff techniques",
    "It gives the greatest clearance height over a 50-ft obstacle of any method",
-   "It allows rotation at a lower airspeed than the 25° flap technique"
+   "It allows the gear to be raised as soon as the airplane lifts off"
   ],
-  "why": "POH 6-7: with flaps up, if an engine fails the airplane is in the best flight configuration to sustain altitude immediately after the gear is raised. The 25° technique gives the shorter roll and better obstacle clearance, but is momentarily below Vmc.",
+  "why": "POH 6-7: with flaps up, if an engine fails the airplane is in the best flight configuration to sustain altitude immediately after the gear is raised, and it rotates at 80 MPH, the Vmc, rather than below it. The 25° technique (rotate 70 MPH) gives a shorter roll and better obstacle clearance but is momentarily below Vmc, and so is your school's 75 MPH flaps-0 rotation.",
   "src": "POH 6-7",
   "loc": "poh 159"
  },
@@ -1033,7 +1033,7 @@
   "src": "POH 6-13",
   "loc": "poh 172",
   "drop": true,
-  "drop_reason": "duplicate of p2 (p2-064: cycle boots at 1/4 to 1/2 inch)"
+  "drop_reason": "N56307 not equipped: deice boots (its earlier 'duplicate' p2-064 is itself dropped for equipment, so keep dropped rather than undrop)"
  },
  {
   "id": "p4-074",
@@ -1225,7 +1225,9 @@
   ],
   "why": "Operating tip 14 (7-2) names low dome nitrogen pressure. The run-up feather check (6-5) catches the same problem: a slow drop to 1000 RPM suggests low dome pressure, with a risk of overspeed or loss of feathering.",
   "src": "POH 7-2",
-  "loc": "poh 178"
+  "loc": "poh 178",
+  "drop": true,
+  "drop_reason": "near-duplicate of p2-036 (AFM 3-18: loss of the dome air charge causes overspeed) and p4-017 (slow feather check = low dome pressure, risk of overspeed); all three have the same answer, and p4-017's why already cites operating tip 14"
  },
  {
   "id": "p4-087",

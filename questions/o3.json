@@ -821,7 +821,7 @@
    "Both push toward low pitch; only oil can move the blades to feather",
    "Both push toward high pitch; only oil holds the blades out of feather"
   ],
-  "why": "Aerodynamic forces on a windmilling prop drive the blades to low pitch. Centrifugal force on counterweights at the blade shanks drives them toward high pitch and is usually slightly stronger. (The Seneca's Hartzell props are driven toward feather by a nitrogen charge in the dome instead; see the Seneca POH, Section 2.)",
+  "why": "Aerodynamic forces on a windmilling prop drive the blades to low pitch. Centrifugal force on counterweights at the blade shanks drives them toward high pitch and is usually slightly stronger. (In the Seneca, POH 2-4 credits the dome's nitrogen charge with driving the prop toward feather; POH 9-6 gives that charge for counterweight-type props.)",
   "src": "OEG 2C-31 · FAA-H-8083-3",
   "loc": "oeg 023"
  },
@@ -1271,7 +1271,9 @@
   ],
   "why": "If retraction depends on the failed engine's pump, you must windmill that engine for pressure or raise the gear with a backup pump, which can cost hundreds of feet. With only one pump, you may also need emergency extension later.",
   "src": "OEG 2D-14 · FAA-H-8083-3",
-  "loc": "oeg 027"
+  "loc": "oeg 027",
+  "drop": true,
+  "drop_reason": "duplicate of o7-039 (single engine-driven hydraulic pump: windmill or hand pump to raise the gear); o3-091's distractors are weaker"
  },
  {
   "id": "o3-092",

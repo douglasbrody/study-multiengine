@@ -515,7 +515,9 @@
   ],
   "why": "Vmc rises as the CG moves aft because the rudder has a shorter moment arm and makes less yawing moment for the same deflection.",
   "src": "OEG 3A-10 · FAA-H-8083-3",
-  "loc": "oeg 046"
+  "loc": "oeg 046",
+  "drop": true,
+  "drop_reason": "duplicate of o2-065 (aft CG raises Vmc: rudder less effective); keep o2-065"
  },
  {
   "id": "o6-038",
@@ -683,7 +685,9 @@
   ],
   "why": "Full rudder with continued yaw means you have reached Vmc. Reduce power on the good engine enough to stop the yaw and lower the nose to regain airspeed; do not add power on the simulated failed engine.",
   "src": "OEG 3B-2, 4T · FAA-H-8083-3",
-  "loc": "oeg 069"
+  "loc": "oeg 069",
+  "drop": true,
+  "drop_reason": "duplicate of o7-014 (Vmc demo, full rudder and still yawing: reduce operating-engine power, lower the nose); also covered by o8-075 and p4-069"
  },
  {
   "id": "o6-050",
@@ -851,7 +855,9 @@
   ],
   "why": "Blue line is Vyse, the speed that gives the greatest altitude gain in the shortest time with one engine out. Red line is Vmc.",
   "src": "OEG 3A-25 · FAA-H-8083-3",
-  "loc": "oeg 048"
+  "loc": "oeg 048",
+  "drop": true,
+  "drop_reason": "duplicate of o2-006 (blue radial line = Vyse); o6-062 and o6-063 still cover blue/red line in aero"
  },
  {
   "id": "o6-062",
@@ -1101,7 +1107,7 @@
    "Right throttle full, full right rudder, full aft elevator, ailerons neutral",
    "Both throttles full, full right rudder, neutral elevator, ailerons full left"
   ],
-  "why": "Apply all four inputs together and hold them until the rotation stops; then use rudder, back pressure and power to return to normal flight. Expect a large altitude loss, so act at once.",
+  "why": "Apply all four inputs together and hold them until the rotation stops; then use rudder, back pressure and power to return to normal flight. Expect a large altitude loss, so act at once. The Seneca AFM (POH 3-17) words the elevator step differently: release all back pressure, and push the wheel full forward only if the nose doesn't drop.",
   "src": "OEG 3B-9 · FAA-H-8083-3",
   "loc": "oeg 049"
  },
@@ -1213,7 +1219,7 @@
    "About 8 to 10 degrees",
    "About 15 to 20 degrees"
   ],
-  "why": "The exact angle varies by model, power and airspeed. The airplane's own AFM may specify a value; the Seneca POH, for example, says to maintain 5 degrees toward the operating engine.",
+  "why": "The exact angle varies by model, power and airspeed. OEG 3B-12 gives 1.5–2.5°; the OEG's later exam tip (after 3C-37) rounds it to about 2–3°, so think 'about 2°'. The airplane's own AFM may specify a value; the Seneca POH 3-11, for example, says to maintain 5° toward the operating engine.",
   "src": "OEG 3B-12 · FAA-H-8083-3 · POH 3-11",
   "loc": "oeg 050"
  },

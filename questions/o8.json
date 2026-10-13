@@ -1,1220 +1,1220 @@
 [
-  {
-    "id": "o8-001",
-    "topic": "acs",
-    "q": "Per the OEG's chapter 4 overview, which flight maneuver is added on the Commercial multi-engine test that the Private test does not require?",
-    "a": "Accelerated stalls",
-    "d": [
-      "Power-on stalls",
-      "Emergency descent",
-      "Steep turns"
-    ],
-    "why": "The Private and Commercial multi-engine task lists are nearly the same; Commercial tolerances are a little tighter, and the accelerated stall (CA.VII.D) is the added maneuver. Steep turns are on both tests, just at 50° instead of 45° for Commercial.",
-    "src": "OEG 4 · ACS CA.VII.D",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-002",
-    "topic": "acs",
-    "q": "In the ACS Taxiing task, when should the brake check be performed?",
-    "a": "Immediately after the airplane begins moving",
-    "d": [
-      "Before engine start, with the parking brake set",
-      "At the hold-short line during the run-up",
-      "Just before turning onto the runway"
-    ],
-    "why": "The standard calls for checking the brakes right as the airplane starts to roll, so a problem is found while speed is low and you are still on the ramp.",
-    "src": "OEG 4A · ACS PA.II.D/CA.II.D · FAA-H-8083-3",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-003",
-    "topic": "acs",
-    "q": "Ground issues a taxi route different from the one you almost always get at your home field, and you start taxiing the usual way. Which ACS taxi risk is this?",
-    "a": "Expectation bias about taxi instructions",
-    "d": [
-      "Division of attention during preflight checks",
-      "Wake turbulence from departing traffic",
-      "Disembarking passengers on the ramp"
-    ],
-    "why": "Hearing what you expect rather than what was said is expectation bias, a listed taxi risk alongside route or runway changes and runway incursions. Reading back and following the airport diagram mitigate it.",
-    "src": "OEG 4A · ACS PA.II.D/CA.II.D · AC 91-73",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-004",
-    "topic": "acs",
-    "q": "Per the ACS Before Takeoff Check, what should you consider when positioning the airplane for the run-up?",
-    "a": "The wind and any nearby aircraft or buildings",
-    "d": [
-      "The departure runway heading and the current ATIS",
-      "The hold-short line and the taxi route",
-      "The field elevation and the current density altitude"
-    ],
-    "why": "The task asks you to position the airplane with the wind and anything behind or around you in mind, so prop blast and run-up don't endanger others.",
-    "src": "OEG 4B · ACS PA.II.F/CA.II.F · FAA-H-8083-3",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-005",
-    "topic": "acs",
-    "q": "In the run-up area you weigh runway length, surface condition, obstructions, and the airplane's characteristics. Which ACS before-takeoff risk are you addressing?",
-    "a": "A powerplant failure during takeoff",
-    "d": [
-      "Division of attention during the checks",
-      "Wake turbulence from departing traffic",
-      "An unexpected runway change by ATC"
-    ],
-    "why": "The Before Takeoff Check lists a potential powerplant failure during takeoff, to be assessed against airplane characteristics, runway/takeoff path length, surface, environment, and obstructions — the basis of your engine-failure plan.",
-    "src": "OEG 4B · ACS PA.II.F/CA.II.F · FAA-H-8083-3",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-006",
-    "topic": "acs",
-    "q": "On a Private multi-engine checkride, what is the ACS airspeed tolerance for the Vy climb after a normal takeoff?",
-    "a": "+10/−5 knots",
-    "d": [
-      "±5 knots",
-      "±10 knots",
-      "+5/−0 knots"
-    ],
-    "why": "Private applicants must hold the manufacturer's recommended speed or Vy within +10/−5 knots. ±5 knots is the Commercial standard.",
-    "src": "OEG 4C · ACS PA.IV.A · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-007",
-    "topic": "acs",
-    "q": "On a Commercial multi-engine checkride, what airspeed tolerance applies to the Vy climb after a normal takeoff?",
-    "a": "±5 knots",
-    "d": [
-      "+10/−5 knots",
-      "±10 knots",
-      "+5/−0 knots"
-    ],
-    "why": "Commercial tightens the takeoff climb standard to ±5 knots of Vy (or the recommended speed); +10/−5 is the Private standard.",
-    "src": "OEG 4C · ACS CA.IV.A · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-008",
-    "topic": "acs",
-    "q": "After a normal takeoff, how long does the ACS require you to hold Vy within tolerance?",
-    "a": "Until reaching a safe maneuvering altitude",
-    "d": [
-      "Until passing 50 feet above the runway surface",
-      "Until the landing gear is up and the flaps retracted",
-      "Until reaching 1,000 feet AGL"
-    ],
-    "why": "The task says to maintain Vy to a safe maneuvering altitude. The 50-foot point is where a short-field takeoff transitions from Vx to Vy.",
-    "src": "OEG 4C · ACS PA.IV.A/CA.IV.A · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-009",
-    "topic": "acs",
-    "q": "The wind is calm on your checkride day. How does the ACS say your crosswind takeoff and landing knowledge will be evaluated?",
-    "a": "Through oral testing",
-    "d": [
-      "It is waived for that checkride",
-      "You must return on a crosswind day",
-      "By flying a simulated crosswind correction"
-    ],
-    "why": "The normal takeoff and landing tasks note that if no crosswind exists, the crosswind elements are evaluated orally — so be ready to explain the technique.",
-    "src": "OEG 4C/4D · ACS PA.IV.A/CA.IV.A, PA.IV.B/CA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 059"
-  },
-  {
-    "id": "o8-010",
-    "topic": "acs",
-    "q": "If the manufacturer publishes no approach speed, what does the ACS say to fly on a normal approach?",
-    "a": "Not more than 1.3 times Vso",
-    "d": [
-      "Not more than 1.2 times Vso",
-      "Not more than 1.5 times Vs1",
-      "Blue line (Vyse) plus the gust factor"
-    ],
-    "why": "Absent a published speed, the standard is no more than 1.3 times the stalling speed or minimum steady flight speed in the landing configuration (Vso), with the gust factor applied.",
-    "src": "OEG 4D · ACS PA.IV.B/CA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-011",
-    "topic": "acs",
-    "q": "The POH approach speed is 90 knots and the wind is calm. On a Private checkride, what airspeed range meets the ACS on a normal approach?",
-    "a": "85 to 100 knots",
-    "d": [
-      "85 to 95 knots",
-      "80 to 100 knots",
-      "90 to 100 knots"
-    ],
-    "why": "The Private standard is +10/−5 knots of the published approach speed: 90 − 5 = 85 and 90 + 10 = 100. A Commercial applicant would need 85 to 95 (±5).",
-    "src": "OEG 4D · ACS PA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-012",
-    "topic": "acs",
-    "q": "A Private applicant's normal landing touches down 300 feet past the specified point, with no drift and aligned with centerline. How does this compare to the ACS?",
-    "a": "Within tolerance; Private allows up to 400 feet beyond",
-    "d": [
-      "Outside tolerance; Private allows only up to 200 feet beyond",
-      "Outside tolerance; Private allows only 100 feet",
-      "Within tolerance; there is no touchdown distance limit"
-    ],
-    "why": "For a normal landing the Private standard is touchdown within 400 feet beyond or on the specified point, and Commercial is 200 feet. The short-field standards are tighter: 200 feet (Private) and 100 feet (Commercial).",
-    "src": "OEG 4D · ACS PA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-013",
-    "topic": "acs",
-    "q": "On a Commercial checkride, what is the ACS touchdown tolerance for a normal landing?",
-    "a": "Within 200 feet beyond or on the specified point",
-    "d": [
-      "Within 400 feet beyond or on the specified point",
-      "Within 100 feet beyond or on the specified point",
-      "Within 250 feet beyond or on the specified point"
-    ],
-    "why": "Commercial halves the Private normal-landing allowance: 200 feet instead of 400. The short-field Commercial standard is tighter still at 100 feet.",
-    "src": "OEG 4D · ACS CA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-014",
-    "topic": "acs",
-    "q": "On a normal approach at 300 feet AGL you are 15 knots fast and can't get stabilized. What does the ACS expect?",
-    "a": "Execute a timely go-around",
-    "d": [
-      "Slip to bleed off the extra speed",
-      "Land long and use firm braking",
-      "Lower full flaps and continue"
-    ],
-    "why": "The task requires a timely go-around whenever the approach can't be flown within tolerance or anything else makes the approach or landing unsafe. Being 15 knots fast exceeds even the Private +10 limit.",
-    "src": "OEG 4D · ACS PA.IV.B/CA.IV.B · FAA-H-8083-3",
-    "loc": "oeg 060"
-  },
-  {
-    "id": "o8-015",
-    "topic": "acs",
-    "q": "How does the ACS want takeoff power set for a short-field takeoff?",
-    "a": "Hold the brakes, set power, confirm it, then release",
-    "d": [
-      "Release the brakes first, then advance smoothly",
-      "Set takeoff power during a rolling start",
-      "Set half power, release brakes, then add the rest"
-    ],
-    "why": "The task says to apply brakes while setting power for maximum performance and to confirm takeoff power before brake release, after lining up using the maximum available takeoff area.",
-    "src": "OEG 4E · ACS PA.IV.E/CA.IV.E · FAA-H-8083-3",
-    "loc": "oeg 061"
-  },
-  {
-    "id": "o8-016",
-    "topic": "acs",
-    "q": "On a short-field takeoff, how long must you hold the recommended obstacle-clearance speed or Vx?",
-    "a": "Until clear of the obstacle, or 50 feet AGL",
-    "d": [
-      "Until reaching 400 feet AGL",
-      "Until the landing gear is fully retracted",
-      "Until reaching a safe maneuvering altitude"
-    ],
-    "why": "Hold Vx (or the recommended obstacle speed) until clear of the obstacle, or until 50 feet AGL when the obstacle is simulated, then pitch for Vy. Vy is then held to a safe maneuvering altitude.",
-    "src": "OEG 4E · ACS PA.IV.E/CA.IV.E · FAA-H-8083-3",
-    "loc": "oeg 061"
-  },
-  {
-    "id": "o8-017",
-    "topic": "acs",
-    "q": "On a Commercial checkride, what airspeed tolerance applies to Vx during the short-field takeoff climb?",
-    "a": "±5 knots",
-    "d": [
-      "+10/−5 knots",
-      "+5/−0 knots",
-      "±10 knots"
-    ],
-    "why": "Commercial requires ±5 knots of Vx or the recommended obstacle-clearance speed; the Private standard is +10/−5 knots.",
-    "src": "OEG 4E · ACS CA.IV.E · FAA-H-8083-3",
-    "loc": "oeg 061"
-  },
-  {
-    "id": "o8-018",
-    "topic": "acs",
-    "q": "On a Private checkride, what is the ACS touchdown tolerance for a short-field landing?",
-    "a": "Within 200 feet beyond or on the specified point",
-    "d": [
-      "Within 400 feet beyond or on the specified point",
-      "Within 100 feet beyond or on the specified point",
-      "Within 50 feet beyond or on the specified point"
-    ],
-    "why": "The Private short-field standard is 200 feet beyond or on the point (or threshold markings/numbers), with minimum float and no side drift. 400 feet is the Private normal-landing figure.",
-    "src": "OEG 4F · ACS PA.IV.F · FAA-H-8083-3",
-    "loc": "oeg 062"
-  },
-  {
-    "id": "o8-019",
-    "topic": "acs",
-    "q": "A Commercial applicant's short-field landing touches down 150 feet past the specified point, with no drift and minimum float. How does this compare to the ACS?",
-    "a": "Outside; the Commercial limit is 100 feet beyond",
-    "d": [
-      "Within; the Commercial limit is 200 feet beyond",
-      "Within; the Commercial limit is 400 feet beyond",
-      "Within, since there was no drift and minimum float"
-    ],
-    "why": "Commercial short-field landings must touch down within 100 feet beyond or on the point. 200 feet would satisfy only the Private short-field standard.",
-    "src": "OEG 4F · ACS CA.IV.F · FAA-H-8083-3",
-    "loc": "oeg 062"
-  },
-  {
-    "id": "o8-020",
-    "topic": "acs",
-    "q": "When you apply takeoff power on a go-around/rejected landing, what climb speed does the ACS have you pitch for?",
-    "a": "Vx or Vy, as appropriate",
-    "d": [
-      "Vyse, in all cases",
-      "Vxse until clear of obstacles",
-      "Vmc plus 5 knots"
-    ],
-    "why": "The go-around task is a two-engine maneuver: apply takeoff power right away and pitch for Vx or Vy as the situation needs (+10/−5 Private, ±5 Commercial), then hold Vy to a safe maneuvering altitude.",
-    "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
-    "loc": "oeg 062"
-  },
-  {
-    "id": "o8-021",
-    "topic": "acs",
-    "q": "During a go-around, a departing airplane is climbing out below you over the runway. What does the ACS expect you to do?",
-    "a": "Move to the side of the runway to avoid it",
-    "d": [
-      "Stay over the centerline and climb steeply",
-      "Reduce power and hold altitude above it",
-      "Continue the approach and land behind it"
-    ],
-    "why": "The task includes moving to the side of the runway or landing area when needed to keep the conflicting traffic in sight and avoid it.",
-    "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
-    "loc": "oeg 062"
-  },
-  {
-    "id": "o8-022",
-    "topic": "acs",
-    "q": "Per the OEG's exam tip, the ACS Go-Around/Rejected Landing task is not intended to be evaluated in what configuration?",
-    "a": "Single-engine configuration",
-    "d": [
-      "Full-flap landing configuration",
-      "Gear-down approach configuration",
-      "Normal two-engine configuration"
-    ],
-    "why": "The go-around task is meant for both engines operating. Single-engine go-around risk shows up instead under the engine-inoperative approach tasks.",
-    "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-023",
-    "topic": "acs",
-    "q": "Which is an ACS risk-management item for the Go-Around/Rejected Landing task?",
-    "a": "Delayed recognition of the need to go around",
-    "d": [
-      "Fuel management during single-engine operation",
-      "Management of compressed gas containers",
-      "Airport-specific security procedures"
-    ],
-    "why": "Go-around risks include delayed recognition, delayed performance at low altitude, power application, configuring the airplane, and a go-around after accepting LAHSO. The others belong to the single-engine instrument, oxygen, and parking tasks.",
-    "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
-    "loc": "oeg 062"
-  },
-  {
-    "id": "o8-024",
-    "topic": "acs",
-    "q": "What bank angle does the ACS require for steep turns on a Private multi-engine checkride?",
-    "a": "Approximately 45°",
-    "d": [
-      "Approximately 50°",
-      "Approximately 30°",
-      "Approximately 60°"
-    ],
-    "why": "Private steep turns are coordinated 360° turns at about 45° of bank; Commercial applicants use about 50°.",
-    "src": "OEG 4H · ACS PA.V.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-025",
-    "topic": "acs",
-    "q": "What bank angle does the ACS require for steep turns on a Commercial multi-engine checkride?",
-    "a": "Approximately 50°",
-    "d": [
-      "Approximately 45°",
-      "Approximately 55°",
-      "Approximately 60°"
-    ],
-    "why": "Commercial steep turns call for about 50° of bank, 5° steeper than the Private 45°.",
-    "src": "OEG 4H · ACS CA.V.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-026",
-    "topic": "acs",
-    "q": "Per the OEG's ACS excerpt, what altitude and airspeed tolerances apply during steep turns (same for Private and Commercial)?",
-    "a": "Altitude ±100 feet and airspeed ±10 knots",
-    "d": [
-      "Altitude ±50 feet and airspeed ±5 knots",
-      "Altitude ±100 feet and airspeed +10/−5 knots",
-      "Altitude ±200 feet and airspeed ±10 knots"
-    ],
-    "why": "Hold the entry altitude within ±100 feet and airspeed within ±10 knots throughout the 360° turn.",
-    "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-027",
-    "topic": "acs",
-    "q": "In ACS steep turns, what are the bank-angle and rollout-heading tolerances (same for Private and Commercial)?",
-    "a": "Bank ±5°; roll out on the entry heading ±10°",
-    "d": [
-      "Bank ±10°; roll out on the entry heading ±10°",
-      "Bank ±5°; roll out on the entry heading ±5°",
-      "Bank ±10°; roll out on the entry heading ±20°"
-    ],
-    "why": "Bank must stay within ±5° of the target, and the rollout must be within ±10° of the entry heading.",
-    "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-028",
-    "topic": "acs",
-    "q": "If the manufacturer gives no recommended steep-turn airspeed, what does the ACS specify?",
-    "a": "Not more than Va",
-    "d": [
-      "Anywhere in the green arc",
-      "Vyse plus 10 knots",
-      "At or above Va"
-    ],
-    "why": "Staying at or below Va keeps the structure protected because the wing stalls before the limit load factor is exceeded. Remember Va decreases as weight decreases.",
-    "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-029",
-    "topic": "acs",
-    "q": "Terrain below is 1,000 feet MSL. On a multi-engine checkride, what is the lowest altitude at which slow flight may be completed?",
-    "a": "4,000 feet MSL",
-    "d": [
-      "2,500 feet MSL",
-      "3,000 feet MSL",
-      "3,500 feet MSL"
-    ],
-    "why": "Multi-engine slow flight must be completed no lower than 3,000 feet AGL: 1,000 + 3,000 = 4,000 MSL. The 1,500 feet AGL figure (2,500 MSL here) is the single-engine-airplane standard.",
-    "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-030",
-    "topic": "acs",
-    "q": "How does the ACS define the airspeed to fly during slow flight?",
-    "a": "Where more AOA or load factor, or less power, gives a stall warning",
-    "d": [
-      "About 5 knots above the published power-off stall speed",
-      "1.3 times Vso, with the airplane in the landing configuration",
-      "The lowest speed at which altitude can be held with full power"
-    ],
-    "why": "Slow flight is flown just above the stall warning: any further increase in angle of attack or load factor, or reduction in power, would trigger the horn or buffet. Then fly straight, turns, climbs, and descents without a warning.",
-    "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-031",
-    "topic": "acs",
-    "q": "What are the ACS slow-flight tolerances on a Private checkride?",
-    "a": "Altitude ±100 ft, heading ±10°, airspeed +10/−0 kt, bank ±10°",
-    "d": [
-      "Altitude ±50 ft, heading ±10°, airspeed +5/−0 kt, bank ±5°",
-      "Altitude ±100 ft, heading ±10°, airspeed ±10 kt, bank ±5°",
-      "Altitude ±100 ft, heading ±20°, airspeed +10/−5 kt, bank ±10°"
-    ],
-    "why": "Private: ±100 feet, ±10° heading, +10/−0 knots, ±10° bank. The airspeed tolerance has no minus side because going slower means a stall warning.",
-    "src": "OEG 4I · ACS PA.VII.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-032",
-    "topic": "acs",
-    "q": "What are the ACS slow-flight altitude, airspeed, and bank tolerances on a Commercial checkride?",
-    "a": "Altitude ±50 ft, airspeed +5/−0 kt, bank ±5°",
-    "d": [
-      "Altitude ±100 ft, airspeed +10/−0 kt, bank ±10°",
-      "Altitude ±50 ft, airspeed ±5 kt, bank ±10°",
-      "Altitude ±100 ft, airspeed +5/−0 kt, bank ±5°"
-    ],
-    "why": "Commercial tightens slow flight to ±50 feet, +5/−0 knots, and ±5° bank; heading stays ±10° at both levels.",
-    "src": "OEG 4I · ACS CA.VII.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-033",
-    "topic": "acs",
-    "q": "During slow flight a gust briefly sounds the stall horn, and you immediately correct. How does the ACS treat this?",
-    "a": "Not unsatisfactory, because you recognized and corrected it",
-    "d": [
-      "Unsatisfactory, since any stall warning fails the task",
-      "Acceptable only on the Private, not the Commercial, test",
-      "Acceptable only if you then do a full stall recovery"
-    ],
-    "why": "The ACS note says a momentary warning caused by turbulence, promptly recognized and corrected, is not a failure. Continual deviation, no correction, or not recognizing it would be.",
-    "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
-    "loc": "oeg 063"
-  },
-  {
-    "id": "o8-034",
-    "topic": "acs",
-    "q": "For an ACS power-off stall, how is the airplane configured before inducing the stall?",
-    "a": "Approach or landing configuration, in a stabilized descent",
-    "d": [
-      "Takeoff or departure configuration, in a stabilized climb",
-      "Cruise configuration, in straight-and-level flight",
-      "Takeoff configuration, with one engine at idle and windmilling"
-    ],
-    "why": "Power-off stalls simulate the approach and landing phase: set approach or landing configuration, establish a stabilized descent, then pitch smoothly to induce the stall.",
-    "src": "OEG 4J · ACS PA.VII.B/CA.VII.B · FAA-H-8083-3",
-    "loc": "oeg 064"
-  },
-  {
-    "id": "o8-035",
-    "topic": "acs",
-    "q": "On a power-off stall (Private or Commercial), when does the ACS have you recover?",
-    "a": "Promptly after a full stall occurs",
-    "d": [
-      "At the first indication of the stall warning",
-      "Before any buffet can be felt",
-      "Only after the nose drops below the horizon"
-    ],
-    "why": "Acknowledge the impending-stall cues, then recover promptly once the full stall occurs, using the POH/AFM procedure.",
-    "src": "OEG 4J · ACS PA.VII.B/CA.VII.B · FAA-H-8083-3",
-    "loc": "oeg 064"
-  },
-  {
-    "id": "o8-036",
-    "topic": "acs",
-    "q": "During a turning power-off stall on a Commercial checkride, what bank limits apply while inducing the stall?",
-    "a": "Specified bank not over 20°, held within ±5°",
-    "d": [
-      "Specified bank not over 20°, held within ±10°",
-      "Specified bank not over 30°, held within ±5°",
-      "Specified bank not over 45°, held within ±10°"
-    ],
-    "why": "The bank may not exceed 20°; it must be held within ±5° for Commercial or ±10° for Private. In straight flight, heading is held within ±10°.",
-    "src": "OEG 4J · ACS CA.VII.B · FAA-H-8083-3",
-    "loc": "oeg 064"
-  },
-  {
-    "id": "o8-037",
-    "topic": "acs",
-    "q": "How do the ACS stall tasks treat altitude lost during the recovery?",
-    "a": "No set altitude-loss value; holding altitude isn't required",
-    "d": [
-      "Altitude loss must be held under 100 feet in recovery",
-      "Altitude must be held constant throughout the recovery",
-      "Altitude loss must not exceed the POH's published value"
-    ],
-    "why": "The ACS notes for power-off and power-on stalls say evaluators should not require a set altitude loss or require holding altitude; recovery means reducing angle of attack first, and many factors affect the altitude used.",
-    "src": "OEG 4J/4K · ACS PA.VII.B/CA.VII.B, PA.VII.C/CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 064"
-  },
-  {
-    "id": "o8-038",
-    "topic": "acs",
-    "q": "What is the minimum power setting the ACS specifies for power-on stalls?",
-    "a": "No less than 65 percent power",
-    "d": [
-      "No less than 55 percent power",
-      "No less than 75 percent power",
-      "Full takeoff power only"
-    ],
-    "why": "Power is set as the evaluator assigns, but no less than 65 percent, simulating a departure or takeoff stall.",
-    "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-039",
-    "topic": "acs",
-    "q": "In a high-performance twin, 65% power would need more than 30° nose-up to stall. What does the ACS note allow?",
-    "a": "Reducing power below the ACS guideline",
-    "d": [
-      "Pitching beyond 30° nose-up to reach the stall",
-      "Using a steep bank to stall sooner",
-      "Skipping the power-on stall task entirely"
-    ],
-    "why": "The note recognizes that some airplanes need less power to avoid excessively high pitch attitudes (over 30° nose-up), so power may be reduced below the 65% guideline.",
-    "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-040",
-    "topic": "acs",
-    "q": "For an ACS power-on stall, which configurations may the evaluator specify?",
-    "a": "Takeoff, departure, or cruise",
-    "d": [
-      "Approach or landing only",
-      "Landing, with the gear down",
-      "Cruise, with one engine at idle"
-    ],
-    "why": "Power-on stalls represent the takeoff/departure phase, so the airplane is set in takeoff, departure, or cruise configuration. Approach or landing configuration is used for power-off stalls.",
-    "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-041",
-    "topic": "acs",
-    "q": "On a Commercial checkride, when do you recover from a power-on stall?",
-    "a": "First indication or full stall, as the evaluator specifies",
-    "d": [
-      "Always at a full stall, never at the first indication",
-      "Always at the first stall horn, never at full stall",
-      "When the airspeed decays to the red-line Vmc"
-    ],
-    "why": "Commercial applicants recover at the first indication or after a full stall, as the evaluator specifies. Private applicants recover promptly after the full stall.",
-    "src": "OEG 4K · ACS CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-042",
-    "topic": "acs",
-    "q": "Which stall type is listed in the power-on stall risk management but not in the power-off stall list?",
-    "a": "Elevator trim stalls",
-    "d": [
-      "Secondary stalls",
-      "Cross-control stalls",
-      "Accelerated stalls"
-    ],
-    "why": "Both lists include secondary, accelerated, and cross-control stalls; the power-on list adds elevator trim stalls — the nose-up trim surprise when full power is added with the airplane trimmed for approach.",
-    "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-043",
-    "topic": "acs",
-    "q": "In the ACS accelerated stall (Commercial), what bank angle is used while increasing back pressure?",
-    "a": "45°, in a coordinated turn",
-    "d": [
-      "20°, in a coordinated turn",
-      "30°, in a coordinated turn",
-      "60°, in a coordinated turn"
-    ],
-    "why": "Establish a coordinated 45° banked turn and increase elevator back pressure smoothly and firmly until an impending stall. 20° is the bank limit for the power-on and power-off stall tasks.",
-    "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-044",
-    "topic": "acs",
-    "q": "On the Commercial accelerated stall, what airspeed limit does the ACS impose when setting power?",
-    "a": "Not above Va or other POH/AFM limits",
-    "d": [
-      "Not below Vno, the top of the green arc",
-      "Not below Vyse at any point in the turn",
-      "Not above Vx at the entry"
-    ],
-    "why": "Because the stall is induced with extra load factor, the entry must not exceed maneuvering speed (or other POH limits) so the wing stalls before structural limits are reached.",
-    "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-045",
-    "topic": "acs",
-    "q": "During the Commercial accelerated stall, when do you acknowledge the cues and recover?",
-    "a": "At the first indication of a stall",
-    "d": [
-      "After the full stall breaks",
-      "After the buffet becomes continuous",
-      "When the airspeed falls below Vs1"
-    ],
-    "why": "The accelerated stall is taken only to an impending stall: acknowledge the first indication (buffet, horn) and recover per the POH, then accelerate to Vx or Vy.",
-    "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-046",
-    "topic": "acs",
-    "q": "Your training twin has no oxygen equipment. In the ACS Supplemental Oxygen task, what can you still be asked to do?",
-    "a": "Determine oxygen needed and brief passengers",
-    "d": [
-      "Nothing; the entire task is skipped",
-      "Climb above 12,500 ft MSL to show symptoms",
-      "Obtain and install a portable system"
-    ],
-    "why": "Operating the equipment applies only if it is installed or available, but determining the oxygen quantity required and briefing passengers are both done for a scenario the evaluator gives.",
-    "src": "OEG 4M · ACS PA.I.G/CA.VIII.A · AC 61-107 · 14 CFR Part 91",
-    "loc": "oeg 066"
-  },
-  {
-    "id": "o8-047",
-    "topic": "acs",
-    "q": "Which risk-management item is part of the ACS Supplemental Oxygen task?",
-    "a": "Combustion hazards in an oxygen-rich environment",
-    "d": [
-      "Fuel management during single-engine operation",
-      "Airport-specific security procedures",
-      "Wake turbulence in the run-up area"
-    ],
-    "why": "Oxygen risks are high-altitude flight, use of supplemental oxygen, management of compressed gas containers, and combustion hazards in an oxygen-rich environment.",
-    "src": "OEG 4M · ACS PA.I.G/CA.VIII.A · AC 61-107",
-    "loc": "oeg 066"
-  },
-  {
-    "id": "o8-048",
-    "topic": "acs",
-    "q": "The OEG lists the Pressurization task under the Commercial ACS (CA.VIII.B). When do its operate/respond/brief elements apply?",
-    "a": "Only if the equipment is installed",
-    "d": [
-      "On every multi-engine practical test",
-      "Only on Private-level practical tests",
-      "Only when flying above 12,500 feet MSL"
-    ],
-    "why": "Each skill element — operating the system, handling simulated malfunctions, and briefing oxygen use after a pressurization failure — is qualified with \"if equipment is installed.\"",
-    "src": "OEG 4N · ACS CA.VIII.B · FAA-H-8083-3",
-    "loc": "oeg 066"
-  },
-  {
-    "id": "o8-049",
-    "topic": "acs",
-    "q": "What bank angle does the ACS specify during an emergency descent, and why?",
-    "a": "30° to 45°, to keep positive load factors",
-    "d": [
-      "15° to 30°, to limit the total altitude lost",
-      "45° to 60°, to steepen the descent",
-      "Wings level, so the airspeed stays below Vne"
-    ],
-    "why": "Banking 30° to 45° keeps the load factor positive while the nose is low in a steep descent, instead of pushing over toward zero or negative G.",
-    "src": "OEG 4O · ACS PA.IX.A/CA.IX.A · FAA-H-8083-3",
-    "loc": "oeg 066"
-  },
-  {
-    "id": "o8-050",
-    "topic": "acs",
-    "q": "What airspeed and level-off tolerances apply to the ACS emergency descent (same for Private and Commercial)?",
-    "a": "Airspeed +0/−10 knots; level off ±100 feet",
-    "d": [
-      "Airspeed ±10 knots; level off ±50 feet",
-      "Airspeed +10/−0 knots; level off ±100 feet",
-      "Airspeed ±5 knots; level off ±200 feet"
-    ],
-    "why": "Airspeed may run up to 10 knots below the target but never above it (+0/−10), and you level off at the specified altitude within ±100 feet. These are the same at both certificate levels.",
-    "src": "OEG 4O · ACS PA.IX.A/CA.IX.A · FAA-H-8083-3",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-051",
-    "topic": "acs",
-    "q": "Calculated Vmc is 70 knots. A simulated engine failure on the takeoff roll should be given before about what speed?",
-    "a": "35 knots",
-    "d": [
-      "53 knots",
-      "65 knots",
-      "70 knots"
-    ],
-    "why": "The ACS note says to simulate the failure before 50 percent of calculated Vmc: 50% of 70 = 35 knots. Waiting until near Vmc would leave little margin for control.",
-    "src": "OEG 4P · ACS PA.IX.E/CA.IX.E · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-052",
-    "topic": "acs",
-    "q": "On the takeoff roll, the evaluator simulates an engine failure. What does the ACS require you to do?",
-    "a": "Close both throttles and stop straight, braking as needed",
-    "d": [
-      "Feather the failed engine and continue the takeoff on one engine",
-      "Retard only the failed engine's throttle and stop",
-      "Rotate early and climb out at Vyse on one engine"
-    ],
-    "why": "Before Vmc there is no continuing: close the throttles smoothly and promptly, keep directional control, and use brakes as needed. Leaving one engine at power would yaw you off the runway.",
-    "src": "OEG 4P · ACS PA.IX.E/CA.IX.E · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-053",
-    "topic": "acs",
-    "q": "You're climbing at Vyse through 250 feet AGL when the evaluator reaches for a throttle to simulate a failure. Per the ACS, this is:",
-    "a": "Too low; not below 400 feet AGL",
-    "d": [
-      "Acceptable, since you are at or above Vyse",
-      "Acceptable once the gear is retracted",
-      "Too low; not below 1,000 feet AGL"
-    ],
-    "why": "The evaluator must not simulate an engine failure after liftoff until at least Vsse/Vxse/Vyse and no lower than 400 feet AGL. Both conditions must be met.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-054",
-    "topic": "acs",
-    "q": "After a simulated engine failure after liftoff with no obstructions ahead, what speed does the ACS have you establish?",
-    "a": "Vyse",
-    "d": [
-      "Vxse",
-      "Vmc plus 5 knots",
-      "Vy"
-    ],
-    "why": "With no obstacles, go to Vyse, the best single-engine rate of climb. Vxse (or Vmc + 5) is only for clearing obstructions; Vy is a two-engine speed.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-055",
-    "topic": "acs",
-    "q": "An engine fails just after liftoff with obstructions ahead. What speed does the ACS have you hold until they are cleared?",
-    "a": "Vxse or Vmc + 5 knots, whichever is greater",
-    "d": [
-      "Vxse or Vmc + 5 knots, whichever is less",
-      "Vyse, until the obstructions are cleared",
-      "Vmc + 10 knots, then Vxse"
-    ],
-    "why": "Fly the greater of Vxse or Vmc + 5 knots to clear obstacles with a control margin, then transition to Vyse.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-056",
-    "topic": "acs",
-    "q": "After you simulate feathering the propeller in the engine-failure-after-liftoff task, what does the evaluator do?",
-    "a": "Sets zero thrust on the inoperative engine",
-    "d": [
-      "Actually feathers the inoperative engine's propeller",
-      "Restores full power on that engine",
-      "Leaves it at idle with the prop windmilling"
-    ],
-    "why": "You only simulate the feather; the evaluator then sets zero thrust to mimic a feathered prop's drag. Leaving it at idle would add windmilling drag that a feathered prop wouldn't have.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-057",
-    "topic": "acs",
-    "q": "What heading and airspeed tolerances apply in the ACS Engine Failure After Liftoff task (Private or Commercial)?",
-    "a": "Heading ±10° and airspeed ±5 knots",
-    "d": [
-      "Heading ±10° and airspeed ±10 knots",
-      "Heading ±20° and airspeed ±5 knots",
-      "Heading ±5° and airspeed +10/−5 knots"
-    ],
-    "why": "Right after liftoff the margins are tightest: ±10° heading and ±5 knots of the target single-engine speed, the same at both certificate levels.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-058",
-    "topic": "acs",
-    "q": "After a simulated engine failure after liftoff, the airplane can't climb at Vyse. What does the ACS say to do?",
-    "a": "Hold Vyse and return or go to the best landing area",
-    "d": [
-      "Slow to Vxse to get more climb performance",
-      "Hold altitude by slowing gradually toward red-line Vmc",
-      "Attempt an engine restart before turning back to land"
-    ],
-    "why": "If no climb is possible at Vyse, keep Vyse (the best you'll get) and return to the departure airport or approach the most suitable landing area. Slowing down only reduces performance and control margin.",
-    "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
-    "loc": "oeg 067"
-  },
-  {
-    "id": "o8-059",
-    "topic": "acs",
-    "q": "On a simulated engine-inoperative approach and landing, where does the ACS require you to touch down?",
-    "a": "Within the first one-third of the available runway",
-    "d": [
-      "Within 200 feet beyond a specified point",
-      "Within 400 feet beyond a specified point",
-      "Within the first half of the available runway length"
-    ],
-    "why": "Unlike the two-engine landings, the single-engine landing has no spot tolerance: touch down in the first third of the runway, with no drift and aligned with centerline.",
-    "src": "OEG 4R · ACS PA.IX.G/CA.IX.G · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-060",
-    "topic": "acs",
-    "q": "On a Commercial checkride, the recommended single-engine approach speed is 95 knots. What range meets the ACS until landing is assured?",
-    "a": "90 to 100 knots",
-    "d": [
-      "90 to 105 knots",
-      "85 to 105 knots",
-      "95 to 100 knots"
-    ],
-    "why": "Commercial is ±5 knots of the recommended approach speed (95 ± 5). A Private applicant would be allowed +10/−5, or 90 to 105 knots.",
-    "src": "OEG 4R · ACS CA.IX.G · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-061",
-    "topic": "acs",
-    "q": "In the ACS Maneuvering with One Engine Inoperative task, what do you do with the propeller of the failed engine?",
-    "a": "Actually feather it, then restart per the manufacturer",
-    "d": [
-      "Simulate feathering; the evaluator sets zero thrust",
-      "Leave it windmilling with the throttle at idle",
-      "Feather it and leave it shut down until landing"
-    ],
-    "why": "Here you really feather the prop, secure the engine, and then restart it with the manufacturer's procedure. The evaluator sets zero thrust only in the tasks where feathering is simulated, and the ACS limits where and how high an actual shutdown may be done.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-062",
-    "topic": "acs",
-    "q": "The manufacturer recommends 4,000 feet AGL for engine-out training. Per the ACS, single-engine demonstration tasks must be completed no lower than:",
-    "a": "4,000 feet AGL",
-    "d": [
-      "3,000 feet AGL",
-      "3,500 feet AGL",
-      "1,500 feet AGL"
-    ],
-    "why": "The evaluator must pick an entry altitude so the tasks finish no lower than 3,000 feet AGL or the manufacturer's recommended altitude, whichever is higher — here 4,000 feet.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-063",
-    "topic": "acs",
-    "q": "Per the ACS safety note, where must the airplane be when you perform an actual feather or engine shutdown?",
-    "a": "Where a safe landing at an established airport is possible",
-    "d": [
-      "Directly over the departure runway at pattern altitude",
-      "Within gliding distance of a suitable open field",
-      "Within 10 NM of an airport with an operating tower"
-    ],
-    "why": "Tasks that need a real shutdown are flown only where you could still land safely at an established airport if the prop won't unfeather or the engine won't restart.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-064",
-    "topic": "acs",
-    "q": "After an in-flight shutdown on the checkride, the propeller won't unfeather. Per the ACS note, how should you and the evaluator treat this?",
-    "a": "As a real emergency, by both of you",
-    "d": [
-      "As routine; continue the remaining tasks",
-      "As a chance to demonstrate Vmc",
-      "As a non-event if altitude can be held"
-    ],
-    "why": "If the engine can't be unfeathered or restarted in flight, the ACS says both you and the evaluator treat it as a real emergency.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-065",
-    "topic": "acs",
-    "q": "You're at 2,500 feet AGL. Per the ACS, how should an engine failure be simulated?",
-    "a": "Throttle to idle, then set zero thrust",
-    "d": [
-      "Mixture to cutoff, then an actual feather",
-      "Fuel selector off, then an actual feather",
-      "Throttle to idle, prop left windmilling"
-    ],
-    "why": "Below 3,000 feet AGL, no actual shutdown: the failure is simulated by reducing the throttle to idle and then establishing zero thrust.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-066",
-    "topic": "acs",
-    "q": "What tolerances apply in the ACS Maneuvering with One Engine Inoperative task (Private or Commercial)?",
-    "a": "Altitude ±100 ft (or min sink), airspeed ±10 kt, headings ±10°",
-    "d": [
-      "Altitude ±50 ft (or min sink), airspeed ±5 kt, headings ±5°",
-      "Altitude ±100 ft (or min sink), airspeed ±5 kt, headings ±10°",
-      "Altitude ±200 ft (or min sink), airspeed ±10 kt, headings ±20°"
-    ],
-    "why": "Hold altitude within ±100 feet — or the minimum sink rate if altitude can't be held — airspeed within ±10 knots, and selected headings within ±10°.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-067",
-    "topic": "acs",
-    "q": "Which sequence matches how the ACS lists the steps in Maneuvering with One Engine Inoperative?",
-    "a": "Memory items, identify/verify, feather, find cause, secure, restart",
-    "d": [
-      "Feather, identify/verify, memory items, find cause, secure, restart",
-      "Identify/verify, restart, memory items, feather, secure, find cause",
-      "Memory items, feather, restart, identify/verify, find cause, secure"
-    ],
-    "why": "Keep control and do the memory items, identify and verify, feather the correct prop, try to find and fix the cause, secure the engine and watch the good one, then restart per the manufacturer.",
-    "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
-    "loc": "oeg 068"
-  },
-  {
-    "id": "o8-068",
-    "topic": "acs",
-    "q": "Absent manufacturer guidance, how are the wing flaps and cowl flaps set for the ACS Vmc demonstration?",
-    "a": "Flaps and cowl flaps both set for takeoff",
-    "d": [
-      "Flaps up and cowl flaps closed",
-      "Flaps for landing and cowl flaps open",
-      "Flaps for approach and cowl flaps closed"
-    ],
-    "why": "The default setup mirrors the takeoff case: gear up, flaps, cowl flaps and trim set for takeoff, props high RPM, critical engine idle and windmilling, other engine at takeoff power.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-069",
-    "topic": "acs",
-    "q": "In the ACS Vmc demonstration setup, how are the two engines set?",
-    "a": "Critical engine idle and windmilling; other at max power",
-    "d": [
-      "Critical engine feathered; other at max power",
-      "Critical engine at zero thrust; other at max power",
-      "Critical engine idle and windmilling; other at climb power"
-    ],
-    "why": "A windmilling prop creates the most drag, and full power on the good engine the most asymmetric thrust — the worst case that defines Vmc. Feathering or zero thrust would lower Vmc and make the demo unrepresentative.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-070",
-    "topic": "acs",
-    "q": "Absent manufacturer guidance, how are the landing gear and propeller controls set for the ACS Vmc demonstration?",
-    "a": "Gear retracted; propellers at high RPM",
-    "d": [
-      "Gear extended; propellers at high RPM",
-      "Gear retracted; propellers at cruise RPM",
-      "Gear extended; propellers at low RPM"
-    ],
-    "why": "The ACS default is gear up and props full forward (high RPM), matching the takeoff/initial-climb configuration where loss of control is most likely.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-071",
-    "topic": "acs",
-    "q": "Once configured, what airspeed does the ACS have you establish in a single-engine climb attitude before slowing in the Vmc demo?",
-    "a": "About 10 knots above Vsse",
-    "d": [
-      "About 5 knots above Vsse",
-      "About 5 knots above red-line Vmc",
-      "About 10 knots above red-line Vmc"
-    ],
-    "why": "Start in a single-engine climb attitude at roughly Vsse + 10 knots, then slow about 1 knot per second.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-072",
-    "topic": "acs",
-    "q": "What bank angle does the ACS allow during the Vmc demonstration?",
-    "a": "Not more than 5°, toward the operating engine",
-    "d": [
-      "Not more than 5°, toward the inoperative engine",
-      "Not more than 10°, toward the operating engine",
-      "Wings level, with the ball centered"
-    ],
-    "why": "Up to 5° of bank into the good engine helps controllability and performance. Banking toward the dead engine would raise Vmc.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-073",
-    "topic": "acs",
-    "q": "During the Vmc demonstration, at what rate does the ACS have you reduce airspeed?",
-    "a": "About 1 knot per second",
-    "d": [
-      "About 3 knots per second",
-      "About 5 knots per second",
-      "About 1 knot every 5 seconds"
-    ],
-    "why": "Raise the pitch slowly to lose about 1 knot per second, adding rudder as needed to hold heading, so the loss of directional control can be recognized clearly.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-074",
-    "topic": "acs",
-    "q": "During the Vmc demonstration, what tells you to begin the recovery?",
-    "a": "First loss of directional control, stall warning, or buffet",
-    "d": [
-      "Airspeed decaying to 10 knots below the published Vsse",
-      "The airspeed reaching the red-line Vmc marked on the airspeed indicator",
-      "A heading change of 20° from the entry heading"
-    ],
-    "why": "Recover at the first of those three cues. Don't wait for the red line — at altitude, actual Vmc can be below it, so the stall can come first. The 20° figure is the heading limit for completing the recovery, not the cue to start it.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-075",
-    "topic": "acs",
-    "q": "How does the ACS describe the Vmc demonstration recovery?",
-    "a": "Reduce operating-engine power and lower the nose together",
-    "d": [
-      "Add power on the idle engine while lowering the nose",
-      "Add full power on the good engine and pitch up to hold altitude",
-      "Lower the nose first, then reduce power afterward"
-    ],
-    "why": "Recover by simultaneously reducing power on the operating engine (less asymmetric thrust) and lowering the angle of attack to regain speed and control — without adding power on the simulated failed engine.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-076",
-    "topic": "acs",
-    "q": "During the Vmc demonstration recovery, what heading tolerance does the ACS require (Private or Commercial)?",
-    "a": "Within 20° of the entry heading",
-    "d": [
-      "Within 10° of the entry heading",
-      "Within 5° of the entry heading",
-      "Within 30° of the entry heading"
-    ],
-    "why": "The recovery must be completed within 20° of the entry heading, then power is added smoothly and the airplane accelerated to Vsse/Vyse.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-077",
-    "topic": "acs",
-    "q": "On a Private checkride, you recover from the Vmc demo and accelerate to a Vyse of 88 knots. What range meets the ACS?",
-    "a": "83 to 98 knots",
-    "d": [
-      "83 to 93 knots",
-      "78 to 98 knots",
-      "88 to 98 knots"
-    ],
-    "why": "Private allows +10/−5 knots of Vsse/Vyse during the recovery: 88 − 5 = 83, 88 + 10 = 98. Commercial is ±5 (83 to 93).",
-    "src": "OEG 4T · ACS PA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-078",
-    "topic": "acs",
-    "q": "An applicant plans to start the Vmc demo by pitching steeply nose-up on both engines and then pulling the critical engine to idle. Per the ACS note, this is:",
-    "a": "Hazardous and may cause loss of control",
-    "d": [
-      "Preferred, since it saves altitude",
-      "Acceptable if bank stays under 5°",
-      "Required above 5,000 feet density altitude"
-    ],
-    "why": "The ACS specifically warns against this entry: chopping an engine at a high pitch attitude and low speed can produce a sudden loss of control. Reduce power first, then slow gradually.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-079",
-    "topic": "acs",
-    "q": "In a normally aspirated twin at higher altitudes, why does the ACS stress recovering at the first sign of trouble in the Vmc demo?",
-    "a": "Power loss with altitude can put Vmc below stall speed",
-    "d": [
-      "Vmc rises above Vyse as density altitude increases",
-      "Rudder authority increases as altitude increases",
-      "Stall speed decreases below Vmc at high altitude"
-    ],
-    "why": "Less power from the good engine means less yaw, so Vmc decreases with altitude while stall speed doesn't. Where Vmc is below stall speed, a stall with asymmetric power can come first and lead to a spin.",
-    "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
-    "loc": "oeg 069"
-  },
-  {
-    "id": "o8-080",
-    "topic": "acs",
-    "q": "You do not hold an instrument–airplane rating. Which ACS tasks are not required on your multi-engine checkride?",
-    "a": "OEI flight by instruments and the OEI instrument approach",
-    "d": [
-      "The Vmc demonstration and the OEI maneuvering task",
-      "Engine failure after liftoff and the OEI visual landing",
-      "The OEI visual landing and the OEI instrument approach"
-    ],
-    "why": "Both the one-engine-inoperative flight solely by reference to instruments and the instrument approach with an inoperative engine carry a note: not required without an instrument–airplane rating.",
-    "src": "OEG 4U/4V · ACS PA.X.C/CA.X.C, PA.X.D/CA.X.D · FAA-P-8740-66",
-    "loc": "oeg 070"
-  },
-  {
-    "id": "o8-081",
-    "topic": "acs",
-    "q": "On a simulated engine failure in instrument conditions, the airplane can't hold altitude at the best single-engine speed. What does the ACS expect?",
-    "a": "Assess performance and choose a safe-landing plan",
-    "d": [
-      "Hold altitude even if the airspeed decays below Vyse",
-      "Continue to the destination as originally planned",
-      "Unfeather and restart the engine before deciding"
-    ],
-    "why": "The task requires assessing the airplane's capability, deciding on an action that ensures a safe landing, and never flying contrary to the engine-inoperative limitations (e.g., trading Vyse for altitude).",
-    "src": "OEG 4U · ACS PA.X.C/CA.X.C · FAA-P-8740-66",
-    "loc": "oeg 070"
-  },
-  {
-    "id": "o8-082",
-    "topic": "acs",
-    "q": "On the final approach segment of a simulated OEI instrument approach, how much course/glidepath deflection does the ACS allow (Private or Commercial)?",
-    "a": "Within ¾-scale deflection",
-    "d": [
-      "Within ½-scale deflection",
-      "Within full-scale deflection",
-      "Within ¼-scale deflection"
-    ],
-    "why": "Keep lateral and (if applicable) vertical guidance within ¾-scale deflection. The task's other tolerances are altitude ±100 feet (or minimum sink), airspeed ±10 knots, and heading ±10°.",
-    "src": "OEG 4V · ACS PA.X.D/CA.X.D · FAA-P-8740-66",
-    "loc": "oeg 070"
-  },
-  {
-    "id": "o8-083",
-    "topic": "acs",
-    "q": "On a simulated OEI instrument approach, what should your rate of descent accomplish per the ACS?",
-    "a": "Reach MDA or DA/DH positioned to land straight-in or circling",
-    "d": [
-      "Reach the FAF already level at the MDA or DA/DH",
-      "Stay at the MEA until the runway environment is in sight",
-      "Hold a fixed 1,000 fpm descent all the way to minimums"
-    ],
-    "why": "The descent rate must get you to the MDA or DA/DH positioned for a normal descent to the intended runway, straight-in or circling. If circling, you must follow the published criteria for your approach category.",
-    "src": "OEG 4V · ACS PA.X.D/CA.X.D · FAA-P-8740-66",
-    "loc": "oeg 070"
-  },
-  {
-    "id": "o8-084",
-    "topic": "acs",
-    "q": "Which is a skill element of the ACS After Landing, Parking, and Securing task?",
-    "a": "A postflight inspection noting discrepancies and servicing",
-    "d": [
-      "Recomputing the weight and balance for the next planned flight",
-      "Refueling to full tanks before leaving the airplane",
-      "Topping off engine oil to the maximum dipstick mark"
-    ],
-    "why": "The task: park in an appropriate area considering nearby people and property, complete the checklists, do a postflight inspection documenting discrepancies and servicing needs, and secure the airplane.",
-    "src": "OEG 4W · ACS PA.XII.A/CA.XI.A · FAA-H-8083-3",
-    "loc": "oeg 071"
-  },
-  {
-    "id": "o8-085",
-    "topic": "acs",
-    "q": "Your passengers want to walk across the ramp to the FBO while another twin is running up nearby. Which ACS after-landing risk applies most directly?",
-    "a": "Disembarking passengers safely and monitoring them",
-    "d": [
-      "Confirmation or expectation bias in taxi instructions",
-      "Wake turbulence behind departing or landing traffic",
-      "A runway incursion at the hold-short line"
-    ],
-    "why": "The parking task's risk list covers activities and distractions, airport-specific security procedures, and getting passengers off the airplane and across the ramp safely.",
-    "src": "OEG 4W · ACS PA.XII.A/CA.XI.A · FAA-H-8083-3",
-    "loc": "oeg 071"
-  },
-  {
-    "id": "o8-086",
-    "topic": "acs",
-    "q": "On a Private checkride, when does the ACS have you recover from a power-on stall?",
-    "a": "Promptly after a full stall occurs",
-    "d": [
-      "At the first indication of a stall, always",
-      "First indication or full stall, as the evaluator says",
-      "Once the nose has dropped through the horizon"
-    ],
-    "why": "The Private standard is to acknowledge the impending-stall cues and recover promptly once the full stall occurs. Letting the evaluator choose first indication or full stall is the Commercial standard.",
-    "src": "OEG 4K · ACS PA.VII.C · FAA-H-8083-3",
-    "loc": "oeg 065"
-  },
-  {
-    "id": "o8-087",
-    "topic": "acs",
-    "q": "On a Private checkride, the recommended single-engine approach speed is 95 knots. What range meets the ACS until landing is assured?",
-    "a": "90 to 105 knots",
-    "d": [
-      "90 to 100 knots",
-      "85 to 105 knots",
-      "95 to 105 knots"
-    ],
-    "why": "Private allows +10/−5 knots of the recommended engine-inoperative approach speed: 95 − 5 = 90 and 95 + 10 = 105. A Commercial applicant must hold ±5 knots, or 90 to 100.",
-    "src": "OEG 4R · ACS PA.IX.G · FAA-P-8740-66",
-    "loc": "oeg 068"
-  }
+ {
+  "id": "o8-001",
+  "topic": "acs",
+  "q": "Per the OEG's chapter 4 overview, which flight maneuver is added on the Commercial multi-engine test that the Private test does not require?",
+  "a": "Accelerated stalls",
+  "d": [
+   "Power-on stalls",
+   "Emergency descent",
+   "Steep turns"
+  ],
+  "why": "The Private and Commercial multi-engine task lists are nearly the same; Commercial tolerances are a little tighter, and the accelerated stall (CA.VII.D) is the added maneuver. Steep turns are on both tests, just at 50° instead of 45° for Commercial.",
+  "src": "OEG 4 · ACS CA.VII.D",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-002",
+  "topic": "acs",
+  "q": "In the ACS Taxiing task, when should the brake check be performed?",
+  "a": "Immediately after the airplane begins moving",
+  "d": [
+   "Before engine start, with the parking brake set",
+   "At the hold-short line during the run-up",
+   "Just before turning onto the runway"
+  ],
+  "why": "The standard calls for checking the brakes right as the airplane starts to roll, so a problem is found while speed is low and you are still on the ramp.",
+  "src": "OEG 4A · ACS PA.II.D/CA.II.D · FAA-H-8083-3",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-003",
+  "topic": "acs",
+  "q": "Ground issues a taxi route different from the one you almost always get at your home field, and you start taxiing the usual way. Which ACS taxi risk is this?",
+  "a": "Expectation bias about taxi instructions",
+  "d": [
+   "Division of attention during preflight checks",
+   "Wake turbulence from departing traffic",
+   "Disembarking passengers on the ramp"
+  ],
+  "why": "Hearing what you expect rather than what was said is expectation bias, a listed taxi risk alongside route or runway changes and runway incursions. Reading back and following the airport diagram mitigate it.",
+  "src": "OEG 4A · ACS PA.II.D/CA.II.D · AC 91-73",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-004",
+  "topic": "acs",
+  "q": "Per the ACS Before Takeoff Check, what should you consider when positioning the airplane for the run-up?",
+  "a": "The wind and any nearby aircraft or buildings",
+  "d": [
+   "The departure runway heading and the current ATIS",
+   "The hold-short line and the taxi route",
+   "The field elevation and the current density altitude"
+  ],
+  "why": "The task asks you to position the airplane with the wind and anything behind or around you in mind, so prop blast and run-up don't endanger others.",
+  "src": "OEG 4B · ACS PA.II.F/CA.II.F · FAA-H-8083-3",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-005",
+  "topic": "acs",
+  "q": "In the run-up area you weigh runway length, surface condition, obstructions, and the airplane's characteristics. Which ACS before-takeoff risk are you addressing?",
+  "a": "A powerplant failure during takeoff",
+  "d": [
+   "Division of attention during the checks",
+   "Wake turbulence from departing traffic",
+   "An unexpected runway change by ATC"
+  ],
+  "why": "The Before Takeoff Check lists a potential powerplant failure during takeoff, to be assessed against airplane characteristics, runway/takeoff path length, surface, environment, and obstructions — the basis of your engine-failure plan.",
+  "src": "OEG 4B · ACS PA.II.F/CA.II.F · FAA-H-8083-3",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-006",
+  "topic": "acs",
+  "q": "On a Private multi-engine checkride, what is the ACS airspeed tolerance for the Vy climb after a normal takeoff?",
+  "a": "+10/−5 knots",
+  "d": [
+   "±5 knots",
+   "±10 knots",
+   "+5/−0 knots"
+  ],
+  "why": "Private applicants must hold the manufacturer's recommended speed or Vy within +10/−5 knots. ±5 knots is the Commercial standard.",
+  "src": "OEG 4C · ACS PA.IV.A · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-007",
+  "topic": "acs",
+  "q": "On a Commercial multi-engine checkride, what airspeed tolerance applies to the Vy climb after a normal takeoff?",
+  "a": "±5 knots",
+  "d": [
+   "+10/−5 knots",
+   "±10 knots",
+   "+5/−0 knots"
+  ],
+  "why": "Commercial tightens the takeoff climb standard to ±5 knots of Vy (or the recommended speed); +10/−5 is the Private standard.",
+  "src": "OEG 4C · ACS CA.IV.A · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-008",
+  "topic": "acs",
+  "q": "After a normal takeoff, how long does the ACS require you to hold Vy within tolerance?",
+  "a": "Until reaching a safe maneuvering altitude",
+  "d": [
+   "Until passing 50 feet above the runway surface",
+   "Until the landing gear is up and the flaps retracted",
+   "Until reaching 1,000 feet AGL"
+  ],
+  "why": "The task says to maintain Vy to a safe maneuvering altitude. The 50-foot point is where a short-field takeoff transitions from Vx to Vy.",
+  "src": "OEG 4C · ACS PA.IV.A/CA.IV.A · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-009",
+  "topic": "acs",
+  "q": "The wind is calm on your checkride day. How does the ACS say your crosswind takeoff and landing knowledge will be evaluated?",
+  "a": "Through oral testing",
+  "d": [
+   "It is waived for that checkride",
+   "You must return on a crosswind day",
+   "By flying a simulated crosswind correction"
+  ],
+  "why": "The normal takeoff and landing tasks note that if no crosswind exists, the crosswind elements are evaluated orally — so be ready to explain the technique.",
+  "src": "OEG 4C/4D · ACS PA.IV.A/CA.IV.A, PA.IV.B/CA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 059"
+ },
+ {
+  "id": "o8-010",
+  "topic": "acs",
+  "q": "If the manufacturer publishes no approach speed, what does the ACS say to fly on a normal approach?",
+  "a": "Not more than 1.3 times Vso",
+  "d": [
+   "Not more than 1.2 times Vso",
+   "Not more than 1.5 times Vs1",
+   "Blue line (Vyse) plus the gust factor"
+  ],
+  "why": "Absent a published speed, the ACS standard is no more than 1.3 times the stalling speed or minimum steady flight speed in the landing configuration (Vso), with the gust factor applied. Separately, the OEG's twin technique (3A-21) is to fly no slower than Vyse until short final with the landing assured.",
+  "src": "OEG 4D · ACS PA.IV.B/CA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-011",
+  "topic": "acs",
+  "q": "The POH approach speed is 90 knots and the wind is calm. On a Private checkride, what airspeed range meets the ACS on a normal approach?",
+  "a": "85 to 100 knots",
+  "d": [
+   "85 to 95 knots",
+   "80 to 100 knots",
+   "90 to 100 knots"
+  ],
+  "why": "The Private standard is +10/−5 knots of the published approach speed: 90 − 5 = 85 and 90 + 10 = 100. A Commercial applicant would need 85 to 95 (±5).",
+  "src": "OEG 4D · ACS PA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-012",
+  "topic": "acs",
+  "q": "A Private applicant's normal landing touches down 300 feet past the specified point, with no drift and aligned with centerline. How does this compare to the ACS?",
+  "a": "Within tolerance; Private allows up to 400 feet beyond",
+  "d": [
+   "Outside tolerance; Private allows only up to 200 feet beyond",
+   "Outside tolerance; Private allows only 100 feet",
+   "Within tolerance; there is no touchdown distance limit"
+  ],
+  "why": "For a normal landing the Private standard is touchdown within 400 feet beyond or on the specified point, and Commercial is 200 feet. The short-field standards are tighter: 200 feet (Private) and 100 feet (Commercial).",
+  "src": "OEG 4D · ACS PA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-013",
+  "topic": "acs",
+  "q": "On a Commercial checkride, what is the ACS touchdown tolerance for a normal landing?",
+  "a": "Within 200 feet beyond or on the specified point",
+  "d": [
+   "Within 400 feet beyond or on the specified point",
+   "Within 100 feet beyond or on the specified point",
+   "Within 250 feet beyond or on the specified point"
+  ],
+  "why": "Commercial halves the Private normal-landing allowance: 200 feet instead of 400. The short-field Commercial standard is tighter still at 100 feet.",
+  "src": "OEG 4D · ACS CA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-014",
+  "topic": "acs",
+  "q": "On a normal approach at 300 feet AGL you are 15 knots fast and can't get stabilized. What does the ACS expect?",
+  "a": "Execute a timely go-around",
+  "d": [
+   "Slip to bleed off the extra speed",
+   "Land long and use firm braking",
+   "Lower full flaps and continue"
+  ],
+  "why": "The task requires a timely go-around whenever the approach can't be flown within tolerance or anything else makes the approach or landing unsafe. Being 15 knots fast exceeds even the Private +10 limit.",
+  "src": "OEG 4D · ACS PA.IV.B/CA.IV.B · FAA-H-8083-3",
+  "loc": "oeg 060"
+ },
+ {
+  "id": "o8-015",
+  "topic": "acs",
+  "q": "How does the ACS want takeoff power set for a short-field takeoff?",
+  "a": "Hold the brakes, set power, confirm it, then release",
+  "d": [
+   "Release the brakes first, then advance smoothly",
+   "Set takeoff power during a rolling start",
+   "Set half power, release brakes, then add the rest"
+  ],
+  "why": "The task says to apply brakes while setting power for maximum performance and to confirm takeoff power before brake release, after lining up using the maximum available takeoff area.",
+  "src": "OEG 4E · ACS PA.IV.E/CA.IV.E · FAA-H-8083-3",
+  "loc": "oeg 061"
+ },
+ {
+  "id": "o8-016",
+  "topic": "acs",
+  "q": "On a short-field takeoff, how long must you hold the recommended obstacle-clearance speed or Vx?",
+  "a": "Until clear of the obstacle, or 50 feet AGL",
+  "d": [
+   "Until reaching 400 feet AGL",
+   "Until the landing gear is fully retracted",
+   "Until reaching a safe maneuvering altitude"
+  ],
+  "why": "Hold Vx (or the recommended obstacle speed) until clear of the obstacle, or until 50 feet AGL when the obstacle is simulated, then pitch for Vy. Vy is then held to a safe maneuvering altitude.",
+  "src": "OEG 4E · ACS PA.IV.E/CA.IV.E · FAA-H-8083-3",
+  "loc": "oeg 061"
+ },
+ {
+  "id": "o8-017",
+  "topic": "acs",
+  "q": "On a Commercial checkride, what airspeed tolerance applies to Vx during the short-field takeoff climb?",
+  "a": "±5 knots",
+  "d": [
+   "+10/−5 knots",
+   "+5/−0 knots",
+   "±10 knots"
+  ],
+  "why": "Commercial requires ±5 knots of Vx or the recommended obstacle-clearance speed; the Private standard is +10/−5 knots.",
+  "src": "OEG 4E · ACS CA.IV.E · FAA-H-8083-3",
+  "loc": "oeg 061"
+ },
+ {
+  "id": "o8-018",
+  "topic": "acs",
+  "q": "On a Private checkride, what is the ACS touchdown tolerance for a short-field landing?",
+  "a": "Within 200 feet beyond or on the specified point",
+  "d": [
+   "Within 400 feet beyond or on the specified point",
+   "Within 100 feet beyond or on the specified point",
+   "Within 50 feet beyond or on the specified point"
+  ],
+  "why": "The Private short-field standard is 200 feet beyond or on the point (or threshold markings/numbers), with minimum float and no side drift. 400 feet is the Private normal-landing figure.",
+  "src": "OEG 4F · ACS PA.IV.F · FAA-H-8083-3",
+  "loc": "oeg 062"
+ },
+ {
+  "id": "o8-019",
+  "topic": "acs",
+  "q": "A Commercial applicant's short-field landing touches down 150 feet past the specified point, with no drift and minimum float. How does this compare to the ACS?",
+  "a": "Outside; the Commercial limit is 100 feet beyond",
+  "d": [
+   "Within; the Commercial limit is 200 feet beyond",
+   "Within; the Commercial limit is 400 feet beyond",
+   "Within, since there was no drift and minimum float"
+  ],
+  "why": "Commercial short-field landings must touch down within 100 feet beyond or on the point. 200 feet would satisfy only the Private short-field standard.",
+  "src": "OEG 4F · ACS CA.IV.F · FAA-H-8083-3",
+  "loc": "oeg 062"
+ },
+ {
+  "id": "o8-020",
+  "topic": "acs",
+  "q": "When you apply takeoff power on a go-around/rejected landing, what climb speed does the ACS have you pitch for?",
+  "a": "Vx or Vy, as appropriate",
+  "d": [
+   "Vyse, in all cases",
+   "Vxse until clear of obstacles",
+   "Vmc plus 5 knots"
+  ],
+  "why": "The go-around task is a two-engine maneuver: apply takeoff power right away and pitch for Vx or Vy as the situation needs (+10/−5 Private, ±5 Commercial), then hold Vy to a safe maneuvering altitude.",
+  "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
+  "loc": "oeg 062"
+ },
+ {
+  "id": "o8-021",
+  "topic": "acs",
+  "q": "During a go-around, a departing airplane is climbing out below you over the runway. What does the ACS expect you to do?",
+  "a": "Move to the side of the runway to avoid it",
+  "d": [
+   "Stay over the centerline and climb steeply",
+   "Reduce power and hold altitude above it",
+   "Continue the approach and land behind it"
+  ],
+  "why": "The task includes moving to the side of the runway or landing area when needed to keep the conflicting traffic in sight and avoid it.",
+  "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
+  "loc": "oeg 062"
+ },
+ {
+  "id": "o8-022",
+  "topic": "acs",
+  "q": "Per the OEG's exam tip, the ACS Go-Around/Rejected Landing task is not intended to be evaluated in what configuration?",
+  "a": "Single-engine configuration",
+  "d": [
+   "Full-flap landing configuration",
+   "Gear-down approach configuration",
+   "Normal two-engine configuration"
+  ],
+  "why": "The go-around task is meant for both engines operating. Single-engine go-around risk shows up instead under the engine-inoperative approach tasks.",
+  "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-023",
+  "topic": "acs",
+  "q": "Which is an ACS risk-management item for the Go-Around/Rejected Landing task?",
+  "a": "Delayed recognition of the need to go around",
+  "d": [
+   "Fuel management during single-engine operation",
+   "Management of compressed gas containers",
+   "Airport-specific security procedures"
+  ],
+  "why": "Go-around risks include delayed recognition, delayed performance at low altitude, power application, configuring the airplane, and a go-around after accepting LAHSO. The others belong to the single-engine instrument, oxygen, and parking tasks.",
+  "src": "OEG 4G · ACS PA.IV.N/CA.IV.N · FAA-H-8083-3",
+  "loc": "oeg 062"
+ },
+ {
+  "id": "o8-024",
+  "topic": "acs",
+  "q": "What bank angle does the ACS require for steep turns on a Private multi-engine checkride?",
+  "a": "Approximately 45°",
+  "d": [
+   "Approximately 50°",
+   "Approximately 30°",
+   "Approximately 60°"
+  ],
+  "why": "Private steep turns are coordinated 360° turns at about 45° of bank; Commercial applicants use about 50°.",
+  "src": "OEG 4H · ACS PA.V.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-025",
+  "topic": "acs",
+  "q": "What bank angle does the ACS require for steep turns on a Commercial multi-engine checkride?",
+  "a": "Approximately 50°",
+  "d": [
+   "Approximately 45°",
+   "Approximately 55°",
+   "Approximately 60°"
+  ],
+  "why": "Commercial steep turns call for about 50° of bank, 5° steeper than the Private 45°.",
+  "src": "OEG 4H · ACS CA.V.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-026",
+  "topic": "acs",
+  "q": "Per the OEG's ACS excerpt, what altitude and airspeed tolerances apply during steep turns (same for Private and Commercial)?",
+  "a": "Altitude ±100 feet and airspeed ±10 knots",
+  "d": [
+   "Altitude ±50 feet and airspeed ±5 knots",
+   "Altitude ±100 feet and airspeed +10/−5 knots",
+   "Altitude ±200 feet and airspeed ±10 knots"
+  ],
+  "why": "Hold the entry altitude within ±100 feet and airspeed within ±10 knots throughout the 360° turn.",
+  "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-027",
+  "topic": "acs",
+  "q": "In ACS steep turns, what are the bank-angle and rollout-heading tolerances (same for Private and Commercial)?",
+  "a": "Bank ±5°; roll out on the entry heading ±10°",
+  "d": [
+   "Bank ±10°; roll out on the entry heading ±10°",
+   "Bank ±5°; roll out on the entry heading ±5°",
+   "Bank ±10°; roll out on the entry heading ±20°"
+  ],
+  "why": "Bank must stay within ±5° of the target, and the rollout must be within ±10° of the entry heading.",
+  "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-028",
+  "topic": "acs",
+  "q": "If the manufacturer gives no recommended steep-turn airspeed, what does the ACS specify?",
+  "a": "Not more than Va",
+  "d": [
+   "Anywhere in the green arc",
+   "Vyse plus 10 knots",
+   "At or above Va"
+  ],
+  "why": "Staying at or below Va keeps the structure protected because the wing stalls before the limit load factor is exceeded. Remember Va decreases as weight decreases.",
+  "src": "OEG 4H · ACS PA.V.A/CA.V.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-029",
+  "topic": "acs",
+  "q": "Terrain below is 1,000 feet MSL. On a multi-engine checkride, what is the lowest altitude at which slow flight may be completed?",
+  "a": "4,000 feet MSL",
+  "d": [
+   "2,500 feet MSL",
+   "3,000 feet MSL",
+   "3,500 feet MSL"
+  ],
+  "why": "Multi-engine slow flight must be completed no lower than 3,000 feet AGL: 1,000 + 3,000 = 4,000 MSL. The 1,500 feet AGL figure (2,500 MSL here) is the single-engine-airplane standard.",
+  "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-030",
+  "topic": "acs",
+  "q": "How does the ACS define the airspeed to fly during slow flight?",
+  "a": "Where more AOA or load factor, or less power, gives a stall warning",
+  "d": [
+   "About 5 knots above the published power-off stall speed",
+   "1.3 times Vso, with the airplane in the landing configuration",
+   "The lowest speed at which altitude can be held with full power"
+  ],
+  "why": "Slow flight is flown just above the stall warning: any further increase in angle of attack or load factor, or reduction in power, would trigger the horn or buffet. Then fly straight, turns, climbs, and descents without a warning.",
+  "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-031",
+  "topic": "acs",
+  "q": "What are the ACS slow-flight tolerances on a Private checkride?",
+  "a": "Altitude ±100 ft, heading ±10°, airspeed +10/−0 kt, bank ±10°",
+  "d": [
+   "Altitude ±50 ft, heading ±10°, airspeed +5/−0 kt, bank ±5°",
+   "Altitude ±100 ft, heading ±10°, airspeed ±10 kt, bank ±5°",
+   "Altitude ±100 ft, heading ±20°, airspeed +10/−5 kt, bank ±10°"
+  ],
+  "why": "Private: ±100 feet, ±10° heading, +10/−0 knots, ±10° bank. The airspeed tolerance has no minus side because going slower means a stall warning.",
+  "src": "OEG 4I · ACS PA.VII.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-032",
+  "topic": "acs",
+  "q": "What are the ACS slow-flight altitude, airspeed, and bank tolerances on a Commercial checkride?",
+  "a": "Altitude ±50 ft, airspeed +5/−0 kt, bank ±5°",
+  "d": [
+   "Altitude ±100 ft, airspeed +10/−0 kt, bank ±10°",
+   "Altitude ±50 ft, airspeed ±5 kt, bank ±10°",
+   "Altitude ±100 ft, airspeed +5/−0 kt, bank ±5°"
+  ],
+  "why": "Commercial tightens slow flight to ±50 feet, +5/−0 knots, and ±5° bank; heading stays ±10° at both levels.",
+  "src": "OEG 4I · ACS CA.VII.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-033",
+  "topic": "acs",
+  "q": "During slow flight a gust briefly sounds the stall horn, and you immediately correct. How does the ACS treat this?",
+  "a": "Not unsatisfactory, because you recognized and corrected it",
+  "d": [
+   "Unsatisfactory, since any stall warning fails the task",
+   "Acceptable only on the Private, not the Commercial, test",
+   "Acceptable only if you then do a full stall recovery"
+  ],
+  "why": "The ACS note says a momentary warning caused by turbulence, promptly recognized and corrected, is not a failure. Continual deviation, no correction, or not recognizing it would be.",
+  "src": "OEG 4I · ACS PA.VII.A/CA.VII.A · FAA-H-8083-3",
+  "loc": "oeg 063"
+ },
+ {
+  "id": "o8-034",
+  "topic": "acs",
+  "q": "For an ACS power-off stall, how is the airplane configured before inducing the stall?",
+  "a": "Approach or landing configuration, in a stabilized descent",
+  "d": [
+   "Takeoff or departure configuration, in a stabilized climb",
+   "Cruise configuration, in straight-and-level flight",
+   "Takeoff configuration, with one engine at idle and windmilling"
+  ],
+  "why": "Power-off stalls simulate the approach and landing phase: set approach or landing configuration, establish a stabilized descent, then pitch smoothly to induce the stall.",
+  "src": "OEG 4J · ACS PA.VII.B/CA.VII.B · FAA-H-8083-3",
+  "loc": "oeg 064"
+ },
+ {
+  "id": "o8-035",
+  "topic": "acs",
+  "q": "On a power-off stall (Private or Commercial), when does the ACS have you recover?",
+  "a": "Promptly after a full stall occurs",
+  "d": [
+   "At the first indication of the stall warning",
+   "Before any buffet can be felt",
+   "Only after the nose drops below the horizon"
+  ],
+  "why": "Acknowledge the impending-stall cues, then recover promptly once the full stall occurs, using the POH/AFM procedure.",
+  "src": "OEG 4J · ACS PA.VII.B/CA.VII.B · FAA-H-8083-3",
+  "loc": "oeg 064"
+ },
+ {
+  "id": "o8-036",
+  "topic": "acs",
+  "q": "During a turning power-off stall on a Commercial checkride, what bank limits apply while inducing the stall?",
+  "a": "Specified bank not over 20°, held within ±5°",
+  "d": [
+   "Specified bank not over 20°, held within ±10°",
+   "Specified bank not over 30°, held within ±5°",
+   "Specified bank not over 45°, held within ±10°"
+  ],
+  "why": "The bank may not exceed 20°; it must be held within ±5° for Commercial or ±10° for Private. In straight flight, heading is held within ±10°.",
+  "src": "OEG 4J · ACS CA.VII.B · FAA-H-8083-3",
+  "loc": "oeg 064"
+ },
+ {
+  "id": "o8-037",
+  "topic": "acs",
+  "q": "How do the ACS stall tasks treat altitude lost during the recovery?",
+  "a": "No set altitude-loss value; holding altitude isn't required",
+  "d": [
+   "Altitude loss must be held under 100 feet in recovery",
+   "Altitude must be held constant throughout the recovery",
+   "Altitude loss must not exceed the POH's published value"
+  ],
+  "why": "The ACS notes for power-off and power-on stalls say evaluators should not require a set altitude loss or require holding altitude; recovery means reducing angle of attack first, and many factors affect the altitude used.",
+  "src": "OEG 4J/4K · ACS PA.VII.B/CA.VII.B, PA.VII.C/CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 064"
+ },
+ {
+  "id": "o8-038",
+  "topic": "acs",
+  "q": "What is the minimum power setting the ACS specifies for power-on stalls?",
+  "a": "No less than 65 percent power",
+  "d": [
+   "No less than 55 percent power",
+   "No less than 75 percent power",
+   "Full takeoff power only"
+  ],
+  "why": "Power is set as the evaluator assigns, but no less than 65 percent, simulating a departure or takeoff stall.",
+  "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-039",
+  "topic": "acs",
+  "q": "In a high-performance twin, 65% power would need more than 30° nose-up to stall. What does the ACS note allow?",
+  "a": "Reducing power below the ACS guideline",
+  "d": [
+   "Pitching beyond 30° nose-up to reach the stall",
+   "Using a steep bank to stall sooner",
+   "Skipping the power-on stall task entirely"
+  ],
+  "why": "The note recognizes that some airplanes need less power to avoid excessively high pitch attitudes (over 30° nose-up), so power may be reduced below the 65% guideline.",
+  "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-040",
+  "topic": "acs",
+  "q": "For an ACS power-on stall, which configurations may the evaluator specify?",
+  "a": "Takeoff, departure, or cruise",
+  "d": [
+   "Approach or landing only",
+   "Landing, with the gear down",
+   "Cruise, with one engine at idle"
+  ],
+  "why": "Power-on stalls represent the takeoff/departure phase, so the airplane is set in takeoff, departure, or cruise configuration. Approach or landing configuration is used for power-off stalls.",
+  "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-041",
+  "topic": "acs",
+  "q": "On a Commercial checkride, when do you recover from a power-on stall?",
+  "a": "First indication or full stall, as the evaluator specifies",
+  "d": [
+   "Always at a full stall, never at the first indication",
+   "Always at the first stall horn, never at full stall",
+   "When the airspeed decays to the red-line Vmc"
+  ],
+  "why": "Commercial applicants recover at the first indication or after a full stall, as the evaluator specifies. Private applicants recover promptly after the full stall.",
+  "src": "OEG 4K · ACS CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-042",
+  "topic": "acs",
+  "q": "Which stall type is listed in the power-on stall risk management but not in the power-off stall list?",
+  "a": "Elevator trim stalls",
+  "d": [
+   "Secondary stalls",
+   "Cross-control stalls",
+   "Accelerated stalls"
+  ],
+  "why": "Both lists include secondary, accelerated, and cross-control stalls; the power-on list adds elevator trim stalls — the nose-up trim surprise when full power is added with the airplane trimmed for approach.",
+  "src": "OEG 4K · ACS PA.VII.C/CA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-043",
+  "topic": "acs",
+  "q": "In the ACS accelerated stall (Commercial), what bank angle is used while increasing back pressure?",
+  "a": "45°, in a coordinated turn",
+  "d": [
+   "20°, in a coordinated turn",
+   "30°, in a coordinated turn",
+   "60°, in a coordinated turn"
+  ],
+  "why": "Establish a coordinated 45° banked turn and increase elevator back pressure smoothly and firmly until an impending stall. 20° is the bank limit for the power-on and power-off stall tasks.",
+  "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-044",
+  "topic": "acs",
+  "q": "On the Commercial accelerated stall, what airspeed limit does the ACS impose when setting power?",
+  "a": "Not above Va or other POH/AFM limits",
+  "d": [
+   "Not below Vno, the top of the green arc",
+   "Not below Vyse at any point in the turn",
+   "Not above Vx at the entry"
+  ],
+  "why": "Because the stall is induced with extra load factor, the entry must not exceed maneuvering speed (or other POH limits) so the wing stalls before structural limits are reached.",
+  "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-045",
+  "topic": "acs",
+  "q": "During the Commercial accelerated stall, when do you acknowledge the cues and recover?",
+  "a": "At the first indication of a stall",
+  "d": [
+   "After the full stall breaks",
+   "After the buffet becomes continuous",
+   "When the airspeed falls below Vs1"
+  ],
+  "why": "The accelerated stall is taken only to an impending stall: acknowledge the first indication (buffet, horn) and recover per the POH, then accelerate to Vx or Vy.",
+  "src": "OEG 4L · ACS CA.VII.D · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-046",
+  "topic": "acs",
+  "q": "Your training twin has no oxygen equipment. In the ACS Supplemental Oxygen task, what can you still be asked to do?",
+  "a": "Determine oxygen needed and brief passengers",
+  "d": [
+   "Nothing; the entire task is skipped",
+   "Climb above 12,500 ft MSL to show symptoms",
+   "Obtain and install a portable system"
+  ],
+  "why": "Operating the equipment applies only if it is installed or available, but determining the oxygen quantity required and briefing passengers are both done for a scenario the evaluator gives.",
+  "src": "OEG 4M · ACS PA.I.G/CA.VIII.A · AC 61-107 · 14 CFR Part 91",
+  "loc": "oeg 066"
+ },
+ {
+  "id": "o8-047",
+  "topic": "acs",
+  "q": "Which risk-management item is part of the ACS Supplemental Oxygen task?",
+  "a": "Combustion hazards in an oxygen-rich environment",
+  "d": [
+   "Fuel management during single-engine operation",
+   "Airport-specific security procedures",
+   "Wake turbulence in the run-up area"
+  ],
+  "why": "Oxygen risks are high-altitude flight, use of supplemental oxygen, management of compressed gas containers, and combustion hazards in an oxygen-rich environment.",
+  "src": "OEG 4M · ACS PA.I.G/CA.VIII.A · AC 61-107",
+  "loc": "oeg 066"
+ },
+ {
+  "id": "o8-048",
+  "topic": "acs",
+  "q": "The OEG lists the Pressurization task under the Commercial ACS (CA.VIII.B). When do its operate/respond/brief elements apply?",
+  "a": "Only if the equipment is installed",
+  "d": [
+   "On every multi-engine practical test",
+   "Only on Private-level practical tests",
+   "Only when flying above 12,500 feet MSL"
+  ],
+  "why": "Each skill element — operating the system, handling simulated malfunctions, and briefing oxygen use after a pressurization failure — is qualified with \"if equipment is installed.\"",
+  "src": "OEG 4N · ACS CA.VIII.B · FAA-H-8083-3",
+  "loc": "oeg 066"
+ },
+ {
+  "id": "o8-049",
+  "topic": "acs",
+  "q": "What bank angle does the ACS specify during an emergency descent, and why?",
+  "a": "30° to 45°, to keep positive load factors",
+  "d": [
+   "15° to 30°, to limit the total altitude lost",
+   "45° to 60°, to steepen the descent",
+   "Wings level, so the airspeed stays below Vne"
+  ],
+  "why": "Banking 30° to 45° keeps the load factor positive while the nose is low in a steep descent, instead of pushing over toward zero or negative G.",
+  "src": "OEG 4O · ACS PA.IX.A/CA.IX.A · FAA-H-8083-3",
+  "loc": "oeg 066"
+ },
+ {
+  "id": "o8-050",
+  "topic": "acs",
+  "q": "What airspeed and level-off tolerances apply to the ACS emergency descent (same for Private and Commercial)?",
+  "a": "Airspeed +0/−10 knots; level off ±100 feet",
+  "d": [
+   "Airspeed ±10 knots; level off ±50 feet",
+   "Airspeed +10/−0 knots; level off ±100 feet",
+   "Airspeed ±5 knots; level off ±200 feet"
+  ],
+  "why": "Airspeed may run up to 10 knots below the target but never above it (+0/−10), and you level off at the specified altitude within ±100 feet. These are the same at both certificate levels.",
+  "src": "OEG 4O · ACS PA.IX.A/CA.IX.A · FAA-H-8083-3",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-051",
+  "topic": "acs",
+  "q": "Calculated Vmc is 70 knots. A simulated engine failure on the takeoff roll should be given before about what speed?",
+  "a": "35 knots",
+  "d": [
+   "53 knots",
+   "65 knots",
+   "70 knots"
+  ],
+  "why": "The ACS note says to simulate the failure before 50 percent of calculated Vmc: 50% of 70 = 35 knots. Waiting until near Vmc would leave little margin for control. In the Seneca (Vmc 80 MPH CAS) that means before about 40 MPH.",
+  "src": "OEG 4P · ACS PA.IX.E/CA.IX.E · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-052",
+  "topic": "acs",
+  "q": "On the takeoff roll, the evaluator simulates an engine failure. What does the ACS require you to do?",
+  "a": "Close both throttles and stop straight, braking as needed",
+  "d": [
+   "Feather the failed engine and continue the takeoff on one engine",
+   "Retard only the failed engine's throttle and stop",
+   "Rotate early and climb out at Vyse on one engine"
+  ],
+  "why": "Before Vmc there is no continuing: close the throttles smoothly and promptly, keep directional control, and use brakes as needed. Leaving one engine at power would yaw you off the runway.",
+  "src": "OEG 4P · ACS PA.IX.E/CA.IX.E · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-053",
+  "topic": "acs",
+  "q": "You're climbing at Vyse through 250 feet AGL when the evaluator reaches for a throttle to simulate a failure. Per the ACS, this is:",
+  "a": "Too low; not below 400 feet AGL",
+  "d": [
+   "Acceptable, since you are at or above Vyse",
+   "Acceptable once the gear is retracted",
+   "Too low; not below 1,000 feet AGL"
+  ],
+  "why": "The evaluator must not simulate an engine failure after liftoff until at least Vsse/Vxse/Vyse and no lower than 400 feet AGL. Both conditions must be met.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-054",
+  "topic": "acs",
+  "q": "After a simulated engine failure after liftoff with no obstructions ahead, what speed does the ACS have you establish?",
+  "a": "Vyse",
+  "d": [
+   "Vxse",
+   "Vmc plus 5 knots",
+   "Vy"
+  ],
+  "why": "With no obstacles, go to Vyse, the best single-engine rate of climb. Vxse (or Vmc + 5) is only for clearing obstructions; Vy is a two-engine speed.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-055",
+  "topic": "acs",
+  "q": "An engine fails just after liftoff with obstructions ahead. What speed does the ACS have you hold until they are cleared?",
+  "a": "Vxse or Vmc + 5 knots, whichever is greater",
+  "d": [
+   "Vxse or Vmc + 5 knots, whichever is less",
+   "Vyse, until the obstructions are cleared",
+   "Vmc + 10 knots, then Vxse"
+  ],
+  "why": "Fly the greater of Vxse or Vmc + 5 knots to clear obstacles with a control margin, then transition to Vyse.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-056",
+  "topic": "acs",
+  "q": "After you simulate feathering the propeller in the engine-failure-after-liftoff task, what does the evaluator do?",
+  "a": "Sets zero thrust on the inoperative engine",
+  "d": [
+   "Actually feathers the inoperative engine's propeller",
+   "Restores full power on that engine",
+   "Leaves it at idle with the prop windmilling"
+  ],
+  "why": "You only simulate the feather; the evaluator then sets zero thrust to mimic a feathered prop's drag. Leaving it at idle would add windmilling drag that a feathered prop wouldn't have.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-057",
+  "topic": "acs",
+  "q": "What heading and airspeed tolerances apply in the ACS Engine Failure After Liftoff task (Private or Commercial)?",
+  "a": "Heading ±10° and airspeed ±5 knots",
+  "d": [
+   "Heading ±10° and airspeed ±10 knots",
+   "Heading ±20° and airspeed ±5 knots",
+   "Heading ±5° and airspeed +10/−5 knots"
+  ],
+  "why": "Right after liftoff the margins are tightest: ±10° heading and ±5 knots of the target single-engine speed, the same at both certificate levels.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-058",
+  "topic": "acs",
+  "q": "After a simulated engine failure after liftoff, the airplane can't climb at Vyse. What does the ACS say to do?",
+  "a": "Hold Vyse and return or go to the best landing area",
+  "d": [
+   "Slow to Vxse to get more climb performance",
+   "Hold altitude by slowing gradually toward red-line Vmc",
+   "Attempt an engine restart before turning back to land"
+  ],
+  "why": "If no climb is possible at Vyse, keep Vyse (the best you'll get) and return to the departure airport or approach the most suitable landing area. Slowing down only reduces performance and control margin.",
+  "src": "OEG 4Q · ACS PA.IX.F/CA.IX.F · FAA-P-8740-66",
+  "loc": "oeg 067"
+ },
+ {
+  "id": "o8-059",
+  "topic": "acs",
+  "q": "On a simulated engine-inoperative approach and landing, where does the ACS require you to touch down?",
+  "a": "Within the first one-third of the available runway",
+  "d": [
+   "Within 200 feet beyond a specified point",
+   "Within 400 feet beyond a specified point",
+   "Within the first half of the available runway length"
+  ],
+  "why": "Unlike the two-engine landings, the single-engine landing has no spot tolerance: touch down in the first third of the runway, with no drift and aligned with centerline.",
+  "src": "OEG 4R · ACS PA.IX.G/CA.IX.G · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-060",
+  "topic": "acs",
+  "q": "On a Commercial checkride, the recommended single-engine approach speed is 95 knots. What range meets the ACS until landing is assured?",
+  "a": "90 to 100 knots",
+  "d": [
+   "90 to 105 knots",
+   "85 to 105 knots",
+   "95 to 100 knots"
+  ],
+  "why": "Commercial is ±5 knots of the recommended approach speed (95 ± 5). A Private applicant would be allowed +10/−5, or 90 to 105 knots.",
+  "src": "OEG 4R · ACS CA.IX.G · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-061",
+  "topic": "acs",
+  "q": "In the ACS Maneuvering with One Engine Inoperative task, what do you do with the propeller of the failed engine?",
+  "a": "Actually feather it, then restart per the manufacturer",
+  "d": [
+   "Simulate feathering; the evaluator sets zero thrust",
+   "Leave it windmilling with the throttle at idle",
+   "Feather it and leave it shut down until landing"
+  ],
+  "why": "Here you really feather the prop, secure the engine, and then restart it with the manufacturer's procedure. The evaluator sets zero thrust only in the tasks where feathering is simulated, and the ACS limits where and how high an actual shutdown may be done.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-062",
+  "topic": "acs",
+  "q": "The manufacturer recommends 4,000 feet AGL for engine-out training. Per the ACS, single-engine demonstration tasks must be completed no lower than:",
+  "a": "4,000 feet AGL",
+  "d": [
+   "3,000 feet AGL",
+   "3,500 feet AGL",
+   "1,500 feet AGL"
+  ],
+  "why": "The evaluator must pick an entry altitude so the tasks finish no lower than 3,000 feet AGL or the manufacturer's recommended altitude, whichever is higher — here 4,000 feet. In the Seneca, POH 6-12 says not to do the Vmc demonstration below 3,500 ft AGL, so that task must finish at or above 3,500.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-063",
+  "topic": "acs",
+  "q": "Per the ACS safety note, where must the airplane be when you perform an actual feather or engine shutdown?",
+  "a": "Where a safe landing at an established airport is possible",
+  "d": [
+   "Directly over the departure runway at pattern altitude",
+   "Within gliding distance of a suitable open field",
+   "Within 10 NM of an airport with an operating tower"
+  ],
+  "why": "Tasks that need a real shutdown are flown only where you could still land safely at an established airport if the prop won't unfeather or the engine won't restart.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-064",
+  "topic": "acs",
+  "q": "After an in-flight shutdown on the checkride, the propeller won't unfeather. Per the ACS note, how should you and the evaluator treat this?",
+  "a": "As a real emergency, by both of you",
+  "d": [
+   "As routine; continue the remaining tasks",
+   "As a chance to demonstrate Vmc",
+   "As a non-event if altitude can be held"
+  ],
+  "why": "If the engine can't be unfeathered or restarted in flight, the ACS says both you and the evaluator treat it as a real emergency.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-065",
+  "topic": "acs",
+  "q": "You're at 2,500 feet AGL. Per the ACS, how should an engine failure be simulated?",
+  "a": "Throttle to idle, then set zero thrust",
+  "d": [
+   "Mixture to cutoff, then an actual feather",
+   "Fuel selector off, then an actual feather",
+   "Throttle to idle, prop left windmilling"
+  ],
+  "why": "Below 3,000 feet AGL, no actual shutdown: the failure is simulated by reducing the throttle to idle and then establishing zero thrust.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-066",
+  "topic": "acs",
+  "q": "What tolerances apply in the ACS Maneuvering with One Engine Inoperative task (Private or Commercial)?",
+  "a": "Altitude ±100 ft (or min sink), airspeed ±10 kt, headings ±10°",
+  "d": [
+   "Altitude ±50 ft (or min sink), airspeed ±5 kt, headings ±5°",
+   "Altitude ±100 ft (or min sink), airspeed ±5 kt, headings ±10°",
+   "Altitude ±200 ft (or min sink), airspeed ±10 kt, headings ±20°"
+  ],
+  "why": "Hold altitude within ±100 feet — or the minimum sink rate if altitude can't be held — airspeed within ±10 knots, and selected headings within ±10°.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-067",
+  "topic": "acs",
+  "q": "Which sequence matches how the ACS lists the steps in Maneuvering with One Engine Inoperative?",
+  "a": "Memory items, identify/verify, feather, find cause, secure, restart",
+  "d": [
+   "Feather, identify/verify, memory items, find cause, secure, restart",
+   "Identify/verify, restart, memory items, feather, secure, find cause",
+   "Memory items, feather, restart, identify/verify, find cause, secure"
+  ],
+  "why": "Keep control and do the memory items, identify and verify, feather the correct prop, try to find and fix the cause, secure the engine and watch the good one, then restart per the manufacturer.",
+  "src": "OEG 4S · ACS PA.X.A/CA.X.A · FAA-P-8740-66",
+  "loc": "oeg 068"
+ },
+ {
+  "id": "o8-068",
+  "topic": "acs",
+  "q": "Absent manufacturer guidance, how are the wing flaps and cowl flaps set for the ACS Vmc demonstration?",
+  "a": "Flaps and cowl flaps both set for takeoff",
+  "d": [
+   "Flaps up and cowl flaps closed",
+   "Flaps for landing and cowl flaps open",
+   "Flaps for approach and cowl flaps closed"
+  ],
+  "why": "The default setup mirrors the takeoff case: gear up, flaps, cowl flaps and trim set for takeoff, props high RPM, critical engine idle and windmilling, other engine at takeoff power.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-069",
+  "topic": "acs",
+  "q": "In the ACS Vmc demonstration setup, how are the two engines set?",
+  "a": "Critical engine idle and windmilling; other at max power",
+  "d": [
+   "Critical engine feathered; other at max power",
+   "Critical engine at zero thrust; other at max power",
+   "Critical engine idle and windmilling; other at climb power"
+  ],
+  "why": "A windmilling prop creates the most drag, and full power on the good engine the most asymmetric thrust — the worst case that defines Vmc. Feathering or zero thrust would lower Vmc and make the demo unrepresentative.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-070",
+  "topic": "acs",
+  "q": "Absent manufacturer guidance, how are the landing gear and propeller controls set for the ACS Vmc demonstration?",
+  "a": "Gear retracted; propellers at high RPM",
+  "d": [
+   "Gear extended; propellers at high RPM",
+   "Gear retracted; propellers at cruise RPM",
+   "Gear extended; propellers at low RPM"
+  ],
+  "why": "The ACS default is gear up and props full forward (high RPM), matching the takeoff/initial-climb configuration where loss of control is most likely.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-071",
+  "topic": "acs",
+  "q": "Once configured, what airspeed does the ACS have you establish in a single-engine climb attitude before slowing in the Vmc demo?",
+  "a": "About 10 knots above Vsse",
+  "d": [
+   "About 5 knots above Vsse",
+   "About 5 knots above red-line Vmc",
+   "About 10 knots above red-line Vmc"
+  ],
+  "why": "Start in a single-engine climb attitude at roughly Vsse + 10 knots, then slow about 1 knot per second.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-072",
+  "topic": "acs",
+  "q": "What bank angle does the ACS allow during the Vmc demonstration?",
+  "a": "Not more than 5°, toward the operating engine",
+  "d": [
+   "Not more than 5°, toward the inoperative engine",
+   "Not more than 10°, toward the operating engine",
+   "Wings level, with the ball centered"
+  ],
+  "why": "Up to 5° of bank into the good engine helps controllability and performance. Banking toward the dead engine would raise Vmc.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-073",
+  "topic": "acs",
+  "q": "During the Vmc demonstration, at what rate does the ACS have you reduce airspeed?",
+  "a": "About 1 knot per second",
+  "d": [
+   "About 3 knots per second",
+   "About 5 knots per second",
+   "About 1 knot every 5 seconds"
+  ],
+  "why": "Raise the pitch slowly to lose about 1 knot per second, adding rudder as needed to hold heading, so the loss of directional control can be recognized clearly.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-074",
+  "topic": "acs",
+  "q": "During the Vmc demonstration, what tells you to begin the recovery?",
+  "a": "First loss of directional control, stall warning, or buffet",
+  "d": [
+   "Airspeed decaying to 10 knots below the published Vsse",
+   "The airspeed reaching the red-line Vmc marked on the airspeed indicator",
+   "A heading change of 20° from the entry heading"
+  ],
+  "why": "Recover at the first of those three cues. Don't wait for the red line — at altitude, actual Vmc can be below it, so the stall can come first. The 20° figure is the heading limit for completing the recovery, not the cue to start it.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-075",
+  "topic": "acs",
+  "q": "How does the ACS describe the Vmc demonstration recovery?",
+  "a": "Reduce operating-engine power and lower the nose together",
+  "d": [
+   "Add power on the idle engine while lowering the nose",
+   "Add full power on the good engine and pitch up to hold altitude",
+   "Lower the nose first, then reduce power afterward"
+  ],
+  "why": "Recover by simultaneously reducing power on the operating engine (less asymmetric thrust) and lowering the angle of attack to regain speed and control — without adding power on the simulated failed engine.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-076",
+  "topic": "acs",
+  "q": "During the Vmc demonstration recovery, what heading tolerance does the ACS require (Private or Commercial)?",
+  "a": "Within 20° of the entry heading",
+  "d": [
+   "Within 10° of the entry heading",
+   "Within 5° of the entry heading",
+   "Within 30° of the entry heading"
+  ],
+  "why": "The recovery must be completed within 20° of the entry heading, then power is added smoothly and the airplane accelerated to Vsse/Vyse.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-077",
+  "topic": "acs",
+  "q": "On a Private checkride, you recover from the Vmc demo and accelerate to a Vyse of 88 knots. What range meets the ACS?",
+  "a": "83 to 98 knots",
+  "d": [
+   "83 to 93 knots",
+   "78 to 98 knots",
+   "88 to 98 knots"
+  ],
+  "why": "Private allows +10/−5 knots of Vsse/Vyse during the recovery: 88 − 5 = 83, 88 + 10 = 98. Commercial is ±5 (83 to 93).",
+  "src": "OEG 4T · ACS PA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-078",
+  "topic": "acs",
+  "q": "An applicant plans to start the Vmc demo by pitching steeply nose-up on both engines and then pulling the critical engine to idle. Per the ACS note, this is:",
+  "a": "Hazardous and may cause loss of control",
+  "d": [
+   "Preferred, since it saves altitude",
+   "Acceptable if bank stays under 5°",
+   "Required above 5,000 feet density altitude"
+  ],
+  "why": "The ACS specifically warns against this entry: chopping an engine at a high pitch attitude and low speed can produce a sudden loss of control. Reduce power first, then slow gradually.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-079",
+  "topic": "acs",
+  "q": "In a normally aspirated twin at higher altitudes, why does the ACS stress recovering at the first sign of trouble in the Vmc demo?",
+  "a": "Power loss with altitude can put Vmc below stall speed",
+  "d": [
+   "Vmc rises above Vyse as density altitude increases",
+   "Rudder authority increases as altitude increases",
+   "Stall speed decreases below Vmc at high altitude"
+  ],
+  "why": "Less power from the good engine means less yaw, so Vmc decreases with altitude while stall speed doesn't. Where Vmc is below stall speed, a stall with asymmetric power can come first and lead to a spin.",
+  "src": "OEG 4T · ACS PA.X.B/CA.X.B · FAA-P-8740-66",
+  "loc": "oeg 069"
+ },
+ {
+  "id": "o8-080",
+  "topic": "acs",
+  "q": "You do not hold an instrument–airplane rating. Which ACS tasks are not required on your multi-engine checkride?",
+  "a": "OEI flight by instruments and the OEI instrument approach",
+  "d": [
+   "The Vmc demonstration and the OEI maneuvering task",
+   "Engine failure after liftoff and the OEI visual landing",
+   "The OEI visual landing and the OEI instrument approach"
+  ],
+  "why": "Both the one-engine-inoperative flight solely by reference to instruments and the instrument approach with an inoperative engine carry a note: not required without an instrument–airplane rating.",
+  "src": "OEG 4U/4V · ACS PA.X.C/CA.X.C, PA.X.D/CA.X.D · FAA-P-8740-66",
+  "loc": "oeg 070"
+ },
+ {
+  "id": "o8-081",
+  "topic": "acs",
+  "q": "On a simulated engine failure in instrument conditions, the airplane can't hold altitude at the best single-engine speed. What does the ACS expect?",
+  "a": "Assess performance and choose a safe-landing plan",
+  "d": [
+   "Hold altitude even if the airspeed decays below Vyse",
+   "Continue to the destination as originally planned",
+   "Unfeather and restart the engine before deciding"
+  ],
+  "why": "The task requires assessing the airplane's capability, deciding on an action that ensures a safe landing, and never flying contrary to the engine-inoperative limitations (e.g., trading Vyse for altitude).",
+  "src": "OEG 4U · ACS PA.X.C/CA.X.C · FAA-P-8740-66",
+  "loc": "oeg 070"
+ },
+ {
+  "id": "o8-082",
+  "topic": "acs",
+  "q": "On the final approach segment of a simulated OEI instrument approach, how much course/glidepath deflection does the ACS allow (Private or Commercial)?",
+  "a": "Within ¾-scale deflection",
+  "d": [
+   "Within ½-scale deflection",
+   "Within full-scale deflection",
+   "Within ¼-scale deflection"
+  ],
+  "why": "Keep lateral and (if applicable) vertical guidance within ¾-scale deflection. The task's other tolerances are altitude ±100 feet (or minimum sink), airspeed ±10 knots, and heading ±10°.",
+  "src": "OEG 4V · ACS PA.X.D/CA.X.D · FAA-P-8740-66",
+  "loc": "oeg 070"
+ },
+ {
+  "id": "o8-083",
+  "topic": "acs",
+  "q": "On a simulated OEI instrument approach, what should your rate of descent accomplish per the ACS?",
+  "a": "Reach MDA or DA/DH positioned to land straight-in or circling",
+  "d": [
+   "Reach the FAF already level at the MDA or DA/DH",
+   "Stay at the MEA until the runway environment is in sight",
+   "Hold a fixed 1,000 fpm descent all the way to minimums"
+  ],
+  "why": "The descent rate must get you to the MDA or DA/DH positioned for a normal descent to the intended runway, straight-in or circling. If circling, you must follow the published criteria for your approach category.",
+  "src": "OEG 4V · ACS PA.X.D/CA.X.D · FAA-P-8740-66",
+  "loc": "oeg 070"
+ },
+ {
+  "id": "o8-084",
+  "topic": "acs",
+  "q": "Which is a skill element of the ACS After Landing, Parking, and Securing task?",
+  "a": "A postflight inspection noting discrepancies and servicing",
+  "d": [
+   "Recomputing the weight and balance for the next planned flight",
+   "Refueling to full tanks before leaving the airplane",
+   "Topping off engine oil to the maximum dipstick mark"
+  ],
+  "why": "The task: park in an appropriate area considering nearby people and property, complete the checklists, do a postflight inspection documenting discrepancies and servicing needs, and secure the airplane.",
+  "src": "OEG 4W · ACS PA.XII.A/CA.XI.A · FAA-H-8083-3",
+  "loc": "oeg 071"
+ },
+ {
+  "id": "o8-085",
+  "topic": "acs",
+  "q": "Your passengers want to walk across the ramp to the FBO while another twin is running up nearby. Which ACS after-landing risk applies most directly?",
+  "a": "Disembarking passengers safely and monitoring them",
+  "d": [
+   "Confirmation or expectation bias in taxi instructions",
+   "Wake turbulence behind departing or landing traffic",
+   "A runway incursion at the hold-short line"
+  ],
+  "why": "The parking task's risk list covers activities and distractions, airport-specific security procedures, and getting passengers off the airplane and across the ramp safely.",
+  "src": "OEG 4W · ACS PA.XII.A/CA.XI.A · FAA-H-8083-3",
+  "loc": "oeg 071"
+ },
+ {
+  "id": "o8-086",
+  "topic": "acs",
+  "q": "On a Private checkride, when does the ACS have you recover from a power-on stall?",
+  "a": "Promptly after a full stall occurs",
+  "d": [
+   "At the first indication of a stall, always",
+   "First indication or full stall, as the evaluator says",
+   "Once the nose has dropped through the horizon"
+  ],
+  "why": "The Private standard is to acknowledge the impending-stall cues and recover promptly once the full stall occurs. Letting the evaluator choose first indication or full stall is the Commercial standard.",
+  "src": "OEG 4K · ACS PA.VII.C · FAA-H-8083-3",
+  "loc": "oeg 065"
+ },
+ {
+  "id": "o8-087",
+  "topic": "acs",
+  "q": "On a Private checkride, the recommended single-engine approach speed is 95 knots. What range meets the ACS until landing is assured?",
+  "a": "90 to 105 knots",
+  "d": [
+   "90 to 100 knots",
+   "85 to 105 knots",
+   "95 to 105 knots"
+  ],
+  "why": "Private allows +10/−5 knots of the recommended engine-inoperative approach speed: 95 − 5 = 90 and 95 + 10 = 105. A Commercial applicant must hold ±5 knots, or 90 to 100.",
+  "src": "OEG 4R · ACS PA.IX.G · FAA-P-8740-66",
+  "loc": "oeg 068"
+ }
 ]

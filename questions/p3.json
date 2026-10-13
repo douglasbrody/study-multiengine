@@ -1,0 +1,1256 @@
+[
+ {
+  "id": "p3-001",
+  "topic": "s-wb",
+  "q": "Where is the reference datum for Seneca I weight and balance?",
+  "a": "78.4 in ahead of the wing leading edge, at the inboard tank's inboard edge",
+  "d": [
+   "At the wing leading edge itself, at the inboard tank's inboard edge",
+   "78.4 in ahead of the main wheel centerline, at the fuselage side",
+   "At the front face of the nose cone, ahead of the forward baggage door"
+  ],
+  "why": "The POH places the datum 78.4 inches forward of the wing leading edge, measured at the inboard edge of the inboard fuel tank. All arms are inches aft of that point, which is why nearly every arm is positive.",
+  "src": "OEG App 2 · POH 4-4 · POH 3-3",
+  "loc": "poh 115",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-043: datum 78.4 in forward of the wing leading edge)"
+ },
+ {
+  "id": "p3-002",
+  "topic": "s-wb",
+  "q": "What arm does the Seneca loading form use for the pilot and front passenger?",
+  "a": "85.5 in",
+  "d": [
+   "93.6 in",
+   "118.1 in",
+   "78.4 in"
+  ],
+  "why": "The sample loading form lists the pilot and front passenger at 85.5 in aft of datum. 93.6 in is usable fuel, 118.1 in is the center seats, and 78.4 in is the datum-to-leading-edge distance.",
+  "src": "POH 4-7",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-003",
+  "topic": "s-wb",
+  "q": "What arms does the loading form give for the center (middle) seats and the rear seats (seats 5 and 6)?",
+  "a": "Center seats 118.1 in; rear seats 155.7 in",
+  "d": [
+   "Center seats 155.7 in; rear seats 178.7 in",
+   "Center seats 85.5 in; rear seats 118.1 in",
+   "Center seats 118.1 in; rear seats 178.7 in"
+  ],
+  "why": "Center passengers are at 118.1 in and rear passengers at 155.7 in (the optional jump seat also uses 118.1 in). 178.7 in is the aft baggage compartment, behind the rear seats.",
+  "src": "POH 4-7",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-004",
+  "topic": "s-wb",
+  "q": "What arm is used for usable fuel on the Seneca loading form?",
+  "a": "93.6 in",
+  "d": [
+   "103.0 in",
+   "85.5 in",
+   "118.1 in"
+  ],
+  "why": "Usable fuel (93 gallons maximum on the form) is entered at 93.6 in. The 103.0-in arm belongs to the 5 gallons of unusable fuel, which is already part of licensed empty weight.",
+  "src": "POH 4-7 · POH 4-5",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-005",
+  "topic": "s-wb",
+  "q": "What are the arms of the forward (nose) and aft baggage compartments?",
+  "a": "22.5 in forward and 178.7 in aft",
+  "d": [
+   "22.5 in forward and 155.7 in aft",
+   "-7.8 in forward and 178.7 in aft",
+   "43.2 in forward and 178.7 in aft"
+  ],
+  "why": "Forward baggage is at 22.5 in and aft baggage at 178.7 in, the two extremes of the loading form. Because the aft compartment has the longest arm, its weight moves the CG aft the most per pound.",
+  "src": "POH 4-7",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-006",
+  "topic": "s-wb",
+  "q": "Where are the Seneca I's two baggage compartments, and how is each one reached?",
+  "a": "Nose, via a left-side door; aft of seats 5 and 6, via the rear cabin door",
+  "d": [
+   "Nose, via a right-side door; aft of seats 5 and 6, via the rear cabin door",
+   "Nose, via a left-side door; in each engine nacelle, via a top hatch",
+   "Aft of seats 5 and 6 only, via a separate right-side baggage door"
+  ],
+  "why": "The nose compartment (15.3 cu ft) has its own baggage door on the left side. The aft compartment (20 cu ft) behind seats 5 and 6 is reached through the left rear cabin door and can be reached in flight. Each is limited to 100 lb, and the aft placard warns against heavy objects on the hat shelf.",
+  "src": "OEG App 2 · POH 2-26 · POH 1-2 · POH 3-4",
+  "loc": "poh 046"
+ },
+ {
+  "id": "p3-007",
+  "topic": "s-wb",
+  "q": "At the maximum weight of 4,200 lb, what is the approved CG range?",
+  "a": "87.9 to 94.6 in aft of datum",
+  "d": [
+   "80.7 to 94.6 in aft of datum",
+   "82.0 to 94.6 in aft of datum",
+   "84.0 to 92.0 in aft of datum"
+  ],
+  "why": "The limitations table gives a forward limit of 87.9 in at 4,200 lb and an aft limit of 94.6 in. The 80.7-in and 82.0-in forward limits apply only at 2,780 lb and 3,400 lb.",
+  "src": "POH 3-3 · POH 4-9",
+  "loc": "poh 061",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-041: 87.9-in forward limit at 4,200 lb; p2-040: 94.6-in aft limit)"
+ },
+ {
+  "id": "p3-008",
+  "topic": "s-wb",
+  "q": "What are the Seneca I forward CG limits at 2,780 lb and at 3,400 lb?",
+  "a": "80.7 in at 2,780 lb and 82.0 in at 3,400 lb",
+  "d": [
+   "82.0 in at 2,780 lb and 87.9 in at 3,400 lb",
+   "80.7 in at both weights",
+   "78.4 in at 2,780 lb and 80.7 in at 3,400 lb"
+  ],
+  "why": "Forward limits: 80.7 in at 2,780 lb, 82.0 in at 3,400 lb, 87.9 in at 4,200 lb, varying in a straight line between those points. The aft limit is 94.6 in at all weights.",
+  "src": "POH 3-3 · POH 4-9",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p3-009",
+  "topic": "s-wb",
+  "q": "Your loading works out to 4,200 lb with the CG at 87.0 in. Is it within limits?",
+  "a": "No; it is forward of the 87.9-in forward limit at that weight",
+  "d": [
+   "Yes; it is aft of the 80.7-in forward limit",
+   "Yes; only the 94.6-in aft limit applies at gross weight",
+   "No; it is aft of the aft limit at that weight"
+  ],
+  "why": "The forward limit moves aft as weight increases, reaching 87.9 in at 4,200 lb. A CG of 87.0 in is fine at light weights but forward of the envelope at gross weight; move load aft or reduce weight.",
+  "src": "POH 3-3 · POH 4-9",
+  "loc": "poh 120"
+ },
+ {
+  "id": "p3-010",
+  "topic": "s-wb",
+  "q": "At the 4,000-lb maximum landing weight, about where is the Seneca's forward CG limit?",
+  "a": "About 86.4 in, on a straight line between 82.0 in and 87.9 in",
+  "d": [
+   "82.0 in, because the 3,400-lb limit applies up to gross",
+   "87.9 in, because the gross-weight limit applies above 3,400 lb",
+   "About 85.0 in, halfway between the 3,400-lb and 4,200-lb limits"
+  ],
+  "why": "The limits vary in a straight line between the tabulated points. 4,000 lb is three-quarters of the way from 3,400 lb (82.0 in) to 4,200 lb (87.9 in): 82.0 + 0.75 x 5.9 = about 86.4 in. 85.0 in is the limit at 3,800 lb.",
+  "src": "POH 3-3 · POH 4-9",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p3-011",
+  "topic": "s-wb",
+  "q": "What are the Seneca I's maximum takeoff and maximum landing weights?",
+  "a": "4,200 lb takeoff and 4,000 lb landing",
+  "d": [
+   "4,200 lb for both takeoff and landing",
+   "4,000 lb takeoff and 3,800 lb landing",
+   "4,500 lb takeoff and 4,200 lb landing"
+  ],
+  "why": "The limitations list a maximum weight of 4,200 lb and a maximum landing weight of 4,000 lb; both are marked on the weight vs. CG envelope.",
+  "src": "OEG App 2 · POH 3-3 · POH 4-9",
+  "loc": "poh 061",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-038: 4,200-lb takeoff / 4,000-lb landing); p1-012 is also dropped"
+ },
+ {
+  "id": "p3-012",
+  "topic": "s-wb",
+  "q": "Which of these weight limits does the Seneca I POH NOT list?",
+  "a": "A separate maximum ramp (taxi) weight",
+  "d": [
+   "A maximum takeoff weight",
+   "A maximum landing weight",
+   "A maximum weight for each baggage compartment"
+  ],
+  "why": "The POH lists a 4,200-lb maximum (takeoff) weight, a 4,000-lb maximum landing weight and 100 lb per baggage compartment, and a placard requires all weight above 4,000 lb to be fuel, which works as a zero-fuel limit. No ramp weight is given, so the 4,200-lb maximum applies on the ramp too.",
+  "src": "OEG App 2 · POH 3-3 · POH 3-4 · POH 1-2",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p3-013",
+  "topic": "s-wb",
+  "q": "You take off at exactly 4,200 lb. About how much fuel must you burn before you are at maximum landing weight?",
+  "a": "About 200 lb, roughly 33 gallons",
+  "d": [
+   "About 100 lb, roughly 17 gallons",
+   "None; 4,200 lb is also the landing limit",
+   "About 400 lb, roughly 67 gallons"
+  ],
+  "why": "Maximum landing weight is 4,000 lb, so 200 lb must be burned. At the POH's 6 lb/gal that is about 33 gallons.",
+  "src": "POH 3-3 · POH 4-8",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p3-014",
+  "topic": "s-wb",
+  "q": "Per N56307's 2022 weight and balance report, what is the airplane's corrected empty weight?",
+  "a": "2,831.0 lb",
+  "d": [
+   "3,389.0 lb",
+   "2,625 lb",
+   "2,743 lb"
+  ],
+  "why": "The 11/18/2022 report weighed N56307 at 3,389.0 lb with its usable fuel aboard, then removed 558 lb of usable fuel to get a corrected empty weight of 2,831.0 lb. 2,625 lb is the POH's approximate standard empty weight; 2,743 lb is the minimum weight on the maneuvering-speed placard.",
+  "src": "N56307 W&B report 11/18/2022 · POH 1-2",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ },
+ {
+  "id": "p3-015",
+  "topic": "s-wb",
+  "q": "What empty-weight CG does N56307's 2022 weight and balance report show?",
+  "a": "85.00 in aft of datum",
+  "d": [
+   "86.42 in aft of datum",
+   "82.00 in aft of datum",
+   "80.70 in aft of datum"
+  ],
+  "why": "The corrected empty weight of 2,831.0 lb has a moment of 240,641.4 in-lb, so the CG is 85.00 in. 86.42 in is the as-weighed CG with usable fuel aboard; 82.0 in is the basic CG in the POH plotter sample; 80.7 in is the forward limit at 2,780 lb.",
+  "src": "N56307 W&B report 11/18/2022",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ },
+ {
+  "id": "p3-016",
+  "topic": "s-wb",
+  "q": "What useful load does N56307's 2022 weight and balance report list?",
+  "a": "1,369.0 lb",
+  "d": [
+   "1,575 lb",
+   "1,169.0 lb",
+   "811.0 lb"
+  ],
+  "why": "Useful load is maximum weight minus empty weight: 4,200 - 2,831.0 = 1,369.0 lb. 1,575 lb is the POH's approximate figure for a standard airplane; 1,169 lb (4,000 - 2,831) is the most non-fuel load the 4,000-lb placard allows; 811 lb (4,200 - 3,389) is what remains with full usable fuel.",
+  "src": "N56307 W&B report 11/18/2022 · POH 4-6",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ },
+ {
+  "id": "p3-017",
+  "topic": "s-wb",
+  "q": "N56307 (2,831.0 lb at 85.00 in) carries 380 lb in front, 250 lb center, 180 lb rear, 60 gal, 50 lb nose and 45 lb aft baggage. Result?",
+  "a": "4,096 lb at 91.20 in, within the envelope",
+  "d": [
+   "3,880 lb at 89.52 in, within the envelope",
+   "4,096 lb at 91.20 in, aft of the aft CG limit",
+   "4,654 lb at 91.49 in, over maximum takeoff weight"
+  ],
+  "why": "Weight: 2,831.0 + 380 + 250 + 180 + 360 (60 gal x 6) + 50 + 45 = 4,096 lb. Moment: 240,641.4 + 32,490 + 29,525 + 28,026 + 33,696 + 1,125 + 8,041.5 = 373,544.9 in-lb, so CG = 91.20 in, between the forward limit (about 87.1 in at 4,096 lb) and the 94.6-in aft limit; without fuel it weighs 3,736 lb, under the 4,000-lb placard limit. 3,880 lb is the POH plotter sample's answer; 4,654 lb comes from wrongly starting at the as-weighed 3,389 lb.",
+  "src": "N56307 W&B report 11/18/2022 · POH 4-7 · POH 3-3",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-018",
+  "topic": "s-wb",
+  "q": "N56307 takes off at 4,096 lb, CG within limits, and must return to land 10 minutes later. Which limit is the concern?",
+  "a": "It will still be over the 4,000-lb maximum landing weight",
+  "d": [
+   "None; a takeoff inside the envelope is good for landing too",
+   "The CG will have moved aft of the 94.6-in limit as fuel burned",
+   "None; the 4,200-lb maximum weight also applies to landing"
+  ],
+  "why": "Takeoff at 4,096 lb is legal, but maximum landing weight is 4,000 lb, so about 96 lb (16 gal) must burn off first. Even at the 19.2-GPH red-line fuel flow on both engines, 10 minutes burns only about 6 gal. The POH says fuel burn does not significantly affect the CG.",
+  "src": "POH 3-3 · POH 3-2 · POH 4-10",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p3-019",
+  "topic": "s-wb",
+  "q": "What does full usable fuel (93 gal) weigh for Seneca loading purposes?",
+  "a": "558 lb",
+  "d": [
+   "588 lb",
+   "623 lb",
+   "480 lb"
+  ],
+  "why": "The loading graph uses 6 lb/gal, so 93 usable gallons weigh 558 lb. 588 lb would be all 98 gallons, but the 5 unusable gallons are already in the empty weight; 623 lb would use Jet-A's 6.7 lb/gal.",
+  "src": "POH 4-8 · POH 3-3",
+  "loc": "poh 119"
+ },
+ {
+  "id": "p3-020",
+  "topic": "s-wb",
+  "q": "N56307 (useful load 1,369 lb) is filled with all 93 gal of usable fuel. About how much is left for people and bags?",
+  "a": "About 811 lb",
+  "d": [
+   "About 1,369 lb",
+   "About 1,169 lb",
+   "About 781 lb"
+  ],
+  "why": "1,369 - 558 (93 gal x 6 lb/gal) = 811 lb: four 170-lb adults and about 130 lb of bags, not seven people. The POH warns you cannot fill the airplane with seven adults and full fuel. 781 lb wrongly subtracts all 98 gal; the unusable fuel is already in the empty weight. CG must still be checked.",
+  "src": "OEG App 2 · N56307 W&B report 11/18/2022 · POH 4-1",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ },
+ {
+  "id": "p3-021",
+  "topic": "s-wb",
+  "q": "Per the POH, what happens to the Seneca's weight and CG as fuel is burned?",
+  "a": "CG changes little; it moves down the fuel line and stays in the envelope",
+  "d": [
+   "The CG moves well aft, because the fuel tanks are forward of the CG",
+   "The CG moves well forward, often past the forward limit for landing",
+   "Nothing changes, because the fuel tanks sit right at the datum"
+  ],
+  "why": "The POH states that fuel burn-off and gear movement do not significantly affect the CG; in the plotter sample the point follows the fuel line down and stays in the envelope for landing. Gear retraction changes the moment by only -32 in-lb.",
+  "src": "OEG App 2 · POH 4-10 · POH 4-11 · POH 4-9",
+  "loc": "poh 121"
+ },
+ {
+  "id": "p3-022",
+  "topic": "s-wb",
+  "q": "In the Seneca POH, what does 'basic weight' include?",
+  "a": "Empty weight plus unusable fuel and full oil",
+  "d": [
+   "Empty weight plus full usable fuel and oil",
+   "Empty weight plus the pilot and full oil",
+   "Empty weight only, without unusable fuel or oil"
+  ],
+  "why": "Piper defines basic weight as empty weight plus unusable fuel and full oil capacity. On the form, licensed empty weight adds the unusable fuel (5 gal, 30 lb at 103.0 in), and basic weight then adds the oil (16 qt, 30 lb at 49.0 in).",
+  "src": "POH 4-1 · POH 4-6",
+  "loc": "poh 112"
+ },
+ {
+  "id": "p3-023",
+  "topic": "s-wb",
+  "q": "How is unusable fuel handled on the Seneca weight and balance form?",
+  "a": "5 gal (30 lb) at 103.0 in, added to reach licensed empty weight",
+  "d": [
+   "5 gal (30 lb) at 93.6 in, entered on the form with the usable fuel",
+   "2.5 gal (15 lb) at 103.0 in, ignored as negligible for W&B",
+   "16 qt (30 lb) at 49.0 in, added to reach the basic weight"
+  ],
+  "why": "The form adds 30 lb of unusable fuel at 103.0 in (moment 3,090) to the as-weighed empty weight to get licensed empty weight. The 2.5-gallon figure is per side; 16 qt at 49.0 in is the oil entry.",
+  "src": "POH 4-5 · POH 4-6",
+  "loc": "poh 116"
+ },
+ {
+  "id": "p3-024",
+  "topic": "s-wb",
+  "q": "On the Seneca form, how is useful load (normal category) defined?",
+  "a": "Gross weight (4,200 lb) minus licensed empty weight",
+  "d": [
+   "Gross weight minus basic weight and full fuel",
+   "Landing weight (4,000 lb) minus licensed empty weight",
+   "Gross weight minus empty weight and the pilot"
+  ],
+  "why": "Useful load = 4,200 lb - licensed empty weight. The POH notes that useful load covers fuel, oil, baggage, cargo and passengers.",
+  "src": "POH 4-6 · POH 4-2",
+  "loc": "poh 117"
+ },
+ {
+  "id": "p3-025",
+  "topic": "s-wb",
+  "q": "After new equipment is installed in the Seneca, who must compute the new basic weight and CG, and where is it recorded?",
+  "a": "The mechanic doing the work, in the aircraft logbook",
+  "d": [
+   "The pilot, on the weight and balance plotter only",
+   "Piper, by issuing a revised POH weight page",
+   "The owner, at the next annual inspection"
+  ],
+  "why": "The POH says the mechanic responsible for the work must compute a new basic weight and CG and enter them in the aircraft logbook. The owner should make sure it is done and update the plotter, and the current values should always be used.",
+  "src": "POH 4-1",
+  "loc": "poh 112"
+ },
+ {
+  "id": "p3-026",
+  "topic": "s-wb",
+  "q": "When weighing the Seneca per the POH, how is the fuel handled?",
+  "a": "Defuel, open all drains, then run each engine until it stops",
+  "d": [
+   "Fill all tanks and subtract the usable fuel weight",
+   "Drain the tanks only, leaving fuel in the lines and engines",
+   "Leave 2.5 gal in each wing as unusable fuel"
+  ],
+  "why": "The procedure defuels the airplane, drains through all fuel drains and runs each engine until the undrainable fuel is used and it stops. The 5 gallons of unusable fuel are then added back by calculation.",
+  "src": "POH 4-3",
+  "loc": "poh 114"
+ },
+ {
+  "id": "p3-027",
+  "topic": "s-wb",
+  "q": "Which is part of the POH's preparation for weighing the Seneca?",
+  "a": "Seats in the 4th notch aft of forward, flaps up, controls neutral",
+  "d": [
+   "Seats in the full forward position, flaps 25 degrees, controls neutral",
+   "Seats full aft, flaps fully down, tow bar removed and stowed",
+   "Seats removed, flaps up, all entrance and baggage doors open"
+  ],
+  "why": "Front seats go in the fourth notch aft of the forward position, flaps fully up, controls neutral, tow bar in its proper place and all doors closed. The airplane is weighed in a closed building, leveled by blocking the main oleos extended and deflating the nose tire.",
+  "src": "POH 4-3",
+  "loc": "poh 114"
+ },
+ {
+  "id": "p3-028",
+  "topic": "s-wb",
+  "q": "Per the POH, what can happen if the Seneca's CG is too far forward?",
+  "a": "It may be difficult to rotate for takeoff or for landing",
+  "d": [
+   "It may rotate early on takeoff and pitch up in the climb",
+   "Longitudinal stability drops and spin recovery gets harder",
+   "Stall speed rises but handling is otherwise unchanged"
+  ],
+  "why": "The POH warns that a forward CG can make it hard to rotate on takeoff or landing. Early rotation, pitch-up, reduced stability and harder spin recovery are the aft-CG problems.",
+  "src": "POH 4-1",
+  "loc": "poh 112"
+ },
+ {
+  "id": "p3-029",
+  "topic": "s-wb",
+  "q": "Per the POH, what can happen if the Seneca's CG is aft of the approved limit?",
+  "a": "Early rotation, pitch-up in climb, less stability, harder spin recovery",
+  "d": [
+   "Difficulty rotating for takeoff and a nose-heavy landing flare",
+   "A longer takeoff roll from extra tail-down force, but more stability",
+   "More longitudinal stability and easier spin recovery as CG moves aft"
+  ],
+  "why": "With an aft CG the airplane may rotate prematurely or pitch up in the climb, longitudinal stability is reduced, inadvertent stalls and spins become more likely, and spin recovery gets harder as the CG moves aft.",
+  "src": "POH 4-1",
+  "loc": "poh 112"
+ },
+ {
+  "id": "p3-030",
+  "topic": "s-wb",
+  "q": "The POH warns of a twin-specific penalty for loading the Seneca heavy. What is it?",
+  "a": "Less single-engine climb performance, losing a twin's main advantage",
+  "d": [
+   "A higher Vmc because rudder authority is reduced at high weight",
+   "A shorter accelerate-stop distance because of better braking traction",
+   "A lower stall speed that masks the approach to an engine-out stall"
+  ],
+  "why": "The POH says the heavier the airplane, the less single-engine climb it has, so the pilot may lose one of the advantages of twin-engine flight. The single-engine climb chart shows this: about 190 fpm at 4,200 lb vs. roughly 430 fpm at 3,400 lb at sea level.",
+  "src": "POH 4-1 · POH 8-8",
+  "loc": "poh 112"
+ },
+ {
+  "id": "p3-031",
+  "topic": "s-wb",
+  "q": "You remove the center seats and strap a 150-lb crate to the cabin floor. How should you check weight and balance?",
+  "a": "Work weight and moment by hand; the plotter doesn't cover that spot",
+  "d": [
+   "Use the plotter's center-seat slot, since the arm is about the same",
+   "Use the plotter's aft baggage slot, since all cargo counts as baggage",
+   "No check is needed as long as the total stays under 4,200 lb"
+  ],
+  "why": "The POH says the plotter does not cover cargo loaded anywhere other than the seats or baggage compartments, and that the computed method should be used when cargo is carried. You need the crate's actual arm.",
+  "src": "POH 4-10 · POH 4-2",
+  "loc": "poh 121"
+ },
+ {
+  "id": "p3-032",
+  "topic": "s-wb",
+  "q": "How is the Seneca weight and balance plotter used?",
+  "a": "Plot basic weight and CG, then chain a line along a slot for each load",
+  "d": [
+   "Plot each load from the basic point separately and average them",
+   "Plot total weight only; the plotter computes CG from fuel",
+   "Start at 4,200 lb and subtract each load along its slot"
+  ],
+  "why": "Plot the basic weight and CG, put the zero end of a slot on that dot, draw to the load's weight, then start the next slot from the end of that line. The final point gives takeoff weight and CG. Keep the plotter out of the sun; heat can warp it.",
+  "src": "POH 4-10",
+  "loc": "poh 121"
+ },
+ {
+  "id": "p3-033",
+  "topic": "s-wb",
+  "q": "In the POH plotter sample (basic 2,615 lb at 82.0 in, six occupants, 95 lb of bags, 60 gal of fuel), what is the result?",
+  "a": "3,880 lb at 89.52 in, within the envelope",
+  "d": [
+   "4,096 lb at 91.20 in, within the envelope",
+   "3,880 lb at 94.80 in, aft of the limit",
+   "4,240 lb at 89.52 in, over maximum weight"
+  ],
+  "why": "Loads: 380 lb front, 250 lb middle, 180 lb rear, 50 lb forward and 45 lb aft baggage, and 360 lb of fuel, giving 3,880 lb at 89.52 in, with room for more fuel. 4,096 lb at 91.20 in is the same load on N56307's heavier empty weight (2,831 lb at 85.00 in).",
+  "src": "POH 4-10 · POH 4-11",
+  "loc": "poh 122"
+ },
+ {
+  "id": "p3-034",
+  "topic": "s-wb",
+  "q": "Per the POH's CG range and weight instructions, once total weight and total moment are known, what do you do?",
+  "a": "Divide moment by weight, then plot weight and CG on the envelope",
+  "d": [
+   "Divide weight by moment, then plot moment on the envelope",
+   "Subtract the 78.4-in datum offset, then compare with 94.6 in",
+   "Multiply moment by 1,000, then compare with the plotter"
+  ],
+  "why": "Add the weights and moments (moments from the loading graph or weight x arm), divide total moment by total weight for the CG, and plot that point on the weight vs. CG graph. If it is inside the envelope, the loading is acceptable.",
+  "src": "POH 4-7",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-035",
+  "topic": "s-wb",
+  "q": "Which category and flaps-up load factor limit apply to the Seneca I?",
+  "a": "Normal category; +3.8 G, no inverted maneuvers approved",
+  "d": [
+   "Utility category; +4.4 G, no inverted maneuvers approved",
+   "Normal category; +6.0 G, spins approved",
+   "Acrobatic category; +6.0 G and -3.0 G"
+  ],
+  "why": "A placard requires operation as a normal category airplane with no acrobatic maneuvers, including spins. The flaps-up positive limit is 3.8 G and no inverted maneuvers are approved; the POH lists no separate flaps-down value.",
+  "src": "OEG App 2 · POH 3-2 · POH 3-3",
+  "loc": "poh 060",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-012: +3.8 G, no inverted maneuvers; p2-015: normal category, no spins)"
+ },
+ {
+  "id": "p3-036",
+  "topic": "s-wb",
+  "q": "Why does the battery have a negative arm (-7.8 in) in the Seneca equipment list?",
+  "a": "It is in the nose, forward of the datum",
+  "d": [
+   "It is in the tail cone, aft of the datum",
+   "Its weight is subtracted from empty weight",
+   "Negative arms mark optional equipment"
+  ],
+  "why": "Arms are measured aft of the datum, so anything ahead of it gets a negative arm. The 27-lb, 35-amp-hour battery is in the nose, reached through the forward baggage compartment, at -7.8 in.",
+  "src": "POH 4-16 · POH 2-12",
+  "loc": "poh 127"
+ },
+ {
+  "id": "p3-037",
+  "topic": "s-wb",
+  "q": "In the Seneca equipment list, what does an 'X' next to an item mean?",
+  "a": "It was installed when the airplane left the factory",
+  "d": [
+   "It is required equipment for night and IFR flight",
+   "It has since been removed from the airplane",
+   "It is inoperative and must be placarded"
+  ],
+  "why": "The equipment list notes that items marked 'X' were installed when Piper delivered the airplane. The list gives each item's weight, arm and moment for recomputing empty weight after changes.",
+  "src": "POH 4-13",
+  "loc": "poh 124"
+ },
+ {
+  "id": "p3-038",
+  "topic": "s-perf",
+  "q": "What does POH Section 8 say about values found by extrapolating beyond the chart limits?",
+  "a": "Do not use them for flight planning",
+  "d": [
+   "Use them only with an added 25% safety margin",
+   "Use them for takeoff but never for landing",
+   "They are valid below 8,000 ft density altitude"
+  ],
+  "why": "A warning at the start of Section 8 says performance derived by extrapolation beyond the charted limits should not be used for flight planning.",
+  "src": "POH Sec. 8 index",
+  "loc": "poh 180"
+ },
+ {
+  "id": "p3-039",
+  "topic": "s-perf",
+  "q": "Which Seneca performance charts are entered with density altitude instead of pressure altitude and temperature?",
+  "a": "The climb and cruise charts",
+  "d": [
+   "The takeoff and accelerate-stop charts",
+   "The landing distance charts",
+   "The stall speed charts"
+  ],
+  "why": "The multi-engine climb, single-engine climb, cruise speed and range charts have a density-altitude axis, so use the Altitude Conversion Chart (8-1) first. The takeoff, accelerate-stop and landing charts are entered with temperature (degrees F) and pressure altitude directly.",
+  "src": "POH 8-1 · POH 8-7 · POH 8-8 · POH 8-2",
+  "loc": "poh 182"
+ },
+ {
+  "id": "p3-040",
+  "topic": "s-perf",
+  "q": "Altitude Conversion Chart example: 25 degrees F at 8,000 ft pressure altitude. What density altitude results, and why?",
+  "a": "7,500 ft, because 25 degrees F is colder than standard",
+  "d": [
+   "8,500 ft, because 25 degrees F is warmer than standard",
+   "8,000 ft, because temperature does not change density altitude",
+   "10,500 ft, because cold air always raises density altitude"
+  ],
+  "why": "The chart's printed example gives 7,500 ft. Standard temperature at 8,000 ft is about 31 degrees F, so colder air makes the density altitude lower than the pressure altitude.",
+  "src": "POH 8-1",
+  "loc": "poh 182"
+ },
+ {
+  "id": "p3-041",
+  "topic": "s-perf",
+  "q": "What does the flaps-0 takeoff ground run chart (8-2) assume?",
+  "a": "80 MPH lift-off, full power before brake release, short-field effort",
+  "d": [
+   "70 MPH lift-off, full power before brake release, short-field effort",
+   "85 MPH lift-off, rolling takeoff, normal effort",
+   "90 MPH (Vx) lift-off, full power before brake release"
+  ],
+  "why": "Chart 8-2: flap setting 0 degrees, lift-off 80 MPH, full power before brake release, short-field effort, paved level dry runway. 70 MPH is the 25-degree-flap lift-off speed. Your school rotates at 75 MPH for the flaps-0 short-field takeoff; the chart's distances assume the 80-MPH lift-off.",
+  "src": "POH 8-2",
+  "loc": "poh 183"
+ },
+ {
+  "id": "p3-042",
+  "topic": "s-perf",
+  "q": "Chart 8-2 example: 70 degrees F, 2,000 ft pressure altitude, 3,600 lb, 10 MPH headwind, flaps 0. What is the ground run?",
+  "a": "900 ft",
+  "d": [
+   "1,650 ft",
+   "1,600 ft",
+   "615 ft"
+  ],
+  "why": "The printed example on the flaps-0 ground run chart gives 900 ft. 1,650 ft is the accelerate-stop answer for the same conditions; 615 ft is the landing ground roll example.",
+  "src": "POH 8-2",
+  "loc": "poh 183"
+ },
+ {
+  "id": "p3-043",
+  "topic": "s-perf",
+  "q": "You need the shortest ground roll at 4,200 lb on a sea-level standard day with no wind. With 25 degrees of flaps, the ground run is about:",
+  "a": "About 800 ft",
+  "d": [
+   "About 1,235 ft",
+   "About 1,600 ft",
+   "About 400 ft"
+  ],
+  "why": "Section 1 lists an 800-ft take-off run at 4,200 lb (short-field effort, flaps 25), and chart 8-3 gives the same at sea level standard with no wind. 1,235 ft is the distance over a 50-ft obstacle.",
+  "src": "POH 1-1 · POH 8-3",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-009 covers the 800-ft flaps-25 ground run)"
+ },
+ {
+  "id": "p3-044",
+  "topic": "s-perf",
+  "q": "Chart 8-3 example: 70 degrees F, 4,000 ft pressure altitude, 3,600 lb, 10 MPH headwind, 25 degrees flaps. What is the ground run?",
+  "a": "810 ft",
+  "d": [
+   "1,350 ft",
+   "1,650 ft",
+   "405 ft"
+  ],
+  "why": "The printed example on the 25-degree-flap ground run chart gives 810 ft. 1,350 ft is the distance over 50 ft for the same conditions (chart 8-4).",
+  "src": "POH 8-3",
+  "loc": "poh 184"
+ },
+ {
+  "id": "p3-045",
+  "topic": "s-perf",
+  "q": "What lift-off and 50-ft barrier speeds do the takeoff distance charts assume with 25-degree flaps (8-4) and with flaps 0 (8-5)?",
+  "a": "Flaps 25: 70 and 80 MPH; flaps 0: 80 and 85 MPH",
+  "d": [
+   "Flaps 25: 80 and 85 MPH; flaps 0: 70 and 80 MPH",
+   "Flaps 25: 70 and 90 MPH; flaps 0: 80 and 105 MPH",
+   "Flaps 25: 65 and 80 MPH; flaps 0: 85 and 90 MPH"
+  ],
+  "why": "Chart 8-4 (flaps 25) assumes a 70-MPH lift-off and 80 MPH at 50 ft; chart 8-5 (flaps 0) assumes an 80-MPH lift-off and 85 MPH at 50 ft, both with full power before brake release and short-field effort. Your school rotates at 75 MPH for the flaps-0 short-field takeoff; the chart's distances assume 80 MPH.",
+  "src": "POH 8-4 · POH 8-5 · POH 6-7",
+  "loc": "poh 185"
+ },
+ {
+  "id": "p3-046",
+  "topic": "s-perf",
+  "q": "What speeds does the flaps-0 takeoff distance over 50 ft chart (8-5) assume?",
+  "a": "Lift-off 80 MPH; 85 MPH at the 50-ft barrier",
+  "d": [
+   "Lift-off 70 MPH; 80 MPH at the 50-ft barrier",
+   "Lift-off 85 MPH; 90 MPH at the 50-ft barrier",
+   "Lift-off 80 MPH; 105 MPH at the 50-ft barrier"
+  ],
+  "why": "Chart 8-5 assumes flaps 0, full power before brake release, short-field effort, 80 MPH lift-off and 85 MPH at 50 ft, matching the POH's flaps-up short-field technique.",
+  "src": "POH 8-5 · POH 6-7",
+  "loc": "poh 186",
+  "drop": true,
+  "drop_reason": "merged into p3-045 (lift-off and barrier speeds of charts 8-4 and 8-5)"
+ },
+ {
+  "id": "p3-047",
+  "topic": "s-perf",
+  "q": "At 70 degrees F, 4,000 ft PA, 3,600 lb and 10 MPH headwind, how do the takeoff distances over 50 ft compare by flap setting?",
+  "a": "1,350 ft with 25 degrees of flaps vs 1,600 ft with flaps up",
+  "d": [
+   "1,600 ft with 25 degrees of flaps vs 1,350 ft with flaps up",
+   "810 ft with 25 degrees of flaps vs 900 ft with flaps up",
+   "1,350 ft with either flap setting"
+  ],
+  "why": "Both charts use the same example conditions: 1,350 ft with 25-degree flaps (8-4) and 1,600 ft with flaps 0 (8-5). 810 and 900 ft are ground-run examples, and the 900-ft one is at a different altitude.",
+  "src": "POH 8-4 · POH 8-5",
+  "loc": "poh 185"
+ },
+ {
+  "id": "p3-048",
+  "topic": "s-perf",
+  "q": "A 50-ft obstacle stands off the end of a sea-level runway. Standard day, 4,200 lb, no wind, 25 degrees of flaps: total distance to clear it?",
+  "a": "1,235 ft",
+  "d": [
+   "800 ft",
+   "1,650 ft",
+   "2,400 ft"
+  ],
+  "why": "Section 1 gives 1,235 ft over a 50-ft barrier at 4,200 lb (short-field effort, flaps 25), which matches chart 8-4 at sea level standard. 800 ft is the ground run alone.",
+  "src": "POH 1-1 · POH 8-4",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-009 covers the 1,235-ft flaps-25 distance over 50 ft)"
+ },
+ {
+  "id": "p3-049",
+  "topic": "s-perf",
+  "q": "At 4,200 lb, sea level standard, no wind, about what takeoff distance over 50 ft does the flaps-0 chart (8-5) give?",
+  "a": "About 1,400 ft",
+  "d": [
+   "About 800 ft",
+   "About 2,200 ft",
+   "About 3,000 ft"
+  ],
+  "why": "On chart 8-5 the sea-level line meets the standard-temperature curve at about 1,350 to 1,400 ft, read at the 4,200-lb reference line with no wind. That is a little longer than the 1,235 ft with 25-degree flaps.",
+  "src": "POH 8-5",
+  "loc": "poh 186"
+ },
+ {
+  "id": "p3-050",
+  "topic": "s-perf",
+  "q": "Why might you choose the longer flaps-up short-field takeoff over the 25-degree-flap technique?",
+  "a": "It keeps you at or above Vmc and best configured if an engine fails",
+  "d": [
+   "It gives the shortest ground roll and best obstacle clearance",
+   "The 25-degree chart is valid only below 3,600 lb",
+   "It uses less runway, since flaps add drag on the ground roll"
+  ],
+  "why": "The POH calls flaps-up the safest short-field technique when obstacle margins allow, because the airplane is best configured to hold altitude after an engine failure. With 25-degree flaps (70 MPH lift-off) it is momentarily below the 80-MPH Vmc.",
+  "src": "POH 6-7 · POH 8-5",
+  "loc": "poh 159",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p3-051",
+  "topic": "s-perf",
+  "q": "What does the accelerate-stop chart (8-6) assume?",
+  "a": "Flaps 0; accelerate to 80 MPH, then stop; full power before brake release",
+  "d": [
+   "Flaps 25; accelerate to 70 MPH, then stop; full power before brake release",
+   "Flaps 0; accelerate to 100 MPH, then stop; rolling start",
+   "Flaps 0; accelerate to 105 MPH (Vyse), then stop; rolling start"
+  ],
+  "why": "Chart 8-6: flap setting 0, accelerate to 80 MPH and then stop, full power before brake release, paved level dry runway. Note that the takeoff engine-failure procedure is written around 100 MPH CAS; a stop from a higher speed needs more runway than this chart shows.",
+  "src": "OEG App 2 · POH 8-6 · POH 3-12a",
+  "loc": "poh 187"
+ },
+ {
+  "id": "p3-052",
+  "topic": "s-perf",
+  "q": "Chart 8-6 example: 70 degrees F, 2,000 ft pressure altitude, 3,600 lb, 10 MPH headwind. What accelerate-stop distance does it give?",
+  "a": "1,650 ft",
+  "d": [
+   "900 ft",
+   "1,100 ft",
+   "3,300 ft"
+  ],
+  "why": "The accelerate-stop chart's printed example gives 1,650 ft. Under the same conditions the flaps-0 ground run (chart 8-2) is only 900 ft: accelerating to 80 MPH and then braking to a stop nearly doubles the runway needed.",
+  "src": "OEG App 2 · POH 8-6 · POH 8-2",
+  "loc": "poh 187"
+ },
+ {
+  "id": "p3-053",
+  "topic": "s-perf",
+  "q": "You are planning a sea level standard departure at 4,200 lb with no wind. About what accelerate-stop distance does chart 8-6 give?",
+  "a": "About 2,000 ft",
+  "d": [
+   "About 1,000 ft",
+   "About 3,000 ft",
+   "About 4,200 ft"
+  ],
+  "why": "On chart 8-6 the sea-level line meets the standard-temperature curve at about 2,000 ft on the 4,200-lb reference line; with no wind that is the answer. Compare about 1,000 ft for the flaps-0 ground run alone.",
+  "src": "OEG App 2 · POH 8-6",
+  "loc": "poh 187"
+ },
+ {
+  "id": "p3-054",
+  "topic": "s-perf",
+  "q": "Where do you find the Seneca I's accelerate-go distance?",
+  "a": "Nowhere; the POH has no accelerate-go chart",
+  "d": [
+   "Chart 8-6, below the accelerate-stop curves",
+   "Chart 8-8, the single-engine climb chart",
+   "The Section 1 specifications at 4,200 lb"
+  ],
+  "why": "Section 8 contains takeoff ground run, takeoff over 50 ft, accelerate-stop, climb, cruise, stall and landing charts, but no accelerate-go data. The POH leaves the continue-or-stop decision to pilot judgment based on loading, density altitude, obstructions, weather and competence; the single-engine climb chart shows what climb to expect.",
+  "src": "OEG App 2 · POH Sec. 8 index · POH 3-12a",
+  "loc": "poh 180"
+ },
+ {
+  "id": "p3-055",
+  "topic": "s-perf",
+  "q": "You plan to depart a wet grass strip with a slight upslope. How do the Seneca takeoff charts apply?",
+  "a": "Actual distances will be longer than the charts show",
+  "d": [
+   "The charts are valid; only a tailwind needs correction",
+   "Use the 25-degree chart, which already allows for grass",
+   "Reduce the chart values by 25%, per the chart note"
+  ],
+  "why": "Every takeoff and landing chart assumes a paved, level, dry runway. The POH says chart performance is reduced by uphill gradient, tailwind, and soft, wet, rough or grassy surfaces. The 25% note concerns heavy-duty brakes on landing, not grass.",
+  "src": "POH 6-7 · POH 8-2",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p3-056",
+  "topic": "s-perf",
+  "q": "In what order do you work a Seneca takeoff or landing distance chart?",
+  "a": "Temperature up to pressure altitude, across to weight, then headwind",
+  "d": [
+   "Density altitude up to weight, then across to headwind",
+   "Weight up to temperature, across to pressure altitude, then wind",
+   "Headwind first, then weight, then temperature and altitude"
+  ],
+  "why": "Each chart is entered with outside air temperature (degrees F), up to the pressure-altitude line, across to the reference line, along the guide lines to the weight, then to the wind scale. The wind scale is headwind only, 0 to 30 MPH.",
+  "src": "POH 8-2 · POH 8-6 · POH 8-13",
+  "loc": "poh 183"
+ },
+ {
+  "id": "p3-057",
+  "topic": "s-perf",
+  "q": "What configuration does the multi-engine climb chart (8-7) assume?",
+  "a": "Gear up unless noted, flaps up, cowl flaps open, mixture leaned",
+  "d": [
+   "Gear down, flaps 25 degrees, cowl flaps closed, mixture rich",
+   "Gear up, flaps up, cowl flaps closed, mixture full rich",
+   "Gear up, flaps 10 degrees, cowl flaps half open, mixture leaned"
+  ],
+  "why": "Chart 8-7 conditions: gear up except as noted, flaps up, cowl flaps open, mixture leaned per Lycoming instructions. One line shows 4,200 lb with the gear down.",
+  "src": "POH 8-7",
+  "loc": "poh 188"
+ },
+ {
+  "id": "p3-058",
+  "topic": "s-perf",
+  "q": "On the multi-engine climb chart, what best rate-of-climb speed is used with the gear down?",
+  "a": "92 MPH CAS at all altitudes",
+  "d": [
+   "105 MPH CAS at sea level, decreasing with altitude",
+   "90 MPH CAS (Vx) at all altitudes",
+   "100 MPH CAS at all altitudes"
+  ],
+  "why": "A chart note says the gear-down best rate-of-climb speed is 92 MPH CAS at all altitudes. Gear up, the best rate speed is about 105 MPH at sea level and decreases slightly with altitude.",
+  "src": "POH 8-7",
+  "loc": "poh 188"
+ },
+ {
+  "id": "p3-059",
+  "topic": "s-perf",
+  "q": "Chart 8-7 example: 4,000 lb at 5,000 ft density altitude, gear up. What rate and speed?",
+  "a": "1,100 fpm at 103 MPH",
+  "d": [
+   "1,460 fpm at 105 MPH",
+   "350 fpm at 98 MPH",
+   "1,100 fpm at 92 MPH"
+  ],
+  "why": "The printed example gives 1,100 fpm at a best rate-of-climb speed of 103 MPH. 1,460 fpm is the sea-level figure at 4,000 lb, and 350 fpm at 98 MPH is the single-engine chart's example.",
+  "src": "POH 8-7",
+  "loc": "poh 188"
+ },
+ {
+  "id": "p3-060",
+  "topic": "s-perf",
+  "q": "Per the POH Section 1 figures at 4,200 lb and sea level, about how much of the Seneca's climb rate is lost when one engine fails?",
+  "a": "About 86%, far more than half",
+  "d": [
+   "About 50%, since half the power is lost",
+   "About 25%, since only drag increases",
+   "All of it; it cannot climb at 4,200 lb"
+  ],
+  "why": "Section 1 lists 1,360 fpm on two engines and 190 fpm on one at 4,200 lb: (1,360 - 190) / 1,360 = about 86%. Losing half the power costs far more than half the climb, because climb comes only from the power left over after drag is overcome.",
+  "src": "POH 1-1 · POH 8-7 · POH 8-8",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p3-061",
+  "topic": "s-perf",
+  "q": "Which conditions does the single-engine climb chart (8-8) assume?",
+  "a": "Gear and flaps up, 5 degree bank toward the good engine, full throttle",
+  "d": [
+   "Gear down, flaps 25 degrees, wings level, full throttle",
+   "Gear and flaps up, wings level and ball centered, 75% power",
+   "Gear and flaps up, 5 degree bank toward the dead engine, full throttle"
+  ],
+  "why": "Chart 8-8: one engine inoperative, cowl flap open on the operating engine only, gear and flaps retracted, 5 degrees of bank into the operative engine, full throttle, mixture leaned.",
+  "src": "POH 8-8",
+  "loc": "poh 189"
+ },
+ {
+  "id": "p3-062",
+  "topic": "s-perf",
+  "q": "Chart 8-8 example: 3,400 lb at 2,000 ft density altitude, one engine inoperative. What climb and speed?",
+  "a": "350 fpm at 98 MPH",
+  "d": [
+   "1,100 fpm at 103 MPH",
+   "190 fpm at 105 MPH",
+   "50 fpm at 90 MPH"
+  ],
+  "why": "The single-engine chart's printed example gives 350 fpm at 98 MPH. Its best-climb speed lines get slightly slower at lighter weights; near 4,000 to 4,200 lb they are about the 105-MPH blue line.",
+  "src": "POH 8-8",
+  "loc": "poh 189"
+ },
+ {
+  "id": "p3-063",
+  "topic": "s-perf",
+  "q": "At 4,000 lb, what are the Seneca I's single-engine service ceiling (50 fpm) and absolute ceiling, left engine out?",
+  "a": "5,200 ft service; 6,600 ft absolute",
+  "d": [
+   "3,650 ft service; 5,000 ft absolute",
+   "6,600 ft service; 5,200 ft absolute",
+   "18,800 ft service; 20,000 ft absolute"
+  ],
+  "why": "Section 1 lists 5,200 ft (service, 50 fpm) and 6,600 ft (absolute) at 4,000 lb. 3,650 and 5,000 ft are the 4,200-lb figures, and 18,800 and 20,000 ft are the two-engine ceilings at 4,000 lb. Shedding 200 lb buys about 1,500 ft of single-engine ceiling.",
+  "src": "OEG App 2 · POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p3-064",
+  "topic": "s-perf",
+  "q": "What are the Seneca I's two-engine service ceilings?",
+  "a": "17,900 ft at 4,200 lb; 18,800 ft at 4,000 lb",
+  "d": [
+   "19,400 ft at 4,200 lb; 20,000 ft at 4,000 lb",
+   "3,650 ft at 4,200 lb; 5,200 ft at 4,000 lb",
+   "15,000 ft at 4,200 lb; 16,000 ft at 4,000 lb"
+  ],
+  "why": "Section 1 gives service ceilings of 17,900 ft (4,200 lb) and 18,800 ft (4,000 lb). The absolute ceilings are 19,400 ft and 20,000 ft.",
+  "src": "OEG App 2 · POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p3-065",
+  "topic": "s-perf",
+  "q": "At 4,200 lb you must climb on one engine to 4,500 ft density altitude to clear terrain. What does the POH predict?",
+  "a": "Above the 3,650-ft SE service ceiling; expect well under 50 fpm",
+  "d": [
+   "Easy: the single-engine service ceiling at 4,200 lb is 5,200 ft",
+   "Easy: single-engine climb is about 190 fpm at every altitude",
+   "Impossible: the SE absolute ceiling at 4,200 lb is only 3,650 ft"
+  ],
+  "why": "At 4,200 lb the single-engine service ceiling (50 fpm) is 3,650 ft and the absolute ceiling is 5,000 ft. At 4,500 ft the airplane can still climb, but at well under 50 fpm, so reduce weight or plan a route that does not need it.",
+  "src": "POH 1-1 · POH 8-8",
+  "loc": "poh 189",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-008: same 4,500-ft single-engine climb scenario)"
+ },
+ {
+  "id": "p3-066",
+  "topic": "s-perf",
+  "q": "Cruising at 6,000 ft density altitude at 4,200 lb, you lose an engine. What does the POH predict?",
+  "a": "No climb; it's above the 5,000-ft SE absolute ceiling and will descend",
+  "d": [
+   "A 50-fpm climb, since 6,000 ft is the single-engine service ceiling",
+   "About 190 fpm of climb, the same as the sea-level figure",
+   "Level flight, if you hold a 5 degree bank into the dead engine"
+  ],
+  "why": "At 4,200 lb the single-engine absolute ceiling is 5,000 ft, so at 6,000 ft the airplane cannot hold altitude even when perfectly configured. It will drift down toward that altitude.",
+  "src": "POH 1-1 · POH 8-8",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p3-067",
+  "topic": "s-perf",
+  "q": "Per the POH, at what weight does the Seneca I's single-engine service ceiling equal 5,000 ft?",
+  "a": "4,030 lb",
+  "d": [
+   "4,200 lb",
+   "3,700 lb",
+   "3,400 lb"
+  ],
+  "why": "A Section 1 footnote says the 5,000-ft single-engine service ceiling occurs at 4,030 lb gross weight. It is 3,650 ft at 4,200 lb and 5,200 ft at 4,000 lb.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p3-068",
+  "topic": "s-perf",
+  "q": "Up to what weight can the Seneca I climb on one engine at sea level standard?",
+  "a": "Up to its 4,200-lb maximum, at about 190 fpm",
+  "d": [
+   "Only up to 4,000 lb, the maximum landing weight",
+   "Only up to 3,400 lb; above that it needs both engines",
+   "Only up to 4,030 lb; above that it cannot climb"
+  ],
+  "why": "Chart 8-8 and Section 1 show positive single-engine climb even at 4,200 lb: about 190 fpm at sea level, with an absolute ceiling of 5,000 ft. 4,030 lb is the weight for a 5,000-ft service ceiling, not a climb limit.",
+  "src": "OEG App 2 · POH 1-1 · POH 8-8",
+  "loc": "poh 189"
+ },
+ {
+  "id": "p3-069",
+  "topic": "s-perf",
+  "q": "What conditions does the cruise true-airspeed chart (8-9) assume?",
+  "a": "4,200 lb, gear and flaps up, cowl flaps closed, mixture leaned",
+  "d": [
+   "4,200 lb, gear up, cowl flaps open, mixture full rich",
+   "3,600 lb, gear and flaps up, cowl flaps closed, mixture leaned",
+   "4,000 lb, gear up, cowl flaps open, mixture leaned"
+  ],
+  "why": "Chart 8-9 is drawn for 4,200 lb gross weight, flaps up, gear up, cowl flaps closed and mixture leaned per Lycoming instructions, with lines for 45 to 75% power and full throttle at 2,400 and 2,700 RPM.",
+  "src": "POH 8-9",
+  "loc": "poh 190"
+ },
+ {
+  "id": "p3-070",
+  "topic": "s-perf",
+  "q": "On the cruise TAS chart, up to about what density altitude can you get 75% power at 2,400 RPM?",
+  "a": "About 6,000 ft",
+  "d": [
+   "About 9,000 ft",
+   "About 13,000 ft",
+   "About 18,000 ft"
+  ],
+  "why": "The 75% line ends at the full-throttle 2,400 RPM line near 6,000 ft (about 186 MPH TAS). 65% runs to about 9,000 ft, 55% to about 13,000 ft and 45% to about 18,500 ft.",
+  "src": "POH 8-9 · POH 1-1",
+  "loc": "poh 190"
+ },
+ {
+  "id": "p3-071",
+  "topic": "s-perf",
+  "q": "What conditions does the cruise range chart (8-10) assume?",
+  "a": "4,200 lb, 93 gal usable, 2,400 RPM, best economy, gear up",
+  "d": [
+   "4,200 lb, 98 gal usable, 2,700 RPM, best power, gear up",
+   "3,600 lb, 93 gal usable, 2,400 RPM, best power, gear up",
+   "4,200 lb, 93 gal usable, 2,100 RPM, full rich, gear up"
+  ],
+  "why": "The range chart assumes 4,200 lb, 98 gallons total (93 usable), 2,400 RPM, best economy mixture leaned per Lycoming instructions, gear up. Range is in statute miles.",
+  "src": "POH 8-10",
+  "loc": "poh 191"
+ },
+ {
+  "id": "p3-072",
+  "topic": "s-perf",
+  "q": "On the cruise range chart, what do the solid and dashed lines mean?",
+  "a": "Solid: no reserve; dashed: 45-min reserve at 55% power",
+  "d": [
+   "Solid: 45-min reserve at 55% power; dashed: no reserve",
+   "Solid: gear up; dashed: gear down",
+   "Solid: 2,400 RPM; dashed: 2,100 RPM"
+  ],
+  "why": "The legend shows solid lines for no reserve and dashed lines for a 45-minute reserve at 55% power. Higher altitude and lower power both increase range.",
+  "src": "POH 8-10",
+  "loc": "poh 191"
+ },
+ {
+  "id": "p3-073",
+  "topic": "s-perf",
+  "q": "You plan a 3-hour leg at 65% power. Using the range chart's fuel table, about how much fuel will both engines burn?",
+  "a": "About 55 gal",
+  "d": [
+   "About 62 gal",
+   "About 27 gal",
+   "About 48 gal"
+  ],
+  "why": "The table gives total (both engines) fuel flow: 75% 20.6, 65% 18.3, 55% 16.0 and 45% 14.0 GPH. 18.3 x 3 = about 55 gal. 62 gal would be 75% power, 48 gal 55% power, and 27 gal is what one engine alone would burn.",
+  "src": "POH 8-10 · POH 1-1",
+  "loc": "poh 191"
+ },
+ {
+  "id": "p3-074",
+  "topic": "s-perf",
+  "q": "The Section 8 stall-speed charts (8-11 and 8-12) are drawn for what power setting and gear position?",
+  "a": "Power off, gear extended; lines for flaps up and flaps 40 degrees",
+  "d": [
+   "Power off, gear retracted; lines for flaps up and flaps 40 degrees",
+   "Power on, gear extended; lines for flaps up and flaps 25 degrees",
+   "Power on, gear retracted; lines for flaps up and flaps 40 degrees"
+  ],
+  "why": "Both charts are labeled power off, with one line for gear extended and flaps retracted and one for gear extended and flaps 40 degrees; chart 8-12 is drawn at 4,200 lb. Stall speed falls with weight on 8-11 (at 3,800 lb about 72 MPH CAS flaps up and 65 MPH flaps 40) and rises with bank on 8-12.",
+  "src": "POH 8-11 · POH 8-12",
+  "loc": "poh 192"
+ },
+ {
+  "id": "p3-075",
+  "topic": "s-perf",
+  "q": "At 4,200 lb, power off, gear down, flaps 40 degrees, about what is the stall speed in a 60 degree bank (chart 8-12)?",
+  "a": "About 98 MPH CAS",
+  "d": [
+   "About 69 MPH CAS",
+   "About 108 MPH CAS",
+   "About 138 MPH CAS"
+  ],
+  "why": "The flaps-40 line rises from 69 MPH CAS wings level to about 98 MPH at 60 degrees, matching the AFM stall table. 108 MPH is the flaps-up line. A 60 degree bank doubles the load factor, which raises stall speed by about 1.41 times, not 2.",
+  "src": "POH 8-12 · POH 3-19",
+  "loc": "poh 193"
+ },
+ {
+  "id": "p3-076",
+  "topic": "s-perf",
+  "q": "What technique does the landing ground run chart (8-13) assume?",
+  "a": "67 MPH touchdown, flaps 40, flaps retracted on rollout, full braking",
+  "d": [
+   "87 MPH touchdown, flaps 40, flaps left down, full braking",
+   "67 MPH touchdown, flaps 25, flaps left down, moderate braking",
+   "80 MPH touchdown, flaps 40, flaps retracted on rollout, full braking"
+  ],
+  "why": "Chart 8-13 assumes a paved level dry runway, 67 MPH touchdown, 40-degree flaps retracted on the rollout, and full braking. 87 MPH is the approach speed on the 50-ft chart.",
+  "src": "POH 8-13",
+  "loc": "poh 194"
+ },
+ {
+  "id": "p3-077",
+  "topic": "s-perf",
+  "q": "What approach and touchdown speeds does the landing distance over 50 ft chart (8-14) assume?",
+  "a": "Power-off approach at 87 MPH; touchdown at 67 MPH",
+  "d": [
+   "Power-off approach at 105 MPH; touchdown at 87 MPH",
+   "Partial-power approach at 87 MPH; touchdown at 80 MPH",
+   "Power-off approach at 92 MPH; touchdown at 76 MPH"
+  ],
+  "why": "Chart 8-14 assumes a power-off approach at 87 MPH, a 67-MPH touchdown, flaps 40 retracted on the rollout, full braking and short-field effort on a paved, level, dry runway. 87 MPH is also the POH short-field approach speed; partial power until shortly before touchdown is the normal-landing technique.",
+  "src": "POH 8-14 · POH 6-11",
+  "loc": "poh 195"
+ },
+ {
+  "id": "p3-078",
+  "topic": "s-perf",
+  "q": "With the optional heavy-duty wheels, brakes and tires, how may the landing distances be reduced?",
+  "a": "About 25% off ground roll; about 12% off distance over 50 ft",
+  "d": [
+   "About 12% off ground roll; about 25% off distance over 50 ft",
+   "About 25% off both landing distances",
+   "About 10% off both takeoff and landing distances"
+  ],
+  "why": "Notes on charts 8-13 and 8-14 allow about 25% off the ground run and about 12% off the distance over 50 ft with the heavy-duty equipment. Check the equipment list to see whether it is installed.",
+  "src": "POH 8-13 · POH 8-14",
+  "loc": "poh 194"
+ },
+ {
+  "id": "p3-079",
+  "topic": "s-perf",
+  "q": "Chart 8-14 example: 70 degrees F, 4,000 ft pressure altitude, 3,600 lb, 5 MPH headwind. Landing distance over 50 ft?",
+  "a": "1,240 ft",
+  "d": [
+   "615 ft",
+   "1,650 ft",
+   "2,400 ft"
+  ],
+  "why": "The printed example on the 50-ft landing chart gives 1,240 ft. 615 ft is the ground-roll chart's example, which is at 2,000 ft pressure altitude.",
+  "src": "POH 8-14",
+  "loc": "poh 195"
+ },
+ {
+  "id": "p3-080",
+  "topic": "s-perf",
+  "q": "You land at 4,000 lb at a sea-level airport on a standard day, no wind, short-field technique. Ground roll and distance over 50 ft?",
+  "a": "705 ft ground roll; 1,335 ft over 50 ft",
+  "d": [
+   "1,335 ft ground roll; 2,000 ft over 50 ft",
+   "400 ft ground roll; 705 ft over 50 ft",
+   "705 ft ground roll; 2,400 ft over 50 ft"
+  ],
+  "why": "Section 1 lists a 705-ft landing roll and 1,335 ft over a 50-ft barrier at 4,000 lb (flaps down, short field); charts 8-13 and 8-14 give about the same at sea level standard. The landing charts' weight scale tops out at 4,000 lb.",
+  "src": "POH 1-1 · POH 8-13 · POH 8-14",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-010: 705-ft roll / 1,335 ft over 50 ft)"
+ },
+ {
+  "id": "p3-081",
+  "topic": "s-perf",
+  "q": "The landing charts assume flaps retracted on the rollout. When does the POH say to actually retract them during the rollout?",
+  "a": "Only when extra braking, a strong crosswind or gusty air calls for it",
+  "d": [
+   "Always, immediately after every touchdown, to shorten the roll",
+   "Never; always wait until the airplane has cleared the runway",
+   "Only on grass or wet runways, where braking is poor"
+  ],
+  "why": "Retracting flaps, holding back pressure and braking gives maximum braking. Otherwise the POH recommends waiting until turning off the runway, to avoid grabbing the gear handle by mistake.",
+  "src": "POH 6-11 · POH 8-13",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p3-082",
+  "topic": "s-perf",
+  "q": "You want 75% power at 4,000 ft pressure altitude, standard temperature. What does the power setting table (8-16) give?",
+  "a": "2,400 RPM and 24.4 in. MP",
+  "d": [
+   "2,400 RPM and 25.5 in. MP",
+   "2,100 RPM and 24.8 in. MP",
+   "2,700 RPM and 24.4 in. MP"
+  ],
+  "why": "The IO-360-C table lists 75% (150 HP) only at 2,400 RPM: 25.5 in. at sea level, 24.4 in. at 4,000 ft, and full throttle by 5,000 ft. 2,100 RPM and 24.8 in. is the 65% setting at 4,000 ft.",
+  "src": "POH 8-16",
+  "loc": "poh 197"
+ },
+ {
+  "id": "p3-083",
+  "topic": "s-perf",
+  "q": "To hold constant power when inlet air is 30 degrees F colder than standard, how should you adjust the table manifold pressure?",
+  "a": "Subtract about 0.48 in. Hg",
+  "d": [
+   "Add about 0.48 in. Hg",
+   "Subtract about 0.16 in. Hg",
+   "Subtract about 4.8 in. Hg"
+  ],
+  "why": "The table note says to correct manifold pressure about 0.16 in. Hg for each 10 degrees F from standard: add above standard, subtract below. 30 degrees F colder is 3 x 0.16 = about 0.48 in. less.",
+  "src": "POH 8-16",
+  "loc": "poh 197",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p3-084",
+  "topic": "s-wb",
+  "q": "What does retracting the Seneca's landing gear do to weight and balance, per the envelope page?",
+  "a": "Changes the moment by only -32 in-lb, a negligible CG shift",
+  "d": [
+   "Moves the CG about 3.2 in forward, so recheck the envelope",
+   "Changes the moment by +32 in-lb, moving the CG noticeably aft",
+   "Changes the moment by -32,000 in-lb, a large forward CG shift"
+  ],
+  "why": "The weight vs. CG envelope notes a -32 in-lb moment change when the gear retracts. At 4,000 lb that moves the CG less than 0.01 in, and the POH says gear movement and fuel burn do not significantly affect the CG.",
+  "src": "POH 4-9 · POH 4-10",
+  "loc": "poh 120"
+ },
+ {
+  "id": "p3-085",
+  "topic": "s-wb",
+  "q": "N56307 (2,831.0 lb at 85.00 in): 390 lb in the front seats, 93 gal of fuel, 100 lb in the nose baggage, nothing else. Within limits?",
+  "a": "No: about 3,879 lb at 84.7 in, forward of the ~85.5-in limit",
+  "d": [
+   "Yes: about 3,879 lb at 84.7 in, aft of the 80.7-in forward limit",
+   "Yes: about 3,879 lb at 88.7 in, well inside the envelope",
+   "No: about 3,879 lb at 84.7 in, over the maximum landing weight"
+  ],
+  "why": "Weight 2,831.0 + 390 + 558 + 100 = 3,879 lb; moment 240,641.4 + 33,345 + 52,228.8 + 2,250 = 328,465.2 in-lb, so CG = 84.7 in. At 3,879 lb the forward limit is 82.0 + (479/800 x 5.9) = about 85.5 in, so the CG is almost an inch too far forward. Moving the 100 lb to the aft compartment gives about 88.7 in, inside the envelope.",
+  "src": "N56307 W&B report 11/18/2022 · POH 4-7 · POH 3-3",
+  "loc": "poh 118"
+ },
+ {
+  "id": "p3-086",
+  "topic": "s-wb",
+  "q": "A placard requires all weight above 4,000 lb to be fuel. What is the most N56307 (empty 2,831.0 lb) can carry in people, bags and cargo?",
+  "a": "About 1,169 lb",
+  "d": [
+   "About 1,369 lb",
+   "About 811 lb",
+   "About 1,575 lb"
+  ],
+  "why": "Weight without fuel may not exceed 4,000 lb, so 4,000 - 2,831 = about 1,169 lb, and then only 200 lb (about 33 gal) of fuel fits under 4,200 lb. 1,369 lb is the useful load, which must include the fuel; 811 lb is what remains with full fuel; 1,575 lb is the POH's standard-airplane useful load.",
+  "src": "POH 3-4 · N56307 W&B report 11/18/2022",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p3-087",
+  "topic": "s-wb",
+  "q": "N56307's 2022 weight and balance report weighed the airplane with usable fuel aboard. What adjustment produced its corrected empty weight?",
+  "a": "Subtract 558 lb (93 gal) of usable fuel at 93.6 in",
+  "d": [
+   "Subtract 588 lb (98 gal) of fuel at 93.6 in",
+   "Add 30 lb (5 gal) of unusable fuel at 103.0 in",
+   "Subtract 558 lb (93 gal) of usable fuel at 103.0 in"
+  ],
+  "why": "The report lists 3,389.0 lb as weighed, then a usable-fuel adjustment of -558 lb at 93.6 in (moment -52,228.8 in-lb), giving 2,831.0 lb at 85.00 in. The unusable fuel stays in the empty weight. The POH method instead weighs the airplane drained and adds 30 lb of unusable fuel at 103.0 in.",
+  "src": "N56307 W&B report 11/18/2022 · POH 4-5 · POH 4-7",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ },
+ {
+  "id": "p3-088",
+  "topic": "s-wb",
+  "q": "Removing the usable fuel moved N56307's CG from 86.42 in (as weighed) to 85.00 in. Why did the CG move forward?",
+  "a": "The fuel's 93.6-in arm is aft of the 86.42-in CG",
+  "d": [
+   "The fuel's 93.6-in arm is forward of the 86.42-in CG",
+   "Removing any weight always moves the CG forward",
+   "The fuel tanks are ahead of the datum, at a negative arm"
+  ],
+  "why": "Removing weight that sits aft of the CG moves the CG forward; removing weight ahead of it moves the CG aft. The fuel at 93.6 in is aft of 86.42 in, so taking out 558 lb moved the CG forward to 85.00 in. In flight the POH says fuel burn does not significantly affect the CG.",
+  "src": "N56307 W&B report 11/18/2022 · POH 4-7 · POH 4-10",
+  "loc": "ref N56307_weight_balance_2022.jpg"
+ }
+]
