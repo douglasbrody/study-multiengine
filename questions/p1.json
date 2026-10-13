@@ -18,7 +18,7 @@
  {
   "id": "p1-002",
   "topic": "s-speeds",
-  "q": "Per the Seneca I specifications, what are the best rate-of-climb speed (Vy) and the best single-engine rate-of-climb speed (Vyse)?",
+  "q": "Per the POH, what are the Seneca I's best rate-of-climb speed (Vy) and best single-engine rate-of-climb speed (Vyse)?",
   "a": "Both are 105 MPH (91.5 kt)",
   "d": [
    "Vy 105 MPH (91.5 kt); Vyse 90 MPH (78 kt)",
@@ -78,7 +78,7 @@
  {
   "id": "p1-006",
   "topic": "s-speeds",
-  "q": "At max gross weight (4,200 lb), sea level, standard day, what single-engine rate of climb does the POH spec table give?",
+  "q": "At max gross weight (4,200 lb), sea level, standard day, what is the Seneca I's single-engine rate of climb, per the POH?",
   "a": "190 fpm",
   "d": [
    "230 fpm",
@@ -92,7 +92,7 @@
  {
   "id": "p1-007",
   "topic": "s-speeds",
-  "q": "What is the Seneca I single-engine service ceiling (left engine out) at 4,200 lb, per the POH specifications?",
+  "q": "Per the POH, what is the Seneca I's single-engine service ceiling (left engine out) at 4,200 lb?",
   "a": "3,650 ft",
   "d": [
    "5,000 ft",
@@ -106,7 +106,7 @@
  {
   "id": "p1-008",
   "topic": "s-speeds",
-  "q": "At 4,200 lb on a standard day, the left engine fails while you are level at 4,500 ft pressure altitude. Once it is feathered and you are clean at Vyse, what climb can you expect per POH 1-1?",
+  "q": "At 4,200 lb on a standard day, the left engine fails while you are level at 4,500 ft pressure altitude. Once it is feathered and you are clean at Vyse, what climb can you expect, per the POH?",
   "a": "A positive climb of less than 50 fpm",
   "d": [
    "About 190 fpm, the sea-level figure",
@@ -120,7 +120,7 @@
  {
   "id": "p1-009",
   "topic": "s-speeds",
-  "q": "POH 1-1 short-field takeoff (flaps 25°) at 4,200 lb: what are the ground run and the distance over a 50-ft barrier?",
+  "q": "Per the POH, what are the Seneca I's short-field takeoff (flaps 25°) ground run and distance over a 50-ft barrier at 4,200 lb?",
   "a": "800 ft run; 1,235 ft over 50 ft",
   "d": [
    "750 ft run; 1,140 ft over 50 ft",
@@ -134,7 +134,7 @@
  {
   "id": "p1-010",
   "topic": "s-speeds",
-  "q": "What short-field landing distances (flaps down) appear in the Seneca I General Specifications?",
+  "q": "Per the POH, what are the Seneca I's short-field landing roll and landing distance over a 50-ft barrier (flaps down)?",
   "a": "705 ft roll; 1,335 ft over a 50-ft barrier",
   "d": [
    "800 ft roll; 1,235 ft over a 50-ft barrier",
@@ -148,7 +148,7 @@
  {
   "id": "p1-011",
   "topic": "s-fuel",
-  "q": "Planning a cruise at 75% power, what total fuel burn for both engines does POH 1-1 list, and what at 65% power?",
+  "q": "Per the POH, what total fuel burn for both engines should you plan at 75% power, and what at 65% power?",
   "a": "20.6 GPH at 75%; 18.3 GPH at 65%",
   "d": [
    "10.3 GPH at 75%; 9.2 GPH at 65%",
@@ -1084,7 +1084,7 @@
  {
   "id": "p1-075",
   "topic": "s-gear",
-  "q": "Per the POH Section 9 tire inflation guidance, what pressure should the main tires have?",
+  "q": "Per the POH, what pressure should the Seneca I's main tires have?",
   "a": "53 PSI",
   "d": [
    "31 PSI",
@@ -1112,7 +1112,7 @@
  {
   "id": "p1-077",
   "topic": "s-gear",
-  "q": "What circuit breakers protect the Seneca I landing gear system, per its electrical schematic?",
+  "q": "What circuit breakers protect the Seneca I landing gear system?",
   "a": "25-amp pump breaker; 5-amp control and warning breaker",
   "d": [
    "One 25-amp breaker shared by the pump, lights and horn",
@@ -1126,7 +1126,7 @@
  {
   "id": "p1-078",
   "topic": "s-gear",
-  "q": "On the Seneca I hydraulic schematic, what component does the emergency (free fall) control operate?",
+  "q": "In the Seneca I gear hydraulic system, what component does the emergency (free fall) control operate?",
   "a": "The free fall valve",
   "d": [
    "The gear-up check valve in the pump",
@@ -1140,7 +1140,7 @@
  {
   "id": "p1-079",
   "topic": "s-gear",
-  "q": "Per the gear electrical schematic, what turns on each green gear light?",
+  "q": "In the Seneca I gear system, what turns on each green gear light?",
   "a": "A down-limit switch at that gear",
   "d": [
    "The hydraulic pressure switch",
@@ -1534,7 +1534,7 @@
  {
   "id": "p1-106",
   "topic": "s-fuel",
-  "q": "What two crossfeed restrictions are stated in the NOTE on POH 2-10?",
+  "q": "What two crossfeed restrictions does the Seneca I POH state?",
   "a": "Never both selectors on CROSSFEED; no takeoff on CROSSFEED",
   "d": [
    "Never both on CROSSFEED; no crossfeed above 10,000 ft",
@@ -1646,7 +1646,7 @@
  {
   "id": "p1-114",
   "topic": "s-fuel",
-  "q": "Using the POH fuel schematic, what is the order of components from the tanks to the cylinders?",
+  "q": "In the Seneca I fuel system, what is the order of components from the tanks to the cylinders?",
   "a": "Selector, filter, electric pump, engine pump, injector, divider",
   "d": [
    "Filter, selector, engine pump, electric pump, injector, divider",

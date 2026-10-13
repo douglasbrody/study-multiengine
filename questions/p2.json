@@ -268,7 +268,7 @@
  {
   "id": "p2-020",
   "topic": "s-speeds",
-  "q": "Which autopilot limitation appears in every autopilot supplement in this AFM?",
+  "q": "Which autopilot limitation appears in every autopilot supplement in the Seneca I AFM?",
   "a": "Autopilot OFF for takeoff and landing",
   "d": [
    "Maximum autopilot speed 195 MPH CAS",
@@ -282,7 +282,7 @@
  {
   "id": "p2-021",
   "topic": "s-speeds",
-  "q": "At 3,800 lb, power off, gear down, flaps 40°, wings level, about what is the stall speed (Vso)? (chart 8-11)",
+  "q": "At 3,800 lb, power off, gear down, flaps 40°, wings level, about what is the Seneca I's stall speed (Vso)?",
   "a": "About 65 MPH CAS",
   "d": [
    "About 69 MPH CAS",
@@ -310,14 +310,14 @@
  {
   "id": "p2-023",
   "topic": "s-speeds",
-  "q": "What is the AFM stall speed at 4,200 lb with flaps up in a 60° bank?",
+  "q": "At 4,200 lb, flaps up, power off, the Seneca I stalls at 76 MPH CAS wings level. About what is its stall speed in a level 60° bank?",
   "a": "108 MPH CAS",
   "d": [
    "98 MPH CAS",
    "95 MPH CAS",
    "87 MPH CAS"
   ],
-  "why": "Flaps up, the table rises from 76 (0°) to 78 (20°), 87 (40°), 95 (50°) and 108 MPH CAS at 60° bank. 98 MPH is the 60° figure with 40° flaps.",
+  "why": "A level 60° bank doubles the load factor, and stall speed rises with its square root: 76 x 1.41 = about 108 MPH CAS, the figure in the AFM stall table (POH 3-19), which also lists 78 at 20°, 87 at 40° and 95 at 50°. 98 MPH is the 60° figure with 40° flaps.",
   "src": "POH 3-19",
   "loc": "poh 081"
  },
@@ -1314,7 +1314,7 @@
  {
   "id": "p2-093",
   "topic": "s-emerg",
-  "q": "Per the AFM (POH 3-13), when should the landing gear and wing flaps be extended for a single-engine landing?",
+  "q": "Per the AFM, when should the landing gear and wing flaps be extended for a single-engine landing?",
   "a": "Not until certain of making the field",
   "d": [
    "At the final approach fix, as usual",

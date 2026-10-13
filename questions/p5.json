@@ -502,7 +502,7 @@
  {
   "id": "p5-035",
   "topic": "s-elec",
-  "q": "Per the Operating Tips, which of these is a normal cause of a low vacuum reading, not a malfunction?",
+  "q": "Per the POH, which of these is a normal cause of a low vacuum reading, not a malfunction?",
   "a": "Low engine RPM, such as on approach or in training maneuvers",
   "d": [
    "A dirty or restricted common air filter behind the panel",
@@ -1446,7 +1446,7 @@
  {
   "id": "p5-097",
   "topic": "s-engine",
-  "q": "Per the POH ground handling section, how should the propellers be set for taxiing?",
+  "q": "Per the POH, how should the propellers be set for taxiing?",
   "a": "Low pitch, high RPM",
   "d": [
    "High pitch, low RPM",
@@ -1573,7 +1573,9 @@
   ],
   "why": "From the table: 70°F needs 80 psi. 30°F needs 72 psi, 100°F needs 86 psi, and 0°F needs 66 psi.",
   "src": "POH 9-6",
-  "loc": "poh 206"
+  "loc": "poh 206",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: dome pressure at a given temperature (chamber pressure table)"
  },
  {
   "id": "p5-106",

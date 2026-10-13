@@ -18,7 +18,7 @@
  {
   "id": "p3-002",
   "topic": "s-wb",
-  "q": "What arm does the Seneca loading form use for the pilot and front passenger?",
+  "q": "In the Seneca I, what arm is used for the pilot and front passenger seats?",
   "a": "85.5 in",
   "d": [
    "93.6 in",
@@ -32,7 +32,7 @@
  {
   "id": "p3-003",
   "topic": "s-wb",
-  "q": "What arms does the loading form give for the center (middle) seats and the rear seats (seats 5 and 6)?",
+  "q": "In the Seneca I, what arms are used for the center (middle) seats and the rear seats (seats 5 and 6)?",
   "a": "Center seats 118.1 in; rear seats 155.7 in",
   "d": [
    "Center seats 155.7 in; rear seats 178.7 in",
@@ -46,7 +46,7 @@
  {
   "id": "p3-004",
   "topic": "s-wb",
-  "q": "What arm is used for usable fuel on the Seneca loading form?",
+  "q": "In the Seneca I, what arm is used for usable fuel?",
   "a": "93.6 in",
   "d": [
    "103.0 in",
@@ -204,7 +204,7 @@
  {
   "id": "p3-015",
   "topic": "s-wb",
-  "q": "What empty-weight CG does N56307's 2022 weight and balance report show?",
+  "q": "What is N56307's empty-weight CG, per its 2022 weight and balance report?",
   "a": "85.00 in aft of datum",
   "d": [
    "86.42 in aft of datum",
@@ -218,7 +218,7 @@
  {
   "id": "p3-016",
   "topic": "s-wb",
-  "q": "What useful load does N56307's 2022 weight and balance report list?",
+  "q": "What is N56307's useful load, per its 2022 weight and balance report?",
   "a": "1,369.0 lb",
   "d": [
    "1,575 lb",
@@ -232,7 +232,7 @@
  {
   "id": "p3-017",
   "topic": "s-wb",
-  "q": "N56307 (2,831.0 lb at 85.00 in) carries 380 lb in front, 250 lb center, 180 lb rear, 60 gal, 50 lb nose and 45 lb aft baggage. Result?",
+  "q": "N56307: 2,831 lb at 85.00 in. Add front seats 380 lb at 85.5 in, center 250 lb at 118.1, rear 180 lb at 155.7, 60 gal fuel (6 lb/gal) at 93.6, nose bags 50 lb at 22.5, aft bags 45 lb at 178.7. Max 4,200 lb; fwd limit 82.0 in at 3,400 lb to 87.9 at 4,200; aft 94.6. Result?",
   "a": "4,096 lb at 91.20 in, within the envelope",
   "d": [
    "3,880 lb at 89.52 in, within the envelope",
@@ -316,7 +316,7 @@
  {
   "id": "p3-023",
   "topic": "s-wb",
-  "q": "How is unusable fuel handled on the Seneca weight and balance form?",
+  "q": "How is unusable fuel accounted for in the Seneca I's weight and balance?",
   "a": "5 gal (30 lb) at 103.0 in, added to reach licensed empty weight",
   "d": [
    "5 gal (30 lb) at 93.6 in, entered on the form with the usable fuel",
@@ -330,7 +330,7 @@
  {
   "id": "p3-024",
   "topic": "s-wb",
-  "q": "On the Seneca form, how is useful load (normal category) defined?",
+  "q": "Per the Seneca I POH, how is useful load (normal category) defined?",
   "a": "Gross weight (4,200 lb) minus licensed empty weight",
   "d": [
    "Gross weight minus basic weight and full fuel",
@@ -465,12 +465,14 @@
   ],
   "why": "Loads: 380 lb front, 250 lb middle, 180 lb rear, 50 lb forward and 45 lb aft baggage, and 360 lb of fuel, giving 3,880 lb at 89.52 in, with room for more fuel. 4,096 lb at 91.20 in is the same load on N56307's heavier empty weight (2,831 lb at 85.00 in).",
   "src": "POH 4-10 · POH 4-11",
-  "loc": "poh 122"
+  "loc": "poh 122",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: POH plotter sample problem"
  },
  {
   "id": "p3-034",
   "topic": "s-wb",
-  "q": "Per the POH's CG range and weight instructions, once total weight and total moment are known, what do you do?",
+  "q": "Per the POH, once the loaded airplane's total weight and total moment are known, what do you do?",
   "a": "Divide moment by weight, then plot weight and CG on the envelope",
   "d": [
    "Divide weight by moment, then plot moment on the envelope",
@@ -500,7 +502,7 @@
  {
   "id": "p3-036",
   "topic": "s-wb",
-  "q": "Why does the battery have a negative arm (-7.8 in) in the Seneca equipment list?",
+  "q": "Why does the Seneca I's battery have a negative arm (-7.8 in)?",
   "a": "It is in the nose, forward of the datum",
   "d": [
    "It is in the tail cone, aft of the datum",
@@ -528,7 +530,7 @@
  {
   "id": "p3-038",
   "topic": "s-perf",
-  "q": "What does POH Section 8 say about values found by extrapolating beyond the chart limits?",
+  "q": "Per the POH, how should performance values found by extrapolating beyond the chart limits be used?",
   "a": "Do not use them for flight planning",
   "d": [
    "Use them only with an added 25% safety margin",
@@ -565,12 +567,14 @@
   ],
   "why": "The chart's printed example gives 7,500 ft. Standard temperature at 8,000 ft is about 31 degrees F, so colder air makes the density altitude lower than the pressure altitude.",
   "src": "POH 8-1",
-  "loc": "poh 182"
+  "loc": "poh 182",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: altitude conversion chart example (density altitude from PA and temperature)"
  },
  {
   "id": "p3-041",
   "topic": "s-perf",
-  "q": "What does the flaps-0 takeoff ground run chart (8-2) assume?",
+  "q": "What does the Seneca's flaps-0 takeoff ground run chart assume?",
   "a": "80 MPH lift-off, full power before brake release, short-field effort",
   "d": [
    "70 MPH lift-off, full power before brake release, short-field effort",
@@ -593,7 +597,9 @@
   ],
   "why": "The printed example on the flaps-0 ground run chart gives 900 ft. 1,650 ft is the accelerate-stop answer for the same conditions; 615 ft is the landing ground roll example.",
   "src": "POH 8-2",
-  "loc": "poh 183"
+  "loc": "poh 183",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-2 worked example (ground run at given temp/altitude/weight/wind)"
  },
  {
   "id": "p3-043",
@@ -623,12 +629,14 @@
   ],
   "why": "The printed example on the 25-degree-flap ground run chart gives 810 ft. 1,350 ft is the distance over 50 ft for the same conditions (chart 8-4).",
   "src": "POH 8-3",
-  "loc": "poh 184"
+  "loc": "poh 184",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-3 worked example (ground run at given temp/altitude/weight/wind)"
  },
  {
   "id": "p3-045",
   "topic": "s-perf",
-  "q": "What lift-off and 50-ft barrier speeds do the takeoff distance charts assume with 25-degree flaps (8-4) and with flaps 0 (8-5)?",
+  "q": "What lift-off and 50-ft barrier speeds do the Seneca's takeoff distance charts assume with 25-degree flaps and with flaps 0?",
   "a": "Flaps 25: 70 and 80 MPH; flaps 0: 80 and 85 MPH",
   "d": [
    "Flaps 25: 80 and 85 MPH; flaps 0: 70 and 80 MPH",
@@ -667,7 +675,9 @@
   ],
   "why": "Both charts use the same example conditions: 1,350 ft with 25-degree flaps (8-4) and 1,600 ft with flaps 0 (8-5). 810 and 900 ft are ground-run examples, and the 900-ft one is at a different altitude.",
   "src": "POH 8-4 · POH 8-5",
-  "loc": "poh 185"
+  "loc": "poh 185",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: charts 8-4/8-5 read at given temp/altitude/weight/wind"
  },
  {
   "id": "p3-048",
@@ -697,7 +707,9 @@
   ],
   "why": "On chart 8-5 the sea-level line meets the standard-temperature curve at about 1,350 to 1,400 ft, read at the 4,200-lb reference line with no wind. That is a little longer than the 1,235 ft with 25-degree flaps.",
   "src": "POH 8-5",
-  "loc": "poh 186"
+  "loc": "poh 186",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-5 read at given conditions; not a Section 1 figure"
  },
  {
   "id": "p3-050",
@@ -718,7 +730,7 @@
  {
   "id": "p3-051",
   "topic": "s-perf",
-  "q": "What does the accelerate-stop chart (8-6) assume?",
+  "q": "What does the Seneca's accelerate-stop chart assume?",
   "a": "Flaps 0; accelerate to 80 MPH, then stop; full power before brake release",
   "d": [
    "Flaps 25; accelerate to 70 MPH, then stop; full power before brake release",
@@ -741,7 +753,9 @@
   ],
   "why": "The accelerate-stop chart's printed example gives 1,650 ft. Under the same conditions the flaps-0 ground run (chart 8-2) is only 900 ft: accelerating to 80 MPH and then braking to a stop nearly doubles the runway needed.",
   "src": "OEG App 2 · POH 8-6 · POH 8-2",
-  "loc": "poh 187"
+  "loc": "poh 187",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-6 worked example (accelerate-stop at given conditions)"
  },
  {
   "id": "p3-053",
@@ -755,7 +769,9 @@
   ],
   "why": "On chart 8-6 the sea-level line meets the standard-temperature curve at about 2,000 ft on the 4,200-lb reference line; with no wind that is the answer. Compare about 1,000 ft for the flaps-0 ground run alone.",
   "src": "OEG App 2 · POH 8-6",
-  "loc": "poh 187"
+  "loc": "poh 187",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-6 read at given conditions; not a Section 1 figure"
  },
  {
   "id": "p3-054",
@@ -763,9 +779,9 @@
   "q": "Where do you find the Seneca I's accelerate-go distance?",
   "a": "Nowhere; the POH has no accelerate-go chart",
   "d": [
-   "Chart 8-6, below the accelerate-stop curves",
-   "Chart 8-8, the single-engine climb chart",
-   "The Section 1 specifications at 4,200 lb"
+   "On the accelerate-stop chart, below the stop curves",
+   "On the single-engine climb chart",
+   "In the Section 1 specifications at 4,200 lb"
   ],
   "why": "Section 8 contains takeoff ground run, takeoff over 50 ft, accelerate-stop, climb, cruise, stall and landing charts, but no accelerate-go data. The POH leaves the continue-or-stop decision to pilot judgment based on loading, density altitude, obstructions, weather and competence; the single-engine climb chart shows what climb to expect.",
   "src": "OEG App 2 · POH Sec. 8 index · POH 3-12a",
@@ -802,7 +818,7 @@
  {
   "id": "p3-057",
   "topic": "s-perf",
-  "q": "What configuration does the multi-engine climb chart (8-7) assume?",
+  "q": "What configuration does the Seneca's multi-engine climb chart assume?",
   "a": "Gear up unless noted, flaps up, cowl flaps open, mixture leaned",
   "d": [
    "Gear down, flaps 25 degrees, cowl flaps closed, mixture rich",
@@ -816,7 +832,7 @@
  {
   "id": "p3-058",
   "topic": "s-perf",
-  "q": "On the multi-engine climb chart, what best rate-of-climb speed is used with the gear down?",
+  "q": "Per the POH, what best rate-of-climb speed (both engines) is used with the gear down?",
   "a": "92 MPH CAS at all altitudes",
   "d": [
    "105 MPH CAS at sea level, decreasing with altitude",
@@ -839,12 +855,14 @@
   ],
   "why": "The printed example gives 1,100 fpm at a best rate-of-climb speed of 103 MPH. 1,460 fpm is the sea-level figure at 4,000 lb, and 350 fpm at 98 MPH is the single-engine chart's example.",
   "src": "POH 8-7",
-  "loc": "poh 188"
+  "loc": "poh 188",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-7 worked example (climb at given weight/density altitude)"
  },
  {
   "id": "p3-060",
   "topic": "s-perf",
-  "q": "Per the POH Section 1 figures at 4,200 lb and sea level, about how much of the Seneca's climb rate is lost when one engine fails?",
+  "q": "Per the POH, at 4,200 lb and sea level, about how much of the Seneca I's climb rate is lost when one engine fails?",
   "a": "About 86%, far more than half",
   "d": [
    "About 50%, since half the power is lost",
@@ -858,7 +876,7 @@
  {
   "id": "p3-061",
   "topic": "s-perf",
-  "q": "Which conditions does the single-engine climb chart (8-8) assume?",
+  "q": "Which conditions does the Seneca's single-engine climb chart assume?",
   "a": "Gear and flaps up, 5 degree bank toward the good engine, full throttle",
   "d": [
    "Gear down, flaps 25 degrees, wings level, full throttle",
@@ -881,7 +899,9 @@
   ],
   "why": "The single-engine chart's printed example gives 350 fpm at 98 MPH. Its best-climb speed lines get slightly slower at lighter weights; near 4,000 to 4,200 lb they are about the 105-MPH blue line.",
   "src": "POH 8-8",
-  "loc": "poh 189"
+  "loc": "poh 189",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-8 worked example (SE climb at given weight/density altitude)"
  },
  {
   "id": "p3-063",
@@ -972,7 +992,7 @@
  {
   "id": "p3-069",
   "topic": "s-perf",
-  "q": "What conditions does the cruise true-airspeed chart (8-9) assume?",
+  "q": "What conditions does the Seneca's cruise true-airspeed chart assume?",
   "a": "4,200 lb, gear and flaps up, cowl flaps closed, mixture leaned",
   "d": [
    "4,200 lb, gear up, cowl flaps open, mixture full rich",
@@ -986,21 +1006,21 @@
  {
   "id": "p3-070",
   "topic": "s-perf",
-  "q": "On the cruise TAS chart, up to about what density altitude can you get 75% power at 2,400 RPM?",
+  "q": "Per the POH, up to about what density altitude can the Seneca I make 75% power at 2,400 RPM?",
   "a": "About 6,000 ft",
   "d": [
    "About 9,000 ft",
    "About 13,000 ft",
    "About 18,000 ft"
   ],
-  "why": "The 75% line ends at the full-throttle 2,400 RPM line near 6,000 ft (about 186 MPH TAS). 65% runs to about 9,000 ft, 55% to about 13,000 ft and 45% to about 18,500 ft.",
+  "why": "Section 1 quotes 75% power cruise at 6,000 ft (about 187 MPH), and on the cruise TAS chart (POH 8-9) the 75% line meets full throttle at 2,400 RPM near 6,000 ft. 65% runs to about 9,000 ft (the Section 1 optimum cruise), 55% to about 13,000 ft and 45% to about 18,500 ft.",
   "src": "POH 8-9 · POH 1-1",
   "loc": "poh 190"
  },
  {
   "id": "p3-071",
   "topic": "s-perf",
-  "q": "What conditions does the cruise range chart (8-10) assume?",
+  "q": "What conditions does the Seneca's cruise range chart assume?",
   "a": "4,200 lb, 93 gal usable, 2,400 RPM, best economy, gear up",
   "d": [
    "4,200 lb, 98 gal usable, 2,700 RPM, best power, gear up",
@@ -1028,21 +1048,21 @@
  {
   "id": "p3-073",
   "topic": "s-perf",
-  "q": "You plan a 3-hour leg at 65% power. Using the range chart's fuel table, about how much fuel will both engines burn?",
+  "q": "Per the POH, about how much fuel will both engines burn on a 3-hour leg at 65% power?",
   "a": "About 55 gal",
   "d": [
    "About 62 gal",
    "About 27 gal",
    "About 48 gal"
   ],
-  "why": "The table gives total (both engines) fuel flow: 75% 20.6, 65% 18.3, 55% 16.0 and 45% 14.0 GPH. 18.3 x 3 = about 55 gal. 62 gal would be 75% power, 48 gal 55% power, and 27 gal is what one engine alone would burn.",
+  "why": "Section 1 (POH 1-1) lists total fuel flow for both engines: 20.6 GPH at 75% and 18.3 GPH at 65% (the range chart adds 16.0 at 55% and 14.0 at 45%). 18.3 x 3 = about 55 gal. 62 gal would be 75% power, 48 gal 55% power, and 27 gal is what one engine alone would burn.",
   "src": "POH 8-10 · POH 1-1",
   "loc": "poh 191"
  },
  {
   "id": "p3-074",
   "topic": "s-perf",
-  "q": "The Section 8 stall-speed charts (8-11 and 8-12) are drawn for what power setting and gear position?",
+  "q": "The Seneca's stall-speed charts are drawn for what power setting and gear position?",
   "a": "Power off, gear extended; lines for flaps up and flaps 40 degrees",
   "d": [
    "Power off, gear retracted; lines for flaps up and flaps 40 degrees",
@@ -1056,21 +1076,21 @@
  {
   "id": "p3-075",
   "topic": "s-perf",
-  "q": "At 4,200 lb, power off, gear down, flaps 40 degrees, about what is the stall speed in a 60 degree bank (chart 8-12)?",
+  "q": "At 4,200 lb, power off, gear down, flaps 40°, the Seneca I stalls at 69 MPH CAS wings level. About what is its stall speed in a level 60° bank?",
   "a": "About 98 MPH CAS",
   "d": [
    "About 69 MPH CAS",
    "About 108 MPH CAS",
    "About 138 MPH CAS"
   ],
-  "why": "The flaps-40 line rises from 69 MPH CAS wings level to about 98 MPH at 60 degrees, matching the AFM stall table. 108 MPH is the flaps-up line. A 60 degree bank doubles the load factor, which raises stall speed by about 1.41 times, not 2.",
+  "why": "A level 60° bank doubles the load factor, and stall speed rises with its square root: 69 x 1.41 = about 98 MPH CAS, matching chart 8-12 and the AFM stall table (POH 3-19). 108 MPH is the flaps-up figure; 138 MPH comes from wrongly doubling the stall speed.",
   "src": "POH 8-12 · POH 3-19",
   "loc": "poh 193"
  },
  {
   "id": "p3-076",
   "topic": "s-perf",
-  "q": "What technique does the landing ground run chart (8-13) assume?",
+  "q": "What technique does the Seneca's landing ground run chart assume?",
   "a": "67 MPH touchdown, flaps 40, flaps retracted on rollout, full braking",
   "d": [
    "87 MPH touchdown, flaps 40, flaps left down, full braking",
@@ -1084,7 +1104,7 @@
  {
   "id": "p3-077",
   "topic": "s-perf",
-  "q": "What approach and touchdown speeds does the landing distance over 50 ft chart (8-14) assume?",
+  "q": "What approach and touchdown speeds does the Seneca's landing distance over 50 ft chart assume?",
   "a": "Power-off approach at 87 MPH; touchdown at 67 MPH",
   "d": [
    "Power-off approach at 105 MPH; touchdown at 87 MPH",
@@ -1121,7 +1141,9 @@
   ],
   "why": "The printed example on the 50-ft landing chart gives 1,240 ft. 615 ft is the ground-roll chart's example, which is at 2,000 ft pressure altitude.",
   "src": "POH 8-14",
-  "loc": "poh 195"
+  "loc": "poh 195",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: chart 8-14 worked example (landing distance at given conditions)"
  },
  {
   "id": "p3-080",
@@ -1165,7 +1187,9 @@
   ],
   "why": "The IO-360-C table lists 75% (150 HP) only at 2,400 RPM: 25.5 in. at sea level, 24.4 in. at 4,000 ft, and full throttle by 5,000 ft. 2,100 RPM and 24.8 in. is the 65% setting at 4,000 ft.",
   "src": "POH 8-16",
-  "loc": "poh 197"
+  "loc": "poh 197",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: power setting table MP lookup"
  },
  {
   "id": "p3-083",
@@ -1186,7 +1210,7 @@
  {
   "id": "p3-084",
   "topic": "s-wb",
-  "q": "What does retracting the Seneca's landing gear do to weight and balance, per the envelope page?",
+  "q": "Per the POH, what does retracting the Seneca's landing gear do to weight and balance?",
   "a": "Changes the moment by only -32 in-lb, a negligible CG shift",
   "d": [
    "Moves the CG about 3.2 in forward, so recheck the envelope",
@@ -1200,7 +1224,7 @@
  {
   "id": "p3-085",
   "topic": "s-wb",
-  "q": "N56307 (2,831.0 lb at 85.00 in): 390 lb in the front seats, 93 gal of fuel, 100 lb in the nose baggage, nothing else. Within limits?",
+  "q": "N56307: 2,831 lb at 85.00 in. Add 390 lb in the front seats (85.5 in), 93 gal of fuel at 6 lb/gal (93.6 in) and 100 lb of nose baggage (22.5 in). Forward limit: 82.0 in at 3,400 lb, rising in a straight line to 87.9 in at 4,200 lb. Within limits?",
   "a": "No: about 3,879 lb at 84.7 in, forward of the ~85.5-in limit",
   "d": [
    "Yes: about 3,879 lb at 84.7 in, aft of the 80.7-in forward limit",

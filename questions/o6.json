@@ -380,7 +380,7 @@
  {
   "id": "o6-028",
   "topic": "aero",
-  "q": "In the OEG's sample light-twin figures, about how much does a windmilling propeller add to the single-engine descent rate?",
+  "q": "Per the OEG, about how much can a windmilling propeller add to a typical light twin's single-engine descent rate?",
   "a": "About 400 fpm",
   "d": [
    "About 100 fpm",
@@ -394,7 +394,7 @@
  {
   "id": "o6-029",
   "topic": "aero",
-  "q": "In the OEG's sample light-twin figures, extended flaps add how much to the single-engine descent rate?",
+  "q": "Per the OEG, about how much can extended flaps add to a typical light twin's single-engine descent rate?",
   "a": "About 150 to 550 fpm, depending on setting",
   "d": [
    "About 25 to 50 fpm, depending on setting",

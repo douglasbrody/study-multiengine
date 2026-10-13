@@ -1086,7 +1086,7 @@
  {
   "id": "o1-078",
   "topic": "docs",
-  "q": "No MEL. The inoperative item is required by the aircraft's TCDS or was installed under an STC. Per OEG 1A-5, who must address it?",
+  "q": "No MEL. The inoperative item is required by the aircraft's TCDS or was installed under an STC. Per the OEG, who must address it?",
   "a": "A maintenance provider, who decides if it can be made airworthy",
   "d": [
    "The pilot, by placarding it INOPERATIVE and logging it",

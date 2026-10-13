@@ -10,6 +10,8 @@ Offline multiple-choice quiz for the multi-engine practical test oral, for iPad 
 
 **Updating questions:** edit `questions/*.json` (each item: `id`, `topic`, `q`, `a`, `d` = three wrong choices, `why`, `src`), run `python3 tools/build_questions.py` to check them and rebuild `questions.js`, then bump `VERSION` in `sw.js`. Keep ids unchanged; progress is stored by id. Add `"drop": true` to retire a question.
 
+**Writing questions:** every question must be answerable from memory, without the POH, AFM or charts in hand. Don't word a stem as if a page is open ("per POH 1-1", "on chart 8-2"); cite pages in `src` and `why` only. No chart reads or table lookups at given conditions. Calculation questions give every number they need (weights, arms, limits) in the stem.
+
 Questions are written in our own words from the ASA guide and the POH. Where the school checklist and the POH differ, the quiz follows the choices listed under **Procedure choices** below.
 
 ## Procedure choices

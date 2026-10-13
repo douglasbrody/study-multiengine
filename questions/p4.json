@@ -44,7 +44,7 @@
  {
   "id": "p4-004",
   "topic": "s-engine",
-  "q": "Per POH 6-3 and your school checklist, how is each engine primed for a normal start?",
+  "q": "Per the POH and your school checklist, how is each engine primed for a normal start?",
   "a": "Pump on, mixture rich until fuel flow shows, then cut-off",
   "d": [
    "Pump the throttle three times with the mixture full rich",
@@ -326,14 +326,14 @@
  {
   "id": "p4-024",
   "topic": "s-engine",
-  "q": "Departing an airport at 4,000 ft density altitude, the POH has you lean at full throttle to about what fuel-flow mark?",
-  "a": "About 14.0",
+  "q": "Departing a high-elevation airport, how does the POH have you lean the mixtures for takeoff?",
+  "a": "At full throttle, lean to the fuel-flow mark for the density altitude",
   "d": [
-   "About 14.9",
-   "About 13.3",
-   "About 15.5"
+   "Leave them full rich for takeoff; lean only after reaching 1,000 ft AGL",
+   "At full throttle, lean until the engine roughens, then enrich slightly",
+   "At 1,500 RPM, lean for peak RPM, then advance to full throttle"
   ],
-  "why": "POH 6-6: at a high elevation, apply full throttle and lean until the fuel flow pointer stabilizes at the mark for the density altitude: about 14.9 at 2,000 ft, 14.0 at 4,000 ft and 13.3 at 6,000 ft. If the engine overheats, enrich until temperature returns to normal.",
+  "why": "POH 6-6: during the pretakeoff check at a high elevation, apply full throttle, then lean until the fuel flow pointer stabilizes at the mark for the density altitude (about 14.9 at 2,000 ft, 14.0 at 4,000 ft and 13.3 at 6,000 ft) and leave it there for takeoff. If the engine overheats, enrich until the temperature returns to normal.",
   "src": "POH 6-6",
   "loc": "poh 158"
  },
@@ -587,12 +587,14 @@
   ],
   "why": "POH 8-16 (Lycoming IO-360-C table): 65% (130 HP) at 4,000 ft is 22.0 in. at 2400 RPM or 24.8 in. at 2100 RPM. At that altitude 24.4 in. is 75% at 2400 RPM and 19.5 in. is 55% at 2400 RPM.",
   "src": "POH 8-16",
-  "loc": "poh 197"
+  "loc": "poh 197",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: power setting table MP lookup"
  },
  {
   "id": "p4-043",
   "topic": "s-normal",
-  "q": "Cruising where the OAT is 20°F above standard, how do you correct the table manifold pressure to hold the same power?",
+  "q": "Cruising where the OAT is 20°F above standard, how do you correct the manifold pressure from the POH power setting table to hold the same power?",
   "a": "Add about 0.32 in. Hg",
   "d": [
    "Subtract about 0.32 in. Hg",
@@ -899,7 +901,9 @@
   ],
   "why": "POH 6-12 table, flaps 0°: 80 IAS = 82 CAS (70 = 72, 90 = 92). All POH speeds are CAS unless noted. Below 90 MPH IAS the table is valid only in level flight, using power as needed to avoid rapid altitude changes.",
   "src": "POH 6-12",
-  "loc": "poh 166"
+  "loc": "poh 166",
+  "drop": true,
+  "drop_reason": "needs the chart/table in hand: airspeed calibration table lookup"
  },
  {
   "id": "p4-065",
@@ -920,7 +924,7 @@
  {
   "id": "p4-066",
   "topic": "s-speeds",
-  "q": "As defined in POH Section 6, Vmc (80 MPH) assumes the inoperative engine's propeller is:",
+  "q": "As the POH defines it, Vmc (80 MPH) assumes the inoperative engine's propeller is:",
   "a": "Windmilling",
   "d": [
    "Feathered",
