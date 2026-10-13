@@ -1,0 +1,1122 @@
+[
+ {
+  "id": "o4-001",
+  "topic": "fuel",
+  "q": "Where is the approved fuel grade for an airplane stated?",
+  "a": "In the AFM/POH, on flight deck placards, and next to the filler caps",
+  "d": [
+   "On the airworthiness certificate and in the engine maintenance logbook",
+   "On the registration certificate and the weight and balance report",
+   "In the Chart Supplement entry for your departure airport"
+  ],
+  "why": "The POH/AFM specifies the fuel grade, and it is repeated on placards in the flight deck and at each filler cap. The Chart Supplement only tells you what fuel an airport sells.",
+  "src": "OEG 2E-1 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-002",
+  "topic": "fuel",
+  "q": "Your piston twin's POH calls for 100LL avgas. Line service arrives with a truck marked Jet A. What should you do?",
+  "a": "Stop the fueling; use only a fuel grade the POH/AFM approves",
+  "d": [
+   "Let it continue; Jet A has more energy per gallon than avgas",
+   "Accept a half load of Jet A mixed with the 100LL already aboard",
+   "Accept it, but plan to enrich the mixture for takeoff"
+  ],
+  "why": "Most light training twins burn 100LL. A few modern piston engines are approved for Jet A, but an engine certified for avgas is not, and jet fuel in it can cause detonation and engine failure. Know what fuels (including any SAF) your engines may use.",
+  "src": "OEG 2E-1 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-003",
+  "topic": "fuel",
+  "q": "Besides tank locations and capacities (total and usable), what fuel tank details should a multi-engine pilot know from the POH?",
+  "a": "Which tanks are required for takeoff/landing, cruise-only, or transfer fuel",
+  "d": [
+   "Which tanks have the newest sealant, vent lines, and drain valve seals installed",
+   "Which tanks hold the warmest fuel, and their vapor pressures",
+   "Which tanks were filled last, and the octane of each load"
+  ],
+  "why": "Tank layouts vary: inboard and outboard wing tanks, and fuselage tanks in larger twins. Know whether certain tanks must be selected for takeoff and landing, whether some are limited to straight-and-level cruise, and whether a tank feeds an engine directly or pumps into another tank.",
+  "src": "OEG 2E-2 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-004",
+  "topic": "fuel",
+  "q": "How are light-aircraft fuel tanks typically vented to the outside atmosphere?",
+  "a": "Through the filler cap, a vent tube in the wing, or both",
+  "d": [
+   "Through the fuel sump drains located at the bottom of each tank",
+   "Through the engine crankcase breather lines",
+   "Through the fuel vapor return line from the engine"
+  ],
+  "why": "Vents let air replace the fuel as it is burned. Depending on the design, venting is through the filler cap, a tube that protrudes through the wing skin, or both.",
+  "src": "OEG 2E-3 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-005",
+  "topic": "fuel",
+  "q": "You top off the tanks on a hot afternoon and later see fuel dripping from a tank overflow drain. What does this most likely mean?",
+  "a": "The fuel is expanding with heat and escaping through the overflow",
+  "d": [
+   "A fuel cell has ruptured and fuel is leaking into the wing structure",
+   "A sump drain valve is stuck open after the preflight",
+   "The fuel selector was left in the crossfeed position"
+  ],
+  "why": "The overflow drain, standalone or combined with the vent, lets fuel expand as it warms without damaging the tank. After filling on a hot day, some fuel from the overflow is normal.",
+  "src": "OEG 2E-4 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-006",
+  "topic": "fuel",
+  "q": "In many aircraft with engine-driven fuel pumps, what role does the electric fuel pump play?",
+  "a": "It supplements the engine-driven pump for priming or as a backup",
+  "d": [
+   "It is the primary pump; the engine-driven pump serves only as backup",
+   "It transfers fuel between tanks to keep the wings balanced",
+   "It pressurizes the tanks so fuel is pushed to the engine"
+  ],
+  "why": "Fuel reaches the engines either by gravity or by mechanical and/or electric pumps. Typically an engine-driven pump does the work and an electric pump supplements it for priming or backup.",
+  "src": "OEG 2E-5 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-007",
+  "topic": "fuel",
+  "q": "In a typical light twin with a pump-fed fuel system, how many fuel pumps does each engine have?",
+  "a": "Two: an engine-driven main pump and an electric auxiliary pump",
+  "d": [
+   "One: an engine-driven pump, with crossfeed serving as the backup",
+   "One: an electric pump, with gravity feed as the backup",
+   "Two: both engine-driven, mounted on the engine's accessory case"
+  ],
+  "why": "Each engine has an engine-driven main pump plus an electric auxiliary (boost) pump, switched from the flight deck, used for engine starting and if the engine-driven pump fails.",
+  "src": "OEG 2E-6 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-008",
+  "topic": "fuel",
+  "q": "What limitation can apply to an electric auxiliary (boost) fuel pump in some airplanes?",
+  "a": "It may not supply enough fuel pressure for full-power operation",
+  "d": [
+   "It may be used only on the ground for engine starting and priming",
+   "It must never run at the same time as the engine pump",
+   "It can be operated only when crossfeed is selected"
+  ],
+  "why": "The boost pump adds reliability for starting and for an engine-driven pump failure, but in some airplanes it cannot deliver enough pressure to run the engine at full power. Check your POH.",
+  "src": "OEG 2E-6 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-009",
+  "topic": "fuel",
+  "q": "In cruise, one engine's fuel pressure drops to zero because its engine-driven pump has failed. In a typical twin, what supplies fuel pressure to that engine?",
+  "a": "That engine's electric auxiliary (boost) pump",
+  "d": [
+   "The fuel primer, held on continuously until landing",
+   "Gravity flow through the tank vent system",
+   "The opposite engine's engine-driven pump"
+  ],
+  "why": "The electric auxiliary pump exists to back up the engine-driven pump, so turning it on for the affected engine is the normal response. Remember it may not support full power in some airplanes.",
+  "src": "OEG 2E-6 · POH/AFM",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-010",
+  "topic": "fuel",
+  "q": "Why do water and sediment collect in fuel strainer bowls and tank sumps?",
+  "a": "They are heavier than avgas, so they settle at the low points",
+  "d": [
+   "They are lighter than avgas, so they float up to the drains",
+   "The strainer chemically separates them from the fuel",
+   "Vent air carries them to the sumps as fuel is burned"
+  ],
+  "why": "Strainers trap moisture and sediment, which settle to the bottom of the strainer assembly because they are heavier than fuel. A sump is a low point in a fuel system or tank, which is why you drain there.",
+  "src": "OEG 2E-7 · FAA-H-8083-25",
+  "loc": "oeg 028"
+ },
+ {
+  "id": "o4-011",
+  "topic": "fuel",
+  "q": "How does a fuel primer help an engine start?",
+  "a": "It delivers fuel directly into the cylinders before start",
+  "d": [
+   "It adds extra fuel to the carburetor float bowl before start",
+   "It pressurizes the fuel tanks to push fuel to the pump",
+   "It preheats the fuel so it vaporizes in the carburetor"
+  ],
+  "why": "The primer draws fuel from the tanks and sprays it straight into the cylinders. It helps most in cold weather, when there isn't enough heat to vaporize fuel in the carburetor.",
+  "src": "OEG 2E-8 · FAA-H-8083-25",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-012",
+  "topic": "fuel",
+  "q": "On a fuel-injected engine, what causes vapor lock?",
+  "a": "Fuel gets hot enough to vaporize in the lines, blocking flow",
+  "d": [
+   "Ice crystals form in the fuel and plug the injector nozzles",
+   "Water in the fuel collects in the fuel distribution manifold",
+   "Too rich a mixture floods the cylinders with liquid fuel"
+  ],
+  "why": "Vapor lock is vapor or air in the fuel system that keeps liquid fuel from reaching the cylinders and can make a restart hard or impossible. Running a tank dry can also let air into the system.",
+  "src": "OEG 2E-9 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-013",
+  "topic": "fuel",
+  "q": "After a short stop on a hot day, your fuel-injected engine will not restart. What is the likely cause, and what should you use?",
+  "a": "Vapor lock; use the POH hot-start procedure",
+  "d": [
+   "Induction icing; use alternate air during the start",
+   "Water in the fuel; drain the sumps and crank again",
+   "A weak battery; use the engine's cold-start procedure"
+  ],
+  "why": "Heat soak after shutdown can vaporize the fuel in a fuel-injected engine's lines. Know your airplane's hot-start procedure and use it when vapor lock is suspected.",
+  "src": "OEG 2E-9 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-014",
+  "topic": "fuel",
+  "q": "What positions are commonly found on each engine's fuel selector valve in a light twin?",
+  "a": "ON, OFF, and X-FEED",
+  "d": [
+   "LEFT, RIGHT, BOTH, and OFF",
+   "ON, RESERVE, and OFF",
+   "MAIN, BOOST, and OFF"
+  ],
+  "why": "A three-position selector for each engine (ON, OFF, X-FEED) is the common arrangement. LEFT/RIGHT/BOTH is typical of many single-engine airplanes, not twins.",
+  "src": "OEG 2E-10 · POH/AFM",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-015",
+  "topic": "fuel",
+  "q": "On most light twins, what is the primary purpose of the fuel crossfeed system?",
+  "a": "To extend range and endurance in one-engine-inoperative flight",
+  "d": [
+   "To balance fuel between the wings during normal two-engine cruise",
+   "To let both engines feed from one tank for takeoff",
+   "To supply fuel pressure when an engine-driven pump fails"
+  ],
+  "why": "In most twins crossfeed is an emergency procedure that lets the operating engine use the dead engine's fuel. Some models also permit it for routine fuel balancing, but that is less common; follow your POH limits.",
+  "src": "OEG 2E-11 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-016",
+  "topic": "fuel",
+  "q": "One engine begins running rough and you suspect contaminated fuel in that side's tank. Besides OEI range, how might crossfeed help?",
+  "a": "It lets that engine draw fuel from the opposite side's tank",
+  "d": [
+   "It drains the contaminated tank overboard through the vent",
+   "It returns the bad fuel to the tank through the vapor return line",
+   "It routes the fuel through the boost pump filter a second time"
+  ],
+  "why": "Crossfeed may also be used when an engine is running poorly and fuel contamination is suspected. Know your POH crossfeed procedure thoroughly.",
+  "src": "OEG 2E-11 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-017",
+  "topic": "fuel",
+  "q": "During preflight, a student flips both fuel selectors to crossfeed and back, then says the crossfeed is checked. What did that actually confirm?",
+  "a": "Only that the handles move freely, not that crossfeed works",
+  "d": [
+   "That fuel will flow from the opposite tank to each engine",
+   "That water and debris were purged from the crossfeed lines",
+   "That the crossfeed check required before every flight is done"
+  ],
+  "why": "Moving the selectors on the ground proves nothing beyond freedom of handle motion. Verifying crossfeed takes a complete functional check with each engine running on crossfeed.",
+  "src": "OEG 2E-12 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-018",
+  "topic": "fuel",
+  "q": "During a complete functional crossfeed check at run-up, how should each engine be run on crossfeed?",
+  "a": "Individually, at 1,500 RPM minimum, for at least 1 minute",
+  "d": [
+   "Individually, at full takeoff power, for at least 1 minute",
+   "Both together, at idle power, for at least 10 seconds",
+   "Both together, at 1,000 RPM, for at least 5 minutes"
+  ],
+  "why": "Running each engine on its crossfeed source at moderate power for at least a minute ensures fuel flow is truly established from that source, not just from fuel already in the lines.",
+  "src": "OEG 2E-13 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-019",
+  "topic": "fuel",
+  "q": "You have just completed a functional crossfeed check during the run-up. What should you do before takeoff?",
+  "a": "Run each engine 1 minute or more at moderate power on its main tank",
+  "d": [
+   "Leave the selectors on crossfeed, since fuel flow was just proven",
+   "Shut down and drain the crossfeed lines before departing",
+   "Take off promptly while the engines are still warmed up"
+  ],
+  "why": "Once the crossfeed check is done, select the main (takeoff) tanks again and give each engine a minute or more at moderate power, proving it is feeding normally from the tanks you will take off on.",
+  "src": "OEG 2E-13 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-020",
+  "topic": "fuel",
+  "q": "Is a complete crossfeed check needed before every flight, and why do it at all?",
+  "a": "Not every flight, but unused crossfeed lines collect water and debris",
+  "d": [
+   "Yes, every flight, because the regulations require it",
+   "No, it is done only at the annual inspection by a mechanic",
+   "No, because crossfeed lines are sealed and can't collect contamination"
+  ],
+  "why": "A full check usually isn't needed before each flight. But crossfeed lines that sit unused tend to collect water and debris, so use crossfeed occasionally and drain its external drains on preflight.",
+  "src": "OEG 2E-14 · FAA-H-8083-3",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-021",
+  "topic": "fuel",
+  "q": "Your fuel gauges show both tanks full, but you have not looked in the tanks. What is the best practice?",
+  "a": "Visually check the fuel quantity and compare it with the gauges",
+  "d": [
+   "Rely on the gauges, since both of them read the same quantity",
+   "Skip the visual check if the airplane has digital fuel sensors",
+   "Use the last fuel receipt to confirm the tanks are topped off"
+  ],
+  "why": "Gauges display what a sensing unit in each tank measures (float types in older aircraft, digital sensors in newer ones), in gallons or pounds. Whatever the type, always verify fuel visually and compare it with the gauges.",
+  "src": "OEG 2E-15 · POH/AFM",
+  "loc": "oeg 029"
+ },
+ {
+  "id": "o4-022",
+  "topic": "fuel",
+  "q": "What is an aircraft fuel vapor return system primarily designed to do?",
+  "a": "Prevent tank over-pressurization and limit fuel vapor buildup",
+  "d": [
+   "Meet emissions rules in the same way as a car's vapor system",
+   "Feed fuel vapor to the primer for easier cold-weather starts",
+   "Vent fuel vapor overboard through the engine exhaust"
+  ],
+  "why": "The OEG contrasts it with car systems: in aircraft its main jobs are preventing tank over-pressurization and reducing the risk of a flammable vapor buildup. A return line connects to each tank, often with check valves against backflow.",
+  "src": "OEG 2E-16 · POH/AFM",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-023",
+  "topic": "fuel",
+  "q": "Why must aircraft fuel tanks be vented?",
+  "a": "To prevent a vacuum or excess pressure inside the tanks",
+  "d": [
+   "To let water vapor escape so condensation cannot form",
+   "To cool the fuel by circulating outside air through the tank",
+   "To let vapor reach the engine for smoother idling"
+  ],
+  "why": "Air must enter and leave as fuel is consumed and as temperature changes. Without venting, a vacuum could impede fuel flow or pressure could deform the tank.",
+  "src": "OEG 2E-16 · POH/AFM",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-024",
+  "topic": "fuel",
+  "q": "Which list correctly states functions of the engine oil system?",
+  "a": "Lubricate, cool, seal pistons to cylinders, and remove contaminants",
+  "d": [
+   "Lubricate, cool, prime the cylinders, and filter the induction air",
+   "Lubricate, seal, pressurize the fuel, and heat the carburetor",
+   "Lubricate, cool, drive the vacuum pump, and heat the cabin"
+  ],
+  "why": "Oil lubricates moving parts, cools by reducing friction and removing heat from the cylinders, seals between the cylinder walls and pistons, and carries contaminants away.",
+  "src": "OEG 2E-17 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-025",
+  "topic": "fuel",
+  "q": "What is the difference between a dry-sump and a wet-sump oil system?",
+  "a": "Dry sump: oil in a separate tank; wet sump: oil in the engine's sump",
+  "d": [
+   "Dry sump needs no oil pump; wet sump uses a pressure pump",
+   "Dry sump uses synthetic oil; wet sump uses mineral oil",
+   "Dry sump is for carbureted engines; wet sump is for fuel-injected ones"
+  ],
+  "why": "A dry-sump engine stores its oil in a separate tank and pumps it through the engine; a wet-sump engine carries its oil in a sump built into the engine itself.",
+  "src": "OEG 2E-18 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-026",
+  "topic": "fuel",
+  "q": "During a long climb on a hot day, which gauge gives the most direct and immediate indication that the cylinders are overheating?",
+  "a": "Cylinder head temperature (CHT)",
+  "d": [
+   "Oil temperature",
+   "Carburetor air temperature (CAT)",
+   "Outside air temperature (OAT)"
+  ],
+  "why": "Oil temperature lags and only indirectly reflects engine heating, though you can use it if it's all you have. CHT reads cylinder temperature directly and right away.",
+  "src": "OEG 2E-19 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-027",
+  "topic": "fuel",
+  "q": "Which of these could cause an abnormally high oil temperature indication?",
+  "a": "A blocked oil cooler",
+  "d": [
+   "Oil too viscous for cold-weather operation",
+   "Cowl flaps left open during cruise",
+   "A very rich mixture setting"
+  ],
+  "why": "High readings can come from a plugged oil line, low oil quantity, a blocked oil cooler, or a faulty gauge. Unusually low readings can mean improper oil viscosity in cold weather.",
+  "src": "OEG 2E-20 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-028",
+  "topic": "fuel",
+  "q": "On a cold winter flight, one engine's oil temperature stays unusually low. Which possible cause does this suggest?",
+  "a": "Oil of improper viscosity for the cold",
+  "d": [
+   "Low oil quantity in that engine",
+   "A plugged oil line on that engine",
+   "A partially blocked oil cooler on that engine"
+  ],
+  "why": "Low oil quantity, a plugged line, and a blocked cooler all drive oil temperature up. A low reading in cold weather may point to oil of the wrong viscosity.",
+  "src": "OEG 2E-20 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-029",
+  "topic": "fuel",
+  "q": "In a basic hydraulic system, which component controls the direction of fluid flow?",
+  "a": "The selector valve",
+  "d": [
+   "The relief valve",
+   "The reservoir",
+   "The hydraulic filter"
+  ],
+  "why": "A basic system has a reservoir, a pump (hand, electric, or engine-driven), a filter to keep fluid clean, a selector valve to direct flow, a relief valve for excess pressure, and an actuator.",
+  "src": "OEG 2E-21 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-030",
+  "topic": "fuel",
+  "q": "What is the job of the relief valve in a basic hydraulic system?",
+  "a": "To relieve excess pressure in the system",
+  "d": [
+   "To direct fluid to extend or retract an actuator",
+   "To keep the hydraulic fluid clean",
+   "To store the fluid supply for the pump"
+  ],
+  "why": "The relief valve gives the system an outlet when pressure gets too high. The selector valve directs flow, the filter cleans the fluid, and the reservoir holds it.",
+  "src": "OEG 2E-21 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-031",
+  "topic": "fuel",
+  "q": "In a hydraulic system, what is a servo?",
+  "a": "A cylinder and piston that turn fluid power into work",
+  "d": [
+   "A valve that limits the maximum system pressure",
+   "A pump that turns engine power into fluid pressure",
+   "A sensor that commands the hydraulic selector valve"
+  ],
+  "why": "A servo is a piston working inside a cylinder: fluid pressure on the piston produces the force that moves a system such as the landing gear or a flight control.",
+  "src": "OEG 2E-22 · FAA-H-8083-25",
+  "loc": "oeg 030"
+ },
+ {
+  "id": "o4-032",
+  "topic": "fuel",
+  "q": "Why does a hydraulic landing gear system use a double-acting servo and a selector valve?",
+  "a": "The gear must be driven both ways: extension and retraction",
+  "d": [
+   "It lets the gear free-fall by gravity if the pump fails",
+   "It lets two hydraulic pumps share the work of raising the gear",
+   "It keeps pressure from exceeding the relief valve setting"
+  ],
+  "why": "A single-acting servo applies fluid force in one direction; a double-acting servo works in both. The selector valve chooses the direction, which gear extension and retraction require.",
+  "src": "OEG 2E-23 · FAA-H-8083-25",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-033",
+  "topic": "fuel",
+  "q": "What is the most widely used hydraulic fluid in small aircraft, and what color is it?",
+  "a": "Mineral-based MIL-H-5606, dyed red",
+  "d": [
+   "Phosphate-ester fluid, dyed purple",
+   "Vegetable-based fluid, dyed blue",
+   "Mineral-based MIL-H-5606, dyed blue"
+  ],
+  "why": "MIL-H-5606 is mineral-based, smells like penetrating oil, and is dyed red. Always use the fluid your POH/AFM specifies.",
+  "src": "OEG 2E-24 · FAA-H-8083-25 · FAA-H-8083-31",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-034",
+  "topic": "fuel",
+  "q": "MIL-H-83282 hydraulic fluid is also used in small aircraft. How does it compare with MIL-H-5606?",
+  "a": "It is fire-resistant and is also dyed red",
+  "d": [
+   "It is fire-resistant and is dyed purple",
+   "It is vegetable-based and is dyed blue",
+   "It is a phosphate ester and is dyed green"
+  ],
+  "why": "MIL-H-83282 is a newer, fire-resistant fluid, and like MIL-H-5606 it is dyed red, so color alone won't tell them apart. Use the fluid your POH/AFM specifies.",
+  "src": "OEG 2E-24 · FAA-H-8083-25 · FAA-H-8083-31",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-035",
+  "topic": "fuel",
+  "q": "In light twins that have hydraulic systems, what do those systems most commonly operate?",
+  "a": "The landing gear, and in a few airplanes, the flaps",
+  "d": [
+   "The primary flight controls and the elevator trim tabs",
+   "The gyroscopic flight instruments",
+   "The fuel boost and transfer pumps"
+  ],
+  "why": "Not every twin has a hydraulic system. Those that do commonly use it for the landing gear, and a few for the flaps. Know how your system works and how it can fail.",
+  "src": "OEG 2E-25 · FAA-H-8083-25 · POH/AFM",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-036",
+  "topic": "elec",
+  "q": "What is the main advantage of an alternator over a DC generator?",
+  "a": "It produces enough current even at low engine RPM",
+  "d": [
+   "It produces direct current without needing any rectifier",
+   "It needs no voltage regulator to control its output",
+   "It can bring a completely dead battery back up in flight"
+  ],
+  "why": "Most DC generators can't carry the full load at low RPM, so the battery makes up the difference. An alternator produces AC that is converted to DC, and its output stays more constant over a wide RPM range.",
+  "src": "OEG 2F-1 · FAA-H-8083-25",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-037",
+  "topic": "elec",
+  "q": "In a generator-equipped airplane, you taxi at low RPM for a long time with lights and radios on. What is the likely result?",
+  "a": "The load is drawn from the battery, which can be quickly depleted",
+  "d": [
+   "The generator overcharges the battery at low RPM",
+   "The voltage regulator turns off the radios automatically",
+   "The generator easily carries the load because the demand is so low"
+  ],
+  "why": "DC generators often can't produce enough current at low RPM, so the battery supplies the shortfall and can run down. Alternators avoid this by producing adequate output even at slower engine speeds.",
+  "src": "OEG 2F-1 · FAA-H-8083-25",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-038",
+  "topic": "elec",
+  "q": "What is the purpose of alternator/generator paralleling circuitry in a twin?",
+  "a": "To match outputs so both units share the load equally",
+  "d": [
+   "To connect both alternators to the battery only for engine start",
+   "To let one alternator run the system while the other stays off",
+   "To trip a failed alternator off the bus automatically"
+  ],
+  "why": "Paralleling circuitry matches the output of each engine's alternator or generator so the load is split equally rather than one unit carrying most of it.",
+  "src": "OEG 2F-2 · FAA-H-8083-3",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-039",
+  "topic": "elec",
+  "q": "What does 'load shedding' mean in a multi-engine airplane's electrical system?",
+  "a": "Reducing electrical load when running on one alternator",
+  "d": [
+   "Moving electrical load from the battery onto the alternators",
+   "Dumping excess alternator output to ground through a resistor",
+   "Automatically balancing the load between both alternators"
+  ],
+  "why": "When one unit fails, the remaining one may not support the full load, so the pilot turns off nonessential equipment. The POH/AFM gives the system description and limits.",
+  "src": "OEG 2F-3 · FAA-H-8083-3",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-040",
+  "topic": "elec",
+  "q": "In cruise, one alternator fails and the remaining one is near its rated load. After isolating the failed unit, what should you do?",
+  "a": "Shed nonessential loads such as backup radios and unneeded lights",
+  "d": [
+   "Turn off the battery master to protect the battery",
+   "Reset the failed alternator's breaker until it stays in",
+   "Increase RPM so the remaining alternator can carry the entire load"
+  ],
+  "why": "Normally the failed unit is isolated and the other powers the system, but you may have to shed load: backup radios, unneeded interior or exterior lights, and deice equipment if it isn't needed. Watch the electrical load indications.",
+  "src": "OEG 2F-4 · FAA-H-8083-3",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-041",
+  "topic": "elec",
+  "q": "How do circuit breakers differ from fuses in protecting aircraft circuits?",
+  "a": "They do the same job but can be reset instead of replaced",
+  "d": [
+   "Breakers guard against overvoltage; fuses against overcurrent",
+   "Breakers protect avionics only; fuses protect everything else",
+   "Breakers trip at a lower current, so they protect better"
+  ],
+  "why": "Both protect circuits and equipment from electrical overload. A breaker can be manually reset rather than replaced, and placards at the panel identify each circuit by name and amperage limit.",
+  "src": "OEG 2F-5 · FAA-H-8083-25",
+  "loc": "oeg 031"
+ },
+ {
+  "id": "o4-042",
+  "topic": "elec",
+  "q": "In flight, the circuit breaker for a nonessential cabin light pops. What is the recommended action?",
+  "a": "Leave it out; the light isn't needed to finish the flight safely",
+  "d": [
+   "Reset it right away; breakers are designed to be reset in flight",
+   "Reset it once after it cools, since one reset is always acceptable",
+   "Hold the breaker in by hand so the circuit stays powered"
+  ],
+  "why": "Don't reset a tripped breaker in flight unless an approved AFM procedure calls for it or, in the PIC's judgment, the circuit is needed to complete the flight safely. Repeated resets can damage the circuit or cause a fire or explosion.",
+  "src": "OEG 2F-6 · FAA-H-8083-30 · AC 120-80",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-043",
+  "topic": "elec",
+  "q": "A zero-center ammeter shows a minus (discharge) indication. What does this mean?",
+  "a": "The battery is supplying more current than it receives",
+  "d": [
+   "The battery is being charged at a high rate",
+   "The alternator is carrying the whole load with power to spare",
+   "The voltage regulator is allowing an overcharge"
+  ],
+  "why": "A plus indication shows the battery's charging rate; a minus indication means the battery is supplying more than is being put back. The ammeter also shows whether the alternator/generator is producing enough power.",
+  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-044",
+  "topic": "elec",
+  "q": "In flight, your zero-center ammeter suddenly shows a full-scale minus deflection. What does this indicate?",
+  "a": "A malfunction of the alternator/generator",
+  "d": [
+   "A malfunction of the voltage regulator circuit",
+   "A fully charged battery",
+   "A tripped avionics circuit breaker"
+  ],
+  "why": "A full-scale minus deflection points to an alternator/generator malfunction. A full-scale positive deflection points to a regulator malfunction.",
+  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-045",
+  "topic": "elec",
+  "q": "What does a full-scale positive (charge) deflection on a zero-center ammeter indicate?",
+  "a": "A malfunction of the voltage regulator",
+  "d": [
+   "A malfunction of the alternator/generator",
+   "A fully charged battery isolated from the bus",
+   "An electrical load beyond the alternator's capacity"
+  ],
+  "why": "A pegged positive reading means the regulator is letting excessive charge through. A pegged negative reading means the alternator/generator has failed, and an excessive load shows as a discharge.",
+  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-046",
+  "topic": "elec",
+  "q": "With all electrical equipment turned off, what does a loadmeter indicate?",
+  "a": "Only the charging current the battery is demanding",
+  "d": [
+   "The battery's remaining capacity as a percentage",
+   "Zero, since a loadmeter shows only accessory load",
+   "The alternator's maximum available output"
+  ],
+  "why": "A loadmeter's scale starts at zero and shows the load on the alternator/generator as a percentage of its capacity, from accessories plus battery charging. With everything off, only battery charging current remains.",
+  "src": "OEG 2F-8 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-047",
+  "topic": "elec",
+  "q": "In a 12-volt aircraft electrical system, about what voltage should the alternator system put out, and why?",
+  "a": "About 14 volts, so it stays above battery voltage and charges it",
+  "d": [
+   "About 12 volts, so it exactly matches the battery voltage",
+   "About 24 volts, so it can charge two 12-volt batteries wired in series",
+   "About 10 volts, so the battery is never overcharged"
+  ],
+  "why": "The voltage regulator stabilizes alternator/generator output to control the battery's charge rate. Output must be higher than battery voltage; a 12-volt battery is fed by roughly 14 volts.",
+  "src": "OEG 2F-9 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-048",
+  "topic": "elec",
+  "q": "What is an electrical bus bar?",
+  "a": "A power distribution point to which several circuits connect",
+  "d": [
+   "A switch that connects two separate electrical buses",
+   "A protective device that opens the circuit when current is too high",
+   "A relay that connects the battery to the starter"
+  ],
+  "why": "A bus bar is often a solid metal strip with terminals that distributes power to many circuits. The switch that connects buses is a bus tie.",
+  "src": "OEG 2F-10 · FAA-H-8083-3",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-049",
+  "topic": "elec",
+  "q": "In a twin with split buses, the left generator fails and its bus loses power. What does closing the bus tie do?",
+  "a": "Lets the operating generator power both buses",
+  "d": [
+   "Isolates the failed generator from the battery",
+   "Transfers the dead bus to the standby battery",
+   "Parallels the failed generator with the good one"
+  ],
+  "why": "A bus tie is a switch connecting two or more bus bars. It is typically closed when one generator fails so the remaining generator can feed both buses.",
+  "src": "OEG 2F-11 · FAA-H-8083-3",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-050",
+  "topic": "elec",
+  "q": "What does an AHRS (attitude and heading reference system) provide?",
+  "a": "Attitude, heading, and yaw information from three-axis sensors",
+  "d": [
+   "Airspeed, altitude, and vertical speed from pitot-static inputs",
+   "Terrain alerts from GPS position and a terrain database",
+   "Steering commands shown as command bars on the PFD"
+  ],
+  "why": "An AHRS uses three-axis sensors to supply attitude, heading, and yaw, replacing the mechanical gyros with more reliable and accurate sensors. Air data comes from the ADC.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-051",
+  "topic": "elec",
+  "q": "Which inputs does an air data computer (ADC) process?",
+  "a": "Pitot pressure, static pressure, and temperature",
+  "d": [
+   "Pitot pressure, static pressure, and magnetic heading",
+   "GPS position, static pressure, and engine RPM",
+   "Attitude rates, pitot pressure, and fuel flow"
+  ],
+  "why": "From pitot, static, and temperature inputs, the ADC computes precise altitude, indicated and true airspeed, vertical speed, and air temperature.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 032"
+ },
+ {
+  "id": "o4-052",
+  "topic": "elec",
+  "q": "In a glass cockpit, how do the PFD and MFD roles differ?",
+  "a": "PFD replaces the six-pack; MFD shows maps, nav, and terrain data",
+  "d": [
+   "PFD shows engine data; MFD shows attitude and airspeed",
+   "PFD shows the moving map; MFD shows the six traditional instruments",
+   "PFD is the standby display; MFD is the primary display"
+  ],
+  "why": "The PFD replaces the six traditional instruments with one display (horizon, airspeed, altitude, vertical speed, trend, trim, rate of turn). The MFD presents configurable navigation, moving map, and terrain information alongside it.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-053",
+  "topic": "elec",
+  "q": "What does a flight director (FD) do?",
+  "a": "Shows steering commands, as command bars, for the pilot to follow",
+  "d": [
+   "Moves the control surfaces to fly the selected path",
+   "Stores the database of routes, approaches, and departures for the GPS",
+   "Compares the airplane's path with a terrain database"
+  ],
+  "why": "The FD computer processes the selected navigation source and the airplane's parameters and shows command bars or crossbars; the pilot keeps the nose aligned with them. Moving the controls is the autopilot's job.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-054",
+  "topic": "elec",
+  "q": "Which function belongs to a flight management system (FMS)?",
+  "a": "Programming routes and computing fuel, time remaining, and range",
+  "d": [
+   "Sensing attitude and heading with solid-state three-axis sensors",
+   "Measuring Earth's magnetic field to determine heading",
+   "Computing true airspeed from pitot and static pressure"
+  ],
+  "why": "An FMS holds a database for programming routes, approaches, and departures, feeds navigation data to the FD/autopilot, and computes values such as fuel consumption, time remaining, and range.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-055",
+  "topic": "elec",
+  "q": "How does TAWS (terrain awareness and warning system) determine a terrain threat?",
+  "a": "It compares GPS position and altitude with a terrain database",
+  "d": [
+   "It paints the nearby terrain using returns from the weather radar",
+   "It relies on ATC radar to issue low-altitude alerts",
+   "It senses nearby high terrain with the magnetometer"
+  ],
+  "why": "TAWS checks where the airplane is and where it is heading, from GPS and altitude data, against a detailed database of terrain and obstacles.",
+  "src": "OEG 2G-1 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-056",
+  "topic": "elec",
+  "q": "In an electronic flight instrument system, what does the magnetometer do?",
+  "a": "Senses Earth's magnetic field and sends heading data to the AHRS",
+  "d": [
+   "Senses aircraft rotation and sends attitude data to the PFD",
+   "Senses static pressure and sends altitude data to the ADC",
+   "Senses GPS signals and sends position data to the MFD"
+  ],
+  "why": "It senses Earth's magnetic field to work out heading and sends that digitally to the AHRS, which in turn drives the heading display on the PFD.",
+  "src": "OEG 2G-2 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-057",
+  "topic": "elec",
+  "q": "In flight, the magnetometer fails but the rest of the AHRS keeps working. What information will you lose?",
+  "a": "Heading information",
+  "d": [
+   "Attitude information",
+   "Airspeed and altitude",
+   "GPS position"
+  ],
+  "why": "The magnetometer is the AHRS's heading source, so losing it removes heading information. Airspeed and altitude come from the ADC.",
+  "src": "OEG 2G-10 · FAA-H-8083-16",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-058",
+  "topic": "elec",
+  "q": "When you power up an FMS/RNAV unit, how do you verify the navigation database's effective dates?",
+  "a": "Check the dates on the start-up screen shown during the self-test",
+  "d": [
+   "Check the latest avionics entry in the airplane's maintenance logbook",
+   "Check the dates printed in the current Chart Supplement",
+   "Ask ATC for the current database cycle on initial contact"
+  ],
+  "why": "The database's effective dates are typically displayed on a start-up page as the system runs its self-test. Confirm the database is current before relying on it.",
+  "src": "OEG 2G-3 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-059",
+  "topic": "elec",
+  "q": "Why do some AHRS units have to be initialized on the ground before departure?",
+  "a": "To set the reference attitude for measuring later changes",
+  "d": [
+   "To spin the gyro rotor up to its full operating speed",
+   "To load and verify the current navigation database cycle",
+   "To calibrate the pitot-static inputs to field elevation"
+  ],
+  "why": "Initialization establishes the reference attitude that all later attitude changes are measured against. Some systems must do this on the ground; others can initialize while taxiing or even in flight.",
+  "src": "OEG 2G-4 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-060",
+  "topic": "elec",
+  "q": "Which standby instruments are typically provided in an advanced avionics aircraft?",
+  "a": "Attitude indicator, airspeed indicator, and altimeter",
+  "d": [
+   "Turn coordinator, heading indicator, and VSI",
+   "Airspeed indicator, altimeter, and VSI",
+   "Attitude indicator, heading indicator, and turn coordinator"
+  ],
+  "why": "Aircraft with electronic flight instruments must carry a minimal set of backups, usually conventional round dials: attitude, airspeed, and altitude.",
+  "src": "OEG 2G-5 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-061",
+  "topic": "elec",
+  "q": "Your PFD goes blank in flight. In a system with reversion capability, what can the remaining display show?",
+  "a": "Primary flight and engine instruments",
+  "d": [
+   "Only the moving map and the flight plan pages",
+   "Only the engine instruments",
+   "Only the terrain and traffic pages"
+  ],
+  "why": "Many systems offer reversion, putting the primary flight and engine instruments on the remaining display. Know what your system does, and what else a display failure may take with it.",
+  "src": "OEG 2G-6 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-062",
+  "topic": "elec",
+  "q": "Besides losing a screen, what else can a display failure cause in some integrated avionics systems?",
+  "a": "Partial loss of navigation, communication, and GPS capability",
+  "d": [
+   "Loss of the standby attitude indicator and the standby altimeter",
+   "Automatic disconnection of both alternators",
+   "Loss of power to the electric fuel pumps"
+  ],
+  "why": "In some systems, radios and GPS are tied to a particular display, so its failure can partially remove nav, comm, and GPS capability. Your POH/AFM explains your system.",
+  "src": "OEG 2G-7 · POH/AFM",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-063",
+  "topic": "elec",
+  "q": "Red Xs appear over the airspeed, altitude, and vertical speed on your PFD, but the attitude display is normal. What has failed?",
+  "a": "The air data computer (ADC)",
+  "d": [
+   "The AHRS",
+   "The magnetometer",
+   "The flight management system"
+  ],
+  "why": "Airspeed, altitude, and vertical speed come from the ADC, so red Xs on those indicate an ADC failure. A red X on the attitude indicator would point to the AHRS.",
+  "src": "OEG 2G-8 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-064",
+  "topic": "elec",
+  "q": "A red X appears over the attitude indicator on your PFD. Which component has most likely failed?",
+  "a": "The AHRS",
+  "d": [
+   "The ADC",
+   "The magnetometer",
+   "The standby battery"
+  ],
+  "why": "Attitude comes from the AHRS, so an inoperative (red X) attitude display indicates an AHRS failure. An ADC failure removes airspeed, altitude, and VS; a magnetometer failure removes heading.",
+  "src": "OEG 2G-9 · FAA-H-8083-16",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-065",
+  "topic": "elec",
+  "q": "In an aircraft with electronic flight instruments, what is the standby battery for?",
+  "a": "Backup power after a charging failure exhausts the main battery",
+  "d": [
+   "Extra cranking power for engine starts in cold weather",
+   "Powering the avionics during engine start to protect them",
+   "Sharing the electrical load with the main battery in normal flight"
+  ],
+  "why": "It stays charged and unused in normal operation, ready to take over if the charging system fails and the main battery is then run down.",
+  "src": "OEG 2G-11 · FAA-H-8083-15",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-066",
+  "topic": "elec",
+  "q": "In a typical electronic flight instrument system, when does the standby battery come online?",
+  "a": "When main battery voltage drops to about 19 volts, with its switch in ARM",
+  "d": [
+   "As soon as either alternator fails, with its switch in ARM",
+   "When main battery voltage drops to about 19 volts, with its switch OFF",
+   "When main battery voltage drops to about 12 volts, with its switch in ARM"
+  ],
+  "why": "It comes online automatically once the main battery is depleted to a set value, about 19 volts in the typical system, and generally only if the standby battery switch is in ARM. Check your POH/AFM for specifics.",
+  "src": "OEG 2G-11 · FAA-H-8083-15",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-067",
+  "topic": "elec",
+  "q": "A two-axis autopilot typically controls which surfaces?",
+  "a": "Ailerons and elevator, or ailerons and rudder",
+  "d": [
+   "Ailerons only, through a single roll servo",
+   "Elevator and rudder, but never the ailerons",
+   "Ailerons, elevator, and rudder through three servos"
+  ],
+  "why": "A single-axis autopilot controls only the ailerons (roll). Two-axis adds the elevator or rudder. A three-axis autopilot uses three servos for ailerons, elevator, and rudder to control all three axes.",
+  "src": "OEG 2G-12 · FAA-H-8083-15",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-068",
+  "topic": "elec",
+  "q": "In a basic autopilot system, what does the amplifier do?",
+  "a": "Boosts the gyro signals enough to operate the servos",
+  "d": [
+   "Senses what the airplane is doing about each axis",
+   "Moves the control surfaces in response to commands",
+   "Lets the pilot fly the airplane through the autopilot"
+  ],
+  "why": "Gyros sense what the airplane is doing, servos move the control surfaces, the amplifier strengthens the gyro signals enough to drive the servos, and a controller allows manual control through the autopilot.",
+  "src": "OEG 2G-13 · FAA-H-8083-31",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-069",
+  "topic": "elec",
+  "q": "What does a position-based autopilot use to sense deviations?",
+  "a": "The attitude gyro, sensing departure from a reference position",
+  "d": [
+   "The turn-and-bank sensor, sensing roll and yaw rates",
+   "The magnetometer, sensing changes in the magnetic field",
+   "The air data computer, sensing changes in pitot-static pressure"
+  ],
+  "why": "A position-based autopilot uses the attitude gyro to measure how far the airplane has moved from a reference, such as wings level, a pitch attitude, or a heading. A rate-based system uses the turn-and-bank sensor instead.",
+  "src": "OEG 2G-14 · FAA-H-8083-15",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-070",
+  "topic": "elec",
+  "q": "What sensor does a rate-based autopilot use, and about which axes does it use rate information?",
+  "a": "Turn-and-bank sensor; the vertical (yaw) and longitudinal (roll) axes",
+  "d": [
+   "Turn-and-bank sensor; the longitudinal (roll) and lateral (pitch) axes",
+   "Turn-and-bank sensor; the lateral (pitch) and vertical (yaw) axes",
+   "Attitude gyro; the longitudinal (roll) and the lateral (pitch) axes"
+  ],
+  "why": "A rate-based system uses the turn-and-bank sensor and works on rate of movement about the vertical axis (heading change or yaw) and the longitudinal axis (roll).",
+  "src": "OEG 2G-14 · FAA-H-8083-15",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-071",
+  "topic": "elec",
+  "q": "What are the most common features available on light-aircraft autopilots?",
+  "a": "Altitude hold and heading hold",
+  "d": [
+   "Airspeed hold and autothrottle",
+   "Autoland and rollout guidance",
+   "Envelope protection and yaw damping"
+  ],
+  "why": "Altitude and heading hold are the most common. More advanced systems add vertical speed and/or indicated airspeed hold, and most autopilots can also track navaids.",
+  "src": "OEG 2G-15 · FAA-H-8083-25",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-072",
+  "topic": "elec",
+  "q": "Your autopilot starts wandering in heading and pitch, the attitude and heading indicators drift, and the suction gauge reads low. What should you suspect?",
+  "a": "A pneumatic system failure letting the gyros spin down",
+  "d": [
+   "An air data computer failure affecting the altimeter and VSI",
+   "A magnetometer failure affecting heading only",
+   "A pitot tube blockage affecting the airspeed"
+  ],
+  "why": "With vacuum- or pressure-driven gyros, a pneumatic failure lets the gyros spin down and wander. If they feed the autopilot or flight director, the result is erratic movement or false indications.",
+  "src": "OEG 2G-16 · FAA-H-8083-25",
+  "loc": "oeg 034"
+ },
+ {
+  "id": "o4-073",
+  "topic": "elec",
+  "q": "What do autopilot systems normally incorporate so a malfunctioning autopilot can be disabled?",
+  "a": "A disconnect safety feature that disengages it manually or automatically",
+  "d": [
+   "A servo fuse that blows when the pilot pushes against the controls",
+   "A caging knob that locks the servos in their last position",
+   "A timer that disengages the autopilot after a set period"
+  ],
+  "why": "Autopilots normally have a disconnect safety feature that can drop the system off automatically or on the pilot's command. Systems vary widely, so learn the disconnect procedure in your AFM/POH autopilot supplement.",
+  "src": "OEG 2G-17 · FAA-H-8083-25",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-074",
+  "topic": "elec",
+  "q": "Can most autopilot systems be manually overpowered by the pilot?",
+  "a": "Yes, most autopilots can be manually overridden",
+  "d": [
+   "No, the servos lock the controls until it is disengaged",
+   "No, only hydraulic autopilots can be overridden by hand",
+   "Yes, but only in roll; the pitch servo cannot be overpowered"
+  ],
+  "why": "Most autopilots can be manually overridden. Check your POH/AFM supplement for your system's specifics.",
+  "src": "OEG 2G-18 · FAA-H-8083-25",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-075",
+  "topic": "elec",
+  "q": "Your autopilot has envelope protection, and it is engaged and enabled. You select a climb rate the airplane cannot sustain. What will it do?",
+  "a": "Reduce the angle of attack to keep the airplane from stalling",
+  "d": [
+   "Hold the selected climb rate until the airplane eventually stalls",
+   "Disconnect and leave the airplane trimmed nose-up",
+   "Add power automatically to maintain the climb rate"
+  ],
+  "why": "Envelope protection lowers the angle of attack to avoid a stall even if the pilot selects an excessive climb rate or attitude. Know whether yours has it and whether it is enabled; it may be disabled to demonstrate required maneuvers.",
+  "src": "OEG 2G-19 · AFM/POH supplements",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-076",
+  "topic": "elec",
+  "q": "In general, may the autopilot be used during single-engine operations in a light twin?",
+  "a": "Most systems prohibit autopilot use with one engine inoperative",
+  "d": [
+   "Most systems allow it once the airplane is trimmed for one engine",
+   "Most systems require it, to reduce workload after a failure",
+   "Most systems allow it, but only with the yaw damper engaged"
+  ],
+  "why": "Most autopilot systems prohibit single-engine use. The POH/AFM and the autopilot supplement govern.",
+  "src": "OEG 2G-20 · POH/AFM",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-077",
+  "topic": "elec",
+  "q": "What does a yaw damper do?",
+  "a": "Moves the rudder to counter yaw sensed by a gyro or accelerometer",
+  "d": [
+   "Moves the ailerons to keep the wings level in turbulence",
+   "Trims the rudder to cancel asymmetric thrust after an engine failure",
+   "Moves the elevator to damp out pitch oscillations"
+  ],
+  "why": "A yaw damper is a servo that drives the rudder in response to a sensed yaw rate, minimizing turbulence-induced motion about the vertical axis. Most can be engaged independently of the autopilot.",
+  "src": "OEG 2G-21 · FAA-H-8083-3",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-078",
+  "topic": "elec",
+  "q": "When should a yaw damper normally be off?",
+  "a": "For takeoff and landing",
+  "d": [
+   "During cruise in turbulence",
+   "Whenever the autopilot is disengaged",
+   "During climbs and descents"
+  ],
+  "why": "Yaw dampers should be off for takeoff and landing, and there may be added restrictions during single-engine operation. Most work independently of the autopilot, so autopilot off doesn't mean yaw damper off.",
+  "src": "OEG 2G-21 · FAA-H-8083-3",
+  "loc": "oeg 035"
+ },
+ {
+  "id": "o4-079",
+  "topic": "elec",
+  "q": "Does an airplane always have to remain stationary while its AHRS initializes?",
+  "a": "Not always; some can initialize while taxiing or even in flight",
+  "d": [
+   "Yes; every AHRS must align motionless before the airplane taxis",
+   "No; every AHRS aligns only after takeoff, in wings-level flight",
+   "No; an AHRS needs no initialization, since it has no spinning gyros"
+  ],
+  "why": "It depends on the system. Some AHRS units must finish initializing on the ground before departure; others can do it during taxi or in flight. Either way, initialization sets the reference attitude used for later changes.",
+  "src": "OEG 2G-4 · FAA-H-8083-16",
+  "loc": "oeg 033"
+ },
+ {
+  "id": "o4-080",
+  "topic": "elec",
+  "q": "What is the purpose of the voltage regulator in an aircraft electrical system?",
+  "a": "To stabilize alternator output and so control the battery charge rate",
+  "d": [
+   "To convert the alternator's AC output into DC for the bus",
+   "To divide the electrical load equally between both alternators",
+   "To open a circuit when its current exceeds the placarded limit"
+  ],
+  "why": "The regulator holds generator/alternator output steady, slightly above battery voltage, which sets how fast the battery charges. Rectifiers convert AC to DC, paralleling circuitry shares load, and breakers or fuses protect circuits.",
+  "src": "OEG 2F-9 · FAA-H-8083-25",
+  "loc": "oeg 032"
+ }
+]

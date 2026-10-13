@@ -1,0 +1,1374 @@
+[
+ {
+  "id": "p4-001",
+  "topic": "s-normal",
+  "q": "On the walk-around, how much strut piston should be exposed under static load on the main and nose gear?",
+  "a": "Main gear 3-1/2 inches; nose gear 2-1/2 inches",
+  "d": [
+   "Main gear 2-1/2 inches; nose gear 3-1/2 inches",
+   "Main gear 4-1/2 inches; nose gear 3-1/2 inches",
+   "Main gear 3 inches; nose gear 2 inches"
+  ],
+  "why": "POH 6-2 calls for 3-1/2 inches of exposed piston on each main gear and 2-1/2 inches on the nose gear at static load. Your school checklist agrees (3.5 in and 2.5 in).",
+  "src": "POH 6-2",
+  "loc": "poh 156"
+ },
+ {
+  "id": "p4-002",
+  "topic": "s-engine",
+  "q": "What oil quantity does the POH walk-around call for in each engine?",
+  "a": "Six to eight quarts",
+  "d": [
+   "Four to six quarts",
+   "Eight to ten quarts",
+   "Five to seven quarts"
+  ],
+  "why": "POH 6-2: open the nacelle doors, check oil quantity (six to eight quarts), then secure both inspection doors. The school checklist uses the same 6–8 qt.",
+  "src": "POH 6-2",
+  "loc": "poh 156"
+ },
+ {
+  "id": "p4-003",
+  "topic": "s-fuel",
+  "q": "How many fuel drains does the POH walk-around have you drain on the right side?",
+  "a": "Five: two tank, one gascolator and two crossfeed drains",
+  "d": [
+   "Three: two tank drains and one gascolator drain",
+   "Four: two tank drains, one gascolator, one crossfeed drain",
+   "Two: one tank drain and one gascolator drain"
+  ],
+  "why": "POH 6-2 lists two fuel tank drains under the wing, one gascolator drain near the bottom of the nacelle, and two crossfeed drains on the bottom of the fuselage inboard of the flap. The left side is then inspected the same way.",
+  "src": "POH 6-2",
+  "loc": "poh 156"
+ },
+ {
+  "id": "p4-004",
+  "topic": "s-engine",
+  "q": "How does the POH normal starting procedure prime each engine?",
+  "a": "Pumps on, mixture rich until fuel flow steadies, then cut-off",
+  "d": [
+   "Pump the throttle three times with the mixture full rich",
+   "Hold a primer switch for 3 seconds with the electric pumps off",
+   "Crank with the mixture full rich and the electric pump on"
+  ],
+  "why": "Normal start step 7: with the electric fuel pumps on, move the mixture to rich until a fuel flow is indicated and stabilized, then back to idle cut-off. The mixture is advanced again only as the engine starts.",
+  "src": "POH 6-3",
+  "loc": "poh 161"
+ },
+ {
+  "id": "p4-005",
+  "topic": "s-engine",
+  "q": "After a normal start on a mild day, one engine shows no oil pressure after 30 seconds. Per the POH, what do you do?",
+  "a": "Shut the engine down and have it checked",
+  "d": [
+   "Run it at 1500 RPM to help build pressure",
+   "Wait up to two minutes for the oil to warm",
+   "Continue and recheck pressure during run-up"
+  ],
+  "why": "POH 6-3: oil pressure should come up within 30 seconds (it may take somewhat longer only in very cold weather). If there is no indication, shut down the engine and have it checked.",
+  "src": "POH 6-3",
+  "loc": "poh 161"
+ },
+ {
+  "id": "p4-006",
+  "topic": "s-fuel",
+  "q": "Per your school's starting checklist, when is each engine's electric fuel pump turned off?",
+  "a": "Right after priming, before the starter is engaged",
+  "d": [
+   "After the before-takeoff run-up, then check fuel pressure",
+   "As soon as that engine's oil pressure starts rising",
+   "Not until climbing through 1,000 ft AGL after takeoff"
+  ],
+  "why": "School start: electric fuel pump ON, mixture rich until fuel flow shows, then idle cut-off (priming), electric fuel pump OFF, clear the prop, engage the starter, and advance the mixture as it starts. (POH 6-3 instead leaves both pumps on until both engines are running.)",
+  "src": "School checklist · POH 6-3",
+  "loc": "poh 161"
+ },
+ {
+  "id": "p4-007",
+  "topic": "s-engine",
+  "q": "How does the POH hot start differ from the normal start?",
+  "a": "The electric fuel pumps stay off, so the engine is not primed",
+  "d": [
+   "The throttle is full forward and the mixture stays in cut-off",
+   "The engine is primed for twice as long as normal",
+   "The propellers are set full aft to ease cranking"
+  ],
+  "why": "Hot start: mixture idle cut-off, throttle open 1/2 inch, props forward, electric pumps OFF, crank and advance the mixture as it starts. If it won't start that way, use the normal procedure, which includes priming. Full throttle with mixture cut-off is the flooded start.",
+  "src": "POH 6-3",
+  "loc": "poh 161"
+ },
+ {
+  "id": "p4-008",
+  "topic": "s-engine",
+  "q": "Which setup matches the POH flooded-start procedure?",
+  "a": "Mixture cut-off, throttle full forward, electric pump off",
+  "d": [
+   "Mixture rich, throttle open 1/2 inch, electric pump on",
+   "Mixture cut-off, throttle closed, electric pump on",
+   "Mixture rich, throttle full forward, electric pump off"
+  ],
+  "why": "Flooded start (POH 6-4): mixture idle cut-off, throttle full forward, prop forward, electric pump off, then crank. When the engine fires, retard the throttle and advance the mixture slowly.",
+  "src": "POH 6-4",
+  "loc": "poh 162"
+ },
+ {
+  "id": "p4-009",
+  "topic": "s-engine",
+  "q": "An engine fails to start after 30 seconds of cranking. What does the POH say to do before trying again?",
+  "a": "Let the starter cool for several minutes",
+  "d": [
+   "Release and immediately re-engage the starter",
+   "Crank another 30 seconds with the pumps on",
+   "Wait 30 seconds, then crank continuously"
+  ],
+  "why": "POH 6-4: limit cranking to 30-second periods; if the engine doesn't start, allow a cooling period of several minutes. Engaging the starter immediately after releasing it may damage the starter mechanism.",
+  "src": "POH 6-4",
+  "loc": "poh 162"
+ },
+ {
+  "id": "p4-010",
+  "topic": "s-normal",
+  "q": "After a start with Piper External Power, you remove the cable, turn the master on, and the ammeters show no alternator output. What does the POH say?",
+  "a": "Do not attempt the flight",
+  "d": [
+   "Depart; the alternators will come on line in flight",
+   "Reconnect external power, then depart VFR only",
+   "Depart day VFR on the battery alone"
+  ],
+  "why": "POH 6-4: master OFF before plugging in the jumper cable and again before removing it; then master ON and check the ammeters. The POH says do not attempt flight if there is no indication of alternator output.",
+  "src": "POH 6-4",
+  "loc": "poh 162"
+ },
+ {
+  "id": "p4-011",
+  "topic": "s-normal",
+  "q": "You need to make a right turn while taxiing. How does the POH suggest using differential power?",
+  "a": "More power on the left engine, less on the right",
+  "d": [
+   "More power on the right engine, less on the left",
+   "Equal power on both, with right brake only",
+   "Left engine at idle, right engine at 1500 RPM"
+  ],
+  "why": "POH 6-5: turn with rudder pedal motion and differential power rather than brakes, with more power on the engine on the outside of the turn. In a right turn, the left engine is on the outside.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-012",
+  "topic": "s-fuel",
+  "q": "How does the POH have you check the fuel crossfeed during taxi?",
+  "a": "Each selector to CROSSFEED briefly while the other stays ON",
+  "d": [
+   "Both selectors to CROSSFEED together for about one minute",
+   "Both selectors OFF briefly, then both to CROSSFEED",
+   "Each selector OFF briefly while the other stays on CROSSFEED"
+  ],
+  "why": "POH 6-5: place each selector on CROSSFEED for a short time with the other selector ON, then return both to ON. Do not attempt takeoff with a selector on CROSSFEED.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-013",
+  "topic": "s-fuel",
+  "q": "Lined up for takeoff, you notice the left fuel selector is still on CROSSFEED. What does the POH say?",
+  "a": "Return it to ON; never take off with a selector on CROSSFEED",
+  "d": [
+   "Leave it; crossfeed is fine if the fuel quantities are balanced",
+   "Leave it; that's acceptable as long as both electric pumps are on",
+   "Leave it; crossfeed gives that engine a second fuel source"
+  ],
+  "why": "POH 6-5 says plainly: do not attempt takeoff with a selector on CROSSFEED. Both selectors go to ON for takeoff (pretakeoff check item 3).",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-014",
+  "topic": "s-fuel",
+  "q": "Why does the POH say to taxi with the electric fuel pumps off?",
+  "a": "To check that the engine-driven fuel pumps are working",
+  "d": [
+   "To prevent vapor lock in the fuel lines on a hot ramp",
+   "To reduce the electrical load on the alternators at low RPM",
+   "To keep the engines from flooding while idling on the ground"
+  ],
+  "why": "POH 6-5: the electric fuel pump should be off during taxi to check the operation of the engine-driven fuel pump. The autopilot, if installed, should also be off.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-015",
+  "topic": "s-engine",
+  "q": "On a cold day, how does the POH say you know an engine is warm enough to accept run-up power?",
+  "a": "It shows no hesitation when the throttle is advanced",
+  "d": [
+   "Oil temperature reaches the middle of the green arc",
+   "Cylinder head temperature reaches at least 200°F",
+   "It idles smoothly at 600 RPM with no roughness"
+  ],
+  "why": "POH 6-5: before advancing the throttle for the mag and prop checks on a cold day, make sure the engine will accept power. If there is no hesitation when the throttle is advanced, it is warm enough.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-016",
+  "topic": "s-engine",
+  "q": "Per the POH, at what RPM is the feather check done, and what result is expected?",
+  "a": "At 1500 RPM; RPM drops to 1000 within 1–3 seconds",
+  "d": [
+   "At 2000 RPM; RPM drops 200–300 within 1–3 seconds",
+   "At 1000 RPM; the propeller feathers and stops",
+   "At 1500 RPM; RPM drops to 800 within 5–7 seconds"
+  ],
+  "why": "Run-up steps c–d: throttles to 1500 RPM, bring the prop control fully back to the feather position and then full forward. RPM should drop to 1000 in 1–3 seconds. The 200–300 RPM drop at 2000 RPM is the governor check.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-017",
+  "topic": "s-engine",
+  "q": "During the feather check, RPM takes about 6 seconds to fall to 1000. What does the POH say this may indicate?",
+  "a": "Low prop dome pressure, risking overspeed or loss of feathering",
+  "d": [
+   "A worn governor, risking RPM surges and hunting in the climb",
+   "Excess dome nitrogen pressure, risking a prop stuck in high pitch",
+   "Low oil quantity, risking oil starvation of the prop governor"
+  ],
+  "why": "POH 6-5: if more than 1–3 seconds is needed, propeller dome pressure may be excessively low, with a danger of propeller overspeed or loss of feathering capability. Operating tip 14 (7-2) also links sluggish RPM control to low dome nitrogen pressure.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-018",
+  "topic": "s-engine",
+  "q": "Per the POH, how is the governor exercised on the first flight of the day?",
+  "a": "Three times at 2000 RPM, each with a 200–300 RPM drop",
+  "d": [
+   "Once at 1500 RPM, pulling back for a single 500 RPM drop",
+   "Three times at 1500 RPM, cycling the props fully to feather",
+   "Twice at 2200 RPM, each with a 100–200 RPM drop"
+  ],
+  "why": "Run-up steps e–f (6-5): throttles to 2000 RPM, retard the prop control until a 200–300 RPM drop shows, three times on the first flight of the day. To confirm it is governing, pull for a 100–200 RPM drop, then add throttle: RPM should stay the same as MP rises. (Your school checklist cycles the props full back–full forward three times at 1500 RPM; per the POH the feather check is at 1500 RPM and the three governor cycles are at 2000 RPM.)",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-019",
+  "topic": "s-engine",
+  "q": "During run-up you select alternate air ON. What should happen, and when should you skip this check?",
+  "a": "RPM drops from the heated air; skip it in dusty conditions",
+  "d": [
+   "RPM rises as the air filter is bypassed; skip it in heavy rain",
+   "MP rises from the added ram air; skip it below freezing",
+   "No change is expected on the ground; check it only in flight"
+  ],
+  "why": "POH 6-5: there should be a drop in RPM when alternate air is ON, since heated air is being supplied. Do not check alternate air on the ground if dusty air conditions prevail.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-020",
+  "topic": "s-engine",
+  "q": "What magneto drop limits does the POH give for the run-up?",
+  "a": "Normal 100 RPM, maximum 175 RPM, max differential 50 RPM",
+  "d": [
+   "Normal 50 RPM, maximum 125 RPM, max differential 50 RPM",
+   "Normal 100 RPM, maximum 150 RPM, max differential 75 RPM",
+   "Normal 125 RPM, maximum 175 RPM, max differential 25 RPM"
+  ],
+  "why": "POH 6-5: normal drop 100 RPM, maximum drop 175 RPM, maximum differential drop 50 RPM. Your school checklist uses the same numbers.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-021",
+  "topic": "s-engine",
+  "q": "Right engine mag check: left mag drops 160 RPM, right mag drops 95 RPM. Per the POH, is that acceptable?",
+  "a": "No; the 65 RPM difference exceeds the 50 RPM limit",
+  "d": [
+   "Yes; both drops are within the 175 RPM maximum",
+   "Yes; only a single drop over 175 RPM is disqualifying",
+   "No; any drop over the normal 100 RPM is unacceptable"
+  ],
+  "why": "Each drop is under the 175 RPM maximum, but the difference between magnetos (160 − 95 = 65 RPM) exceeds the 50 RPM maximum differential. 100 RPM is the normal drop, not a limit.",
+  "src": "POH 6-5",
+  "loc": "poh 157"
+ },
+ {
+  "id": "p4-022",
+  "topic": "s-normal",
+  "q": "What vacuum gauge reading does the POH pretakeoff check require?",
+  "a": "4.5 to 5.2 in. Hg",
+  "d": [
+   "3.5 to 4.5 in. Hg",
+   "5.5 to 6.5 in. Hg",
+   "4.0 to 4.5 in. Hg"
+  ],
+  "why": "Pretakeoff item 6 (6-6): vacuum gauge 4.5 to 5.2 in. Hg. Operating tip 9 (7-1) adds that it should read 5 in. ± .10 in. Hg at 2000 RPM; if not, check the air filters, vacuum lines, pumps and regulators. It may read lower above 12,000 ft or at low RPM, which is normal.",
+  "src": "POH 6-6 · POH 7-1",
+  "loc": "poh 158",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-017: vacuum 4.5 to 5.2 in. Hg)"
+ },
+ {
+  "id": "p4-023",
+  "topic": "s-engine",
+  "q": "What is the POH's normally recommended takeoff power at sea level?",
+  "a": "Full throttle at 2700 RPM",
+  "d": [
+   "Full throttle at 2600 RPM",
+   "28 in. MP at 2575 RPM",
+   "25 in. MP at 2500 RPM"
+  ],
+  "why": "POH 6-6: the normally recommended procedure for sea-level takeoff is full throttle at 2700 RPM. 25 in./2500 RPM is your school's cruise-climb setting, not takeoff power.",
+  "src": "POH 6-6",
+  "loc": "poh 158"
+ },
+ {
+  "id": "p4-024",
+  "topic": "s-engine",
+  "q": "Departing an airport at 4,000 ft density altitude, the POH has you lean at full throttle to about what fuel-flow mark?",
+  "a": "About 14.0",
+  "d": [
+   "About 14.9",
+   "About 13.3",
+   "About 15.5"
+  ],
+  "why": "POH 6-6: at a high elevation, apply full throttle and lean until the fuel flow pointer stabilizes at the mark for the density altitude: about 14.9 at 2,000 ft, 14.0 at 4,000 ft and 13.3 at 6,000 ft. If the engine overheats, enrich until temperature returns to normal.",
+  "src": "POH 6-6",
+  "loc": "poh 158"
+ },
+ {
+  "id": "p4-025",
+  "topic": "s-fuel",
+  "q": "Why does the POH warn against a fast turn onto the runway followed by an immediate takeoff, especially with low fuel?",
+  "a": "Fuel can move away from the tank outlet and interrupt flow",
+  "d": [
+   "Side loads can overstress the nose gear shimmy damper",
+   "The gyros may not yet have erected fully for departure",
+   "The prop governors may not stabilize before rotation"
+  ],
+  "why": "POH 6-7 says to avoid it, especially with a low fuel supply. Operating tip 10 (7-1) explains that the tank shape lets fuel move away from the outlet in some maneuvers; extreme running turning takeoffs can interrupt fuel flow and cause a temporary power loss.",
+  "src": "POH 6-7 · POH 7-1",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-026",
+  "topic": "s-speeds",
+  "q": "In the POH normal (flaps up) takeoff, at what airspeed do you ease back to let the airplane lift off?",
+  "a": "80–85 MPH",
+  "d": [
+   "70–75 MPH",
+   "90–95 MPH",
+   "100–105 MPH"
+  ],
+  "why": "POH 6-7: accelerate to 80–85 MPH and ease back on the wheel enough to let the airplane lift off, then accelerate to the best rate of climb speed, 105 MPH, or higher.",
+  "src": "POH 6-7",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-027",
+  "topic": "s-normal",
+  "q": "On a normal takeoff, when does the POH say to retract the landing gear?",
+  "a": "When a gear-down landing is no longer possible on the runway",
+  "d": [
+   "As soon as the VSI shows a positive rate of climb",
+   "At 500 ft AGL, once at or above 105 MPH",
+   "Immediately at lift-off, to cut drag as early as possible"
+  ],
+  "why": "Every POH takeoff technique retracts the gear when a gear-down landing is no longer possible on the runway. Operating tip 2 (7-1): don't retract prematurely, because the airplane may settle back onto the ground.",
+  "src": "POH 6-7 · POH 7-1",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-028",
+  "topic": "s-speeds",
+  "q": "For a flaps-up (0°) short-field takeoff, what rotation speed does your school's takeoff briefing use?",
+  "a": "75 MPH",
+  "d": [
+   "70 MPH",
+   "85 MPH",
+   "90 MPH"
+  ],
+  "why": "School takeoff briefing: short-field Vr 75 MPH with flaps 0° and 70 MPH with flaps 25°. Then climb at Vx 90 MPH over obstacles or Vy 105 MPH. (POH 6-7 lists 80 MPH for the flaps-up technique.)",
+  "src": "School briefing · POH 6-7",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-029",
+  "topic": "s-speeds",
+  "q": "For the 25° flap short-field takeoff, what are the POH rotation speed and speed at 50 ft?",
+  "a": "Rotate 70 MPH; about 80 MPH at 50 ft",
+  "d": [
+   "Rotate 80 MPH; about 85 MPH at 50 ft",
+   "Rotate 65 MPH; about 75 MPH at 50 ft",
+   "Rotate 60 MPH; about 70 MPH at 50 ft"
+  ],
+  "why": "POH 6-7: use 25° (second notch) for the shortest ground roll and greatest clearance over 50 ft. Trim slightly nose up from the takeoff range, rotate firmly at 70 MPH, about 80 MPH at 50 ft. Holding it on the runway too long with 25° flaps can cause a wheelbarrowing tendency.",
+  "src": "POH 6-7",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-030",
+  "topic": "s-normal",
+  "q": "Why does the POH call the flaps-up short-field takeoff the safest technique when the obstacle margin is wide?",
+  "a": "It's best configured to hold altitude after gear-up if an engine fails",
+  "d": [
+   "It gives the shortest ground roll of the three POH takeoff techniques",
+   "It gives the greatest clearance height over a 50-ft obstacle of any method",
+   "It allows rotation at a lower airspeed than the 25° flap technique"
+  ],
+  "why": "POH 6-7: with flaps up, if an engine fails the airplane is in the best flight configuration to sustain altitude immediately after the gear is raised. The 25° technique gives the shorter roll and better obstacle clearance, but is momentarily below Vmc.",
+  "src": "POH 6-7",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-031",
+  "topic": "s-emerg",
+  "q": "Just after a 25° flap short-field lift-off, below 80 MPH, the left engine fails. What does the POH say is mandatory?",
+  "a": "Retard the good engine's throttle and lower the nose at once",
+  "d": [
+   "Hold full right rudder and keep climbing at Vx, 90 MPH",
+   "Feather the left propeller first, then lower the nose to 90 MPH",
+   "Raise the gear and flaps at once, then pitch for Vyse, 105 MPH"
+  ],
+  "why": "The 25° technique is momentarily below Vmc (80 MPH). POH 6-7: if an engine fails while below Vmc, it is mandatory that the throttle on the operating engine be retarded and the nose lowered immediately to maintain control.",
+  "src": "POH 6-7",
+  "loc": "poh 159"
+ },
+ {
+  "id": "p4-032",
+  "topic": "s-emerg",
+  "q": "Shortly after takeoff the main cabin door pops partly open. What does the POH recommend first?",
+  "a": "Fly the airplane normally and return to land, then close it",
+  "d": [
+   "Slow to 90 MPH and have the pilot close it right away",
+   "Climb to pattern altitude, then close it yourself while flying",
+   "Declare an emergency and land straight ahead off-airport"
+  ],
+  "why": "POH 6-8: fly the airplane in a normal manner and return for a landing to close the door on the ground. Closing it in flight is only for when a landing can't be made, and it takes a second person aboard.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-033",
+  "topic": "s-emerg",
+  "q": "If a door must be closed in flight, what airspeed does the POH specify, and what do you do next?",
+  "a": "100–110 MPH; open the storm window",
+  "d": [
+   "90–100 MPH; close the cabin vents",
+   "110–125 MPH; open the storm window",
+   "Below 100 MPH; unlatch the side latch"
+  ],
+  "why": "POH 6-8: maintain 100–110 MPH, open the storm window, pull the door closed with the upper latch properly positioned, then close the upper latch. Someone besides the pilot must do it. If it can't be closed, stay above 100 and below 125 MPH to prevent buffeting. (Your school checklist says slow to 100 MPH and close the cabin vents first; per the POH the range is 100–110 MPH.)",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-034",
+  "topic": "s-speeds",
+  "q": "As density altitude increases, how do the Seneca's best angle and best rate of climb speeds change?",
+  "a": "Vy decreases slightly and Vx increases slightly",
+  "d": [
+   "Both increase slightly",
+   "Vy increases slightly and Vx decreases slightly",
+   "Both remain fixed in CAS"
+  ],
+  "why": "POH 6-8: Vx is 90 MPH and Vy is 105 MPH at sea level. Vy decreases slightly and Vx increases slightly with increased density altitude.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-035",
+  "topic": "s-normal",
+  "q": "What does the POH say about a time limit on full-power operation after takeoff?",
+  "a": "None, but reduce to climb power any time after 500 ft AGL",
+  "d": [
+   "Five minutes at full power, then reduce to climb power",
+   "One minute above 2600 RPM, then reduce to climb power",
+   "None; keep full power until reaching cruise altitude"
+  ],
+  "why": "POH 6-8: hold Vy with full power to about 500 ft AGL. There is no time limit on full power, but it burns a lot of fuel and is rarely needed, so reduce to a climb power setting any time after 500 ft AGL.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-036",
+  "topic": "s-engine",
+  "q": "Reducing from takeoff to climb power, in what order does the POH have you move the levers?",
+  "a": "Throttles first, then propeller controls",
+  "d": [
+   "Propeller controls first, then throttles",
+   "Mixtures first, then throttles",
+   "Throttles and props together"
+  ],
+  "why": "POH 6-8: when reducing power, retard the throttles first, then the propeller controls. The descent guidance (6-10) is the same: if prop speed is reduced, do it after the throttles. This avoids high MP at low RPM.",
+  "src": "POH 6-8 · POH 6-10",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-037",
+  "topic": "s-speeds",
+  "q": "What en route climb speed does the POH suggest for visibility, climb performance and engine cooling?",
+  "a": "120 MPH",
+  "d": [
+   "105 MPH",
+   "110 MPH",
+   "130 MPH"
+  ],
+  "why": "POH 6-8: an en route climb speed of 120 MPH provides good visibility, climb performance and engine cooling. 105 MPH is Vy.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-038",
+  "topic": "s-engine",
+  "q": "During climb, what cylinder head temperature does the POH say must not be exceeded at any time?",
+  "a": "475°F",
+  "d": [
+   "435°F",
+   "400°F",
+   "500°F"
+  ],
+  "why": "POH 6-8: monitor CHT in the climb and keep it below 475° at all times. Closed cowl flaps give better climb performance, but adjust them as needed for cooling. 435°F and 400°F are the cruise targets for engine life.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-039",
+  "topic": "s-engine",
+  "q": "For maximum engine service life, what cylinder head temperatures does the POH recommend in cruise?",
+  "a": "Below 435°F high-performance, below 400°F economy cruise",
+  "d": [
+   "Below 475°F high-performance, below 435°F economy cruise",
+   "Below 400°F high-performance, below 350°F economy cruise",
+   "Below 450°F high-performance, below 425°F economy cruise"
+  ],
+  "why": "POH 6-8: for maximum service life keep CHT below 435°F in high-performance cruise and below 400°F in economy cruise. 475°F is the never-exceed value.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-040",
+  "topic": "s-engine",
+  "q": "In cruise, both CHTs are creeping toward the limit. Which actions does the POH list to bring them down?",
+  "a": "Enrich the mixture, open cowl flaps, reduce power",
+  "d": [
+   "Lean the mixture, close cowl flaps, increase RPM",
+   "Lean the mixture, open cowl flaps, add power",
+   "Enrich the mixture, close cowl flaps, add power"
+  ],
+  "why": "POH 6-8: reduce high cylinder head temperatures by enriching the mixture, opening the cowl flaps, reducing power, or any combination of these. Extra fuel and more cooling air both carry heat away.",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-041",
+  "topic": "s-fuel",
+  "q": "After takeoff, how does the POH have you turn off the electric fuel pumps?",
+  "a": "One at a time above 500 ft AGL, checking fuel pressure stays green",
+  "d": [
+   "Both together at 1,000 ft AGL, checking that fuel flow stays steady",
+   "Both together after level-off at cruise altitude, checking fuel flow",
+   "One at a time after gear-up, checking manifold pressure holds steady"
+  ],
+  "why": "POH 6-8: the electric fuel pumps may be turned off one at a time above 500 ft AGL, watching that fuel pressure stays in the green as each goes off. After cruise level-off, check that they are off (6-9).",
+  "src": "POH 6-8",
+  "loc": "poh 160"
+ },
+ {
+  "id": "p4-042",
+  "topic": "s-normal",
+  "q": "Power Setting Table: for 65% power at 4,000 ft pressure altitude, standard temperature, 2400 RPM, what MP do you set?",
+  "a": "22.0 in. Hg",
+  "d": [
+   "24.8 in. Hg",
+   "24.4 in. Hg",
+   "19.5 in. Hg"
+  ],
+  "why": "POH 8-16 (Lycoming IO-360-C table): 65% (130 HP) at 4,000 ft is 22.0 in. at 2400 RPM or 24.8 in. at 2100 RPM. At that altitude 24.4 in. is 75% at 2400 RPM and 19.5 in. is 55% at 2400 RPM.",
+  "src": "POH 8-16",
+  "loc": "poh 197"
+ },
+ {
+  "id": "p4-043",
+  "topic": "s-normal",
+  "q": "Cruising where the OAT is 20°F above standard, how do you correct the table manifold pressure to hold the same power?",
+  "a": "Add about 0.32 in. Hg",
+  "d": [
+   "Subtract about 0.32 in. Hg",
+   "Add about 0.16 in. Hg",
+   "No correction is needed"
+  ],
+  "why": "POH 8-16: correct MP about 0.16 in. Hg for each 10°F the inlet air differs from standard: add for warmer, subtract for colder. 20°F warmer is 2 × 0.16 = 0.32 in.",
+  "src": "POH 8-16",
+  "loc": "poh 197"
+ },
+ {
+  "id": "p4-044",
+  "topic": "s-normal",
+  "q": "School procedure (not from the POH): what cruise-climb power and speed does your school checklist use above 1,000 ft AGL?",
+  "a": "25 in. Hg and 2500 RPM at 120 MPH",
+  "d": [
+   "Full throttle and 2700 RPM at 105 MPH",
+   "22 in. Hg and 2400 RPM at 120 MPH",
+   "25 in. Hg and 2700 RPM at 105 MPH"
+  ],
+  "why": "School checklist (Cruise Climb): 120 MPH, 25 in. Hg / 2500 RPM, cowl flaps as required, electric pumps off one at a time. This fits the POH (6-8), which only says to reduce to a climb power setting any time after 500 ft AGL and suggests 120 MPH en route; the POH gives no specific climb MP/RPM.",
+  "src": "School checklist · POH 6-8",
+  "loc": "ref checklist-app-defaults.js (Cruise Climb)"
+ },
+ {
+  "id": "p4-045",
+  "topic": "s-engine",
+  "q": "After flying through rain above freezing, you enter below-freezing air. What induction-icing risk does the POH describe, and the fix?",
+  "a": "Water in the air filter may freeze; select alternate air early",
+  "d": [
+   "Carburetor ice may form; apply full carburetor heat now",
+   "Injector nozzles may ice over; switch the selectors to crossfeed",
+   "None; a fuel-injected engine can't suffer induction icing"
+  ],
+  "why": "POH 6-9: moisture collected in the air filter may freeze in the colder air; snow or freezing rain can also ice the filter. Alternate air is controlled manually, not automatically, and supplies heated air, so it is excellent protection if applied soon enough. The engines are fuel injected, so there is no carburetor heat.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-046",
+  "topic": "s-normal",
+  "q": "What in-flight electrical load per alternator does the POH recommend, and why?",
+  "a": "50 amps each, to ensure battery charging current",
+  "d": [
+   "60 amps each, the alternators' rated output",
+   "40 amps each, to avoid overvoltage relay trips",
+   "50 amps total across both, to protect the bus"
+  ],
+  "why": "POH 6-9: the alternators can put out 60 amps, but limiting loads to 50 amps each assures battery charging current. The POH also says taking off into IFR with a single alternator is not recommended, and to watch the ammeters, especially at night or in IFR.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-047",
+  "topic": "s-fuel",
+  "q": "How does the POH recommend managing fuel on a long cruise leg?",
+  "a": "Feed the engines symmetrically; use crossfeed to even up if needed",
+  "d": [
+   "Run one side down first, then crossfeed from the other side",
+   "Leave one selector on crossfeed so the sides balance automatically",
+   "Burn the outboard tanks first, then switch to the inboard tanks"
+  ],
+  "why": "POH 6-9: there is one combined fuel tank per engine (two interconnected tanks each side, POH 3-3), so feed symmetrically to land with about the same fuel on each side; crossfeed can even it up. Also track time and fuel used against the gauges.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-048",
+  "topic": "s-fuel",
+  "q": "The fuel flow gauge reads well above actual consumption, or the two engines read unevenly. What does the POH suggest?",
+  "a": "A clogged or restricted fuel injector nozzle",
+  "d": [
+   "A failing or worn engine-driven fuel pump",
+   "A partially blocked or iced-over fuel tank vent",
+   "An overly rich mixture setting in cruise"
+  ],
+  "why": "POH 6-9: an indication considerably higher than the fuel actually being used, or an asymmetric indication, may mean a clogged fuel nozzle that should be cleaned. Operating tip 8 (7-1): a high fuel pressure indication on the fuel flow indicator is a possible sign of restricted nozzles.",
+  "src": "POH 6-9 · POH 7-1",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-049",
+  "topic": "s-normal",
+  "q": "Planning a long overwater leg, you consider a hydraulic failure. Gear down, TAS is about what fraction of gear-up TAS?",
+  "a": "About 75%",
+  "d": [
+   "About 50%",
+   "About 90%",
+   "About 95%"
+  ],
+  "why": "POH 6-9: there are no mechanical uplocks, so a hydraulic malfunction lets the gear free-fall to the down position. With the gear down, TAS is about 75% of the gear-up TAS at a given power, so plan for the lost speed and range.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-050",
+  "topic": "s-normal",
+  "q": "What does the POH say to do with the mixtures and propellers during descent?",
+  "a": "Enrich mixtures as you descend; props may stay at cruise RPM",
+  "d": [
+   "Keep mixtures leaned; set props full forward at top of descent",
+   "Lean further to prevent fouling; reduce RPM before the throttles",
+   "Mixtures full rich at top of descent; props back to 2100 RPM"
+  ],
+  "why": "POH 6-10: when power is reduced for descent, enrich the mixtures as altitude decreases. The props may be left at the cruise setting; if prop speed is reduced, do it after the throttles have been retarded.",
+  "src": "POH 6-10",
+  "loc": "poh 164"
+ },
+ {
+  "id": "p4-051",
+  "topic": "s-normal",
+  "q": "What does the POH suggest checking on every approach by retarding the throttles?",
+  "a": "That the gear warning horn sounds",
+  "d": [
+   "That the stall warning horn sounds",
+   "That the props stay on the governors",
+   "That fuel pressure stays in the green"
+  ],
+  "why": "POH 6-10: flying with the gear horn inoperative is not advisable, since it's easy to forget the gear, especially on a single-engine approach or with distractions. Having power fully off before touchdown also gives the horn a chance to blow if the gear isn't locked down.",
+  "src": "POH 6-10",
+  "loc": "poh 164"
+ },
+ {
+  "id": "p4-052",
+  "topic": "s-speeds",
+  "q": "Per the POH, what pattern speeds are flown for a normal approach?",
+  "a": "115 downwind, 110 base and turn to final, 95 final (MPH)",
+  "d": [
+   "110 downwind, 100 base and turn to final, 90 final (MPH)",
+   "120 downwind, 105 base and turn to final, 90 final (MPH)",
+   "105 downwind, 100 base and turn to final, 87 final (MPH)"
+  ],
+  "why": "POH 6-10: slow to about 115 MPH before entering the pattern and hold it on downwind; 110 MPH on base and in the turn to final; 95 MPH on final, or 90 MPH if lightly loaded. (Your school checklist uses 110/100/90; per the POH it's 115/110/95.)",
+  "src": "POH 6-10",
+  "loc": "poh 164"
+ },
+ {
+  "id": "p4-053",
+  "topic": "s-normal",
+  "q": "Per the POH landing check, where are the props set on downwind, and when do they go full forward?",
+  "a": "2500 RPM on downwind; full forward as power comes off on short final",
+  "d": [
+   "Full forward on downwind, and left there all the way through landing",
+   "2400 RPM on downwind; full forward only once the mains are on the ground",
+   "2700 RPM on downwind; back to 2500 RPM as power comes off on final"
+  ],
+  "why": "POH 6-10 landing check item 7: propellers set to 2500 RPM. When power is reduced on close final, the prop controls may be advanced full forward for maximum power in case of a go-around. (Your school's GUMPS sets props full forward on the approach.)",
+  "src": "POH 6-10",
+  "loc": "poh 164"
+ },
+ {
+  "id": "p4-054",
+  "topic": "s-normal",
+  "q": "On a bright day with the nav lights on, you can barely see the three green gear lights. Why?",
+  "a": "Turning on the nav lights dims the gear position lights",
+  "d": [
+   "The gear lights dim whenever the gear horn is armed",
+   "Dim green lights mean the gear is not fully locked",
+   "The bulbs dim whenever one alternator is off line"
+  ],
+  "why": "POH 6-10: when the navigation lights are on, the gear position lights are dimmed and hard to see in daytime. Check the gear on downwind and again on final: three green lights and the nose wheel in the external mirror.",
+  "src": "POH 6-10",
+  "loc": "poh 164",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-097: nav lights dim the gear lights)"
+ },
+ {
+  "id": "p4-055",
+  "topic": "s-normal",
+  "q": "Why does the POH suggest waiting until you're off the runway to retract the flaps after a normal landing?",
+  "a": "It avoids grabbing the gear handle by mistake",
+  "d": [
+   "The flaps act as an air brake during the rollout",
+   "It keeps the stall warning from sounding",
+   "Raising flaps on the roll overloads the tires"
+  ],
+  "why": "POH 6-11: unless extra braking is needed or there is a strong crosswind or gusty air, wait until turning off the runway to retract the flaps. This avoids reaching for the gear handle instead of the flap handle and keeps your attention on the landing roll.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-056",
+  "topic": "s-normal",
+  "q": "For maximum braking after touchdown, the POH says to:",
+  "a": "Retract the flaps, hold back pressure, and apply brakes",
+  "d": [
+   "Keep flaps down, push the wheel forward, and brake",
+   "Retract the flaps, push the wheel forward, and brake",
+   "Keep flaps down, hold back pressure, and brake"
+  ],
+  "why": "POH 6-11: maximum braking comes from retracting the flaps, applying back pressure to the wheel and applying the brakes. The short-field landing uses the same technique immediately after touchdown.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-057",
+  "topic": "s-speeds",
+  "q": "What approach speed and flap setting does the POH give for a short-field landing?",
+  "a": "Full flaps (40°) at 87 MPH CAS",
+  "d": [
+   "25° flaps at 87 MPH CAS",
+   "Full flaps (40°) at 95 MPH CAS",
+   "Full flaps (40°) at 80 MPH CAS"
+  ],
+  "why": "POH 6-11: approach with full flaps at 87 MPH CAS; immediately after touchdown raise the flaps, apply back pressure and brake. 95 MPH is the normal final approach speed.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-058",
+  "topic": "s-normal",
+  "q": "Which description matches the POH normal landing technique?",
+  "a": "Full flaps, partial power until just before touchdown, nose held up",
+  "d": [
+   "25° flaps, power off over the threshold, nosewheel lowered right away",
+   "Full flaps, power off on base leg, nosewheel touching down first",
+   "10° flaps, partial power all the way to touchdown, nose held level"
+  ],
+  "why": "POH 6-11: approach with full flaps (40°) and partial power until shortly before touchdown, and hold the nose up as long as possible before and after the main wheels touch.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-059",
+  "topic": "s-normal",
+  "q": "What flap setting and approach speed does the POH recommend for a crosswind or high-wind landing?",
+  "a": "0–25° of flaps, with higher than normal speed",
+  "d": [
+   "Full 40° flaps, at normal approach speed",
+   "10° flaps only, at lower than normal speed",
+   "25–40° flaps, at lower than normal speed"
+  ],
+  "why": "POH 6-11: approach faster than normal with zero to 25° of flaps; crab into the wind until the flare, then lower the upwind wing and use rudder to align with the runway; raise flaps right after touchdown. Avoid prolonged sideslips with a low fuel indication.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-060",
+  "topic": "s-speeds",
+  "q": "What maximum crosswind component for landing does the POH give for the Seneca?",
+  "a": "15 MPH",
+  "d": [
+   "15 knots",
+   "17 MPH",
+   "20 MPH"
+  ],
+  "why": "POH 6-11 gives 15 MPH, and the panel placard reads 'Demonstrated crosswind component 15 MPH' (POH 3-4). Note the unit: MPH, not knots.",
+  "src": "POH 6-11 · POH 3-4",
+  "loc": "poh 165",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-013: crosswind 15 MPH, incl. knots distractor)"
+ },
+ {
+  "id": "p4-061",
+  "topic": "s-fuel",
+  "q": "With the tank in use not full, what slip or skid do the POH operating tips say must be avoided?",
+  "a": "Prolonged slips or skids that lose more than 2,000 ft",
+  "d": [
+   "Any slip or skid that loses more than 500 ft of altitude",
+   "Any slip or skid held for longer than 30 seconds",
+   "Prolonged slips or skids that lose more than 1,000 ft"
+  ],
+  "why": "Operating tip 10 (7-1): the tank shape can let fuel move away from the outlet. Prolonged slips or skids causing more than 2,000 ft of altitude loss, or other radical maneuvers, can interrupt fuel flow when the tank in use is not full.",
+  "src": "POH 7-1",
+  "loc": "poh 177"
+ },
+ {
+  "id": "p4-062",
+  "topic": "s-normal",
+  "q": "Per the POH post-landing check after leaving the runway, how are the flaps, cowl flaps and electric pumps set?",
+  "a": "Flaps up, cowl flaps fully open, electric pumps off",
+  "d": [
+   "Flaps up, cowl flaps closed, electric pumps on",
+   "Flaps 10°, cowl flaps fully open, electric pumps on",
+   "Flaps up, cowl flaps closed, electric pumps off"
+  ],
+  "why": "POH 6-11 post landing: wing flaps retract, cowl flaps fully open, electric fuel pumps off. Open cowl flaps help cool the engines on the ground.",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-063",
+  "topic": "s-normal",
+  "q": "Per the POH, which sequence matches the shutdown checklist?",
+  "a": "Radios/electrical off, mixtures cut-off, mags off, master off, brake on",
+  "d": [
+   "Mags off, mixtures cut-off, master off, radios/electrical off, brake off",
+   "Mixtures cut-off, radios/electrical off, master off, mags off, brake off",
+   "Master off, mixtures cut-off, radios/electrical off, mags off, brake on"
+  ],
+  "why": "POH 6-11: radio and electrical equipment off, mixture controls idle cut-off, magneto switches off, master switch off, parking brake on. (Your school checklist ends with parking brake OFF and a tie-down; the POH says on.)",
+  "src": "POH 6-11",
+  "loc": "poh 165"
+ },
+ {
+  "id": "p4-064",
+  "topic": "s-speeds",
+  "q": "Flaps up, in level flight, the airspeed indicator reads 80 MPH (zero instrument error). What is the CAS per the POH correction table?",
+  "a": "82 MPH",
+  "d": [
+   "80 MPH",
+   "78 MPH",
+   "85 MPH"
+  ],
+  "why": "POH 6-12 table, flaps 0°: 80 IAS = 82 CAS (70 = 72, 90 = 92). All POH speeds are CAS unless noted. Below 90 MPH IAS the table is valid only in level flight, using power as needed to avoid rapid altitude changes.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-065",
+  "topic": "s-speeds",
+  "q": "At a light weight you encounter extreme turbulence. What target speed does the POH guidance point to?",
+  "a": "Slightly below maneuvering speed, about 133 MPH at light weight",
+  "d": [
+   "Slightly below 146 MPH, the maneuvering speed at gross weight",
+   "Just below the maximum structural cruising speed, 190 MPH",
+   "At Vy, 105 MPH, for the best climb and control margin"
+  ],
+  "why": "POH 6-12: reduce power to slow slightly below design maneuvering speed, which varies from 133 MPH at light weight to 146 MPH at 4,200 lb. Va drops as weight drops. With the autopilot on in extreme turbulence, don't use altitude hold.",
+  "src": "POH 6-12",
+  "loc": "poh 166",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-004: light-weight turbulence speed 133 MPH)"
+ },
+ {
+  "id": "p4-066",
+  "topic": "s-speeds",
+  "q": "As defined in POH Section 6, Vmc (80 MPH) assumes the inoperative engine's propeller is:",
+  "a": "Windmilling",
+  "d": [
+   "Feathered",
+   "Stopped but not feathered",
+   "Set at zero thrust"
+  ],
+  "why": "POH 6-12: Vmc is the CAS below which the airplane can't be controlled with one engine at takeoff power at sea level density altitude and the other engine windmilling, the high-drag case. Vmc for the Seneca is 80 MPH.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-067",
+  "topic": "s-speeds",
+  "q": "As a safety margin in single-engine training or emergencies, the POH says to keep indicated airspeed above:",
+  "a": "90 MPH",
+  "d": [
+   "80 MPH",
+   "105 MPH",
+   "85 MPH"
+  ],
+  "why": "POH 6-12: never fly below Vmc (80 MPH) on one engine, and as a precaution keep indicated airspeed above 90 MPH in single-engine training or emergencies. 105 MPH is Vyse (blue line).",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-068",
+  "topic": "s-emerg",
+  "q": "Per the POH, what is the minimum height for performing the Vmc demonstration?",
+  "a": "3,500 ft AGL",
+  "d": [
+   "3,000 ft AGL",
+   "5,000 ft AGL",
+   "1,500 ft AGL"
+  ],
+  "why": "POH 6-12: the demonstration approaches an uncontrolled flight condition and should not be performed below 3,500 ft above the ground. Your school's pre-maneuver checklist uses 3,000 ft AGL for other maneuvers and 3,500 for the Vmc demo.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-069",
+  "topic": "s-emerg",
+  "q": "During the Vmc demo, how does the POH say to recover?",
+  "a": "Immediately reduce power on the operating engine and lower the nose",
+  "d": [
+   "Immediately add full power on the operating engine and hold the nose up",
+   "Feather the idling engine's prop at once and apply full rudder",
+   "Lower the nose only, keeping full power on the good engine"
+  ],
+  "why": "POH 6-12: initiate recovery by immediately reducing power on the operating engine and promptly lowering the nose. Reducing power removes the asymmetric thrust; lowering the nose regains airspeed.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-070",
+  "topic": "s-emerg",
+  "q": "Per the POH, why is the altitude where stall speed and Vmc coincide the most critical for a Vmc demo?",
+  "a": "Loss of directional control and the stall coincide; a spin may follow",
+  "d": [
+   "Asymmetric thrust is at its maximum value at that altitude",
+   "Vmc reaches its highest value at that altitude, leaving no margin",
+   "The stall warning horn may not sound at that altitude"
+  ],
+  "why": "POH 6-12: Vmc is highest at low altitude and decreases with altitude because the operating engine makes less power, so higher up the airplane approaches a stall before Vmc. Where the two coincide, directional control is lost as the airplane stalls and a spin could result.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-071",
+  "topic": "s-emerg",
+  "q": "What does the POH say about single-engine stalls in the Seneca?",
+  "a": "They are not recommended",
+  "d": [
+   "They are approved above 3,500 ft AGL",
+   "They are approved with the dead prop feathered",
+   "They are required during the Vmc demonstration"
+  ],
+  "why": "POH 6-13: single-engine stalls are not recommended. The panel placard (POH 3-5) warns they can cause a 500 ft loss of altitude and a 15° pitch angle.",
+  "src": "POH 6-13 · POH 3-5",
+  "loc": "poh 172",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-018: single-engine stalls not recommended)"
+ },
+ {
+  "id": "p4-072",
+  "topic": "s-emerg",
+  "q": "With the complete Piper Ice Protection System installed, which icing guidance does the POH give?",
+  "a": "Severe prohibited; avoid moderate above 10,000 ft; light OK at all altitudes",
+  "d": [
+   "Severe prohibited; moderate OK at all altitudes; light OK below 10,000 ft",
+   "Moderate and severe prohibited; light OK only below 10,000 ft",
+   "All icing approved; descend below 10,000 ft if icing is severe"
+  ],
+  "why": "POH 6-13: approved for known icing only when equipped with the complete Piper Ice Protection System. Flight into severe icing is prohibited; avoid moderate icing above 10,000 ft and descend if practical; light icing is approved at all altitudes. Without approved equipment, flight in icing is prohibited (6-9).",
+  "src": "POH 6-13",
+  "loc": "poh 172"
+ },
+ {
+  "id": "p4-073",
+  "topic": "s-emerg",
+  "q": "Per the POH, at what ice thickness should the deice boots be cycled?",
+  "a": "Between 1/4 and 1/2 inch on the leading edge",
+  "d": [
+   "As soon as any ice is visible",
+   "Between 1/2 and 1 inch on the leading edge",
+   "Continuously while in icing conditions"
+  ],
+  "why": "POH 6-13: cycle the boots when ice has built to 1/4–1/2 inch. Repeated cycling below 1/4 inch can form a cavity under the ice so it won't come off; cycling above 1/2 inch may also fail to remove it.",
+  "src": "POH 6-13",
+  "loc": "poh 172",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-064: cycle boots at 1/4 to 1/2 inch)"
+ },
+ {
+  "id": "p4-074",
+  "topic": "s-emerg",
+  "q": "How does the POH say to check the electric ice protection items before a flight that may meet icing?",
+  "a": "Pitot, windshield and prop heat on 30 seconds; feel for heat",
+  "d": [
+   "Turn each on for 5 minutes and watch only the ammeter needles",
+   "Check them only in flight, since ground checks overheat them",
+   "Check only that each heat circuit breaker is pushed in"
+  ],
+  "why": "POH 6-13: before flight, turn on pitot heat, windshield heat and propeller heat for 30 seconds and feel for heat. Turn on the defroster and pitot heat before entering icing, and prop and windshield heat immediately upon entering it.",
+  "src": "POH 6-13",
+  "loc": "poh 172"
+ },
+ {
+  "id": "p4-075",
+  "topic": "s-emerg",
+  "q": "In a Seneca without approved deice equipment, you pick up ice in cloud. What does the POH warning direct?",
+  "a": "Take immediate action to fly out of the icing conditions",
+  "d": [
+   "Continue the flight using alternate air and pitot heat",
+   "Hold the altitude and cycle the props to shed ice",
+   "Extend flaps to lower the stall speed and continue"
+  ],
+  "why": "POH 6-9 warning: flight in icing is prohibited unless equipped with approved deicing equipment, and if icing is encountered, act immediately to fly out of it. Hazards: reduced performance, lost forward visibility, longitudinal control difficulty from increased control sensitivity, and impaired engine and fuel system operation.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p4-076",
+  "topic": "s-emerg",
+  "q": "AD 99-14-01 lists visual cues of severe icing beyond certification. Which one is a cue?",
+  "a": "Ice on the upper wing surface aft of the protected area",
+  "d": [
+   "Rime ice on the boots that sheds cleanly with each cycle",
+   "Light ice on the pitot mast and on the radio antennas",
+   "Clear ice on the boots building between cycles"
+  ],
+  "why": "The AD's cues: unusually extensive ice on the airframe and windshield in areas not normally seen to collect ice; ice on the upper wing aft of the protected area; ice on the nacelles and spinners farther aft than normal. Ice that builds and sheds on the boots is normal protected-surface icing.",
+  "src": "AD 99-14-01",
+  "loc": "poh 168"
+ },
+ {
+  "id": "p4-077",
+  "topic": "s-emerg",
+  "q": "You see ice building on the nacelles and spinners farther aft than normal. Per AD 99-14-01, what is your first action?",
+  "a": "Request priority handling from ATC to change route or altitude",
+  "d": [
+   "Engage the autopilot to reduce your workload while exiting the ice",
+   "Extend the flaps to lower the stall speed for the descent",
+   "Continue on course and cycle the boots more often to shed it"
+  ],
+  "why": "That is one of the AD's severe-icing cues. The AD says to immediately request priority handling from ATC for a route or altitude change to exit the conditions, avoid abrupt maneuvering, keep the autopilot off, and report the conditions to ATC.",
+  "src": "AD 99-14-01",
+  "loc": "poh 168"
+ },
+ {
+  "id": "p4-078",
+  "topic": "s-emerg",
+  "q": "Why does AD 99-14-01 prohibit autopilot use when severe icing cues exist?",
+  "a": "It can mask the feel of adverse changes in handling",
+  "d": [
+   "It draws too much current with the deice system running",
+   "It cannot hold altitude with ice on the tail",
+   "Its servos may freeze and jam in severe icing conditions"
+  ],
+  "why": "Per the AD, an operating autopilot may mask tactile cues of adverse handling changes. Its use is prohibited when any cue exists, or when unusual lateral trim needs or autopilot trim warnings occur in icing. If it's engaged, hold the wheel firmly and disengage it.",
+  "src": "AD 99-14-01",
+  "loc": "poh 168"
+ },
+ {
+  "id": "p4-079",
+  "topic": "s-emerg",
+  "q": "Which weather does AD 99-14-01 list as conducive to severe in-flight icing?",
+  "a": "Visible rain or splashing droplets below 0°C ambient",
+  "d": [
+   "Dry snow at temperatures below −10°C ambient",
+   "Visible moisture between 0°C and +10°C ambient",
+   "Ice crystals at temperatures below −20°C ambient"
+  ],
+  "why": "The AD lists visible rain below 0°C and droplets that splash or splatter on impact below 0°C. Severe icing may form as cold as −18°C, but extra vigilance is warranted near freezing with visible moisture.",
+  "src": "AD 99-14-01",
+  "loc": "poh 168"
+ },
+ {
+  "id": "p4-080",
+  "topic": "s-emerg",
+  "q": "Holding in icing conditions, a pilot considers extending flaps. What does AD 99-14-01 say?",
+  "a": "Don't; flaps lower wing AOA so ice may form farther aft",
+  "d": [
+   "Extend 10° to lower the stall speed while in the hold",
+   "Extend them fully to slow down and reduce ice accretion",
+   "Extend them only if the deice boots are working normally"
+  ],
+  "why": "The AD: do not extend flaps when holding in icing. The reduced wing angle of attack can let ice form farther aft on the upper surface, possibly aft of the protected area. If flaps are already extended, don't retract them until the airframe is clear of ice.",
+  "src": "AD 99-14-01",
+  "loc": "poh 169"
+ },
+ {
+  "id": "p4-081",
+  "topic": "s-emerg",
+  "q": "In icing, you notice an unusual roll response and uncommanded control-wheel movement. What does AD 99-14-01 direct?",
+  "a": "Reduce the angle of attack",
+  "d": [
+   "Increase the angle of attack",
+   "Engage the autopilot wing leveler",
+   "Extend the flaps to the first notch"
+  ],
+  "why": "The AD: if an unusual roll response or uncommanded roll control movement is observed, reduce the angle of attack. Also avoid abrupt maneuvering and keep the autopilot off.",
+  "src": "AD 99-14-01",
+  "loc": "poh 169"
+ },
+ {
+  "id": "p4-082",
+  "topic": "s-emerg",
+  "q": "After an ELT test with the switch in ON, you move it straight to ARM. What happens, per the POH?",
+  "a": "It keeps transmitting; select OFF before ARM",
+  "d": [
+   "It stops transmitting and re-arms normally",
+   "It stops after one minute and then re-arms",
+   "It runs a battery test, then re-arms"
+  ],
+  "why": "POH 6-14 note: if the switch has been in ON, OFF must be selected before ARM; going directly from ON to ARM, the transmitter continues to transmit. To check for accidental activation, listen on 121.5 MHz for an oscillating tone.",
+  "src": "POH 6-14",
+  "loc": "poh 173"
+ },
+ {
+  "id": "p4-083",
+  "topic": "s-normal",
+  "q": "In a busy pattern where high speeds are needed, up to what airspeed does the POH permit lowering the landing gear?",
+  "a": "150 MPH",
+  "d": [
+   "125 MPH",
+   "140 MPH",
+   "160 MPH"
+  ],
+  "why": "Operating tip 3 (7-1) and POH 6-10: the gear may be extended at speeds up to 150 MPH. 125 MPH is the maximum gear retraction speed and the flap limit.",
+  "src": "POH 7-1 · POH 6-10",
+  "loc": "poh 177"
+ },
+ {
+  "id": "p4-084",
+  "topic": "s-speeds",
+  "q": "What is the maximum airspeed for extending the flaps per the POH limitations, landing check and operating tips?",
+  "a": "125 MPH",
+  "d": [
+   "150 MPH",
+   "135 MPH",
+   "110 MPH"
+  ],
+  "why": "The Limitations section (3-2), the landing check item 'Flaps, 125 MPH maximum' (6-10) and tip 4 (7-1) all give 125 MPH, with slower preferred to reduce flap loads. Page 6-10 also prints a per-notch table (160/140/125 MPH) that conflicts with the 125 MPH limitation; use 125.",
+  "src": "POH 3-2 · POH 6-10 · POH 7-1",
+  "loc": "poh 060 · 164 · 177",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-005: Vfe 125 MPH; p2-124 already covers the 6-10 staged table vs the AFM 125 MPH limit)"
+ },
+ {
+  "id": "p4-085",
+  "topic": "s-normal",
+  "q": "Before resetting a popped circuit breaker, how long does the POH say to let it cool?",
+  "a": "Two to five minutes",
+  "d": [
+   "About 30 seconds",
+   "Ten to fifteen minutes",
+   "No wait; reset it once right away"
+  ],
+  "why": "Operating tip 5 (7-1): allow a two to five minute cooling-off period before attempting to reset any circuit breaker.",
+  "src": "POH 7-1",
+  "loc": "poh 177"
+ },
+ {
+  "id": "p4-086",
+  "topic": "s-engine",
+  "q": "Sluggish RPM control and a prop overspeed with poor RPM recovery after rapid throttle use indicate what?",
+  "a": "Low nitrogen pressure in the propeller dome",
+  "d": [
+   "Too much nitrogen pressure in the propeller dome",
+   "Low engine oil quantity in the sump",
+   "An overly rich mixture at full throttle"
+  ],
+  "why": "Operating tip 14 (7-2) names low dome nitrogen pressure. The run-up feather check (6-5) catches the same problem: a slow drop to 1000 RPM suggests low dome pressure, with a risk of overspeed or loss of feathering.",
+  "src": "POH 7-2",
+  "loc": "poh 178"
+ },
+ {
+  "id": "p4-087",
+  "topic": "s-engine",
+  "q": "How does the POH recommend simulating an engine failure at low altitude in training?",
+  "a": "Retard the throttle slowly to idle",
+  "d": [
+   "Pull the mixture to idle cut-off",
+   "Turn the fuel selector to OFF",
+   "Snap the throttle closed for realism"
+  ],
+  "why": "Operating tip 15 (7-2): pulling a mixture or shutting off the fuel at low altitude isn't worth the risk. Retard the throttle slowly to idle instead; a fast power reduction may harm the engine.",
+  "src": "POH 7-2",
+  "loc": "poh 178"
+ },
+ {
+  "id": "p4-088",
+  "topic": "s-normal",
+  "q": "Per your school checklist, what is the two-engine go-around sequence from the landing configuration?",
+  "a": "Full throttle, pitch up, flaps 25°, gear up on a positive rate, rest of flaps",
+  "d": [
+   "Full throttle, pitch up, gear up, flaps 25°, rest of flaps on a positive rate",
+   "Full throttle, flaps fully up, pitch up, gear up on a positive rate of climb",
+   "Pitch up, flaps 25°, full throttle, rest of flaps, then gear up at 500 ft"
+  ],
+  "why": "School go-around: throttles full forward, pitch up 10–12°, flaps retract to 25°, landing gear up with a positive rate of climb on the VSI, remaining flaps below 125 MPH, cowl flaps adjust. (The printed AFM, POH 3-7, lists positive climb, flaps, then gear.)",
+  "src": "School checklist · POH 3-7",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p4-089",
+  "topic": "s-fuel",
+  "q": "Per the POH downwind landing check, how are the fuel selectors, electric fuel pumps and mixtures set?",
+  "a": "Selectors ON, electric pumps on, mixtures rich",
+  "d": [
+   "Selectors ON, electric pumps off, mixtures rich",
+   "Selectors CROSSFEED, electric pumps on, mixtures rich",
+   "Selectors ON, electric pumps on, mixtures as leaned"
+  ],
+  "why": "POH 6-10 landing check: seat backs erect, belts fastened, fuel selectors ON, cowl flaps as required, electric fuel pumps on, mixtures rich, props 2500 RPM, gear down (three green and nose wheel in mirror), flaps as required (125 MPH maximum).",
+  "src": "POH 6-10",
+  "loc": "poh 164"
+ },
+ {
+  "id": "p4-090",
+  "topic": "s-normal",
+  "q": "Climbing into an overcast, why do the POH operating tips say to turn off the anti-collision lights?",
+  "a": "Reflected light can cause spatial disorientation",
+  "d": [
+   "They overload the bus when the pitot heat is on",
+   "Their flashes interfere with the VOR receivers",
+   "Ice forms on the hot lenses inside the cloud"
+  ],
+  "why": "Tip 12 (7-1): anti-collision lights should be off when flying through overcast and clouds, since reflected light can produce spatial disorientation, and strobes should not be used while taxiing near other aircraft. A panel placard (3-4) says the same for strobes in cloud, fog or haze.",
+  "src": "POH 7-1 · POH 3-4",
+  "loc": "poh 177 · 062"
+ },
+ {
+  "id": "p4-091",
+  "topic": "s-normal",
+  "q": "Per the POH approach and landing guidance, when and how do you confirm the gear is down?",
+  "a": "Downwind and again on final: three greens and nose wheel in the mirror",
+  "d": [
+   "On the base leg only: three greens and the gear horn silent at idle power",
+   "On downwind only: gear handle down and the red light out",
+   "On short final only: three greens and the hydraulic pump quiet"
+  ],
+  "why": "POH 6-10: check the gear on the downwind leg and again on final, using the three green lights on the panel and the external mirror to see that the nose gear is extended. Tip 6 (7-1): always determine gear position from the gear position lights.",
+  "src": "POH 6-10 · POH 7-1",
+  "loc": "poh 164 · 177"
+ },
+ {
+  "id": "p4-092",
+  "topic": "s-normal",
+  "q": "In extreme turbulence or strong vertical currents with the autopilot engaged, which autopilot mode does the POH say not to use?",
+  "a": "Altitude hold",
+  "d": [
+   "Heading hold",
+   "Wing leveler",
+   "Course (VOR) intercept"
+  ],
+  "why": "POH 6-12 (Rough Air Flight): reduce power to slow slightly below maneuvering speed (133 MPH at light weight to 146 MPH at 4,200 lb), and when using the autopilot in extreme turbulence or strong vertical currents, don't use the altitude-hold mode.",
+  "src": "POH 6-12",
+  "loc": "poh 166"
+ },
+ {
+  "id": "p4-093",
+  "topic": "s-emerg",
+  "q": "Why does the POH warn against repeatedly cycling the deice boots with less than 1/4 inch of ice?",
+  "a": "A cavity can form under the ice so the boots can't remove it",
+  "d": [
+   "The boots can overheat and peel away from the leading edge",
+   "Thin pieces of shed ice can be ingested by the engines",
+   "Thin ice is harmless, so cycling only wears out the boots"
+  ],
+  "why": "POH 6-13: cycle the boots when ice has built to between 1/4 and 1/2 inch. Repeated cycles below 1/4 inch can form a cavity under the ice so it won't come off; cycles above 1/2 inch may also fail to remove it. Icing of any kind should be avoided wherever possible.",
+  "src": "POH 6-13",
+  "loc": "poh 172"
+ },
+ {
+  "id": "p4-094",
+  "topic": "s-normal",
+  "q": "Why does the POH walk-around have you extend and retract the flaps before starting the engines?",
+  "a": "So you can hear any noise that might indicate binding",
+  "d": [
+   "So the hydraulic system can bleed air from the flap lines",
+   "So the trim tabs can be checked for alignment",
+   "So the flap motor runs while the battery is still fresh"
+  ],
+  "why": "POH 6-2 (in cabin, item 11): extend and retract the flaps to check operation before engine start, when it's quiet enough to hear any noise that might indicate binding. The Seneca's flaps are manually operated (3-7); trim is set to neutral (item 10) to check tab alignment.",
+  "src": "POH 6-2 · POH 3-7",
+  "loc": "poh 156 · 065"
+ },
+ {
+  "id": "p4-095",
+  "topic": "s-emerg",
+  "q": "The POH says the ELT battery must be replaced after two years of shelf or service life. When else should it be replaced?",
+  "a": "After emergency use, or once test time totals more than one hour",
+  "d": [
+   "After any test, or once test time totals more than 15 minutes",
+   "Only at the annual inspection, whatever the use or test time",
+   "After emergency use, or once test time totals 30 minutes"
+  ],
+  "why": "POH 6-14: the battery's useful life is four years, but to meet FAA rules it is replaced after two years of shelf or service life, and also if the ELT has been used in an emergency or accumulated test time exceeds one hour. The replacement date is marked on the transmitter label.",
+  "src": "POH 6-14",
+  "loc": "poh 173"
+ },
+ {
+  "id": "p4-096",
+  "topic": "s-emerg",
+  "q": "Per AD 99-14-01, what must be operative before flight into known or forecast icing at night?",
+  "a": "All wing icing inspection lights",
+  "d": [
+   "Both landing lights",
+   "The cabin dome and map lights",
+   "The wingtip recognition lights"
+  ],
+  "why": "The AD's limitations add that all wing icing inspection lights must be operative before flight into known or forecast icing conditions at night, and this supersedes any relief in the Master Minimum Equipment List.",
+  "src": "AD 99-14-01",
+  "loc": "poh 168 · 171"
+ },
+ {
+  "id": "p4-097",
+  "topic": "s-normal",
+  "q": "Per the POH operating tips, how should you trim the airplane for takeoff?",
+  "a": "So only very light back pressure is needed to lift off",
+  "d": [
+   "Full nose-up, so the airplane lifts off by itself",
+   "Neutral, so the stabilator is streamlined for the roll",
+   "Nose-down, so the nose wheel stays firmly on the runway"
+  ],
+  "why": "Tip 1 (7-1): learn to trim for takeoff so only a very light back pressure on the wheel is needed to lift the airplane off. The 6-7 techniques set the stabilator trim in the takeoff range, or slightly nose up from it for the 25° flap short-field method.",
+  "src": "POH 7-1 · POH 6-7",
+  "loc": "poh 177 · 159"
+ }
+]

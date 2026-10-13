@@ -1,0 +1,1108 @@
+[
+ {
+  "id": "o7-001",
+  "topic": "eo",
+  "q": "According to the OEG, what are the three major causes of fatalities in engine-out emergencies?",
+  "a": "Loss of directional control, climb performance, and flying airspeed",
+  "d": [
+   "Feathering the wrong engine, fuel exhaustion, and structural overload",
+   "Loss of directional control, engine fire, and failure to feather",
+   "Gear left down, flaps left down, and windmilling propeller drag"
+  ],
+  "why": "Engine-out accidents usually come down to losing control (Vmc), losing the ability to climb, or letting airspeed decay into a stall, alone or in combination. The other choices are specific errors that lead to those outcomes.",
+  "src": "OEG 3C-1 · FAA-H-8083-3",
+  "loc": "oeg 050"
+ },
+ {
+  "id": "o7-002",
+  "topic": "eo",
+  "q": "When is an engine failure during takeoff considered most critical?",
+  "a": "The 2–3 seconds right after liftoff, while accelerating to climb speed",
+  "d": [
+   "The first 2–3 seconds of the takeoff roll, while the airplane is well below Vmc",
+   "The moment of rotation, as the nosewheel leaves the runway",
+   "Just after gear retraction, while passing about 400 feet AGL at Vyse"
+  ],
+  "why": "Right after liftoff the airplane is slow, low and still accelerating toward climb speed. It may be controllable, but its one-engine climb performance is far below optimum, so it may not be able to keep flying.",
+  "src": "OEG 3C-2 · FAA-P-8740-66",
+  "loc": "oeg 050"
+ },
+ {
+  "id": "o7-003",
+  "topic": "eo",
+  "q": "Most light twins are controllable just above Vmc. Why is an engine failure right after liftoff still so dangerous?",
+  "a": "Performance is so poor that continued flight may be impossible",
+  "d": [
+   "The airplane is below Vso and will stall almost immediately",
+   "The rudder has no authority until the gear is retracted",
+   "The propeller cannot be feathered until the airplane reaches Vyse"
+  ],
+  "why": "Being able to control the airplane does not mean it can climb. Close to Vmc and still accelerating, it is far from its best single-engine climb condition.",
+  "src": "OEG 3C-2 · FAA-P-8740-66",
+  "loc": "oeg 050"
+ },
+ {
+  "id": "o7-004",
+  "topic": "eo",
+  "q": "To reduce the risk of an engine failure on takeoff, what should your pre-takeoff briefing (or self-briefing) cover?",
+  "a": "Your plan of action if an engine fails during takeoff or climb",
+  "d": [
+   "The planned cruise altitude, power setting, and expected fuel burn",
+   "Passenger seat belts, emergency exits, and the no-smoking rule",
+   "The departure frequency, transponder code, and first navigation fix"
+  ],
+  "why": "The OEG's first mitigation is a briefing that commits the PIC to a plan for an engine failure or other emergency at any point in the takeoff and initial climb. That way the response isn't being invented under stress.",
+  "src": "OEG 3C-3 · FAA-P-8740-66",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-005",
+  "topic": "eo",
+  "q": "Which performance figures does the OEG say you should know before a multi-engine takeoff?",
+  "a": "Accelerate-stop/go distances, single-engine service ceiling, OEI climb rate",
+  "d": [
+   "Cruise true airspeed, fuel flow at 65% power, and maximum range",
+   "Landing distance, maximum demonstrated crosswind, and maneuvering speed",
+   "Two-engine service ceiling, never-exceed speed, and best glide speed"
+  ],
+  "why": "These numbers, along with terrain and obstacles in the flight path, tell you whether you can stop or continue if an engine fails. The OEG adds that you should allow generous margins for real-world performance.",
+  "src": "OEG 3C-3 · FAA-P-8740-66",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-006",
+  "topic": "eo",
+  "q": "You are departing a short runway at a high density altitude airport. Which preparation best supports a fast decision if an engine fails?",
+  "a": "Know runway length, accelerate-stop distance, and an obstacle-free path",
+  "d": [
+   "Know the two-engine climb rate, planned cruise altitude, and cruise power",
+   "Know the nearest VOR frequency, the destination ATIS, and the squawk code",
+   "Know the best glide speed, maximum landing weight, and Vfe"
+  ],
+  "why": "The OEG says to know your options before takeoff: runway length, a direction of flight free of obstacles, and the stop and go distances. Two-engine and cruise figures tell you nothing about the engine-out case.",
+  "src": "OEG 3C-3 · FAA-P-8740-66",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-007",
+  "topic": "eo",
+  "q": "Are most light twins certificated under 14 CFR Part 23 required to hold altitude on one engine in the takeoff configuration?",
+  "a": "No; many aren't required to in any configuration, even at sea level",
+  "d": [
+   "Yes, they must hold altitude at sea level and maximum gross weight",
+   "Yes, they must hold altitude up to their single-engine service ceiling",
+   "Yes, but only with the gear retracted and the flaps at takeoff"
+  ],
+  "why": "Part 23 does not require a light twin to maintain altitude in the takeoff configuration with an engine inoperative, and many need not do so in any configuration. Never assume the second engine guarantees a climb.",
+  "src": "OEG 3C-4 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-008",
+  "topic": "eo",
+  "q": "What common belief about losing an engine in a light twin does the OEG call mistaken?",
+  "a": "That it will still perform at least half as well on one engine",
+  "d": [
+   "That the airplane will yaw toward the inoperative engine",
+   "That a windmilling propeller adds a significant amount of drag",
+   "That Vmc can vary depending on which engine has failed"
+  ],
+  "why": "Climb comes from power beyond what level flight needs, so losing half the power costs far more than half the climb. For performance (not control) in the takeoff or landing configuration, think of a light twin as a single whose power is split between two engines.",
+  "src": "OEG 3C-4 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-009",
+  "topic": "eo",
+  "q": "In the OEG's typical engine-failure checklist, which memory items come right after maintaining control and Vyse?",
+  "a": "Mixtures rich, propellers high RPM, throttles full power",
+  "d": [
+   "Identify, verify, and feather the failed engine",
+   "Fuel selector to crossfeed, boost pumps on, mags checked",
+   "Cowl flap closed, alternator off, mixture to cutoff"
+  ],
+  "why": "After control and airspeed, you push everything forward (mixtures, props, throttles) for maximum available power, as the Seneca POH 3-11 also does. Then you clean up drag and identify the engine. Crossfeed and mags are troubleshooting steps, and the last choice is securing.",
+  "src": "OEG 3C-5 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-010",
+  "topic": "eo",
+  "q": "Which sequence matches the OEG's typical engine-failure memory flow?",
+  "a": "Control, power up, clean up, identify, verify, fix or feather",
+  "d": [
+   "Control, identify, verify, feather, then power up and clean up",
+   "Identify, verify, control, clean up, feather, then power up",
+   "Control, clean up, feather, identify, verify, then power up"
+  ],
+  "why": "Control and Vyse come first, then maximum power (mixtures, props, throttles), then drag cleanup, then identify, verify with the throttle, and fix or feather. The OEG's generic table lists gear before flaps; the Seneca POH 3-11 says flaps, then gear, then fuel pumps on.",
+  "src": "OEG 3C-5 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-011",
+  "topic": "eo",
+  "q": "Why does the memory flow set full power and clean up drag before you identify the failed engine?",
+  "a": "To get the best performance with the least risk of losing control",
+  "d": [
+   "Because full power makes the gauges reveal the failed engine",
+   "Because the propeller can only feather at full throttle",
+   "Because the gear must be up before the prop can feather"
+  ],
+  "why": "The steps before Fix or Feather are there to put the airplane in its most favorable performance condition, the one least likely to end in loss of control, while you work out which engine quit.",
+  "src": "OEG 3C-5 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-012",
+  "topic": "eo",
+  "q": "An engine quits at 600 ft AGL on climb-out. You've completed control, power up, clean up, identify, and verify. What now?",
+  "a": "Feather it immediately; secure it as time allows",
+  "d": [
+   "Run the restart checklist first, then decide whether to feather",
+   "Leave it windmilling so a restart will be easier later",
+   "Switch its fuel selector to crossfeed and wait to see"
+  ],
+  "why": "At low altitude the OEG's Fix-or-Feather choice is to feather the affected engine immediately, because a windmilling prop adds a lot of drag when you can least afford it. Troubleshooting belongs at higher altitude, when there is time.",
+  "src": "OEG 3C-5 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-013",
+  "topic": "eo",
+  "q": "An engine fails at 7,000 ft in cruise with plenty of terrain clearance. After control, power up, identify, and verify, what is appropriate?",
+  "a": "If time allows, try to find and fix the problem before feathering",
+  "d": [
+   "Feather it at once; troubleshooting is never done in flight in a twin",
+   "Descend to pattern altitude first, then begin any troubleshooting",
+   "Shut off both boost pumps and wait for it to recover"
+  ],
+  "why": "With altitude and time, the Fix-or-Feather step allows an attempt to fix the problem. If that fails, you run a diagnosis or securing checklist. Control remains the first priority throughout.",
+  "src": "OEG 3C-5 · FAA-H-8083-3",
+  "loc": "oeg 051"
+ },
+ {
+  "id": "o7-014",
+  "topic": "aero",
+  "q": "During a Vmc demonstration, the nose keeps yawing toward the dead engine despite full rudder. What should you do immediately?",
+  "a": "Retard the operating engine's throttle while lowering the pitch attitude",
+  "d": [
+   "Advance the operating engine's throttle while raising the pitch attitude",
+   "Feather the windmilling engine while holding full rudder",
+   "Hold full rudder and aileron, and raise the nose to slow down further"
+  ],
+  "why": "Reducing power on the operating engine removes the asymmetric thrust that is causing the yaw. Lowering the nose restores airspeed and reduces the angle of attack.",
+  "src": "OEG 3C-6 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-015",
+  "topic": "aero",
+  "q": "When recovering from a Vmc demonstration, what condition do you establish before setting symmetrical power?",
+  "a": "Straight flight on the entry heading at Vsse or Vyse",
+  "d": [
+   "A climbing turn toward the good engine at Vxse",
+   "Straight flight on the entry heading at Vmc",
+   "Level flight on any heading at stall warning speed"
+  ],
+  "why": "You recover to straight flight on the original heading at Vsse or Vyse, then set power symmetrically. The recovery does not include adding power to the windmilling engine by itself.",
+  "src": "OEG 3C-6 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-016",
+  "topic": "aero",
+  "q": "When Vmc is at or below stall speed, or density altitude prevents a true demo, what technique allows a safe Vmc demonstration?",
+  "a": "Limit rudder travel artificially to simulate maximum available rudder",
+  "d": [
+   "Perform the demonstration at a higher density altitude instead",
+   "Feather the inoperative propeller to lower its windmilling drag",
+   "Extend the gear and flaps so the stall happens at a higher speed"
+  ],
+  "why": "Blocking the rudder makes directional control run out at a speed well above the stall. Higher density altitude and feathering both lower Vmc, which makes the problem worse.",
+  "src": "OEG 3C-7 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-017",
+  "topic": "aero",
+  "q": "When rudder travel is artificially limited to demonstrate Vmc, at about what speed should the demonstration be done?",
+  "a": "About 20 knots above Vs",
+  "d": [
+   "About 5 knots above Vs",
+   "At Vs, with the stall warning sounding",
+   "At Vso, in the landing configuration"
+  ],
+  "why": "Running out of (limited) rudder about 20 knots above the stall keeps the demo clear of a stall with asymmetric power, which could become a spin, while still showing the loss of directional control.",
+  "src": "OEG 3C-7 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-018",
+  "topic": "aero",
+  "q": "During a Vmc demo you notice the stall signs late, and the airplane begins to roll and yaw. What should you do?",
+  "a": "Pull both throttles back, lower the nose, get above Vmc (ideally Vsse)",
+  "d": [
+   "Add full power on the good engine and pull the nose up to hold altitude",
+   "Feather the windmilling engine, then raise the nose to slow down",
+   "Hold full rudder and aileron against the roll and wait to reach Vyse"
+  ],
+  "why": "If nothing is done, the asymmetric thrust overpowers the controls and the airplane can roll over, stall and spin. Taking the power off and reducing the angle of attack stops this. Once level above Vmc you can bring power back on the good engine.",
+  "src": "OEG 3C-8 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-019",
+  "topic": "aero",
+  "q": "Why does the OEG suggest reducing both throttles, not just the operating one, when recovering from a botched Vmc demo?",
+  "a": "To avoid any confusion about which throttle to reduce",
+  "d": [
+   "Because the windmilling engine adds yaw when at idle",
+   "Because both throttles must be closed in order to feather",
+   "To let the propellers slow to their start-lock speed"
+  ],
+  "why": "When roll and yaw are developing fast, pulling both throttles guarantees that the power causing the problem comes off. Once the airplane is stable, you reapply power on the good engine.",
+  "src": "OEG 3C-8 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-020",
+  "topic": "eo",
+  "q": "During the takeoff roll, below Vmc, the left engine fails. What does the OEG direct?",
+  "a": "Reject the takeoff: close both throttles; use rudder and brakes",
+  "d": [
+   "Continue: lift off and accelerate in ground effect to Vyse",
+   "Feather the left engine first, then continue the takeoff roll",
+   "Partially reduce the right throttle and continue the takeoff"
+  ],
+  "why": "Below Vmc on the ground, the only way to keep directional control is to close both throttles promptly and use rudder and brakes. Continuing is not an option.",
+  "src": "OEG 3C-9 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-021",
+  "topic": "eo",
+  "q": "Why should a twin never become airborne before its airspeed reaches and exceeds Vmc?",
+  "a": "If an engine failed, directional control would be impossible",
+  "d": [
+   "The landing gear cannot be retracted until the airspeed passes Vmc",
+   "The stall warning system does not function below Vmc",
+   "The propellers cannot be feathered at speeds below Vmc"
+  ],
+  "why": "Below Vmc the rudder cannot counter the yaw from the remaining engine at takeoff power. An engine failure in the air at that speed means losing directional control.",
+  "src": "OEG 3C-9 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-022",
+  "topic": "aero",
+  "q": "Why does the OEG advise against practicing stalls with one engine inoperative, actual or simulated?",
+  "a": "Risk of a Vmc loss of control, and a lot of altitude to recover",
+  "d": [
+   "The operating engine may overheat at a high angle of attack",
+   "The stall warning does not work with an engine out",
+   "A feathered propeller can unfeather itself in a stall"
+  ],
+  "why": "Stalling with asymmetric power invites a Vmc roll and possible spin, and the recovery can take a lot of altitude.",
+  "src": "OEG 3C-10 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-023",
+  "topic": "aero",
+  "q": "In a steep turn, the inboard (lower-wing) engine suddenly fails. What tendency should you expect?",
+  "a": "The high-wing engine tends to roll the airplane further into the bank",
+  "d": [
+   "The airplane tends to roll back out of the bank toward wings level on its own",
+   "The nose pitches up sharply while the bank becomes shallower",
+   "No rolling tendency develops; yaw and bank cancel each other"
+  ],
+  "why": "With the low engine dead, the operating engine on the high wing tends to add roll into the turn, which can grow into a Vmc encounter. If the high-wing engine fails instead, the low engine tends to roll the airplane back toward level.",
+  "src": "OEG 3C-11 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-024",
+  "topic": "eo",
+  "q": "What should be your first action if an engine loses power during a steep turn?",
+  "a": "Reduce the bank and return to level flight",
+  "d": [
+   "Increase back pressure to hold altitude",
+   "Steepen the bank toward the dead engine",
+   "Feather immediately while holding the bank"
+  ],
+  "why": "Stall and Vmc risk are higher in a steep turn, so roll level right away. If the airplane is rolling into the turn, the OEG adds that you can reduce power on the operating engine (or both) until you are level.",
+  "src": "OEG 3C-11 · FAA-H-8083-3",
+  "loc": "oeg 052"
+ },
+ {
+  "id": "o7-025",
+  "topic": "eo",
+  "q": "Your left engine suddenly quits in cruise. What is your first priority?",
+  "a": "Maintain aircraft control and airspeed",
+  "d": [
+   "Identify and feather the failed engine",
+   "Declare an emergency with ATC",
+   "Attempt an immediate engine restart"
+  ],
+  "why": "Every engine-out procedure starts with flying the airplane: control and airspeed come before identifying, feathering, troubleshooting or talking to ATC.",
+  "src": "OEG 3C-12 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-026",
+  "topic": "eo",
+  "q": "After a power loss, the airplane yaws left and your left foot is idle. Before feathering the left engine, how do you verify?",
+  "a": "Retard the left throttle",
+  "d": [
+   "Pull the left mixture to cutoff",
+   "Turn the left magnetos off",
+   "Compare the left and right MP gauges"
+  ],
+  "why": "Closing the suspected throttle can be undone: if it's the wrong engine, the yaw increases and you push the throttle back up. Cutting the mixture or mags on the wrong engine could leave you with no power, and gauges can mislead.",
+  "src": "OEG 3C-13 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-027",
+  "topic": "eo",
+  "q": "Verifying a suspected failed engine, you retard its throttle and immediately need a clear change in rudder to hold heading. What does that tell you?",
+  "a": "That engine was still making power; don't feather it",
+  "d": [
+   "That engine has definitely failed; feather it now",
+   "Both engines are losing power at the same time",
+   "Its propeller has already gone to feather on its own"
+  ],
+  "why": "Retarding the throttle of a truly dead engine changes nothing, so no control change is needed. If you suddenly need different rudder, that engine was still contributing power: put the throttle back and re-identify before feathering anything.",
+  "src": "OEG 3C-14 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-028",
+  "topic": "eo",
+  "q": "What does 'dead foot, dead engine' mean?",
+  "a": "The foot not pressing rudder is on the failed engine's side",
+  "d": [
+   "The foot pressing hardest is on the failed engine's side",
+   "Press the rudder on the failed side to stop the yaw",
+   "Take both feet off the rudders to feel the yaw"
+  ],
+  "why": "You press rudder on the good engine's side to stop the yaw toward the dead engine. The idle ('dead') foot is on the side of the failed engine.",
+  "src": "OEG 3C-14 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-029",
+  "topic": "eo",
+  "q": "After a loud bang and a sudden yaw on climb-out, you're holding firm right rudder and your left foot is idle. Which engine most likely failed?",
+  "a": "The left engine",
+  "d": [
+   "The right engine",
+   "Neither; rudder pressure alone can't show it",
+   "Both; it is a symmetrical power loss"
+  ],
+  "why": "The airplane yaws toward the dead engine, so you need rudder on the opposite side. Right rudder with an idle left foot means the left engine. Then verify by retarding the left throttle.",
+  "src": "OEG 3C-14 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-030",
+  "topic": "eo",
+  "q": "Why can engine gauges mislead you when identifying a failed engine?",
+  "a": "A windmilling prop can show high RPM, and MP can read near normal",
+  "d": [
+   "The failed engine's gauges always drop to zero immediately",
+   "Both engines' gauges share a single sensor, so they always read the same",
+   "Engine gauges are only accurate above about 5,000 feet density altitude"
+  ],
+  "why": "Depending on whether the failure is partial or complete, the dead engine's MP can read close to the good engine's, and a windmilling prop keeps RPM up. A dead engine can look alive, so identify it with control inputs.",
+  "src": "OEG 3C-15 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-031",
+  "topic": "eo",
+  "q": "The right engine fails. Which way will the airplane yaw, and which rudder do you apply?",
+  "a": "Yaws right; apply left rudder immediately",
+  "d": [
+   "Yaws left; apply right rudder immediately",
+   "Yaws right; apply right rudder immediately",
+   "Yaws left; apply left rudder immediately"
+  ],
+  "why": "The good left engine's thrust swings the nose toward the dead right engine, and left rudder stops that yaw.",
+  "src": "OEG 3C-16 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-032",
+  "topic": "eo",
+  "q": "An engine fails while you are in IMC. What should get priority in your scan?",
+  "a": "The flight instruments, holding heading and airspeed",
+  "d": [
+   "The engine gauges, to find out which engine has failed",
+   "The fuel gauges, to rule out fuel starvation",
+   "The GPS, to locate the nearest airport"
+  ],
+  "why": "You identify the engine the same way as in VMC, but in IMC you keep scanning the flight instruments to hold heading (mainly with rudder) and airspeed. Rudder pressure still tells you which engine quit.",
+  "src": "OEG 3C-17 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-033",
+  "topic": "eo",
+  "q": "Immediately after an engine fails in IMC, before you correct, which way does the turn coordinator ball move?",
+  "a": "Toward the operative engine",
+  "d": [
+   "Toward the inoperative engine",
+   "It stays centered",
+   "Back and forth, with no trend"
+  ],
+  "why": "The airplane yaws toward the dead engine and the ball swings the other way, toward the good engine. Rudder on the good-engine side stops the yaw.",
+  "src": "OEG 3C-17 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-034",
+  "topic": "eo",
+  "q": "An engine fails after takeoff. The airplane is under control and can climb, but trees ahead must be cleared. Which speed should you fly?",
+  "a": "Vxse",
+  "d": [
+   "Vyse",
+   "Vsse",
+   "Vmc"
+  ],
+  "why": "Vxse gives the most altitude gain over the shortest distance on one engine, which is what clearing an obstacle needs. Vyse gives the best rate of climb, not the best angle.",
+  "src": "OEG 3C-18 · FAA-H-8083-3",
+  "loc": "oeg 053"
+ },
+ {
+  "id": "o7-035",
+  "topic": "eo",
+  "q": "An engine fails just before liftoff and you close both throttles to reject. Per the OEG, what do you use to keep the airplane on the runway?",
+  "a": "Rudder, nosewheel steering and brakes, aggressively if needed",
+  "d": [
+   "Rudder alone, since braking would skid you toward the dead engine",
+   "Power on the good engine plus rudder to hold the centerline",
+   "Ailerons into the dead engine plus light, gentle braking"
+  ],
+  "why": "With both throttles closed, directional control comes from rudder, nosewheel steering and brakes, and the OEG warns they may need to be used hard. Adding power on one engine would bring back the very yaw you are fighting.",
+  "src": "OEG 3C-19 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-036",
+  "topic": "eo",
+  "q": "In a rejected takeoff after an engine failure, what is the primary objective?",
+  "a": "Keep control of the airplane as it decelerates",
+  "d": [
+   "Stop the airplane in the shortest possible distance",
+   "Exit the runway at the nearest taxiway",
+   "Secure the failed engine before the airplane stops"
+  ],
+  "why": "Aggressive rudder, steering and braking may be needed, but what matters is staying in control while you slow down; the shortest possible stop is secondary.",
+  "src": "OEG 3C-19 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-037",
+  "topic": "eo",
+  "q": "A twin's calculated Vmc is 70 knots. Per the ACS, a simulated engine failure on the takeoff roll should be given before what speed?",
+  "a": "35 knots",
+  "d": [
+   "50 knots",
+   "65 knots",
+   "70 knots"
+  ],
+  "why": "The ACS calls for a simulated failure on the takeoff roll before 50 percent of the calculated Vmc: half of 70 is 35 knots. In the Seneca (Vmc 80 mph CAS) that would be before 40 mph.",
+  "src": "OEG 3C-20 · FAA-S-ACS-6, FAA-S-ACS-7",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-038",
+  "topic": "eo",
+  "q": "Just after liftoff, with the gear still down and runway remaining, an engine fails. What should you do?",
+  "a": "Close both throttles and land on the remaining runway or overrun",
+  "d": [
+   "Raise the gear, feather the failed engine, and then climb out at Vyse",
+   "Feather first, then decide whether to land or continue",
+   "Stay in ground effect and accelerate to Vyse before climbing out"
+  ],
+  "why": "With the gear still down, keep straight, close both throttles, lower the nose to hold airspeed, and make a normal landing ahead. The chances of cleaning up, feathering and accelerating under control are minimal. The Seneca POH 3-12a agrees when adequate runway remains.",
+  "src": "OEG 3C-21 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-039",
+  "topic": "eo",
+  "q": "In a twin with a single engine-driven hydraulic pump, why does losing that engine on takeoff matter for the gear?",
+  "a": "Raising the gear requires a windmilling engine or a hand pump",
+  "d": [
+   "The gear still retracts normally using the other engine's pump",
+   "The gear can only be raised by using the emergency extension system",
+   "The gear raises electrically, so there is no effect"
+  ],
+  "why": "With the pump's engine dead, the only ways to raise the gear are to let that engine windmill or to use a hand pump. Neither is practical during a takeoff emergency, which is one more reason to land ahead. (The Seneca's gear pump is electric, POH 2-4, so this case doesn't apply to it.)",
+  "src": "OEG 3C-21 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-040",
+  "topic": "eo",
+  "q": "An engine fails just after liftoff with the gear up. At Vyse with full power on the good engine, you are still sinking. What should you do?",
+  "a": "Land under control ahead, descending at Vyse if needed",
+  "d": [
+   "Raise the nose to hold altitude, letting speed bleed off",
+   "Turn back toward the runway while holding your altitude",
+   "Slow to Vxse to stop the descent and hold altitude"
+  ],
+  "why": "Near or above the single-engine ceiling you must land on essentially whatever lies ahead, or keep going ahead in a descent at Vyse. Trying to hold altitude by bleeding off airspeed is almost always fatal.",
+  "src": "OEG 3C-22 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-041",
+  "topic": "eo",
+  "q": "Per the OEG, what is almost invariably fatal after an engine failure on takeoff?",
+  "a": "Staying airborne by bleeding off airspeed to hold altitude",
+  "d": [
+   "Landing straight ahead in an off-airport field",
+   "Descending straight ahead at Vyse with the good engine at full power",
+   "Landing with the landing gear still retracted"
+  ],
+  "why": "The killer is insisting on flight the airplane can't sustain. A controlled landing, even off-airport or gear up, is far more survivable than a stall or Vmc roll.",
+  "src": "OEG 3C-22 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-042",
+  "topic": "eo",
+  "q": "After an engine failure on takeoff with the gear up and adequate climb performance, what are the four areas of concern, in order?",
+  "a": "Control, configuration, climb, checklist",
+  "d": [
+   "Aviate, navigate, communicate, checklist",
+   "Identify, verify, feather, secure",
+   "Climb, configuration, control, checklist"
+  ],
+  "why": "Control comes first, using aileron and rudder aggressively if needed. Then the memory items configure the airplane for climb, then the bank is reduced to the best-climb angle, and last come the printed checklist and the securing checklist.",
+  "src": "OEG 3C-23 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-043",
+  "topic": "eo",
+  "q": "In the 'Climb' step after an engine failure, once control and configuration are set, how should the bank angle be adjusted?",
+  "a": "Reduced to the angle that gives the best climb performance",
+  "d": [
+   "Increased to 10–15° toward the operating engine for more control",
+   "Rolled to wings level with the ball centered",
+   "Banked a few degrees toward the dead engine to reduce drag"
+  ],
+  "why": "A steeper bank helps the rudder at first. Once the airplane is under control, you shallow it to the zero-sideslip bank, which gives the best climb. The Seneca POH 3-11 simply calls for 5° of bank toward the operating engine.",
+  "src": "OEG 3C-23 · FAA-H-8083-3",
+  "loc": "oeg 054"
+ },
+ {
+  "id": "o7-044",
+  "topic": "eo",
+  "q": "Shortly after liftoff an engine fails, and even with full power on the other you can't climb. What speed gives the slowest sink rate?",
+  "a": "Vyse",
+  "d": [
+   "Vxse",
+   "Vsse",
+   "Vmc"
+  ],
+  "why": "Vyse is the best single-engine rate-of-climb speed, so when a climb isn't possible it gives the least rate of sink (drift-down).",
+  "src": "OEG 3C-24 · FAA-H-8083-3",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-045",
+  "topic": "eo",
+  "q": "After an engine failure on departure, what two bank angles are used, in order?",
+  "a": "First a bank for directional control, then a zero-sideslip bank for climb",
+  "d": [
+   "First a zero-sideslip bank for control, then a steeper bank for best climb",
+   "First wings level for control, then a bank toward the dead engine for climb",
+   "First a bank toward the dead engine, then wings level for climb"
+  ],
+  "why": "The first bank toward the good engine helps the rudder overcome the yaw from asymmetric thrust. Once you have control, you move to the shallower zero-sideslip bank, a technique for coordinated flight and best climb rather than a fixed number.",
+  "src": "OEG 3C-25 · FAA-H-8083-3",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-046",
+  "topic": "eo",
+  "q": "In a typical light twin, per the OEG, what bank helps the rudder right after an engine failure, while you pitch for Vyse?",
+  "a": "5 to 10 degrees toward the operating engine",
+  "d": [
+   "2 to 3 degrees toward the operating engine",
+   "15 to 20 degrees toward the operating engine",
+   "5 to 10 degrees toward the inoperative engine"
+  ],
+  "why": "Per the OEG, 5–10° toward the good engine helps the rudder at first; 2–3° is the later zero-sideslip bank for best climb. Never bank toward the dead engine. The Seneca POH 3-11 says to maintain 5° of bank toward the operating engine.",
+  "src": "OEG 3C-37 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-047",
+  "topic": "eo",
+  "q": "In a typical light twin, per the OEG, what bank and ball position give zero sideslip for best climb at Vyse?",
+  "a": "About 2–3° bank, ball slightly toward the operating engine",
+  "d": [
+   "About 5–10° bank toward the operating engine, ball centered",
+   "Wings level, ball centered",
+   "About 2–3° bank, ball slightly toward the inoperative engine"
+  ],
+  "why": "A small bank toward the good engine, with the ball slightly toward that side, cancels the sideslip and minimizes drag; wings level with the ball centered leaves a sideslip. The Seneca POH 3-11 instead calls for 5° of bank toward the operating engine.",
+  "src": "OEG 3C-37 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-048",
+  "topic": "eo",
+  "q": "Per the ACS, what minimum altitude must be reached before an evaluator may simulate an engine failure after liftoff?",
+  "a": "400 feet AGL",
+  "d": [
+   "200 feet AGL",
+   "500 feet AGL",
+   "1,000 feet AGL"
+  ],
+  "why": "The ACS sets 400 feet AGL as the minimum, along with at least Vsse, Vxse or Vyse. The OEG recommends the same limits for practice.",
+  "src": "OEG 3C-26 · FAA-P-8740-66",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-049",
+  "topic": "eo",
+  "q": "Besides altitude, what airspeed must be reached before an engine failure is simulated after liftoff?",
+  "a": "At least Vsse, Vxse, or Vyse",
+  "d": [
+   "At least Vmc",
+   "At least rotation speed (Vr)",
+   "At least 1.1 times Vso"
+  ],
+  "why": "The evaluator may not simulate a failure until the airplane is at least 400 feet AGL and at least at the safe single-engine speed (Vsse), Vxse or Vyse. Vmc or rotation speed leaves no margin.",
+  "src": "OEG 3C-26 · FAA-P-8740-66",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-050",
+  "topic": "eo",
+  "q": "Right after takeoff, why does the OEG value altitude over airspeed in excess of Vyse?",
+  "a": "Extra speed can't easily be converted to needed altitude or distance",
+  "d": [
+   "Extra speed raises Vmc and so reduces your margin of directional control",
+   "Extra speed overheats both engines during the initial climb",
+   "Extra speed keeps the failed propeller from feathering fully"
+  ],
+  "why": "Once at a safe height a twin can hold level on one engine far more easily than it can climb, and spare altitude can be cashed in for speed or glide distance. Spare airspeed can't be turned into the height you need nearly as readily.",
+  "src": "OEG 3C-27 · FAA-H-8083-3",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-051",
+  "topic": "eo",
+  "q": "An engine fails just after gear retraction, near the single-engine ceiling, with no runway left. What should you do with the gear?",
+  "a": "Leave it up until committed to a landing; extending it costs climb",
+  "d": [
+   "Lower it immediately; a twin should never be landed with the gear up",
+   "Lower it to stabilize the airplane, then try to climb",
+   "Cycle it down and up again to confirm the hydraulic system still works"
+  ],
+  "why": "Lowering the gear can cost the climb you badly need, so wait until you are positioned to land. Controlled off-airport engine-out landings, even gear up, usually turn out well. The Seneca POH 3-13 likewise says not to extend the gear until certain of making the field.",
+  "src": "OEG 3C-28 · FAA-H-8083-3",
+  "loc": "oeg 055"
+ },
+ {
+  "id": "o7-052",
+  "topic": "eo",
+  "q": "Compared with a failure at low altitude, what does an engine failure in cruise give you, and what stays the same?",
+  "a": "Time to diagnose and fix it; control is still the top priority",
+  "d": [
+   "Time to diagnose it; you never need to feather an engine in cruise",
+   "Better control; calling ATC now comes before flying",
+   "No extra time; you must still feather at once, just as down low"
+  ],
+  "why": "Cruise speed improves control and altitude buys time, so diagnosis and a fix may be possible. Flying the airplane still comes first.",
+  "src": "OEG 3C-29 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-053",
+  "topic": "eo",
+  "q": "If an en route engine failure can't be corrected, what does the OEG recommend?",
+  "a": "Do the manufacturer's single-engine procedure; land as soon as possible",
+  "d": [
+   "Continue on to the planned destination as long as fuel permits",
+   "Keep attempting restarts until the failed engine is running normally again",
+   "Climb to the single-engine service ceiling and hold there"
+  ],
+  "why": "If you can't fix the problem, run the manufacturer's single-engine procedure and get on the ground as soon as possible. Repeated restarts and pressing on to the destination add risk.",
+  "src": "OEG 3C-29 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-054",
+  "topic": "eo",
+  "q": "Once the immediate emergency is handled, what is the main problem after an en route engine failure?",
+  "a": "Keeping enough altitude to reach the nearest suitable airport",
+  "d": [
+   "Keeping the failed engine warm enough for a later restart attempt",
+   "Maintaining the planned cruise airspeed and ETA to the destination",
+   "Keeping fuel balanced between the two tanks"
+  ],
+  "why": "Whether you can hold enough altitude to reach a suitable airport depends on density altitude, gross weight, and the elevation of terrain and obstructions.",
+  "src": "OEG 3C-30 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-055",
+  "topic": "eo",
+  "q": "An engine fails at 11,000 ft, above the airplane's single-engine absolute ceiling. What will happen, and what speed should you fly?",
+  "a": "It slowly loses altitude; fly Vyse to minimize the descent",
+  "d": [
+   "It holds altitude; fly Vyse to maintain it",
+   "It slowly loses altitude; fly Vxse to minimize the descent",
+   "It holds altitude; fly Vmc to minimize drag"
+  ],
+  "why": "Above the single-engine absolute ceiling the airplane can't hold altitude and slowly drifts down. Vyse keeps the rate of altitude loss as low as possible.",
+  "src": "OEG 3C-30 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-056",
+  "topic": "eo",
+  "q": "Per the OEG, many en route power losses come from what cause, with what simple fix?",
+  "a": "Fuel starvation; select another fuel tank",
+  "d": [
+   "Magneto failure; switch both magnetos off",
+   "Induction icing; lean the mixture fully",
+   "Oil starvation; reduce the power to idle"
+  ],
+  "why": "Fuel starvation is a common cause, and switching tanks often brings the power back; in the Seneca, the POH 3-11 restore-power note includes crossfeed. A methodical check of gauges and switches, alternate air or carb heat, single magnetos, mixture and boost pump also helps.",
+  "src": "OEG 3C-31 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-057",
+  "topic": "eo",
+  "q": "En route, one engine's fuel flow and pressure begin to fluctuate and you suspect fuel vapor. What does the OEG suggest?",
+  "a": "Turn on that engine's electric fuel boost pump",
+  "d": [
+   "Pull that engine's mixture to cutoff briefly",
+   "Close that engine's cowl flap to warm it up",
+   "Turn that engine's magnetos off and back on"
+  ],
+  "why": "When vapor is suspected, running the boost pump can clear the fuel flow and pressure fluctuations. An engine that runs rough may also run smoothly on one magneto or at lower power.",
+  "src": "OEG 3C-31 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-058",
+  "topic": "eo",
+  "q": "A turbocharged engine loses power at high altitude and you suspect the turbocharger has failed. What might restore some power?",
+  "a": "Lean the mixture further and/or descend to a lower altitude",
+  "d": [
+   "Enrich the mixture fully and climb to a higher altitude",
+   "Close the throttle partway and select alternate air",
+   "Increase propeller RPM and climb to a higher altitude"
+  ],
+  "why": "Without boost, the engine gets too much fuel for the thin air, so leaning helps. At a lower altitude it runs better as what is now a normally aspirated engine.",
+  "src": "OEG 3C-32 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-059",
+  "topic": "eo",
+  "q": "After feathering a failed engine, which actions normally complete securing it?",
+  "a": "Fuel (mixture, pump, selector), ignition and alternator off; cowl flap closed",
+  "d": [
+   "Fuel on (pump, selector); ignition and alternator off; cowl flap open",
+   "Fuel (mixture, pump, selector) and ignition off; alternator on; cowl flap open",
+   "Fuel and ignition left on for a restart; alternator off; cowl flap closed"
+  ],
+  "why": "Securing cuts off fuel, spark and electrical load to the dead engine, and closing its cowl flap reduces drag. Pressurized twins may also have a bleed-air valve to close. The Seneca POH 3-11 feathering procedure covers the same items.",
+  "src": "OEG 3C-33 · FAA-H-8083-3",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-060",
+  "topic": "eo",
+  "q": "An engine was shut down in flight because of an oil leak. Why is an attempted restart risky?",
+  "a": "More engine damage, a worse leak, or an in-flight fire",
+  "d": [
+   "The propeller will automatically re-feather on restart",
+   "The starter will not engage when oil pressure is low",
+   "The restart will discharge the battery below minimums"
+  ],
+  "why": "An engine shut down for a mechanical reason can be damaged further if it's restarted, and an oil or fuel leak can get worse and start a fire. Leave it secured unless there is a compelling reason.",
+  "src": "OEG 3C-34 · SAIB CE-05-51",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-061",
+  "topic": "eo",
+  "q": "During a restart attempt, the prop comes out of feather but the engine won't start, and the prop can't be re-feathered. Why?",
+  "a": "Windmilling RPM is too low, so the start locks block feathering",
+  "d": [
+   "The unfeathering accumulator must be recharged before feathering",
+   "The prop governor stays locked at its high-RPM stop after unfeathering",
+   "The feathering spring is damaged by every unfeathering cycle"
+  ],
+  "why": "If the prop windmills below the start-lock disengagement speed, the locks stay engaged and it can't return to feather; the windmilling drag may make level flight impossible. The Seneca can be feathered only above 800 RPM (POH 3-11).",
+  "src": "OEG 3C-34 · SAIB CE-05-51",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-062",
+  "topic": "eo",
+  "q": "What is the result if the propeller is left windmilling after a failed in-flight restart?",
+  "a": "Significant drag; the airplane may be unable to hold level flight",
+  "d": [
+   "Less drag than a feathered prop, so climb performance improves",
+   "About the same drag as a feathered prop, so nothing changes",
+   "Only a small loss of cruise speed, with no effect on climb"
+  ],
+  "why": "A windmilling prop produces far more drag than a feathered one, which can turn a manageable single-engine cruise into a forced descent.",
+  "src": "OEG 3C-34 · SAIB CE-05-51",
+  "loc": "oeg 056"
+ },
+ {
+  "id": "o7-063",
+  "topic": "eo",
+  "q": "Citing SAIB CE-05-51, what risk does the OEG warn of when shutting down and restarting an engine for training?",
+  "a": "A faulty restart may leave a dead engine: a real emergency",
+  "d": [
+   "Feathering at altitude may damage the propeller governor",
+   "A restart using the starter may overheat the battery",
+   "A feathered prop may unfeather itself during the descent"
+  ],
+  "why": "A practice shutdown can turn into an actual engine-out emergency if the restart goes wrong. Always follow the manufacturer's restart checklist and weigh all the hazards before shutting down for training.",
+  "src": "OEG 3C-34 · SAIB CE-05-51",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-064",
+  "topic": "eo",
+  "q": "Per the OEG, how should a typical light twin's single-engine traffic pattern compare with a normal two-engine pattern?",
+  "a": "Essentially the same altitudes, airspeeds, and key positions",
+  "d": [
+   "Lower and tighter, to minimize the time spent flying on one engine",
+   "A long, flat, low final to stay close to the runway",
+   "Flown at Vxse throughout for a steeper descent"
+  ],
+  "why": "The OEG treats an OEI pattern as basically a normal one: similar altitudes, speeds and key points, and no long, flat, low final. The Seneca POH 3-13 adds: carry extra altitude and speed on the approach.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-065",
+  "topic": "eo",
+  "q": "Per the OEG, in a typical light twin with adequate performance, when should the gear be confirmed down on a single-engine approach?",
+  "a": "No later than abeam the intended point of landing",
+  "d": [
+   "No later than the start of the turn onto the base leg",
+   "No later than 500 feet AGL on the final approach",
+   "Only once over the runway threshold"
+  ],
+  "why": "Per the OEG, with adequate performance the gear can go down on downwind and should be confirmed down by the abeam point. The Seneca POH 3-13 differs: don't extend the gear until certain of making the field.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-066",
+  "topic": "eo",
+  "q": "Per the OEG, what is the minimum airspeed on a single-engine approach until the landing is assured?",
+  "a": "Vyse",
+  "d": [
+   "Vxse",
+   "Vmc",
+   "1.3 Vso"
+  ],
+  "why": "Hold at least Vyse on downwind, base and final, because it keeps the best performance available until the landing is certain; slow to 1.3 Vso or the POH speed only after that. The Seneca POH 3-13 final approach speed is 105 mph, its Vyse.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-067",
+  "topic": "eo",
+  "q": "On base with one engine out, your airspeed is decaying and the sink rate is high. What does the OEG say about more flaps?",
+  "a": "Delay further flap extension until closer to the runway",
+  "d": [
+   "Extend full flaps now to steepen the approach",
+   "Extend flaps and slow below Vyse to cut the sink",
+   "Retract all flaps and climb back to pattern altitude"
+  ],
+  "why": "Decaying airspeed or a high sink rate means performance is inadequate, so hold off on more flaps until closer to the runway; Vyse stays the minimum. The Seneca POH 3-13 says no flaps until certain of making the field, and 25° rather than full.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-068",
+  "topic": "eo",
+  "q": "In a typical light twin, per the OEG, once a single-engine landing is assured, to what speed do you slow?",
+  "a": "1.3 Vso, or the POH/AFM recommended speed",
+  "d": [
+   "Vmc, to minimize the total landing distance",
+   "Vxse, to steepen the final descent angle",
+   "Vsse, to keep a safety margin"
+  ],
+  "why": "Hold Vyse until the landing is assured, then slow to 1.3 Vso or the speed the POH/AFM recommends; final flaps can wait, or you can land with partial flaps. The Seneca POH 3-13 gives 105 mph for the single-engine final approach.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-069",
+  "topic": "eo",
+  "q": "Which approach profile should be avoided on a single-engine final?",
+  "a": "A long, flat, low approach",
+  "d": [
+   "A normal 3° glidepath",
+   "A slightly steeper than normal approach",
+   "Following the VASI glidepath"
+  ],
+  "why": "A normal 3° path is preferred, ideally using a VASI or similar aid, and slightly steeper is acceptable. A long, flat, low approach needs more power and leaves no margin if you come up short.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-070",
+  "topic": "eo",
+  "q": "Besides a long, flat approach, what does the OEG say to avoid on a single-engine final?",
+  "a": "Large, sudden power applications or reductions",
+  "d": [
+   "Landing with only partial flaps, rather than full flaps",
+   "Using a VASI or other visual glidepath aid",
+   "Delaying the final flap setting"
+  ],
+  "why": "Big, abrupt power changes on one engine cause big yaw changes and make control harder. Landing with partial flaps, delaying final flaps and using a VASI are all acceptable.",
+  "src": "OEG 3C-35 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-071",
+  "topic": "eo",
+  "q": "Per the OEG, when should a typical light twin be configured and stabilized for a single-engine instrument approach?",
+  "a": "Before reaching the final approach fix",
+  "d": [
+   "At the decision altitude or MDA",
+   "Just after crossing the final approach fix",
+   "At the missed approach point"
+  ],
+  "why": "Configuring before the FAF (or on downwind for a VFR pattern) lets you stabilize, reduces Vmc effects and frees your attention for flying. The Seneca POH 3-13 is more conservative: no gear or flaps until certain of making the field.",
+  "src": "OEG 3C-36 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-072",
+  "topic": "eo",
+  "q": "Per the OEG, are single-engine go-arounds recommended in a light twin?",
+  "a": "No; on final with gear and flaps down, you're committed to land",
+  "d": [
+   "Yes; they are safer than landing long on a single engine",
+   "Yes, as long as the airspeed stays above Vmc throughout",
+   "No; Part 23 prohibits go-arounds with an engine inoperative"
+  ],
+  "why": "A light twin generally can't climb on one engine with gear and flaps down, and cleaning up while holding Vyse costs a lot of altitude. The Seneca POH 3-13 also says to avoid one if at all possible and gives a procedure only for when it can't be avoided.",
+  "src": "OEG 3C-37 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-073",
+  "topic": "eo",
+  "q": "On short final with one engine out, gear and flaps down, a vehicle enters the runway. Per the OEG, what is the best choice?",
+  "a": "Land on another runway, a taxiway, or the grass",
+  "d": [
+   "Go around at full power on the operating engine",
+   "Retract the flaps and climb away at Vxse",
+   "Slow to Vmc and extend the final approach"
+  ],
+  "why": "Once configured on final with one engine, you are committed to land. If the intended runway is blocked, land on another runway, a taxiway or the infield rather than attempt a single-engine go-around.",
+  "src": "OEG 3C-37 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-074",
+  "topic": "eo",
+  "q": "Roughly how much altitude can a light twin lose while retracting gear and flaps at Vyse in a single-engine go-around?",
+  "a": "500 feet or more",
+  "d": [
+   "About 50 feet",
+   "About 100 feet",
+   "None, if Vyse is held"
+  ],
+  "why": "Losses of 500 feet or more are not unusual. If the gear went down by an alternate (emergency) method, it may not retract at all, which wipes out nearly all climb ability.",
+  "src": "OEG 3C-37 · FAA-H-8083-3",
+  "loc": "oeg 057"
+ },
+ {
+  "id": "o7-075",
+  "topic": "eo",
+  "q": "You start a go-around from short final with the gear down and full flaps. Unless the POH says otherwise, what do you retract first?",
+  "a": "The flaps (at least partially), then the gear",
+  "d": [
+   "The gear first, then the flaps",
+   "Gear and flaps together, immediately",
+   "The gear first; flaps after 1,000 feet AGL"
+  ],
+  "why": "After setting climb attitude and power, bring the flaps up partially or to the takeoff setting. Retract the gear once a positive rate of climb is established and you are sure the airplane will stay airborne. Your school's Seneca go-around does the same: flaps to 25°, gear up on a positive rate, then the rest of the flaps.",
+  "src": "OEG 3C-38 · FAA-H-8083-3",
+  "loc": "oeg 058"
+ },
+ {
+  "id": "o7-076",
+  "topic": "eo",
+  "q": "Why are the flaps generally retracted before the gear during a go-around?",
+  "a": "Full flaps add more drag than gear, and gear down helps if you touch down",
+  "d": [
+   "The gear adds more drag than full flaps do, and the flaps improve the climb",
+   "The gear motor cannot run while the flaps are still moving",
+   "Retracting the gear first makes the airplane pitch down sharply near the ground"
+  ],
+  "why": "On most airplanes full flaps cause more drag than the gear. Leaving the gear down and locked also protects you if the airplane touches down as the go-around begins.",
+  "src": "OEG 3C-38 · FAA-H-8083-3",
+  "loc": "oeg 058"
+ },
+ {
+  "id": "o7-077",
+  "topic": "eo",
+  "q": "Why should flaps be retracted in small increments during a go-around?",
+  "a": "A sudden full retraction loses lift and can settle the airplane",
+  "d": [
+   "The flap motor overheats if it is run continuously for long",
+   "Small increments keep the airspeed safely below Vfe",
+   "Small increments keep the gear warning horn from sounding"
+  ],
+  "why": "Raising the flaps a little at a time lets the airplane accelerate as lift is reduced. Dumping them all at once can make it sink back toward the ground.",
+  "src": "OEG 3C-38 · FAA-H-8083-3",
+  "loc": "oeg 058"
+ },
+ {
+  "id": "o7-078",
+  "topic": "eo",
+  "q": "In a very low go-around, the airplane settles onto the runway and bounces. How does the OEG view this?",
+  "a": "Not a big danger if kept straight at a steady, safe pitch",
+  "d": [
+   "An emergency that calls for an immediate power reduction",
+   "A cue to retract the landing gear at once to reduce drag",
+   "A cue to pull the nose up sharply and climb away quickly"
+  ],
+  "why": "Go-around power brings the airplane to flying speed quickly and softens any second contact with the runway. Keep it straight, hold the pitch, and raise the gear only once you are sure it will stay airborne.",
+  "src": "OEG 3C-38 · FAA-H-8083-3",
+  "loc": "oeg 058"
+ },
+ {
+  "id": "o7-079",
+  "topic": "eo",
+  "q": "Per the OEG, if a second pilot is aboard, what should you agree on before takeoff to reduce engine-failure risk?",
+  "a": "Pilot flying and pilot not flying duties in an emergency",
+  "d": [
+   "Which pilot will do the cruise fuel and power planning",
+   "That both pilots share the controls during any emergency",
+   "That the second pilot stays hands-off and silent throughout"
+  ],
+  "why": "Settling in advance who flies and who handles checklists, radios and callouts prevents both pilots grabbing the controls, or neither acting, when an engine quits.",
+  "src": "OEG 3C-3 · FAA-P-8740-66",
+  "loc": "oeg 051"
+ }
+]

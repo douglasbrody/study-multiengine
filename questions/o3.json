@@ -1,0 +1,1318 @@
+[
+ {
+  "id": "o3-001",
+  "topic": "controls",
+  "q": "Which surfaces make up the primary flight controls of a typical multi-engine airplane?",
+  "a": "Ailerons, elevator (or stabilator), and rudder",
+  "d": [
+   "Ailerons, wing flaps, and rudder",
+   "Elevator (or stabilator), rudder, and trim tabs",
+   "Ailerons, spoilers, and elevator (or stabilator)"
+  ],
+  "why": "Primary controls are the ones required to control the airplane safely in flight: ailerons, elevator/stabilator and rudder. Flaps, spoilers and trim are secondary controls.",
+  "src": "OEG 2A-1 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-002",
+  "topic": "controls",
+  "q": "Which pairing of flight control and axis is correct?",
+  "a": "Elevator: pitch about the lateral axis",
+  "d": [
+   "Elevator: pitch about the longitudinal axis",
+   "Rudder: yaw about the lateral axis",
+   "Ailerons: roll about the vertical axis"
+  ],
+  "why": "Ailerons roll the airplane about the longitudinal axis, the elevator pitches it about the lateral axis, and the rudder yaws it about the vertical axis.",
+  "src": "OEG 2A-2 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-003",
+  "topic": "controls",
+  "q": "What is a stabilator?",
+  "a": "A one-piece horizontal tail that pivots as a unit",
+  "d": [
+   "A fixed horizontal stabilizer with a hinged elevator",
+   "A small tab on the elevator that relieves pressure",
+   "A V-tail surface combining rudder and elevator"
+  ],
+  "why": "A stabilator replaces the stabilizer-plus-elevator with a single all-moving slab. Because it pivots as a whole it is very sensitive to inputs and air loads.",
+  "src": "OEG 2A-3 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-004",
+  "topic": "controls",
+  "q": "Why is an anti-servo tab fitted to the trailing edge of a stabilator?",
+  "a": "It makes the all-moving surface less sensitive",
+  "d": [
+   "It boosts surface movement so the pilot needs less force",
+   "It replaces the balance weight ahead of the spar",
+   "It locks the stabilator at high angles of attack"
+  ],
+  "why": "An all-moving stabilator reacts strongly to small inputs and air loads, so the anti-servo tab adds resistance (feel) that makes it less sensitive. A balance weight ahead of the main spar is usually fitted as well.",
+  "src": "OEG 2A-3 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-005",
+  "topic": "controls",
+  "q": "In flight the elevator jams and the yoke will no longer move it. What can still give you a limited amount of pitch control?",
+  "a": "Changes in power and flap setting, aided by trim",
+  "d": [
+   "Coordinated rudder and aileron inputs, aided by trim",
+   "Differential power on the two engines to raise or lower the nose",
+   "Differential braking and nosewheel steering after touchdown"
+  ],
+  "why": "With a jammed elevator, changing power and flap extension changes the pitching moments enough for limited pitch control, and trim may also help. The book warns that landing this way is still difficult.",
+  "src": "OEG 2A-4 · FAA-H-8083-3",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-006",
+  "topic": "controls",
+  "q": "Which list contains only secondary flight controls?",
+  "a": "Wing flaps, leading edge devices, spoilers, and trim systems",
+  "d": [
+   "Ailerons, wing flaps, leading edge devices, and trim systems",
+   "Rudder, wing flaps, leading edge devices, and trim systems",
+   "Wing flaps, cowl flaps, leading edge devices, and spoilers"
+  ],
+  "why": "Secondary controls improve performance or relieve the pilot of heavy control forces: flaps, leading edge devices, spoilers and trim. Ailerons and rudder are primary controls; cowl flaps are engine cooling devices.",
+  "src": "OEG 2B-1 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-007",
+  "topic": "controls",
+  "q": "At any given angle of attack, what does extending trailing-edge flaps do?",
+  "a": "Increases both lift and induced drag",
+  "d": [
+   "Increases lift and reduces induced drag",
+   "Increases drag but leaves lift unchanged",
+   "Reduces lift and increases parasite drag only"
+  ],
+  "why": "Flaps raise the lift and induced drag produced at a given angle of attack. That lets the airplane cruise fast with flaps retracted yet land slowly with them extended.",
+  "src": "OEG 2B-2 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-008",
+  "topic": "controls",
+  "q": "What are the four most common types of trailing-edge wing flaps?",
+  "a": "Plain, split, slotted, and Fowler",
+  "d": [
+   "Plain, split, slotted, and Krueger",
+   "Split, slotted, Fowler, and slat",
+   "Plain, split, Fowler, and spoiler"
+  ],
+  "why": "The four common trailing-edge flaps are plain, split, slotted and Fowler. Krueger flaps and slats are leading edge devices; spoilers reduce lift.",
+  "src": "OEG 2B-2 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-009",
+  "topic": "controls",
+  "q": "Which description fits a plain flap?",
+  "a": "Adds camber, raising lift and drag and pitching the nose down",
+  "d": [
+   "Increases wing area by sliding aft, adding lift with little drag",
+   "Ducts high-energy air over its upper surface to delay separation",
+   "Deflects only from the wing's lower surface, leaving a turbulent wake"
+  ],
+  "why": "A plain flap simply hinges down, adding camber; lift and drag both rise and the center of pressure moves aft, pitching the nose down. The other choices describe Fowler, slotted and split flaps.",
+  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "loc": "oeg 016"
+ },
+ {
+  "id": "o3-010",
+  "topic": "controls",
+  "q": "How does a slotted flap get a higher lift coefficient than a plain or split flap?",
+  "a": "A slot feeds lower-surface air over the flap, delaying separation",
+  "d": [
+   "It slides aft on tracks so that the total wing area is increased",
+   "It deflects from the lower surface, increasing camber only",
+   "It extends from the leading edge to raise the critical AOA"
+  ],
+  "why": "When lowered, a slotted flap opens a duct between the wing and the flap; lower-surface air flows through it and energizes the upper-surface boundary layer, delaying separation. It is the most popular flap today, and the Seneca uses slotted flaps.",
+  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-011",
+  "topic": "controls",
+  "q": "What distinguishes a Fowler flap from the other common flap types?",
+  "a": "It increases wing area as well as camber by moving aft on tracks",
+  "d": [
+   "It increases camber only, by hinging down from the trailing edge",
+   "It is deflected from the lower surface of the wing only",
+   "It is mounted on the leading edge to delay airflow separation"
+  ],
+  "why": "A Fowler flap is a slotted flap that first slides backward on tracks, enlarging the wing area, and then deflects downward, adding camber.",
+  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-012",
+  "topic": "controls",
+  "q": "Generally, how are the flaps driven in the most common type of flap system? (The Seneca I's flaps are manual.)",
+  "a": "One electric motor drives both flaps via rods, bellcranks and cables",
+  "d": [
+   "A separate electric motor in each wing, synchronized electronically",
+   "An engine-driven hydraulic pump that powers an actuator in each wing",
+   "A cockpit lever linked by cables, with springs to help extend them"
+  ],
+  "why": "Flaps can be electric, hydraulic or manual, but the most common system is a flap switch and a single electric motor linked to both flaps, protected by a push-to-reset breaker or a fuse. The Seneca I is different: its slotted flaps are moved by a manual lever between the front seats and spring-loaded to retract.",
+  "src": "OEG 2B-4 · POH/AFM",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-013",
+  "topic": "controls",
+  "q": "On approach you lower the flaps. The left flap extends but the right flap stays up. Which way will the airplane tend to roll?",
+  "a": "Right, toward the wing with less flap",
+  "d": [
+   "Left, toward the wing with the extended flap",
+   "It will pitch nose-down without any tendency to roll",
+   "Neither way; it will only yaw to the right"
+  ],
+  "why": "The extended flap makes more lift, so the airplane rolls toward the wing with less flap. Its extra drag yaws the nose toward the extended flap, so you end up cross-controlled with heavy opposite rudder and nearly full aileron, worst at slow approach speeds.",
+  "src": "OEG 2B-5 · FAA-H-8083-3",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-014",
+  "topic": "controls",
+  "q": "With a conventional elevator trim tab, where does the tab sit when the trim is set to full nose-down?",
+  "a": "Full up",
+  "d": [
+   "Full down",
+   "Neutral, streamlined with the elevator",
+   "Up or down, depending on airspeed"
+  ],
+  "why": "A trim tab moves opposite to the way it pushes the surface. Full nose-down trim puts the tab full up, and the air load on it pushes the elevator trailing edge down.",
+  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-015",
+  "topic": "controls",
+  "q": "How does a balance tab move when its control surface is deflected?",
+  "a": "Automatically, in the opposite direction to the surface",
+  "d": [
+   "Automatically, in the same direction as the surface",
+   "Only when the pilot turns the cockpit trim wheel or switch",
+   "It stays fixed and can only be bent on the ground"
+  ],
+  "why": "A balance tab is linked to the control surface rod so it moves opposite to the surface, helping the pilot move it. An anti-servo tab moves the same way as the surface, which adds resistance instead.",
+  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-016",
+  "topic": "controls",
+  "q": "When the stabilator trailing edge moves up, what does its anti-servo tab do?",
+  "a": "It also moves up, making the stabilator less sensitive",
+  "d": [
+   "Its trailing edge moves down, opposite the stabilator, to aid the pilot",
+   "It stays in its trimmed position unless the trim wheel is moved",
+   "Its trailing edge moves up only when the autopilot is engaged"
+  ],
+  "why": "The anti-servo linkage forces the tab to move in the same direction as the stabilator trailing edge, which resists the movement and makes the surface less sensitive. The tab also works as the pitch trim device.",
+  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-017",
+  "topic": "controls",
+  "q": "What is a ground-adjustable tab?",
+  "a": "A fixed tab, usually on the rudder, bent on the ground for trim",
+  "d": [
+   "A cockpit-adjustable tab that is used only to set takeoff trim",
+   "A tab that moves opposite the rudder whenever it deflects",
+   "A tab that is locked in place on the ground by a gust lock"
+  ],
+  "why": "A ground-adjustable tab cannot be moved in flight. It is bent one way or the other on the ground, and the right amount is found by trial and error.",
+  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-018",
+  "topic": "controls",
+  "q": "The autopilot suddenly starts flying erratically. What is the first and closest way to disconnect it?",
+  "a": "The disconnect switch on the control yoke",
+  "d": [
+   "The autopilot circuit breaker on the panel",
+   "The mode buttons on the autopilot panel",
+   "The avionics or battery master switch"
+  ],
+  "why": "The yoke-mounted disconnect switch is the quickest first step. If it fails, try the mode buttons, then pull the trim/autopilot circuit breakers, and you can overpower the servo clutch with the yoke.",
+  "src": "OEG 2B-7 · FAA-H-8083-16",
+  "loc": "oeg 017"
+ },
+ {
+  "id": "o3-019",
+  "topic": "controls",
+  "q": "How can a pilot physically overpower a malfunctioning autopilot or trim servo, and when is this normally checked?",
+  "a": "Force the yoke against the servo clutch; check it before takeoff",
+  "d": [
+   "Trim the opposite way to cancel it; check it during shutdown",
+   "Pull the yoke full aft to disengage it; check it after each landing",
+   "Hold the yoke still until it stops; check it during cruise"
+  ],
+  "why": "Most autopilot and trim servos drive through a simple clutch that the pilot can overpower by forcing the yoke. Check this before takeoff, for example during the after-start or run-up checks.",
+  "src": "OEG 2B-7 · FAA-H-8083-16",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-020",
+  "topic": "controls",
+  "q": "What does a typical stall warning system sense to trigger its warning?",
+  "a": "Angle of attack, through a sensor or vane on the wing",
+  "d": [
+   "Indicated airspeed sensed through the pitot-static system",
+   "Load factor from an accelerometer in the panel",
+   "Pitch attitude from the attitude indicator"
+  ],
+  "why": "Stall warning is based on angle of attack: a vane or sensor on the wing measures the angle between the chord line and the relative wind and triggers a horn and/or light as the critical angle is approached.",
+  "src": "OEG 2B-8 · POH/AFM",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-021",
+  "topic": "controls",
+  "q": "When is the stall warning designed to activate?",
+  "a": "Before the stall, leaving a margin to recover",
+  "d": [
+   "At the exact critical angle of attack, as the wing stalls",
+   "Just after the wing stalls, when buffet begins",
+   "Only when indicated airspeed falls below Vs1"
+  ],
+  "why": "The warning is set to come on before the critical angle of attack is reached, so the pilot has time to take corrective action.",
+  "src": "OEG 2B-8 · POH/AFM",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-022",
+  "topic": "engine",
+  "q": "Where does the term 'reciprocating engine' come from?",
+  "a": "The back-and-forth motion of the pistons",
+  "d": [
+   "The rotary motion of the crankshaft",
+   "The alternating firing of the two magnetos",
+   "The exchange of intake and exhaust gases"
+  ],
+  "why": "The pistons move back and forth (reciprocate), and that motion produces the mechanical energy that does the work.",
+  "src": "OEG 2C-1 · FAA-H-8083-25",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-023",
+  "topic": "engine",
+  "q": "What is the key difference between a carburetor and a fuel-injection induction system?",
+  "a": "Carburetor mixes before the manifold; injection mixes at each cylinder",
+  "d": [
+   "Carburetor mixes at each cylinder; injection mixes before the manifold",
+   "Carburetor needs a fuel pump; fuel injection is fed by gravity",
+   "Carburetor meters by engine RPM; injection meters by manifold pressure"
+  ],
+  "why": "A carburetor mixes fuel and air before the mixture enters the intake manifold. Fuel injection mixes just before each cylinder intake or injects directly into each cylinder.",
+  "src": "OEG 2C-2 · FAA-H-8083-25",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-024",
+  "topic": "engine",
+  "q": "In a carbureted airplane with a constant-speed propeller, what will be the first indication of carburetor ice?",
+  "a": "A drop in manifold pressure",
+  "d": [
+   "A gradual drop in RPM",
+   "A rise in cylinder head temperature",
+   "A rise in oil pressure"
+  ],
+  "why": "The governor holds RPM constant, so RPM won't drop at first. As ice restricts the induction airflow, manifold pressure falls.",
+  "src": "OEG 2C-2 · FAA-H-8083-25",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-025",
+  "topic": "engine",
+  "q": "What does 'horizontally opposed' mean when describing an engine?",
+  "a": "Cylinders face each other across the crankcase, always an even number",
+  "d": [
+   "Cylinders are arranged radially, in a star shape around the crankshaft",
+   "Two banks of cylinders form a V shape above the crankshaft",
+   "Cylinders sit in a single inline row laid flat in the nacelle"
+  ],
+  "why": "Each cylinder on one side faces a cylinder on the other side, so there is always an even number. Most are air cooled and mounted horizontally in airplanes.",
+  "src": "OEG 2C-3 · FAA-H-8083-25",
+  "loc": "oeg 018"
+ },
+ {
+  "id": "o3-026",
+  "topic": "engine",
+  "q": "What does 'direct-drive' mean for an aircraft engine?",
+  "a": "The prop is bolted to the crankshaft and turns at the same RPM",
+  "d": [
+   "A reduction gearbox turns the propeller slower than the crankshaft",
+   "A clutch lets the propeller stop while the engine keeps running",
+   "The propeller is driven by a turbine spun by exhaust gases"
+  ],
+  "why": "In a direct-drive engine there is no reduction gearing; the propeller turns at crankshaft RPM.",
+  "src": "OEG 2C-4 · FAA-P-8740-13",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-027",
+  "topic": "engine",
+  "q": "What does 'normally aspirated' mean, and how does it affect performance?",
+  "a": "No supercharger or turbocharger, so maximum power falls off with altitude",
+  "d": [
+   "Turbocharged to sea level pressure, so power holds to a critical altitude",
+   "Fuel-injected, so available power is unaffected by altitude",
+   "Fitted with alternate air, so it resists induction icing"
+  ],
+  "why": "A normally aspirated engine has nothing to restore sea level pressure in the induction system, so its maximum available power decreases as altitude increases.",
+  "src": "OEG 2C-4 · FAA-P-8740-13",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-028",
+  "topic": "engine",
+  "q": "How is ignition provided in a typical piston twin's engines?",
+  "a": "Two engine-driven magnetos and two plugs per cylinder",
+  "d": [
+   "One magneto plus one battery-powered coil for each engine",
+   "Two magnetos that are powered from the aircraft's electrical bus",
+   "One magneto firing both of the spark plugs in each cylinder"
+  ],
+  "why": "Each engine has two engine-driven magnetos and two plugs per cylinder. The magnetos generate their own current, so the ignition is independent of the airplane's electrical system.",
+  "src": "OEG 2C-5 · POH/AFM",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-029",
+  "topic": "engine",
+  "q": "Both alternators fail and the battery is eventually depleted. What happens to engine ignition?",
+  "a": "Nothing; the magnetos need no aircraft electrical power",
+  "d": [
+   "The engines quit once the battery is completely depleted",
+   "One magneto keeps firing while the other one stops working",
+   "Spark weakens as bus voltage drops, so both engines start to run rough"
+  ],
+  "why": "Magnetos are engine-driven and make their own electrical current, so the ignition system is completely independent of the airplane's electrical system.",
+  "src": "OEG 2C-5 · POH/AFM",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-030",
+  "topic": "engine",
+  "q": "Brake horsepower is the power...",
+  "a": "Delivered at the engine's propeller shaft",
+  "d": [
+   "Developed inside the cylinders by combustion",
+   "Converted into thrust by the propeller",
+   "Lost to friction inside the engine"
+  ],
+  "why": "Brake horsepower is the usable power at the propeller (main drive) shaft. Power developed in the cylinders is indicated horsepower, and the propeller's useful output is thrust horsepower.",
+  "src": "OEG 2C-6 · FAA-H-8083-25",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-031",
+  "topic": "engine",
+  "q": "During the run-up magneto check, why does RPM drop when one magneto is switched off?",
+  "a": "One plug per cylinder fires, so combustion is less complete",
+  "d": [
+   "The other magneto carries twice the load and runs weaker",
+   "Fuel injection is cut to the cylinders that magneto serves",
+   "The alternator load shifts onto the remaining magneto"
+  ],
+  "why": "With one magneto off, its plugs stop firing and each cylinder burns its charge less completely from one plug. Power falls, so RPM drops.",
+  "src": "OEG 2C-7 · POH/AFM",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-032",
+  "topic": "engine",
+  "q": "In a normally aspirated twin, RPM drops during the mag check (or prop exercise) and manifold pressure rises slightly. What does this mean?",
+  "a": "Normal: the slower engine draws less air past the throttle",
+  "d": [
+   "Induction ice is beginning to form, so alternate air is needed",
+   "There's an intake leak downstream of the throttle butterfly valve",
+   "A magneto is failing and backfiring into the induction"
+  ],
+  "why": "At a lower RPM the engine pumps less air, so there is less suction in the manifold behind the fixed throttle and manifold pressure creeps up. This is a normal response. Induction ice would lower manifold pressure.",
+  "src": "OEG 2C-8 · FAA-H-8083-25",
+  "loc": "oeg 019"
+ },
+ {
+  "id": "o3-033",
+  "topic": "engine",
+  "q": "What is manifold pressure?",
+  "a": "Absolute pressure in the intake manifold, in inches of mercury",
+  "d": [
+   "Pressure difference between the manifold and the cabin, in PSI",
+   "Pressure of oil delivered to the prop governor, in inches of mercury",
+   "Absolute pressure of exhaust gas in the exhaust manifold, in PSI"
+  ],
+  "why": "Manifold pressure is an absolute pressure, measured in the intake manifold and normally shown in inches of mercury.",
+  "src": "OEG 2C-9 · FAA-H-8083-3",
+  "loc": "oeg 020"
+ },
+ {
+  "id": "o3-034",
+  "topic": "engine",
+  "q": "A normally aspirated twin shows about 29 inHg at full throttle near sea level. Climbing at full throttle to 6,000 ft, about what manifold pressure should you expect?",
+  "a": "About 23 inHg",
+  "d": [
+   "About 29 inHg",
+   "About 26 inHg",
+   "About 17 inHg"
+  ],
+  "why": "Air density falls with altitude, so a non-turbocharged engine loses about 1 inch of manifold pressure per 1,000 ft: 29 - 6 = about 23 inHg.",
+  "src": "OEG 2C-10 · FAA-H-8083-3",
+  "loc": "oeg 020"
+ },
+ {
+  "id": "o3-035",
+  "topic": "engine",
+  "q": "Before start the manifold pressure gauge reads 29.9 inHg. What should it do once the engine is running at a steady idle?",
+  "a": "Drop well below ambient, to around 12 inHg",
+  "d": [
+   "Rise above ambient as the propeller pushes air in",
+   "Stay at ambient until the throttle is advanced",
+   "Drop to zero, then recover as RPM builds"
+  ],
+  "why": "Stopped, the gauge shows ambient pressure. Running, the engine sucks air past the nearly closed throttle, so manifold pressure sits well below ambient, about 12 inHg at idle. (The OEG's 2C-12 discussion of the start transient is muddled; at a steady idle the 2C-11 values are the ones to know.)",
+  "src": "OEG 2C-11 · FAA-H-8083-25",
+  "loc": "oeg 020"
+ },
+ {
+  "id": "o3-036",
+  "topic": "engine",
+  "q": "In cruise one engine fails. What will that engine's manifold pressure gauge show?",
+  "a": "A rise toward ambient pressure at the current altitude",
+  "d": [
+   "A drop to zero, since the engine is no longer running",
+   "A drop to about the idle value, roughly 12 inHg or less",
+   "No change, because the throttle hasn't moved"
+  ],
+  "why": "Once the engine stops pumping air, nothing creates suction in the manifold, so the gauge rises to the ambient pressure at that altitude. Manifold pressure alone is therefore a poor way to spot the failed engine.",
+  "src": "OEG 2C-11 · FAA-H-8083-25",
+  "loc": "oeg 020"
+ },
+ {
+  "id": "o3-037",
+  "topic": "engine",
+  "q": "In a twin with constant-speed propellers, which controls set manifold pressure and RPM for cruise?",
+  "a": "Throttle sets manifold pressure; propeller control sets RPM",
+  "d": [
+   "Propeller control sets manifold pressure; throttle sets RPM",
+   "Throttle sets both; the propeller control is only for feathering",
+   "Mixture sets manifold pressure; throttle sets RPM"
+  ],
+  "why": "Manifold pressure is set with the throttle and RPM separately with the propeller control. Pick the combination for the power you want from the POH power setting table.",
+  "src": "OEG 2C-13 · FAA-H-8083-3",
+  "loc": "oeg 020"
+ },
+ {
+  "id": "o3-038",
+  "topic": "engine",
+  "q": "Cylinder head temperatures are running high in a climb. Which actions help bring them down?",
+  "a": "Increase airspeed, enrich, open cowl flaps, or reduce power",
+  "d": [
+   "Reduce airspeed, lean the mixture, or close the cowl flaps",
+   "Increase RPM, lean the mixture, or close the cowl flaps",
+   "Reduce airspeed, enrich the mixture, or close the cowl flaps"
+  ],
+  "why": "More cooling airflow (higher airspeed, open cowl flaps), a richer mixture, and less power all lower engine temperature.",
+  "src": "OEG 2C-14 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-039",
+  "topic": "engine",
+  "q": "What do cowl flaps do when they are opened?",
+  "a": "Let more hot air escape, increasing cooling airflow",
+  "d": [
+   "Admit warm air into the induction system to prevent icing",
+   "Reduce cooling drag, which improves single-engine climb rate",
+   "Direct extra cooling air over the oil cooler only"
+  ],
+  "why": "Cowl flaps are hinged covers over an opening through which hot air leaves the cowling. Open them to cool a hot engine; close them to restrict airflow and warm a cold one.",
+  "src": "OEG 2C-15 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-040",
+  "topic": "engine",
+  "q": "What does an EGT probe measure, and what is it used for?",
+  "a": "Exhaust gas temperature at the manifold, used to set the mixture",
+  "d": [
+   "Cylinder head temperature at the hottest cylinder, used to set cowl flaps",
+   "Exhaust pressure at the turbine inlet, used to set turbo boost",
+   "Oil temperature leaving the oil cooler, used to set cruise power"
+  ],
+  "why": "EGT changes with the fuel/air ratio entering the cylinders, so the pilot can use it as a guide for leaning.",
+  "src": "OEG 2C-16 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-041",
+  "topic": "engine",
+  "q": "Using an EGT gauge for the common 'rich of peak' leaning method, what is the technique?",
+  "a": "Lean slowly to peak EGT, then enrich slightly for cooling",
+  "d": [
+   "Lean slowly to peak EGT, then keep leaning past the peak",
+   "Lean until the engine runs rough, then lean a little further",
+   "Go full rich, then lean until EGT starts to fall"
+  ],
+  "why": "Lean gradually until EGT peaks, then enrich a little to keep the engine cool and avoid damage. Leaning past peak ('lean of peak') should be done only if the engine manufacturer allows it and exactly as it recommends.",
+  "src": "OEG 2C-17 · POH/AFM",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-042",
+  "topic": "engine",
+  "q": "What is the purpose of a turbocharger?",
+  "a": "Compress induction air for sea-level (or more) power at altitude",
+  "d": [
+   "Cool the induction air to make detonation less likely",
+   "Recover exhaust heat to warm the cabin and defroster air",
+   "Increase propeller efficiency in the thin air at high altitude"
+  ],
+  "why": "A turbocharger compresses induction air so the engine can develop sea-level or greater horsepower at higher altitudes. Cooling the compressed air is the intercooler's job.",
+  "src": "OEG 2C-18 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-043",
+  "topic": "engine",
+  "q": "What drives a turbocharger's compressor impeller?",
+  "a": "An exhaust-driven turbine wheel on the same shaft",
+  "d": [
+   "A gear train driven directly off the engine crankshaft",
+   "A belt driven from a pulley on the accessory case",
+   "An electric motor powered by the engine's alternator"
+  ],
+  "why": "Exhaust gas spins a turbine on one end of a shaft, and the impeller on the other end compresses induction air. A gear- or belt-driven compressor would be a supercharger.",
+  "src": "OEG 2C-18 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-044",
+  "topic": "engine",
+  "q": "The waste gate in a turbocharged engine is fully closed. Where does the exhaust go, and what happens to boost?",
+  "a": "Most of it is forced through the turbine, giving maximum boost",
+  "d": [
+   "It bypasses the turbine and exits the tailpipe, giving minimum boost",
+   "It is split evenly between turbine and tailpipe, holding boost constant",
+   "It is routed through the intercooler, cooling the induction charge"
+  ],
+  "why": "The waste gate is a butterfly valve in the exhaust that controls how much exhaust reaches the turbine. Closed, most exhaust drives the turbine; open, exhaust bypasses it out the exhaust pipe.",
+  "src": "OEG 2C-19 · FAA-H-8083-25",
+  "loc": "oeg 021"
+ },
+ {
+  "id": "o3-045",
+  "topic": "engine",
+  "q": "Taking off in a turbocharged twin, manifold pressure rises excessively as you advance the throttle. Without specific AFM guidance, what is likely and what do you do?",
+  "a": "Overboost (possibly waste gate); smoothly retard the throttle",
+  "d": [
+   "An exhaust leak; shut the engine down immediately",
+   "Normal turbo lag; continue the takeoff and let the MP settle down",
+   "Intercooler failure; enrich the mixture and continue"
+  ],
+  "why": "An excessive manifold pressure rise points to an overboost, often from a waste gate fault. Smoothly retard the throttle to keep manifold pressure below the limit for the RPM and mixture, and avoid further overboost. Always follow the AFM first.",
+  "src": "OEG 2C-20 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-046",
+  "topic": "engine",
+  "q": "In flight a turbocharged engine shows unexpectedly low manifold pressure. Why take this seriously?",
+  "a": "It may be a serious exhaust leak; shut down unless it's needed",
+  "d": [
+   "It means the waste gate is stuck closed; reduce RPM",
+   "It is almost always a gauge fault; continue the flight normally",
+   "It means intercooler icing; select alternate air"
+  ],
+  "why": "Low manifold pressure may come from a minor fault, but it can also mean a dangerous exhaust leak. Shut the engine down per the engine failure procedure unless a greater emergency needs it; if you must keep it running, use the lowest power needed and land as soon as practicable.",
+  "src": "OEG 2C-20 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-047",
+  "topic": "engine",
+  "q": "What does an intercooler do in a turbocharged engine?",
+  "a": "Cools the hot compressed air, reducing detonation risk",
+  "d": [
+   "Cools the exhaust gas before it reaches the turbine wheel",
+   "Cools the engine oil returning from the turbocharger bearings",
+   "Heats the compressed induction air to prevent induction system icing"
+  ],
+  "why": "Compressing air heats it. An intercooler is a small heat exchanger that uses outside air to cool the compressed air before it reaches the fuel metering device, reducing the chance of detonation.",
+  "src": "OEG 2C-21 · FAA-H-8083-25",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-048",
+  "topic": "engine",
+  "q": "What is a constant-speed propeller?",
+  "a": "A governor varies its blade angle to hold the selected RPM",
+  "d": [
+   "Its blade angle is fixed, so RPM varies with throttle and airspeed",
+   "Its blade angle is reset by the pilot by hand for each airspeed",
+   "It holds whatever blade angle the pilot last selected"
+  ],
+  "why": "A governor automatically changes blade pitch to keep RPM constant despite changing air loads. The pilot selects RPM with the propeller control (or a FADEC does it automatically).",
+  "src": "OEG 2C-22 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-049",
+  "topic": "engine",
+  "q": "With power and RPM set, you pitch up from level flight into a climb. What does the propeller governor do?",
+  "a": "Decreases blade angle to keep RPM from falling",
+  "d": [
+   "Increases blade angle to keep RPM from falling",
+   "Decreases blade angle to keep RPM from rising",
+   "Leaves blade angle alone and lets RPM fall"
+  ],
+  "why": "In the climb the engine tends to slow, so the governor flattens (decreases) the blade angle just enough to hold the selected RPM.",
+  "src": "OEG 2C-23 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-050",
+  "topic": "engine",
+  "q": "You lower the nose into a descent without touching the power or propeller controls. What does the governor do?",
+  "a": "Increases blade angle to prevent an overspeed",
+  "d": [
+   "Decreases blade angle to prevent an overspeed",
+   "Moves the blades to the low-pitch stop",
+   "Leaves blade angle alone and lets RPM rise"
+  ],
+  "why": "As airspeed builds the prop tends to speed up, so the governor coarsens (increases) the blade angle to hold the set RPM and keep the engine from overspeeding.",
+  "src": "OEG 2C-23 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-051",
+  "topic": "engine",
+  "q": "In most single-engine airplanes, where does a constant-speed propeller go if it loses oil pressure in the hub?",
+  "a": "To low pitch, high RPM",
+  "d": [
+   "To high pitch, low RPM",
+   "To the feathered position",
+   "It holds its last blade angle"
+  ],
+  "why": "In most singles, losing hub oil pressure lets the blades go to flat pitch/high RPM. Twin props are built the other way: they head toward high pitch and feather, which cuts drag from a dead engine and helps avoid a Vmc problem.",
+  "src": "OEG 2C-24 · FAA-H-8083-3",
+  "loc": "oeg 022"
+ },
+ {
+  "id": "o3-052",
+  "topic": "engine",
+  "q": "Why do you 'exercise' the propellers before takeoff?",
+  "a": "To check them and get warm oil into the governor and hub",
+  "d": [
+   "To adjust the governor's high-RPM stop for takeoff power",
+   "To recharge the nitrogen in the propeller dome before each flight",
+   "To check each magneto while the prop is under load"
+  ],
+  "why": "Cycling the prop control checks that the system works, shows any leaks, swaps fresh warm oil into the governor and hub, and confirms the prop returns to high RPM when the control is pushed forward.",
+  "src": "OEG 2C-25 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-053",
+  "topic": "engine",
+  "q": "On a cold morning you skip the propeller exercise during run-up. What problem could show up on takeoff?",
+  "a": "An overspeed, from congealed oil in the prop cylinder",
+  "d": [
+   "An excessive magneto drop, from fouled plugs on the roll",
+   "An overboost, from a waste gate stuck in the closed position",
+   "Rough running, from fuel vapor forming in the hot injector lines"
+  ],
+  "why": "Oil left in the prop cylinder since the last shutdown leaks away and congeals, especially when it's cold. Without exercising the prop, the engine may overspeed on takeoff.",
+  "src": "OEG 2C-26 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-054",
+  "topic": "engine",
+  "q": "What is a propeller overspeed, and what usually causes it?",
+  "a": "RPM above the set value; usually a failed governor driving low pitch",
+  "d": [
+   "RPM above redline; usually from leaning the mixture too far",
+   "RPM below the set value; usually from congealed oil in the hub",
+   "RPM above the set value; usually from a waste gate stuck closed"
+  ],
+  "why": "An overspeed is propeller speed higher than the propeller control setting. A malfunctioning governor that puts the blades into full low pitch/high RPM is the usual cause.",
+  "src": "OEG 2C-27 · AFM",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-055",
+  "topic": "engine",
+  "q": "A propeller overspeeds in flight. What is the general response (always subject to your AFM)?",
+  "a": "Reduce power, prop to full decrease RPM, slow down if needed",
+  "d": [
+   "Push the prop control to full increase RPM, then add more power",
+   "Feather immediately, then restart once the RPM has settled down",
+   "Lower the nose to build airspeed, then reduce power on it"
+  ],
+  "why": "Reduce power on that engine and move its propeller control fully to decrease RPM. If needed, raise the pitch attitude to lower the airspeed, which lowers the windmilling RPM.",
+  "src": "OEG 2C-28 · AFM",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-056",
+  "topic": "engine",
+  "q": "What does feathering a propeller accomplish?",
+  "a": "It stops rotation and streamlines the blades, minimizing drag",
+  "d": [
+   "The blades go flat so the engine windmills for an air restart",
+   "The blades reverse pitch to give braking thrust on landing",
+   "The engine keeps idling while the blades streamline in the wind"
+  ],
+  "why": "A feathered prop stops turning and its blades line up with the relative wind, which minimizes drag from the dead engine.",
+  "src": "OEG 2C-29 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-057",
+  "topic": "engine",
+  "q": "In the typical full-feathering prop on a light twin, what does increasing governor oil pressure in the hub do?",
+  "a": "Drives the blades toward low pitch, high RPM",
+  "d": [
+   "Drives the blades toward high pitch, low RPM",
+   "Drives the blades toward the feathered position",
+   "Locks the blades at their current angle"
+  ],
+  "why": "Most twins use counterweighted props in which oil pressure decreases pitch. Governor oil pressure pushes the blades toward low pitch/high RPM, away from feather.",
+  "src": "OEG 2C-30 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-058",
+  "topic": "engine",
+  "q": "An engine in a typical light twin loses all oil pressure in flight. What happens to its propeller, and why?",
+  "a": "It heads toward feather, since only oil pressure kept it out",
+  "d": [
+   "It goes to low pitch/high RPM, since oil is what drives it to high pitch",
+   "It stays at its last blade angle, since the governor locks it there",
+   "It goes to low pitch, since the counterweights need oil to work"
+  ],
+  "why": "In an oil-pressure-to-decrease-pitch design, a steady supply of high-pressure oil is all that keeps the blades out of feather. Lose oil pressure or the governor and the prop heads toward feather.",
+  "src": "OEG 2C-30 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-059",
+  "topic": "engine",
+  "q": "On a typical windmilling counterweighted twin propeller, which way do the main forces act on the blades?",
+  "a": "Air loads push toward low pitch; counterweights push toward high pitch",
+  "d": [
+   "Air loads push toward high pitch; counterweights push toward low pitch",
+   "Both push toward low pitch; only oil can move the blades to feather",
+   "Both push toward high pitch; only oil holds the blades out of feather"
+  ],
+  "why": "Aerodynamic forces on a windmilling prop drive the blades to low pitch. Centrifugal force on counterweights at the blade shanks drives them toward high pitch and is usually slightly stronger. (The Seneca's Hartzell props are driven toward feather by a nitrogen charge in the dome instead; see the Seneca POH, Section 2.)",
+  "src": "OEG 2C-31 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-060",
+  "topic": "engine",
+  "q": "Why does a typical feathering prop need a spring or stored air charge as well as counterweights?",
+  "a": "The counterweights' centrifugal force fades as RPM decays",
+  "d": [
+   "Counterweights only work while oil pressure is high",
+   "Counterweights move the blades toward low pitch, not feather",
+   "The spring is what blocks feathering below about 800 RPM"
+  ],
+  "why": "As the engine slows, centrifugal force on the counterweights weakens, so a spring or high-pressure air in the prop dome finishes driving the blades fully into feather.",
+  "src": "OEG 2C-32 · FAA-H-8083-3",
+  "loc": "oeg 023"
+ },
+ {
+  "id": "o3-061",
+  "topic": "engine",
+  "q": "In a typical twin, what is the sequence when you pull the propeller control fully aft to feather?",
+  "a": "Oil dumps, counterweights start, a spring or air charge finishes",
+  "d": [
+   "Governor oil pressure drives the blades to feather, then a pin locks them",
+   "The starter stops the engine, then oil pressure drives the blades to feather",
+   "A spring starts the blades moving, then governor oil finishes the job"
+  ],
+  "why": "With the control fully aft all oil pressure is dumped, the counterweights begin moving the blades toward feather, and a spring or dome air charge completes it. The whole process can take up to about 10 seconds.",
+  "src": "OEG 2C-32 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-062",
+  "topic": "engine",
+  "q": "Without an unfeathering accumulator, how is a feathered propeller brought out of feather in flight?",
+  "a": "Crank it with the starter so oil pressure moves the blades",
+  "d": [
+   "Push the prop control forward and let the airflow windmill it",
+   "Dive to build airspeed until air loads unfeather the blades",
+   "Pump the throttle several times to build governor oil pressure"
+  ],
+  "why": "A feathered engine isn't turning, so it makes no oil pressure. The starter turns it over, oil pressure builds and moves the blades out of feather, and the engine windmills, starts and runs.",
+  "src": "OEG 2C-33 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-063",
+  "topic": "engine",
+  "q": "In the general light-twin unfeathering procedure (not the Seneca I POH's), how are the controls set before engaging the starter?",
+  "a": "Ignition on, throttle low idle, mixture rich, prop control high RPM",
+  "d": [
+   "Ignition off, throttle full, mixture cutoff, prop control in feather",
+   "Ignition on, throttle full, mixture lean, prop control low RPM",
+   "Ignition off, throttle idle, mixture rich, prop control in feather"
+  ],
+  "why": "In the general procedure, ignition goes on before the engine is rotated, with the throttle at low idle, mixture rich and prop control forward, then the starter is engaged. Your school's Seneca air-start checklist differs: throttle open 1/4 inch and prop control full forward before engaging the starter.",
+  "src": "OEG 2C-33 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-064",
+  "topic": "engine",
+  "q": "On twins that have one, what is an unfeathering accumulator?",
+  "a": "An optional reservoir of oil under gas pressure, used to unfeather",
+  "d": [
+   "The nitrogen charge in the prop dome that drives the blades to feather",
+   "A hydraulic accumulator that holds pressure to extend the landing gear",
+   "A spring device that stops the blades feathering at engine shutdown"
+  ],
+  "why": "It holds a small reserve of engine oil pressurized by compressed air or nitrogen. Releasing it to the hub drives the blades toward low pitch so the prop windmills, allowing a restart with little or no starter use. The Seneca I POH lists no accumulator; it unfeathers with the starter.",
+  "src": "OEG 2C-34 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-065",
+  "topic": "engine",
+  "q": "In a twin with unfeathering accumulators, how do you release the stored oil to unfeather a prop?",
+  "a": "Move the prop control forward out of the feather position",
+  "d": [
+   "Engage the starter, which opens the accumulator valve",
+   "Pull the prop control aft past the feather detent",
+   "Turn on that engine's electric fuel pump to prime it"
+  ],
+  "why": "Moving the prop control out of feather releases the accumulator pressure. Oil flows to the hub, drives the blades toward low pitch/high RPM, and the prop usually begins to windmill. With fuel and ignition, the engine starts.",
+  "src": "OEG 2C-34 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-066",
+  "topic": "engine",
+  "q": "How is a typical electrically actuated propeller synchronizer used?",
+  "a": "Roughly match RPMs, then engage; it trims slave to master",
+  "d": [
+   "Engage it before takeoff; it sets both props to takeoff RPM",
+   "Engage it with RPMs far apart; it averages the two settings",
+   "Engage it; it then adjusts the master engine to match the slave"
+  ],
+  "why": "The pilot coarsely matches the RPMs and engages the system. It adjusts the 'slave' engine's RPM to precisely match the 'master' engine and holds that relationship.",
+  "src": "OEG 2C-35 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-067",
+  "topic": "engine",
+  "q": "Prop sync is engaged in cruise and you want a new RPM. What should you do?",
+  "a": "Disengage sync, set the new RPM, then re-engage it",
+  "d": [
+   "Leave sync on and move only the slave prop lever",
+   "Leave sync on and move both levers together",
+   "Turn sync off and leave it off for the rest of the flight"
+  ],
+  "why": "Turn the synchronizer off when selecting a new RPM and turn it back on after the new RPM is set.",
+  "src": "OEG 2C-35 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-068",
+  "topic": "engine",
+  "q": "How does a propeller synchrophaser differ from a synchronizer?",
+  "a": "It also matches blade positions in their arcs, cutting noise more",
+  "d": [
+   "It matches manifold pressure between both engines as well as RPM",
+   "It works only during takeoff and climb, then disengages itself",
+   "It matches RPM mechanically, with no electrical power needed"
+  ],
+  "why": "A synchronizer matches RPM. A synchrophaser also compares and adjusts the relative position (phase) of the blades, which reduces propeller noise and vibration significantly.",
+  "src": "OEG 2C-36 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-069",
+  "topic": "engine",
+  "q": "With no synchronizer installed, you hear a slow 'drumming' beat in cruise. How do you sync the props manually?",
+  "a": "Set one prop (usually left), adjust the other until the beat stops",
+  "d": [
+   "Adjust the throttles until both manifold pressure needles are matched",
+   "Move both prop levers together until the beat gets faster",
+   "Set one prop, then adjust the other until the beat gets faster"
+  ],
+  "why": "Put one prop (usually the left) on the RPM you want, then fine-tune the other until the audible beat slows and disappears. Digital RPM readouts, if fitted, help.",
+  "src": "OEG 2C-37 · POH/AFM",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-070",
+  "topic": "engine",
+  "q": "Why don't the propellers feather every time the engines are shut down on the ground?",
+  "a": "A lockout pin blocks feathering below about 800 RPM",
+  "d": [
+   "Oil pressure stays trapped in the propeller hub after shutdown",
+   "The governor keeps holding the blades at low pitch until restart",
+   "The dome's nitrogen charge is vented when the engine stops"
+  ],
+  "why": "A small pin in the pitch-change mechanism drops into place when centrifugal force is lost below about 800 RPM, so the blades stay out of feather as oil pressure falls to zero at shutdown.",
+  "src": "OEG 2C-38 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-071",
+  "topic": "engine",
+  "q": "An engine fails and you react slowly; RPM decays below about 800 before you pull the prop control to feather. What happens?",
+  "a": "It likely won't feather; the lockout pin has engaged",
+  "d": [
+   "It feathers normally, only taking a little longer",
+   "It feathers instantly from the stored dome air charge",
+   "It moves to low pitch and the engine overspeeds"
+  ],
+  "why": "The lockout pin engages as RPM falls below about 800, which stops the blades from feathering. That's why you must feather before RPM decays that far. The Seneca POH gives the same 800 RPM limit.",
+  "src": "OEG 2C-38 · FAA-H-8083-3",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-072",
+  "topic": "engine",
+  "q": "In a twin with an alternator on each engine, what is an electrical effect of shutting one engine down?",
+  "a": "Only one alternator remains, so charging capacity is reduced",
+  "d": [
+   "The battery is automatically taken off line to protect it",
+   "The operating engine's magnetos lose their power source",
+   "All avionics automatically shed to the standby bus"
+  ],
+  "why": "Securing an engine takes its alternator off line, leaving less power for loads and battery charging, so manage the electrical load.",
+  "src": "OEG 2C-39 · POH/AFM",
+  "loc": "oeg 024"
+ },
+ {
+  "id": "o3-073",
+  "topic": "gear",
+  "q": "A twin's hydraulic gear relies on one engine-driven pump, on the left engine (unlike the Seneca I's electric pump). The left engine fails and is secured. What may you need to do before landing?",
+  "a": "Extend the gear with the emergency extension system",
+  "d": [
+   "Lower the gear normally; the right engine supplies pressure",
+   "Plan a gear-up landing, since the gear can't be lowered",
+   "Cycle the gear switch repeatedly to build pressure"
+  ],
+  "why": "If the only hydraulic pump is on the failed engine, normal hydraulic extension is lost and you may need the emergency extension. Hydraulically powered flaps would be affected too. Twins with a pump on each engine have redundancy.",
+  "src": "OEG 2C-39 · POH/AFM",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-074",
+  "topic": "gear",
+  "q": "During the exterior preflight, which landing gear items should be inspected?",
+  "a": "Struts, squat switches, tires, actuators, wheel wells, and seals",
+  "d": [
+   "Tires and brakes only; switches and actuators are maintenance items",
+   "Gear doors and position lights only, checked from the cockpit",
+   "Struts and tires only; seals and switches can't be seen on preflight"
+  ],
+  "why": "A thorough gear preflight covers shocks and struts, squat switches and warning micro-switches, gear alignment, tire pressure, clear actuator arms and wheel wells, and seals for leaks. Use your POH to see what a pilot can inspect.",
+  "src": "OEG 2D-1 · POH/AFM, FAA-H-8083-3",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-075",
+  "topic": "gear",
+  "q": "How does an electric landing gear system raise and lower the gear?",
+  "a": "A reversible electric motor drives the gear via shafts and gears",
+  "d": [
+   "An electric pump sends hydraulic fluid to actuating cylinders",
+   "An engine-driven pump sends hydraulic fluid to actuating cylinders",
+   "A cockpit hand crank drives each gear leg through cables and chains"
+  ],
+  "why": "An electric gear system is essentially an electrically driven jack: the motor drives the drag strut linkages and reverses for extension. An electric pump pushing hydraulic fluid is an electro-hydraulic system, a different design.",
+  "src": "OEG 2D-2 · FAA-H-8083-3",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-076",
+  "topic": "gear",
+  "q": "In an electric landing gear system, what stops the gear motor at the end of travel?",
+  "a": "An up or down limit switch on the gearbox",
+  "d": [
+   "A pressure switch in the hydraulic line",
+   "A timer that cuts motor power after a set time",
+   "The squat switch on the main gear strut"
+  ],
+  "why": "Once started, the gear motor keeps running until it trips an up or down limit switch on its gearbox.",
+  "src": "OEG 2D-2 · FAA-H-8083-3",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-077",
+  "topic": "gear",
+  "q": "What is an electro-hydraulic landing gear system?",
+  "a": "Hydraulic gear whose pump is electrically powered",
+  "d": [
+   "Electric-motor gear with a hydraulic emergency backup",
+   "Hydraulic gear whose pump is driven by an engine",
+   "Electric-motor gear with hydraulically operated doors"
+  ],
+  "why": "In hydraulic gear the pump can be engine-driven or electric. When an electric pump pressurizes the fluid, the system is called electro-hydraulic. The Seneca's gear uses an electrically powered reversible pump.",
+  "src": "OEG 2D-3 · FAA-H-8083-3",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-078",
+  "topic": "gear",
+  "q": "What do hydraulic limit switches do in a landing gear system?",
+  "a": "Shut off the pump once the gear has completed its cycle",
+  "d": [
+   "Limit how fast the gear can move during the extension cycle",
+   "Prevent gear retraction while weight is on the wheels",
+   "Sound the warning horn when the gear isn't down and locked"
+  ],
+  "why": "Limit switches de-energize the pump after the gear finishes its cycle. If one fails, a backup pressure relief valve relieves excess system pressure.",
+  "src": "OEG 2D-4 · FAA-H-8083-3",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-079",
+  "topic": "gear",
+  "q": "What holds retractable landing gear in the up position?",
+  "a": "Uplocks on some airplanes, hydraulic pressure on others",
+  "d": [
+   "Air loads on the closed gear doors, on all airplanes",
+   "The closed gear doors, latched shut by over-center springs",
+   "Spring tension in the drag struts and the side braces"
+  ],
+  "why": "Depending on the design, the retracted gear is held by uplocks or by hydraulic pressure. Know which your airplane uses, because it decides how emergency extension works.",
+  "src": "OEG 2D-5 · POH/AFM",
+  "loc": "oeg 025"
+ },
+ {
+  "id": "o3-080",
+  "topic": "gear",
+  "q": "When will the landing gear warning horn typically sound?",
+  "a": "Set up to land (power, flaps, speed) with gear not down and locked",
+  "d": [
+   "Whenever the gear is in transit, regardless of power or flaps",
+   "When airspeed exceeds VLO while the gear is down and locked",
+   "Whenever the gear is down and locked and either throttle is advanced"
+  ],
+  "why": "The horn is usually tied to throttle position, flap position and/or airspeed, so it sounds when you're configured to land without the gear down and locked. It is a backup if a gear light fails.",
+  "src": "OEG 2D-6 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-081",
+  "topic": "gear",
+  "q": "Which devices prevent inadvertent landing gear retraction on the ground?",
+  "a": "Mechanical downlocks, safety (squat) switches, and ground locks",
+  "d": [
+   "Uplocks, hydraulic limit switches, and pressure relief valves",
+   "Gear doors, sequence valves, and the warning horn",
+   "The parking brake, the nosewheel steering lock, and wheel chocks"
+  ],
+  "why": "Downlocks are built in and work automatically; electrically operated safety switches stop the downlocks releasing on the ground; and ground locks (pins or clips) physically hold the gear.",
+  "src": "OEG 2D-7 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-082",
+  "topic": "gear",
+  "q": "How does a landing gear squat (safety) switch prevent retraction on the ground?",
+  "a": "A compressed main strut opens the circuit to the retraction motor",
+  "d": [
+   "A compressed main strut closes the circuit to the downlock release",
+   "An extended main strut opens the circuit to the retraction motor",
+   "It senses wheel rotation and blocks retraction until the wheels stop"
+  ],
+  "why": "The switch sits on a main gear strut. With weight on the wheels the strut compresses and the switch opens the circuit to the retraction motor or mechanism.",
+  "src": "OEG 2D-8 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-083",
+  "topic": "gear",
+  "q": "On the ramp, someone moves the gear selector to UP. With a working squat switch, what should happen?",
+  "a": "The gear stays down, and the warning horn may sound",
+  "d": [
+   "The gear retracts, and the warning horn sounds afterward",
+   "The nose gear retracts while the mains stay down",
+   "The gear motor runs until a limit switch stops it"
+  ],
+  "why": "With weight on the wheels the squat switch keeps the retraction circuit open, so the gear stays extended and the horn may warn of the unsafe selection. Never rely on it; check the selector is DOWN before start.",
+  "src": "OEG 2D-8 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-084",
+  "topic": "gear",
+  "q": "What types of ground locks are used to prevent gear collapse on the ground?",
+  "a": "Pins in aligned holes or spring clips, with red streamers",
+  "d": [
+   "Wheel chocks and tie-down ropes, flagged with red streamers",
+   "Control column gust locks that also lock out the gear selector",
+   "Cockpit valve locks that trap fluid in the gear cylinders"
+  ],
+  "why": "Gear pins go through aligned holes in the gear support structure; spring-loaded clips hold parts of the structure together. Red streamers show at a glance whether they're still installed.",
+  "src": "OEG 2D-9 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-085",
+  "topic": "gear",
+  "q": "In a free-fall emergency gear extension, how does the gear get down?",
+  "a": "Uplocks (or holding pressure) are released and it falls by gravity",
+  "d": [
+   "A hand pump pressurizes the gear-down line to drive the gear down",
+   "A compressed gas bottle drives the gear actuators to the down position",
+   "A hand crank turns the gear motor's gearbox to drive the gear down"
+  ],
+  "why": "Free-fall systems release whatever holds the gear up: mechanical uplocks (by a handle, or gas-powered uplock release cylinders) or, as in the Seneca I, the hydraulic pressure. The gear then drops under its own weight. The other choices are forced-extension methods used where free fall isn't practical.",
+  "src": "OEG 2D-10 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-086",
+  "topic": "gear",
+  "q": "In designs that force the gear down hydraulically in an emergency, where might the pressure come from?",
+  "a": "A hand pump, an accumulator, or an electric hydraulic pump",
+  "d": [
+   "Only the engine-driven pump on the remaining operating engine",
+   "The brake master cylinders at the rudder pedals",
+   "Oil pressure tapped from the propeller governor"
+  ],
+  "why": "When gravity and air loads aren't enough, emergency hydraulic pressure may come from an auxiliary hand pump, an accumulator or an electric hydraulic pump, depending on the design. Other designs use compressed gas or a hand crank.",
+  "src": "OEG 2D-10 · FAA-H-8083-3",
+  "loc": "oeg 026"
+ },
+ {
+  "id": "o3-087",
+  "topic": "gear",
+  "q": "Which is a common landing gear position indication scheme?",
+  "a": "Three greens for down and locked; red or amber for in transit",
+  "d": [
+   "Three ambers for down and locked; three greens for gear up",
+   "One red light for down and locked; no light at all for gear up",
+   "Three greens for up and locked; one amber for gear down"
+  ],
+  "why": "Common schemes are three greens for down and locked, or one green (down) plus one amber (up), with a red or amber light for gear in transit or unsafe. Some airplanes add mechanical indicators or show gear status on a PFD/MFD.",
+  "src": "OEG 2D-11 · FAA-H-8083-3",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-088",
+  "topic": "gear",
+  "q": "Gear selected down: two greens, one light dark, but you're fairly sure the gear is down. What is the first check?",
+  "a": "Press-to-test the bulb or swap in a known good one",
+  "d": [
+   "Recycle the gear up and down right away to reset it",
+   "Use the emergency gear extension system right away",
+   "Request a low fly-by so the tower can look first"
+  ],
+  "why": "A burned-out bulb is the likely cause, so first press-to-test it or swap in a bulb you know works. Then use other cues, such as whether the gear horn sounds. (If all the lights look dim or out, check the nav lights: on many airplanes, the Seneca included, they dim the gear lights.)",
+  "src": "OEG 2D-12 · POH/AFM",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-089",
+  "topic": "gear",
+  "q": "A gear light is out. You retard a throttle and extend flaps, and no gear warning horn sounds. What does this suggest?",
+  "a": "Gear is probably down and locked; likely an indicator fault",
+  "d": [
+   "The gear is likely still up, and the horn has also failed",
+   "The gear is still in transit and will lock shortly",
+   "The squat switch has failed and silenced the horn"
+  ],
+  "why": "The horn sounds when you're configured to land with the gear not down and locked. No horn when you trigger those conditions usually means the gear is down and the problem is in the indicator.",
+  "src": "OEG 2D-12 · POH/AFM",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-090",
+  "topic": "gear",
+  "q": "Besides the indicator lights, what cues help confirm the gear has extended or retracted?",
+  "a": "Airspeed and pitch changes, and the cycle's sound and feel",
+  "d": [
+   "Changes in manifold pressure and RPM on both engines",
+   "Changes in oil pressure and oil temperature readings",
+   "Changes in fuel flow and exhaust gas temperature on each engine"
+  ],
+  "why": "Airspeed and pitch attitude change as the gear moves, and each airplane has a typical sound, feel and timing. Learn what normal is, because an abnormal retraction often means the extension will be abnormal too.",
+  "src": "OEG 2D-13 · FAA-H-8083-3",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-091",
+  "topic": "gear",
+  "q": "An engine fails just after liftoff, gear still down, in a twin whose gear retraction needs that engine's hydraulic pump (unlike the Seneca I). What's the problem?",
+  "a": "Raising it may take hundreds of feet (windmill or hand pump)",
+  "d": [
+   "None; gear retraction in twins is always electric, not hydraulic",
+   "The gear retracts automatically once the engine is feathered",
+   "The gear cannot move at all, so you must land straight ahead"
+  ],
+  "why": "If retraction depends on the failed engine's pump, you must windmill that engine for pressure or raise the gear with a backup pump, which can cost hundreds of feet. With only one pump, you may also need emergency extension later.",
+  "src": "OEG 2D-14 · FAA-H-8083-3",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-092",
+  "topic": "gear",
+  "q": "What is VLE?",
+  "a": "The maximum speed with the landing gear extended",
+  "d": [
+   "The maximum speed for extending or retracting the gear",
+   "The minimum speed for retracting the gear after takeoff",
+   "The maximum speed with the wing flaps extended"
+  ],
+  "why": "VLE is the maximum speed at which the airplane can be flown with the gear extended. VLO is the maximum speed for operating (extending or retracting) the gear.",
+  "src": "OEG 2D-15 · FAA-H-8083-25",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-093",
+  "topic": "gear",
+  "q": "What is the main concern behind the VLO limit?",
+  "a": "Air loads on the gear and doors while in transit",
+  "d": [
+   "Stability and controllability while the gear is extended",
+   "Tire speed ratings and the wheel spin-up loads at each touchdown",
+   "Wing structural loads with the flaps extended"
+  ],
+  "why": "VLO protects the operating mechanism, such as the gear doors, from air loads while the gear is in transit. The OEG ties VLE to stability and controllability with the gear extended.",
+  "src": "OEG 2D-15 · FAA-H-8083-25",
+  "loc": "oeg 027"
+ },
+ {
+  "id": "o3-094",
+  "topic": "gear",
+  "q": "In daylight you select gear down and the gear lights are so dim you can hardly see them. On many twins, what harmless cause should you check first?",
+  "a": "The nav lights are on, which automatically dims the gear lights",
+  "d": [
+   "The gear is still in transit, so the lights stay dim until locked",
+   "The emergency gear knob is partly out, dimming the indicators",
+   "The squat switches dim the lights until weight is on the wheels"
+  ],
+  "why": "On many airplanes, the Seneca I included, turning on the navigation lights dims the gear indicator lights for night use, which makes them hard to see in daylight. Check the nav light switch before assuming a gear problem.",
+  "src": "OEG 2D-12 · POH/AFM",
+  "loc": "oeg 027"
+ }
+]

@@ -1,0 +1,1692 @@
+[
+ {
+  "id": "p5-001",
+  "topic": "s-elec",
+  "q": "What are the Seneca I's sources of electrical power?",
+  "a": "Two 60-amp alternators and a 12-volt, 35 amp-hour battery",
+  "d": [
+   "Two 70-amp alternators and a 24-volt, 17 amp-hour battery",
+   "One 60-amp alternator on the left engine and a 12-volt, 35 amp-hour battery",
+   "Two 60-amp generators and a 24-volt, 35 amp-hour battery"
+  ],
+  "why": "Each engine drives its own 60-ampere alternator. The 12-volt, 35 Ah battery handles starting, power with engines off, and backup for the alternators.",
+  "src": "POH 2-12 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-002",
+  "topic": "s-elec",
+  "q": "To what voltage do the Seneca I's voltage regulators hold the electrical bus?",
+  "a": "14.0 volts",
+  "d": [
+   "12.0 volts",
+   "28.0 volts",
+   "24.0 volts"
+  ],
+  "why": "Two solid-state regulators keep the bus at 14.0 volts. It is a 14-volt system with a 12-volt battery, not a 28-volt system.",
+  "src": "POH 2-12 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-003",
+  "topic": "s-elec",
+  "q": "Where is the Seneca I's battery located?",
+  "a": "In the nose, just forward of the nose baggage compartment",
+  "d": [
+   "In the aft fuselage, behind the rear baggage compartment bulkhead",
+   "In the left engine nacelle, just aft of the engine firewall",
+   "Under the cockpit floor, beneath the front seats"
+  ],
+  "why": "The 12-volt battery sits in the nose section just forward of the nose baggage compartment and is reached through that compartment.",
+  "src": "POH 2-12, 9-8 · OEG App 2",
+  "loc": "poh 208"
+ },
+ {
+  "id": "p5-004",
+  "topic": "s-elec",
+  "q": "Per the POH, how should a run-down Seneca battery be recharged?",
+  "a": "Remove it from the airplane; start at 4 amps and finish at 2 amps",
+  "d": [
+   "Leave it installed and quick-charge it from a ground power cart",
+   "Leave it installed and charge at 10 amps with the master ON",
+   "Run both engines at 2000 RPM until the ammeters read zero"
+  ],
+  "why": "Section 2 says to remove the battery from the airplane to charge it. Section 9 gives the rate: start at 4 A, finish at 2 A. Quick charges are not recommended.",
+  "src": "POH 2-12, 9-8",
+  "loc": "poh 208"
+ },
+ {
+  "id": "p5-005",
+  "topic": "s-elec",
+  "q": "Where is the optional external power receptacle on the Seneca I?",
+  "a": "Lower left side of the nose",
+  "d": [
+   "Lower right side of the nose",
+   "Left side of the aft fuselage",
+   "Inside the nose baggage compartment"
+  ],
+  "why": "When installed, the external power plug is on the lower left side of the nose. It takes a 12–14 volt source.",
+  "src": "POH 2-12, 9-8 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-006",
+  "topic": "s-elec",
+  "q": "You are starting with Piper External Power (PEP). Where should the master switch be when plugging in, and during the start?",
+  "a": "OFF while plugging in; ON for cranking and the start",
+  "d": [
+   "ON while plugging in; OFF for cranking and the start",
+   "OFF for both, so the external source powers the starter",
+   "ON for both, so the battery assists the external source"
+  ],
+  "why": "Keep the master OFF while inserting or removing the plug to prevent sparking. Then turn it ON and do a normal start. The external source is a 12-volt battery (12–14 V).",
+  "src": "POH 2-12, 6-4 · OEG App 2",
+  "loc": "poh 162"
+ },
+ {
+  "id": "p5-007",
+  "topic": "s-elec",
+  "q": "After a start on external power, the POH has you remove the plug, turn the master back ON, and check what before flight?",
+  "a": "Alternator output on the ammeter; don't fly if there is none",
+  "d": [
+   "The voltmeter shows at least 12 volts on the battery",
+   "Both overvoltage lights come on when pressed",
+   "Both ammeters read zero with all equipment off"
+  ],
+  "why": "An external-power start usually means a weak battery. The POH says not to attempt flight unless the ammeter shows the alternator is producing output.",
+  "src": "POH 6-4",
+  "loc": "poh 162",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-010)"
+ },
+ {
+  "id": "p5-008",
+  "topic": "s-elec",
+  "q": "What does each alternator's overvoltage relay do?",
+  "a": "Takes its alternator off line if its output voltage runs too high",
+  "d": [
+   "Disconnects the battery from the bus if bus voltage drops too low",
+   "Limits that alternator's output current to its 60-amp rating",
+   "Opens the master solenoid to shed every electrical load at once"
+  ],
+  "why": "Some regulator failures let alternator voltage climb with nothing to stop it. The relay shuts that alternator off to protect the electrical and avionics equipment, and the red light shows the trip.",
+  "src": "POH 2-12, 3-7 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-009",
+  "topic": "s-elec",
+  "q": "In cruise the left ammeter drops to zero, but the left OVERVOLTAGE light stays out. What does this mean?",
+  "a": "The left alternator isn't producing current; the light shows only relay trips",
+  "d": [
+   "The left alternator is fine, because any alternator failure would light that lamp",
+   "The left ammeter has failed, because the overvoltage light did not come on",
+   "The battery has taken over and the alternator will recover itself"
+  ],
+  "why": "A zero reading means that alternator is producing no current. The POH says the red light's only job is to show a tripped overvoltage relay; it may not come on for other alternator failures.",
+  "src": "POH 2-12 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-010",
+  "topic": "s-elec",
+  "q": "What do the Seneca I's two ammeters show?",
+  "a": "Each alternator's output current, working as a load meter",
+  "d": [
+   "Battery charge or discharge, on a center-zero scale",
+   "Bus voltage on each side of a split electrical bus",
+   "Current drawn by the avionics bus and the lighting bus"
+  ],
+  "why": "There is one ammeter per alternator, and each shows how much current its alternator is producing. Zero means that alternator is producing nothing. A reading near 60 means it is heavily loaded.",
+  "src": "POH 2-12, 3-7 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-011",
+  "topic": "s-elec",
+  "q": "One ammeter is reading near 60 amps in cruise. What does the POH recommend?",
+  "a": "Turn off unneeded equipment, since that alternator is being taxed",
+  "d": [
+   "Nothing; about 60 amps is the normal cruise reading",
+   "Turn that alternator off and let the other one carry the whole load",
+   "Increase that engine's RPM so the alternator can produce more"
+  ],
+  "why": "A reading near 60 means demand is taxing that alternator, so reduce the load. The alternators already give rated output at low RPM, so adding RPM does not help.",
+  "src": "POH 2-12",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-012",
+  "topic": "s-elec",
+  "q": "Per the POH, what load should each alternator be limited to in flight, and why?",
+  "a": "50 amps, so some current is left to keep the battery charged",
+  "d": [
+   "60 amps, which is each alternator's full rated output",
+   "40 amps, to keep the alternators from overheating",
+   "35 amps, to match the battery's 35 amp-hour rating"
+  ],
+  "why": "The alternators can give 60 A, but Section 6 says to keep each at 50 A in flight so some current is always left to charge the battery. The emergency procedures also use the 50 A figure.",
+  "src": "POH 6-9",
+  "loc": "poh 163",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-046)"
+ },
+ {
+  "id": "p5-013",
+  "topic": "s-elec",
+  "q": "On one engine, why must you watch the electrical load on the remaining alternator?",
+  "a": "An overloaded alternator may burn out or trip its circuit breaker",
+  "d": [
+   "The good alternator's output is cut in half at single-engine power",
+   "The overvoltage relay trips whenever only one alternator is on line",
+   "The battery is disconnected from the bus when a prop is feathered"
+  ],
+  "why": "On one engine, one alternator carries everything. The POH warns that overloading it can burn it out or trip its breaker. Reduce the load to 50 A or less after an engine failure.",
+  "src": "POH 2-12, 3-15 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-014",
+  "topic": "s-elec",
+  "q": "Engines running, all equipment off except the master, and the two ammeter readings add up to a significant amount. What does that suggest?",
+  "a": "The battery has a low state of charge",
+  "d": [
+   "An overvoltage relay is about to trip",
+   "One alternator is not sharing the load",
+   "A circuit breaker has tripped somewhere"
+  ],
+  "why": "With no loads on, the ammeters show only battery charging current plus instrument draw. A large total means the battery is taking a lot of charge. Find out why, or have a mechanic check the battery and system.",
+  "src": "POH 2-16",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-015",
+  "topic": "s-elec",
+  "q": "Where are the Seneca I's circuit breakers?",
+  "a": "Lower right side of the instrument panel",
+  "d": [
+   "On the switch panel to the left of the pilot",
+   "On the lower left panel beside the throttles",
+   "On the console between the two front seats"
+  ],
+  "why": "All circuit breakers are grouped in the lower right corner of the instrument panel, with room for more if equipment is added.",
+  "src": "POH 2-12, 3-8 · OEG App 2",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-016",
+  "topic": "s-elec",
+  "q": "A circuit breaker trips. Per the POH, how should you reset it?",
+  "a": "Allow two to five minutes to cool, then push it back in",
+  "d": [
+   "Push it in right away and hold it in for five seconds",
+   "Pull it fully out, wait 30 seconds, then push it in",
+   "Cycle the master switch OFF and ON to reset it"
+  ],
+  "why": "A breaker trips on a malfunction or current surge. The Operating Tips say to let it cool two to five minutes, then push it in to reset.",
+  "src": "POH 2-12, 7-1 · OEG App 2",
+  "loc": "poh 177",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-085)"
+ },
+ {
+  "id": "p5-017",
+  "topic": "s-elec",
+  "q": "Where are the master, magneto, fuel pump, starter, alternator, light and pitot heat switches?",
+  "a": "On the switch panel to the left of the pilot",
+  "d": [
+   "On the lower right panel above the circuit breakers",
+   "On an overhead panel above the windshield",
+   "On the pedestal below the power quadrant"
+  ],
+  "why": "Most electrical switches, including the master and the magnetos, are on the switch panel to the pilot's left. The red overvoltage lights are there too.",
+  "src": "POH 2-12",
+  "loc": "poh 030"
+ },
+ {
+  "id": "p5-018",
+  "topic": "s-elec",
+  "q": "How do you test an overvoltage light in the Seneca I?",
+  "a": "Turn that alternator switch OFF, then press the light",
+  "d": [
+   "Press the light with that alternator switch ON",
+   "Turn the master OFF, then press both lights together",
+   "Pull that alternator's breaker and watch for the light"
+  ],
+  "why": "The press-to-test works only with that alternator switch OFF. A placard below the switches says so: \"ALTERNATOR SWITCH OFF FOR OVER-VOLTAGE LAMP TEST.\"",
+  "src": "POH 3-7, 2-13",
+  "loc": "poh 065",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-051)"
+ },
+ {
+  "id": "p5-019",
+  "topic": "s-elec",
+  "q": "What alternator check does the POH call for before flight?",
+  "a": "Overvoltage lights work, and both ammeters about equal at 1500 RPM or more",
+  "d": [
+   "Each ammeter shows exactly 60 amps with both engines at 2000 RPM",
+   "Both ammeters stay at zero until the engines reach 2000 RPM",
+   "Left ammeter about double the right with the engines at 1000 RPM"
+  ],
+  "why": "Check that the overvoltage lights work, and that both alternators show about the same output with both engines at 1500 RPM or above.",
+  "src": "POH 3-8, 6-5",
+  "loc": "poh 066",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-049)"
+ },
+ {
+  "id": "p5-020",
+  "topic": "s-elec",
+  "q": "Both OVERVOLTAGE lights come on. You shed all loads except the master and turn both alternator switches OFF. What next?",
+  "a": "Briefly turn each ON, watching the ammeters; leave the one with LEAST output ON",
+  "d": [
+   "Leave both OFF and land as soon as possible on battery power alone",
+   "Turn both back ON together, then cycle the master switch OFF and ON",
+   "Briefly turn each ON, watching the ammeters; leave the one with MOST output ON"
+  ],
+  "why": "Turn each alternator on briefly, one at a time, and leave on the one with the least output. Keep the load under 50 A. If both show about equal output under 50 A, turn both on and resume normal operation.",
+  "src": "POH 3-14, 3-15",
+  "loc": "poh 074",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-103/p2-104)"
+ },
+ {
+  "id": "p5-021",
+  "topic": "s-elec",
+  "q": "After lots of restart cranking the battery is weak, and the good alternator has dropped off line. What may bring it back, per the POH?",
+  "a": "Shed heavy loads, operating alternator ON, master OFF briefly, then master ON",
+  "d": [
+   "Leave the master ON and cycle the operating alternator switch several times",
+   "Leave the master ON and turn both alternator switches OFF, then ON",
+   "Turn the master OFF for the rest of the flight to save the battery"
+  ],
+  "why": "First check the alternator breakers. Shed heavy loads with their own switches, not the master. Then turn the master off for a short time and back on, and watch the ammeter. If there's no output, repeat with longer waits.",
+  "src": "POH 3-15",
+  "loc": "poh 075"
+ },
+ {
+  "id": "p5-022",
+  "topic": "s-elec",
+  "q": "An alternator fails in icing conditions and can't be restored. What does the POH say to keep on, and what to turn off?",
+  "a": "Keep one NAVCOM and transponder; turn off the electric windshield",
+  "d": [
+   "Keep windshield and pitot heat; turn off the transponder",
+   "Keep prop deice and all radios; turn off pitot heat",
+   "Keep everything on and let the battery cover the shortfall"
+  ],
+  "why": "This keeps the load within 60 A. Leave icing as soon as practical. The windshield heat may be turned back on before landing, but the battery may be depleted and the gear may need free-fall extension.",
+  "src": "POH 3-17",
+  "loc": "poh 077",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-119)"
+ },
+ {
+  "id": "p5-023",
+  "topic": "s-elec",
+  "q": "What starter limits does the POH give?",
+  "a": "Crank for no more than 30 seconds, then let it cool several minutes",
+  "d": [
+   "Crank for no more than 10 seconds, then let it cool one minute",
+   "Crank for no more than 60 seconds, then let it cool 30 seconds",
+   "No limit applies, as long as oil pressure is rising"
+  ],
+  "why": "To protect the starter, crank for no more than 30 seconds at a time, then wait several minutes. Don't re-engage the starter right after releasing it.",
+  "src": "POH 6-4 · OEG App 2",
+  "loc": "poh 162",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-009)"
+ },
+ {
+  "id": "p5-024",
+  "topic": "s-elec",
+  "q": "Why does the POH want radio, light and pitot heat switches off before engine start?",
+  "a": "So the system isn't overloaded when the starter engages",
+  "d": [
+   "So the overvoltage relays don't trip during the start",
+   "So the master solenoid contacts don't weld closed",
+   "Because the alternators can't carry any load at idle"
+  ],
+  "why": "The starter is the biggest single electrical load. Turning other loads off first avoids an overloaded condition when it is engaged.",
+  "src": "POH 7-1 · OEG App 2",
+  "loc": "poh 177"
+ },
+ {
+  "id": "p5-025",
+  "topic": "s-elec",
+  "q": "If the master switch is turned OFF with both engines running, what happens?",
+  "a": "The engines keep running; magneto ignition doesn't need ship's power",
+  "d": [
+   "Both engines quit, because the ignition runs off the main bus",
+   "The engines keep running only if the electric fuel pumps are on",
+   "The left engine quits, and the right runs on its own alternator"
+  ],
+  "why": "Ignition comes from the engine-driven magnetos, and fuel comes from engine-driven pumps. The external-power start procedure itself has you turn the master off with the engine running.",
+  "src": "POH 6-4 · OEG App 2",
+  "loc": "poh 162"
+ },
+ {
+  "id": "p5-026",
+  "topic": "s-elec",
+  "q": "Which Seneca I flight instruments are vacuum-driven?",
+  "a": "The attitude indicators and directional gyros",
+  "d": [
+   "The attitude indicators and turn indicators",
+   "The directional gyros and airspeed indicators",
+   "The attitude indicators, directional gyros and turn indicators"
+  ],
+  "why": "The vacuum system draws filtered cabin air through the attitude and heading gyros. The turn indicator is electric, which is why the POH uses it as a cross-check when vacuum fails.",
+  "src": "POH 2-16, 3-16 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-027",
+  "topic": "s-elec",
+  "q": "How is vacuum supplied in the Seneca I?",
+  "a": "An engine-driven vacuum pump on each engine",
+  "d": [
+   "A single electric vacuum pump in the nose",
+   "One engine-driven pump on the left engine only",
+   "Venturi tubes on each side of the fuselage"
+  ],
+  "why": "There is one pump on each engine, plus plumbing, regulators, filters, and a check valve. Either pump alone can run the gyros.",
+  "src": "POH 2-16 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-028",
+  "topic": "s-elec",
+  "q": "What vacuum do the Seneca's regulators maintain, and at what RPM?",
+  "a": "5.0 ±0.1 in. Hg at 2000 RPM",
+  "d": [
+   "4.5 ±0.1 in. Hg at 1500 RPM",
+   "5.2 ±0.1 in. Hg at 2700 RPM",
+   "5.0 ±0.5 in. Hg at idle RPM"
+  ],
+  "why": "A regulator on the right aft side of each firewall holds 5.0 ±0.1 in. Hg at 2000 RPM. The Operating Tips list what to check before flight if the gauge doesn't show this.",
+  "src": "POH 2-16, 7-1 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-029",
+  "topic": "s-elec",
+  "q": "What are the Seneca I's vacuum gauge operating limits?",
+  "a": "4.5 to 5.2 in. Hg",
+  "d": [
+   "4.0 to 5.0 in. Hg",
+   "4.8 to 5.5 in. Hg",
+   "3.5 to 4.5 in. Hg"
+  ],
+  "why": "The Limitations section gives 4.5 to 5.2 in. Hg for all operations. Below 4.5, airflow through the gyros is low and their readings may be wrong.",
+  "src": "POH 3-6 · OEG App 2",
+  "loc": "poh 064",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-017)"
+ },
+ {
+  "id": "p5-030",
+  "topic": "s-elec",
+  "q": "What does a vacuum reading below 4.5 in. Hg indicate?",
+  "a": "Low airflow through the gyros, so their readings may be inaccurate",
+  "d": [
+   "Normal operation; the gauge reads this low in every phase of flight",
+   "Too much suction, which may overspeed and damage the gyros",
+   "Normal single-pump operation, as long as one red button shows"
+  ],
+  "why": "Below 4.5 in. Hg, not enough air is moving through the gyro instruments to keep them accurate. Low readings are expected only at low RPM or very high altitude.",
+  "src": "POH 2-16",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-031",
+  "topic": "s-elec",
+  "q": "The left engine fails and is feathered. What must you do to keep the gyros powered?",
+  "a": "Nothing; a check valve automatically isolates the failed side",
+  "d": [
+   "Select the right pump with the vacuum selector valve on the panel",
+   "Turn on the standby electric vacuum pump with its own switch",
+   "Open the alternate air to restore suction"
+  ],
+  "why": "When one pump or one side's hose loses suction, the check valve closes by itself and the other pump supplies vacuum. The red button for that side shows on the gauge. No pilot selection is needed.",
+  "src": "POH 2-16, 3-16 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-032",
+  "topic": "s-elec",
+  "q": "How does the Seneca's vacuum gauge show that one side has lost suction?",
+  "a": "A red malfunction button appears for that side",
+  "d": [
+   "The needle moves into a red arc for that side",
+   "An amber VACUUM light comes on in the annunciator panel",
+   "The needle drops to zero and stays there"
+  ],
+  "why": "The gauge has two red buttons, one per side. A button shows when that side's pump has failed or its engine is feathered.",
+  "src": "POH 2-16, 3-16 · OEG App 2",
+  "loc": "poh 034",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-109)"
+ },
+ {
+  "id": "p5-033",
+  "topic": "s-elec",
+  "q": "On one engine, up to what altitude can a single vacuum pump run a dual set of gyros?",
+  "a": "12,500 ft; above that, keep a high RPM",
+  "d": [
+   "10,000 ft; above that, you must descend",
+   "15,000 ft; above that, open alternate air",
+   "Any altitude, if RPM is at least 2000"
+  ],
+  "why": "Each pump alone can drive both sets of gyros up to 12,500 ft. Above that, a high RPM is needed on the remaining pump to keep enough suction.",
+  "src": "POH 2-16 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-034",
+  "topic": "s-elec",
+  "q": "Vacuum drops below 4.5 in. Hg in flight. What does the POH tell you to do?",
+  "a": "Go to 2700 RPM, descend if able, and cross-check with the electric turn indicator",
+  "d": [
+   "Feather the engine with the failed pump and continue at cruise power",
+   "Reduce RPM to 2000, climb, and cross-check with the electric turn indicator",
+   "Pull and reset the vacuum circuit breaker, then recheck the gauge"
+  ],
+  "why": "More RPM gives more suction, and descending helps keep 4.5 in. Hg. Use the electric turn indicator to judge whether the attitude and heading gyros can still be trusted.",
+  "src": "POH 3-16",
+  "loc": "poh 076",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-110)"
+ },
+ {
+  "id": "p5-035",
+  "topic": "s-elec",
+  "q": "Per the Operating Tips, which of these is a normal cause of a low vacuum reading, not a malfunction?",
+  "a": "Low engine RPM, such as on approach or in training maneuvers",
+  "d": [
+   "A dirty or restricted common air filter behind the panel",
+   "A collapsed or broken vacuum line behind the panel",
+   "Worn vacuum pumps that no longer pull full suction"
+  ],
+  "why": "A low reading is normal at low RPM and at very high altitude (above 12,000 ft). The dirty filter, damaged lines and worn pumps are items to check before flight.",
+  "src": "POH 7-1",
+  "loc": "poh 177"
+ },
+ {
+  "id": "p5-036",
+  "topic": "s-elec",
+  "q": "Where is the Seneca I's pitot source, and which instrument uses it?",
+  "a": "Aluminum mast under the left wing; airspeed indicator only",
+  "d": [
+   "Mast under the right wing; airspeed indicator and altimeter",
+   "Probe on the nose; airspeed indicator only",
+   "Mast under the left wing; airspeed indicator and VSI"
+  ],
+  "why": "Pitot (total) pressure comes from the mast under the left wing. It feeds only the airspeed indicator.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-037",
+  "topic": "s-elec",
+  "q": "Where are the Seneca I's static sources?",
+  "a": "One on each side of the rear fuselage, connected inside",
+  "d": [
+   "A single flush port on the left side of the rear fuselage",
+   "Built into the pitot mast under the left wing, aft of the inlet",
+   "One on each side of the nose, just below the windshield"
+  ],
+  "why": "Two static units, one on each side of the aft fuselage, are tied together inside. A slip or skid raises pressure on one side and lowers it on the other, and the connection averages them out.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-038",
+  "topic": "s-elec",
+  "q": "Which Seneca I instruments use static pressure?",
+  "a": "Altimeter, vertical speed indicator and airspeed indicator",
+  "d": [
+   "Altimeter and vertical speed indicator only",
+   "Altimeter, vertical speed indicator and the attitude indicator",
+   "Airspeed indicator and the manifold pressure gauges"
+  ],
+  "why": "The altimeter, VSI and airspeed indicator all use static pressure. The airspeed indicator also gets pitot pressure.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-039",
+  "topic": "s-elec",
+  "q": "What ice protection does the Seneca I's pitot-static system have?",
+  "a": "An optional heated pitot; the static ports are not heated",
+  "d": [
+   "A heated pitot and heated static ports, both standard",
+   "Heated static ports only; the pitot is not heated",
+   "None at all; the alternate static is the only backup"
+  ],
+  "why": "The pitot mast can have a heating element for ice or heavy rain. The static sensors are not heated, because experience shows they are unlikely to ice up.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-040",
+  "topic": "s-elec",
+  "q": "Where is the alternate static source control, and what static source does it use?",
+  "a": "Below the panel, right of the power quadrant; cabin air pressure",
+  "d": [
+   "Below the panel, left of the pilot; outside air from the tailcone",
+   "On the left switch panel; cabin air pressure",
+   "Right of the power quadrant; air from the pitot mast"
+  ],
+  "why": "With the valve in the alternate position, the altimeter, VSI and airspeed indicator take static pressure from the cabin, so their readings may change slightly.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-041",
+  "topic": "s-elec",
+  "q": "With alternate static selected, what does the POH say can change your instrument readings?",
+  "a": "Airspeed, heater and vent settings, and the storm window",
+  "d": [
+   "Only airspeed; the heater and vent settings have no effect",
+   "Outside air temperature, humidity and the altimeter setting",
+   "Pitot heat and the load on the alternators"
+  ],
+  "why": "These all change cabin pressure. You can see the effect by switching sources at different speeds and vent settings, including the storm window open, which is allowed only below 150 MPH.",
+  "src": "POH 2-18",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-042",
+  "topic": "s-elec",
+  "q": "You suspect water in the static system. Per the POH, how do you drain it?",
+  "a": "Select alternate static; its valve is at the system's low point",
+  "d": [
+   "Open the drain valve in the lower left front side panel",
+   "Turn on pitot heat long enough to evaporate the water in the lines",
+   "Blow out the static ports with low-pressure shop air"
+  ],
+  "why": "The alternate static selector valve is at the lowest point of the static system, so selecting alternate drains it. The drain in the lower left side panel is for the pitot line. The walk-around says to drain both before flight.",
+  "src": "POH 2-18, 6-2 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-043",
+  "topic": "s-elec",
+  "q": "What does the drain in the lower left front side panel remove moisture from?",
+  "a": "The pitot line between the mast and the instrument panel",
+  "d": [
+   "The static lines running from the rear fuselage static ports",
+   "The fuel crossfeed line running under the cabin floor",
+   "The vacuum system's common air filter"
+  ],
+  "why": "That drain is for the pitot pressure line. Moisture in the static system is drained by selecting the alternate static source.",
+  "src": "POH 2-18 · OEG App 2",
+  "loc": "poh 036"
+ },
+ {
+  "id": "p5-044",
+  "topic": "s-elec",
+  "q": "Per its flight manual supplement, what does N887SP's Garmin GNS 530 combine?",
+  "a": "A VHF comm transceiver, a VOR/ILS receiver and a GPS navigator",
+  "d": [
+   "A VHF comm transceiver, an ADF receiver and a DME, all in one unit",
+   "A GPS navigator and a Mode C transponder, but no comm radio",
+   "A VOR/ILS receiver and an autopilot flight computer"
+  ],
+  "why": "The GNS 530 is one panel-mounted unit with a VHF comm, a VOR/LOC/glideslope receiver, and an IFR-approved GPS navigator. It has separate GPS, NAV and COMM antennas.",
+  "src": "POH GNS 530 AFMS p.3 · OEG App 2",
+  "loc": "poh 096"
+ },
+ {
+  "id": "p5-045",
+  "topic": "s-elec",
+  "q": "For a GPS approach with the GNS 530, what does the supplement require at the final approach fix?",
+  "a": "RAIM available, with the unit in approach mode",
+  "d": [
+   "WAAS LPV service, with a VOR cross-check of position",
+   "A DME fix from the destination's VOR",
+   "Glideslope data shown on the external CDI"
+  ],
+  "why": "GPS approaches must be flown in approach mode with RAIM available at the FAF, using procedures loaded from a current database.",
+  "src": "POH GNS 530 AFMS p.4",
+  "loc": "poh 097"
+ },
+ {
+  "id": "p5-046",
+  "topic": "s-elec",
+  "q": "In an emergency, how do you quickly put 121.5 MHz in the GNS 530's active comm window?",
+  "a": "Press and hold the comm flip-flop key for 2 seconds",
+  "d": [
+   "Press and hold the CLR key for 2 seconds",
+   "Press and hold the comm volume knob for 5 seconds",
+   "Press and hold the Direct-To key for 2 seconds"
+  ],
+  "why": "The supplement says holding the comm transfer button for 2 seconds tunes 121.500 MHz as the active frequency.",
+  "src": "POH GNS 530 AFMS p.6",
+  "loc": "poh 099"
+ },
+ {
+  "id": "p5-047",
+  "topic": "s-elec",
+  "q": "A 'RAIM POSITION WARNING' appears on the GNS 530. What does the supplement say?",
+  "a": "GPS guidance is flagged; revert to VOR/ILS or other navigation",
+  "d": [
+   "GPS guidance continues with approach sensitivity for 5 minutes",
+   "Ignore it unless you are on the final approach segment",
+   "GPS guidance continues, but the CDI scale widens to 1 nm"
+  ],
+  "why": "With a position warning, the unit flags and stops giving GPS guidance. The 5-minute rule applies to 'RAIM NOT AVAILABLE' on the final approach segment, not to this warning.",
+  "src": "POH GNS 530 AFMS p.5",
+  "loc": "poh 098"
+ },
+ {
+  "id": "p5-048",
+  "topic": "s-elec",
+  "q": "If an AltiMatic IIIB-1 autopilot is installed, how can a malfunctioning autopilot be disconnected?",
+  "a": "Wheel AP OFF switch, roll rocker OFF, or overpower it at either wheel",
+  "d": [
+   "Only by pulling the autopilot circuit breaker on the lower right panel",
+   "Only with the panel trim disconnect switch; it cannot be overpowered",
+   "By pressing the trim test button next to the warning light"
+  ],
+  "why": "The supplement lists three ways: the wheel disconnect (AP OFF), the roll rocker OFF, or overpowering it by hand in roll and pitch. A malfunctioning electric trim is disabled with the panel trim switch, or overpowered at the trim wheel.",
+  "src": "POH 3-25 · OEG App 2",
+  "loc": "poh 088"
+ },
+ {
+  "id": "p5-049",
+  "topic": "s-elec",
+  "q": "If an AltiMatic IIIB-1 is installed and an engine fails, how does the supplement say to use the autopilot?",
+  "a": "Disengage, retrim with the ball centered, do the engine-out procedure, re-engage",
+  "d": [
+   "Leave it engaged; it holds heading while you do the engine-out procedure",
+   "Disengage it and leave it off; use is prohibited on one engine",
+   "Engage heading and altitude hold first, then do the engine-out procedure"
+  ],
+  "why": "Keep the airplane trimmed (ball centered) throughout single-engine operation. Complete the normal engine-out procedure before you re-engage the autopilot.",
+  "src": "POH 3-25 · OEG App 2",
+  "loc": "poh 088",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-123)"
+ },
+ {
+  "id": "p5-050",
+  "topic": "s-airframe",
+  "q": "What provides the standard cabin and defroster heat in the Seneca I?",
+  "a": "A heat exchanger (muff) on each engine's exhaust manifold",
+  "d": [
+   "A Janitrol combustion heater mounted in the nose baggage area",
+   "Electric heating elements under the cabin floor panels",
+   "Air bled from the engine-driven vacuum pumps"
+  ],
+  "why": "Each engine has a heater muff around its exhaust manifold. The Janitrol combustion heater is an optional add-on in the aft fuselage that supplements the muffs.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-051",
+  "topic": "s-airframe",
+  "q": "Where does air for the exhaust heater muffs come in?",
+  "a": "Through a scoop on the outboard side of each cowling",
+  "d": [
+   "Through the inlets in each wing's leading edge",
+   "Through an inlet at the base of the vertical fin",
+   "Through a scoop on the inboard side of each nacelle"
+  ],
+  "why": "Air enters a scoop on the outboard side of each cowling and is heated in the muff. A heat-and-defrost valve on the firewall sends it to the windshield or the cabin.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-052",
+  "topic": "s-airframe",
+  "q": "Where does fresh air for the cabin and for the overhead outlets come from?",
+  "a": "Wing leading-edge inlets; the overhead outlets are fed from inlets on the fin",
+  "d": [
+   "Cowling scoops on each engine; the overhead outlets are fed from wing-root inlets",
+   "Nose inlets; the overhead outlets are fed from a roof scoop",
+   "Wing leading-edge inlets; the overhead outlets are fed from the heater muffs"
+  ],
+  "why": "Fresh air for the heat mixing box comes in through each wing's leading edge. The overhead outlets take air from inlets on each side of the lower leading edge of the vertical fin.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-053",
+  "topic": "s-airframe",
+  "q": "How does the standard heating system control cabin temperature?",
+  "a": "A control box mixes muff-heated air with fresh air from the wing inlets",
+  "d": [
+   "A thermostat cycles the exhaust muffs on and off as needed",
+   "The pilot varies how much exhaust gas is routed through the heater muffs",
+   "A control box mixes muff-heated air with warm air from the oil coolers"
+  ],
+  "why": "Heated air from the muffs goes to a temperature-fresh air control box, where it is mixed with fresh air from the wing leading-edge inlets before entering the cabin.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-054",
+  "topic": "s-airframe",
+  "q": "Where does heated or fresh air enter the cabin for the occupants?",
+  "a": "An outlet near each occupant's feet, plus adjustable overhead outlets",
+  "d": [
+   "Only through the windshield defroster outlets and the side wall air vents",
+   "Only through adjustable overhead outlets in the ceiling",
+   "Through outlets along each cabin side wall at window level only"
+  ],
+  "why": "Each occupant has a floor outlet near the feet for heated or fresh air, as selected on the panel. Overhead outlets give fresh air: turn the rim counterclockwise for more flow, clockwise for less.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-055",
+  "topic": "s-airframe",
+  "q": "Where are the standard cabin heat and defroster controls?",
+  "a": "On the right side of the instrument panel",
+  "d": [
+   "On the console between the two front seats",
+   "On the switch panel to the left of the pilot",
+   "On the pedestal below the power quadrant"
+  ],
+  "why": "The standard muff-heat and defrost controls are on the right side of the panel. The optional combustion heater has its own console between the front seats.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-056",
+  "topic": "s-airframe",
+  "q": "How is the defroster blower turned on and off?",
+  "a": "Lever at full on/HI starts it; moving it back about an inch stops it",
+  "d": [
+   "With a separate DEFROST BLOWER switch on the left switch panel",
+   "It runs whenever the master switch is ON and cannot be turned off",
+   "It runs only when the combustion heater switch is set to FAN"
+  ],
+  "why": "The blower defogs the windshield on the ground. It runs when the defrost lever is at full on/HI, and moving the lever back about an inch shuts it off in flight. The lever must be at HI to run the blower even with the combustion heater installed.",
+  "src": "POH 2-20",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-057",
+  "topic": "s-airframe",
+  "q": "Per the POH, how do you get maximum windshield defrosting?",
+  "a": "Turn cabin heat off and the defroster full on",
+  "d": [
+   "Turn cabin heat and the defroster both full on",
+   "Turn the defroster on and open the storm window",
+   "Turn the defroster on and select alternate air"
+  ],
+  "why": "Shutting off cabin heat sends all available hot air to the windshield outlets.",
+  "src": "POH 2-20",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-058",
+  "topic": "s-airframe",
+  "q": "Where is the optional Janitrol combustion heater installed?",
+  "a": "In the aft fuselage",
+  "d": [
+   "In the nose section",
+   "In the right engine nacelle",
+   "Under the floor between the front seats"
+  ],
+  "why": "The Janitrol heater is in the aft fuselage. It adds heat for the cabin and defrosting on top of the standard muff system.",
+  "src": "POH 2-20 · OEG App 2",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-059",
+  "topic": "s-airframe",
+  "q": "What are the positions of the combustion heater's three-position switch, and what does FAN do?",
+  "a": "FAN, OFF, HEATER; FAN runs only the ventilation blower",
+  "d": [
+   "OFF, LOW, HIGH; LOW runs the blower with the burner at half",
+   "OFF, ON, DEFROST; DEFROST sends all heat to the windshield",
+   "FAN, HEATER, RESET; FAN runs the blower and burner together"
+  ],
+  "why": "The switch is on the console between the front seats. FAN is for ventilation or defogging on the ground when you don't want heat.",
+  "src": "POH 2-20",
+  "loc": "poh 038"
+ },
+ {
+  "id": "p5-060",
+  "topic": "s-airframe",
+  "q": "You select HEATER, but neither the combustion heater's fan nor its burner runs. What is the likely cause?",
+  "a": "The air intake lever is still in the closed position",
+  "d": [
+   "The right fuel selector is on CROSSFEED instead of ON",
+   "The standard defroster lever is not in the HI position",
+   "The right auxiliary fuel pump has not been turned on"
+  ],
+  "why": "Two safety switches at the intake valve block both fan and heater operation until the air intake lever is moved off the closed position. A fuel problem would stop the burner but not the fan.",
+  "src": "POH 2-20a",
+  "loc": "poh 039"
+ },
+ {
+  "id": "p5-061",
+  "topic": "s-airframe",
+  "q": "Where does the combustion heater get its fuel, and how much does it burn?",
+  "a": "Right engine's line between engine pump and injector; 1/2 gal/hr",
+  "d": [
+   "Left engine's line just downstream of the gascolator; 1 gal/hr",
+   "Its own small fuel tank in the aft fuselage; 1/2 gal/hr",
+   "Right engine's line ahead of the fuel selector; 2 gal/hr"
+  ],
+  "why": "Include heater fuel in flight planning. With the right fuel selector OFF, the heater will not work. Fuel flow starts only when the switch is set to HEATER.",
+  "src": "POH 2-20a · OEG App 2",
+  "loc": "poh 039"
+ },
+ {
+  "id": "p5-062",
+  "topic": "s-airframe",
+  "q": "The right engine has failed and been secured. Can you still run the combustion heater?",
+  "a": "Yes: right selector ON, right mixture idle cutoff, right aux pump ON",
+  "d": [
+   "No; the heater stops working whenever the right engine is stopped",
+   "Yes, by putting the left fuel selector on CROSSFEED",
+   "Yes, but only on FAN, because no fuel can reach the burner"
+  ],
+  "why": "The heater draws from the right engine's fuel line. With the selector on and the mixture in idle cutoff, the aux pump can supply it. First make sure there are no fuel leaks between the tank and the engine.",
+  "src": "POH 2-20a",
+  "loc": "poh 039"
+ },
+ {
+  "id": "p5-063",
+  "topic": "s-airframe",
+  "q": "Where does the combustion heater show an overheat, and where is the overheat switch's reset button?",
+  "a": "Light on the heater console; reset button on the heater, via the aft bulkhead panel",
+  "d": [
+   "Light on the annunciator panel; reset button on the face of the heater control console",
+   "Light on the heater console; reset button on the lower right circuit breaker panel",
+   "Light on the left switch panel; reset by cycling the heater switch to OFF"
+  ],
+  "why": "The heat-limit switch lights the overheat light on the console between the front seats. Its red reset button is on the heater shroud in the aft fuselage, reached through the bulkhead access panel. Don't restart the heater until the cause has been found and fixed.",
+  "src": "POH 2-20a · OEG App 2",
+  "loc": "poh 039"
+ },
+ {
+  "id": "p5-064",
+  "topic": "s-airframe",
+  "q": "The combustion heater overheat light comes on in flight. What does the POH say?",
+  "a": "Don't restart it until it's inspected and the cause is fixed",
+  "d": [
+   "Wait 15 seconds with the intake open, then select HEATER again",
+   "Press the red reset button on the console, then select HEATER",
+   "Run the fan for two minutes to cool it, then select HEATER"
+  ],
+  "why": "The red reset button is on the heater shroud in the aft fuselage, reached through a bulkhead access panel, not from the seat. The supplement says not to restart until the cause has been found and fixed.",
+  "src": "POH 2-20a, 3-29",
+  "loc": "poh 091"
+ },
+ {
+  "id": "p5-065",
+  "topic": "s-airframe",
+  "q": "What is the proper combustion heater shutdown on the ground?",
+  "a": "Switch to FAN for two minutes with the intake open, then OFF",
+  "d": [
+   "Switch to OFF, then close the air intake lever right away",
+   "Close the air intake lever, then run FAN for 15 seconds",
+   "Pull the heater circuit breaker, then switch to OFF"
+  ],
+  "why": "Running the fan with the intake open cools the heater so the overheat switch doesn't trip. In flight, leave the intake open at least 15 seconds after switching the heater OFF.",
+  "src": "POH 2-20a",
+  "loc": "poh 039"
+ },
+ {
+  "id": "p5-066",
+  "topic": "s-airframe",
+  "q": "Per the combustion heater supplement, above what altitude is heater operation not approved?",
+  "a": "20,000 ft",
+  "d": [
+   "12,500 ft",
+   "15,000 ft",
+   "25,000 ft"
+  ],
+  "why": "The supplement does not approve heater operation above 20,000 ft. Its other limitation, no electric windshield heat at the same time because of compass error, is placarded near the heater controls.",
+  "src": "POH 3-29",
+  "loc": "poh 091"
+ },
+ {
+  "id": "p5-067",
+  "topic": "s-airframe",
+  "q": "When is a Seneca I approved for flight into known icing conditions?",
+  "a": "Only with the complete optional Piper ice protection system installed",
+  "d": [
+   "Whenever pitot heat and the heated windshield panel are both installed",
+   "Whenever the heated pitot and propeller deice both work",
+   "Never; no Seneca I can be approved for known icing"
+  ],
+  "why": "Known-icing approval requires the full system: boots, prop deice, electric windshield panel, heated pitot, heated stall warning transmitters, anti-icing fuel vents, governor shields and deflectors, and the wing ice light. Without it, icing flight is prohibited.",
+  "src": "POH 2-22, 3-6, 6-13 · OEG App 2",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p5-068",
+  "topic": "s-airframe",
+  "q": "Which of these is on the POH's list of equipment required for flight into known icing?",
+  "a": "Anti-icing fuel tank vents",
+  "d": [
+   "Heated static ports",
+   "Engine air inlet lip heaters",
+   "An alcohol windshield spray system"
+  ],
+  "why": "The list includes anti-icing fuel vents (one under each wing) so ice can't block the tank vent lines. The static ports are not heated in the Seneca.",
+  "src": "POH 3-6, 2-26",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p5-069",
+  "topic": "s-airframe",
+  "q": "What holds the deice boots flat when the surface deice system is off?",
+  "a": "Constant suction from the engine-driven vacuum pumps",
+  "d": [
+   "Spring tension molded into the rubber boot material itself",
+   "Ram air pressure on the leading edges",
+   "A separate electric vacuum pump mounted in the tail cone"
+  ],
+  "why": "Suction from the engine-driven vacuum pumps keeps the boots smooth and streamlined between cycles, and it is reapplied after each inflation.",
+  "src": "POH 2-22 · OEG App 2",
+  "loc": "poh 042"
+ },
+ {
+  "id": "p5-070",
+  "topic": "s-airframe",
+  "q": "Where are the pneumatic deice boots on a Seneca with the ice protection system?",
+  "a": "On the wing, vertical fin and stabilator leading edges",
+  "d": [
+   "On the wing leading edges only; the tail is unprotected",
+   "On the wing and stabilator leading edges only",
+   "On the wings, fin, stabilator and the engine nacelle inlets"
+  ],
+  "why": "Boots cover the wing, vertical fin and horizontal stabilator leading edges. The props have electric deicer pads instead.",
+  "src": "POH 2-22 · OEG App 2",
+  "loc": "poh 042"
+ },
+ {
+  "id": "p5-071",
+  "topic": "s-airframe",
+  "q": "What happens when you press the momentary SURFACE DE-ICE switch once?",
+  "a": "A timer inflates all boots for about six seconds, then they deflate",
+  "d": [
+   "The boots stay inflated for as long as the switch is held",
+   "The boots cycle over and over until the switch is turned off",
+   "The wing boots inflate, then the tail boots six seconds later"
+  ],
+  "why": "The timer powers the pressure control valves for six seconds and the WING-TAIL DE-ICER light comes on. Then the air is dumped overboard and suction returns. Do not hold the switch ON.",
+  "src": "POH 2-22, 3-18a",
+  "loc": "poh 042"
+ },
+ {
+  "id": "p5-072",
+  "topic": "s-airframe",
+  "q": "Per the POH, when should the pneumatic boots be cycled?",
+  "a": "When 1/4 to 1/2 inch of ice has built up",
+  "d": [
+   "Continuously, as soon as any ice is seen",
+   "Only after about 1 inch of ice has built up",
+   "Before entering icing, to keep the boots clear"
+  ],
+  "why": "Cycling with less than 1/4 inch can leave a cavity under the ice so it won't come off. Waiting past 1/2 inch may also leave ice the boots can't shed.",
+  "src": "POH 3-18a, 6-13",
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-064)"
+ },
+ {
+  "id": "p5-073",
+  "topic": "s-airframe",
+  "q": "After you cycle the boots, the WING-TAIL DE-ICER light stays on for more than 20 seconds. What do you do?",
+  "a": "Pull the surface deice circuit breaker",
+  "d": [
+   "Press the SURFACE DE-ICE switch again",
+   "Turn the master switch OFF and back ON",
+   "Nothing; the light stays on until the ice sheds"
+  ],
+  "why": "A normal cycle lasts about six seconds. A light on for more than 20 seconds means the system is stuck, and the POH says to pull the surface deice breaker.",
+  "src": "POH 3-18a",
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-065)"
+ },
+ {
+  "id": "p5-074",
+  "topic": "s-airframe",
+  "q": "Where is the wing ice detection light?",
+  "a": "On the outboard side of the left engine nacelle",
+  "d": [
+   "On the inboard side of the left engine nacelle",
+   "In the left wingtip, shining inboard",
+   "Under the nose, shining aft at both wings"
+  ],
+  "why": "It lets you check the wing for ice during night flight. It has an ICE LIGHT switch to the right of the SURFACE DE-ICE switch and its own WING ICE LIGHT circuit breaker.",
+  "src": "POH 2-22",
+  "loc": "poh 042"
+ },
+ {
+  "id": "p5-075",
+  "topic": "s-airframe",
+  "q": "How do the Seneca's electrothermal propeller deicers work?",
+  "a": "Timer heats each pad's outboard, then inboard half, via slip rings",
+  "d": [
+   "Pads heated all at once and continuously while the switch is on",
+   "Fluid pumped from a tank through slinger rings onto each blade",
+   "Hot governor oil circulated through the hub and blade roots"
+  ],
+  "why": "Each pad has an outboard and an inboard heater. Current goes from the timer through brush blocks to slip rings on the starter ring gear. Heating loosens the ice, and centrifugal force and the airstream throw it off in small pieces.",
+  "src": "POH 2-22, 2-24 · OEG App 2",
+  "loc": "poh 044"
+ },
+ {
+  "id": "p5-076",
+  "topic": "s-airframe",
+  "q": "What is the propeller deice heating sequence?",
+  "a": "Right outboard, right inboard, left outboard, left inboard",
+  "d": [
+   "Left outboard, left inboard, right outboard, right inboard",
+   "Right inboard, right outboard, left inboard, left outboard",
+   "Both outboard halves together, then both inboard halves"
+  ],
+  "why": "The cycle may start at any step, depending on where the timer stopped last time. It then runs in this order until the system is turned off.",
+  "src": "POH 2-24",
+  "loc": "poh 044"
+ },
+ {
+  "id": "p5-077",
+  "topic": "s-airframe",
+  "q": "How is the propeller deice checked during preflight?",
+  "a": "Turn PROP DE-ICE on and feel the pads warm in the proper sequence",
+  "d": [
+   "Turn it on and watch the ammeter only; don't touch the pads",
+   "Run the engines at 2000 RPM and watch for the pads to steam",
+   "Press the test button and listen for the timer to click"
+  ],
+  "why": "The POH preflight is a touch check. The pads should get warm in the timer's order. Section 6 suggests 30 seconds for the heat checks.",
+  "src": "POH 2-24, 6-13",
+  "loc": "poh 044",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-074)"
+ },
+ {
+  "id": "p5-078",
+  "topic": "s-airframe",
+  "q": "What limits ground operation of the heated windshield panel?",
+  "a": "No more than 30 seconds, unless in flight or ice is on the panel",
+  "d": [
+   "No more than 2 minutes, and only with at least one engine running",
+   "It may not be turned on at all on the ground",
+   "No more than 60 seconds, and only with both alternators on line"
+  ],
+  "why": "The supplement says never run it more than 30 seconds unless the airplane is flying or there is ice on the panel. Operation is checked by feeling the glass warm.",
+  "src": "POH 3-28, 2-24 · OEG App 2",
+  "loc": "poh 090"
+ },
+ {
+  "id": "p5-079",
+  "topic": "s-airframe",
+  "q": "What extra document does the windshield heating installation require?",
+  "a": "A second compass deviation card, with windshield heat and radios on",
+  "d": [
+   "A separate weight and balance record for the heated panel",
+   "A maintenance logbook entry before every flight into icing conditions",
+   "A placard limiting airspeed while the windshield heat is on"
+  ],
+  "why": "The heated windshield affects the magnetic compass, so a second deviation card is required. For the same reason, it can't be used at the same time as the combustion heater.",
+  "src": "POH 3-28",
+  "loc": "poh 090"
+ },
+ {
+  "id": "p5-080",
+  "topic": "s-airframe",
+  "q": "Which switch heats the stall warning lift detectors?",
+  "a": "The HEATED PITOT switch",
+  "d": [
+   "A separate STALL WARN HEAT switch",
+   "The SURFACE DE-ICE switch",
+   "The windshield panel heat switch"
+  ],
+  "why": "One ON-OFF HEATED PITOT switch on the left switch panel heats the pitot head and both left-wing lift detectors. They have separate PITOT HEAT and STALL WARN HEAT breakers, and both get very hot during the check.",
+  "src": "POH 2-24, 2-26, 3-18a",
+  "loc": "poh 044",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-066)"
+ },
+ {
+  "id": "p5-081",
+  "topic": "s-airframe",
+  "q": "What do the propeller governor ice shields and deflectors do?",
+  "a": "Keep ice entering the front cowl opening off the governor",
+  "d": [
+   "Throw ice shed by the spinner clear of the cowling openings",
+   "Warm the governor oil so the prop responds normally in icing",
+   "Turn ice thrown off the props away from the cabin windows"
+  ],
+  "why": "They stop ice and other particles that come in through the front cowl opening from interfering with governor operation.",
+  "src": "POH 2-26",
+  "loc": "poh 046"
+ },
+ {
+  "id": "p5-082",
+  "topic": "s-airframe",
+  "q": "On entering icing conditions, which items does the POH say to turn on immediately?",
+  "a": "Pitot heat, windshield heat and prop deice",
+  "d": [
+   "Pitot heat, windshield heat and the wing boots",
+   "Wing boots, prop deice and the ice light",
+   "Prop deice and the wing boots only"
+  ],
+  "why": "The defroster goes on before entering icing. The wing boots wait until 1/4 to 1/2 inch of ice builds up. If the props vibrate from uneven ice, briefly increase RPM.",
+  "src": "POH 3-18a",
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-063)"
+ },
+ {
+  "id": "p5-083",
+  "topic": "s-airframe",
+  "q": "In prolonged icing, how much may the Seneca's stall speed increase, per the POH?",
+  "a": "Up to 12 mph",
+  "d": [
+   "Up to 5 mph",
+   "Up to 20 mph",
+   "Up to 30 mph"
+  ],
+  "why": "With ice on unprotected surfaces, buffet starts 5 to 10 mph above the stall. Stall speed may rise by up to 12 mph, so keep a good margin above normal stall speeds.",
+  "src": "POH 3-18a",
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-067)"
+ },
+ {
+  "id": "p5-084",
+  "topic": "s-airframe",
+  "q": "What performance penalty does the POH give for installing the ice protection equipment?",
+  "a": "30 fpm less single-engine climb; 850 ft lower single-engine ceiling",
+  "d": [
+   "50 fpm less single-engine climb; 500 ft lower single-engine ceiling",
+   "No change; the supplements say performance is unchanged",
+   "100 fpm less two-engine climb; 1,500 ft lower service ceiling"
+  ],
+  "why": "The Flight in Known Icing section notes the installation costs 30 fpm of single-engine climb and 850 ft of single-engine service ceiling.",
+  "src": "POH 3-18a",
+  "loc": "poh 079",
+  "drop": true,
+  "drop_reason": "duplicate of p2 (p2-070)"
+ },
+ {
+  "id": "p5-085",
+  "topic": "s-engine",
+  "q": "Does the Seneca I have protection against induction air icing?",
+  "a": "Yes: manual alternate air, heated by the crossover exhaust tube",
+  "d": [
+   "Yes: alternate air doors that open by themselves if the filter clogs",
+   "Yes: a carburetor heat control for each engine",
+   "No: fuel injection makes induction icing impossible"
+  ],
+  "why": "Alternate air is controlled by the pilot, not automatically. It is heated and bypasses the filter, so it protects against snow or freezing rain blocking the filter. Apply it early, and avoid it for ground operation (unfiltered air).",
+  "src": "POH 2-3, 6-9 · OEG App 2",
+  "loc": "poh 022",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-021)"
+ },
+ {
+  "id": "p5-086",
+  "topic": "s-airframe",
+  "q": "How does the Seneca I warn of an approaching stall?",
+  "a": "A light and horn, triggered by two lift detectors on the left wing",
+  "d": [
+   "A horn only, triggered by a single vane on the right wing",
+   "A stick shaker, triggered by an angle-of-attack vane on the nose",
+   "A light only, triggered by a pressure port in the left wing"
+  ],
+  "why": "Two lift detectors sit on the leading edge of the left wing, outboard of the nacelle. With the ice protection system, both are heated.",
+  "src": "POH 2-27",
+  "loc": "poh 047"
+ },
+ {
+  "id": "p5-087",
+  "topic": "s-airframe",
+  "q": "Which lift detector activates the stall warning with the flaps at 25° or 40°?",
+  "a": "The inboard detector",
+  "d": [
+   "The outboard detector",
+   "Both detectors together",
+   "Neither; the warning is disabled at 40°"
+  ],
+  "why": "The inboard detector works with the flaps at 25° and 40°. The outboard one works at the other settings (0° and 10°).",
+  "src": "POH 2-27",
+  "loc": "poh 047"
+ },
+ {
+  "id": "p5-088",
+  "topic": "s-airframe",
+  "q": "On preflight, with the flaps fully down, you lift the outboard stall vane and the horn stays silent. Is the system faulty?",
+  "a": "Not necessarily; the outboard vane works only with flaps at 0° or 10°",
+  "d": [
+   "Yes; either vane should sound the horn at any flap setting from 0° to 40°",
+   "Yes; the outboard vane is the one that works at 40°",
+   "Not necessarily; the horn works only with an engine running"
+  ],
+  "why": "With flaps at 25° or 40°, only the inboard detector is active. The school preflight tests the outboard vane at 0–10° and the inboard vane at 25–40°, which matches the POH.",
+  "src": "POH 2-27 · School checklist",
+  "loc": "poh 047"
+ },
+ {
+  "id": "p5-089",
+  "topic": "s-airframe",
+  "q": "How can you tell the stall warning horn from the gear warning horn?",
+  "a": "The two horns have different sounds",
+  "d": [
+   "They sound the same; check which light is on",
+   "The stall horn sounds only with the flaps down",
+   "The gear warning has no horn, only a red light"
+  ],
+  "why": "The POH says the stall warning horn sounds different from the landing gear warning horn. The stall warning also has its own light.",
+  "src": "POH 2-27",
+  "loc": "poh 047"
+ },
+ {
+  "id": "p5-090",
+  "topic": "s-gear",
+  "q": "When towing the Seneca I with power equipment, what is the nose gear turn limit?",
+  "a": "20° either side of center",
+  "d": [
+   "30° either side of center",
+   "42° either side of center",
+   "45° either side of center"
+  ],
+  "why": "Turning the nose gear more than 20° either way while power-towing damages the nose gear and steering mechanism. Don't confuse this with the 42° total arc the rudder pedals steer.",
+  "src": "POH 9-1 · OEG App 2",
+  "loc": "poh 201",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-066)"
+ },
+ {
+  "id": "p5-091",
+  "topic": "s-gear",
+  "q": "What are the Seneca I's tire pressures?",
+  "a": "Nose 31 psi; mains 53 psi",
+  "d": [
+   "Nose 53 psi; mains 31 psi",
+   "Nose 35 psi; mains 50 psi",
+   "Nose 31 psi; mains 42 psi"
+  ],
+  "why": "Keep the nose tire at 31 psi and the mains at 53 psi for best tire life. The POH also suggests swapping tires periodically so they wear evenly.",
+  "src": "POH 9-8 · OEG App 2",
+  "loc": "poh 208",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-074/p1-075)"
+ },
+ {
+  "id": "p5-092",
+  "topic": "s-gear",
+  "q": "How much oleo strut should be exposed with the airplane at rest (static load)?",
+  "a": "Mains 3-1/2 inches; nose 2-1/2 inches",
+  "d": [
+   "Mains 2-1/2 inches; nose 3-1/2 inches",
+   "Mains 4-1/2 inches; nose 3-1/2 inches",
+   "All three struts 3 inches"
+  ],
+  "why": "Sections 9 and 6 both give 3-1/2 in. for the main struts and 2-1/2 in. for the nose. The school preflight checklist uses the same figures.",
+  "src": "POH 9-6, 6-2",
+  "loc": "poh 206",
+  "drop": true,
+  "drop_reason": "duplicate of p4 (p4-001)"
+ },
+ {
+  "id": "p5-093",
+  "topic": "s-gear",
+  "q": "What hydraulic fluid goes in the Seneca I brake system?",
+  "a": "MIL-H-5606 (petroleum base)",
+  "d": [
+   "MIL-H-83282 (synthetic base)",
+   "Skydrol (phosphate ester base)",
+   "DOT 3 brake fluid (glycol base)"
+  ],
+  "why": "The POH specifies MIL-H-5606 petroleum-base fluid. The lubrication chart also warns against hydraulic fluid with a castor oil or ester base.",
+  "src": "POH 9-6, 9-10 · OEG App 2",
+  "loc": "poh 206",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-069)"
+ },
+ {
+  "id": "p5-094",
+  "topic": "s-gear",
+  "q": "Where is the brake fluid reservoir, and when should it be checked?",
+  "a": "Top rear of the nose baggage area; periodically and each 100-hour",
+  "d": [
+   "Behind the left main gear; at each annual inspection only",
+   "Built into the gear hydraulic power pack; at every 50-hour inspection",
+   "Under the pilot's floor panel; checked as part of every preflight"
+  ],
+  "why": "It's behind a panel marked \"Brake Reservoir Behind\" at the top rear of the nose baggage compartment. Keep the fluid at the marked level. The gear system has its own separate reservoir built into the gear pump.",
+  "src": "POH 9-6, 2-6 · OEG App 2",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p5-095",
+  "topic": "s-gear",
+  "q": "Where are the jack points for servicing?",
+  "a": "One outboard of each main gear and one just aft of the nose gear",
+  "d": [
+   "One inboard of each main gear and one under the tail skid",
+   "One under each wingtip and one at the tail tie-down",
+   "One at each main gear axle and one at the nose gear axle"
+  ],
+  "why": "There are three jack points: one outboard of each main gear and one just aft of the nose gear. The airplane goes on jacks to check the gear after an emergency extension for a malfunction.",
+  "src": "POH 9-6",
+  "loc": "poh 206",
+  "drop": true,
+  "drop_reason": "low value (jack point locations)"
+ },
+ {
+  "id": "p5-096",
+  "topic": "s-airframe",
+  "q": "How does the POH say to tie down the Seneca?",
+  "a": "Ropes to the wing rings and tail skid at about 45°, using bowline knots",
+  "d": [
+   "Ropes straight down from the wing rings and tail skid, using slip knots",
+   "Ropes to the propeller hubs and nose gear fork, using bowlines",
+   "Chains around both main gear struts only, pulled tight at 90° to the ground"
+  ],
+  "why": "Head into the wind if possible, lock the controls with the wheel lock or surface blocks, block the wheels, then tie down at about 45°. Use bowlines, never slip knots, and install the pitot cover.",
+  "src": "POH 9-2, 9-3",
+  "loc": "poh 202"
+ },
+ {
+  "id": "p5-097",
+  "topic": "s-engine",
+  "q": "Per the POH ground handling section, how should the propellers be set for taxiing?",
+  "a": "Low pitch, high RPM",
+  "d": [
+   "High pitch, low RPM",
+   "Midrange pitch, to cut prop noise",
+   "Feathered on whichever engine isn't needed"
+  ],
+  "why": "Taxi with the props in low pitch, high RPM. Avoid high RPM over loose stones or gravel, which can damage the blades.",
+  "src": "POH 9-1",
+  "loc": "poh 201"
+ },
+ {
+  "id": "p5-098",
+  "topic": "s-engine",
+  "q": "What are the Seneca I engines' oil capacity and minimum safe quantity?",
+  "a": "8 quarts capacity; 2 quarts minimum safe",
+  "d": [
+   "8 quarts capacity; 6 quarts minimum safe",
+   "6 quarts capacity; 2 quarts minimum safe",
+   "12 quarts capacity; 6 quarts minimum safe"
+  ],
+  "why": "Each Lycoming holds 8 quarts, and 2 quarts is the minimum safe quantity. The walk-around asks you to see six to eight quarts before flight.",
+  "src": "POH 9-7 · OEG App 2",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-027)"
+ },
+ {
+  "id": "p5-099",
+  "topic": "s-engine",
+  "q": "Ambient temperatures are expected to be about 95°F. Which oil grade does the POH require?",
+  "a": "SAE 50",
+  "d": [
+   "SAE 40",
+   "SAE 30",
+   "SAE 20"
+  ],
+  "why": "The POH table: SAE 50 above 60°F, SAE 40 from 30–90°F, SAE 30 from 0–70°F, and SAE 20 below 10°F. Only the SAE 50 range covers 95°F.",
+  "src": "POH 9-7 · OEG App 2",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-028)"
+ },
+ {
+  "id": "p5-100",
+  "topic": "s-engine",
+  "q": "Ambient temperatures are expected to be about 20°F. Which oil grade does the POH require?",
+  "a": "SAE 30",
+  "d": [
+   "SAE 40",
+   "SAE 50",
+   "SAE 20"
+  ],
+  "why": "20°F falls only in the SAE 30 range (0–70°F). SAE 40 starts at 30°F and SAE 20 is for below 10°F.",
+  "src": "POH 9-7 · OEG App 2",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p5-101",
+  "topic": "s-engine",
+  "q": "How often does the POH recommend oil changes, and when may the interval be extended?",
+  "a": "Every 50 hr; up to double with a full-flow filter changed each 50 hr",
+  "d": [
+   "Every 100 hr; up to 50% longer with any type of oil filter or screen",
+   "Every 25 hr; up to double with a screen-type oil filter",
+   "Every 50 hours; no extension is allowed under any condition"
+  ],
+  "why": "Drain and refill every 50 hours, or sooner in bad conditions. With full-flow cartridge filters, the interval can be up to doubled, as long as the filter element is replaced every 50 hours.",
+  "src": "POH 9-7",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p5-102",
+  "topic": "s-engine",
+  "q": "How often must the induction air filters be cleaned, and when must they be replaced?",
+  "a": "Clean at least every 50 hours; replace after 1 year or 500 hours",
+  "d": [
+   "Clean every 100 hours; replace after 2 years or 1,000 hours",
+   "Clean every 25 hours; replace after 1 year or 250 hours",
+   "Clean every 50 hours; replace only when the element is torn"
+  ],
+  "why": "Clean them at least every 50 hours, more often in dusty conditions. Tap them clean (no compressed air or solvents), and replace if torn or after 1 year or 500 hours, whichever comes first.",
+  "src": "POH 9-5",
+  "loc": "poh 205",
+  "drop": true,
+  "drop_reason": "low value (induction filter cleaning/replacement interval)"
+ },
+ {
+  "id": "p5-103",
+  "topic": "s-engine",
+  "q": "What gas does the POH recommend for charging the propeller dome?",
+  "a": "Dry nitrogen",
+  "d": [
+   "Carbon dioxide",
+   "Argon",
+   "Oxygen"
+  ],
+  "why": "Dry nitrogen is recommended. Section 2 allows compressed air only if it has no moisture, since moisture may freeze the piston in cold weather.",
+  "src": "POH 9-6, 2-4",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p5-104",
+  "topic": "s-engine",
+  "q": "How does the propeller dome pressure change with temperature, per the POH?",
+  "a": "It rises about 1/3 psi for each 1°F increase",
+  "d": [
+   "It rises about 1 psi for each 1°F increase",
+   "It rises about 1/10 psi for each 1°F increase",
+   "It stays fixed; temperature has no effect"
+  ],
+  "why": "The Section 9 text gives about 1/3 psi per °F, so allow for temperature and charge to the spinner-cap placard. (The POH's chamber pressure table itself steps about 2 psi per 10°F.)",
+  "src": "POH 9-6",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p5-105",
+  "topic": "s-engine",
+  "q": "Per the POH chamber pressure table, what prop dome charge is required at 70°F?",
+  "a": "80 psi",
+  "d": [
+   "72 psi",
+   "86 psi",
+   "66 psi"
+  ],
+  "why": "From the table: 70°F needs 80 psi. 30°F needs 72 psi, 100°F needs 86 psi, and 0°F needs 66 psi.",
+  "src": "POH 9-6",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p5-106",
+  "topic": "s-engine",
+  "q": "What does the POH say not to do when checking or charging the propeller dome?",
+  "a": "Don't check or charge it with the propeller feathered",
+  "d": [
+   "Don't check it when the engine and propeller are cold",
+   "Don't charge it with dry nitrogen",
+   "Don't check it against the placard in the spinner cap"
+  ],
+  "why": "The note under the chamber pressure table says never to check or charge the pressure with the propeller feathered.",
+  "src": "POH 9-6",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p5-107",
+  "topic": "s-fuel",
+  "q": "What is the minimum fuel grade for the Seneca I, per the POH?",
+  "a": "100/130 octane aviation fuel",
+  "d": [
+   "80/87 octane aviation fuel",
+   "91/96 octane aviation fuel",
+   "Premium automotive gasoline"
+  ],
+  "why": "The POH requires at least 100/130 octane aviation grade. Lower grades can cause serious engine damage quickly and void the engine warranty.",
+  "src": "POH 9-7 · OEG App 2",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-097)"
+ },
+ {
+  "id": "p5-108",
+  "topic": "s-fuel",
+  "q": "Per Section 9, how much fuel does each wing hold when filled to the bottom of the filler neck?",
+  "a": "49 gallons per side, 98 gallons total",
+  "d": [
+   "47 gallons per side, 94 gallons total",
+   "45 gallons per side, 90 gallons total",
+   "50 gallons per side, 100 gallons total"
+  ],
+  "why": "Each wing holds up to 49 gallons, 98 gallons in all, when filled to the bottom of the filler neck with 100/130 fuel. Usable fuel is a Section 3 figure.",
+  "src": "POH 9-7",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-094/p1-095)"
+ },
+ {
+  "id": "p5-109",
+  "topic": "s-fuel",
+  "q": "How often do the fuel strainer screens need cleaning?",
+  "a": "Every 50 hours or 90 days, whichever comes first",
+  "d": [
+   "Every 100 hours or 12 months, whichever comes first",
+   "Every 25 hours or 30 days, whichever comes first",
+   "Only at each annual inspection"
+  ],
+  "why": "The gascolator strainer screens are cleaned every 50 hours or 90 days, whichever comes first. The screen at the fuel injector inlet is cleaned every 50 hours.",
+  "src": "POH 9-7",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "low value (fuel strainer screen cleaning interval)"
+ },
+ {
+  "id": "p5-110",
+  "topic": "s-fuel",
+  "q": "Where are the fuel gascolator strainers?",
+  "a": "In the nacelles, between the fuel selector valves and the aux pumps",
+  "d": [
+   "In the wings, between the tanks and the fuel selector valves",
+   "On the engines, between the engine pumps and the injectors",
+   "In the fuselage, at the low point of the crossfeed line"
+  ],
+  "why": "Each gascolator sits in its nacelle between the selector valve and the auxiliary boost pump. Its quick drain is near the bottom of the nacelle.",
+  "src": "POH 9-7, 6-2",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-110)"
+ },
+ {
+  "id": "p5-111",
+  "topic": "s-fuel",
+  "q": "When does the POH say to drain the gascolator quick drains?",
+  "a": "Before the first flight of the day and after each refueling",
+  "d": [
+   "Only at each 50-hour inspection, and only by an A&P mechanic",
+   "Only when you suspect water contamination in the tanks",
+   "After every engine shutdown, before the fuel has time to settle"
+  ],
+  "why": "Drain them before the first flight of the day and after refueling to check for contamination. The tank drains are checked the same way.",
+  "src": "POH 9-7 · OEG App 2",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p5-112",
+  "topic": "s-fuel",
+  "q": "You keep finding water while draining a gascolator, even after a full minute of draining. What does the POH say?",
+  "a": "Have a mechanic check the fuel system",
+  "d": [
+   "Keep draining until at least a gallon is out",
+   "Fly anyway; the engine-driven pump will separate the water",
+   "Top off the tank and then drain it again"
+  ],
+  "why": "Drain until the contamination stops. If it is still there after a minute of draining, the POH says to have a mechanic check the fuel system.",
+  "src": "POH 9-7",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p5-113",
+  "topic": "s-fuel",
+  "q": "Where are the Seneca I's crossfeed drains?",
+  "a": "On the bottom of the fuselage, inboard of the right flap",
+  "d": [
+   "On the bottom of each engine nacelle, by the gascolator",
+   "Under each wing, outboard of the engine nacelle",
+   "Inside the nose baggage compartment, under the floor"
+  ],
+  "why": "The two crossfeed drains are under the fuselage, inboard of the right flap. In the walk-around they are drained with the right-side drains.",
+  "src": "POH 9-7, 6-2 · OEG App 2",
+  "loc": "poh 207",
+  "drop": true,
+  "drop_reason": "duplicate of p1 (p1-112)"
+ },
+ {
+  "id": "p5-114",
+  "topic": "s-elec",
+  "q": "One alternator is inoperative before departure. What does the POH say about taking off into IFR conditions?",
+  "a": "It is not recommended to take off into IFR with a single alternator",
+  "d": [
+   "It is allowed if the operating alternator stays below 50 amps",
+   "It is allowed if the battery has been fully charged first",
+   "It is allowed once the inoperative alternator switch is OFF"
+  ],
+  "why": "Section 6 says an IFR takeoff on a single alternator is not recommended. With only one, another failure leaves the battery as the only source, and the POH wants each alternator held to 50 A in flight so the battery keeps charging.",
+  "src": "POH 6-9",
+  "loc": "poh 163"
+ },
+ {
+  "id": "p5-115",
+  "topic": "s-elec",
+  "q": "Both alternators fail in flight. Per the POH, what determines how long the battery can carry the needed equipment?",
+  "a": "The equipment's current draw, how soon you noticed, and battery condition",
+  "d": [
+   "The equipment's current draw, engine RPM, and outside air temperature",
+   "Battery condition, engine RPM, and the alternator switch positions",
+   "Only the battery's 35 amp-hour rating, regardless of the load"
+  ],
+  "why": "With both alternators out, the battery is the only source, so turn off all unnecessary equipment. That's why the POH wants the ammeters and warning lights watched closely at night and in instrument flight.",
+  "src": "POH 2-16 · OEG App 2",
+  "loc": "poh 034"
+ },
+ {
+  "id": "p5-116",
+  "topic": "s-airframe",
+  "q": "With PROP DE-ICE switched on, how do you confirm the propeller deicers are drawing normal current?",
+  "a": "The PROP DE-ICER ammeter needle is within its shaded band",
+  "d": [
+   "A green PROP HEAT light comes on above the control quadrant",
+   "The WING-TAIL DE-ICER light flashes each time the timer cycles",
+   "The suction gauge dips briefly each time the timer cycles"
+  ],
+  "why": "Prop deice power goes through its own PROP DE-ICER ammeter to the timer, and a reading in the shaded portion is normal. On the ground you can also feel the pads warm in sequence.",
+  "src": "POH 2-22",
+  "loc": "poh 042"
+ }
+]

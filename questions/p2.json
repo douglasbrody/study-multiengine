@@ -1,0 +1,1822 @@
+[
+ {
+  "id": "p2-001",
+  "topic": "s-speeds",
+  "q": "What is the never-exceed speed (Vne) of the Seneca I?",
+  "a": "217 MPH CAS",
+  "d": [
+   "190 MPH CAS",
+   "207 MPH CAS",
+   "195 MPH CAS"
+  ],
+  "why": "Vne is 217 MPH CAS, the radial red line at the top of the yellow arc. 190 MPH is Vno, the top of the green arc.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-002",
+  "topic": "s-speeds",
+  "q": "What is the maximum structural cruising speed (Vno) of the Seneca I?",
+  "a": "190 MPH CAS",
+  "d": [
+   "217 MPH CAS",
+   "146 MPH CAS",
+   "175 MPH CAS"
+  ],
+  "why": "Vno is 190 MPH CAS, the top of the green arc. Above it, in the yellow arc up to 217 MPH, fly only in smooth air.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-003",
+  "topic": "s-speeds",
+  "q": "What is the design maneuvering speed (Va) at the maximum weight of 4,200 lb?",
+  "a": "146 MPH CAS",
+  "d": [
+   "133 MPH CAS",
+   "125 MPH CAS",
+   "150 MPH CAS"
+  ],
+  "why": "The AFM gives 146 MPH at 4,200 lb and 133 MPH at the minimum weight of 2,743 lb. A heavier airplane can fly faster before a gust or abrupt input reaches the load limit.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-004",
+  "topic": "s-speeds",
+  "q": "Flying solo near the 2,743 lb minimum weight, you enter moderate turbulence. What rough-air/maneuvering speed does the panel placard give?",
+  "a": "133 MPH",
+  "d": [
+   "146 MPH",
+   "190 MPH",
+   "125 MPH"
+  ],
+  "why": "The placard 'Rough air or maneuvering speeds' lists 133 MPH at 2,743 lb and 146 MPH at 4,200 lb. Va drops as weight drops, so the gross-weight figure is too fast when light.",
+  "src": "POH 3-4",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p2-005",
+  "topic": "s-speeds",
+  "q": "What is the maximum flaps-extended speed (Vfe) of the Seneca I?",
+  "a": "125 MPH CAS",
+  "d": [
+   "150 MPH CAS",
+   "105 MPH CAS",
+   "140 MPH CAS"
+  ],
+  "why": "Vfe is 125 MPH CAS, the top of the white arc, and the landing checklist placard repeats 'Flaps Set - 125 MPH Max.' The AFM gives this one limit for every flap setting.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-006",
+  "topic": "s-speeds",
+  "q": "What are the AFM's maximum gear extended speed and maximum gear retract speed?",
+  "a": "150 MPH extended; 125 MPH retract",
+  "d": [
+   "125 MPH extended; 150 MPH retract",
+   "150 MPH for both",
+   "125 MPH for both"
+  ],
+  "why": "The gear may be lowered and flown down up to 150 MPH CAS but should be raised only at or below 125 MPH. The placard by the selector reads 'Gear up 125 MPH max / Down 150 MPH max.'",
+  "src": "POH 3-2, 3-4 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-007",
+  "topic": "s-speeds",
+  "q": "You are descending at 140 MPH CAS. Which landing gear operation is within limits?",
+  "a": "Extending the gear, but not retracting it",
+  "d": [
+   "Retracting the gear, but not extending it",
+   "Neither extending nor retracting it",
+   "Both extending and retracting it"
+  ],
+  "why": "140 MPH is below the 150 MPH gear-down/extended limit but above the 125 MPH gear-retract limit.",
+  "src": "POH 3-2, 3-4",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-008",
+  "topic": "s-speeds",
+  "q": "What is the Seneca I single-engine minimum control speed (Vmc), and how is it marked?",
+  "a": "80 MPH CAS, radial red line",
+  "d": [
+   "76 MPH CAS, bottom of green arc",
+   "105 MPH CAS, radial blue line",
+   "69 MPH CAS, bottom of white arc"
+  ],
+  "why": "The AFM lists Vmc as 80 MPH CAS and marks it with a radial red line on the airspeed indicator. The blue line at 105 MPH is Vyse.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-009",
+  "topic": "s-speeds",
+  "q": "The radial blue line on the Seneca I airspeed indicator marks what?",
+  "a": "105 MPH, best single-engine rate of climb",
+  "d": [
+   "90 MPH, best single-engine angle of climb",
+   "80 MPH, single-engine minimum control",
+   "125 MPH, maximum flaps extended"
+  ],
+  "why": "The blue radial is Vyse, 105 MPH CAS, the speed used throughout the AFM engine-out procedures.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-010",
+  "topic": "s-speeds",
+  "q": "What range does the green arc on the Seneca I airspeed indicator cover?",
+  "a": "76 to 190 MPH",
+  "d": [
+   "69 to 190 MPH",
+   "80 to 217 MPH",
+   "76 to 217 MPH"
+  ],
+  "why": "The green arc (normal operating range) runs from 76 MPH, the flaps-up stall speed at the 4,200-lb gross weight, to 190 MPH, Vno.",
+  "src": "POH 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-011",
+  "topic": "s-speeds",
+  "q": "What range does the white arc (flaps extended range) cover?",
+  "a": "69 to 125 MPH",
+  "d": [
+   "76 to 125 MPH",
+   "69 to 150 MPH",
+   "65 to 125 MPH"
+  ],
+  "why": "The white arc runs from 69 MPH, the 40°-flap stall speed at the 4,200-lb gross weight, up to 125 MPH, Vfe.",
+  "src": "POH 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-012",
+  "topic": "s-speeds",
+  "q": "What are the Seneca I flight load factor limits with flaps up?",
+  "a": "+3.8 G; no inverted maneuvers approved",
+  "d": [
+   "+4.4 G; inverted maneuvers to -1.76 G",
+   "+3.0 G; inverted maneuvers to -1.2 G",
+   "+3.8 G; inverted maneuvers to -1.0 G"
+  ],
+  "why": "The AFM gives a maximum positive load factor of 3.8 G (flaps up) and, in place of a negative figure, states that no inverted maneuvers are approved. +4.4 G is the utility-category value.",
+  "src": "POH 3-2 · OEG App 2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-013",
+  "topic": "s-speeds",
+  "q": "What crosswind figure is placarded on the Seneca I instrument panel?",
+  "a": "Demonstrated crosswind component 15 MPH",
+  "d": [
+   "Maximum crosswind component 15 knots",
+   "Demonstrated crosswind component 17 MPH",
+   "Maximum crosswind component 25 MPH"
+  ],
+  "why": "The placard reads 'Demonstrated crosswind component 15 MPH.' It is the value shown in testing, not a structural limit.",
+  "src": "POH 3-4 · OEG App 2",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p2-014",
+  "topic": "s-speeds",
+  "q": "On a Seneca I without the full known-icing equipment, what kinds of operation does the pilot's placard allow?",
+  "a": "VFR and IFR, day and night, non-icing",
+  "d": [
+   "VFR only, day and night, non-icing",
+   "VFR and IFR, day only, non-icing",
+   "VFR and IFR, day and night, known icing"
+  ],
+  "why": "The placard approves VFR, IFR, day and night non-icing flight when equipped per FAR 91 or 135. Only a properly equipped airplane's placard adds 'and icing conditions.'",
+  "src": "POH 3-3 · OEG App 2",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-015",
+  "topic": "s-speeds",
+  "q": "Under what category is the Seneca I operated, and are spins approved?",
+  "a": "Normal category; no acrobatic maneuvers, including spins",
+  "d": [
+   "Utility category; spins approved with flaps up",
+   "Normal category; spins approved with gear up only",
+   "Utility category; no acrobatic maneuvers except spins"
+  ],
+  "why": "The placard requires operation as a normal category airplane and says no acrobatic maneuvers (including spins) are approved. The spin procedure is for unintentional spins only.",
+  "src": "POH 3-3, 3-17 · OEG App 2",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-016",
+  "topic": "s-speeds",
+  "q": "With the rear cabin and cargo doors removed, what are the maximum speed and the single-engine minimum control speed?",
+  "a": "150 MPH maximum; Vmc 81 MPH",
+  "d": [
+   "125 MPH maximum; Vmc 80 MPH",
+   "150 MPH maximum; Vmc 85 MPH",
+   "190 MPH maximum; Vmc 81 MPH"
+  ],
+  "why": "With the doors off the AFM limits speed to 150 MPH and raises Vmc to 81 MPH CAS (normally 80). It is VFR non-icing only, and if an engine fails below 81 MPH, reduce power on the operating engine to keep directional control.",
+  "src": "POH 3-9, 3-17",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p2-017",
+  "topic": "s-speeds",
+  "q": "What are the vacuum system operating limits for all operations?",
+  "a": "4.5 to 5.2 in. Hg",
+  "d": [
+   "5.0 to 6.0 in. Hg",
+   "4.0 to 5.0 in. Hg",
+   "3.5 to 4.5 in. Hg"
+  ],
+  "why": "Section L of the limitations gives 4.5 to 5.2 inches of mercury. Below 4.5 in. Hg the vacuum failure procedure applies.",
+  "src": "POH 3-6",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-018",
+  "topic": "s-speeds",
+  "q": "What does the instrument panel placard say about single-engine stalls?",
+  "a": "Not recommended; can cause 500 ft loss and 15° pitch angle",
+  "d": [
+   "Prohibited; can cause a spin within one turn",
+   "Not recommended; can cause 1,000 ft loss and 30° bank",
+   "Permitted only above 3,500 ft with props unfeathered"
+  ],
+  "why": "The placard reads 'Single engine stalls not recommended. Can cause 500 ft. loss of altitude and 15° pitch angle.'",
+  "src": "POH 3-5",
+  "loc": "poh 063"
+ },
+ {
+  "id": "p2-019",
+  "topic": "s-speeds",
+  "q": "The AFM's 80 MPH CAS single-engine minimum control speed is stated for what conditions?",
+  "a": "Sea level standard conditions",
+  "d": [
+   "Maximum gross weight at 5,000 ft",
+   "Any altitude and temperature",
+   "The single-engine service ceiling"
+  ],
+  "why": "The takeoff and climb engine-failure procedures both state Vmc is 80 MPH CAS under sea level standard conditions. Actual Vmc decreases as density altitude increases.",
+  "src": "POH 3-12a, 3-13",
+  "loc": "poh 071"
+ },
+ {
+  "id": "p2-020",
+  "topic": "s-speeds",
+  "q": "Which autopilot limitation appears in every autopilot supplement in this AFM?",
+  "a": "Autopilot OFF for takeoff and landing",
+  "d": [
+   "Maximum autopilot speed 195 MPH CAS",
+   "Flaps limited to 25° or less",
+   "Pilot must hold the wheel lightly"
+  ],
+  "why": "All autopilot supplements require the autopilot OFF for takeoff and landing. The AltiMatic IIIB-1 and AutoControl III also prohibit use above 195 MPH CAS and limit flaps to 25°; the AltiMatic V/FD-1/V-1 limit is 207 MPH (180 kt) CAS.",
+  "src": "POH 3-24, 3-25, 3-26",
+  "loc": "poh 087"
+ },
+ {
+  "id": "p2-021",
+  "topic": "s-speeds",
+  "q": "At 3,800 lb, power off, gear down, flaps 40°, wings level, about what is the stall speed (Vso)? (chart 8-11)",
+  "a": "About 65 MPH CAS",
+  "d": [
+   "About 69 MPH CAS",
+   "About 72 MPH CAS",
+   "About 58 MPH CAS"
+  ],
+  "why": "Chart 8-11 (stalling speed vs weight): the flaps-40 line reads about 65 MPH CAS at 3,800 lb. At 4,200 lb it is 69 MPH, the bottom of the white arc. Stall speed drops about 1 MPH per 100 lb.",
+  "src": "POH 8-11 · POH 3-19",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-022",
+  "topic": "s-speeds",
+  "q": "At 3,800 lb, power off, gear down, flaps up, wings level, what is the stall speed (Vs), and how close is it to Vmc?",
+  "a": "About 72 MPH CAS, 8 MPH below Vmc",
+  "d": [
+   "About 76 MPH CAS, 4 MPH below Vmc",
+   "About 65 MPH CAS, 15 MPH below Vmc",
+   "About 80 MPH CAS, equal to Vmc"
+  ],
+  "why": "Chart 8-11: flaps up, about 72 MPH CAS at 3,800 lb (76 MPH at 4,200 lb, the bottom of the green arc). With Vmc at 80 MPH, there is little margin between losing directional control and stalling.",
+  "src": "POH 8-11 · POH 3-2",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-023",
+  "topic": "s-speeds",
+  "q": "What is the AFM stall speed at 4,200 lb with flaps up in a 60° bank?",
+  "a": "108 MPH CAS",
+  "d": [
+   "98 MPH CAS",
+   "95 MPH CAS",
+   "87 MPH CAS"
+  ],
+  "why": "Flaps up, the table rises from 76 (0°) to 78 (20°), 87 (40°), 95 (50°) and 108 MPH CAS at 60° bank. 98 MPH is the 60° figure with 40° flaps.",
+  "src": "POH 3-19",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-024",
+  "topic": "s-engine",
+  "q": "Which engines does the AFM list for the Seneca I, and on which side?",
+  "a": "IO-360-C1E6 on the left; LIO-360-C1E6 on the right",
+  "d": [
+   "LIO-360-C1E6 on the left; IO-360-C1E6 on the right",
+   "IO-360-C1E6 on both sides",
+   "TIO-360-C1E6 on the left; LTIO-360 on the right"
+  ],
+  "why": "The left engine is the IO-360-C1E6 and the right is the LIO-360-C1E6, the opposite-rotation version that gives the Seneca counter-rotating propellers. Both are fuel injected.",
+  "src": "POH 3-1",
+  "loc": "poh 059"
+ },
+ {
+  "id": "p2-025",
+  "topic": "s-engine",
+  "q": "What are the Seneca I engine limits for all operations?",
+  "a": "2700 RPM and 200 HP",
+  "d": [
+   "2600 RPM and 200 HP",
+   "2700 RPM and 180 HP",
+   "2575 RPM and 220 HP"
+  ],
+  "why": "The AFM engine limit for all operations is 2700 RPM, 200 HP. 2700 RPM is the tachometer red line.",
+  "src": "POH 3-1, 3-2",
+  "loc": "poh 059"
+ },
+ {
+  "id": "p2-026",
+  "topic": "s-engine",
+  "q": "What is the minimum fuel grade in the AFM limitations?",
+  "a": "100/130 octane aviation gasoline",
+  "d": [
+   "80/87 octane aviation gasoline",
+   "91/96 octane aviation gasoline",
+   "Any premium automotive gasoline"
+  ],
+  "why": "The limitation is 100/130 octane aviation gasoline minimum, and the filler cap placard reads '100/130 aviation grade.'",
+  "src": "POH 3-1, 3-5",
+  "loc": "poh 059"
+ },
+ {
+  "id": "p2-027",
+  "topic": "s-engine",
+  "q": "With the standard (non-damper) Hartzell propellers, what RPM range must be avoided for continuous operation?",
+  "a": "2200 to 2400 RPM",
+  "d": [
+   "2000 to 2200 RPM",
+   "2400 to 2600 RPM",
+   "1800 to 2000 RPM"
+  ],
+  "why": "These props carry a tachometer red arc from 2200 to 2400 RPM (avoid continuous operation), with green arcs at 500–2200 and 2400–2700 RPM. The damper-equipped props have no restricted range (green 500–2700 RPM).",
+  "src": "POH 3-1, 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-028",
+  "topic": "s-engine",
+  "q": "What are the oil temperature markings?",
+  "a": "Green 75°–245°F; red line 245°F",
+  "d": [
+   "Green 100°–245°F; red line 245°F",
+   "Green 75°–225°F; red line 225°F",
+   "Green 120°–240°F; red line 260°F"
+  ],
+  "why": "Oil temperature is normal from 75° to 245°F, with the maximum red line at 245°F. The cowl flap note also says oil temperature must never exceed 245°F.",
+  "src": "POH 3-1",
+  "loc": "poh 059"
+ },
+ {
+  "id": "p2-029",
+  "topic": "s-engine",
+  "q": "What are the oil pressure green and yellow arcs?",
+  "a": "Green 60–90 PSI; yellow 25–60 PSI",
+  "d": [
+   "Green 25–60 PSI; yellow 60–90 PSI",
+   "Green 60–90 PSI; yellow 90–100 PSI",
+   "Green 35–90 PSI; yellow 25–35 PSI"
+  ],
+  "why": "Green (normal) is 60–90 PSI and yellow (caution) is 25–60 PSI. The maximum red line is 90 PSI; the minimum red line is 25 or 60 PSI depending on the gauge installed.",
+  "src": "POH 3-1",
+  "loc": "poh 059"
+ },
+ {
+  "id": "p2-030",
+  "topic": "s-engine",
+  "q": "What are the fuel pressure markings?",
+  "a": "Green 14–35 PSI; red lines at 14 and 35 PSI",
+  "d": [
+   "Green 0.5–8 PSI; red lines at 0.5 and 8 PSI",
+   "Green 25–60 PSI; red lines at 25 and 60 PSI",
+   "Green 14–35 PSI; red line at 35 PSI only"
+  ],
+  "why": "Fuel pressure has a green arc of 14 to 35 PSI, with a minimum red line at 14 PSI and a maximum red line at 35 PSI.",
+  "src": "POH 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-031",
+  "topic": "s-engine",
+  "q": "What is the maximum (red line) on the fuel flow gauge?",
+  "a": "19.2 GPH",
+  "d": [
+   "14.9 GPH",
+   "20.6 GPH",
+   "16.5 GPH"
+  ],
+  "why": "The AFM power plant markings put the fuel flow red line (maximum) at 19.2 GPH.",
+  "src": "POH 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-032",
+  "topic": "s-engine",
+  "q": "What are the cylinder head temperature markings?",
+  "a": "Green 200°–475°F; red line 475°F",
+  "d": [
+   "Green 200°–500°F; red line 500°F",
+   "Green 150°–435°F; red line 435°F",
+   "Green 75°–245°F; red line 245°F"
+  ],
+  "why": "CHT is normal from 200° to 475°F with a 475°F red line. 75°–245°F is the oil temperature arc.",
+  "src": "POH 3-2",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-033",
+  "topic": "s-engine",
+  "q": "When does the AFM say the cowl flaps should be open?",
+  "a": "During ground operations and in climbs",
+  "d": [
+   "Only during takeoff and go-around",
+   "During descents and landing",
+   "Only when CHT nears the red line"
+  ],
+  "why": "Cowl flaps give manual control of engine temperature. In no case may CHT exceed 475°F or oil temperature 245°F.",
+  "src": "POH 3-7",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p2-034",
+  "topic": "s-engine",
+  "q": "Above what engine RPM must the propeller be turning for it to feather?",
+  "a": "800 RPM",
+  "d": [
+   "1,000 RPM",
+   "500 RPM",
+   "1,500 RPM"
+  ],
+  "why": "Below about 800 RPM, loss of centrifugal force lets a stop pin engage. The pin keeps the prop from feathering every time the engine is shut down on the ground.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-035",
+  "topic": "s-engine",
+  "q": "An engine fails and you delay. Before you move the prop control, the engine slows below 800 RPM. What happens?",
+  "a": "Stop pins engage and the prop will not feather",
+  "d": [
+   "The prop feathers normally, just more slowly",
+   "The prop feathers once the mixture is cut off",
+   "The prop feathers when the throttle is closed"
+  ],
+  "why": "The props feather only while turning above 800 RPM. If RPM drops below that, the centrifugal stop pins engage and hold the blades out of feather, leaving a draggy unfeathered prop.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-036",
+  "topic": "s-engine",
+  "q": "What does the AFM give as the cause of a propeller overspeed?",
+  "a": "Loss of the air charge in the prop dome",
+  "d": [
+   "A broken governor control cable",
+   "Cold oil during a winter climb",
+   "Feathering stop pins that fail to engage"
+  ],
+  "why": "Losing the dome air charge can let the prop overspeed if the throttle is advanced rapidly or airspeed is abruptly increased. The AFM adds that an overspeeding prop will not feather, so use the overspeed procedure instead.",
+  "src": "POH 3-18",
+  "loc": "poh 078"
+ },
+ {
+  "id": "p2-037",
+  "topic": "s-engine",
+  "q": "After recovering from a propeller overspeed, what can cause it to happen again?",
+  "a": "Throttle below 15–20 in. MP above 105 MPH, then adding power",
+  "d": [
+   "Any RPM above 2400 with the prop control fully forward",
+   "Climbing above 10,000 ft at full throttle and 2700 RPM",
+   "Throttle below 15–20 in. MP below 105 MPH, then adding power"
+  ],
+  "why": "The AFM warns that retarding the throttle below 15–20 inches MP at speeds above 105 MPH may let the prop overspeed again when power is reapplied. Use the same procedure to regain control.",
+  "src": "POH 3-18",
+  "loc": "poh 078"
+ },
+ {
+  "id": "p2-038",
+  "topic": "s-wb",
+  "q": "What are the Seneca I maximum takeoff and maximum landing weights?",
+  "a": "4,200 lb takeoff; 4,000 lb landing",
+  "d": [
+   "4,000 lb takeoff; 4,000 lb landing",
+   "4,200 lb takeoff; 4,200 lb landing",
+   "4,570 lb takeoff; 4,342 lb landing"
+  ],
+  "why": "The AFM and the weight placard give 4,200 lb maximum takeoff and 4,000 lb maximum landing weight.",
+  "src": "POH 3-3, 3-4 · OEG App 2",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-039",
+  "topic": "s-wb",
+  "q": "The AFM lists no separate zero-fuel weight. What does the weight placard effectively limit the non-fuel weight to?",
+  "a": "4,000 lb",
+  "d": [
+   "4,200 lb",
+   "3,800 lb",
+   "3,400 lb"
+  ],
+  "why": "The weight placard says 'All weight in excess of 4000 pounds must consist of fuel.' So the airplane, occupants and baggage without fuel cannot exceed 4,000 lb, which acts like a maximum zero-fuel weight.",
+  "src": "POH 3-4 · OEG App 2",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p2-040",
+  "topic": "s-wb",
+  "q": "What is the Seneca I aft CG limit?",
+  "a": "94.6 in aft of datum at all weights",
+  "d": [
+   "87.9 in aft of datum at all weights",
+   "94.6 in at 4,200 lb, less when lighter",
+   "96.6 in aft of datum at all weights"
+  ],
+  "why": "The aft limit is 94.6 inches at 2,780, 3,400 and 4,200 lb. Only the forward limit changes with weight.",
+  "src": "POH 3-3",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-041",
+  "topic": "s-wb",
+  "q": "What is the forward CG limit at the 4,200 lb maximum weight?",
+  "a": "87.9 in aft of datum",
+  "d": [
+   "80.7 in aft of datum",
+   "82.0 in aft of datum",
+   "94.6 in aft of datum"
+  ],
+  "why": "The forward limit is 80.7 in at 2,780 lb, 82.0 in at 3,400 lb and 87.9 in at 4,200 lb, varying in a straight line between points.",
+  "src": "POH 3-3",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-042",
+  "topic": "s-wb",
+  "q": "Your loaded weight is 3,800 lb. Using straight-line variation, what is the approximate forward CG limit?",
+  "a": "About 85.0 in aft of datum",
+  "d": [
+   "82.0 in aft of datum",
+   "87.9 in aft of datum",
+   "About 83.5 in aft of datum"
+  ],
+  "why": "3,800 lb is halfway between 3,400 lb (82.0 in) and 4,200 lb (87.9 in), so the limit is about 82.0 + 5.9/2 = 84.95 in. The AFM says to vary limits in a straight line between points.",
+  "src": "POH 3-3",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-043",
+  "topic": "s-wb",
+  "q": "Where is the Seneca I datum?",
+  "a": "78.4 in forward of the wing leading edge, at the inboard tank edge",
+  "d": [
+   "100 in forward of the wing leading edge, measured at the wing root",
+   "78.4 in forward of the firewall face, on the fuselage centerline",
+   "78.4 in aft of the propeller spinner tip, along the thrust line"
+  ],
+  "why": "The AFM places the datum 78.4 inches forward of the wing leading edge, measured from the inboard edge of the inboard fuel tank.",
+  "src": "POH 3-3 · OEG App 2",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-044",
+  "topic": "s-wb",
+  "q": "What is the Seneca I usable fuel capacity?",
+  "a": "46.5 gal per side, 93 gal total",
+  "d": [
+   "49 gal per side, 98 gal total",
+   "46.5 gal total in four tanks",
+   "45 gal per side, 90 gal total"
+  ],
+  "why": "Usable fuel is 46.5 gallons per side (two interconnected tanks each), 93 gallons total; the filler placard reads 'usable capacity 46.5 gal.' Unusable fuel is 2.5 gallons per side, so 98 gallons is the total including unusable.",
+  "src": "POH 3-3, 3-5",
+  "loc": "poh 061"
+ },
+ {
+  "id": "p2-045",
+  "topic": "s-wb",
+  "q": "What are the Seneca I baggage compartment limits?",
+  "a": "100 lb forward and 100 lb aft",
+  "d": [
+   "100 lb forward and 200 lb aft",
+   "200 lb forward and 100 lb aft",
+   "150 lb forward and 150 lb aft"
+  ],
+  "why": "Both the nose compartment door placard and the aft baggage closeout placard say 100 lb maximum. The aft placard adds 'No heavy objects on hat shelf.'",
+  "src": "POH 3-4 · OEG App 2",
+  "loc": "poh 062"
+ },
+ {
+  "id": "p2-046",
+  "topic": "s-normal",
+  "q": "What flap settings does the AFM give for normal takeoff and landing?",
+  "a": "Takeoff 0°; landing 40°",
+  "d": [
+   "Takeoff 10°; landing 40°",
+   "Takeoff 25°; landing 25°",
+   "Takeoff 0°; landing 25°"
+  ],
+  "why": "Section II lists takeoff 0° and landing 40°. 25° is the AFM's recommendation for a single-engine landing, not a normal one.",
+  "src": "POH 3-7 · OEG App 2",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p2-047",
+  "topic": "s-airframe",
+  "q": "How are the Seneca I flaps operated, and what does each handle notch give?",
+  "a": "Manually; 10°, 25° and 40°",
+  "d": [
+   "Electrically; 10°, 25° and 40°",
+   "Manually; 15°, 25° and 40°",
+   "Hydraulically; 10°, 20° and 40°"
+  ],
+  "why": "The flaps are manually operated: first notch 10°, second 25°, third 40°.",
+  "src": "POH 3-7",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p2-048",
+  "topic": "s-normal",
+  "q": "Per your school's go-around checklist, what comes right after throttles full forward and pitching up 10–12°?",
+  "a": "Flaps retract to 25°",
+  "d": [
+   "Landing gear up",
+   "Flaps fully retracted",
+   "Cowl flaps closed"
+  ],
+  "why": "School go-around: throttles full forward, pitch up 10–12°, flaps to 25°, landing gear up once the VSI shows a positive rate of climb, the remaining flaps below 125 MPH, then adjust the cowl flaps. (The printed AFM, POH 3-7, lists positive climb, flaps, then gear.)",
+  "src": "School checklist · POH 3-7",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p2-049",
+  "topic": "s-normal",
+  "q": "What does the AFM preflight check of the alternator system confirm?",
+  "a": "OV lights work; ammeters about equal at 1500+ RPM",
+  "d": [
+   "Each ammeter reads 60 A with all electrical loads on",
+   "OV lights stay out with both alternator switches off",
+   "Battery voltage rises as each alternator switch cycles"
+  ],
+  "why": "The check confirms the overvoltage lights operate and both ammeters show roughly equal outputs with both engines at 1500 RPM or more. Both alternator switches stay ON for normal operation.",
+  "src": "POH 3-8",
+  "loc": "poh 066"
+ },
+ {
+  "id": "p2-050",
+  "topic": "s-normal",
+  "q": "Except during engine cranking, what is the maximum output for each alternator?",
+  "a": "60 amperes",
+  "d": [
+   "50 amperes",
+   "70 amperes",
+   "40 amperes"
+  ],
+  "why": "Normal output should not exceed 60 A per alternator except while cranking. The emergency procedures limit the load to 50 A when relying on one alternator.",
+  "src": "POH 3-8",
+  "loc": "poh 066"
+ },
+ {
+  "id": "p2-051",
+  "topic": "s-normal",
+  "q": "What must you do to use the press-to-test feature of an overvoltage trip light?",
+  "a": "Turn that alternator switch OFF",
+  "d": [
+   "Turn the master switch OFF",
+   "Pull that alternator's circuit breaker",
+   "Reduce that engine to idle RPM"
+  ],
+  "why": "The AFM says the alternator switch must be OFF to use the press-to-test feature. The school run-up does this one alternator at a time.",
+  "src": "POH 3-7",
+  "loc": "poh 065"
+ },
+ {
+  "id": "p2-052",
+  "topic": "s-normal",
+  "q": "What is the normal fuel system setup for takeoff and landing?",
+  "a": "Selectors ON; electric fuel pumps ON",
+  "d": [
+   "Selectors ON; electric fuel pumps OFF",
+   "Selectors X-FEED; electric fuel pumps ON",
+   "Selectors ON; one electric pump ON"
+  ],
+  "why": "For takeoff and landing both selectors are ON and both electric pumps ON. In cruise the selectors stay ON and the pumps go OFF.",
+  "src": "POH 3-8",
+  "loc": "poh 066"
+ },
+ {
+  "id": "p2-053",
+  "topic": "s-normal",
+  "q": "Per the AFM, what can a fast taxi turn just before the takeoff run cause if the electric boost pumps are not ON?",
+  "a": "Temporary malfunction of one engine during takeoff",
+  "d": [
+   "Vapor lock in both engines during the climb",
+   "Overheating of the electric fuel pump motors",
+   "Fuel venting overboard through the tank vents"
+  ],
+  "why": "The AFM 'Turning takeoffs' note warns that fast taxi turns right before the takeoff run can briefly upset one engine's fuel supply on takeoff unless the boost pumps are ON. That is one reason the pumps are ON for takeoff and landing.",
+  "src": "POH 3-9",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p2-054",
+  "topic": "s-normal",
+  "q": "How are the Seneca I fuel tanks treated for tank selection?",
+  "a": "Each side's two interconnected tanks count as one",
+  "d": [
+   "Each of the four tanks is selected separately",
+   "Inboard tanks feed first, then outboard tanks",
+   "All four tanks feed one common manifold"
+  ],
+  "why": "Each engine normally draws from the two interconnected tanks on its own side, and the AFM treats them as a single tank for selection.",
+  "src": "POH 3-8",
+  "loc": "poh 066"
+ },
+ {
+  "id": "p2-055",
+  "topic": "s-normal",
+  "q": "With both engines running in cruise, may both engines be fed from the same tank?",
+  "a": "Yes, it is permissible in cruising flight",
+  "d": [
+   "No, crossfeed is for single-engine use only",
+   "Yes, but only for takeoff and landing",
+   "Only with both electric pumps ON"
+  ],
+  "why": "The AFM says it is permissible to operate both engines from the same tank in cruising flight. Crossfeed is used in level flight only.",
+  "src": "POH 3-9",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p2-056",
+  "topic": "s-normal",
+  "q": "When does the gear warning horn sound, per the AFM?",
+  "a": "At low throttle settings with the gear up",
+  "d": [
+   "Below 125 MPH with the gear up",
+   "When flaps pass 25° with the gear up",
+   "Whenever airspeed is below 105 MPH"
+  ],
+  "why": "The horn sounds at low throttle settings with the gear up. On N887SP (s/n 34-7350124) the red gear light also comes on whenever the horn sounds.",
+  "src": "POH 3-9",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p2-057",
+  "topic": "s-normal",
+  "q": "What maximum altitude loss does the AFM give for a power-off stall?",
+  "a": "Up to 450 ft, clean or with gear down and 40° flaps",
+  "d": [
+   "Up to 550 ft clean; 400 ft with gear and flaps down",
+   "Up to 250 ft in either configuration",
+   "Up to 500 ft clean; 300 ft with gear and flaps down"
+  ],
+  "why": "The AFM says a power-off stall may lose up to 450 ft with gear and flaps up and also up to 450 ft with gear down and 40° flaps.",
+  "src": "POH 3-19",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-058",
+  "topic": "s-normal",
+  "q": "What maximum altitude loss does the AFM give for a power-on stall, clean versus gear down and 40° flaps?",
+  "a": "Up to 550 ft clean; up to 400 ft with gear and flaps down",
+  "d": [
+   "Up to 450 ft clean; up to 550 ft with gear and flaps down",
+   "Up to 400 ft clean; up to 550 ft with gear and flaps down",
+   "Up to 550 ft in either configuration"
+  ],
+  "why": "Power-on stalls may lose up to 550 ft with gear and flaps up and up to 400 ft with gear down and 40° flaps.",
+  "src": "POH 3-19",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-059",
+  "topic": "s-airframe",
+  "q": "When is the Seneca I stall warning system inoperative?",
+  "a": "With the master switch off",
+  "d": [
+   "With the flaps beyond 25°",
+   "With the pitot heat off",
+   "With the gear down and locked"
+  ],
+  "why": "The stall warning is electric, and the AFM states it is inoperative with the master switch off.",
+  "src": "POH 3-19",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-060",
+  "topic": "s-airframe",
+  "q": "For flight into known icing, what propeller ice protection must be installed?",
+  "a": "Electrothermal propeller boots",
+  "d": [
+   "Alcohol slinger rings",
+   "Pneumatic propeller boots",
+   "Heated spinners only"
+  ],
+  "why": "The known-icing equipment list includes electrothermal propeller boots, along with the propeller governor shield and deflectors.",
+  "src": "POH 3-6 · OEG App 2",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-061",
+  "topic": "s-airframe",
+  "q": "What leading-edge ice protection must be installed for flight into known icing?",
+  "a": "Pneumatic wing and empennage boots",
+  "d": [
+   "Electrothermal leading-edge heaters",
+   "Fluid weeping panels",
+   "Bleed-air heated leading edges"
+  ],
+  "why": "The required list: pneumatic wing and empennage boots, electrothermal prop boots, electric windshield panel, heated pitot, anti-icing fuel vents, prop governor shield and deflectors, wing ice light and heated stall warning transmitters.",
+  "src": "POH 3-6 · OEG App 2",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-062",
+  "topic": "s-airframe",
+  "q": "An airplane has only the windshield heating installation, not the full ice package. What does the placard left of the engine controls say?",
+  "a": "Not approved for flight in icing conditions",
+  "d": [
+   "Approved for light icing with windshield heat on",
+   "Windshield heat limited to 30 seconds in flight",
+   "Compass unreliable with windshield heat on"
+  ],
+  "why": "With the windshield heat installation alone, the placard warns the airplane is NOT approved for flight in icing conditions. Icing approval needs the full equipment list in Section M.",
+  "src": "POH 3-6",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-063",
+  "topic": "s-airframe",
+  "q": "Upon entering probable icing conditions, which items does the AFM say to turn on immediately?",
+  "a": "Pitot heat, windshield heat and propeller deice",
+  "d": [
+   "Pitot heat, wing deice and propeller deice",
+   "Wing deice, windshield heat and alternate air",
+   "Windshield heat, wing deice and pitot heat"
+  ],
+  "why": "Pitot heat, windshield heat and prop deice go on immediately. Wing deice waits until 1/4 to 1/2 inch of ice has built up.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-064",
+  "topic": "s-airframe",
+  "q": "Per this AFM, when should the wing and tail deice boots be activated?",
+  "a": "After 1/4 to 1/2 inch of ice accumulates",
+  "d": [
+   "Immediately on entering icing conditions",
+   "After 1 inch of ice accumulates",
+   "Continuously, every 60 seconds in icing"
+  ],
+  "why": "The AFM warns that cycling the boots with less than 1/4 inch of ice can fail to remove it, and says not to hold the momentary deice switch ON.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-065",
+  "topic": "s-airframe",
+  "q": "The WING-TAIL DEICER panel light stays on for more than 20 seconds. What does the AFM say to do?",
+  "a": "Pull the surface deice circuit breaker",
+  "d": [
+   "Hold the deice switch on until it goes out",
+   "Cycle the master switch off and on",
+   "Turn off pitot heat to reduce the load"
+  ],
+  "why": "If the wing-tail deicer light stays lit for more than 20 seconds, pull the surface deice circuit breaker. Never hold the momentary deice switch ON.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-066",
+  "topic": "s-airframe",
+  "q": "What turns on the heat for the stall warning transmitters?",
+  "a": "The pitot heat switch",
+  "d": [
+   "The windshield heat switch",
+   "The surface deice switch",
+   "The master switch, automatically"
+  ],
+  "why": "The AFM states stall warning transmitter heat is activated by the pitot heat switch.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-067",
+  "topic": "s-airframe",
+  "q": "With ice on the unprotected surfaces in a prolonged encounter, how much can the stall speed increase?",
+  "a": "Up to 12 MPH",
+  "d": [
+   "Up to 5 MPH",
+   "Up to 25 MPH",
+   "Up to 20 MPH"
+  ],
+  "why": "Stall speed may rise by up to 12 MPH, and buffet begins only 5 to 10 MPH above the stall, so keep a substantial margin above normal stall speeds.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-068",
+  "topic": "s-airframe",
+  "q": "Ice remains on unprotected surfaces at the end of a two-engine flight. How does the AFM say to land?",
+  "a": "Full flaps, a little power, approach speed +10 to 15 MPH",
+  "d": [
+   "25° flaps, idle power, normal approach speed",
+   "Flaps up, a little power, approach speed +5 MPH",
+   "Full flaps, idle power, approach speed +20 to 25 MPH"
+  ],
+  "why": "With residual ice the AFM recommends full flaps, a slight amount of power when practical, and approach speeds 10 to 15 MPH higher. The 25° flap advice applies to the single-engine icing case.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-069",
+  "topic": "s-airframe",
+  "q": "In prolonged icing above 10,000 ft, cruise speed is decaying. What does the AFM say may be necessary?",
+  "a": "Descend to keep airspeed above 105 MPH CAS",
+  "d": [
+   "Climb above the icing layer at Vy",
+   "Set 2700 RPM and hold altitude",
+   "Extend 10° flaps to lower the stall speed"
+  ],
+  "why": "Ice can significantly reduce cruise speed. Above 10,000 ft it may be necessary to descend to stay above the best rate-of-climb speed of 105 MPH CAS.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-070",
+  "topic": "s-airframe",
+  "q": "What performance penalty does the AFM give for the ice protection installation?",
+  "a": "30 FPM less SE climb; SE ceiling 850 ft lower",
+  "d": [
+   "50 FPM less SE climb; SE ceiling 500 ft lower",
+   "30 FPM less two-engine climb; ceiling 850 ft lower",
+   "No performance change is published"
+  ],
+  "why": "Installing the ice protection equipment reduces single-engine climb rate by 30 FPM and single-engine service ceiling by 850 feet.",
+  "src": "POH 3-18a",
+  "loc": "poh 079"
+ },
+ {
+  "id": "p2-071",
+  "topic": "s-airframe",
+  "q": "Why does the AFM prohibit using the windshield electric anti-ice and the combustion heater at the same time?",
+  "a": "Together they cause excessive compass error",
+  "d": [
+   "Together they exceed one alternator's 60 A rating",
+   "The heater would overheat the heated panel",
+   "They share one fuel supply line"
+  ],
+  "why": "A placard near the heater controls says combustion heater operation prohibits windshield heat because of excessive compass error. Separately, the heater is not approved above 20,000 ft, and the windshield heat may not run over 30 seconds on the ground unless ice is on the panel.",
+  "src": "POH 3-29, 3-28",
+  "loc": "poh 091"
+ },
+ {
+  "id": "p2-072",
+  "topic": "s-emerg",
+  "q": "With coordinated controls, how does the AFM say you detect a dead engine?",
+  "a": "Loss of thrust; nose yaws toward the dead engine",
+  "d": [
+   "Loss of thrust; nose yaws toward the good engine",
+   "RPM drop; nose pitches down sharply",
+   "Loss of thrust; roll away from the dead engine"
+  ],
+  "why": "The AFM lists two cues: loss of thrust, and the nose yawing toward the dead engine. The good engine's thrust swings the nose toward the failed side.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-073",
+  "topic": "s-emerg",
+  "q": "Per the AFM feathering procedure (POH 3-11), step c says to maintain direction and airspeed above what speed?",
+  "a": "90 MPH",
+  "d": [
+   "80 MPH",
+   "105 MPH",
+   "76 MPH"
+  ],
+  "why": "The AFM lists Vmc 80 MPH and Vyse 105 MPH, then says to maintain direction and airspeed above 90 MPH. The school memory items instead target the blue line, 105 MPH.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-074",
+  "topic": "s-emerg",
+  "q": "Per the AFM feathering procedure, after mixtures, props and throttles forward, what are the next three steps?",
+  "a": "Flaps retract, gear retract, electric fuel pumps ON",
+  "d": [
+   "Identify, verify, then feather the inoperative engine",
+   "Gear retract, flaps retract, cowl flaps open on both",
+   "Electric fuel pumps ON, identify, then gear retract"
+  ],
+  "why": "The AFM order is mixtures, props, throttles forward; flaps up; gear up; electric pumps ON; then identify, retard the throttle to verify, and feather.",
+  "src": "POH 3-11 · OEG App 2",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-075",
+  "topic": "s-emerg",
+  "q": "Why does the AFM have you retard the throttle of the suspected inoperative engine before feathering?",
+  "a": "To verify it is the failed engine before feathering",
+  "d": [
+   "To cut drag from the windmilling prop before feathering",
+   "To keep the failed engine from overspeeding its prop",
+   "To slow the prop below 800 RPM so it can feather"
+  ],
+  "why": "'Throttle of inoperative engine - retard to verify.' Feathering the wrong (good) engine would leave you with no power, so confirm first.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-076",
+  "topic": "s-emerg",
+  "q": "You retard the throttle of the engine you think failed, and yaw and power noticeably change. What does that tell you?",
+  "a": "Wrong engine; re-advance it and re-identify",
+  "d": [
+   "Engine verified dead; feather it",
+   "Governor failed; pull the prop to low RPM",
+   "Engine flooded; pull its mixture to cutoff"
+  ],
+  "why": "Pulling back the dead engine's throttle changes nothing. A change in yaw or power means that engine was producing thrust, so restore it and identify again before feathering.",
+  "src": "POH 3-11 · FAA-H-8083-3",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-077",
+  "topic": "s-emerg",
+  "q": "Immediately after feathering the propeller, what is the next AFM step?",
+  "a": "Mixture of the inoperative engine to idle cutoff",
+  "d": [
+   "Magnetos of the inoperative engine OFF",
+   "Fuel selector of the inoperative engine OFF",
+   "Electric fuel pump of the inoperative engine OFF"
+  ],
+  "why": "After 'Propeller - feather' comes 'Mixture - idle cut off,' then trim, 5° bank, inoperative-engine pump OFF, magnetos OFF, cowl flaps, alternator OFF, electrical load, fuel OFF.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-078",
+  "topic": "s-emerg",
+  "q": "After feathering, how much bank does the AFM say to hold, and which way?",
+  "a": "5° toward the operating engine",
+  "d": [
+   "5° toward the inoperative engine",
+   "10° toward the operating engine",
+   "Wings level with the ball centered"
+  ],
+  "why": "Banking toward the good engine lets the horizontal component of lift help the rudder counter the yaw, reducing sideslip and drag.",
+  "src": "POH 3-11 · FAA-H-8083-3",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-079",
+  "topic": "s-emerg",
+  "q": "If circumstances permit, the AFM suggests trying to restore power before feathering. Which set matches its suggestions?",
+  "a": "Mixture as required, boost pump on, crossfeed, L or R mag, alt air on",
+  "d": [
+   "Mixture lean, boost pump off, selector off, both mags, alt air off",
+   "Mixture rich, boost pump off, selector on, both mags, carb heat on",
+   "Mixture cutoff, boost pump on, crossfeed, mags off, alt air on"
+  ],
+  "why": "The AFM note lists: mixture as required, fuel boost pump on, fuel selector crossfeed, magnetos L or R only, alternate air on.",
+  "src": "POH 3-11 · OEG App 2",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-080",
+  "topic": "s-emerg",
+  "q": "Why does the AFM direct feathering the propeller of a failed engine?",
+  "a": "Single-engine performance decreases if it is not feathered",
+  "d": [
+   "A windmilling prop will overspeed the propeller governor",
+   "Feathering is required before any in-flight restart",
+   "It keeps the stop pins from engaging as the engine slows"
+  ],
+  "why": "A windmilling prop creates large drag. The AFM states single-engine performance will decrease if the inoperative prop is not feathered.",
+  "src": "POH 3-11",
+  "loc": "poh 069"
+ },
+ {
+  "id": "p2-081",
+  "topic": "s-emerg",
+  "q": "Per your school's air-start checklist, what is the first step to unfeather and restart an engine?",
+  "a": "Fuel selector of the inoperative engine ON",
+  "d": [
+   "Starter engaged until the prop windmills",
+   "Mixture of the inoperative engine rich",
+   "Propeller control full forward"
+  ],
+  "why": "School air start: fuel selector (inop engine) ON, its fuel pump OFF, throttle open 1/4 inch, prop control full forward, mixture rich, magnetos ON, starter until the prop windmills, throttle reduced until the engine is warm, zero thrust set, alternator ON, cowl flaps open when warm.",
+  "src": "School checklist · POH 3-12",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-082",
+  "topic": "s-emerg",
+  "q": "In the Seneca I AFM unfeathering procedure, what gets the feathered propeller turning?",
+  "a": "Engaging the starter until the prop windmills",
+  "d": [
+   "An unfeathering accumulator, as the prop moves forward",
+   "Diving until the prop windmills above 800 RPM",
+   "Turning the electric fuel pump on for 3 seconds"
+  ],
+  "why": "The AFM procedure uses the starter: 'Starter - engage till prop windmills.' It has no accumulator step.",
+  "src": "POH 3-12 · OEG App 2",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-083",
+  "topic": "s-emerg",
+  "q": "Per your school's air-start checklist, where does the propeller control go when unfeathering?",
+  "a": "Full forward (high RPM)",
+  "d": [
+   "In the feather detent until the engine fires",
+   "Full aft (low RPM) until the engine is warm",
+   "Left where it was before the engine failed"
+  ],
+  "why": "The school air-start checklist sets the propeller control full forward, then engages the starter until the prop windmills. (The printed AFM, POH 3-12, says forward to the cruise RPM position.)",
+  "src": "School checklist · POH 3-12",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-084",
+  "topic": "s-emerg",
+  "q": "Single-engine cruise: you want fuel from the tank on the dead engine's side. How are the selectors set?",
+  "a": "Operating engine X-FEED; inoperative engine OFF",
+  "d": [
+   "Operating engine ON; inoperative engine X-FEED",
+   "Both selectors X-FEED",
+   "Operating engine X-FEED; inoperative engine ON"
+  ],
+  "why": "The operating engine's selector goes to X-FEED and the dead engine's to OFF; electric pumps stay OFF unless the operating engine's driven pump fails. Crossfeed exists to increase single-engine range and is used in level flight only.",
+  "src": "POH 3-12 · OEG App 2",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-085",
+  "topic": "s-emerg",
+  "q": "For a single-engine landing, how does the AFM set up the fuel system?",
+  "a": "Operating ON, inop OFF, operating electric pump ON",
+  "d": [
+   "Operating X-FEED, inop OFF, both electric pumps OFF",
+   "Both selectors ON, both electric pumps ON for landing",
+   "Operating ON, inop OFF, all electric pumps OFF"
+  ],
+  "why": "For landing: operating engine selector ON, inoperative engine OFF, and the operating engine's electric pump ON.",
+  "src": "POH 3-12 · OEG App 2",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-086",
+  "topic": "s-emerg",
+  "q": "An engine fails during the takeoff roll at 85 MPH CAS. What does the AFM say to do?",
+  "a": "Close both throttles immediately; stop straight ahead",
+  "d": [
+   "Continue the takeoff and feather once safely airborne",
+   "Close only the failed engine's throttle and stop",
+   "Rotate early at 90 MPH and climb out at 105 MPH"
+  ],
+  "why": "If the failure happens on the ground roll before 100 MPH CAS, the AFM says close both throttles immediately and stop straight ahead.",
+  "src": "POH 3-12a · OEG App 2",
+  "loc": "poh 071"
+ },
+ {
+  "id": "p2-087",
+  "topic": "s-emerg",
+  "q": "After an abort below 100 MPH, the remaining runway is inadequate to stop. What does the AFM add?",
+  "a": "Max braking, master OFF, fuel selectors OFF",
+  "d": [
+   "Gear up, feather both props, flaps up",
+   "Max braking, mixtures rich, props forward",
+   "Flaps up, master ON, electric pumps ON"
+  ],
+  "why": "With throttles closed: apply maximum braking, master switch OFF, fuel selectors OFF, and continue straight ahead, turning to avoid obstacles as needed.",
+  "src": "POH 3-12a · OEG App 2",
+  "loc": "poh 071"
+ },
+ {
+  "id": "p2-088",
+  "topic": "s-emerg",
+  "q": "An engine fails just after liftoff, gear still down, at 102 MPH CAS, with plenty of runway left. What does the AFM say?",
+  "a": "Close both throttles, land, and stop straight ahead",
+  "d": [
+   "Retract the gear and continue the climb at 105 MPH",
+   "Feather the dead engine and climb straight ahead",
+   "Lower the nose to 105 MPH and circle back to land"
+  ],
+  "why": "At or above 100 MPH with gear down, if adequate runway remains: close both throttles immediately, land if airborne, and stop straight ahead.",
+  "src": "POH 3-12a · OEG App 2",
+  "loc": "poh 071"
+ },
+ {
+  "id": "p2-089",
+  "topic": "s-emerg",
+  "q": "You decide to continue after an engine failure on takeoff. What order does the AFM give?",
+  "a": "Hold heading and airspeed, gear up once climbing, feather",
+  "d": [
+   "Feather, then gear up, then hold heading and airspeed",
+   "Gear up immediately, feather, then establish the climb",
+   "Hold heading, feather, then raise the gear at 500 ft AGL"
+  ],
+  "why": "If continuing: maintain heading and airspeed, retract the gear when a climb is established, then feather. The AFM bases the continue/abort decision on loading, density altitude, obstructions, weather and pilot competence.",
+  "src": "POH 3-12a · OEG App 2",
+  "loc": "poh 071"
+ },
+ {
+  "id": "p2-090",
+  "topic": "s-emerg",
+  "q": "An engine fails in the climb at 78 MPH CAS. What does the AFM say to do first?",
+  "a": "Reduce power on the good engine to keep directional control",
+  "d": [
+   "Full power on both engines and feather the dead engine",
+   "Raise the nose to hold altitude, then feather the dead engine",
+   "Feather the dead engine first, then lower the nose"
+  ],
+  "why": "Below the 80 MPH Vmc, full power on the good engine can yaw the airplane beyond rudder authority. Reduce that power as needed to keep directional control.",
+  "src": "POH 3-13 · OEG App 2",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-091",
+  "topic": "s-emerg",
+  "q": "Below Vmc after an engine failure, you have reduced power on the good engine. What does the AFM say next?",
+  "a": "Lower the nose toward 105 MPH, then feather",
+  "d": [
+   "Feather first, then lower the nose to hold 90 MPH",
+   "Hold the attitude, add rudder trim, then feather",
+   "Lower the nose to 80 MPH and hold it there"
+  ],
+  "why": "The AFM: reduce nose attitude to accelerate toward the 105 MPH single-engine best rate-of-climb speed, then feather the inoperative engine.",
+  "src": "POH 3-13",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-092",
+  "topic": "s-emerg",
+  "q": "An engine fails in the climb at 95 MPH CAS. What are the AFM steps?",
+  "a": "Maintain control, adjust toward 105 MPH, feather",
+  "d": [
+   "Reduce good-engine power, lower nose, feather",
+   "Maintain control, slow to 90 MPH, feather",
+   "Feather, then accelerate to 120 MPH"
+  ],
+  "why": "Above 80 MPH: maintain directional control, adjust airspeed toward 105 MPH (Vyse), and feather the inoperative engine.",
+  "src": "POH 3-13 · OEG App 2",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-093",
+  "topic": "s-emerg",
+  "q": "Per the AFM (POH 3-13), when should the landing gear and wing flaps be extended for a single-engine landing?",
+  "a": "Not until certain of making the field",
+  "d": [
+   "At the final approach fix, as usual",
+   "Gear on downwind, flaps on base",
+   "Gear at 1,000 ft AGL, flaps at 500 ft AGL"
+  ],
+  "why": "The AFM says do not extend the landing gear or lower the flaps until certain of making the field. Their drag on one engine can make a go-around impossible.",
+  "src": "POH 3-13 · OEG App 2",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-094",
+  "topic": "s-emerg",
+  "q": "What final approach speed and flap setting does the AFM recommend for a single-engine landing?",
+  "a": "105 MPH with 25° flaps",
+  "d": [
+   "90 MPH with 40° flaps",
+   "105 MPH with 40° flaps",
+   "87 MPH with 25° flaps"
+  ],
+  "why": "A final approach at 105 MPH using 25° rather than full flaps puts the airplane in the best configuration for a go-around, should one be needed.",
+  "src": "POH 3-13 · OEG App 2",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-095",
+  "topic": "s-emerg",
+  "q": "Why does the AFM recommend 25° rather than full flaps for a single-engine landing?",
+  "a": "It leaves the airplane best set up for a go-around",
+  "d": [
+   "40° flaps exceed the single-engine flap speed limit",
+   "Full flaps blank the rudder at low airspeeds",
+   "The stall speed is lower with 25° than with 40°"
+  ],
+  "why": "Less flap means less drag if power must be added. Even so, the AFM says a single-engine go-around should be avoided if at all possible and may be impossible under some loading and density altitude conditions.",
+  "src": "POH 3-13",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-096",
+  "topic": "s-emerg",
+  "q": "Per the AFM single-engine go-around, after mixture, prop and throttle forward, what comes next?",
+  "a": "Flaps retract, then landing gear retract",
+  "d": [
+   "Landing gear retract, then flaps retract",
+   "Cowl flaps open, then landing gear retract",
+   "Trim set, then flaps retract to 25°"
+  ],
+  "why": "AFM sequence: mixture, prop, throttle forward; flaps up; gear up; airspeed 105 MPH (Vyse); trim set; cowl flap as required on the operating engine.",
+  "src": "POH 3-13 · OEG App 2",
+  "loc": "poh 073"
+ },
+ {
+  "id": "p2-097",
+  "topic": "s-emerg",
+  "q": "Before a daytime manual gear extension, the AFM has you turn the navigation lights OFF. Why?",
+  "a": "Gear lights dim with nav lights on, hard to see by day",
+  "d": [
+   "The nav lights share a circuit with the hydraulic gear pump",
+   "It frees electrical power for the emergency gear extension",
+   "The gear warning horn is disabled with the nav lights on"
+  ],
+  "why": "The AFM notes the gear indicator lights are dimmed while the navigation lights are on, so in daylight you might not see three greens. The other pre-checks are circuit breakers, master ON and alternators.",
+  "src": "POH 3-9, 3-14",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-098",
+  "topic": "s-emerg",
+  "q": "What is the maximum airspeed for manual (emergency) gear extension?",
+  "a": "100 MPH",
+  "d": [
+   "125 MPH",
+   "150 MPH",
+   "105 MPH"
+  ],
+  "why": "The AFM says reduce power with airspeed not to exceed 100 MPH, then put the selector DOWN, pull the emergency knob and check three greens.",
+  "src": "POH 3-14 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-099",
+  "topic": "s-emerg",
+  "q": "After an emergency gear extension due to a malfunction, how long should the knob stay pulled out?",
+  "a": "Until the airplane is on jacks and the gear systems are checked",
+  "d": [
+   "Until the landing rollout is complete and the airplane is parked",
+   "Until the red unsafe light goes out after touchdown",
+   "Until the next 100-hour inspection is completed"
+  ],
+  "why": "The AFM warning says leave the control out until the airplane is on jacks to check the gear's hydraulic and electrical systems. The placard says 'See A.F.M. before re-engagement.'",
+  "src": "POH 3-14, 3-4 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-100",
+  "topic": "s-emerg",
+  "q": "When does the red landing gear unsafe light illuminate on N887SP (s/n 34-7350124)?",
+  "a": "Gear in transit, or whenever the gear horn sounds",
+  "d": [
+   "Only when the gear is up and locked",
+   "Only when a gear leg fails to lock down",
+   "Gear in transit, or whenever the stall horn sounds"
+  ],
+  "why": "The light shows the gear in transition. On serial numbers 34-7250046 and up it also lights with the gear warning horn, and it is off when the gear is fully up or down and locked.",
+  "src": "POH 3-9, 3-14 · OEG App 2",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p2-101",
+  "topic": "s-emerg",
+  "q": "After a normal gear extension the red unsafe light stays on. What does the AFM say to do?",
+  "a": "Recycle the landing gear",
+  "d": [
+   "Pull the emergency gear knob immediately",
+   "Land; it is only an indication fault",
+   "Pull the gear pump circuit breaker"
+  ],
+  "why": "The red light means the gear is between fully up and down-and-locked. The AFM says to recycle the gear if the light stays on.",
+  "src": "POH 3-14 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-102",
+  "topic": "s-emerg",
+  "q": "Why does the AFM say to leave the flaps up for a gear-up landing?",
+  "a": "To reduce wing and flap damage",
+  "d": [
+   "To lower the touchdown speed",
+   "To keep the stall warning working",
+   "To keep the CG within limits"
+  ],
+  "why": "Gear-up landing: approach with power at normal speed, flaps up to limit damage, close throttles just before touchdown, master and ignition OFF, fuel selectors OFF, touch down at minimum speed.",
+  "src": "POH 3-14 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-103",
+  "topic": "s-emerg",
+  "q": "Per the AFM, both overvoltage lights come on. You turn off all loads except the master, and both alternator switches OFF. What next?",
+  "a": "Turn each alternator on briefly, one at a time, watching ammeters",
+  "d": [
+   "Turn both alternators on together and compare the two ammeters",
+   "Leave both alternators off and land on battery power alone",
+   "Cycle the master switch off, then back on after 10 seconds"
+  ],
+  "why": "The AFM has you briefly switch each alternator ON, one at a time, to compare outputs, then keep the one showing the least output.",
+  "src": "POH 3-14 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-104",
+  "topic": "s-emerg",
+  "q": "Per the AFM both-overvoltage-lights procedure, which alternator do you turn back ON?",
+  "a": "The one showing the LEAST output",
+  "d": [
+   "The one showing the MOST output",
+   "Either one; they are identical",
+   "The one on the critical engine"
+  ],
+  "why": "A failed regulator drives its alternator's output up uncontrollably, so the lower-output alternator is the healthy one. Then keep the load at or below 50 A.",
+  "src": "POH 3-14, 3-7 · OEG App 2",
+  "loc": "poh 074"
+ },
+ {
+  "id": "p2-105",
+  "topic": "s-emerg",
+  "q": "After an overvoltage trip or loss of one alternator, what electrical load limit does the AFM give?",
+  "a": "Do not exceed 50 amperes",
+  "d": [
+   "Do not exceed 60 amperes",
+   "Do not exceed 30 amperes",
+   "Do not exceed 70 amperes"
+  ],
+  "why": "The electrical failure procedures repeatedly limit output to 50 A. 60 A is the normal maximum per alternator.",
+  "src": "POH 3-15",
+  "loc": "poh 075"
+ },
+ {
+  "id": "p2-106",
+  "topic": "s-emerg",
+  "q": "Per your school checklist, one overvoltage light comes on. After loads off and that alternator OFF, what next?",
+  "a": "Alternator ON; if more than 50 amps, OFF; load 50 A max",
+  "d": [
+   "Reset its circuit breaker, then leave it ON at any load",
+   "Turn the other alternator OFF and keep this one ON",
+   "Leave it OFF and the master OFF for the rest of the flight"
+  ],
+  "why": "School checklist (Overvoltage Light — One): all electrical load off, master on, that alternator off, then on — if it shows more than 50 amps, off — and keep electrical equipment to no more than 50 amps. (The printed AFM, POH 3-15, switches it on only momentarily to confirm excessive output, then leaves it off.)",
+  "src": "School checklist · POH 3-15",
+  "loc": "poh 075"
+ },
+ {
+  "id": "p2-107",
+  "topic": "s-emerg",
+  "q": "One alternator loses output (no overvoltage light). What does the AFM say to do?",
+  "a": "Load 50 A max, check breakers, cycle that alternator OFF then ON",
+  "d": [
+   "Load 60 A max, check breakers, cycle the master OFF then ON",
+   "Turn off the good alternator, then reset both overvoltage relays",
+   "Shed all electrical loads and land immediately"
+  ],
+  "why": "If cycling the switch does not restore output, keep the load at or below 50 A to continue, and get maintenance before further flight.",
+  "src": "POH 3-15 · OEG App 2",
+  "loc": "poh 075"
+ },
+ {
+  "id": "p2-108",
+  "topic": "s-emerg",
+  "q": "What warning does the AFM give when both alternators are inoperative?",
+  "a": "Compass error may exceed 10°",
+  "d": [
+   "Fuel gauges will read inaccurately",
+   "Vacuum instruments will be unreliable",
+   "Gear position lights will not work"
+  ],
+  "why": "The AFM warns that compass error may exceed 10° with both alternators inoperative.",
+  "src": "POH 3-15",
+  "loc": "poh 075"
+ },
+ {
+  "id": "p2-109",
+  "topic": "s-emerg",
+  "q": "What does the red button annunciator in the vacuum system indicate?",
+  "a": "A feathered engine or failed vacuum pump",
+  "d": [
+   "Vacuum above the 5.2 in. Hg upper limit",
+   "A clogged gyro instrument air filter",
+   "Low oil pressure to that engine's prop governor"
+  ],
+  "why": "Each engine drives a vacuum pump. The red button shows when one pump is not supplying vacuum, whether because it failed or its engine is feathered.",
+  "src": "POH 3-16",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-110",
+  "topic": "s-emerg",
+  "q": "Vacuum reads below 4.5 in. Hg. What does the AFM say to do?",
+  "a": "Increase RPM to 2700; descend if needed to hold 4.5",
+  "d": [
+   "Reduce RPM to 2200 and climb to cooler, denser air",
+   "Shut down the engine with the failed vacuum pump",
+   "Turn on the standby electric vacuum pump and continue"
+  ],
+  "why": "Raise RPM to 2700, descend if possible to where 4.5 in. Hg can be held, and use the electric turn indicator to monitor the attitude and heading indicators.",
+  "src": "POH 3-16",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-111",
+  "topic": "s-emerg",
+  "q": "Engine fire in flight. What is the first AFM step for the affected engine?",
+  "a": "Fuel selector OFF",
+  "d": [
+   "Throttle CLOSE",
+   "Mixture IDLE CUT OFF",
+   "Propeller FEATHER"
+  ],
+  "why": "AFM order for the affected engine: fuel selector OFF, throttle close, propeller feather, mixture idle cutoff; then heater OFF and defroster OFF (in all cases of fire), and land immediately if terrain permits.",
+  "src": "POH 3-16 · OEG App 2",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-112",
+  "topic": "s-emerg",
+  "q": "Engine fire in flight: after fuel selector OFF and throttle closed, what comes next?",
+  "a": "Propeller FEATHER, then mixture IDLE CUT OFF",
+  "d": [
+   "Mixture IDLE CUT OFF, then propeller FEATHER",
+   "Magnetos OFF, then cowl flaps OPEN",
+   "Propeller FEATHER, then master switch OFF"
+  ],
+  "why": "The AFM feathers the prop before the mixture goes to idle cutoff, then turns off the heater and defroster and lands immediately if terrain permits.",
+  "src": "POH 3-16 · OEG App 2",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-113",
+  "topic": "s-emerg",
+  "q": "An engine catches fire during start, before it is running. What does the AFM say to do?",
+  "a": "Mixture idle cutoff, throttle open, keep cranking",
+  "d": [
+   "Stop cranking, fuel selector OFF, evacuate",
+   "Mixture rich, throttle closed, keep cranking",
+   "Master OFF, magnetos OFF, evacuate"
+  ],
+  "why": "Cranking with the mixture at idle cutoff and the throttle open tries to pull the fire into the engine. If it persists more than a few seconds, use external extinguishing with fuel selectors OFF.",
+  "src": "POH 3-16 · OEG App 2",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-114",
+  "topic": "s-emerg",
+  "q": "A fire starts during engine start, but the engine has started and is running. What does the AFM say?",
+  "a": "Keep it running to pull the fire into the engine",
+  "d": [
+   "Shut it down at once with the mixture cutoff",
+   "Reduce to idle and turn the electric fuel pump off",
+   "Shut it down, then restart it to clear the fire"
+  ],
+  "why": "Keep the engine running to try to draw the fire in. If the fire lasts more than a few seconds, put it out by the best available external means, with fuel selectors OFF and mixture at idle cutoff.",
+  "src": "POH 3-16 · OEG App 2",
+  "loc": "poh 076"
+ },
+ {
+  "id": "p2-115",
+  "topic": "s-emerg",
+  "q": "In an unintentional spin, what is the AFM's first recovery step?",
+  "a": "Retard both throttles to idle",
+  "d": [
+   "Full rudder opposite the rotation",
+   "Control wheel full forward",
+   "Ailerons opposite the rotation"
+  ],
+  "why": "AFM order: throttles idle, full opposite rudder, release back pressure (push full forward if the nose doesn't drop), ailerons neutral, hold until rotation stops, neutralize rudder, smooth pull-out.",
+  "src": "POH 3-17 · OEG App 2",
+  "loc": "poh 077"
+ },
+ {
+  "id": "p2-116",
+  "topic": "s-emerg",
+  "q": "Why does the AFM warn against abrupt control movement in the dive after spin recovery?",
+  "a": "The positive limit load factor may be exceeded",
+  "d": [
+   "It can overspeed both propellers in the dive",
+   "It can unport the fuel pickups in the tanks",
+   "It can restart the rotation in the opposite direction"
+  ],
+  "why": "Pull out of the dive with smooth back pressure; an abrupt pull can exceed the 3.8 G positive limit maneuvering load factor.",
+  "src": "POH 3-17",
+  "loc": "poh 077"
+ },
+ {
+  "id": "p2-117",
+  "topic": "s-emerg",
+  "q": "An engine fails in icing conditions. What does the AFM say to try first?",
+  "a": "Select alternate air and attempt a restart",
+  "d": [
+   "Feather immediately and descend out of the ice",
+   "Turn on propeller deice, then attempt a restart",
+   "Increase RPM to 2700 to shed ice from the prop"
+  ],
+  "why": "Induction icing may be the cause, so select ALTERNATE AIR and try to restart. If it won't restart, feather and follow the icing engine-out steps.",
+  "src": "POH 3-17 · OEG App 2",
+  "loc": "poh 077"
+ },
+ {
+  "id": "p2-118",
+  "topic": "s-emerg",
+  "q": "The engine won't restart after a failure in icing. What minimum airspeed does the AFM specify?",
+  "a": "105 MPH CAS, including on final",
+  "d": [
+   "90 MPH CAS, then 80 MPH on final",
+   "105 MPH CAS, then 90 MPH on final",
+   "120 MPH CAS, then 105 MPH on final"
+  ],
+  "why": "Maintain at least 105 MPH CAS, descending if needed to hold it; reduce electrical loads, avoid further icing, land as soon as practical, keep 105 MPH on final, and use 25° rather than full flaps. Gear and flaps wait until certain of making the field.",
+  "src": "POH 3-17",
+  "loc": "poh 077"
+ },
+ {
+  "id": "p2-119",
+  "topic": "s-emerg",
+  "q": "An alternator fails in icing and can't be restored. Which avionics does the AFM say to keep on?",
+  "a": "One NAV/COM and the transponder",
+  "d": [
+   "All avionics; shed windshield heat only",
+   "The autopilot and one NAV/COM",
+   "Only the transponder"
+  ],
+  "why": "Also turn off the electric windshield to hold a 60 A load and leave icing as soon as practical. The windshield may be turned on before landing; the battery may run down and the gear may need free-fall extension.",
+  "src": "POH 3-17",
+  "loc": "poh 077"
+ },
+ {
+  "id": "p2-120",
+  "topic": "s-emerg",
+  "q": "What is the first step if a propeller overspeeds?",
+  "a": "Close the throttle",
+  "d": [
+   "Pull the prop control to feather",
+   "Pull the mixture to idle cutoff",
+   "Raise the nose to slow to Vx"
+  ],
+  "why": "Overspeed procedure: close throttle, slow to best rate-of-climb speed, prop control back to low RPM, slowly add throttle until the governor engages, then set power. Continue at reduced speed and power and land as soon as practical.",
+  "src": "POH 3-18 · OEG App 2",
+  "loc": "poh 078"
+ },
+ {
+  "id": "p2-121",
+  "topic": "s-emerg",
+  "q": "Propeller overspeed: after closing the throttle and slowing to best rate-of-climb speed, what is next?",
+  "a": "Pull the prop control back to low RPM",
+  "d": [
+   "Move the prop control to feather",
+   "Advance the throttle to re-engage the governor",
+   "Shut down the engine with mixture cutoff"
+  ],
+  "why": "With the prop control at low RPM, slowly increase throttle until the governor takes hold, then slowly bring prop and throttle up to the desired setting.",
+  "src": "POH 3-18 · OEG App 2",
+  "loc": "poh 078"
+ },
+ {
+  "id": "p2-122",
+  "topic": "s-emerg",
+  "q": "The cabin combustion heater overheats. What happens, per the AFM?",
+  "a": "Fuel, air and ignition to the heater cut off automatically",
+  "d": [
+   "The heater fan speeds up to cool the combustion chamber",
+   "The heater keeps running at low output until it is reset",
+   "Only the ignition cuts off; fuel continues to flow"
+  ],
+  "why": "Overheat cuts off the heater automatically. Do not restart it until it has been inspected and the cause found and corrected. The overheat light on the heater console comes on as well.",
+  "src": "POH 3-29 · OEG App 2",
+  "loc": "poh 091"
+ },
+ {
+  "id": "p2-123",
+  "topic": "s-emerg",
+  "q": "With the AltiMatic IIIB-1 engaged, an engine fails. What does the supplement say to do?",
+  "a": "Disengage, retrim ball centered, do engine-out procedure, re-engage",
+  "d": [
+   "Leave it engaged and let it hold heading while you secure the engine",
+   "Select heading hold, then perform the normal engine-out procedure",
+   "Disengage and do not re-engage it at any time before landing"
+  ],
+  "why": "The supplement says disengage and retrim, keep the airplane in trim with the ball centered throughout, perform the normal engine-out procedure, then re-engage.",
+  "src": "POH 3-25",
+  "loc": "poh 088"
+ },
+ {
+  "id": "p2-124",
+  "topic": "s-speeds",
+  "q": "Per the FAA-approved AFM limitations, what is the maximum speed for extending even the first notch (10°) of flaps?",
+  "a": "125 MPH, the single Vfe for every setting",
+  "d": [
+   "160 MPH, from the staged flap table",
+   "140 MPH, the second-notch figure",
+   "150 MPH, the gear-extended limit"
+  ],
+  "why": "The AFM limitations give one maximum flaps-extended speed, 125 MPH CAS, which is also the top of the white arc and the placarded figure. POH 6-10 prints higher staged speeds for 10° and 25°, but that is not the approved limitation; POH 7-1 also says flaps may be lowered up to 125 MPH.",
+  "src": "POH 3-2, 3-5",
+  "loc": "poh 060"
+ },
+ {
+  "id": "p2-125",
+  "topic": "s-speeds",
+  "q": "What is the placarded maximum speed for opening the storm window?",
+  "a": "150 MPH",
+  "d": [
+   "125 MPH",
+   "133 MPH",
+   "105 MPH"
+  ],
+  "why": "The storm window placard reads 'Do not open above 150 MPH.' 150 MPH is also the gear-extended limit and the doors-removed maximum speed.",
+  "src": "POH 3-6",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-126",
+  "topic": "s-engine",
+  "q": "Per the instrument panel placard, when must the oil cooler winterization plate be removed?",
+  "a": "When ambient temperature exceeds 50°F",
+  "d": [
+   "When ambient temperature exceeds 32°F",
+   "When oil temperature exceeds 245°F",
+   "When ambient temperature exceeds 70°F"
+  ],
+  "why": "The placard says to remove the winterization plate when the ambient temperature exceeds 50°F. Left on in warm weather, it restricts oil cooling.",
+  "src": "POH 3-6",
+  "loc": "poh 064"
+ },
+ {
+  "id": "p2-127",
+  "topic": "s-normal",
+  "q": "Where are the Seneca I circuit breakers, and how does the AFM say to reset one?",
+  "a": "Lower right of the panel; push in the reset button",
+  "d": [
+   "Lower left of the panel; pull out, then push in",
+   "Overhead panel; toggle the breaker off, then on",
+   "Lower right of the panel; cycle the master switch"
+  ],
+  "why": "All circuit breakers are grouped in the lower right corner of the instrument panel and are reset by pushing in the button. The Operating Tips (POH 7-1) add a two to five minute cooling period before resetting.",
+  "src": "POH 3-8 · OEG App 2",
+  "loc": "poh 066"
+ },
+ {
+  "id": "p2-128",
+  "topic": "s-emerg",
+  "q": "Single-engine cruise with the electric pumps OFF: when does the AFM say the operating engine's electric fuel pump must be used?",
+  "a": "If its engine-driven fuel pump fails",
+  "d": [
+   "Whenever crossfeed is selected",
+   "Whenever the dead engine is feathered",
+   "Whenever above 10,000 ft density altitude"
+  ],
+  "why": "In single-engine cruise the electric pumps stay OFF, from the same side or on crossfeed, except that an engine-driven pump failure requires the electric pump on the operating engine's side. It goes back ON for the landing.",
+  "src": "POH 3-8, 3-12 · OEG App 2",
+  "loc": "poh 070"
+ },
+ {
+  "id": "p2-129",
+  "topic": "s-normal",
+  "q": "Per the AFM, how does removing the rear cabin and cargo doors affect climb and cruise performance?",
+  "a": "Both are reduced by about 5 percent",
+  "d": [
+   "Both are reduced by about 15 percent",
+   "Climb drops 5 percent; cruise is unchanged",
+   "No change; only Vmc rises to 81 MPH"
+  ],
+  "why": "All climb and cruise performance drops about five percent with the doors off. The doors-off limits also include 150 MPH maximum, 81 MPH Vmc and VFR non-icing only.",
+  "src": "POH 3-19, 3-9",
+  "loc": "poh 081"
+ },
+ {
+  "id": "p2-130",
+  "topic": "s-airframe",
+  "q": "If the optional electric pitch trim malfunctions, how does its AFM supplement say to disengage it?",
+  "a": "Operate the push-button trim switch on the instrument panel",
+  "d": [
+   "Depress the center bar on the control wheel switch",
+   "Pull the stabilator trim cable release knob",
+   "Cycle both alternator switches OFF, then ON"
+  ],
+  "why": "The supplement says to disengage electric trim with the push-button trim switch on the panel, and in an emergency it can be overpowered with the manual trim wheel. Pressing the center bar is part of normal operation, not a disconnect.",
+  "src": "POH 3-23 · OEG App 2",
+  "loc": "poh 085"
+ }
+]

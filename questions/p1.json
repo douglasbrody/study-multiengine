@@ -1,0 +1,1794 @@
+[
+ {
+  "id": "p1-001",
+  "topic": "s-speeds",
+  "q": "In the Seneca I General Specifications, what is the minimum controllable single-engine speed (Vmc)?",
+  "a": "80 MPH",
+  "d": [
+   "76 MPH",
+   "90 MPH",
+   "105 MPH"
+  ],
+  "why": "POH 1-1 lists 80 MPH at both 4,000 and 4,200 lb; it is the red radial line on the airspeed indicator. 76 MPH is a gear-down, flaps-up stall speed, 90 MPH is Vx and 105 MPH is Vyse.",
+  "src": "POH 1-1",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-002",
+  "topic": "s-speeds",
+  "q": "Per the Seneca I specifications, what are the best rate-of-climb speed (Vy) and the best single-engine rate-of-climb speed (Vyse)?",
+  "a": "Both are 105 MPH (91.5 kt)",
+  "d": [
+   "Vy 105 MPH (91.5 kt); Vyse 90 MPH (78 kt)",
+   "Vy 120 MPH; Vyse 105 MPH (91.5 kt)",
+   "Both are 90 MPH (78 kt)"
+  ],
+  "why": "POH 1-1 gives 105 MPH (91.5 kt) for both, at either weight. 90 MPH is Vx, and 120 MPH is the en route climb speed suggested in Section 6.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-003",
+  "topic": "s-speeds",
+  "q": "What best angle-of-climb speed (Vx) does the Seneca I POH list?",
+  "a": "90 MPH",
+  "d": [
+   "80 MPH",
+   "85 MPH",
+   "105 MPH"
+  ],
+  "why": "POH 1-1 lists Vx as 90 MPH (78 kt). 80 MPH is Vmc, 85 MPH is the 50-ft speed in the flaps-up short-field takeoff, and 105 MPH is Vy.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-004",
+  "topic": "s-speeds",
+  "q": "POH 1-1 also lists stall speeds at the 4,000-lb maximum landing weight. Power off, what are they with gear and flaps down, and with gear down, flaps up?",
+  "a": "67 MPH flaps down; 73 MPH flaps up",
+  "d": [
+   "69 MPH flaps down; 76 MPH flaps up",
+   "67 MPH flaps down; 76 MPH flaps up",
+   "63 MPH flaps down; 69 MPH flaps up"
+  ],
+  "why": "POH 1-1 at 4,000 lb: 67 MPH (58 kt) gear and flaps down, 73 MPH (63.5 kt) gear down and flaps up. 69 and 76 MPH are the 4,200-lb figures; stall speed falls as weight decreases.",
+  "src": "POH 1-1",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "pilot studies 3,800-lb stall speeds (p2-021, p2-022)"
+ },
+ {
+  "id": "p1-005",
+  "topic": "s-speeds",
+  "q": "At 4,200 lb, power off, gear down and flaps up, what stall speed does POH 1-1 list?",
+  "a": "76 MPH (66 kt)",
+  "d": [
+   "69 MPH (60 kt)",
+   "73 MPH (63.5 kt)",
+   "67 MPH (58 kt)"
+  ],
+  "why": "76 MPH at 4,200 lb (73 MPH at 4,000 lb). It matches the bottom of the green arc; 69 MPH, the full-flap stall at 4,200 lb, is the bottom of the white arc.",
+  "src": "POH 1-1 · POH 3-2",
+  "loc": "poh 012",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-006",
+  "topic": "s-speeds",
+  "q": "At max gross weight (4,200 lb), sea level, standard day, what single-engine rate of climb does the POH spec table give?",
+  "a": "190 fpm",
+  "d": [
+   "230 fpm",
+   "1,360 fpm",
+   "50 fpm"
+  ],
+  "why": "POH 1-1: 190 fpm at 4,200 lb (230 fpm at 4,000 lb), against 1,360 fpm with both engines. Losing an engine costs well over 80% of the climb performance.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-007",
+  "topic": "s-speeds",
+  "q": "What is the Seneca I single-engine service ceiling (left engine out) at 4,200 lb, per the POH specifications?",
+  "a": "3,650 ft",
+  "d": [
+   "5,000 ft",
+   "5,200 ft",
+   "6,600 ft"
+  ],
+  "why": "POH 1-1: 3,650 ft at 4,200 lb and 5,200 ft at 4,000 lb. 5,000 ft and 6,600 ft are the single-engine absolute ceilings at those weights.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-008",
+  "topic": "s-speeds",
+  "q": "At 4,200 lb on a standard day, the left engine fails while you are level at 4,500 ft pressure altitude. Once it is feathered and you are clean at Vyse, what climb can you expect per POH 1-1?",
+  "a": "A positive climb of less than 50 fpm",
+  "d": [
+   "About 190 fpm, the sea-level figure",
+   "None; you are above the absolute ceiling",
+   "About 100 fpm, the service ceiling rate"
+  ],
+  "why": "At 4,200 lb the single-engine service ceiling (50 fpm) is 3,650 ft and the absolute ceiling (zero climb) is 5,000 ft. At 4,500 ft you are between them, so only a small climb remains.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-009",
+  "topic": "s-speeds",
+  "q": "POH 1-1 short-field takeoff (flaps 25°) at 4,200 lb: what are the ground run and the distance over a 50-ft barrier?",
+  "a": "800 ft run; 1,235 ft over 50 ft",
+  "d": [
+   "750 ft run; 1,140 ft over 50 ft",
+   "705 ft run; 1,335 ft over 50 ft",
+   "1,235 ft run; 1,800 ft over 50 ft"
+  ],
+  "why": "800/1,235 ft at 4,200 lb; 750/1,140 ft is the 4,000-lb figure and 705/1,335 ft is the short-field landing. Use the Section 8 charts for actual conditions.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-010",
+  "topic": "s-speeds",
+  "q": "What short-field landing distances (flaps down) appear in the Seneca I General Specifications?",
+  "a": "705 ft roll; 1,335 ft over a 50-ft barrier",
+  "d": [
+   "800 ft roll; 1,235 ft over a 50-ft barrier",
+   "1,335 ft roll; 2,000 ft over a 50-ft barrier",
+   "750 ft roll; 1,140 ft over a 50-ft barrier"
+  ],
+  "why": "POH 1-1 lists 705 ft and 1,335 ft, with a footnote that they apply only to the conditions on the Landing Distance vs Density Altitude chart. 800/1,235 and 750/1,140 are takeoff figures.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-011",
+  "topic": "s-fuel",
+  "q": "Planning a cruise at 75% power, what total fuel burn for both engines does POH 1-1 list, and what at 65% power?",
+  "a": "20.6 GPH at 75%; 18.3 GPH at 65%",
+  "d": [
+   "10.3 GPH at 75%; 9.2 GPH at 65%",
+   "19.2 GPH at 75%; 16.0 GPH at 65%",
+   "24.0 GPH at 75%; 20.6 GPH at 65%"
+  ],
+  "why": "20.6 and 18.3 GPH are totals for both engines (roughly half each per engine). 19.2 GPH is the fuel flow gauge red line in Section 3, not a consumption figure.",
+  "src": "POH 1-1",
+  "loc": "poh 012"
+ },
+ {
+  "id": "p1-012",
+  "topic": "s-wb",
+  "q": "What are the Seneca I maximum takeoff and maximum landing weights?",
+  "a": "4,200 lb takeoff; 4,000 lb landing",
+  "d": [
+   "4,200 lb for both takeoff and landing",
+   "4,570 lb takeoff; 4,342 lb landing",
+   "4,000 lb takeoff; 3,800 lb landing"
+  ],
+  "why": "POH 1-2 lists 4,200 lb max takeoff and 4,000 lb max landing weight; the spec-table footnote repeats both.",
+  "src": "POH 1-2 · POH 1-1",
+  "loc": "poh 013",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-013",
+  "topic": "s-wb",
+  "q": "What are the maximum baggage loads for the Seneca I forward and rear compartments?",
+  "a": "100 lb forward; 100 lb rear",
+  "d": [
+   "100 lb forward; 200 lb rear",
+   "150 lb forward; 100 lb rear",
+   "200 lb forward; 200 lb rear"
+  ],
+  "why": "POH 1-2: 100 lb in each, with 15.3 cu ft forward and 20 cu ft rear (forward door 24 x 21 in). The loading must also keep the CG within limits.",
+  "src": "POH 1-2",
+  "loc": "poh 013",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-014",
+  "topic": "s-engine",
+  "q": "Which Seneca I engine is the Lycoming LIO-360-C1E6?",
+  "a": "The right engine",
+  "d": [
+   "The left engine",
+   "Both; the 'L' marks the injected model",
+   "Both; the 'L' marks later serial numbers"
+  ],
+  "why": "POH 1-2 and 3-1: left engine IO-360-C1E6, right engine LIO-360-C1E6. The right engine is the one that turns counterclockwise, giving counter-rotation.",
+  "src": "POH 1-2 · POH 3-1",
+  "loc": "poh 013",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-015",
+  "topic": "s-engine",
+  "q": "Viewed from the cockpit, which way does each Seneca I engine rotate?",
+  "a": "Left clockwise; right counterclockwise",
+  "d": [
+   "Left counterclockwise; right clockwise",
+   "Both clockwise",
+   "Both counterclockwise"
+  ],
+  "why": "POH 2-2: the left engine turns clockwise and the right counterclockwise as seen from the cockpit. This counter-rotation removes asymmetric thrust in takeoff and climb.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-016",
+  "topic": "s-engine",
+  "q": "What is each Seneca I engine's rated power, and what are its operating limits?",
+  "a": "200 HP at 2,700 RPM, approved for all operations",
+  "d": [
+   "200 HP at 2,700 RPM, with a 5-minute takeoff limit",
+   "220 HP at 2,800 RPM, for takeoff only",
+   "180 HP at 2,700 RPM, for continuous use"
+  ],
+  "why": "POH 1-2/2-2: 200 HP at 2,700 RPM each, 400 HP total. The limitations list 2,700 RPM and 200 HP for all operations, and Section 6 says full power has no time limit.",
+  "src": "POH 1-2 · POH 3-1 · POH 6-8",
+  "loc": "poh 013",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-017",
+  "topic": "s-engine",
+  "q": "How many cylinders, what displacement and what compression ratio does each Seneca I engine have?",
+  "a": "Four cylinders, 361 cu in, 8.7:1",
+  "d": [
+   "Four cylinders, 320 cu in, 8.5:1",
+   "Six cylinders, 361 cu in, 8.7:1",
+   "Six cylinders, 540 cu in, 7.3:1"
+  ],
+  "why": "POH 1-2: 361.0 cu in, 8.7:1 compression, 5.125-in bore, 4.375-in stroke, 350 lb dry weight. POH 2-2 describes them as four-cylinder, fuel-injected Lycomings.",
+  "src": "POH 1-2 · POH 2-2",
+  "loc": "poh 013"
+ },
+ {
+  "id": "p1-018",
+  "topic": "s-engine",
+  "q": "How is fuel delivered to the Seneca I engines?",
+  "a": "Bendix RSA-5 fuel injection metered by engine airflow",
+  "d": [
+   "Marvel-Schebler float carburetors with mixture and carb heat",
+   "Timed direct cylinder injection metered by engine RPM",
+   "Bendix pressure carburetors with accelerator pumps"
+  ],
+  "why": "POH 2-2: each engine has a Bendix RSA-5 system that measures the engine's air consumption and uses that airflow to control fuel flow. There is no carburetor and no carb heat.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-019",
+  "topic": "s-engine",
+  "q": "Is the Seneca I (PA-34-200) turbocharged?",
+  "a": "No; air goes from the filter straight to the fuel servo",
+  "d": [
+   "Yes; both engines have turbochargers with fixed wastegates",
+   "Yes; only the right (LIO-360) engine has a turbocharger",
+   "Yes; the turbos also feed heated air to the alternate air box"
+  ],
+  "why": "POH 2-3 describes induction air going from the scoop through the filter directly to the servo regulator, with no turbocharger in the path. Expect power to fall off with altitude.",
+  "src": "POH 2-3",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-020",
+  "topic": "s-engine",
+  "q": "Where does normal induction air enter each Seneca I engine?",
+  "a": "A scoop on the outboard side of the lower cowl, then a filter",
+  "d": [
+   "A scoop on the inboard side of the upper cowl, then a filter",
+   "The oil cooler scoops on the sides of the cowl",
+   "The dorsal fin air scoop, then a filter"
+  ],
+  "why": "POH 2-3: an air scoop on the outboard lower cowl feeds a filter and then the servo regulator. The side-cowl scoops feed the oil cooler (POH 2-2).",
+  "src": "POH 2-3",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-021",
+  "topic": "s-engine",
+  "q": "How does the Seneca I alternate air system work?",
+  "a": "A manual valve admits unfiltered air heated by the exhaust",
+  "d": [
+   "A spring door opens automatically when the filter clogs",
+   "It routes carburetor heat from a muffler shroud",
+   "A manual valve admits filtered ram air from the nose"
+  ],
+  "why": "POH 2-3: a valve in the air box between the filter and servo regulator, worked by the control below the power quadrant, admits air heated by the crossover exhaust tube that bypasses the filter.",
+  "src": "POH 2-3 · POH 6-9",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-022",
+  "topic": "s-engine",
+  "q": "In cruise you fly into heavy snow and manifold pressure on both engines begins to drop. What does the POH system design call for?",
+  "a": "Select alternate air; heated air bypasses the iced filter",
+  "d": [
+   "Apply carburetor heat on both engines",
+   "Open the cowl flaps to warm the induction air",
+   "Lean the mixtures until manifold pressure recovers"
+  ],
+  "why": "POH 2-3 and 6-9: snow or freezing rain can ice the air filter. Alternate air bypasses the filter and is heated by the crossover exhaust, but it is not automatic; the pilot must select it.",
+  "src": "POH 2-3 · POH 6-9",
+  "loc": "poh 022",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-023",
+  "topic": "s-engine",
+  "q": "When does the POH say alternate air should NOT be used on the Seneca I?",
+  "a": "During ground operation and for takeoff",
+  "d": [
+   "Above 10,000 ft, where exhaust heat is too low",
+   "In visible moisture below freezing",
+   "During climb, because it overheats the cylinders"
+  ],
+  "why": "POH 2-3: unfiltered alternate air may carry dust on the ground, and the primary induction source should always be used for takeoff. A brief run-up check is allowed unless the air is dusty (POH 6-5).",
+  "src": "POH 2-3 · POH 6-5",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-024",
+  "topic": "s-engine",
+  "q": "How do the Seneca I cowl flaps operate?",
+  "a": "Manual levers with a lock: open, intermediate, closed",
+  "d": [
+   "Electric switches with an indicator: open or closed",
+   "Manual levers with infinite positions and no lock",
+   "Automatic, driven by a cylinder head thermostat"
+  ],
+  "why": "POH 2-2: levers below the throttle quadrant work cowl flaps on the bottom of each nacelle. Depress the lock for each selection; once released, the flap stops at the next position.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-025",
+  "topic": "s-engine",
+  "q": "In a climb with the left engine's CHT rising, you want its cowl flap open. How do you move the control?",
+  "a": "Depress the lock and push the left lever",
+  "d": [
+   "Depress the lock and pull the left lever",
+   "Pull the left lever; no lock is used",
+   "Push the right lever; the levers are linked"
+  ],
+  "why": "The cowl flap placard (POH 2-3) reads PULL–CLOSE and PUSH–OPEN, with separate L and R levers. The lock must be depressed for each selection (POH 2-2).",
+  "src": "POH 2-3 · POH 2-2",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-026",
+  "topic": "s-engine",
+  "q": "Where is each Seneca I engine's oil cooler, and how is it cooled?",
+  "a": "Forward of the firewall, fed by scoops on the cowl sides",
+  "d": [
+   "Aft of the firewall, cooled by cabin ventilation air",
+   "Behind the spinner, fed by the main cowl nose inlet",
+   "Under the nacelle, cooled by air leaving the cowl flaps"
+  ],
+  "why": "POH 2-2: air picked up by scoops on the side of the cowl passes through the oil cooler on the forward side of the firewall and is ducted overboard in the lower cowling.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-027",
+  "topic": "s-engine",
+  "q": "What is each Seneca I engine's oil capacity, and what minimum quantity does the POH call safe?",
+  "a": "8 quarts capacity; 2 quarts minimum safe",
+  "d": [
+   "8 quarts capacity; 4 quarts minimum safe",
+   "6 quarts capacity; 3 quarts minimum safe",
+   "12 quarts capacity; 8 quarts minimum safe"
+  ],
+  "why": "POH 1-2 and 9-7: 8 quarts each, with a minimum safe quantity of 2 quarts. The Section 6 preflight looks for six to eight quarts before flight.",
+  "src": "POH 1-2 · POH 9-7 · POH 6-2",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p1-028",
+  "topic": "s-engine",
+  "q": "Operating in summer with temperatures consistently above 90°F, which oil grade does the POH call for?",
+  "a": "SAE 50",
+  "d": [
+   "SAE 40",
+   "SAE 30",
+   "SAE 20"
+  ],
+  "why": "POH 9-7: SAE 50 above 60°F, SAE 40 from 30 to 90°F, SAE 30 from 0 to 70°F, SAE 20 below 10°F. Above 90°F only SAE 50 applies.",
+  "src": "POH 9-7",
+  "loc": "poh 207"
+ },
+ {
+  "id": "p1-029",
+  "topic": "s-engine",
+  "q": "What are the Seneca I normal (green arc) oil pressure and oil temperature ranges?",
+  "a": "60–90 PSI; 75–245°F",
+  "d": [
+   "25–60 PSI; 75–245°F",
+   "60–90 PSI; 100–245°F",
+   "14–35 PSI; 200–475°F"
+  ],
+  "why": "POH 3-1: oil pressure green 60–90 PSI (yellow 25–60, red line max 90); oil temperature green 75–245°F with a 245°F red line. 14–35 PSI is fuel pressure; 200–475°F is CHT.",
+  "src": "POH 3-1",
+  "loc": "poh 059",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-030",
+  "topic": "s-engine",
+  "q": "During the Seneca I run-up magneto check, what are the normal drop, maximum drop and maximum differential?",
+  "a": "100 RPM normal; 175 RPM max; 50 RPM differential",
+  "d": [
+   "125 RPM normal; 175 RPM max; 50 RPM differential",
+   "100 RPM normal; 150 RPM max; 75 RPM differential",
+   "50 RPM normal; 125 RPM max; 50 RPM differential"
+  ],
+  "why": "POH 6-5 lists normal drop 100 RPM, maximum drop 175 RPM and maximum differential 50 RPM; the school run-up checklist uses the same numbers.",
+  "src": "POH 6-5 · School checklist",
+  "loc": "poh 157",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-031",
+  "topic": "s-engine",
+  "q": "In a long climb, CHT and oil temperature are both nearing their limits. Which actions does the POH recommend?",
+  "a": "Enrich the mixture, open the cowl flaps, reduce power",
+  "d": [
+   "Lean the mixture, close the cowl flaps, raise the nose",
+   "Select alternate air and reduce propeller RPM only",
+   "Turn on the electric fuel pumps and lean the mixture"
+  ],
+  "why": "POH 6-8: reduce high CHT by enriching the mixture, opening cowl flaps, reducing power, or a combination. Keep CHT below 475°F; a 120 MPH en route climb also helps cooling.",
+  "src": "POH 6-8",
+  "loc": "poh 160",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-032",
+  "topic": "s-engine",
+  "q": "Describe the Seneca I propellers.",
+  "a": "Hartzell constant-speed, full-feathering, oil and nitrogen",
+  "d": [
+   "Hartzell constant-speed, non-feathering, governor oil pressure only",
+   "McCauley constant-speed, full-feathering, oil and springs",
+   "Hartzell fixed-pitch, counter-rotating, 76-in diameter"
+  ],
+  "why": "POH 2-4: constant-speed, controllable-pitch, full-feathering Hartzell propellers operated by oil and nitrogen pressure. Diameter is 76 in (POH 1-2); the limitations allow 74 to 76 in (POH 3-1).",
+  "src": "POH 2-4 · POH 1-2",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-033",
+  "topic": "s-engine",
+  "q": "In the Seneca I propeller, what does increasing governor oil pressure do to the blades?",
+  "a": "Moves them toward low pitch / high RPM (unfeather)",
+  "d": [
+   "Moves them toward high pitch / low RPM (feather)",
+   "Locks them against the low-pitch stop",
+   "Nothing until engine RPM exceeds 800"
+  ],
+  "why": "POH 2-4: oil pressure, supplied by an engine-mounted governor through the prop shaft, drives the prop toward high RPM/unfeather; nitrogen drives it toward low RPM/feather.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-034",
+  "topic": "s-engine",
+  "q": "What two jobs does the nitrogen charge in the Seneca I propeller dome do?",
+  "a": "Drives blades toward feather and guards against overspeed",
+  "d": [
+   "Drives blades toward high RPM and assists unfeathering in flight",
+   "Stores oil under pressure to unfeather the prop without the starter",
+   "Cools the hub and damps blade vibration at high RPM"
+  ],
+  "why": "POH 2-4: nitrogen pressure sends the prop toward low RPM/feather and keeps it from overspeeding. Dry compressed air may be used instead; the charge pressure placard is on the dome and in the spinner.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-035",
+  "topic": "s-engine",
+  "q": "During the 1,500-RPM feather check, RPM takes about 6 seconds to fall to 1,000 RPM. What might this indicate?",
+  "a": "Low dome pressure; risk of overspeed or lost feathering",
+  "d": [
+   "Normal; up to 6 seconds is allowed",
+   "A weak magneto on that engine",
+   "High dome pressure; risk of slow unfeathering"
+  ],
+  "why": "POH 6-5: RPM should drop to 1,000 in 1–3 seconds. Longer suggests excessively low dome pressure, with danger of propeller overspeed or loss of feathering capability.",
+  "src": "POH 6-5",
+  "loc": "poh 157",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-036",
+  "topic": "s-engine",
+  "q": "How do you feather a Seneca I propeller?",
+  "a": "Pull the prop lever fully aft through the low-RPM detent",
+  "d": [
+   "Pull the prop lever back to the low-RPM detent and hold it there",
+   "Press the feather button for that engine, then pull the mixture",
+   "Pull the prop lever fully aft once the RPM is below 800"
+  ],
+  "why": "POH 2-4: move the control fully aft through the low-RPM detent into the feather position. It must be done while the engine is still turning above 800 RPM.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-037",
+  "topic": "s-engine",
+  "q": "About how long does a Seneca I propeller take to feather?",
+  "a": "About 6 seconds",
+  "d": [
+   "About 1–3 seconds",
+   "About 10–12 seconds",
+   "About 30 seconds"
+  ],
+  "why": "POH 2-4: feathering takes approximately six seconds. The 1–3 seconds figure is the run-up feather check drop to 1,000 RPM.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-038",
+  "topic": "s-engine",
+  "q": "How is a Seneca I propeller unfeathered in flight?",
+  "a": "Prop lever forward, then engage the starter until it windmills",
+  "d": [
+   "Prop lever forward; the unfeathering accumulator does the rest",
+   "Prop lever forward, then dive steeply until it windmills",
+   "Throttle full and mixture rich, then pull the prop lever aft"
+  ],
+  "why": "POH 2-4: move the propeller control ahead and engage the starter until the propeller is windmilling. The POH describes no unfeathering accumulator.",
+  "src": "POH 2-4",
+  "loc": "poh 021",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-039",
+  "topic": "s-engine",
+  "q": "What does the Seneca I's centrifugal feathering lock do?",
+  "a": "Prevents feathering whenever engine speed is below 800 RPM",
+  "d": [
+   "Prevents unfeathering whenever engine speed is above 800 RPM",
+   "Locks the blades in feather while on the ground",
+   "Prevents feathering whenever RPM is above 2,000"
+  ],
+  "why": "POH 2-4: the centrifugally operated lock makes feathering impossible below 800 RPM, so the propellers don't feather during a normal engine shutdown.",
+  "src": "POH 2-4",
+  "loc": "poh 021",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-040",
+  "topic": "s-engine",
+  "q": "An engine is losing oil pressure and its RPM is decaying. You decide to feather it to save the engine. What is the key timing concern?",
+  "a": "Feather before RPM drops below 800, or the lock prevents it",
+  "d": [
+   "Wait until RPM is below 800 so the lock releases",
+   "Feather only after the prop stops windmilling",
+   "Feather only after slowing to Vmc"
+  ],
+  "why": "POH 2-4: because feathering is impossible below 800 RPM, a pilot feathering to save an engine must move the control to feather before RPM falls below 800.",
+  "src": "POH 2-4 · School checklist",
+  "loc": "poh 021",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-041",
+  "topic": "s-engine",
+  "q": "Loss of the dome air charge causes a propeller overspeed. Per the POH, what can you expect, and what is the first step?",
+  "a": "The prop won't feather; close the throttle",
+  "d": [
+   "The prop feathers itself; secure the engine",
+   "The prop won't feather; pull the mixture",
+   "The governor recovers; push the prop lever forward"
+  ],
+  "why": "POH 3-18: in an overspeed the propeller will not feather. Close the throttle, slow to best rate-of-climb speed, pull the prop to low RPM, then slowly add throttle until the governor engages.",
+  "src": "POH 3-18",
+  "loc": "poh 078",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-042",
+  "topic": "s-engine",
+  "q": "According to the Seneca I POH, what does counter-rotation of the propellers accomplish?",
+  "a": "Balanced thrust; no 'critical engine' in single-engine flight",
+  "d": [
+   "Makes the right engine the critical engine instead of the left",
+   "Lowers Vmc below the power-off stall speed in all conditions",
+   "Removes the need for rudder or rudder trim on one engine"
+  ],
+  "why": "POH 2-2/2-4: counter-rotation eliminates asymmetric thrust in takeoff and climb and the 'critical engine' factor. Vmc (80 MPH) still applies, and the rudder trim tab exists for single-engine flight.",
+  "src": "POH 2-4 · POH 2-2",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-043",
+  "topic": "s-gear",
+  "q": "What powers the Seneca I landing gear for normal retraction and extension?",
+  "a": "A reversible, electrically powered hydraulic pump",
+  "d": [
+   "An engine-driven hydraulic pump on the left engine",
+   "A direct electric motor and screw jack",
+   "An engine-driven pump with an electric backup"
+  ],
+  "why": "POH 2-4: hydraulic pressure comes from an electrically powered reversible pump. Pressure in one direction retracts the gear; in the other it extends it.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-044",
+  "topic": "s-gear",
+  "q": "Where is the Seneca I gear selector, and how is it operated?",
+  "a": "Left of the quadrant; pull the wheel knob out, then move it",
+  "d": [
+   "Right of the quadrant; push the wheel knob in, then move it",
+   "On the floor console; lift the lever over a detent",
+   "Left of the quadrant; move it with no pull-out needed"
+  ],
+  "why": "POH 2-4: the two-position switch with a wheel-shaped knob is on the panel to the left of the control quadrant and must be pulled out before it can move to UP or DOWN.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-045",
+  "topic": "s-gear",
+  "q": "Just after selecting gear UP you decide you want it down again. The gear is in transit with the pump running. What does the POH caution?",
+  "a": "Don't reverse until travel completes; it can harm the pump",
+  "d": [
+   "Reverse immediately; the pump stops and reverses automatically",
+   "Pull the emergency knob instead of reversing the selector",
+   "Cycle the master switch off and on, then select DOWN"
+  ],
+  "why": "POH 2-4: moving the selector the opposite way before the gear reaches its travel limit is inadvisable because the sudden reversal may harm the electric pump. A full cycle takes 6–7 seconds.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-046",
+  "topic": "s-gear",
+  "q": "How long does normal Seneca I gear retraction or extension take?",
+  "a": "6 to 7 seconds",
+  "d": [
+   "3 to 4 seconds",
+   "10 to 12 seconds",
+   "About 20 seconds"
+  ],
+  "why": "POH 2-4: retraction or extension normally takes six to seven seconds.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-047",
+  "topic": "s-gear",
+  "q": "What holds the Seneca I landing gear in the retracted position?",
+  "a": "Hydraulic pressure only; there are no mechanical uplocks",
+  "d": [
+   "Mechanical uplock hooks, released by hydraulic pressure",
+   "Over-center links held in place by bungee springs",
+   "Electric solenoid uplocks wired to the up-limit switches"
+  ],
+  "why": "POH 2-5: the gear is held up by hydraulic pressure, and POH 6-9 states there are no mechanical uplocks. Lose the pressure and the gear free-falls.",
+  "src": "POH 2-5 · POH 6-9",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-048",
+  "topic": "s-gear",
+  "q": "In cruise, a leak drains the landing gear hydraulic pressure. What will the gear do?",
+  "a": "Extend by gravity, helped by airloads and springs",
+  "d": [
+   "Stay up, held by its mechanical uplock hooks",
+   "Stay up until the emergency extension knob is pulled",
+   "Extend only the nose gear, while the mains stay retracted"
+  ],
+  "why": "POH 2-5: if the system leaks or pressure is relieved, gravity extends the gear, with aerodynamic loads and springs assisting extension and locking.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-049",
+  "topic": "s-gear",
+  "q": "How is the Seneca I landing gear held locked in the down position?",
+  "a": "Downlock hooks kept engaged by springs",
+  "d": [
+   "Hydraulic pressure trapped by a check valve",
+   "Over-center drag links with no springs",
+   "Electric solenoids energized by the squat switch"
+  ],
+  "why": "POH 2-5: when all three gear are down the downlock hooks engage, and a spring keeps force on each hook until hydraulic pressure releases it for retraction.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-050",
+  "topic": "s-gear",
+  "q": "What does the Seneca I emergency gear extension knob do, and where is it?",
+  "a": "Releases hydraulic pressure; near panel center, under a guard",
+  "d": [
+   "Runs a backup electric pump; near panel center, under a guard",
+   "Releases the mechanical uplock hooks; on the floor console",
+   "Engages a hand crank for the gear; below the pilot's seat"
+  ],
+  "why": "POH 2-5: pulling the knob releases the hydraulic pressure holding the gear up so it can free-fall. A guard over the knob (the clip in POH 3-14) prevents inadvertent extension.",
+  "src": "POH 2-5 · POH 3-14",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-051",
+  "topic": "s-gear",
+  "q": "Before pulling the emergency gear extension knob, where should the gear selector be, and why?",
+  "a": "DOWN, so the pump doesn't try to raise the gear",
+  "d": [
+   "UP, so the downlock hooks are not loaded during free-fall",
+   "Left where it is, to avoid a sudden reversal harming the pump",
+   "UP, so the pump can't run during free-fall"
+  ],
+  "why": "POH 2-5 advises placing the selector DOWN first to prevent the pump from trying to raise the gear. The manual extension checklist (POH 3-14) does the same.",
+  "src": "POH 2-5 · POH 3-14",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-052",
+  "topic": "s-gear",
+  "q": "In the POH manual landing gear extension procedure, what is the maximum airspeed?",
+  "a": "100 MPH",
+  "d": [
+   "125 MPH",
+   "150 MPH",
+   "105 MPH"
+  ],
+  "why": "POH 3-14: reduce power so airspeed does not exceed 100 MPH, select gear DOWN, pull the emergency knob, check three green and leave the knob out. 150 MPH is the normal extension limit.",
+  "src": "POH 3-14 · School checklist",
+  "loc": "poh 074",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-053",
+  "topic": "s-gear",
+  "q": "After lowering the gear with the emergency knob because of a real malfunction, what does the POH require?",
+  "a": "Leave the knob out until the airplane is jacked and checked",
+  "d": [
+   "Push the knob in after landing to restore pressure",
+   "Push the knob in once three greens show",
+   "Recycle the gear on the next flight to test it"
+  ],
+  "why": "POH 2-5: leave the control out until the airplane is on jacks and the gear hydraulic and electrical systems are checked. On training flights with no apparent malfunction, it may be pushed back in.",
+  "src": "POH 2-5 · POH 3-14",
+  "loc": "poh 023",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-054",
+  "topic": "s-gear",
+  "q": "What cockpit and external indications show the Seneca I gear position?",
+  "a": "Three green, a red light, and a mirror on the left nacelle",
+  "d": [
+   "Three green and a red light, with no external aid",
+   "Three green and a mechanical floor indicator",
+   "Three green, a red light, and a mirror on the right nacelle"
+  ],
+  "why": "POH 2-5: three green = down and locked; red = not fully up or fully down; a convex mirror on the left engine nacelle lets the pilot confirm the nose gear.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-055",
+  "topic": "s-gear",
+  "q": "Daytime approach: you select gear DOWN and hear the pump stop, but see no green lights. What should you check first?",
+  "a": "The navigation light switch; it dims the gear lights",
+  "d": [
+   "The emergency extension knob; it may be partly out",
+   "The gear pump circuit breaker; it may have tripped",
+   "The left-main squat switch; it may be stuck open"
+  ],
+  "why": "POH 2-5: the gear lights dim automatically when the nav lights are on and are hard to see in daylight. The POH says this is the first thing to check if the greens aren't seen.",
+  "src": "POH 2-5",
+  "loc": "poh 023",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-056",
+  "topic": "s-gear",
+  "q": "With gear DOWN selected, one green light stays dark. Per the POH, which three conditions could cause it?",
+  "a": "Gear not locked, bulb burned out, or indicating fault",
+  "d": [
+   "Gear not locked, low hydraulic fluid, or squat switch open",
+   "Bulb burned out, pump failure, or nav lights off",
+   "Gear not locked, low battery, or throttle switch fault"
+  ],
+  "why": "POH 2-5 lists these three possibilities for each green light that fails to come on after DOWN is selected. For the nose gear, the mirror on the left nacelle gives an independent check.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-057",
+  "topic": "s-gear",
+  "q": "During a Vmc demo with the gear up, you bring one throttle back to idle and a horn sounds steadily. What is it most likely telling you?",
+  "a": "Gear up with manifold pressure below 14 in on one engine",
+  "d": [
+   "Stall warning from the inboard stall detector",
+   "Gear selector UP with the squat switch open",
+   "Overspeed warning above 190 MPH"
+  ],
+  "why": "POH 2-5: a micro switch in the throttle quadrant sounds the gear horn with the gear up and MP below 14 inches on either or both engines, so expect it whenever a throttle is pulled back.",
+  "src": "POH 2-5",
+  "loc": "poh 023",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-058",
+  "topic": "s-gear",
+  "q": "With the gear up, the Seneca I gear warning horn sounds when manifold pressure drops below what value on either engine?",
+  "a": "14 in Hg",
+  "d": [
+   "12 in Hg",
+   "15 in Hg",
+   "18 in Hg"
+  ],
+  "why": "POH 2-5: gear up and MP reduced below 14 inches on one or both engines. The other horn condition is the gear selector in UP while on the ground.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-059",
+  "topic": "s-gear",
+  "q": "N887SP is serial number 34-7350124. When the gear warning horn sounds in flight, what else should you see?",
+  "a": "The red gear light illuminates with the horn",
+  "d": [
+   "All three green lights flash",
+   "Nothing; the red light shows only in transit",
+   "The overvoltage light illuminates"
+  ],
+  "why": "POH 3-9: on serial numbers 34-7250046 and up, the red gear unsafe light also illuminates when the gear warning horn sounds. N887SP's serial is above that.",
+  "src": "POH 3-9",
+  "loc": "poh 067",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-060",
+  "topic": "s-gear",
+  "q": "After retraction the red gear light stays illuminated. What does the POH say to do?",
+  "a": "Recycle the landing gear",
+  "d": [
+   "Pull the emergency gear extension knob",
+   "Pull the gear pump circuit breaker",
+   "Ignore it; it stays on for 30 seconds"
+  ],
+  "why": "POH 3-14: the red light shows the gear in transition between full up and down-and-locked; if it stays on, recycle the gear. It is off when the gear is fully up or fully down.",
+  "src": "POH 3-14 · POH 3-9",
+  "loc": "poh 074",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-061",
+  "topic": "s-gear",
+  "q": "Where is the Seneca I landing gear safety (squat) switch, and what does it do?",
+  "a": "Left main gear; keeps the pump from retracting on the ground",
+  "d": [
+   "Nose gear strut; keeps the pump from retracting on the ground",
+   "Right main gear; silences the gear warning horn on the ground",
+   "Left main gear; mechanically locks the gear selector in DOWN"
+  ],
+  "why": "POH 2-6: with the selector UP on the ground, a safety switch on the left main gear prevents the hydraulic pump from running if the master switch is turned on.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-062",
+  "topic": "s-gear",
+  "q": "On takeoff, how far must the oleo extend before the safety switch lets the pump retract the gear?",
+  "a": "More than 8 inches",
+  "d": [
+   "More than 2.5 inches",
+   "More than 3.5 inches",
+   "More than 12 inches"
+  ],
+  "why": "POH 2-6: when the oleo extends in excess of eight inches, the safety switch closes the circuit so the pump can raise the gear. 3.5 and 2.5 in are the static main and nose strut extensions.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-063",
+  "topic": "s-gear",
+  "q": "Parked, a passenger bumps the gear selector to UP, and then you turn the master switch on. What happens?",
+  "a": "The pump won't run, but the gear warning horn sounds",
+  "d": [
+   "The gear begins retracting until the squat switch cuts the pump",
+   "Nothing happens; the warning horn works only in flight",
+   "The pump runs, but the downlocks hold the gear"
+  ],
+  "why": "POH 2-5/2-6: the left-main safety switch keeps the pump from actuating on the ground, and the horn sounds with the selector UP on the ground. Put the selector back to DOWN.",
+  "src": "POH 2-6 · POH 2-5",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-064",
+  "topic": "s-gear",
+  "q": "What are the Seneca I landing gear operating speed limits per POH 2-6?",
+  "a": "Retract at up to 125 MPH; extend at up to 150 MPH",
+  "d": [
+   "Retract or extend at up to 125 MPH",
+   "Retract at up to 150 MPH; extend at up to 125 MPH",
+   "Retract or extend at up to 150 MPH"
+  ],
+  "why": "POH 2-6: retract before 125 MPH is exceeded; extend at any speed up to 150 MPH. The selector placards read UP 125 MPH MAX and DOWN 150 MPH MAX.",
+  "src": "POH 2-6 · POH 3-2",
+  "loc": "poh 024",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-065",
+  "topic": "s-gear",
+  "q": "How is the Seneca I steered on the ground, and through what arc?",
+  "a": "Rudder pedals steer the nose gear through a 42° arc",
+  "d": [
+   "Differential braking only; the nose wheel casters",
+   "Rudder pedals steer the nose gear through a 30° arc",
+   "A tiller steers the nose gear through a 60° arc"
+  ],
+  "why": "POH 2-6: the nose gear is steerable through a 42-degree arc with the rudder pedals. On retraction the linkage disengages and the wheel straightens; a centering spring prevents shimmy.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-066",
+  "topic": "s-gear",
+  "q": "A line technician will tow the Seneca with a powered tug. How far may the nose gear be turned?",
+  "a": "No more than 20° either side of center",
+  "d": [
+   "No more than 42° either side of center",
+   "No more than 30° either side of center",
+   "No more than 10° either side of center"
+  ],
+  "why": "POH 9-1 caution: turning more than 20° either way with power equipment damages the nose gear and steering mechanism. 42° is the rudder-pedal steering arc.",
+  "src": "POH 9-1",
+  "loc": "poh 201"
+ },
+ {
+  "id": "p1-067",
+  "topic": "s-gear",
+  "q": "Where is the Seneca I landing gear hydraulic reservoir?",
+  "a": "Built into the pump, reached through the nose baggage area",
+  "d": [
+   "Behind the rear baggage bulkhead, reached from the cabin",
+   "On the left firewall, reached through the cowl side panel",
+   "Shared with the brake reservoir in the nose compartment"
+  ],
+  "why": "POH 2-6: the reservoir is an integral part of the gear hydraulic pump, accessed through a panel in the nose baggage compartment. The brake reservoir is a separate unit.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-068",
+  "topic": "s-gear",
+  "q": "The gear cycles normally, but the brakes feel spongy. Could the gear hydraulic system be the cause?",
+  "a": "No; the brakes have their own independent reservoir",
+  "d": [
+   "Yes; both systems draw on the gear pump's reservoir",
+   "Yes; the gear pump also pressurizes the brake lines",
+   "No; the brakes are mechanical, worked by cables"
+  ],
+  "why": "POH 2-6: the brake reservoir is independent of the gear reservoir and sits behind a panel at the rear top of the nose baggage compartment. Keep it at the marked level.",
+  "src": "POH 2-6 · POH 9-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-069",
+  "topic": "s-gear",
+  "q": "The brake reservoir needs topping off. What fluid does the POH specify?",
+  "a": "MIL-H-5606 petroleum-base hydraulic fluid",
+  "d": [
+   "MIL-H-83282 synthetic-base hydraulic fluid",
+   "Skydrol phosphate-ester hydraulic fluid",
+   "DOT 3 glycol-base automotive brake fluid"
+  ],
+  "why": "POH 9-6: the brake system is filled with MIL-H-5606 (petroleum base) fluid, checked periodically or at every 100-hour inspection.",
+  "src": "POH 9-6",
+  "loc": "poh 206"
+ },
+ {
+  "id": "p1-070",
+  "topic": "s-gear",
+  "q": "Describe the Seneca I brake assemblies.",
+  "a": "A single-disc, double-puck brake on each main gear",
+  "d": [
+   "A dual-disc, single-puck brake on each main gear",
+   "Single-disc brakes on all three wheels",
+   "A drum brake on each main gear"
+  ],
+  "why": "POH 2-6: each main gear strut has a single-disc double-puck brake, actuated by toe brake cylinders and a hand-brake cylinder.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-071",
+  "topic": "s-gear",
+  "q": "On the Seneca I, where are the toe brakes and the hand brake handle?",
+  "a": "Left pedals (right optional); handle below left center panel",
+  "d": [
+   "Both pedal sets standard; handle on the center floor console",
+   "Right pedals only; handle below the right side of the panel",
+   "Left pedals (right optional); handle on the tunnel by the flap lever"
+  ],
+  "why": "POH 2-6: toe brake cylinders are on the left rudder pedals (optional on the right), plus a handle-operated cylinder below and behind the left center of the instrument panel.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-072",
+  "topic": "s-gear",
+  "q": "How is the Seneca I parking brake set and released?",
+  "a": "Set: pull handle, push button. Release: pull handle only",
+  "d": [
+   "Set: push button, pull handle. Release: push button again",
+   "Set: pull handle, turn it 90°. Release: turn it back and push",
+   "Set: press toe brakes, pull knob. Release: push knob"
+  ],
+  "why": "POH 2-6: pull back on the handle and push forward on the button to its left to set. To release, pull aft on the handle without touching the button and let it swing forward.",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-073",
+  "topic": "s-gear",
+  "q": "What tires does the Seneca I use?",
+  "a": "6.00-6 on all three; 6-ply nose, 8-ply mains",
+  "d": [
+   "6.00-6 on all three; 8-ply nose, 6-ply mains",
+   "5.00-5 6-ply nose; 6.00-6 8-ply mains",
+   "6.00-6 on all three; all 8-ply"
+  ],
+  "why": "POH 1-3 and 2-6: all three wheels are the same size, 6.00-6, with a six-ply nose tire and eight-ply main tires.",
+  "src": "POH 2-6 · POH 1-3",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-074",
+  "topic": "s-gear",
+  "q": "During preflight, what pressure should the Seneca I nose tire have?",
+  "a": "31 PSI",
+  "d": [
+   "53 PSI",
+   "42 PSI",
+   "25 PSI"
+  ],
+  "why": "POH 1-3 and 9-8 both give 31 PSI for the nose tire, and the school preflight checklist agrees. The main tires take 53 PSI (POH 9-8).",
+  "src": "POH 1-3 · POH 9-8 · School checklist",
+  "loc": "poh 014"
+ },
+ {
+  "id": "p1-075",
+  "topic": "s-gear",
+  "q": "Per the POH Section 9 tire inflation guidance, what pressure should the main tires have?",
+  "a": "53 PSI",
+  "d": [
+   "31 PSI",
+   "42 PSI",
+   "60 PSI"
+  ],
+  "why": "POH 9-8 (servicing) and the school checklist give 53 PSI for the mains and 31 PSI for the nose. The Section 1 spec table (POH 1-3) prints 50 PSI for the mains; use the Section 9 servicing figure and confirm with your mechanic.",
+  "src": "POH 9-8 · POH 1-3 · School checklist",
+  "loc": "poh 208"
+ },
+ {
+  "id": "p1-076",
+  "topic": "s-gear",
+  "q": "What type of shock struts does the Seneca I landing gear use?",
+  "a": "Air-oil (oleo) struts on the nose and main gear",
+  "d": [
+   "Spring-steel main legs with an air-oil nose strut",
+   "Rubber disc stacks on the nose and main gear",
+   "Air-oil main struts with a spring nose strut"
+  ],
+  "why": "POH 2-6: the nose and main gear struts are all air-oil assemblies. That is why the preflight checks exposed piston: 3-1/2 in on the mains, 2-1/2 in on the nose (POH 6-2, 9-6).",
+  "src": "POH 2-6",
+  "loc": "poh 024"
+ },
+ {
+  "id": "p1-077",
+  "topic": "s-gear",
+  "q": "What circuit breakers protect the Seneca I landing gear system, per its electrical schematic?",
+  "a": "25-amp pump breaker; 5-amp control and warning breaker",
+  "d": [
+   "One 25-amp breaker shared by the pump, lights and horn",
+   "15-amp pump breaker; 5-amp gear light and horn breaker",
+   "An in-line pump fuse; 10-amp control and warning breaker"
+  ],
+  "why": "The landing gear electrical schematic (POH 2-8) shows a 25-amp 'landing gear electro-hydraulic pump' breaker and a 5-amp 'landing gear control & warning' breaker.",
+  "src": "POH 2-8",
+  "loc": "poh 026"
+ },
+ {
+  "id": "p1-078",
+  "topic": "s-gear",
+  "q": "On the Seneca I hydraulic schematic, what component does the emergency (free fall) control operate?",
+  "a": "The free fall valve",
+  "d": [
+   "The gear-up check valve in the pump",
+   "The high-pressure control valve",
+   "The shuttle valve below the reservoir"
+  ],
+  "why": "In the POH 2-7 schematic the free fall control is linked to the free fall valve. Opening it relieves the pressure holding the gear up so gravity, airloads and springs lower it.",
+  "src": "POH 2-7",
+  "loc": "poh 025"
+ },
+ {
+  "id": "p1-079",
+  "topic": "s-gear",
+  "q": "Per the gear electrical schematic, what turns on each green gear light?",
+  "a": "A down-limit switch at that gear",
+  "d": [
+   "The hydraulic pressure switch",
+   "The squat switch on the left main gear",
+   "The throttle micro switch"
+  ],
+  "why": "The POH 2-8 schematic shows up-limit and down-limit switches at the left, nose and right gear, wired to their lights; POH 2-5 says three greens mean down and locked.",
+  "src": "POH 2-8 · POH 2-5",
+  "loc": "poh 026"
+ },
+ {
+  "id": "p1-080",
+  "topic": "s-gear",
+  "q": "If the Seneca I hydraulic pump fails, is there any backup means of retracting the gear?",
+  "a": "No; the backup only releases pressure so the gear falls",
+  "d": [
+   "Yes; a hand pump on the floor beside the pilot's seat",
+   "Yes; pull the emergency knob out, then push it back in",
+   "Yes; airloads raise it once the emergency knob is pushed in"
+  ],
+  "why": "POH 2-5: the emergency system works only by relieving hydraulic pressure so the gear can free-fall. No manual retraction means is described; plan to fly with gear down.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-081",
+  "topic": "s-gear",
+  "q": "After a hydraulic failure the gear has free-fallen and must stay down for a long leg. What speed change should you plan for?",
+  "a": "True airspeed about 75% of the gear-up value",
+  "d": [
+   "True airspeed about 90% of the gear-up value",
+   "True airspeed about 50% of the gear-up value",
+   "No change below 150 MPH"
+  ],
+  "why": "POH 6-9: with gear down, true airspeed is approximately 75% of the gear-retracted airspeed at the same power. Allow for the reduced speed and range.",
+  "src": "POH 6-9",
+  "loc": "poh 163",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-082",
+  "topic": "s-airframe",
+  "q": "What type of linkage connects the Seneca I cockpit controls to the flight control surfaces?",
+  "a": "Cables",
+  "d": [
+   "Push-pull tubes",
+   "Hydraulic actuators",
+   "Electric servos"
+  ],
+  "why": "POH 2-9: dual controls are standard, with a cable system between the controls and the surfaces.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-083",
+  "topic": "s-airframe",
+  "q": "How is pitch trim provided on the Seneca I?",
+  "a": "Stabilator anti-servo tab, set from the control tunnel",
+  "d": [
+   "Separate elevator trim tab, set by an overhead crank",
+   "Adjustable horizontal stabilizer, set by a jackscrew motor",
+   "Electric trim motor on the stabilator spar"
+  ],
+  "why": "POH 2-9: the all-movable stabilator's anti-servo tab also acts as the longitudinal trim tab, worked by a control on the tunnel between the front seats.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-084",
+  "topic": "s-airframe",
+  "q": "How does the Seneca I stabilator anti-servo tab move, and why?",
+  "a": "Same direction as the stabilator, with more travel, for stability",
+  "d": [
+   "Opposite the stabilator, like a servo tab, to reduce control forces",
+   "Same direction as the stabilator, but only when trim is moved",
+   "Opposite the stabilator, with more travel, to add pitch authority"
+  ],
+  "why": "POH 2-2: the tab moves in the same direction as the stabilator but with increased travel, which improves longitudinal stability (adds control feel) and provides trim.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-085",
+  "topic": "s-airframe",
+  "q": "What is the Seneca I rudder trim tab designed to do?",
+  "a": "Relieve excessive pedal force in single-engine flight",
+  "d": [
+   "Eliminate adverse yaw in normal coordinated turns",
+   "Hold the nose wheel straight for gear retraction",
+   "Counter P-factor during takeoff and climb power only"
+  ],
+  "why": "POH 2-2: the rudder trim tab can relieve the pilot of excessive pedal force during single-engine operation. Adverse yaw is handled by the aileron-rudder springs.",
+  "src": "POH 2-2",
+  "loc": "poh 020"
+ },
+ {
+  "id": "p1-086",
+  "topic": "s-airframe",
+  "q": "How does the Seneca I design reduce adverse yaw in turns?",
+  "a": "Differential ailerons lightly spring-linked to the rudder",
+  "d": [
+   "Frise-type ailerons combined with an electric yaw damper",
+   "Roll spoilers that deploy with each aileron input",
+   "A rudder trim tab geared to move with the ailerons"
+  ],
+  "why": "POH 2-9: the ailerons have differential action and are lightly interconnected with the rudder by springs, reducing adverse yaw and the coordination needed in normal turns.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-087",
+  "topic": "s-airframe",
+  "q": "What type of wing flaps does the Seneca I have?",
+  "a": "Slotted",
+  "d": [
+   "Split",
+   "Plain",
+   "Fowler"
+  ],
+  "why": "POH 2-1 describes slotted wing flaps, mechanically operated by a four-position handle between the front seats.",
+  "src": "POH 2-1",
+  "loc": "poh 019"
+ },
+ {
+  "id": "p1-088",
+  "topic": "s-airframe",
+  "q": "How are the Seneca I flaps moved, and what returns them to the retracted position?",
+  "a": "A floor lever with a button; springs retract them",
+  "d": [
+   "A panel switch and electric motor; the motor retracts them",
+   "The gear hydraulic pump; a relief valve retracts them",
+   "A floor lever with a button; only airloads retract them"
+  ],
+  "why": "POH 2-9: the flaps are extended manually by the lever on the floor between the front seats (depress the button on its end first). They are aerodynamically balanced for light forces and spring-loaded to return to retracted.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-089",
+  "topic": "s-airframe",
+  "q": "What flap settings are available on the Seneca I?",
+  "a": "0°, 10°, 25° and 40°",
+  "d": [
+   "0°, 10°, 20° and 30°",
+   "0°, 15°, 25° and 40°",
+   "0°, 10°, 25° and 35°"
+  ],
+  "why": "POH 2-9: three extended positions, 10, 25 and 40 degrees, plus retracted, matching the four-position handle in POH 2-1.",
+  "src": "POH 2-9 · POH 2-1",
+  "loc": "poh 027",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-090",
+  "topic": "s-airframe",
+  "q": "You've lost all electrical power on approach. Can you still extend the Seneca I flaps?",
+  "a": "Yes; the flaps are fully manual, with no motor",
+  "d": [
+   "No; the flap motor needs bus power",
+   "Only to 10°, using the emergency knob",
+   "Only if the hydraulic pump still has pressure"
+  ],
+  "why": "POH 2-9: the flaps are extended manually by a lever, so there is no flap motor. The gear, by contrast, would need the emergency free-fall knob.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-091",
+  "topic": "s-airframe",
+  "q": "Passengers are about to board and the flaps are at 10°. What does the POH recommend?",
+  "a": "Retract fully; the right flap holds a step only when up",
+  "d": [
+   "Leave them at 10° so the step up onto the wing is lower",
+   "Lower them to 40° so passengers clear the wing walk",
+   "Retract them; either flap can then be used as a boarding step"
+  ],
+  "why": "POH 2-9: a past-center lock holds the flap retracted so it can be used as a step on the right side. It won't support a step load unless fully retracted.",
+  "src": "POH 2-9",
+  "loc": "poh 027"
+ },
+ {
+  "id": "p1-092",
+  "topic": "s-airframe",
+  "q": "To what limit positive load factor was the Seneca I airframe designed and tested?",
+  "a": "3.8 g; aerobatics prohibited",
+  "d": [
+   "4.4 g; limited aerobatics allowed",
+   "6.0 g; aerobatics prohibited",
+   "3.8 g; spins approved with flaps up"
+  ],
+  "why": "POH 2-1: limit positive load factor 3.8; the Seneca is not designed for aerobatic flight, so aerobatics are prohibited. The limitations repeat 3.8 g flaps up.",
+  "src": "POH 2-1 · POH 3-2",
+  "loc": "poh 019",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-093",
+  "topic": "s-airframe",
+  "q": "What are the Seneca I wing span and wing area?",
+  "a": "38.88 ft span; 208.7 sq ft area",
+  "d": [
+   "38.88 ft span; 178.0 sq ft area",
+   "28.5 ft span; 208.7 sq ft area",
+   "42.0 ft span; 208.7 sq ft area"
+  ],
+  "why": "POH 1-2: span 38.88 ft, area 208.7 sq ft, length 28.5 ft, height 9.9 ft, wing loading 20.1 lb/sq ft and power loading 10.5 lb/hp. Wheel base is 7.0 ft and tread 11.1 ft (POH 1-3).",
+  "src": "POH 1-2 · POH 1-3",
+  "loc": "poh 013"
+ },
+ {
+  "id": "p1-094",
+  "topic": "s-fuel",
+  "q": "How many fuel tanks does the Seneca I have, and how are they arranged?",
+  "a": "Four: two interconnected 24.5-gal tanks per wing",
+  "d": [
+   "Two: one 49-gal tank in each wing",
+   "Four: main and auxiliary tanks selected separately",
+   "Six: three interconnected tanks per wing"
+  ],
+  "why": "POH 2-10: two 24.5-gallon aluminum tanks in each wing are interconnected, so each wing works as one tank for selection (POH 3-8). Both fill through one neck in the outboard tank, and outboard fuel flows inboard as it is used.",
+  "src": "POH 2-10 · POH 3-8",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-095",
+  "topic": "s-fuel",
+  "q": "What is the Seneca I total fuel capacity, and how much of it is unusable?",
+  "a": "98 gal total; 5 gal unusable (2.5 per side)",
+  "d": [
+   "98 gal total; 2.5 gal unusable in all",
+   "93 gal total; 5 gal unusable (2.5 per side)",
+   "100 gal total; 7 gal unusable (3.5 per side)"
+  ],
+  "why": "POH 1-2 and 2-10: 98 gallons total (49 per wing, POH 9-7) with 2-1/2 unusable gallons per side, leaving 93 gallons usable.",
+  "src": "POH 2-10 · POH 1-2",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-096",
+  "topic": "s-fuel",
+  "q": "You have the tanks topped off to the bottom of the filler necks. How much usable fuel is on each side?",
+  "a": "46.5 gal",
+  "d": [
+   "49 gal",
+   "47.5 gal",
+   "44 gal"
+  ],
+  "why": "Each wing holds 49 gal (POH 9-7) less 2.5 gal unusable (POH 2-10) = 46.5 gal, the usable capacity on the filler cap placard (POH 3-5).",
+  "src": "POH 2-10 · POH 9-7 · POH 3-5",
+  "loc": "poh 028",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-097",
+  "topic": "s-fuel",
+  "q": "What fuel does the Seneca I POH require?",
+  "a": "100/130 octane minimum aviation gasoline",
+  "d": [
+   "80/87 octane minimum aviation gasoline",
+   "91/96 octane minimum aviation gasoline",
+   "Jet A or 100/130 aviation gasoline"
+  ],
+  "why": "POH 1-2, 2-10 and 3-1 require 100/130 minimum; the POH lists no lower alternate grade. POH 9-7 warns lower grades can quickly cause serious damage and void the engine warranty.",
+  "src": "POH 2-10 · POH 3-1 · POH 9-7",
+  "loc": "poh 028",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-098",
+  "topic": "s-fuel",
+  "q": "How many fuel pumps does the Seneca I fuel system have?",
+  "a": "Four: an engine-driven and an electric pump per engine",
+  "d": [
+   "Two: one engine-driven pump per engine and no electric pumps",
+   "Three: two engine-driven pumps and one shared electric pump",
+   "Two: one electric pump in each wing, no engine-driven pumps"
+  ],
+  "why": "POH 2-10: each engine has an engine-driven pump as the primary supply and an electric pump as a backup in case the engine-driven pump fails.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-099",
+  "topic": "s-fuel",
+  "q": "Where are the Seneca I electric (auxiliary) fuel pumps located?",
+  "a": "On the aft side of each firewall",
+  "d": [
+   "Inside each inboard fuel tank",
+   "Under the cabin floor by the selectors",
+   "On the forward side of each firewall"
+  ],
+  "why": "POH 2-10: an electric pump on the aft side of the firewall for each engine. POH 9-7 puts the gascolators between the selector valves and these boost pumps in the nacelles.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-100",
+  "topic": "s-fuel",
+  "q": "When does the POH say to use the electric fuel pumps?",
+  "a": "Takeoff and landing, and if an engine-driven pump fails",
+  "d": [
+   "Continuously above 10,000 ft to prevent fuel vapor lock",
+   "Only for engine starting and priming, then turned off",
+   "Whenever either fuel selector is placed on CROSSFEED"
+  ],
+  "why": "POH 2-10: the electric pumps back up the engine-driven pumps and should be on for takeoffs and landings in case an engine-driven pump fails then. The switches are on the panel left of the pilot.",
+  "src": "POH 2-10 · POH 3-8",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-101",
+  "topic": "s-fuel",
+  "q": "Above 500 ft AGL after takeoff, what procedure does the POH give for turning off the electric fuel pumps?",
+  "a": "One at a time, watching that fuel pressure stays green",
+  "d": [
+   "Both at once, then verify fuel flow is equal",
+   "One at a time, watching that RPM stays constant",
+   "Both at once, after setting the cruise mixture"
+  ],
+  "why": "POH 6-8: the electric pumps may be turned off one at a time above 500 ft AGL, monitoring fuel pressure to see it stays in the green. The school climb checklist matches.",
+  "src": "POH 6-8 · School checklist",
+  "loc": "poh 160",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-102",
+  "topic": "s-fuel",
+  "q": "Where are the Seneca I fuel selectors, and what positions do they have?",
+  "a": "On the tunnel between the front seats: OFF, ON, CROSSFEED",
+  "d": [
+   "On the floor between the seats: LEFT, RIGHT, BOTH, OFF",
+   "On the left sidewall below the panel: ON, OFF, CROSSFEED",
+   "On the overhead panel: MAIN, AUXILIARY, CROSSFEED, OFF"
+  ],
+  "why": "POH 2-10: the selectors are on the tunnel between the pilot and copilot seats, and each lever has OFF, ON and CROSSFEED. Normally each engine draws from its own wing.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-103",
+  "topic": "s-fuel",
+  "q": "What two purposes does the POH give for the Seneca I crossfeed?",
+  "a": "Extend single-engine range and keep fuel weight balanced",
+  "d": [
+   "Feed both engines in an emergency and aid engine priming",
+   "Transfer fuel between the wing tanks and drain water",
+   "Supply the cabin heater and balance fuel while on the ground"
+  ],
+  "why": "POH 2-10: the crossfeed lines let an engine use fuel from the opposite side, to extend single-engine range and to keep the fuel weight balanced.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-104",
+  "topic": "s-fuel",
+  "q": "Left engine feathered, you are cruising level on the right engine and want to use left-wing fuel. How should the selectors be set?",
+  "a": "Right selector CROSSFEED; left selector OFF",
+  "d": [
+   "Left selector CROSSFEED; right selector ON",
+   "Both selectors on CROSSFEED",
+   "Right selector ON; left selector CROSSFEED"
+  ],
+  "why": "POH 3-8: put the operating engine's selector on CROSSFEED and the inoperative engine's OFF, electric pumps off unless an engine-driven pump has failed. Use crossfeed in level flight only.",
+  "src": "POH 3-8 · POH 2-10",
+  "loc": "poh 066",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-105",
+  "topic": "s-fuel",
+  "q": "After crossfeeding during single-engine cruise, how should the fuel selectors be set before landing?",
+  "a": "Operating engine ON (its own side); inoperative engine OFF",
+  "d": [
+   "Operating engine stays on CROSSFEED; inoperative OFF",
+   "Both selectors ON",
+   "Operating engine CROSSFEED; inoperative engine ON"
+  ],
+  "why": "POH 2-10: before landing, select fuel from the same side as the operating engine. POH 3-9 adds the operating engine's electric pump ON for landing.",
+  "src": "POH 2-10 · POH 3-9",
+  "loc": "poh 028",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-106",
+  "topic": "s-fuel",
+  "q": "What two crossfeed restrictions are stated in the NOTE on POH 2-10?",
+  "a": "Never both selectors on CROSSFEED; no takeoff on CROSSFEED",
+  "d": [
+   "Never both on CROSSFEED; no crossfeed above 10,000 ft",
+   "No takeoff on CROSSFEED; no crossfeed with pumps off",
+   "No crossfeed with both engines running; no landing on ON"
+  ],
+  "why": "POH 2-10 NOTE: do not operate with both fuel selectors on CROSSFEED, and do not take off with a selector on CROSSFEED. Section 3 also limits crossfeed to level flight.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-107",
+  "topic": "s-fuel",
+  "q": "Both engines running in cruise, the left wing has 10 gal more than the right. How can you rebalance using the POH fuel system?",
+  "a": "Right selector to CROSSFEED, left stays ON, until even",
+  "d": [
+   "Left selector to CROSSFEED, right stays ON, until even",
+   "Both selectors to CROSSFEED until even",
+   "Both electric pumps on to transfer fuel across"
+  ],
+  "why": "POH 3-9 permits running both engines from the same tank in cruise. With the right selector on CROSSFEED, both engines draw from the left wing until the sides even up; never put both selectors on CROSSFEED (POH 2-10).",
+  "src": "POH 3-9 · POH 2-10",
+  "loc": "poh 067"
+ },
+ {
+  "id": "p1-108",
+  "topic": "s-fuel",
+  "q": "With one engine inoperative, can the operating engine use the fuel in both wings?",
+  "a": "Yes, by moving its selector between ON and CROSSFEED",
+  "d": [
+   "No; each wing can feed only its own engine",
+   "Yes, but only with both selectors on CROSSFEED",
+   "Yes, by running both electric pumps to transfer it"
+  ],
+  "why": "POH 2-10/3-8: crossfeed lets an engine use the opposite wing's fuel, so the good engine can use both sides (less 2.5 gal unusable per side). Both selectors on CROSSFEED is prohibited.",
+  "src": "POH 2-10 · POH 3-8",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-109",
+  "topic": "s-fuel",
+  "q": "How is fuel quantity measured and displayed in the Seneca I?",
+  "a": "A sender in each tank; one gauge shows each wing's total",
+  "d": [
+   "One sender per wing; a separate cockpit gauge for each tank",
+   "Sight gauges in each tank, read on preflight",
+   "A digital totalizer that computes quantity from fuel flow"
+  ],
+  "why": "POH 2-10: a sender in each of the four tanks electrically transmits the total in each pair of tanks to a single gauge per wing; fuel pressure and fuel flow gauges are also provided.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-110",
+  "topic": "s-fuel",
+  "q": "Where in the fuel flow path is each Seneca I gascolator (fuel filter) located?",
+  "a": "Between the fuel selector valve and the electric fuel pump",
+  "d": [
+   "Between the engine-driven fuel pump and the fuel injector servo",
+   "Inside each inboard tank, at the fuel outlet",
+   "Between the flow divider and the injector nozzles"
+  ],
+  "why": "POH 2-10: one gascolator per side between the selector valve and the electric pump. Its drain is on the inboard side of the nacelle, forward of and below the wing leading edge.",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-111",
+  "topic": "s-fuel",
+  "q": "How many fuel quick drains does the Seneca I have in total, and what are they?",
+  "a": "Eight: 4 tank, 2 gascolator, 2 crossfeed",
+  "d": [
+   "Six: 4 tank, 2 gascolator",
+   "Eight: 4 tank, 2 gascolator, 2 fuel injector",
+   "Ten: 4 tank, 2 gascolator, 4 crossfeed"
+  ],
+  "why": "POH 2-10: quick drains for each fuel tank (4), the fuel gascolators (2) and each crossfeed line (2).",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-112",
+  "topic": "s-fuel",
+  "q": "Where are the Seneca I fuel crossfeed line drains?",
+  "a": "Under the belly, opposite the right flap trailing edge",
+  "d": [
+   "Under the belly, opposite the left flap trailing edge",
+   "Under each nacelle, next to the gascolator drain",
+   "Under each wing, just outboard of the tank drains"
+  ],
+  "why": "POH 2-10 puts the two crossfeed drains under the fuselage opposite the trailing edge of the right flap (POH 9-7: inboard of the right flap). They are drained on the right-side walk-around (POH 6-2).",
+  "src": "POH 2-10 · POH 9-7",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-113",
+  "topic": "s-fuel",
+  "q": "What makes up the Seneca I fuel tank vent system?",
+  "a": "Cap vents, a vent link between tanks, filler-neck overflows",
+  "d": [
+   "A single NACA vent under each wingtip and nothing else",
+   "Cap vents only, since the tanks in each wing are not interconnected",
+   "Cap vents plus a vent line routed to the heater fuel pump"
+  ],
+  "why": "POH 2-10: a vent in each fuel cap, a vent interconnect between the tanks in each wing, and an overflow line from the top of each filler neck. Check the cap vent on preflight (POH 6-2).",
+  "src": "POH 2-10",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-114",
+  "topic": "s-fuel",
+  "q": "Using the POH fuel schematic, what is the order of components from the tanks to the cylinders?",
+  "a": "Selector, filter, electric pump, engine pump, injector, divider",
+  "d": [
+   "Filter, selector, engine pump, electric pump, injector, divider",
+   "Selector, electric pump, filter, injector, engine pump, divider",
+   "Selector, filter, engine pump, divider, injector, electric pump"
+  ],
+  "why": "POH 2-11 schematic and 2-10 text: selector valve, gascolator (filter), electric pump, engine-driven pump, fuel injector (servo), then the flow divider and nozzles.",
+  "src": "POH 2-11 · POH 2-10",
+  "loc": "poh 029"
+ },
+ {
+  "id": "p1-115",
+  "topic": "s-fuel",
+  "q": "What are the Seneca I fuel pressure green arc and fuel flow red line?",
+  "a": "14–35 PSI green; 19.2 GPH fuel flow red line",
+  "d": [
+   "14–35 PSI green; 20.6 GPH fuel flow red line",
+   "25–60 PSI green; 19.2 GPH fuel flow red line",
+   "5–15 PSI green; 10.3 GPH fuel flow red line"
+  ],
+  "why": "POH 3-2: fuel pressure green 14–35 PSI with red lines at 14 (minimum) and 35 (maximum); fuel flow red line 19.2 GPH. 20.6 GPH is total two-engine burn at 75% power.",
+  "src": "POH 3-2",
+  "loc": "poh 060",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-116",
+  "topic": "s-fuel",
+  "q": "In cruise, one fuel flow gauge reads noticeably higher than the other and more than you are actually burning. What does the POH suggest?",
+  "a": "A clogged fuel nozzle on that engine",
+  "d": [
+   "A failed engine-driven fuel pump",
+   "A selector partly on CROSSFEED",
+   "A blocked fuel cap vent"
+  ],
+  "why": "POH 6-9: a fuel flow reading well above actual consumption, or an asymmetric flow indication, may mean a clogged fuel nozzle that should be cleaned. Cross-check time, power and fuel used.",
+  "src": "POH 6-9",
+  "loc": "poh 163",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-117",
+  "topic": "s-fuel",
+  "q": "How are the Seneca I engines primed for a normal start?",
+  "a": "Electric pump on; mixture rich until fuel flow shows, then cutoff",
+  "d": [
+   "Panel plunger primer, three strokes, with mixture at cutoff",
+   "Pump the throttle three times with the mixture full rich",
+   "Hold the electric primer button for 3 seconds per engine"
+  ],
+  "why": "POH 6-3: with the electric fuel pumps on, move the mixture to rich until fuel flow is indicated and stabilized, then back to idle cut-off. Hot starts skip priming (pumps off).",
+  "src": "POH 6-3",
+  "loc": "poh 161",
+  "drop": true,
+  "drop_reason": "duplicate of p4"
+ },
+ {
+  "id": "p1-118",
+  "topic": "s-fuel",
+  "q": "In cruise, with plenty of fuel in the right tanks, the right engine's fuel pressure drops and the engine starts to falter. What backup does the fuel system provide?",
+  "a": "Turn on the right electric fuel pump",
+  "d": [
+   "Move the right selector to CROSSFEED",
+   "Pull the right alternate air control",
+   "Feather the right engine at once"
+  ],
+  "why": "POH 2-10: each engine's electric pump is the backup for its engine-driven pump (POH 3-8 repeats this). Crossfeed changes the fuel source, not the pump, so it would not cure a failed engine-driven pump.",
+  "src": "POH 2-10 · POH 3-8",
+  "loc": "poh 028"
+ },
+ {
+  "id": "p1-119",
+  "topic": "s-fuel",
+  "q": "Why does the POH caution against a fast taxi turn onto the runway and immediate takeoff without the electric pumps on?",
+  "a": "It can cause temporary malfunction of one engine",
+  "d": [
+   "It can overheat and fade the brakes",
+   "It can open the squat switch and retract the gear",
+   "It can shift the CG beyond the aft limit"
+  ],
+  "why": "POH 3-9: fast taxi turns right before the takeoff run can cause temporary malfunction of one engine if the electric boost pumps are not ON. POH 6-7 adds the warning about low fuel.",
+  "src": "POH 3-9 · POH 6-7",
+  "loc": "poh 067",
+  "drop": true,
+  "drop_reason": "duplicate of p2"
+ },
+ {
+  "id": "p1-120",
+  "topic": "s-engine",
+  "q": "What supplies the varying oil pressure that each Seneca I propeller uses to hold the selected RPM?",
+  "a": "An engine-mounted governor, through the propeller shaft",
+  "d": [
+   "The engine oil pump, through a fixed pressure regulator",
+   "An electric pump in each nacelle, set by the prop lever",
+   "The nitrogen charge in the dome, through a regulator"
+  ],
+  "why": "POH 2-4: a governor on each engine supplies oil through the propeller shaft at varying pressures to keep a constant RPM. Oil pressure moves the blades toward high RPM; the dome's nitrogen charge pushes them toward feather.",
+  "src": "POH 2-4",
+  "loc": "poh 021"
+ },
+ {
+  "id": "p1-121",
+  "topic": "s-engine",
+  "q": "Why does the POH call for smooth, not-too-rapid throttle movements on the Seneca I engines?",
+  "a": "To avoid engine wear and damage to the dynamic counterweights",
+  "d": [
+   "To avoid flooding the float carburetors and fouling the plugs",
+   "To keep the fuel injection servo from vapor locking at idle",
+   "To protect the alternators and regulators from sudden voltage surges"
+  ],
+  "why": "POH 2-3: smooth throttle operation prevents unnecessary engine wear and damage to the engines' dynamic counterweights. The engines are fuel injected, so there are no carburetors to flood.",
+  "src": "POH 2-3",
+  "loc": "poh 022"
+ },
+ {
+  "id": "p1-122",
+  "topic": "s-gear",
+  "q": "Which way does the Seneca I nose gear retract, and how does that help a free-fall extension?",
+  "a": "Forward; once it starts down, the airstream pushes it to lock",
+  "d": [
+   "Aft; the springs must overcome the airstream to lock it down fully",
+   "Inboard; gravity alone swings it down and into the locks",
+   "Aft; the airstream then pushes it down and into the downlock"
+  ],
+  "why": "POH 2-5: the mains fold inboard toward the centerline and the nose gear retracts forward. Once the nose gear starts down, the airstream pushes on it and helps it lock, along with gravity and springs.",
+  "src": "POH 2-5",
+  "loc": "poh 023"
+ },
+ {
+  "id": "p1-123",
+  "topic": "s-airframe",
+  "q": "Where are the Seneca I's standard cabin entry doors?",
+  "a": "A front door on the right and a rear door on the left",
+  "d": [
+   "A front door on the left and a rear door on the right",
+   "Front and rear doors, both on the right side",
+   "Front and rear doors, both on the left side"
+  ],
+  "why": "POH 2-1: the fuselage has a front door on the right side and a rear door on the left; a large rear cargo door is available as an option. The right flap can be used as a step only when fully retracted (POH 2-9).",
+  "src": "POH 2-1",
+  "loc": "poh 019"
+ }
+]

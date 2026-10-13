@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Oral Quiz">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Oral Quiz</title>
+<style>
+  :root {
+    --bg: #eceef1; --fg: #111; --card: #fff; --muted: #5f6670; --line: #d4d8de;
+    --accent: #1e5bd8; --accent-fg: #fff; --tile-filter: none;
+    --ok: #12793f; --ok-bg: #dcf3e4; --bad: #c62828; --bad-bg: #fde4e4; --pick-bg: #dfe8fb;
+    --warn-bg: #fff4d6; --warn-fg: #6b4a00;
+    --fs: 1;
+  }
+  [data-theme="night"] {
+    --bg: #000; --fg: #d6d6d6; --card: #141414; --muted: #8a8a8a; --line: #2a2a2a;
+    --accent: #2c5fbf; --accent-fg: #e8e8e8; --tile-filter: brightness(.62);
+    --ok: #4cc27a; --ok-bg: #0d2415; --bad: #ff6b61; --bad-bg: #2c0f0f; --pick-bg: #10203f;
+    --warn-bg: #2a2100; --warn-fg: #e0b84a;
+  }
+  [data-theme="red"] {
+    --bg: #000; --fg: #ff3b2f; --card: #120000; --muted: #d83a2e; --line: #3a0805;
+    --accent: #4a0000; --accent-fg: #ff4a3d; --tile-filter: none;
+    --ok: #ff3b2f; --ok-bg: #2a0000; --bad: #ff3b2f; --bad-bg: #120000; --pick-bg: #2a0000;
+    --warn-bg: #2a0000; --warn-fg: #ff6b5f;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); }
+  body {
+    font: calc(20px * var(--fs))/1.3 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+    touch-action: manipulation; -webkit-text-size-adjust: 100%;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  /* Day theme: a dark band so the white status-bar clock stays readable in the Home Screen app. */
+  [data-theme="day"] body::before { content: ''; position: fixed; top: 0; left: 0; right: 0; height: env(safe-area-inset-top); background: #1b1d21; z-index: 60; pointer-events: none; }
+  button { font: inherit; color: inherit; border: 0; background: none; cursor: pointer; touch-action: manipulation; }
+  button:disabled { cursor: default; }
+  .muted { color: var(--muted); }
+
+  /* ---------- Screens ---------- */
+  .screen { height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); display: flex; flex-direction: column; }
+  .scroll { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  .wrap { padding: 14px 16px 24px; max-width: 1100px; margin: 0 auto; }
+  .narrow { max-width: 860px; }
+
+  .home-head { display: flex; align-items: center; padding: 14px 16px 0; max-width: 1100px; width: 100%; margin: 0 auto; flex: none; }
+  .home-head > * + * { margin-left: 12px; }
+  .home-head h1 { flex: 1; min-width: 0; margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .home-head h1 small { display: block; font-size: 15px; font-weight: 700; letter-spacing: .3px; color: var(--muted); text-transform: uppercase; }
+  .small-btn {
+    min-height: 56px; padding: 0 18px; border-radius: 14px; font-size: 19px; font-weight: 700; flex: none;
+    background: var(--card); border: 1px solid var(--line); color: var(--fg);
+  }
+  .small-btn svg { width: 24px; height: 24px; vertical-align: -5px; }
+
+  .bar { flex: none; display: flex; align-items: stretch; padding: 12px 16px; border-bottom: 2px solid var(--line); }
+  .bar > * + * { margin-left: 12px; }
+  .home-tile, .next-tile {
+    min-height: 76px; border-radius: 20px; padding: 0 20px; font-size: 26px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; flex: none;
+  }
+  .home-tile { min-width: 150px; background: var(--accent); color: var(--accent-fg); }
+  .home-tile svg { width: 32px; height: 32px; flex: none; margin-right: 10px; }
+  .next-tile { min-width: 170px; background: var(--accent); color: var(--accent-fg); }
+  .next-tile:disabled { background: var(--card); color: var(--muted); border: 2px solid var(--line); }
+  .next-tile svg { width: 30px; height: 30px; margin-left: 8px; }
+  .bar-mid { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+  .bar-title { font-size: 26px; font-weight: 850; line-height: 1.12; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .bar-sub { font-size: 16px; font-weight: 700; color: var(--muted); margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .flag-btn { flex: none; min-width: 64px; border-radius: 18px; background: var(--card); border: 2px solid var(--line); font-size: 15px; font-weight: 800; color: var(--muted); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 8px; }
+  .flag-btn svg { width: 26px; height: 26px; margin-bottom: 2px; }
+  .flag-btn.on { color: #a37800; border-color: #e0b84a; background: var(--warn-bg); }
+  [data-theme="red"] .flag-btn.on { color: var(--fg); border-color: var(--fg); }
+  .meter { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 7px; }
+  .meter i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+  [data-theme="night"] .meter i { background: #4d8dff; }
+  [data-theme="red"] .meter i { background: var(--fg); }
+
+  /* ---------- Tiles ---------- */
+  .banner { display: block; width: 100%; text-align: left; margin: 0 0 14px; padding: 12px 16px; border-radius: 14px; background: var(--warn-bg); color: var(--warn-fg); font-size: 18px; font-weight: 750; }
+  .tiles { display: grid; grid-gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tiles.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tile {
+    position: relative; min-height: 150px; border-radius: 22px; padding: 16px 18px 18px; text-align: left;
+    display: flex; flex-direction: column; justify-content: space-between;
+    color: #fff; font-weight: 800; line-height: 1.12; filter: var(--tile-filter); box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    transition: transform .08s; overflow: hidden;
+  }
+  .tile.big { min-height: 190px; }
+  .tile .t1 { font-size: 27px; letter-spacing: -.2px; }
+  .tile.big .t1 { font-size: 32px; }
+  .tile .t2 { font-size: 16px; font-weight: 650; opacity: .92; margin-top: 6px; line-height: 1.25; }
+  .tile .tbar { height: 8px; border-radius: 4px; background: rgba(255,255,255,.28); overflow: hidden; margin-top: 12px; }
+  .tile .tbar i { display: block; height: 100%; background: #fff; border-radius: 4px; }
+  .tile .tfoot { display: flex; justify-content: space-between; font-size: 15px; font-weight: 750; opacity: .95; margin-top: 7px; }
+  .tile.plain { background: var(--card) !important; color: var(--fg); border: 2px solid var(--line); box-shadow: none; filter: none; }
+  .tile.plain .tbar { background: var(--line); }
+  .tile.plain .tbar i { background: var(--accent); }
+  .tile:disabled { opacity: .45; }
+  .tile:active, .home-tile:active, .next-tile:not(:disabled):active, .choice:not(:disabled):active, .seg button:active { transform: scale(.97); }
+  [data-theme="red"] .tile { background: #1a0000 !important; color: var(--fg); border: 2px solid #5a0d08; box-shadow: none; }
+  [data-theme="red"] .tile .tbar i { background: var(--fg); }
+  .section-label { margin: 22px 4px 10px; font-size: 15px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .section-label:first-child { margin-top: 4px; }
+  .summary { margin: 18px 4px 0; font-size: 17px; font-weight: 650; color: var(--muted); text-align: center; }
+
+  .seg { display: inline-flex; border-radius: 14px; background: var(--card); border: 1px solid var(--line); padding: 4px; }
+  .seg button { min-height: 50px; min-width: 64px; padding: 0 16px; border-radius: 10px; font-size: 18px; font-weight: 750; color: var(--muted); }
+  .seg button.on { background: var(--accent); color: var(--accent-fg); }
+  .mode-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
+  .mode-row .hint { font-size: 16px; font-weight: 650; color: var(--muted); }
+
+  /* ---------- Question ---------- */
+  .qwrap { padding: 16px 16px 30px; max-width: 920px; margin: 0 auto; }
+  .qtopic { font-size: 15px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 2px 2px 8px; }
+  .qtext { font-size: calc(27px * var(--fs)); font-weight: 750; line-height: 1.26; margin: 0 2px 18px; -webkit-user-select: text; user-select: text; }
+  .choices { display: grid; grid-gap: 12px; }
+  .choice {
+    display: flex; align-items: center; width: 100%; min-height: 76px; padding: 12px 16px; border-radius: 18px; text-align: left;
+    background: var(--card); border: 2px solid var(--line); font-size: calc(22px * var(--fs)); font-weight: 650; line-height: 1.22;
+  }
+  .choice .let { flex: none; width: 44px; height: 44px; border-radius: 12px; margin-right: 14px; display: flex; align-items: center; justify-content: center; font-weight: 850; font-size: 21px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+  .choice .ct { flex: 1; min-width: 0; }
+  .choice .mark { flex: none; margin-left: 12px; font-size: 28px; font-weight: 900; }
+  .choice.pick { border-color: var(--accent); background: var(--pick-bg); }
+  .choice.pick .let { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+  .choice.right { border-color: var(--ok); background: var(--ok-bg); border-width: 3px; }
+  .choice.right .let { background: var(--ok); color: #fff; border-color: var(--ok); }
+  .choice.wrong { border-color: var(--bad); background: var(--bad-bg); border-style: dashed; border-width: 3px; }
+  .choice.wrong .let { background: var(--bad); color: #fff; border-color: var(--bad); }
+  .choice.dim { opacity: .55; }
+  [data-theme="red"] .choice.right .let, [data-theme="red"] .choice.wrong .let { color: #000; }
+  .right .mark { color: var(--ok); } .wrong .mark { color: var(--bad); }
+  .explain { margin-top: 16px; padding: 16px 18px; border-radius: 18px; background: var(--card); border: 2px solid var(--line); font-size: calc(20px * var(--fs)); line-height: 1.38; -webkit-user-select: text; user-select: text; }
+  .explain .verdict { font-size: calc(23px * var(--fs)); font-weight: 850; margin-bottom: 6px; }
+  .explain .verdict.ok { color: var(--ok); } .explain .verdict.bad { color: var(--bad); }
+  .explain .src { margin-top: 10px; font-size: 16px; font-weight: 700; color: var(--muted); }
+  .tapnext { display: block; width: 100%; margin-top: 16px; min-height: 70px; border-radius: 18px; background: var(--accent); color: var(--accent-fg); font-size: 24px; font-weight: 850; }
+
+  /* ---------- Results, study, settings ---------- */
+  .score { text-align: center; padding: 18px 0 8px; }
+  .score .big { font-size: 64px; font-weight: 900; letter-spacing: -1px; line-height: 1; }
+  .score .pct { font-size: 24px; font-weight: 800; color: var(--muted); margin-top: 8px; }
+  .score .verdict { font-size: 20px; font-weight: 750; margin-top: 6px; }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 16px 0 6px; }
+  .btn { min-height: 64px; padding: 0 22px; border-radius: 16px; font-size: 21px; font-weight: 800; background: var(--accent); color: var(--accent-fg); }
+  .btn.alt { background: var(--card); color: var(--fg); border: 2px solid var(--line); }
+  .btn.danger { background: var(--card); color: #c62828; border: 2px solid var(--line); }
+  [data-theme="night"] .btn.danger { color: #ff6b61; }
+  [data-theme="red"] .btn.danger { color: var(--fg); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 14px 16px; margin-bottom: 12px; -webkit-user-select: text; user-select: text; }
+  .card .cq { font-size: calc(20px * var(--fs)); font-weight: 750; line-height: 1.28; }
+  .card .ca { margin-top: 8px; font-size: calc(19px * var(--fs)); font-weight: 700; color: var(--ok); }
+  .card .cx { margin-top: 4px; font-size: calc(18px * var(--fs)); font-weight: 650; color: var(--bad); }
+  .card .cw { margin-top: 8px; font-size: calc(17px * var(--fs)); line-height: 1.38; }
+  .card .cs { margin-top: 6px; font-size: 15px; font-weight: 700; color: var(--muted); }
+  .card .crow { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; gap: 10px; }
+  .link-btn { min-height: 44px; padding: 0 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); font-size: 16px; font-weight: 750; }
+  table.stats { width: 100%; border-collapse: collapse; font-size: 17px; }
+  table.stats th, table.stats td { padding: 9px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  table.stats th:first-child, table.stats td:first-child { text-align: left; white-space: normal; }
+  table.stats th { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .set-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .set-row .lbl { font-size: 20px; font-weight: 750; }
+  .set-row .lbl small { display: block; font-size: 15px; font-weight: 600; color: var(--muted); margin-top: 2px; }
+  .note { font-size: 16px; line-height: 1.4; color: var(--muted); margin: 10px 2px; }
+  .empty { padding: 40px 10px; text-align: center; color: var(--muted); font-size: 20px; }
+
+  @media (max-width: 900px) { .tiles.three { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 600px) {
+    .tiles, .tiles.three { grid-template-columns: minmax(0, 1fr); grid-gap: 12px; }
+    .tile, .tile.big { min-height: 118px; }
+    .tile .t1, .tile.big .t1 { font-size: 24px; }
+    .home-head h1 { font-size: 25px; }
+    .home-tile { min-width: 0; padding: 0 16px; font-size: 0; } .home-tile svg { margin-right: 0; }
+    .next-tile { min-width: 0; padding: 0 16px; font-size: 21px; }
+    .home-tile, .next-tile { min-height: 64px; }
+    .bar { padding: 10px 12px; } .bar > * + * { margin-left: 8px; }
+    .bar-title { font-size: 20px; } .bar-sub { font-size: 14px; }
+    .flag-btn { min-width: 54px; font-size: 0; } .flag-btn svg { margin: 0; }
+    .qtext { font-size: calc(22px * var(--fs)); }
+    .choice { min-height: 64px; font-size: calc(19px * var(--fs)); padding: 10px 12px; }
+    .choice .let { width: 36px; height: 36px; margin-right: 10px; font-size: 18px; }
+    .small-btn { min-height: 50px; padding: 0 14px; }
+    .small-btn .lbl { display: none; }
+  }
+  #err { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 99; background: #fff; color: #111; border: 2px solid #c62828; border-radius: 14px; padding: 14px 16px; font-size: 17px; box-shadow: 0 6px 24px rgba(0,0,0,.3); }
+  #err code { display: block; font-size: 13px; margin: 6px 0 10px; color: #444; -webkit-user-select: text; user-select: text; word-break: break-word; }
+  #err button { min-height: 52px; padding: 0 22px; border-radius: 12px; font-weight: 800; background: #1e5bd8; color: #fff; margin-right: 10px; }
+</style>
+</head>
+<body>
+<div id="app"><div class="wrap" style="padding-top:40px;font-size:22px">Loading questions…</div></div>
+<script>
+  // Any unexpected error: keep the app and offer one-tap recovery. Progress is saved after every answer.
+  window.onerror = function (msg, src, line) {
+    try {
+      var box = document.getElementById('err');
+      if (!box) { box = document.createElement('div'); box.id = 'err'; document.body.appendChild(box); }
+      box.innerHTML = '<b>Something went wrong.</b> Your progress is saved.' +
+        '<code>' + String(msg).replace(/</g, '&lt;') + ' (' + String(src || '').split('/').pop() + ':' + line + ')</code>' +
+        '<button onclick="location.hash=\'#/\';location.reload()">Home</button><button onclick="location.reload()">Reload</button>';
+    } catch (e) {}
+  };
+  window.addEventListener('unhandledrejection', function () { /* background fetches may fail offline; ignore */ });
+</script>
+<script src="questions.js"></script>
+<script>
+'use strict';
+
+const APP_VERSION = 1;
+const STATS_KEY = 'quiz.stats.v1', SESSION_KEY = 'quiz.session.v1', FLAGS_KEY = 'quiz.flags.v1', SET_KEY = 'quiz.settings.v1', THEME_KEY = 'theme.v1';
+const MOCK_LEN = 50, MISSED_MAX = 50;
+const GROUPS = [
+  { key: 'oeg', title: 'Oral Exam Guide', short: 'Oral Guide', sub: 'Multi-engine knowledge, chapters 1–4', color: '#1e5bd8' },
+  { key: 'seneca', title: 'PA-34 Seneca', short: 'Seneca', sub: 'Systems, limits & procedures from the POH', color: '#138a4a' },
+];
+
+function read(k, fallback) { try { const v = JSON.parse(localStorage.getItem(k)); return v === null || v === undefined ? fallback : v; } catch (e) { return fallback; } }
+function write(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const LETTERS = 'ABCD';
+
+const Q = new Map(QUESTIONS.map(q => [q.id, q]));
+const TOPIC = new Map(TOPICS.map(t => [t.key, t]));
+const byTopic = key => QUESTIONS.filter(q => q.t === key);
+const byGroup = key => QUESTIONS.filter(q => (TOPIC.get(q.t) || {}).group === key);
+
+let stats = read(STATS_KEY, {});            // id -> { n: seen, c: correct, ok: last answer right, s: streak, last: time }
+let flags = read(FLAGS_KEY, {});            // id -> time flagged
+let settings = Object.assign({ len: 20, fs: 1 }, read(SET_KEY, {}));
+let theme = read(THEME_KEY, 'day');
+let session = read(SESSION_KEY, null);
+if (session && (!Array.isArray(session.ids) || session.ids.some(id => !Q.has(id)))) session = null;   // question bank changed under it
+let studyMode = false;
+
+const saveStats = () => write(STATS_KEY, stats);
+const saveSession = () => session ? write(SESSION_KEY, session) : localStorage.removeItem(SESSION_KEY);
+const saveFlags = () => write(FLAGS_KEY, flags);
+const saveSettings = () => write(SET_KEY, settings);
+
+function applyTheme() {
+  document.documentElement.dataset.theme = theme;
+  document.querySelector('meta[name=theme-color]').content = theme === 'day' ? '#1b1d21' : '#000000';
+  document.documentElement.style.setProperty('--fs', settings.fs);
+}
+const THEME_LABEL = { day: ['☀︎', 'Day'], night: ['☾', 'Night'], red: ['●', 'Red'] };
+
+/* ---------- Icons ---------- */
+const svg = p => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${p}</svg>`;
+const ICON_HOME = svg('<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>');
+const ICON_NEXT = svg('<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>');
+const ICON_FLAG = svg('<path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/>');
+const ICON_GEAR = svg('<circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/>');
+const homeTile = () => `<button class="home-tile" data-go="#/" aria-label="Home">${ICON_HOME}<span>HOME</span></button>`;
+
+/* ---------- Progress ---------- */
+// "Known" = answered correctly the last time it was asked.
+function progress(qs) {
+  let seen = 0, known = 0;
+  for (const q of qs) { const s = stats[q.id]; if (s) { seen++; if (s.ok) known++; } }
+  return { total: qs.length, seen, known, pct: qs.length ? Math.round(100 * known / qs.length) : 0 };
+}
+const missedQs = () => QUESTIONS.filter(q => stats[q.id] && !stats[q.id].ok);
+const flaggedQs = () => QUESTIONS.filter(q => flags[q.id]);
+
+function record(id, ok) {
+  const s = stats[id] || { n: 0, c: 0, s: 0 };
+  s.n++; if (ok) { s.c++; s.s = (s.s || 0) + 1; } else s.s = 0;
+  s.ok = ok; s.last = Date.now();
+  stats[id] = s; saveStats();
+}
+
+/* ---------- Choosing questions ---------- */
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+// Missed questions come up most, then new ones, then ones answered right long ago; recent streaks come up least.
+function weight(q) {
+  const s = stats[q.id];
+  if (!s) return 6;
+  if (!s.ok) return 12;
+  const days = (Date.now() - (s.last || 0)) / 864e5;
+  return Math.max(0.12, Math.min(4, (0.5 + days) / (1 + 1.5 * (s.s || 1))));
+}
+function weightedPick(pool, n) {
+  return pool.map(q => ({ q, k: Math.pow(Math.random(), 1 / weight(q)) }))
+    .sort((a, b) => b.k - a.k).slice(0, n).map(x => x.q);
+}
+// The mock oral samples every topic in proportion to its size, at random.
+function stratifiedPick(pool, n) {
+  const groups = new Map();
+  for (const q of shuffle(pool.slice())) { if (!groups.has(q.t)) groups.set(q.t, []); groups.get(q.t).push(q); }
+  const out = [];
+  for (const [, list] of groups) out.push(...list.slice(0, Math.floor(n * list.length / pool.length)));
+  const rest = shuffle(pool.filter(q => !out.includes(q)));
+  while (out.length < Math.min(n, pool.length)) out.push(rest.pop());
+  return shuffle(out);
+}
+
+function start(spec) {
+  let pool, ids, title, kind = 'practice';
+  const len = Math.min(settings.len, 200);
+  if (spec.type === 'quick') { pool = QUESTIONS; title = 'Quick Quiz'; }
+  else if (spec.type === 'mock') { pool = QUESTIONS; title = 'Mock Oral'; kind = 'mock'; }
+  else if (spec.type === 'group') { pool = byGroup(spec.key); title = (GROUPS.find(g => g.key === spec.key) || {}).title; }
+  else if (spec.type === 'topic') { pool = byTopic(spec.key); title = (TOPIC.get(spec.key) || {}).title; }
+  else if (spec.type === 'missed') { pool = missedQs(); title = 'Missed Questions'; }
+  else if (spec.type === 'flagged') { pool = flaggedQs(); title = 'Flagged Questions'; }
+  else if (spec.type === 'retry') { pool = spec.ids.map(id => Q.get(id)).filter(Boolean); title = 'Retry Missed'; }
+  if (!pool || !pool.length) return;
+  if (kind === 'mock') ids = stratifiedPick(pool, MOCK_LEN).map(q => q.id);
+  else if (spec.type === 'missed') ids = shuffle(pool.slice()).slice(0, MISSED_MAX).map(q => q.id);
+  else if (spec.type === 'flagged' || spec.type === 'retry') ids = shuffle(pool.map(q => q.id));
+  else ids = weightedPick(pool, len).map(q => q.id);
+  const orders = {};
+  for (const id of ids) orders[id] = shuffle([0, 1, 2, 3]);
+  session = { kind, title, spec, ids, orders, i: 0, picks: {}, done: false, t: Date.now() };
+  saveSession();
+  go('#/quiz');
+}
+
+const choiceText = (q, k) => k === 0 ? q.a : q.d[k - 1];       // k: 0 = correct, 1..3 = distractors
+const isRight = (id, pick) => pick !== undefined && session.orders[id][pick] === 0;
+
+/* ---------- Rendering ---------- */
+const $app = document.getElementById('app');
+let route = '';
+
+function render() {
+  route = location.hash || '#/';
+  const parts = route.slice(2).split('/');
+  if (parts[0] === 'quiz' && session && !session.done) renderQuiz();
+  else if (parts[0] === 'results' && session && session.done) renderResults();
+  else if (parts[0] === 'g' && GROUPS.some(g => g.key === parts[1])) renderGroup(parts[1]);
+  else if (parts[0] === 'study' && TOPIC.has(decodeURIComponent(parts[1] || ''))) renderStudy(decodeURIComponent(parts[1]));
+  else if (parts[0] === 'list' && (parts[1] === 'flagged' || parts[1] === 'missed')) renderList(parts[1]);
+  else if (parts[0] === 'settings') renderSettings();
+  else renderHome();
+}
+function go(h) { if (location.hash === h) render(); else location.hash = h; }
+function scrollTop() { const s = $app.querySelector('.scroll'); if (s) s.scrollTop = 0; }
+
+function tile({ act, data = '', color, t1, t2 = '', prog, big = false, plain = false, disabled = false, foot = '' }) {
+  const bar = prog ? `<div><div class="tbar"><i style="width:${prog.pct}%"></i></div><div class="tfoot"><span>${prog.known} of ${prog.total} correct</span><span>${prog.pct}%</span></div></div>` : (foot ? `<div class="tfoot"><span>${foot}</span></div>` : '');
+  return `<button class="tile${big ? ' big' : ''}${plain ? ' plain' : ''}" data-act="${act}" ${data} ${disabled ? 'disabled' : ''} style="${plain ? '' : 'background:' + color}">
+    <div><div class="t1">${t1}</div>${t2 ? `<div class="t2">${t2}</div>` : ''}</div>${bar}</button>`;
+}
+
+function renderHome() {
+  const all = progress(QUESTIONS), missed = missedQs().length, flagged = flaggedQs().length;
+  const resume = session && !session.done ? `<button class="banner" data-act="resume">Resume “${esc(session.title)}” — question ${session.i + 1} of ${session.ids.length} ›</button>` : '';
+  $app.innerHTML = `<div class="screen">
+    <div class="home-head">
+      <h1><small>PA-34-200 Seneca I</small>Multi-Engine Oral</h1>
+      <button class="small-btn" data-act="theme" aria-label="Display mode: ${THEME_LABEL[theme][1]}">${THEME_LABEL[theme][0]}<span class="lbl"> ${THEME_LABEL[theme][1]}</span></button>
+      <button class="small-btn" data-go="#/settings" aria-label="Settings and progress">${ICON_GEAR}<span class="lbl"> Settings</span></button>
+    </div>
+    <div class="scroll"><div class="wrap">
+      ${resume}
+      <div class="tiles">
+        ${tile({ act: 'start', data: 'data-type="quick"', color: '#d9730d', big: true, t1: 'Quick Quiz', t2: `${settings.len} questions from every area — missed and new ones first` })}
+        ${tile({ act: 'start', data: 'data-type="mock"', color: '#6b3fc7', big: true, t1: 'Mock Oral', t2: `${MOCK_LEN} questions across all topics, graded at the end` })}
+        ${GROUPS.map(g => tile({ act: 'group', data: `data-key="${g.key}"`, color: g.color, big: true, t1: g.title, t2: `${g.sub} · ${TOPICS.filter(t => t.group === g.key).length} topics`, prog: progress(byGroup(g.key)) })).join('')}
+        ${tile({ act: 'start', data: 'data-type="missed"', plain: true, disabled: !missed, t1: `Missed${missed ? ' (' + missed + ')' : ''}`, t2: missed ? 'Questions you got wrong last time' : 'Nothing missed yet' })}
+        ${tile({ act: 'start', data: 'data-type="flagged"', plain: true, disabled: !flagged, t1: `Flagged${flagged ? ' (' + flagged + ')' : ''}`, t2: flagged ? 'Questions you marked to review' : 'Flag a question to save it here' })}
+      </div>
+      <div class="summary">${all.seen ? `${all.known} of ${all.total} questions answered correctly · ${all.total - all.seen} not tried yet` : `${all.total} questions · tap a tile to start`}</div>
+    </div></div></div>`;
+}
+
+function renderGroup(key) {
+  const g = GROUPS.find(x => x.key === key), topics = TOPICS.filter(t => t.group === key);
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}<div class="bar-mid"><div class="bar-title">${esc(g.title)}</div><div class="bar-sub">${esc(g.sub)}</div></div></div>
+    <div class="scroll"><div class="wrap">
+      <div class="mode-row">
+        <div class="seg" role="tablist"><button class="${studyMode ? '' : 'on'}" data-act="mode" data-v="quiz">Quiz</button><button class="${studyMode ? 'on' : ''}" data-act="mode" data-v="study">Study</button></div>
+        <div class="hint">${studyMode ? 'Read every question with its answer' : `${settings.len} questions per quiz · change in Settings`}</div>
+      </div>
+      <div class="tiles three">
+        ${studyMode ? '' : tile({ act: 'start', data: `data-type="group" data-key="${key}"`, color: g.color, t1: `All ${esc(g.title)}`, t2: 'Mixed from every topic below', prog: progress(byGroup(key)) })}
+        ${topics.map(t => tile({ act: studyMode ? 'study' : 'start', data: `data-type="topic" data-key="${t.key}"`, color: t.color, t1: esc(t.title), t2: `${byTopic(t.key).length} questions`, prog: progress(byTopic(t.key)) })).join('')}
+      </div>
+    </div></div></div>`;
+}
+
+function renderQuiz() {
+  const s = session, id = s.ids[s.i], q = Q.get(id), order = s.orders[id], pick = s.picks[id];
+  const practice = s.kind === 'practice', answered = pick !== undefined;
+  const reveal = practice && answered;
+  const right = Object.keys(s.picks).filter(k => isRight(k, s.picks[k])).length;
+  const done = Object.keys(s.picks).length;
+  const last = s.i === s.ids.length - 1;
+  const t = TOPIC.get(q.t) || { title: '' }, grp = GROUPS.find(g => g.key === t.group);
+  const choices = order.map((k, i) => {
+    let cls = '';
+    if (reveal) cls = k === 0 ? 'right' : i === pick ? 'wrong' : 'dim';
+    else if (answered && i === pick) cls = 'pick';
+    const mark = reveal && k === 0 ? '✓' : reveal && i === pick ? '✗' : '';
+    return `<button class="choice ${cls}" data-act="pick" data-i="${i}" ${reveal ? 'disabled' : ''} aria-label="${LETTERS[i]}: ${esc(choiceText(q, k))}"><span class="let">${LETTERS[i]}</span><span class="ct">${esc(choiceText(q, k))}</span>${mark ? `<span class="mark">${mark}</span>` : ''}</button>`;
+  }).join('');
+  const ok = reveal && order[pick] === 0;
+  const explain = reveal ? `<div class="explain"><div class="verdict ${ok ? 'ok' : 'bad'}">${ok ? '✓ Correct' : `✗ The answer is ${LETTERS[order.indexOf(0)]}`}</div>${esc(q.why)}<div class="src">Source: ${esc(q.src)}</div></div>
+    <button class="tapnext" data-act="next">${last ? 'See results' : 'Next question'}</button>` : '';
+  const sub = practice ? `${right} right of ${done} answered` : `${done} answered · graded at the end`;
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}
+      <div class="bar-mid"><div class="bar-title">${s.i + 1} of ${s.ids.length}</div><div class="bar-sub">${esc(s.title)} · ${sub}</div><div class="meter"><i style="width:${Math.round(100 * (s.i + (answered ? 1 : 0)) / s.ids.length)}%"></i></div></div>
+      <button class="flag-btn${flags[id] ? ' on' : ''}" data-act="flag" aria-label="${flags[id] ? 'Unflag question' : 'Flag question for review'}">${ICON_FLAG}<span>${flags[id] ? 'Flagged' : 'Flag'}</span></button>
+      <button class="next-tile" data-act="next" ${answered ? '' : 'disabled'}>${last ? 'Finish' : 'Next'}${ICON_NEXT}</button>
+    </div>
+    <div class="scroll"><div class="qwrap">
+      <div class="qtopic">${grp ? esc(grp.short) + ' · ' : ''}${esc(t.title)}</div>
+      <div class="qtext">${esc(q.q)}</div>
+      <div class="choices">${choices}</div>
+      ${explain}
+    </div></div></div>`;
+}
+
+function pickChoice(i) {
+  const s = session, id = s.ids[s.i];
+  if (s.kind === 'practice') {
+    if (s.picks[id] !== undefined) return;
+    s.picks[id] = i; record(id, isRight(id, i));
+  } else s.picks[id] = i;
+  saveSession();
+  const sc = $app.querySelector('.scroll'), y = sc ? sc.scrollTop : 0;
+  renderQuiz();
+  const sc2 = $app.querySelector('.scroll');
+  if (sc2) { sc2.scrollTop = y; const ex = sc2.querySelector('.explain'); if (ex) ex.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+}
+
+function next() {
+  const s = session, id = s.ids[s.i];
+  if (s.picks[id] === undefined) return;
+  if (s.i < s.ids.length - 1) { s.i++; saveSession(); renderQuiz(); scrollTop(); return; }
+  if (s.kind === 'mock') for (const k of s.ids) if (s.picks[k] !== undefined) record(k, isRight(k, s.picks[k]));
+  s.done = true; saveSession(); go('#/results');
+}
+
+function verdictFor(p) { return p >= 90 ? 'Checkride ready on this set.' : p >= 80 ? 'Solid — review the misses below.' : p >= 70 ? 'Getting there — study the misses and retry.' : 'Keep studying — retry the misses.'; }
+
+function renderResults() {
+  const s = session, total = s.ids.length;
+  const missed = s.ids.filter(id => !isRight(id, s.picks[id]));
+  const right = total - missed.length, pct = Math.round(100 * right / total);
+  const topics = [...new Set(s.ids.map(id => Q.get(id).t))];
+  const table = topics.length > 1 ? `<div class="section-label">By topic</div><div class="card"><table class="stats"><tr><th>Topic</th><th>Right</th><th>%</th></tr>
+    ${topics.map(t => { const ids = s.ids.filter(id => Q.get(id).t === t), r = ids.filter(id => isRight(id, s.picks[id])).length; return `<tr><td>${esc(TOPIC.get(t).title)}</td><td>${r} / ${ids.length}</td><td>${Math.round(100 * r / ids.length)}%</td></tr>`; }).join('')}</table></div>` : '';
+  const list = missed.length ? `<div class="section-label">Missed (${missed.length})</div>` + missed.map(id => qCard(Q.get(id), choiceText(Q.get(id), s.orders[id][s.picks[id]]))).join('') : '';
+  const again = s.spec && s.spec.type !== 'retry' && s.spec.type !== 'missed' && s.spec.type !== 'flagged';
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}<div class="bar-mid"><div class="bar-title">Results</div><div class="bar-sub">${esc(s.title)}</div></div></div>
+    <div class="scroll"><div class="wrap narrow">
+      <div class="score"><div class="big">${right} / ${total}</div><div class="pct">${pct}%</div><div class="verdict">${verdictFor(pct)}</div></div>
+      <div class="btn-row">
+        ${missed.length ? `<button class="btn" data-act="retry">Retry the ${missed.length} missed</button>` : ''}
+        ${again ? `<button class="btn alt" data-act="again">New ${esc(s.title)}</button>` : ''}
+        <button class="btn alt" data-go="#/">Home</button>
+      </div>
+      ${table}${list}
+    </div></div></div>`;
+}
+
+function qCard(q, yours) {
+  return `<div class="card"><div class="cq">${esc(q.q)}</div>
+    ${yours !== undefined ? `<div class="cx">✗ ${esc(yours)}</div>` : ''}
+    <div class="ca">✓ ${esc(q.a)}</div><div class="cw">${esc(q.why)}</div>
+    <div class="crow"><div class="cs">${esc(q.src)}</div><button class="link-btn" data-act="flag-id" data-id="${q.id}">${flags[q.id] ? '⚑ Flagged' : 'Flag'}</button></div></div>`;
+}
+
+function renderStudy(key) {
+  const t = TOPIC.get(key), qs = byTopic(key);
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}<div class="bar-mid"><div class="bar-title">${esc(t.title)}</div><div class="bar-sub">Study · ${qs.length} questions</div></div>
+      <button class="next-tile" data-act="start" data-type="topic" data-key="${key}">Quiz${ICON_NEXT}</button></div>
+    <div class="scroll"><div class="wrap narrow">${qs.map(q => qCard(q)).join('')}</div></div></div>`;
+}
+
+function renderList(which) {
+  const qs = which === 'flagged' ? flaggedQs() : missedQs();
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}<div class="bar-mid"><div class="bar-title">${which === 'flagged' ? 'Flagged' : 'Missed'} questions</div><div class="bar-sub">${qs.length} questions</div></div></div>
+    <div class="scroll"><div class="wrap narrow">${qs.length ? qs.map(q => qCard(q)).join('') : '<div class="empty">None.</div>'}</div></div></div>`;
+}
+
+function renderSettings() {
+  const seg = (act, vals, cur, fmt) => `<div class="seg">${vals.map(v => `<button class="${v === cur ? 'on' : ''}" data-act="${act}" data-v="${v}">${fmt ? fmt(v) : v}</button>`).join('')}</div>`;
+  const rows = GROUPS.map(g => `<tr><td><b>${esc(g.title)}</b></td><td></td><td></td></tr>` + TOPICS.filter(t => t.group === g.key).map(t => {
+    const p = progress(byTopic(t.key)); return `<tr><td>${esc(t.title)}</td><td>${p.seen} / ${p.total}</td><td>${p.seen ? p.pct + '%' : '–'}</td></tr>`;
+  }).join('')).join('');
+  const nFlag = flaggedQs().length, nMiss = missedQs().length;
+  const offline = 'serviceWorker' in navigator && navigator.serviceWorker.controller ? 'Offline ready — works in airplane mode.' : 'Open once while online from the Home Screen icon to enable offline use.';
+  $app.innerHTML = `<div class="screen">
+    <div class="bar">${homeTile()}<div class="bar-mid"><div class="bar-title">Settings & Progress</div><div class="bar-sub">${QUESTIONS.length} questions · bank ${esc(QBANK_VERSION)}</div></div></div>
+    <div class="scroll"><div class="wrap narrow">
+      <div class="set-row"><div class="lbl">Questions per quiz<small>Quick Quiz and topic quizzes</small></div>${seg('len', [10, 20, 30, 50], settings.len)}</div>
+      <div class="set-row"><div class="lbl">Text size</div>${seg('fs', [0.9, 1, 1.15, 1.3], settings.fs, v => ({ 0.9: 'S', 1: 'M', 1.15: 'L', 1.3: 'XL' })[v])}</div>
+      <div class="set-row"><div class="lbl">Display</div>${seg('settheme', ['day', 'night', 'red'], theme, v => THEME_LABEL[v][1])}</div>
+      <div class="section-label">Progress by topic</div>
+      <div class="card"><table class="stats"><tr><th>Topic</th><th>Tried</th><th>Right</th></tr>${rows}</table>
+        <div class="note">“Right” counts questions answered correctly the last time they came up. Missed questions come back more often until you get them right.</div></div>
+      <div class="btn-row" style="justify-content:flex-start">
+        <button class="btn alt" data-go="#/list/missed" ${nMiss ? '' : 'disabled'}>Missed list (${nMiss})</button>
+        <button class="btn alt" data-go="#/list/flagged" ${nFlag ? '' : 'disabled'}>Flagged list (${nFlag})</button>
+        <button class="btn alt" data-act="copyflags" ${nFlag ? '' : 'disabled'}>Copy flagged as text</button>
+      </div>
+      <div class="section-label">About</div>
+      <div class="note">${offline}</div>
+      <div class="note">Questions are written from the ASA Multi-Engine Oral Exam Guide and the PA-34-200 Seneca I Pilot's Operating Manual for s/n 34-7350124. Seneca speeds are MPH. If an answer disagrees with your POH or instructor, the POH wins — flag it so it can be fixed.</div>
+      <div class="btn-row" style="justify-content:flex-start"><button class="btn danger" data-act="reset">Reset all progress</button></div>
+    </div></div></div>`;
+}
+
+/* ---------- Events ---------- */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-go],[data-act]');
+  if (!el || el.disabled) return;
+  if (el.dataset.go) { go(el.dataset.go); return; }
+  const d = el.dataset;
+  switch (d.act) {
+    case 'theme': theme = { day: 'night', night: 'red', red: 'day' }[theme]; write(THEME_KEY, theme); applyTheme(); render(); break;
+    case 'settheme': theme = d.v; write(THEME_KEY, theme); applyTheme(); render(); break;
+    case 'resume': go('#/quiz'); break;
+    case 'group': go('#/g/' + d.key); break;
+    case 'mode': studyMode = d.v === 'study'; render(); break;
+    case 'study': go('#/study/' + encodeURIComponent(d.key)); break;
+    case 'start':
+      if (session && !session.done && session.i > 0 && !confirm(`Leave “${session.title}” at question ${session.i + 1}? Answers so far are saved.`)) return;
+      start({ type: d.type, key: d.key }); break;
+    case 'pick': pickChoice(+d.i); break;
+    case 'next': next(); break;
+    case 'flag': { const id = session.ids[session.i]; if (flags[id]) delete flags[id]; else flags[id] = Date.now(); saveFlags(); renderQuiz(); break; }
+    case 'flag-id': { const id = d.id; if (flags[id]) delete flags[id]; else flags[id] = Date.now(); saveFlags(); el.textContent = flags[id] ? '⚑ Flagged' : 'Flag'; break; }
+    case 'retry': start({ type: 'retry', ids: session.ids.filter(id => !isRight(id, session.picks[id])) }); break;
+    case 'again': start(session.spec); break;
+    case 'len': settings.len = +d.v; saveSettings(); render(); break;
+    case 'fs': settings.fs = +d.v; saveSettings(); applyTheme(); render(); break;
+    case 'copyflags': copyFlags(); break;
+    case 'reset':
+      if (!confirm('Erase all quiz progress, missed and flagged questions on this device?')) return;
+      stats = {}; flags = {}; session = null; saveStats(); saveFlags(); saveSession(); render(); break;
+  }
+});
+
+function copyFlags() {
+  const text = flaggedQs().map(q => `[${q.id}] ${q.q}\n  Answer: ${q.a}\n  Source: ${q.src}`).join('\n\n');
+  const done = () => alert('Copied ' + flaggedQs().length + ' flagged questions.');
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, () => prompt('Copy this text:', text));
+  else prompt('Copy this text:', text);
+}
+
+// Keyboard: 1–4 or A–D to answer, Enter / Space / → for next, Esc for home.
+document.addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === 'Escape') { go('#/'); return; }
+  if (!route.startsWith('#/quiz') || !session || session.done) return;
+  const k = e.key.toLowerCase(), i = '1234'.indexOf(k) >= 0 ? '1234'.indexOf(k) : 'abcd'.indexOf(k);
+  if (k.length === 1 && i >= 0) { e.preventDefault(); pickChoice(i); }
+  else if (k === 'enter' || k === ' ' || k === 'arrowright') { e.preventDefault(); next(); }
+});
+
+window.addEventListener('hashchange', () => { render(); scrollTop(); });
+applyTheme();
+render();
+
+// Offline: cache every file. When a new version arrives, reload; the current quiz is saved and resumes.
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloading) { reloading = true; location.reload(); } });
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(reg => {
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+  }).catch(() => {});
+}
+</script>
+</body>
+</html>
