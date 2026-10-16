@@ -1357,8 +1357,8 @@
    "Only at the annual inspection, whatever the use or test time",
    "After emergency use, or once test time totals 30 minutes"
   ],
-  "why": "POH 6-14: the battery's useful life is four years, but to meet FAA rules it is replaced after two years of shelf or service life, and also if the ELT has been used in an emergency or accumulated test time exceeds one hour. The replacement date is marked on the transmitter label.",
-  "src": "POH 6-14",
+  "why": "POH 6-14: the battery's useful life is four years, but to meet FAA rules it is replaced after two years of shelf or service life, and also if the ELT has been used in an emergency or accumulated test time exceeds one hour. The rule is 14 CFR 91.207(c): replace after more than 1 cumulative hour of use or when 50% of useful life has expired, with the new date marked on the transmitter and entered in the maintenance record.",
+  "src": "POH 6-14 · 14 CFR 91.207(c)",
   "loc": "poh 173"
  },
  {

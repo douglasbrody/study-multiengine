@@ -10,7 +10,7 @@
    "On the inboard side of each propeller disc"
   ],
   "why": "Clockwise rotation viewed from behind puts the descending blade on the right of every engine. That places the right engine's descending blade outboard (long arm from the CG) and the left engine's inboard (short arm).",
-  "src": "OEG 3A-1 · FAA-H-8083-3",
+  "src": "OEG 3A-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 043"
  },
  {
@@ -24,7 +24,7 @@
    "The right engine is rated for more horsepower than the left"
   ],
   "why": "P-factor shifts each engine's effective thrust toward its descending (right-side) blade. On the right engine that point is farthest from the CG, so when the right engine is the one left running, the yawing moment is largest.",
-  "src": "OEG 3A-1 · FAA-H-8083-3",
+  "src": "OEG 3A-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 043"
  },
  {
@@ -38,7 +38,7 @@
    "At idle power and negative AOA, strongest in a steep descent"
   ],
   "why": "At a positive angle of attack the descending blade meets the air at a larger angle and makes more thrust than the ascending blade. The effect peaks at low airspeed and high AOA, the takeoff and climb regime where an engine failure hurts most.",
-  "src": "OEG 3A-1, 3A-3 · FAA-H-8083-3",
+  "src": "OEG 3A-1, 3A-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 043"
  },
  {
@@ -52,7 +52,7 @@
    "The engine that must be started first on every flight"
   ],
   "why": "The critical engine is defined by how badly its loss hurts controllability and performance, especially at takeoff, climb-out and high angles of attack. The OEG ties it to the airplane's design, engine placement and propeller rotation.",
-  "src": "OEG 3A-2 · FAA-H-8083-3",
+  "src": "OEG 3A-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 043"
  },
  {
@@ -66,7 +66,7 @@
    "Whichever engine is on the upwind side"
   ],
   "why": "All four PAST factors make losing the left engine worse: the remaining right engine's thrust and slipstream lift act on longer arms, its torque adds roll to the left, and its spiraling slipstream misses the tail.",
-  "src": "OEG 3A-2, 3A-3 · FAA-H-8083-3",
+  "src": "OEG 3A-2, 3A-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 043"
  },
  {
@@ -164,7 +164,7 @@
    "Minimum speed for the best climb gradient with one engine out"
   ],
   "why": "Vmc is the slowest airspeed at which control can be maintained with the critical engine out and the other at full power. A positive climb is not part of it; the training-cut speed is Vsse and the best-gradient speed is Vxse.",
-  "src": "OEG 3A-4 · FAA-H-8083-3",
+  "src": "OEG 3A-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 044"
  },
  {
@@ -178,7 +178,7 @@
    "No; but it changes only with the airplane's weight and nothing else"
   ],
   "why": "The red line is one value found under a specific worst-case set of conditions. In flight, actual Vmc moves with power, propeller condition, weight, CG, density altitude, sideslip/bank and configuration.",
-  "src": "OEG 3A-4, 3A-6 · FAA-H-8083-3",
+  "src": "OEG 3A-4, 3A-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 044"
  },
  {
@@ -191,8 +191,8 @@
    "It sets the optimum bank angle and ball position for climb",
    "It guarantees the airplane can hold altitude on one engine at that speed"
   ],
-  "why": "Certification Vmc answers one narrow question: the lowest speed at which directional control can be kept under a single, tightly defined set of conditions. It tells you nothing about climb capability or the best attitude, bank or configuration for climbing.",
-  "src": "OEG 3A-4, 3A-5 · 14 CFR 23.149",
+  "why": "Certification Vmc answers one narrow question: the lowest speed at which directional control can be kept under a single, tightly defined set of conditions. It tells you nothing about climb capability or the best attitude, bank or configuration for climbing. These conditions come from the historical 14 CFR 23.149, which still applies to airplanes certificated under it; today's 23.2135(c) defines Vmc only in general terms.",
+  "src": "OEG 3A-4, 3A-5 · 14 CFR 23.149(a) (historical; now 23.2135(c)) · FAA-H-8083-3C ch 13",
   "loc": "oeg 044"
  },
  {
@@ -206,7 +206,7 @@
    "1.3 Vs1, with Vs1 determined at minimum flying weight"
   ],
   "why": "The rule caps takeoff Vmc at 1.2 times the clean stall speed measured at maximum takeoff weight, which keeps Vmc reasonably close to the stall speed.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(b) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -220,7 +220,7 @@
    "200 pounds"
   ],
   "why": "At Vmc the pilot must be able to keep control with no more than 150 lb of rudder pedal force, without reducing power on the operating engine.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(e) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -234,7 +234,7 @@
    "45 degrees"
   ],
   "why": "During the maneuver the airplane must not assume a dangerous attitude, and it must be possible to hold the heading change to 20 degrees or less.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(e) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -248,7 +248,7 @@
    "Holding up to 150 pounds of rudder pedal force"
   ],
   "why": "The airplane must be controllable at Vmc with the operating engine still at full power. Rudder, aileron and pedal force up to 150 lb are all allowed.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(e) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -262,7 +262,7 @@
    "Gear retracted, flaps fully extended, trimmed for Vyse"
   ],
   "why": "Vmc is found in the configuration right after liftoff: gear up, takeoff flaps, takeoff trim, and propeller controls in the takeoff position. Gear up removes the stabilizing effect an extended gear may give.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(b)(2)–(4) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -276,21 +276,21 @@
    "Power for level flight at Vyse initially on each engine"
   ],
   "why": "Both engines start at maximum available takeoff power, then the critical engine is failed. Maximum power on the remaining engine gives the greatest asymmetric thrust and therefore the highest (most conservative) Vmc.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(b)(1) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
   "id": "o6-021",
   "topic": "aero",
-  "q": "What weight and CG are used when Vmc is determined for certification?",
+  "q": "Under 14 CFR 23.149, what weight and CG are used when Vmc is determined for certification?",
   "a": "The most unfavorable weight and CG position",
   "d": [
    "Maximum takeoff weight at the forward CG limit",
    "Maximum landing weight at a mid-range CG",
    "Basic empty weight at the forward CG limit"
   ],
-  "why": "Certification uses the worst case for control. For a typical light twin that means light weight (Vmc rises as weight drops) and the aft-most CG (shortest rudder arm).",
-  "src": "OEG 3A-5, 3A-9, 3A-10 · 14 CFR 23.149",
+  "why": "Certification uses the worst case for control. For a typical light twin that means light weight (Vmc rises as weight drops) and the aft-most CG (shortest rudder arm). Twins certificated under CAR 3 or early Part 23 had no specified weight.",
+  "src": "OEG 3A-5, 3A-9, 3A-10 · 14 CFR 23.149(b) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -304,7 +304,7 @@
    "At or above 10,000 feet density altitude"
   ],
   "why": "Published Vmc is an airborne value with no help from ground effect or nosewheel steering, so it represents the controllability problem just after liftoff.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(b) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -318,7 +318,7 @@
    "Set to the recommended cruise RPM throughout"
   ],
   "why": "All propeller controls stay in the takeoff position for the whole test, matching the situation right after takeoff. The critical engine's propeller is therefore left windmilling, which raises Vmc.",
-  "src": "OEG 3A-5 · 14 CFR 23.149",
+  "src": "OEG 3A-5 · 14 CFR 23.149(b)(5) (historical; now 23.2135(c))",
   "loc": "oeg 044"
  },
  {
@@ -332,7 +332,7 @@
    "Weight, gear position, propeller condition, headwind"
   ],
   "why": "The OEG lists power, propeller (windmilling or feathered), weight, CG, density altitude, sideslip, flap position and gear position. Wind and runway slope do not change an airspeed-based control limit.",
-  "src": "OEG 3A-6 · FAA-H-8083-3",
+  "src": "OEG 3A-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -360,7 +360,7 @@
    "It becomes equal to the clean stall speed"
   ],
   "why": "Published Vmc assumes a windmilling propeller, maximum power and takeoff configuration. Feathering, reducing power and extending gear and flaps all reduce the yaw problem, so the effective Vmc is usually lower.",
-  "src": "OEG 3A-7 · FAA-H-8083-3",
+  "src": "OEG 3A-7 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -374,7 +374,7 @@
    "No effect, because CG affects only pitch stability"
   ],
   "why": "Moving the CG forward lengthens the distance from the CG to the rudder, so the same rudder force makes a bigger yawing moment and control can be held at a lower speed.",
-  "src": "OEG 3A-7, 3A-10 · FAA-H-8083-3",
+  "src": "OEG 3A-7, 3A-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -416,7 +416,7 @@
    "Nothing; Vmc is a fixed value set during certification"
   ],
   "why": "Vmc rises as power on the operating engine increases, because the rudder must balance a bigger yawing moment. Reducing that power shrinks the moment, which is why it is the first step in a Vmc recovery.",
-  "src": "OEG 3A-9 · FAA-H-8083-3",
+  "src": "OEG 3A-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -430,7 +430,7 @@
    "Lower, because it keeps air flowing over that wing"
   ],
   "why": "A windmilling propeller makes a lot of drag on the dead-engine side, adding to the yaw and reducing directional control. Feathering removes most of that drag and lowers Vmc.",
-  "src": "OEG 3A-9, 3A-13 · FAA-H-8083-3",
+  "src": "OEG 3A-9, 3A-13 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -444,7 +444,7 @@
    "No change, since weight never affects Vmc in any attitude"
   ],
   "why": "In a bank toward the good engine, a component of the airplane's weight acts sideways with the horizontal lift component and helps the rudder fight the asymmetric thrust. A lighter airplane gets less of that help, so Vmc rises; this is why light weight is the most unfavorable weight.",
-  "src": "OEG 3A-9, 3A-11 · FAA-H-8083-3",
+  "src": "OEG 3A-9, 3A-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -458,7 +458,7 @@
    "Unchanged, because the published Vmc already covers all temperatures"
   ],
   "why": "Vmc increases as density altitude decreases. A cold day at sea level is below standard density altitude, so the operating engine makes more power and more yaw than in the published case.",
-  "src": "OEG 3A-9, 3A-12 · FAA-H-8083-3",
+  "src": "OEG 3A-9, 3A-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -486,7 +486,7 @@
    "Operating at a high density altitude airport"
   ],
   "why": "Vmc increases significantly as bank toward the operating engine is reduced. Feathering, reducing power and high density altitude all lower Vmc.",
-  "src": "OEG 3A-9 · FAA-H-8083-3",
+  "src": "OEG 3A-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -500,7 +500,7 @@
    "Departing on a cold day at sea level"
   ],
   "why": "A forward CG lengthens the rudder arm. Lighter weight, more power on the good engine and denser air all raise Vmc.",
-  "src": "OEG 3A-9, 3A-10 · FAA-H-8083-3",
+  "src": "OEG 3A-9, 3A-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 045"
  },
  {
@@ -530,7 +530,7 @@
    "The same, since Vmc is a fixed published speed"
   ],
   "why": "Vmc increases as weight is reduced and as the CG moves aft. This light, aft-loaded case is close to the most unfavorable condition used in certification.",
-  "src": "OEG 3A-9, 3A-10, 3A-11 · FAA-H-8083-3",
+  "src": "OEG 3A-9, 3A-10, 3A-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -557,8 +557,8 @@
    "Maximum landing weight",
    "Minimum flying weight"
   ],
-  "why": "Current Part 23 requires the most unfavorable weight. Older certifications did not specify one, so their published Vmc may not reflect a lightly loaded airplane.",
-  "src": "OEG 3A-11 · FAA-H-8083-3",
+  "why": "Historically, Part 23 (23.149(b)) called for Vmc at the most unfavorable weight; for twins certificated under CAR 3 or early Part 23 the weight was not specified, so their published Vmc may not reflect a lightly loaded airplane, where Vmc is higher. Since 2017, 23.2135(c) states the Vmc requirement only in general terms.",
+  "src": "OEG 3A-11 · FAA-H-8083-3C ch 13 · 14 CFR 23.149(b) (historical)",
   "loc": "oeg 046"
  },
  {
@@ -572,7 +572,7 @@
    "The same, because Vmc is an indicated airspeed"
   ],
   "why": "Non-turbocharged engines lose power with altitude, so the thrust moment the rudder must oppose is smaller and control can be held at a lower airspeed.",
-  "src": "OEG 3A-12 · FAA-H-8083-3",
+  "src": "OEG 3A-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -586,7 +586,7 @@
    "Flying coordinated with the rudder near neutral"
   ],
   "why": "Holding wings level with the ball centered takes a lot of rudder toward the good engine, and the result is a moderate sideslip toward the dead engine. Climb performance suffers and Vmc rises well above published.",
-  "src": "OEG 3A-14 · FAA-H-8083-3",
+  "src": "OEG 3A-14 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -600,7 +600,7 @@
    "The windmilling propeller makes more drag with wings level"
   ],
   "why": "Banking toward the good engine tilts lift so part of it helps the rudder. With wings level the rudder must do all the work alone, so more airspeed is needed for control.",
-  "src": "OEG 3A-14 · FAA-H-8083-3",
+  "src": "OEG 3A-14 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -614,7 +614,7 @@
    "Vmc increases while Vs decreases, so the gap widens"
   ],
   "why": "Engine power falls with altitude, so Vmc drops, while indicated stall speed does not change. The margin of a few knots at sea level shrinks until, at some altitude, Vmc and Vs are the same.",
-  "src": "OEG 3A-15 · FAA-H-8083-3",
+  "src": "OEG 3A-15 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -628,7 +628,7 @@
    "The operating engine overheats at high power and altitude"
   ],
   "why": "With normally aspirated engines Vmc falls as altitude rises while stall speed does not, so at some density altitude the airplane stalls before it loses directional control. A stall under asymmetric thrust brings a strong roll and a likely spin, so the demo should not be flown in those conditions.",
-  "src": "OEG 3A-16 · FAA-H-8083-3",
+  "src": "OEG 3A-16 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -642,7 +642,7 @@
    "The operating engine is producing too much power"
   ],
   "why": "With normally aspirated engines Vmc drops with altitude while stall speed stays put, so the two converge. A stall warning first means you are at that point, where a stall under asymmetric thrust can become a spin; recover immediately.",
-  "src": "OEG 3A-16, 3A-17 · FAA-H-8083-3",
+  "src": "OEG 3A-16, 3A-17 · FAA-H-8083-3C ch 13",
   "loc": "oeg 046"
  },
  {
@@ -700,7 +700,7 @@
    "Climb performance is poorer, and Vmc is higher"
   ],
   "why": "Less weight helps a power-starved airplane climb on one engine, but a lighter airplane is more easily pushed out of controlled flight, so the realized Vmc goes up.",
-  "src": "OEG 3A-18 · FAA-H-8083-3",
+  "src": "OEG 3A-18 · FAA-H-8083-3C ch 13",
   "loc": "oeg 047"
  },
  {
@@ -720,15 +720,15 @@
  {
   "id": "o6-052",
   "topic": "aero",
-  "q": "With one engine inoperative, a turn in which direction is more likely to lead to a Vmc condition?",
-  "a": "Toward the inoperative engine",
+  "q": "Single-engine traffic pattern at or above Vyse, shallow banks. Per the current FAA Airplane Flying Handbook, may you turn toward the failed engine?",
+  "a": "Yes; turn direction doesn't affect control or performance",
   "d": [
-   "Toward the operating engine",
-   "Either direction equally, at any bank angle",
-   "Neither direction, if the ball stays centered"
+   "No; every turn must be made toward the operating engine only",
+   "Only if the bank stays under 5° and the landing gear is up",
+   "Only after the landing gear and flaps are fully extended"
   ],
-  "why": "Turning toward the good engine keeps the horizontal lift component helping the rudder. Turning toward the dead engine works against the rudder and increases the chance of reaching Vmc.",
-  "src": "OEG 3A-19 · FAA-H-8083-3",
+  "why": "AFH-3C ch 13 (engine inoperative approach and landing): the direction of the pattern, and so of the turns, is of no consequence for controllability and performance, and it is perfectly acceptable to turn toward the failed engine; the zero-sideslip ball position is the same in turns as in straight flight. The OEG (3A-19) is more cautious, saying a turn toward the dead engine may raise the Vmc risk. Either way keep banks shallow, stay at or above Vyse and fly in trim.",
+  "src": "FAA-H-8083-3C ch 13 · OEG 3A-19",
   "loc": "oeg 047"
  },
  {
@@ -742,7 +742,7 @@
    "Zero sideslip occurs with wings level and the ball centered"
   ],
   "why": "With counter-rotation both thrust lines sit the same distance from the centerline, so losing either engine gives the same yaw. Asymmetric thrust, a Vmc and the need for zero-sideslip technique still exist: the counter-rotating Seneca still has a Vmc of 80 MPH.",
-  "src": "OEG 3A-20 · FAA-H-8083-3 · POH 2-2, 3-11",
+  "src": "OEG 3A-20 · FAA-H-8083-3C ch 13 · POH 2-2, 3-11",
   "loc": "oeg 047"
  },
  {
@@ -770,7 +770,7 @@
    "Vxse until short final with landing assured, and never below Vs"
   ],
   "why": "The final approach is flown with power at the recommended speed. With none given, stay at or above blue line until the landing is assured, and never below red line.",
-  "src": "OEG 3A-21 · FAA-H-8083-3",
+  "src": "OEG 3A-21 · FAA-H-8083-3C ch 13",
   "loc": "oeg 047"
  },
  {
@@ -784,7 +784,7 @@
    "Reduce residual power gradually to idle; full-stall landings are preferred"
   ],
   "why": "Power is eased to idle in the round-out. High wing loading and the drag of two windmilling propellers leave little float, and full-stall landings are generally undesirable in twins.",
-  "src": "OEG 3A-21 · FAA-H-8083-3",
+  "src": "OEG 3A-21 · FAA-H-8083-3C ch 13",
   "loc": "oeg 047"
  },
  {
@@ -798,7 +798,7 @@
    "At Vmc plus 5 with maximum power and the ball centered"
   ],
   "why": "Fly blue line with maximum available power, flaps and gear up, the dead engine feathered, and the airplane at zero sideslip. Sideslip is a major hidden source of drag.",
-  "src": "OEG 3A-22 · FAA-P-8740-66",
+  "src": "OEG 3A-22 · FAA-P-8740-66 · FAA-H-8083-3C ch 13",
   "loc": "oeg 047"
  },
  {
@@ -826,7 +826,7 @@
    "The heading indicator, when the heading is steady"
   ],
   "why": "With asymmetric thrust the centered ball no longer marks zero sideslip, and no panel instrument shows it directly. Without a yaw string, the pilot flies a known bank angle and ball position.",
-  "src": "OEG 3A-23 · FAA-H-8083-3",
+  "src": "OEG 3A-23 · FAA-H-8083-3C ch 13",
   "loc": "oeg 048"
  },
  {
@@ -840,7 +840,7 @@
    "Aileron toward the dead engine with the rudder held neutral"
   ],
   "why": "Rudder yaw and the horizontal lift component from a slight bank both oppose the asymmetric thrust. Either one alone is wrong; the right combination gives zero sideslip and best climb.",
-  "src": "OEG 3A-24 · FAA-H-8083-3",
+  "src": "OEG 3A-24 · FAA-H-8083-3C ch 13",
   "loc": "oeg 048"
  },
  {
@@ -870,7 +870,7 @@
    "The minimum control speed at high density altitude"
   ],
   "why": "When the airplane can't climb on one engine, flying Vyse gives the slowest descent. The steepest gradient is Vxse.",
-  "src": "OEG 3A-25 · FAA-H-8083-3",
+  "src": "OEG 3A-25 · FAA-H-8083-3C ch 13",
   "loc": "oeg 048"
  },
  {
@@ -926,7 +926,7 @@
    "The airplane begins to yaw toward the operating engine"
   ],
   "why": "Signs of approaching Vmc: increasing yaw, rapidly fading control effectiveness, stall warning or buffet, and full rudder reached while the nose still yaws toward the dead engine. A ball slightly toward the good engine is normal at zero sideslip.",
-  "src": "OEG 3B-2 · FAA-H-8083-3",
+  "src": "OEG 3B-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 048"
  },
  {
@@ -940,7 +940,7 @@
    "It improves, because the good engine's thrust drops"
   ],
   "why": "Rudder and aileron power depend on airspeed, so control fades quickly as the airplane slows while the asymmetric yaw grows. Stall warning or buffet may also appear.",
-  "src": "OEG 3B-2 · FAA-H-8083-3",
+  "src": "OEG 3B-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 048"
  },
  {
@@ -1010,7 +1010,7 @@
    "Excessive airspeed in a steep descending turn"
   ],
   "why": "A spin needs a stall plus yaw or sideslip at or beyond the stall. In a twin that yaw can come from rudder input or from asymmetric thrust.",
-  "src": "OEG 3B-5 · FAA-H-8083-3",
+  "src": "OEG 3B-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1024,7 +1024,7 @@
    "Cruise climbs, high-altitude cruise, and instrument holding"
   ],
   "why": "Any condition of low speed, high angle of attack and large asymmetric thrust is a spin setup.",
-  "src": "OEG 3B-6 · FAA-H-8083-3",
+  "src": "OEG 3B-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1038,7 +1038,7 @@
    "Yes; but only at or above 5,000 feet AGL"
   ],
   "why": "A stall with asymmetric thrust is a likely spin entry, and twins generally recover from spins poorly, so single-engine stalls are not practiced.",
-  "src": "OEG 3B-6 · FAA-H-8083-3",
+  "src": "OEG 3B-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1052,7 +1052,7 @@
    "The gear warning horn will sound and distract the pilot"
   ],
   "why": "A simulated engine failure introduced at too low a speed is the training procedure most likely to degrade into a spin: sudden asymmetric thrust at high AOA near the stall. Never introduce one below Vsse (or Vyse if none is published).",
-  "src": "OEG 3B-7 · FAA-H-8083-3",
+  "src": "OEG 3B-7 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1066,7 +1066,7 @@
    "Vy, or Vyse if no Vy is published"
   ],
   "why": "Vsse is the safe, intentional one-engine-inoperative speed. Where none is published, use blue line (Vyse).",
-  "src": "OEG 3B-7 · FAA-H-8083-3",
+  "src": "OEG 3B-7 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1108,7 +1108,7 @@
    "Both throttles full, full right rudder, neutral elevator, ailerons full left"
   ],
   "why": "Apply all four inputs together and hold them until the rotation stops; then use rudder, back pressure and power to return to normal flight. Expect a large altitude loss, so act at once. The Seneca AFM (POH 3-17) words the elevator step differently: release all back pressure, and push the wheel full forward only if the nose doesn't drop.",
-  "src": "OEG 3B-9 · FAA-H-8083-3",
+  "src": "OEG 3B-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1122,7 +1122,7 @@
    "No, but their spin recovery is generally excellent"
   ],
   "why": "No multi-engine airplane is spin-approved and recovery characteristics are poor, so the emphasis is on spin avoidance and awareness.",
-  "src": "OEG 3B-9 · FAA-H-8083-3",
+  "src": "OEG 3B-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 049"
  },
  {
@@ -1136,7 +1136,7 @@
    "A windmilling prop drains the battery through the failed alternator"
   ],
   "why": "At small blade angles near flat pitch, a high-RPM windmilling propeller makes enormous drag. That raises Vmc and kills climb performance, and can make the airplane uncontrollable.",
-  "src": "OEG 3B-10 · FAA-H-8083-3",
+  "src": "OEG 3B-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1150,7 +1150,7 @@
    "About one-quarter of the airplane's parasite drag"
   ],
   "why": "In that blade-angle range a windmilling propeller can roughly double the airplane's parasite drag, which is why feathering is so urgent.",
-  "src": "OEG 3B-10 · FAA-H-8083-3",
+  "src": "OEG 3B-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1163,8 +1163,8 @@
    "It lets the pilot center the ball without using any rudder",
    "It moves the CG forward and lengthens the rudder's arm"
   ],
-  "why": "The rudder input that counters the yaw also creates a side force that causes a sideslip. A slight bank uses part of the airplane's weight to cancel that force; at the right bank, sideslip is zero, Vmc is lower and climb is best.",
-  "src": "OEG 3B-11 · FAA-H-8083-3",
+  "why": "The rudder input that counters the yaw also creates a side force that causes a sideslip. A slight bank uses part of the airplane's weight to cancel that force; at the right bank, sideslip is zero, Vmc is lower and climb is best. The AFH describes the same balance as the bank's horizontal component of lift opposing the rudder's side force.",
+  "src": "OEG 3B-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1177,8 +1177,8 @@
    "About 5 knots per degree of bank",
    "About 10 knots per degree of bank"
   ],
-  "why": "The OEG gives about 3 knots of Vmc increase for each degree of bank reduced. Over a few degrees that adds up quickly.",
-  "src": "OEG 3B-11 · FAA-H-8083-3",
+  "why": "The OEG gives about 3 knots of Vmc increase for each degree of bank reduced; the AFH (FAA-H-8083-3C ch 13) says it may be more than 3 knots per degree between 5° and wings level. Over a few degrees that adds up quickly.",
+  "src": "OEG 3B-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1192,7 +1192,7 @@
    "Increase the bank further, since that lowers Vmc even more"
   ],
   "why": "Extra bank beyond zero sideslip can add rudder authority at first, but it drastically reduces climb. Once control is established, return to the zero-sideslip bank.",
-  "src": "OEG 3B-11 · FAA-H-8083-3",
+  "src": "OEG 3B-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1206,7 +1206,7 @@
    "Bank slightly toward the dead engine to unload the rudder"
   ],
   "why": "Wings level with the ball centered puts the airplane in a sideslip toward the dead engine. A small bank toward the good engine, with the ball about a third to a half off center toward it, gives zero sideslip and the best climb.",
-  "src": "OEG 3B-11, 3B-12 · FAA-H-8083-3",
+  "src": "OEG 3B-11, 3B-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1220,7 +1220,7 @@
    "About 15 to 20 degrees"
   ],
   "why": "The exact angle varies by model, power and airspeed. OEG 3B-12 gives 1.5–2.5°; the OEG's later exam tip (after 3C-37) rounds it to about 2–3°, so think 'about 2°'. The airplane's own AFM may specify a value; the Seneca POH 3-11, for example, says to maintain 5° toward the operating engine.",
-  "src": "OEG 3B-12 · FAA-H-8083-3 · POH 3-11",
+  "src": "OEG 3B-12 · FAA-H-8083-3C ch 13 · POH 3-11",
   "loc": "oeg 050"
  },
  {
@@ -1234,7 +1234,7 @@
    "One-third to one-half a ball width toward the inoperative engine"
   ],
   "why": "In a slight bank toward the good engine the ball sits toward the low (operating-engine) side, about a third to a half of its width off center.",
-  "src": "OEG 3B-12 · FAA-H-8083-3",
+  "src": "OEG 3B-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1248,7 +1248,7 @@
    "The left engine is always rated for more horsepower than the right one"
   ],
   "why": "Zero sideslip varies with model, power and airspeed. If the propellers don't counter-rotate, P-factor gives the two engines different thrust-line arms, so the required bank differs slightly with which engine failed.",
-  "src": "OEG 3B-12 · FAA-H-8083-3",
+  "src": "OEG 3B-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1262,7 +1262,7 @@
    "As much as 50 knots in some airplanes"
   ],
   "why": "Without the bank toward the good engine, the rudder works alone against the asymmetric thrust and Vmc can rise dramatically. Do not confuse this with the roughly 3 knots per degree of bank figure.",
-  "src": "OEG 3B-13 · FAA-H-8083-3",
+  "src": "OEG 3B-13 · FAA-H-8083-3C ch 13",
   "loc": "oeg 050"
  },
  {
@@ -1276,7 +1276,7 @@
    "Up to 15 degrees toward the operating engine"
   ],
   "why": "The certification rule allows no more than 5° of bank while holding straight flight at Vmc, and the AFH specifies it is toward the good engine. The OEG's list of conditions leaves this out, but examiners expect it; it is also why wings-level flight gives a higher Vmc than published.",
-  "src": "FAA-H-8083-3 · 14 CFR 23.149",
+  "src": "FAA-H-8083-3C ch 13 · 14 CFR 23.149(a) (historical)",
   "loc": "oeg 044"
  },
  {
@@ -1290,7 +1290,7 @@
    "More bank would overstress the vertical fin during the test"
   ],
   "why": "Banking toward the good engine lets part of the lift help the rudder, and Vmc drops sharply as bank increases. Capping the bank at 5° keeps manufacturers from publishing a Vmc that pilots could not realistically achieve.",
-  "src": "FAA-H-8083-3 · 14 CFR 23.149",
+  "src": "FAA-H-8083-3C ch 13 · 14 CFR 23.149(a) (historical)",
   "loc": "oeg 044"
  },
  {
@@ -1304,7 +1304,7 @@
    "Open on the failed engine, closed on the other"
   ],
   "why": "The AFH adds cowl flaps in the takeoff position to the other takeoff-configuration items (gear up, takeoff flaps, takeoff trim, propellers at takeoff setting), so the test matches the airplane just after liftoff. Closing the dead engine's cowl flap is a later step in the engine-out drill, not a test condition.",
-  "src": "FAA-H-8083-3 · 14 CFR 23.149",
+  "src": "FAA-H-8083-3C ch 13 · 14 CFR 23.149(b)(3) (historical)",
   "loc": "oeg 044"
  },
  {
@@ -1318,7 +1318,7 @@
    "It is referenced to 5,000 feet density altitude"
   ],
   "why": "With normally aspirated engines Vmc is highest at sea level with takeoff power, so the AFH says test results are reduced to one sea-level value (AFM V-speeds are for sea-level, standard-day conditions unless noted). Denser air than that gives a higher actual Vmc; higher density altitude gives a lower one.",
-  "src": "FAA-H-8083-3 · 14 CFR 23.149",
+  "src": "FAA-H-8083-3C ch 13 · 14 CFR 23.149(b)(1) (historical)",
   "loc": "oeg 044"
  }
 ]

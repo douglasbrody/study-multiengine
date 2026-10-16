@@ -220,7 +220,7 @@ const APP_VERSION = 1;
 const STATS_KEY = 'quiz.stats.v1', SESSION_KEY = 'quiz.session.v1', FLAGS_KEY = 'quiz.flags.v1', SET_KEY = 'quiz.settings.v1', THEME_KEY = 'theme.v1';
 const MOCK_LEN = 50, MISSED_MAX = 50;
 const GROUPS = [
-  { key: 'oeg', title: 'Oral Exam Guide', short: 'Oral Guide', sub: 'Multi-engine knowledge, chapters 1–4', color: '#1e5bd8' },
+  { key: 'oeg', title: 'Multi-Engine Knowledge', short: 'ME Knowledge', sub: 'Oral Exam Guide, FAA handbooks, FARs & ACS', color: '#1e5bd8' },
   { key: 'seneca', title: 'PA-34 Seneca', short: 'Seneca', sub: 'Systems, limits & procedures from the POH', color: '#138a4a' },
 ];
 
@@ -514,7 +514,7 @@ function renderSettings() {
       </div>
       <div class="section-label">About</div>
       <div class="note">${offline}</div>
-      <div class="note">Questions are written from the ASA Multi-Engine Oral Exam Guide and a PA-34-200 Seneca I Pilot's Operating Manual, set up for N56307 (autopilot and electric pitch trim; no combustion heater or ice protection). Procedures follow your school's checklist where you chose it. Seneca speeds are MPH. If an answer looks wrong, flag it and copy the flagged list so it can be fixed.</div>
+      <div class="note">Questions are written from the ASA Multi-Engine Oral Exam Guide, the FAA Airplane Flying Handbook (FAA-H-8083-3C), Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C), current 14 CFR and AIM, the Private and Commercial ACS, and a PA-34-200 Seneca I Pilot's Operating Manual, set up for N56307 (autopilot and electric pitch trim; no combustion heater or ice protection). Procedures follow your school's checklist where you chose it. Seneca speeds are MPH. If an answer looks wrong, flag it and copy the flagged list so it can be fixed.</div>
       <div class="btn-row" style="justify-content:flex-start"><button class="btn danger" data-act="reset">Reset all progress</button></div>
     </div></div></div>`;
 }

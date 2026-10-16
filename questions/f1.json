@@ -1,0 +1,848 @@
+[
+ {
+  "id": "f1-001",
+  "topic": "perf",
+  "q": "The FAA Airplane Flying Handbook uses the term \"light-twin\" for which airplanes?",
+  "a": "Multiengine airplanes of 6,000 lb or less max takeoff weight",
+  "d": [
+   "Multiengine airplanes of 12,500 lb or less max takeoff weight",
+   "Multiengine airplanes with six or fewer passenger seats",
+   "Twins whose Vso is 61 knots or less at maximum weight"
+  ],
+  "why": "The term isn't formally defined in the regulations. The AFH uses \"small\" multiengine for 12,500 lb or less maximum certificated takeoff weight and \"light-twin\" for 6,000 lb or less. The 4,200-lb Seneca is a light twin.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p250"
+ },
+ {
+  "id": "f1-002",
+  "topic": "perf",
+  "q": "In the AFH's example, each engine of a twin makes 200 thrust horsepower and level flight needs 175 THP. If one engine fails, how much excess power is left for climb?",
+  "a": "25 THP, about 11 percent of the two-engine excess",
+  "d": [
+   "112 THP, half of the two-engine excess of 225 THP",
+   "200 THP, the full output of the remaining engine",
+   "100 THP, half of one engine's 200 THP output"
+  ],
+  "why": "Two engines give 400 THP, 225 more than level flight needs. One engine gives 200, leaving only 25 THP for climb: losing half the power removes about 89 percent of the excess. That is why the AFH says a 50 percent power loss cuts climb performance 80 to 90 percent.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p252"
+ },
+ {
+  "id": "f1-003",
+  "topic": "perf",
+  "q": "How does wind affect an airplane's rate of climb and its climb gradient?",
+  "a": "Gradient improves with a headwind; rate of climb is unaffected",
+  "d": [
+   "Rate of climb improves with a headwind; gradient is unaffected",
+   "Both improve with a headwind and get worse with a tailwind",
+   "Neither changes, since both are measured relative to the air"
+  ],
+  "why": "Rate of climb is altitude gained per unit of time, which wind doesn't change. Climb gradient is altitude per unit of horizontal distance over the ground, so a headwind steepens it and a tailwind flattens it, which matters for obstacle clearance after an engine failure.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p259"
+ },
+ {
+  "id": "f1-004",
+  "topic": "perf",
+  "q": "After an engine failure you reach 50 ft AGL, then climb at 150 fpm at a 90-knot Vyse with no wind. About how long, and how far, to reach 500 ft AGL?",
+  "a": "About 3 minutes, covering about 4.5 to 5 NM",
+  "d": [
+   "About 3 minutes, covering only about 1.5 NM",
+   "About 1.5 minutes, covering about 2.5 NM",
+   "About 5 minutes, covering about 7.5 NM"
+  ],
+  "why": "450 ft at 150 fpm takes 3 minutes; at 90 knots that is about 4.5 NM (the AFH's example says about 5 NM), a gradient of only about 1.6 percent. Any turn, such as back toward the airport, degrades this marginal climb further.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p261"
+ },
+ {
+  "id": "f1-005",
+  "topic": "perf",
+  "q": "As a practical planning matter, the AFH says continuing a takeoff after an engine failure is probably not an option unless the published single-engine climb is at least:",
+  "a": "100 to 200 fpm",
+  "d": [
+   "50 fpm",
+   "Any positive rate",
+   "400 to 500 fpm"
+  ],
+  "why": "Thermal turbulence, gusts, engine and propeller wear, or imperfect airspeed, bank and rudder technique can easily negate even a 200 fpm climb. With less than that published, plan on landing ahead rather than continuing.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p261"
+ },
+ {
+  "id": "f1-006",
+  "topic": "eo",
+  "q": "Per the AFH's general recommendation, by what speed should the gear be up after takeoff, and what does gear-up then mean?",
+  "a": "Vyse; a GO commitment if climb performance is available",
+  "d": [
+   "Vxse; a commitment to land straight ahead if an engine fails",
+   "Vy; a commitment to return to the runway if an engine fails",
+   "Vmc; a GO commitment regardless of climb performance"
+  ],
+  "why": "Normally raise the gear with a positive rate once a landing on the remaining runway is no longer possible, and not later than Vyse; once it is up, treat an engine failure as a GO if climb performance exists. Leaving the gear down to land on remaining runway or overrun beats landing gear-up.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p265"
+ },
+ {
+  "id": "f1-007",
+  "topic": "perf",
+  "q": "Before takeoff, which two distances does the AFH suggest adding, to judge whether a failure would likely mean going off the runway?",
+  "a": "Takeoff distance to 50 ft plus stopping distance from 50 ft",
+  "d": [
+   "Accelerate-stop distance plus the accelerate-go distance",
+   "Takeoff ground roll plus the normal landing ground roll",
+   "Accelerate-go distance plus takeoff distance to 50 ft"
+  ],
+  "why": "If the runway is no longer than the takeoff distance to 50 ft AGL plus the stopping distance from 50 ft, the odds are very good that any failure at that point ends in an off-runway landing at the least.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p264"
+ },
+ {
+  "id": "f1-008",
+  "topic": "engine",
+  "q": "Why does the AFH recommend full rated takeoff power for every takeoff in a piston twin, rather than reduced-power takeoffs?",
+  "a": "Partial throttle may leave the mixture too lean for cooling",
+  "d": [
+   "Reduced-power takeoffs are prohibited for twins under Part 91",
+   "Full power keeps the propeller governors from overspeeding",
+   "Partial power raises actual Vmc above the published red line"
+  ],
+  "why": "There is no evidence partial-power takeoffs prolong modern piston engine life. At partial throttle the fuel metering may not deliver the slightly over-rich mixture the engine relies on for cooling, causing heat and wear. (Less power would actually lower Vmc.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p264"
+ },
+ {
+  "id": "f1-009",
+  "topic": "perf",
+  "q": "Early in a multi-engine takeoff roll, where does the AFH say your attention should be divided?",
+  "a": "Between the runway centerline and the engine gauges",
+  "d": [
+   "Between the airspeed indicator and the attitude indicator",
+   "Between the airspeed indicator and the runway remaining",
+   "Between the fuel quantity gauges and the ammeters"
+  ],
+  "why": "Many new twin pilots fixate on the airspeed indicator. Instead, confirm both engines reach full rated MP and RPM and that fuel flows, fuel pressures, EGTs and oil pressures are matched and normal, well before rotation speed.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p264"
+ },
+ {
+  "id": "f1-010",
+  "topic": "perf",
+  "q": "Short-field takeoff with partial flaps: a typical light twin tries to lift off before Vmc + 5 knots. What does the AFH recommend?",
+  "a": "Let it fly, but only a few inches above the runway",
+  "d": [
+   "Hold it on with forward elevator until Vmc + 5 knots",
+   "Retract the flaps on the roll so it stays on the runway",
+   "Pull up promptly to Vx to gain height above the runway"
+  ],
+  "why": "Pinning it down with forward pressure causes wheelbarrowing. Let it become airborne only a few inches above the runway, and be ready to close the throttles and land if an engine fails with gear and flaps down below Vx. (Seneca: the POH 6-7 25° short-field takeoff rotates at 70 MPH, momentarily below the 80 MPH Vmc; if an engine fails there, the POH says to retard the good engine's throttle and lower the nose at once.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p266"
+ },
+ {
+  "id": "f1-011",
+  "topic": "fuel",
+  "q": "Why may an AFM/POH prohibit a sharp turn onto the runway combined with a rolling takeoff?",
+  "a": "Fuel can slosh away and unport a tank's fuel pickup",
+  "d": [
+   "The side load can unlock and collapse the nose gear",
+   "The propeller tips can strike the runway in the turn",
+   "The gyro instruments can tumble before the takeoff roll"
+  ],
+  "why": "Fuel moving away from a tank pickup (\"unporting\") can starve an engine just as the takeoff begins. Some AFMs also prohibit takeoff below certain fuel levels.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p264",
+  "drop": true,
+  "drop_reason": "duplicate of p4-025 (POH: a fast turn onto the runway and immediate takeoff can move fuel away from the tank outlet)"
+ },
+ {
+  "id": "f1-012",
+  "topic": "wb",
+  "q": "In certification, what usually determines a multi-engine airplane's forward CG limit, and what determines its aft CG limit?",
+  "a": "Forward: elevator authority in the flare; aft: minimum stability",
+  "d": [
+   "Forward: rudder authority at Vmc; aft: elevator authority in the flare",
+   "Forward: nose gear strength; aft: tail clearance on rotation",
+   "Forward: minimum stability; aft: elevator authority in the flare"
+  ],
+  "why": "The forward limit is usually set by elevator/stabilator authority in the landing round-out, and the aft limit by the minimum acceptable longitudinal stability. Forward CG gives more stability and a slightly higher stall speed; aft CG gives less stability, a slightly lower stall speed and a higher Vmc.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p263"
+ },
+ {
+  "id": "f1-013",
+  "topic": "wb",
+  "q": "Why do some twins need ballast in the aft baggage compartment when only an instructor and a learner are aboard?",
+  "a": "To stay aft of the forward CG limit",
+  "d": [
+   "To stay forward of the aft CG limit",
+   "To keep Vmc at or below the red line",
+   "To reach the minimum weight for stalls"
+  ],
+  "why": "With only the two front seats occupied, some models would be ahead of the forward CG limit. The opposite happens with passengers in the aft-most seats, which may call for nose ballast or baggage. Ballast must be tied down and within floor-loading limits.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p263"
+ },
+ {
+  "id": "f1-014",
+  "topic": "pilot",
+  "q": "Just after takeoff the nose baggage door pops open. Per the AFH, what is the most important thing to remember?",
+  "a": "Most twins fly fine with it open; don't let it distract you",
+  "d": [
+   "Land straight ahead at once, before the door is torn off",
+   "Slow to near Vmc so the contents aren't pulled into the prop",
+   "Reach forward and try to latch the door in flight"
+  ],
+  "why": "Most airplanes keep flying with a nose baggage door open, with some buffeting and noise. Airplanes have been lost because the pilot became distracted by an open door, even with the compartment empty, and contents may be drawn into the propeller arc. Securing those latches is a vital preflight item.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p258"
+ },
+ {
+  "id": "f1-015",
+  "topic": "env",
+  "q": "With ice on the airframe, how does the AFH recommend flying the landing approach?",
+  "a": "Minimum flap setting and an added airspeed margin",
+  "d": [
+   "Full flaps and the normal approach airspeed",
+   "Full flaps and a slower than normal approach airspeed",
+   "Minimum flap setting and a slower approach speed"
+  ],
+  "why": "Thin airfoils such as the horizontal stabilizer ice up more readily than the wing, and extending flaps increases the stabilizer's angle of attack. Use minimum flaps and extra speed, and avoid sudden large configuration and airspeed changes.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p259"
+ },
+ {
+  "id": "f1-016",
+  "topic": "env",
+  "q": "Per the AFH, which statement about airframe ice is correct?",
+  "a": "Its main penalty is drag, and stall warning may not be reliable",
+  "d": [
+   "Its main penalty is weight, but the stall warning stays reliable",
+   "It forms evenly, so performance loss is easy to predict",
+   "It forms first on thick, highly cambered wing sections"
+  ],
+  "why": "Ice accumulates unevenly, adds weight and drag (primarily drag) and reduces thrust and lift. Thin airfoils ice more than thick, cambered ones. Expect degraded handling and large performance losses, and don't rely on stall warning devices with ice aboard.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p259"
+ },
+ {
+  "id": "f1-017",
+  "topic": "env",
+  "q": "A twin has deice boots and prop heat but no AFM approval for flight in icing. Per the AFH, what is that equipment for?",
+  "a": "Helping you escape icing you encounter inadvertently",
+  "d": [
+   "Flight in light icing only, never moderate or severe",
+   "Flight in known icing below 10,000 feet MSL only",
+   "Short climbs through freezing drizzle to the tops"
+  ],
+  "why": "On airplanes without icing approval, the equipment is there to facilitate escape. Even approved airplanes should avoid icing as far as practicable; no multiengine airplane is approved for severe icing, and none is meant for indefinite flight in continuous icing.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p259"
+ },
+ {
+  "id": "f1-018",
+  "topic": "eo",
+  "q": "After feathering, which item on a typical \"securing failed engine\" checklist would hurt climb performance if left undone?",
+  "a": "Closing the failed engine's cowl flap",
+  "d": [
+   "Turning off the failed engine's magnetos",
+   "Turning off the failed engine's alternator",
+   "Turning the failed engine's fuel selector off"
+  ],
+  "why": "Other than closing that cowl flap, none of the securing items (mixture, mags, alternator, boost pump, fuel selector, prop sync, electrical load, crossfeed) affects climb if left undone. Rushing them invites moving the wrong control; fly the airplane first.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p282"
+ },
+ {
+  "id": "f1-019",
+  "topic": "eo",
+  "q": "After the engine-failure memory items, the AFH says to run the remaining checklists deliberately and without undue haste, unless you suspect what?",
+  "a": "An engine fire",
+  "d": [
+   "Low fuel in the operating engine's tank",
+   "Induction icing on the operating engine",
+   "A failed alternator on the operating engine"
+  ],
+  "why": "The priority items have already been done from memory, and airplane control should never be sacrificed to run checklists. If an ATC facility is available, declare an emergency.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p281"
+ },
+ {
+  "id": "f1-020",
+  "topic": "eo",
+  "q": "Your gear and flaps are already up when an engine fails in the climb. Why does the engine-failure memory flow still include them?",
+  "a": "Memory items either start an action or confirm a condition",
+  "d": [
+   "Gear and flaps must be cycled to reset the warning system",
+   "It's an oversight; skip both items whenever they're already up",
+   "The printed checklist must be read before you can feather"
+  ],
+  "why": "Per the AFH this is not an oversight: the same memory items cover several situations, such as a failure during a go-around with gear and flaps down. Each item either initiates the action or confirms the condition already exists.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p282"
+ },
+ {
+  "id": "f1-021",
+  "topic": "eo",
+  "q": "Per the AFH, what effect do takeoff wing flaps have on a light twin's ability to climb on one engine?",
+  "a": "They virtually eliminate one-engine climb until retracted",
+  "d": [
+   "They improve one-engine climb by lowering the stall speed",
+   "None, since Vyse is always flown with the flaps up anyway",
+   "They lower Vmc enough to make up for their added drag"
+  ],
+  "why": "The drag of takeoff flaps virtually eliminates single-engine climb until they are retracted. That is one reason configuration, especially gear position, drives the land-or-continue decision after a failure on takeoff.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p282"
+ },
+ {
+  "id": "f1-022",
+  "topic": "eo",
+  "q": "What does the memory aid \"raise the dead\" remind you to do after an engine failure?",
+  "a": "Bank about 2° toward the good engine, raising the dead one",
+  "d": [
+   "Raise the dead engine's throttle to try an immediate restart",
+   "Raise the nose to hold altitude until the dead engine restarts",
+   "Raise the gear and flaps before you feather the dead engine"
+  ],
+  "why": "Best single-engine climb comes from a very shallow bank, about 2°, toward the operating engine, so the dead engine's wing is raised slightly. Its partner, \"dead foot, dead engine,\" helps identify the failed engine. (The Seneca POH 3-11 and your school checklist instead say to maintain 5° toward the operating engine.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p282"
+ },
+ {
+  "id": "f1-023",
+  "topic": "eo",
+  "q": "En route, one engine runs rough but still makes some power. Per the AFH, which signs call for feathering it rather than keeping it running?",
+  "a": "Heavy vibration, smoke, blistering paint or big oil trails",
+  "d": [
+   "Any roughness at all, to prevent any further engine damage",
+   "Only a complete stoppage with no power output at all",
+   "A CHT more than 50°F above the other engine's reading"
+  ],
+  "why": "If there's any doubt you'll need the engine for safe flight, leave it running; many power losses are fuel or induction problems that can be fixed. Signs of catastrophic failure mean feather it, run the securing checklist, divert to the nearest suitable airport and declare an emergency.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p283"
+ },
+ {
+  "id": "f1-024",
+  "topic": "eo",
+  "q": "During a low-power descent you suspect an engine has failed, but there is little yaw. How does the AFH say to identify it?",
+  "a": "Advance mixtures, props and throttles, to takeoff if needed",
+  "d": [
+   "Compare the two tachometers and manifold pressure gauges",
+   "Close each throttle in turn and watch for any change in yaw",
+   "Cross-check the two engines' fuel flow and EGT gauges"
+  ],
+  "why": "At low power the dramatic yaw and performance loss are missing, and you may not notice a failure at all. Bringing the power up makes the asymmetry show, so you can identify the engine by the rudder needed; the good engine's power can always be reduced later.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p283"
+ },
+ {
+  "id": "f1-025",
+  "topic": "perf",
+  "q": "An engine fails above the single-engine absolute ceiling and you drift down at Vyse. What should you expect near the published single-engine ceiling?",
+  "a": "You may still not hold altitude, but further sink should be modest",
+  "d": [
+   "The airplane will level off exactly at the published SE ceiling",
+   "The sink rate will increase as you get near the published ceiling",
+   "The airplane will begin climbing again at about 50 fpm there"
+  ],
+  "why": "Drift-down is fastest right after the failure and slows as the ceiling nears. Engine and propeller wear, turbulence and technique mean the airplane may not hold even the published ceiling, though any further sink is likely modest. Fly Vyse to minimize the descent.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p283"
+ },
+ {
+  "id": "f1-026",
+  "topic": "fuel",
+  "q": "An engine fails en route and is secured. A suitable airport is 10 NM away. Per the AFH, should you set up crossfeed?",
+  "a": "No; with an airport close at hand there's no need to",
+  "d": [
+   "Yes; crossfeed is always set up after securing an engine",
+   "Yes; crossfeed keeps vapor from forming in the dead side's lines",
+   "Yes; landing on crossfeed gives the operating engine more fuel flow"
+  ],
+  "why": "Crossfeed is for extended single-engine flight when no airport is near: it lets the operating engine use fuel that would otherwise be unavailable and lets you balance wing fuel. Procedures vary widely, so know your POH before using it.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p283"
+ },
+ {
+  "id": "f1-027",
+  "topic": "fuel",
+  "q": "You have crossfed during a long single-engine cruise. Normally, what does the AFH say to do before landing?",
+  "a": "End crossfeed and put the operating engine back on its main tank",
+  "d": [
+   "Keep crossfeed on so both tanks feed the operating engine",
+   "Set both fuel selectors to crossfeed for the approach and landing",
+   "Turn off the boost pump and stay on crossfeed to land"
+  ],
+  "why": "Crossfeed is never used for takeoff or for a normal two-engine landing. A single-engine landing on crossfeed may be needed only if switching back would make the operating engine fail. (The Seneca POH also says never to put both selectors on crossfeed.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p283",
+  "drop": true,
+  "drop_reason": "duplicate of p2-085 (single-engine landing: operating engine selector back to ON, off crossfeed); p1-105 was already dropped as the same fact"
+ },
+ {
+  "id": "f1-028",
+  "topic": "engine",
+  "q": "A feathered engine has just restarted in flight. Per the AFH's general procedure, what should you do next?",
+  "a": "Reduce RPM and power and let it warm up for several minutes",
+  "d": [
+   "Set takeoff power at once to clear out the cold cylinders",
+   "Set cruise power at once and resynchronize the propellers",
+   "Set full RPM and lean to peak EGT to warm it up faster"
+  ],
+  "why": "Per the AFH, reduce propeller RPM as soon as the engine starts and give it several minutes to warm up, watching cylinder head and oil temperatures, before using high power. The Seneca POH 3-12 and your school checklist do this with the throttle: reduce power till the engine is warm (the school then sets zero thrust). Follow the AFM/POH procedure.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p255"
+ },
+ {
+  "id": "f1-029",
+  "topic": "engine",
+  "q": "In a twin with unfeathering accumulators, the accumulator fails to bring a propeller out of feather. Per the AFH, what can you do?",
+  "a": "Engage the electric starter to unfeather it",
+  "d": [
+   "Dive to let the airflow windmill it out of feather",
+   "Nothing; it stays feathered until after landing",
+   "Cycle the prop control to recharge the accumulator"
+  ],
+  "why": "The accumulator stores engine oil under air or nitrogen pressure; moving the prop control out of feather releases it to the hub. Governor oil pressure recharges it moments after the engine starts turning. If it fails, use the starter. In training it saves wear on the starter and battery. (The Seneca I has none.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p255",
+  "drop": true,
+  "drop_reason": "near-duplicate of o3-062 (without accumulator help the starter unfeathers the prop); o3-064/o3-065 cover accumulators and p2-082 the Seneca starter procedure"
+ },
+ {
+  "id": "f1-030",
+  "topic": "engine",
+  "q": "When does the AFH say a propeller synchronizer should always be off?",
+  "a": "Takeoff, landing, and single-engine operation",
+  "d": [
+   "Climb, cruise, and descents below 10,000 feet",
+   "Takeoff and landing; it may stay on with one engine",
+   "Single-engine operation only; it may stay on to land"
+  ],
+  "why": "Prop sync adjusts the slave engine's RPM to match the master's. Keep it off for takeoff, landing and one-engine-inoperative flight, and switch it off while setting a new RPM. \"Prop sync OFF\" appears on a typical securing-failed-engine checklist.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p256"
+ },
+ {
+  "id": "f1-031",
+  "topic": "elec",
+  "q": "On most flight director/autopilot systems, what must be operating before the autopilot can be engaged?",
+  "a": "The flight director",
+  "d": [
+   "The yaw damper",
+   "The GPS navigator",
+   "The standby attitude indicator"
+  ],
+  "why": "On most systems the autopilot then flies the flight director's computed commands. The system can be used off (raw data), as a flight director, or with the autopilot. When hand-flying without the FD, turn it off so the command bars are out of view.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p257"
+ },
+ {
+  "id": "f1-032",
+  "topic": "aero",
+  "q": "Current 14 CFR 23.2135 defines Vmc as the calibrated airspeed at which, after a sudden critical loss of thrust, what is possible?",
+  "a": "Maintaining control of the airplane",
+  "d": [
+   "Climbing at 50 fpm with one engine inoperative",
+   "Holding altitude with no more than 5° of bank",
+   "Continuing the takeoff to 50 feet above the runway"
+  ],
+  "why": "The current performance-based rule (amendment 23-64) just requires control. The older 23.149 definition (critical engine suddenly made inoperative, then straight flight with no more than 5° of bank) still applies to airplanes certificated under it, such as most training twins. Neither requires any ability to climb at Vmc.",
+  "src": "FAA-H-8083-3C ch 13 · 14 CFR 23.2135(c)",
+  "loc": "afh p251"
+ },
+ {
+  "id": "f1-033",
+  "topic": "aero",
+  "q": "In certification, Vmc is found dynamically (sudden engine cuts) and statically (steady straight flight). Which value is published?",
+  "a": "The higher of the two",
+  "d": [
+   "The lower of the two",
+   "The average of the two",
+   "Always the dynamic value"
+  ],
+  "why": "If the two speeds differ, the higher is published. The static case, holding straight flight with no more than 5° of bank, is closer to the Vmc demonstration on the practical test; dynamic engine cuts are flown only by experienced test pilots.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p272"
+ },
+ {
+  "id": "f1-034",
+  "topic": "aero",
+  "q": "How does Vmc change with altitude in a twin with turbocharged engines?",
+  "a": "Constant up to the critical altitude, then it decreases",
+  "d": [
+   "It decreases steadily from sea level, like a normal engine",
+   "It increases steadily from sea level to the critical altitude",
+   "Constant at every altitude, because the power is boosted"
+  ],
+  "why": "Turbocharged engines hold takeoff power, and so Vmc, up to their critical altitude (where they can no longer make 100 percent power). Above it Vmc decreases, as it does from sea level in a normally aspirated engine, whose critical altitude is sea level.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p273"
+ },
+ {
+  "id": "f1-035",
+  "topic": "aero",
+  "q": "Per the AFH, how is trim handled during a Vmc demonstration?",
+  "a": "Set for takeoff at entry and left alone for the rest of it",
+  "d": [
+   "Retrimmed continuously to relieve the rudder pressure",
+   "Set for Vyse at entry, then adjusted as the speed decays",
+   "Rudder trim run fully toward the operating engine first"
+  ],
+  "why": "With gear up and flaps at takeoff, slow to about 10 knots above Vsse or Vyse (whichever is higher), trim for takeoff, and leave the trim unaltered for the rest of the maneuver. Rudder pressure can become quite high; certification allowed up to 150 lb.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p275"
+ },
+ {
+  "id": "f1-036",
+  "topic": "aero",
+  "q": "During a Vmc demonstration the airplane slowly loses altitude. Per the AFH, is that a problem for the maneuver?",
+  "a": "No; it shows controllability, not performance",
+  "d": [
+   "Yes; altitude must be held within 100 feet throughout",
+   "Yes; it means too much bank toward the good engine",
+   "No, but add power on the idle engine to hold altitude"
+  ],
+  "why": "Maintaining altitude is not a criterion; many airplanes lose (or gain) altitude during the demo. Staying at or above 3,000 ft AGL throughout is the risk mitigation.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p275"
+ },
+ {
+  "id": "f1-037",
+  "topic": "aero",
+  "q": "In a Vmc demo the gear warning horn sounds as soon as one throttle is retarded. Why does the AFH say to keep listening and watching carefully?",
+  "a": "Flight deck noise can mask the stall warning horn",
+  "d": [
+   "The horn means the gear has started to extend on its own",
+   "The horn means Vmc has been reached and to recover now",
+   "The horn will stop once the airplane slows to Vsse"
+  ],
+  "why": "With the gear up and a throttle retarded, the gear horn keeps sounding. Listen for the stall horn and watch for the stall warning light, buffet or a sudden loss of control effectiveness, and recover immediately at any of them.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p275"
+ },
+ {
+  "id": "f1-038",
+  "topic": "aero",
+  "q": "If a twin stalls during a Vmc demonstration with high power on one engine, which way is it likely to depart?",
+  "a": "Toward the idle engine, possibly rolling toward inverted",
+  "d": [
+   "Toward the operating engine, the way the rudder is applied",
+   "Straight ahead, nose down, with no roll or yaw at all",
+   "Toward the operating engine, then back to wings level"
+  ],
+  "why": "The asymmetric yaw acts like full rudder in an intentional spin entry, but the departure is toward the idle engine, not the applied rudder. It can be sudden, with strong yaw and roll toward inverted and a spin entry; twins aren't spin-tested and generally recover poorly.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p275"
+ },
+ {
+  "id": "f1-039",
+  "topic": "aero",
+  "q": "Flying at zero sideslip with one engine inoperative, what does a yaw string taped on the windshield centerline show?",
+  "a": "It streams straight up the center of the windshield",
+  "d": [
+   "It angles slightly toward the operating engine",
+   "It angles slightly toward the inoperative engine",
+   "It points the same way the inclinometer ball is offset"
+  ],
+  "why": "A yaw string (18 to 36 inches of yarn) aligns with the relative wind, so straight up the middle means zero sideslip. With an engine out that happens at about a 2° bank with the ball a third to a half off center toward the good engine, not with the ball centered.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p276"
+ },
+ {
+  "id": "f1-040",
+  "topic": "aero",
+  "q": "With one engine inoperative, you hold heading using aileron only, with no rudder. Per the AFH, what results?",
+  "a": "About 8–10° of bank and a large sideslip toward the good engine",
+  "d": [
+   "About 2° of bank and zero sideslip, with the ball centered",
+   "About 5° of bank and a moderate sideslip toward the dead engine",
+   "Wings level and a large sideslip toward the dead engine"
+  ],
+  "why": "Aileron alone needs an 8–10° bank toward the operating engine, with the ball well toward it, and the large sideslip greatly reduces climb; instructors shouldn't normally demonstrate it. Wings level with the ball centered gives a moderate sideslip toward the dead engine instead.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p277"
+ },
+ {
+  "id": "f1-041",
+  "topic": "aero",
+  "q": "What is \"zero thrust\" in multi-engine training?",
+  "a": "Power set so the prop's drag equals a feathered prop's",
+  "d": [
+   "Throttle at idle with the propeller left windmilling",
+   "Mixture at cutoff with the propeller at low RPM",
+   "Power set so the engine makes half of its rated thrust"
+  ],
+  "why": "Zero thrust simulates a feathered propeller without shutting the engine down. With one engine at zero thrust at Vyse, a climb at maximum power on the other shows the bank and ball position for zero sideslip and best climb. Idle with a windmilling prop adds far more drag.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p278"
+ },
+ {
+  "id": "f1-042",
+  "topic": "pilot",
+  "q": "After a simulated failure, the instructor moves the \"feathered\" prop control forward and sets zero thrust. Why does the AFH want a callout like \"I have the right engine; you have the left\"?",
+  "a": "Confusion over who controls what invites a bad outcome",
+  "d": [
+   "The ACS requires that exact phrase on every checkride",
+   "It cues the learner to restart the right engine next",
+   "It tells ATC which of the two engines is simulated failed"
+  ],
+  "why": "The learner does the memory items and moves the prop control toward FEATHER; the instructor then sets zero thrust and says so, for example \"I have set zero thrust and the right engine is simulated feathered.\" Any ambiguity about who is operating which systems increases the chance of an unintended outcome.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p285"
+ },
+ {
+  "id": "f1-043",
+  "topic": "pilot",
+  "q": "Why does the AFH want instructors to demonstrate the performance difference between zero thrust and a windmilling propeller?",
+  "a": "A windmilling prop can fool pilots into thinking it helps",
+  "d": [
+   "A windmilling prop gives more thrust than zero thrust does",
+   "The ACS requires a climb with the propeller windmilling",
+   "Zero thrust shows the drag of a fully windmilling prop"
+  ],
+  "why": "Improperly trained pilots have taken a windmilling propeller as a sign the engine is still producing useful thrust and been reluctant to feather, since feathering stops the propeller. Seeing the difference teaches prompt feathering in a real failure.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p285"
+ },
+ {
+  "id": "f1-044",
+  "topic": "engine",
+  "q": "Besides abrupt throttle reductions, what does the AFH say can damage an engine's dynamic crankshaft counterweights?",
+  "a": "High RPM with low MP, overboosting, and propeller feathering",
+  "d": [
+   "Long cruise at low RPM and high MP, and frequent leaning",
+   "Running the boost pump and alternate air during ground runs",
+   "Rich mixtures, long idle periods, and cold-weather preheating"
+  ],
+  "why": "Make throttle reductions for simulated failures smoothly on engines with dynamic counterweights; severe damage or repeated abuse eventually leads to engine failure. Instructors can ask maintenance or the engine maker whether their engines have them (POH 2-3 says the Seneca's engines have them).",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p284"
+ },
+ {
+  "id": "f1-045",
+  "topic": "pilot",
+  "q": "Why does the AFH advise against pulling circuit breakers to simulate failures in multi-engine training?",
+  "a": "A breaker left out can lead to a later gear-up landing",
+  "d": [
+   "Pulled breakers void the airplane's airworthiness certificate",
+   "Breakers wear out after only a few dozen cycles",
+   "The ACS prohibits simulated electrical failures"
+  ],
+  "why": "A forgotten breaker can disable the gear or its warning later. Many procedures can be practiced with the airplane on the ground, engines off, as a procedures trainer; afterward restore every item to its proper position.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p284"
+ },
+ {
+  "id": "f1-046",
+  "topic": "pilot",
+  "q": "Training at light weight makes single-engine performance look deceptively good. How does the AFH suggest showing high-weight, high-DA performance?",
+  "a": "The instructor limits manifold pressure on the operating engine",
+  "d": [
+   "Load the airplane with passengers to maximum takeoff weight",
+   "Practice the failures right after liftoff, below 400 ft AGL",
+   "Leave the failed engine's propeller windmilling for extra drag"
+  ],
+  "why": "Artificially limiting the operating engine's MP simulates higher weights, altitudes and temperatures, even operations above the single-engine ceiling. Loading passengers to practice emergencies at max takeoff weight creates an unnecessary training hazard.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p285"
+ },
+ {
+  "id": "f1-047",
+  "topic": "pilot",
+  "q": "How does the AFH view touch-and-go landings in multi-engine training?",
+  "a": "Not advised during initial familiarization; solo ones discouraged",
+  "d": [
+   "Preferred, since they give more landings per hour of training",
+   "Acceptable at any stage, as long as the learner resets flaps and trim",
+   "Required by the ACS for the multi-engine class rating"
+  ],
+  "why": "Reconfiguring for takeoff in very little time, and losing the follow-through of a full-stop landing, can outweigh the value. If they are done, brief roles beforehand: the learner keeps directional control with a hand on the throttles while the instructor resets flaps and trim. A twin uses much more runway for a touch-and-go.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p285"
+ },
+ {
+  "id": "f1-048",
+  "topic": "acs",
+  "q": "Recovering from an approach to a stall in a twin, why does the AFH caution against immediately applying full power?",
+  "a": "Any asymmetric thrust while stalled can cause a departure",
+  "d": [
+   "Full power raises the stall speed by several knots",
+   "Full power can overspeed the propellers at low airspeed",
+   "Full power silences the stall warning before recovery"
+  ],
+  "why": "As in every airplane, the first step is to reduce the angle of attack; then roll wings level and add power as needed. Single-engine stalls, or stalls with much more power on one engine, aren't attempted because a departure and spin entry are likely.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p268"
+ },
+ {
+  "id": "f1-049",
+  "topic": "engine",
+  "q": "You need a steeper descent in a piston twin without cutting power far enough to overcool the engines. What does the AFH suggest?",
+  "a": "Extend partial flaps or the gear before cutting power more",
+  "d": [
+   "Pull both throttles to idle and set the props to high RPM",
+   "Close the cowl flaps and pull both props to the low-RPM stop",
+   "Shut down and feather one engine to add drag for the descent"
+  ],
+  "why": "Plan descents early; a hurried descent at or near idle is inefficient and can cause excessive engine cooling and passenger discomfort (rule of thumb: plan no more than 500 fpm if unpressurized). Engine makers strongly discourage very low MP with high RPM, and some airplanes have minimum EGT, CHT or power settings in descent.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p269"
+ },
+ {
+  "id": "f1-050",
+  "topic": "pilot",
+  "q": "Using differential power in a crosswind landing, you lower the upwind wing. Which engine gets more power, and why?",
+  "a": "The upwind engine, to keep the airplane from turning",
+  "d": [
+   "The downwind engine, to keep the airplane from turning",
+   "The upwind engine, to help raise the lowered wing",
+   "Both equally, with rudder alone holding the heading"
+  ],
+  "why": "The asymmetric thrust yaws the airplane much like rudder, opposing the turn the lowered wing would start. It's an acceptable technique, but most pilots react faster with rudder and aileron, especially with turbocharger lag; practice it with an instructor first.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p271"
+ },
+ {
+  "id": "f1-051",
+  "topic": "pilot",
+  "q": "After a two-engine go-around, you decide to come back around for another landing. What does the AFH stress?",
+  "a": "Re-accomplish the entire before-landing checklist",
+  "d": [
+   "Recheck only that the gear is down and locked",
+   "Skip the checklist, since you are still configured",
+   "Redo only the flap and trim items of the checklist"
+  ],
+  "why": "A go-around interrupts habit patterns, a classic setup for a gear-up landing on the next approach. During the go-around also watch the gear retraction speed, which on many twins is well below the extension speed (Seneca: 125 MPH up, 150 MPH down).",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p272"
+ },
+ {
+  "id": "f1-052",
+  "topic": "eo",
+  "q": "You must go around from the round-out after a bad bounce, with airspeed low. Per the AFH, what is the first priority?",
+  "a": "Control and flying speed, even if it means brief level flight",
+  "d": [
+   "Pitch up at once to the Vy attitude to clear any obstacles",
+   "Retract all the flaps first to cut the drag, then add power",
+   "Raise the gear at once to reduce drag before starting the climb"
+  ],
+  "why": "A go-around from low airspeed (the round-out, a bounce, or an inadvertent approach to a stall) needs a tempered pitch-up; a few moments of level or near-level flight may be needed while the airplane accelerates to climb speed. The normal go-around flow assumes the go-around starts at normal approach speed or faster.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p272"
+ },
+ {
+  "id": "f1-053",
+  "topic": "eo",
+  "q": "Compared with a two-engine landing, what should you expect in the round-out of a single-engine landing?",
+  "a": "More float, and a rudder trim change as power comes off",
+  "d": [
+   "Less float, since the dead prop adds drag, and no trim change",
+   "More float, but no rudder change as the power comes off",
+   "Less float, and a sharp pitch-up as the power comes off"
+  ],
+  "why": "With drag from only one windmilling propeller rather than two, the airplane floats more, so precise airspeed control matters, especially on short or slippery runways. Closing the operating engine's throttle changes the rudder needed; some pilots neutralize rudder trim on final and hold rudder pressure instead.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p284"
+ },
+ {
+  "id": "f1-054",
+  "topic": "eo",
+  "q": "An engine fire in a light twin seems to go out after the fire procedure, and you continue toward an airport. Per the AFH, what risks remain?",
+  "a": "Wing damage, or the fire rekindling as the airflow changes",
+  "d": [
+   "None, once the fire is out and the engine is fully secured",
+   "Only a higher Vmc from the feathered propeller's drag",
+   "Only reduced range, since that wing's fuel is now unusable"
+  ],
+  "why": "Twin pilots may elect to continue to the nearest airport, but a wing may be seriously impaired: even a brief intense fire can cause structural damage, a fire can keep burning under the wing out of view, and fires that seemed out have rekindled with changes in airflow and airspeed. Land as soon as possible.",
+  "src": "FAA-H-8083-3C ch 18",
+  "loc": "afh p359"
+ },
+ {
+  "id": "f1-055",
+  "topic": "eo",
+  "q": "After an engine failure on takeoff with adequate climb, to what height does the AFH say to climb, straight ahead or with shallow turns, before trying to return?",
+  "a": "At least 400 feet AGL",
+  "d": [
+   "At least 200 feet AGL",
+   "At least 1,000 feet AGL",
+   "Traffic pattern altitude"
+  ],
+  "why": "Turning flight reduces climb performance, so climb straight ahead, or with shallow turns to avoid obstacles, at Vyse and zero sideslip to at least 400 ft AGL before attempting a return to the airport.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p281"
+ },
+ {
+  "id": "f1-056",
+  "topic": "eo",
+  "q": "An engine fails right after takeoff and the airplane yaws and rolls. Why does the AFH say to stop the yaw with rudder before correcting roll with aileron?",
+  "a": "Aileron first adds drag and adverse yaw, hurting control",
+  "d": [
+   "Aileron first overstresses the wing on the dead engine's side",
+   "Rudder first lets the dead engine's prop feather by itself",
+   "Aileron has no effect until the gear is fully retracted"
+  ],
+  "why": "Prompt, often aggressive rudder to stop the yaw is critical, and airspeed must stay above Vmc; then use a slight bank toward the operating engine. If full rudder can't stop the yaw, reducing thrust on the operating engine is the only alternative.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p280"
+ },
+ {
+  "id": "f1-057",
+  "topic": "pilot",
+  "q": "Per the AFH, how do stall-spin accidents during training for emergencies compare with those from actual emergencies?",
+  "a": "They rival them in number",
+  "d": [
+   "They are about one-tenth as common",
+   "They are rare, since training is briefed",
+   "They happen mainly on solo practice flights"
+  ],
+  "why": "Simulated engine failures can quickly become real emergencies when approached carelessly, and surprising a learner without a briefing creates a hazard. A thorough preflight briefing on how emergencies will be introduced and what the learner should do normally mitigates the risk.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p284"
+ },
+ {
+  "id": "f1-058",
+  "topic": "perf",
+  "q": "Unless the AFM/POH says otherwise, under what conditions do its published V-speeds apply?",
+  "a": "Sea level, standard day, at maximum takeoff weight",
+  "d": [
+   "Sea level, standard day, at a typical training weight",
+   "The density altitude and weight shown on today's W&B",
+   "5,000 feet, standard day, at maximum landing weight"
+  ],
+  "why": "Performance speeds vary with weight, configuration and atmospheric conditions, and may be given in mph or knots, CAS or IAS. Fly the published indicated airspeeds whenever they are available. (The Seneca POH gives MPH CAS.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p251"
+ },
+ {
+  "id": "f1-059",
+  "topic": "aero",
+  "q": "If a twin enters an upright spin, what does the AFH say to use to confirm the direction of rotation?",
+  "a": "The turn needle or the turn coordinator",
+  "d": [
+   "The inclinometer (slip/skid) ball",
+   "The heading indicator's movement",
+   "The attitude indicator's bank angle scale"
+  ],
+  "why": "The departure may be abrupt and disorienting; don't rely on the ball or other instruments. Most manufacturers' recovery: both throttles idle, full rudder opposite the rotation, full forward elevator with ailerons neutral, held until the rotation stops.",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p267"
+ },
+ {
+  "id": "f1-060",
+  "topic": "eo",
+  "q": "Climbing at Vy on both engines, one engine fails. To hold Vyse, what must you do with the pitch attitude?",
+  "a": "Lower it from the Vy attitude",
+  "d": [
+   "Raise it, to stay well above Vmc",
+   "Hold the same attitude used for Vy",
+   "Raise it, to trade speed for height"
+  ],
+  "why": "With half the power, the two-engine climb attitude would bleed airspeed toward Vmc and the stall; the AFH notes the pitch attitude for Vyse has to be lowered from that of Vy. (In the Seneca Vy and Vyse are both 105 MPH, yet the attitude still comes down.)",
+  "src": "FAA-H-8083-3C ch 13",
+  "loc": "afh p280"
+ }
+]

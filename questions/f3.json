@@ -1,0 +1,846 @@
+[
+ {
+  "id": "f3-001",
+  "topic": "pilot",
+  "q": "In the PAVE preflight risk checklist, what do the four letters stand for?",
+  "a": "Pilot, Aircraft, enVironment, External pressures",
+  "d": [
+   "Plan, Aircraft, Visibility, Emergency equipment",
+   "Pilot, Airspeed, Vectors, Enroute weather",
+   "Preflight, Altitude, Visibility, Expected traffic"
+  ],
+  "why": "PAVE divides a flight's risks into four categories: Pilot-in-command, Aircraft, enVironment (weather, terrain, airports, airspace, night) and External pressures. Identify the hazards in each, set personal minimums, and if the combined risk can't be managed, cancel.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p47"
+ },
+ {
+  "id": "f3-002",
+  "topic": "pilot",
+  "q": "Running PAVE before a trip, you note your passengers have an afternoon meeting and you promised to return the twin by 5 p.m. Which category is that?",
+  "a": "External pressures (E)",
+  "d": [
+   "Pilot-in-command readiness (P)",
+   "enVironment, such as the weather (V)",
+   "Aircraft limitations (A)"
+  ],
+  "why": "External pressures are influences outside the flight that create pressure to complete it, often at the expense of safety: people waiting, passengers you don't want to disappoint, the wish to impress, or a schedule (get-there-itis). Plan for them before you go, for example with a firm alternate plan.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p48"
+ },
+ {
+  "id": "f3-003",
+  "topic": "pilot",
+  "q": "The IMSAFE personal checklist covers which six items?",
+  "a": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion",
+  "d": [
+   "Illness, Medical certificate, Sleep, Altitude, Fuel, Experience",
+   "Injury, Medication, Sleep, Alcohol, Food, Exercise",
+   "Illness, Meals, Stress, Attitude, Fatigue, Eyesight"
+  ],
+  "why": "IMSAFE is the pilot's self-check (the P in PAVE): Am I ill? On any medication that could affect judgment? Under stress? Drinking within 8 or 24 hours? Tired? Emotionally upset? The AIM prints the same list as its personal checklist.",
+  "src": "FAA-H-8083-25C ch 2 · AIM 8-1-1",
+  "loc": "phak p47"
+ },
+ {
+  "id": "f3-004",
+  "topic": "pilot",
+  "q": "14 CFR 91.17 bars flying within 8 hours of drinking or at 0.04 or more blood alcohol. What 'bottle to throttle' interval does the AIM recommend?",
+  "a": "At least 12 to 24 hours, depending on how much was consumed",
+  "d": [
+   "Exactly 8 hours, since the regulation already builds in a margin",
+   "At least 4 hours after one drink, plus 1 hour per additional drink",
+   "At least 48 hours after any amount of alcohol, however small"
+  ],
+  "why": "A pilot may still be under the influence 8 hours after a moderate amount of alcohol, and a hangover also impairs, so the AIM suggests 12 to 24 hours. Alcohol causes a form of histotoxic hypoxia and makes you more prone to disorientation; PHAK notes altitude multiplies its effects.",
+  "src": "AIM 8-1-1 · 14 CFR 91.17 · FAA-H-8083-25C ch 17",
+  "loc": "aim p640"
+ },
+ {
+  "id": "f3-005",
+  "topic": "pilot",
+  "q": "ATC tells a pilot to stay clear of a TFR, and he thinks, \"Rules like that are pointless. Nobody tells me how to fly.\" Which hazardous attitude, and its antidote?",
+  "a": "Anti-authority: \"Follow the rules. They are usually right.\"",
+  "d": [
+   "Anti-authority: \"It could happen to me.\"",
+   "Macho: \"Follow the rules. They are usually right.\"",
+   "Resignation: \"I'm not helpless. I can make a difference.\""
+  ],
+  "why": "Anti-authority is resenting being told what to do, or regarding rules and procedures as silly or unnecessary. Recognize the thought, label it hazardous, then state the antidote. PHAK adds that you may still question authority you believe is in error.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p44"
+ },
+ {
+  "id": "f3-006",
+  "topic": "pilot",
+  "q": "After an engine failure in IMC, a pilot thinks, \"What's the use? I'll never get this on the ground,\" and stops working the problem. Attitude and antidote?",
+  "a": "Resignation: \"I'm not helpless. I can make a difference.\"",
+  "d": [
+   "Impulsivity: \"I'm not helpless. I can make a difference.\"",
+   "Resignation: \"Not so fast. Think first.\"",
+   "Invulnerability: \"Taking chances is foolish.\""
+  ],
+  "why": "Resignation pilots don't see themselves as able to change the outcome and leave it to luck or to others. The antidote is a reminder that flying the airplane and working the procedure does make a difference.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p44"
+ },
+ {
+  "id": "f3-007",
+  "topic": "pilot",
+  "q": "The left engine sputters on climb-out and the pilot instantly yanks back the nearest propeller lever without identifying or verifying. Which hazardous attitude is this?",
+  "a": "Impulsivity",
+  "d": [
+   "Resignation",
+   "Anti-authority",
+   "Invulnerability"
+  ],
+  "why": "Impulsivity is the urge to do something, anything, immediately, without stopping to choose the best option. Its antidote is \"Not so fast. Think first.\" In a twin, identify and verify before feathering, or you may shut down the good engine.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p44"
+ },
+ {
+  "id": "f3-008",
+  "topic": "pilot",
+  "q": "What are the three steps of the 3P model for practical risk management?",
+  "a": "Perceive, Process, Perform",
+  "d": [
+   "Plan, Prepare, Perform",
+   "Preflight, Proceed, Postflight",
+   "Predict, Prevent, Proceed"
+  ],
+  "why": "Perceive hazards with the PAVE checklist, Process them with CARE (Consequences, Alternatives, Reality, External factors), and Perform risk management with TEAM (Transfer, Eliminate, Accept or Mitigate), then evaluate and repeat throughout the flight.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p54"
+ },
+ {
+  "id": "f3-009",
+  "topic": "pilot",
+  "q": "What do the six steps of the DECIDE model stand for?",
+  "a": "Detect, Estimate, Choose, Identify, Do, Evaluate",
+  "d": [
+   "Detect, Evaluate, Communicate, Investigate, Decide, Execute",
+   "Define, Estimate, Consider, Implement, Do, Examine",
+   "Determine, Execute, Check, Inform, Divert, Evaluate"
+  ],
+  "why": "Detect that a change has occurred, Estimate the need to react, Choose a desired outcome, Identify solutions that reach it, Do the necessary actions, and Evaluate the effect, repeating if needed. It is a continuous-loop analytical model.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p58"
+ },
+ {
+  "id": "f3-010",
+  "topic": "pilot",
+  "q": "On final in a twin, an examiner simulates a right engine failure. The candidate assumes it's the left engine and feathers it. Per the PHAK, what was the root error?",
+  "a": "He acted without first identifying which engine had failed",
+  "d": [
+   "He identified correctly but feathered the engine too slowly",
+   "He held rudder toward the failed engine during the approach",
+   "He retracted the landing gear before identifying the engine"
+  ],
+  "why": "PHAK uses this accident to illustrate DECIDE: the problem was detected wrongly. Left-engine failures get more emphasis in training because the left is critical on most light twins, so he assumed it. The failed engine is the side needing no rudder pressure; acting without forethought can be as dangerous as not acting.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p58"
+ },
+ {
+  "id": "f3-011",
+  "topic": "pilot",
+  "q": "In single-pilot resource management, what are the five Ps of the 5P check?",
+  "a": "Plan, Plane, Pilot, Passengers, Programming",
+  "d": [
+   "Plan, Plane, Pilot, Passengers, Performance",
+   "Preflight, Plane, Pilot, Procedures, Programming",
+   "Plan, Power, Position, Passengers, Programming"
+  ],
+  "why": "Review the Plan, the Plane, the Pilot, the Passengers and the Programming (avionics and automation) at key decision points: preflight, before takeoff, at the midpoint (hourly on flights over 2 hours), before descent, and before the final approach fix or pattern entry.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p52"
+ },
+ {
+  "id": "f3-012",
+  "topic": "pilot",
+  "q": "Your twin's AFM lists a 15-knot maximum crosswind component, but you've only handled 10 knots. Today's crosswind is 14 knots. What does PHAK's personal-minimums guidance suggest?",
+  "a": "Treat 10 knots as your limit until you get more training",
+  "d": [
+   "Go, since 14 knots is within the published 15-knot figure",
+   "Go, but plan to land with full flaps to cut the groundspeed",
+   "Go, but add the full 14 knots to your normal approach speed"
+  ],
+  "why": "This is PHAK's own example: personal minimums are limits based on your experience and proficiency, set for each PAVE category. What is legal is not necessarily safe; raise the limit after training with a CFI in stronger crosswinds.",
+  "src": "FAA-H-8083-25C ch 2",
+  "loc": "phak p47"
+ },
+ {
+  "id": "f3-013",
+  "topic": "env",
+  "q": "Which list names the four types of hypoxia?",
+  "a": "Hypoxic, hypemic, stagnant, and histotoxic",
+  "d": [
+   "Hypoxic, anemic, toxic, and altitude-induced",
+   "Acute, chronic, stagnant, and evolved-gas",
+   "Hypoxic, hypemic, hypercapnic, and hyperbaric"
+  ],
+  "why": "Hypoxic: not enough oxygen available, as with the lower partial pressure at altitude. Hypemic: the blood can't carry it (CO poisoning, anemia, blood loss or donation). Stagnant: oxygen-rich blood isn't flowing (high G, shock, cold). Histotoxic: the cells can't use it (alcohol, narcotics, poisons).",
+  "src": "FAA-H-8083-25C ch 17",
+  "loc": "phak p425"
+ },
+ {
+  "id": "f3-014",
+  "topic": "env",
+  "q": "Carbon monoxide from a leaking exhaust causes which type of hypoxia, and why?",
+  "a": "Hypemic: CO binds to hemoglobin so the blood can't carry oxygen",
+  "d": [
+   "Hypoxic: CO lowers the partial pressure of oxygen in the cabin",
+   "Histotoxic: CO numbs the brain cells the way alcohol does",
+   "Stagnant: CO slows the blood flow to the brain and extremities"
+  ],
+  "why": "CO attaches to hemoglobin about 200 times more easily than oxygen, so the blood carries less oxygen; it is the most common form of hypemic hypoxia. The body can need up to 48 hours to get rid of it, and smoking at sea level can cause effects like flying at about 8,000 ft.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-4",
+  "loc": "phak p434"
+ },
+ {
+  "id": "f3-015",
+  "topic": "env",
+  "q": "Why does hypoxic hypoxia develop as an unpressurized airplane climbs?",
+  "a": "Oxygen's partial pressure falls, though its share stays about 21%",
+  "d": [
+   "The share of oxygen in the air falls steadily above 10,000 feet",
+   "Cabin heaters burn off more of the oxygen in the thinner air",
+   "The blood loses its ability to carry oxygen as the air cools"
+  ],
+  "why": "The air stays about 21 percent oxygen, but at lower pressure fewer oxygen molecules are available at the pressure needed to pass into the blood. The AIM says night vision suffers from about 5,000 ft cabin altitude, and significant effects usually begin above 12,000 ft.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-2",
+  "loc": "phak p425"
+ },
+ {
+  "id": "f3-016",
+  "topic": "env",
+  "q": "Per the PHAK, about what time of useful consciousness does a pilot have at 25,000 feet without supplemental oxygen?",
+  "a": "3 to 5 minutes",
+  "d": [
+   "30 minutes or more",
+   "15 to 20 seconds",
+   "1 to 2 minutes"
+  ],
+  "why": "Time of useful consciousness is the time available to make and carry out rational, life-saving decisions. PHAK gives 30 minutes or more at 20,000 ft, 3 to 5 minutes at 25,000, 1 to 2 minutes at 30,000 and 15 to 20 seconds at 40,000. A rapid decompression shortens it further, so get on oxygen first.",
+  "src": "FAA-H-8083-25C ch 17, ch 7",
+  "loc": "phak p426"
+ },
+ {
+  "id": "f3-017",
+  "topic": "env",
+  "q": "Beyond the 14 CFR 91.211 minimums, above what cabin altitudes does the AIM encourage pilots to use supplemental oxygen?",
+  "a": "Above 10,000 feet by day and 5,000 feet at night",
+  "d": [
+   "Above 12,500 feet by day and 10,000 feet at night",
+   "Above 14,000 feet by day and 12,500 feet at night",
+   "Above 8,000 feet by day and 3,000 feet at night"
+  ],
+  "why": "Night vision deteriorates from about 5,000 ft, so for optimum protection the AIM recommends oxygen above 5,000 ft at night and 10,000 ft by day. The rule itself requires crew oxygen after 30 minutes above 12,500 ft up to 14,000 ft, at all times above 14,000 ft, and oxygen provided for everyone above 15,000 ft.",
+  "src": "AIM 8-1-2 · FAA-H-8083-25C ch 7",
+  "loc": "aim p642"
+ },
+ {
+  "id": "f3-018",
+  "topic": "env",
+  "q": "During a stressful engine failure at 4,000 feet, you feel lightheaded with tingling fingers and notice you're breathing fast. What is likely, and what helps?",
+  "a": "Hyperventilation: slow your breathing, or talk aloud",
+  "d": [
+   "Hypoxia: climb above the clouds and open the vents",
+   "CO poisoning: lean the mixture to cut exhaust output",
+   "Hypoxia: breathe faster and deeper until it eases"
+  ],
+  "why": "Hyperventilation blows off too much carbon dioxide; symptoms include lightheadedness, tingling, hot and cold sensations, visual impairment and muscle spasms. Slow the breathing rate, talk aloud or breathe into a bag. Its symptoms resemble hypoxia, so if you're on oxygen the AIM says select 100 percent and check the system first.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-3",
+  "loc": "phak p426"
+ },
+ {
+  "id": "f3-019",
+  "topic": "env",
+  "q": "Using the cabin heat in a light airplane, you develop a headache and drowsiness and notice an exhaust smell. What should you do?",
+  "a": "Heater off, fresh-air vents open, and oxygen if available",
+  "d": [
+   "Heater on high to clear the fumes, and continue as planned",
+   "Mixtures leaned to reduce exhaust output, and continue",
+   "All vents closed to keep fumes out, and climb above them"
+  ],
+  "why": "Assume carbon monoxide. Most light-airplane heaters warm air passing over the exhaust manifold or muffler, so a crack can send CO into the cabin through the heater and defrost vents, sometimes with no odor at all. Seek medical help if symptoms are severe or continue after landing.",
+  "src": "AIM 8-1-4 · FAA-H-8083-25C ch 17",
+  "loc": "aim p643"
+ },
+ {
+  "id": "f3-020",
+  "topic": "env",
+  "q": "Your passenger made a scuba dive this morning that needed no decompression stops. How long does the AIM recommend waiting before a flight at up to 8,000 ft MSL?",
+  "a": "At least 12 hours",
+  "d": [
+   "At least 4 hours",
+   "At least 24 hours",
+   "At least 48 hours"
+  ],
+  "why": "Wait at least 12 hours after non-decompression-stop diving for flight altitudes up to 8,000 ft, and at least 24 hours after diving that required decompression stops or before flying above 8,000 ft. These are actual altitudes MSL, not cabin altitudes, to allow for a decompression in flight.",
+  "src": "AIM 8-1-2 · FAA-H-8083-25C ch 17",
+  "loc": "aim p643"
+ },
+ {
+  "id": "f3-021",
+  "topic": "env",
+  "q": "At altitude you develop deep knee pain that worsens when you move the joint, and you suspect decompression sickness. What does the PHAK say to do?",
+  "a": "100% oxygen, emergency descent, land, see a specialist; keep the joint still",
+  "d": [
+   "Descend, and if the pain stops, continue to your planned destination",
+   "Flex the joint to work out the bubbles while descending gradually",
+   "Climb a little to ease the pressure on the joint, then descend slowly"
+  ],
+  "why": "DCS is dissolved nitrogen forming bubbles as pressure drops; joint pain is 'the bends.' Use 100 percent oxygen, descend and land as soon as possible even if symptoms fade, and see an AME, flight surgeon or hyperbaric specialist; treatment may need a hyperbaric chamber. Symptoms can also appear after landing.",
+  "src": "FAA-H-8083-25C ch 17",
+  "loc": "phak p440"
+ },
+ {
+  "id": "f3-022",
+  "topic": "pilot",
+  "q": "In IMC, distracted by an engine problem, you slowly drift into a bank, then abruptly level the wings. You now feel banked the other way. Which illusion is this?",
+  "a": "The leans",
+  "d": [
+   "Coriolis illusion",
+   "Somatogravic illusion",
+   "Inversion illusion"
+  ],
+  "why": "Rotation of about 2 degrees per second or less is below the inner ear's detection threshold, so the slow bank goes unnoticed and leveling the wings feels like a bank the opposite way. PHAK calls it the most common illusion; believe the attitude indicator and resist rolling back into the original bank.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-5",
+  "loc": "phak p429"
+ },
+ {
+  "id": "f3-023",
+  "topic": "pilot",
+  "q": "In a prolonged coordinated turn in IMC you feel wings-level and see the altitude dropping, so you pull back. What happens, and what is this called?",
+  "a": "The spiral tightens and altitude loss grows: graveyard spiral",
+  "d": [
+   "The airplane levels off and climbs: the elevator illusion",
+   "The bank shallows and the turn slowly stops: the leans",
+   "The nose pitches up into a stall: the inversion illusion"
+  ],
+  "why": "Once the inner ear stops sensing a constant-rate turn, you feel level, and pulling back to stop the descent only tightens the spiral. Level the wings on the attitude indicator first, then correct the pitch.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-5",
+  "loc": "phak p429"
+ },
+ {
+  "id": "f3-024",
+  "topic": "pilot",
+  "q": "On a dark-night or IMC takeoff, the rapid acceleration gives you a strong nose-up sensation. What is the danger of this somatogravic illusion?",
+  "a": "Pushing the nose down into a dive toward the ground",
+  "d": [
+   "Pulling the nose up into a stall right after liftoff",
+   "Overbanking in a turn that feels like level flight",
+   "Leaning into a bank to line up with a false horizon"
+  ],
+  "why": "Acceleration stimulates the otolith organs like tilting the head back, so the airplane feels nose-high and the pilot may push over. A rapid deceleration, such as a quick power reduction, has the opposite effect and can lead to a nose-up stall. Hold the planned pitch attitude on the instruments.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-5",
+  "loc": "phak p429"
+ },
+ {
+  "id": "f3-025",
+  "topic": "pilot",
+  "q": "During a long constant-rate turn in IMC, you bend down to pick up a dropped chart. What illusion are you inviting, and how is it prevented?",
+  "a": "Coriolis illusion; minimize head movement in turns",
+  "d": [
+   "The leans; roll out of the turn more slowly than usual",
+   "Autokinesis; avoid staring at a single point of light",
+   "Elevator illusion; reduce power before looking down"
+  ],
+  "why": "Once the fluid in the ear canal moves with the turn, a head movement in another plane sets it moving again and creates a false rotation on a different axis; the AIM calls it the most overwhelming illusion. Use a scan with minimal head movement and retrieve dropped items carefully.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-5",
+  "loc": "phak p429"
+ },
+ {
+  "id": "f3-026",
+  "topic": "pilot",
+  "q": "You're landing at an unfamiliar field whose runway is narrower than you're used to and slopes upward. Which approach error should you guard against?",
+  "a": "Flying too low, since you'll feel higher than you are",
+  "d": [
+   "Flying too high, since you'll feel lower than you are",
+   "Flaring early, since the runway will look farther away",
+   "Landing long, since you'll feel slower than you are"
+  ],
+  "why": "A narrower-than-usual runway and an upsloping runway or terrain both make you feel higher than you are, leading to a low approach. Featureless terrain (black hole), rain on the windscreen and haze also tend to cause low approaches. Use VASI/PAPI or a glideslope and check the altimeter.",
+  "src": "FAA-H-8083-25C ch 17 · AIM 8-1-5",
+  "loc": "phak p432"
+ },
+ {
+  "id": "f3-027",
+  "topic": "wb",
+  "q": "A twin weighs 5,000 lb with its CG at 90.0 in. You move 100 lb of baggage from station 150 to station 50. What is the new CG?",
+  "a": "88.0 in",
+  "d": [
+   "92.0 in",
+   "89.0 in",
+   "90.0 in"
+  ],
+  "why": "Weight shifted / total weight = CG change / distance moved: 100 / 5,000 = CG change / 100 in, so the CG moves 2.0 in. The weight went forward, so the CG moves forward to 88.0 in. Total weight is unchanged; total moment drops by 10,000 in-lb.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p254"
+ },
+ {
+  "id": "f3-028",
+  "topic": "wb",
+  "q": "Your twin weighs 6,000 lb with the CG 1.0 in aft of the aft limit. How much cargo must move from station 150 to station 30 to put the CG exactly at the limit?",
+  "a": "50 lb",
+  "d": [
+   "40 lb",
+   "100 lb",
+   "120 lb"
+  ],
+  "why": "Weight to shift = total weight x CG change / distance moved = 6,000 x 1.0 / 120 = 50 lb. Shifting changes the moment but not the total weight.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p255"
+ },
+ {
+  "id": "f3-029",
+  "topic": "wb",
+  "q": "At 4,500 lb with the CG at 88.0 in, a 180-lb passenger seated at station 118.0 gets out. What is the new CG?",
+  "a": "About 86.8 in",
+  "d": [
+   "About 89.3 in",
+   "About 86.0 in",
+   "About 88.0 in"
+  ],
+  "why": "CG change = weight removed x distance from the old CG / new total weight = 180 x 30 / 4,320 = about 1.25 in. Weight came off aft of the CG, so the CG moves forward: 88.0 - 1.25 = about 86.8 in. Total moments agree: 374,760 / 4,320 = 86.75 in.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p255"
+ },
+ {
+  "id": "f3-030",
+  "topic": "wb",
+  "q": "Per the PHAK's definitions, what makes up useful load?",
+  "a": "Pilot, passengers, baggage, usable fuel, and drainable oil",
+  "d": [
+   "Pilot, passengers, and baggage only, excluding all fuel and oil",
+   "Usable and unusable fuel plus all of the engine oil",
+   "Basic empty weight plus the crew and passengers"
+  ],
+  "why": "Useful load is the maximum allowable gross weight minus basic empty weight: pilot, copilot, passengers, baggage, usable fuel and drainable oil. Payload is only the occupants, cargo and baggage, which is why fuel and payload trade against each other within the useful load.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p249"
+ },
+ {
+  "id": "f3-031",
+  "topic": "wb",
+  "q": "Which standard weights does the PHAK give for avgas and engine oil?",
+  "a": "Avgas 6 lb/gal; oil 7.5 lb/gal",
+  "d": [
+   "Avgas 6.8 lb/gal; oil 6 lb/gal",
+   "Avgas 7.5 lb/gal; oil 6 lb/gal",
+   "Avgas 6 lb/gal; oil 8.35 lb/gal"
+  ],
+  "why": "Standard weights: gasoline 6 lb/gal, oil 7.5 lb/gal, Jet A 6.8 lb/gal, water 8.35 lb/gal. Use actual weights when they're available.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p249"
+ },
+ {
+  "id": "f3-032",
+  "topic": "wb",
+  "q": "What usually sets an airplane's forward CG limit?",
+  "a": "Enough elevator travel to flare and land",
+  "d": [
+   "Enough stability to recover from a stall or spin",
+   "The strength of the aft baggage compartment floor",
+   "The fuel capacity of the wing tanks near the CG"
+  ],
+  "why": "The forward limit is often set by landing characteristics: too far forward and there may not be enough up elevator to flare, with higher nosewheel loads and stall speed. The aft limit is the most rearward CG allowed for the most critical maneuver or operation; behind it, stability and stall/spin recovery suffer.",
+  "src": "FAA-H-8083-25C ch 10",
+  "loc": "phak p247",
+  "drop": true,
+  "drop_reason": "duplicate of f1-012 (what sets the forward and aft CG limits)"
+ },
+ {
+  "id": "f3-033",
+  "topic": "perf",
+  "q": "Which statement correctly defines density altitude?",
+  "a": "Pressure altitude corrected for nonstandard temperature",
+  "d": [
+   "Indicated altitude corrected for nonstandard pressure",
+   "True altitude corrected for wind and temperature",
+   "Height above the airport corrected for humidity"
+  ],
+  "why": "Pressure altitude is what the altimeter shows when set to 29.92 inHg. Corrected for nonstandard temperature it becomes density altitude, the standard-atmosphere altitude with the same air density, which governs engine, propeller and wing performance. Warmer than standard puts density altitude above pressure altitude.",
+  "src": "FAA-H-8083-25C ch 11, ch 8",
+  "loc": "phak p259"
+ },
+ {
+  "id": "f3-034",
+  "topic": "perf",
+  "q": "Two days have the same pressure altitude and temperature, but one is very humid. How does the humid day affect takeoff and climb performance?",
+  "a": "Worse: moist air is less dense, so density altitude is higher",
+  "d": [
+   "Better: moist air is denser, so density altitude is lower",
+   "No change: humidity has no effect on air density at all",
+   "Better: the water vapor cools the cylinders and adds power"
+  ],
+  "why": "Water vapor is lighter than air, so humid air is less dense. PHAK gives no simple rule of thumb for it, but expect reduced performance in high humidity. High elevation, low pressure, high temperature and high humidity all raise density altitude.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p261"
+ },
+ {
+  "id": "f3-035",
+  "topic": "perf",
+  "q": "Per the PHAK, a 10 percent increase in takeoff weight lengthens the takeoff distance by how much?",
+  "a": "At least 21 percent",
+  "d": [
+   "About 5 percent",
+   "About 10 percent",
+   "About 50 percent"
+  ],
+  "why": "Extra weight raises the lift-off speed (about 5 percent), adds mass to accelerate (at least 9 percent less acceleration) and adds drag and rolling friction, so takeoff distance grows at least 21 percent, more with low thrust-to-weight. Landing distance grows in direct proportion to weight, about 10 percent.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p271"
+ },
+ {
+  "id": "f3-036",
+  "topic": "perf",
+  "q": "You cross the threshold 10 percent faster than the recommended approach speed. Per the PHAK, about how much longer will the landing distance be?",
+  "a": "About 20 percent",
+  "d": [
+   "About 5 percent",
+   "About 10 percent",
+   "About 40 percent"
+  ],
+  "why": "PHAK puts a 10 percent excess landing speed at about 20 percent more landing distance (elsewhere \"at least 21 percent\"): the brakes must absorb the extra kinetic energy, and the extra lift on the rollout reduces braking. PHAK adds that a 10-knot tailwind increases landing distance by about another 21 percent.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p273"
+ },
+ {
+  "id": "f3-037",
+  "topic": "perf",
+  "q": "A tailwind equal to 10 percent of your lift-off speed changes the takeoff distance by about how much?",
+  "a": "About 21 percent longer",
+  "d": [
+   "About 10 percent longer",
+   "About 19 percent shorter",
+   "About 5 percent longer"
+  ],
+  "why": "A tailwind means reaching lift-off airspeed at a higher groundspeed. A headwind of 10 percent of takeoff speed shortens the distance about 19 percent; the same tailwind lengthens it about 21 percent. Wind affects landing distance the same way.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p271"
+ },
+ {
+  "id": "f3-038",
+  "topic": "perf",
+  "q": "Your main tires are inflated to 49 psi. Using the PHAK rule of thumb, at about what groundspeed could dynamic hydroplaning begin?",
+  "a": "About 63 knots",
+  "d": [
+   "About 49 knots",
+   "About 44 knots",
+   "About 98 knots"
+  ],
+  "why": "PHAK's rule: minimum dynamic hydroplaning speed is about 9 times the square root of the main tire pressure, so 9 x 7 = 63 knots (the AFH uses 8.6 times, about 60 knots). Once it starts, hydroplaning can continue well below that speed, so touch down at the recommended speed, land as nearly into the wind as possible, and use aerodynamic braking.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p270"
+ },
+ {
+  "id": "f3-039",
+  "topic": "perf",
+  "q": "On a slow, low, short-field approach you're on the back side of the power curve and sinking too fast. Per the PHAK, what will arrest the sink?",
+  "a": "Adding power; lowering the nose alone would increase the sink",
+  "d": [
+   "Raising the nose, since more angle of attack adds lift",
+   "Lowering the nose alone to regain airspeed and lift",
+   "Raising the flaps to reduce drag and gain airspeed"
+  ],
+  "why": "Below the minimum-power (best endurance) speed you are in the region of reversed command, where flying slower takes more power. Power may stop the descent; lowering the nose without power gives a rapid sink and loss of altitude. Control airspeed precisely at low speeds.",
+  "src": "FAA-H-8083-25C ch 11",
+  "loc": "phak p268"
+ },
+ {
+  "id": "f3-040",
+  "topic": "engine",
+  "q": "Which list gives common operational causes of detonation?",
+  "a": "Low fuel grade, high MP with low RPM, lean at high power, poor cooling",
+  "d": [
+   "Rich mixture at idle, high RPM with low MP, cool cylinder heads",
+   "Higher fuel grade, shallow climbs, cowl flaps open on the ground",
+   "Cold oil, a fine-pitch propeller, and a low cruise power setting"
+  ],
+  "why": "Detonation is an uncontrolled, explosive ignition of the charge; it brings high CHT and can quickly destroy pistons, cylinders or valves. Causes: too low a fuel grade, very high MP with low RPM, high power with an excessively lean mixture, and long ground runs or steep climbs that reduce cooling.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p179"
+ },
+ {
+  "id": "f3-041",
+  "topic": "engine",
+  "q": "In a long full-power climb on a hot day, CHT nears redline and you suspect detonation. Which response does the PHAK's guidance support?",
+  "a": "Enrich the mixture, open the cowl flaps, and shallow the climb",
+  "d": [
+   "Lean to peak EGT and steepen the climb toward Vx",
+   "Reduce RPM but hold full manifold pressure for the climb",
+   "Close the cowl flaps to keep the cylinders evenly heated"
+  ],
+  "why": "A richer mixture and more cooling air bring cylinder temperatures down. PHAK's prevention list: the correct fuel grade, cowl flaps open on the ground, an enriched mixture and a shallow climb angle on takeoff and initial climb, and no extended high-power steep climbs. High MP with low RPM makes detonation more likely.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p179",
+  "drop": true,
+  "drop_reason": "duplicate of o3-038 (high CHT in a climb: enrich, open cowl flaps, more airspeed/less power); detonation causes are covered by f3-040"
+ },
+ {
+  "id": "f3-042",
+  "topic": "engine",
+  "q": "What is preignition?",
+  "a": "Ignition of the charge by a hot spot, before the normal spark",
+  "d": [
+   "Explosive burning of the charge after the spark, from low-grade fuel",
+   "Ignition from both spark plugs firing at the same moment",
+   "Fuel igniting in the exhaust stack after a lean shutdown"
+  ],
+  "why": "A carbon deposit, a cracked plug insulator or other cylinder damage can get hot enough to ignite the charge early, while the piston is still on its compression stroke, causing power loss and high temperatures. Explosive burning after the spark is detonation; the two often occur together and are hard to tell apart.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p179"
+ },
+ {
+  "id": "f3-043",
+  "topic": "engine",
+  "q": "Leveling off, you reduce from climb power to a lower cruise MP and RPM. Why reduce manifold pressure before RPM?",
+  "a": "Cutting RPM first raises MP and can overstress the cylinders",
+  "d": [
+   "Cutting MP first stops the propeller from overspeeding",
+   "Cutting RPM first can drive the propeller into feather",
+   "Cutting MP first keeps the oil temperature from rising"
+  ],
+  "why": "For any RPM there is a manifold pressure that shouldn't be exceeded, and reducing RPM first makes MP rise, possibly past limits. When reducing power: MP first, then RPM. When increasing: RPM first, then MP. Use the manufacturer's power settings.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p167"
+ },
+ {
+  "id": "f3-044",
+  "topic": "engine",
+  "q": "In a turbocharged engine, what is the critical altitude?",
+  "a": "The highest altitude at which it can still produce rated power",
+  "d": [
+   "The altitude at which the waste gate first begins to close",
+   "The lowest altitude at which the turbocharger may be used",
+   "The altitude at which manifold pressure first exceeds 30 inHg"
+  ],
+  "why": "As a turbocharged airplane climbs, the waste gate closes gradually to hold the maximum allowable MP. At the critical altitude it is fully closed; above it MP and power fall like a normally aspirated engine's. If MP starts dropping below the published critical altitude, have the system inspected.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p173"
+ },
+ {
+  "id": "f3-045",
+  "topic": "engine",
+  "q": "Why should a turbocharged engine be allowed to cool, and the turbine to slow, before shutdown?",
+  "a": "Oil left in the hot bearings can boil and coke them",
+  "d": [
+   "The waste gate can stick closed and overboost the next start",
+   "The turbine can turn the engine backward after shutdown",
+   "The intercooler can crack from the sudden loss of pressure"
+  ],
+  "why": "The turbine and impeller can turn over 80,000 RPM at very high temperatures and depend on engine oil. Shutting down hot makes the oil in the bearing housing boil, forming hard carbon that ruins the turbocharger. Likewise, let oil temperature reach the normal range before applying high power.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p174"
+ },
+ {
+  "id": "f3-046",
+  "topic": "engine",
+  "q": "Compared with a carburetor, which is a disadvantage of fuel injection?",
+  "a": "Harder hot starts and vapor lock on the ground on hot days",
+  "d": [
+   "More prone to evaporative icing in humid air",
+   "Slower throttle response and less precise mixture control",
+   "Harder cold-weather starts and poorer fuel distribution"
+  ],
+  "why": "Fuel injection's drawbacks are difficult hot starts, vapor lock in hot-day ground operations, and hard restarts after fuel starvation. Its advantages are the reverse of the distractors: less evaporative icing, better fuel flow and distribution, faster throttle response, precise mixture control and easier cold starts.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p172"
+ },
+ {
+  "id": "f3-047",
+  "topic": "engine",
+  "q": "After shutdown, the ground wire between a magneto and the ignition switch has broken. What is the hazard?",
+  "a": "The engine can fire if the prop is turned, even with ignition OFF",
+  "d": [
+   "The engine won't start again until the broken wire is replaced",
+   "The battery slowly drains through that magneto while parked",
+   "The alternator stays energized even after the master is turned off"
+  ],
+  "why": "Magnetos need no outside power; switching OFF grounds them through that wire. With it broken, residual fuel can fire when the prop moves, so treat every prop as live. If the engine does start, the only way to stop it is mixture to idle cutoff, then have it repaired.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p176"
+ },
+ {
+  "id": "f3-048",
+  "topic": "engine",
+  "q": "On the run-up, switching from BOTH to each magneto produces no RPM drop at all. Per the PHAK, what should you conclude?",
+  "a": "It isn't normal; don't fly until it has been checked",
+  "d": [
+   "It's ideal: both magnetos and all plugs are perfect",
+   "It's normal for a fuel-injected engine with dual mags",
+   "It's acceptable if the other mag's drop is within limits"
+  ],
+  "why": "A small drop on each magneto is normal. PHAK says no drop is not normal (it can mean a magneto isn't grounding, which also leaves a hot prop), and an excessive drop or the engine quitting on one mag points to fouled plugs, wiring or timing. Either way, don't fly until it's fixed.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p176"
+ },
+ {
+  "id": "f3-049",
+  "topic": "fuel",
+  "q": "Sampling your piston twin's fuel, you find it colorless with a kerosene smell. What is it most likely to be?",
+  "a": "Jet fuel, which is colorless or straw-colored",
+  "d": [
+   "100LL avgas, whose blue dye has faded in the sun",
+   "Grade 100 avgas, which is normally colorless",
+   "Grade 80 avgas, which is normally colorless"
+  ],
+  "why": "Avgas is dyed: 80 red, 100 green, 100LL (and 100VLL) blue. Jet fuel is colorless or straw and smells of kerosene. Avgas equipment is labeled white on red, jet fuel white on black. Jet fuel in a piston engine can cause detonation, so don't fly until the system is drained and checked.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p187"
+ },
+ {
+  "id": "f3-050",
+  "topic": "fuel",
+  "q": "The avgas grade your engine requires isn't available. Per the PHAK, what may you use instead?",
+  "a": "The next higher grade, never a lower one",
+  "d": [
+   "The next lower grade, with the mixture kept rich",
+   "Automotive gas of the same octane rating",
+   "Any avgas grade, if you limit takeoff power"
+  ],
+  "why": "A lower grade can push cylinder head and oil temperatures above normal and cause detonation. Automotive gas may be used only if the aircraft has an STC for it. Always follow the grades approved in the AFM/POH and on the placards.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p187"
+ },
+ {
+  "id": "f3-051",
+  "topic": "fuel",
+  "q": "Certification rules require an airplane's fuel quantity gauges to be accurate at what reading?",
+  "a": "Only when they read empty",
+  "d": [
+   "Only when they read full",
+   "At each quarter-tank mark",
+   "Throughout the whole range"
+  ],
+  "why": "Any reading other than empty should be verified: check the fuel visually in each tank on preflight and compare it with the gauges, and track fuel by time and fuel flow in flight.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p186"
+ },
+ {
+  "id": "f3-052",
+  "topic": "elec",
+  "q": "Both alternators have failed in your twin and you switch both alternator switches OFF. What now powers the electrical equipment?",
+  "a": "The battery alone, so shed all nonessential load",
+  "d": [
+   "The magnetos, which feed the bus once the alternators drop off",
+   "Each engine's starter, which acts as a backup generator",
+   "Nothing; the master switch must also be turned off now"
+  ],
+  "why": "With the alternator side of the master off, the entire load is on the battery, which gives only a limited supply, so turn off everything nonessential and plan to land. The magnetos keep the engines running but never power the bus.",
+  "src": "FAA-H-8083-25C ch 7",
+  "loc": "phak p191"
+ },
+ {
+  "id": "f3-053",
+  "topic": "instr",
+  "q": "Ice blocks both the pitot inlet and its drain hole; the static port is clear. As you climb at constant airspeed, what does the airspeed indicator do?",
+  "a": "Shows an increasing airspeed, acting like an altimeter",
+  "d": [
+   "Drops to zero as the trapped pressure vents away",
+   "Shows a decreasing airspeed throughout the climb",
+   "Stays frozen at the airspeed it showed when it blocked"
+  ],
+  "why": "Pressure is trapped in the pitot line while static pressure falls in the climb, so the difference grows and indicated airspeed rises; in a descent it falls. Real airspeed changes in level flight aren't shown at all. Use pitot heat in visible moisture.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p213"
+ },
+ {
+  "id": "f3-054",
+  "topic": "instr",
+  "q": "The pitot inlet ices over but its drain hole stays open. What will the airspeed indicator show?",
+  "a": "A drop toward zero as pitot pressure vents to ambient",
+  "d": [
+   "High readings in a climb and low readings in a descent",
+   "A frozen reading at the airspeed when the ice formed",
+   "Normal readings, since the drain keeps it working"
+  ],
+  "why": "With the drain open, air in the pitot line leaks out until it equals static pressure, so the indicator senses no difference and reads zero. Acting like an altimeter happens only when both the inlet and the drain are blocked.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p212"
+ },
+ {
+  "id": "f3-055",
+  "topic": "instr",
+  "q": "The static port ices over at 6,000 feet and you have no alternate static source. As you descend to 3,000 feet, what does the airspeed indicator do?",
+  "a": "Reads higher than the actual airspeed",
+  "d": [
+   "Reads lower than the actual airspeed",
+   "Drops to zero and stays there",
+   "Reads correctly, since the pitot is clear"
+  ],
+  "why": "The trapped static pressure is lower than the real pressure at the lower altitude, so the indicator reads fast; above the blockage altitude it reads slow. The altimeter freezes at the blockage altitude and the VSI reads zero. Use the alternate static source if one is installed.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p213"
+ },
+ {
+  "id": "f3-056",
+  "topic": "instr",
+  "q": "You fly from an area of high pressure into low pressure without resetting the altimeter. Compared with what the altimeter shows, where is the airplane?",
+  "a": "Lower than the altimeter indicates",
+  "d": [
+   "Higher than the altimeter indicates",
+   "At the indicated altitude; it self-corrects",
+   "Higher, unless the air is colder than standard"
+  ],
+  "why": "\"From high to low, look out below.\" Temperature works the same way: in colder-than-standard air you are lower than indicated (\"from hot to cold, look out below\"), which matters for terrain clearance. Update the altimeter setting from nearby stations as you go.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p206"
+ },
+ {
+  "id": "f3-057",
+  "topic": "instr",
+  "q": "Which gyroscopic property do the attitude and heading indicators rely on, and which does the turn coordinator rely on?",
+  "a": "AI and HI: rigidity in space; turn coordinator: precession",
+  "d": [
+   "AI and HI: precession; turn coordinator: rigidity in space",
+   "All three rely only on rigidity in space",
+   "All three rely only on precession"
+  ],
+  "why": "Rigidity in space keeps a spinning gyro fixed in its plane, so the airplane rotates around the attitude and heading gyros. Precession, the reaction 90 degrees ahead in the direction of rotation when a force is applied, lets turn indicators sense rate of turn; the turn coordinator's canted gyro also senses roll rate.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p217"
+ },
+ {
+  "id": "f3-058",
+  "topic": "instr",
+  "q": "Why must a non-slaved heading indicator be reset to the magnetic compass periodically?",
+  "a": "Friction-caused precession and Earth's rotation make it drift",
+  "d": [
+   "Magnetic dip errors accumulate in it during every turn",
+   "Its gyro slowly loses suction pressure as the flight goes on",
+   "Electrical fields in the panel pull its card off heading"
+  ],
+  "why": "The heading indicator works by rigidity in space but has no magnetic reference. Bearing friction causes precession, and because the gyro stays fixed in space while Earth turns 15 degrees per hour, the error can reach about 15 degrees an hour. A slaved HSI uses a magnetometer instead.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p222"
+ },
+ {
+  "id": "f3-059",
+  "topic": "instr",
+  "q": "Flying a heading of east, you accelerate in level flight. What does the magnetic compass briefly indicate?",
+  "a": "A turn toward north",
+  "d": [
+   "A turn toward south",
+   "No error on an east heading",
+   "A turn toward west"
+  ],
+  "why": "Acceleration error shows on easterly and westerly headings: accelerating indicates a turn toward north, decelerating a turn toward south (ANDS, in the Northern Hemisphere). Read the compass only in steady, unaccelerated flight.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p228"
+ },
+ {
+  "id": "f3-060",
+  "topic": "instr",
+  "q": "On a standard airspeed indicator, what do the lower ends of the white arc and the green arc mark?",
+  "a": "White: Vso (landing configuration); green: Vs1 (clean)",
+  "d": [
+   "White: Vs1 (clean); green: Vso (landing configuration)",
+   "White: Vfe (flaps extended); green: Vno (structural cruise)",
+   "White: Vso (landing configuration); green: Vy (best rate)"
+  ],
+  "why": "The white arc runs from Vso to Vfe (flap operating range) and the green arc from Vs1 to Vno (normal operating range); the yellow arc is the caution range for smooth air only and the red line is Vne. Light twins add a red radial for Vmc and a blue line for Vyse. The arcs' stall speeds are at maximum weight.",
+  "src": "FAA-H-8083-25C ch 8",
+  "loc": "phak p211"
+ }
+]

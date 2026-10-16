@@ -10,7 +10,7 @@
    "Ailerons, spoilers, and elevator (or stabilator)"
   ],
   "why": "Primary controls are the ones required to control the airplane safely in flight: ailerons, elevator/stabilator and rudder. Flaps, spoilers and trim are secondary controls.",
-  "src": "OEG 2A-1 · FAA-H-8083-25",
+  "src": "OEG 2A-1 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -24,7 +24,7 @@
    "Ailerons: roll about the vertical axis"
   ],
   "why": "Ailerons roll the airplane about the longitudinal axis, the elevator pitches it about the lateral axis, and the rudder yaws it about the vertical axis.",
-  "src": "OEG 2A-2 · FAA-H-8083-25",
+  "src": "OEG 2A-2 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -38,7 +38,7 @@
    "A V-tail surface combining rudder and elevator"
   ],
   "why": "A stabilator replaces the stabilizer-plus-elevator with a single all-moving slab. Because it pivots as a whole it is very sensitive to inputs and air loads.",
-  "src": "OEG 2A-3 · FAA-H-8083-25",
+  "src": "OEG 2A-3 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -52,7 +52,7 @@
    "It locks the stabilator at high angles of attack"
   ],
   "why": "An all-moving stabilator reacts strongly to small inputs and air loads, so the anti-servo tab adds resistance (feel) that makes it less sensitive. A balance weight ahead of the main spar is usually fitted as well.",
-  "src": "OEG 2A-3 · FAA-H-8083-25",
+  "src": "OEG 2A-3 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -80,7 +80,7 @@
    "Wing flaps, cowl flaps, leading edge devices, and spoilers"
   ],
   "why": "Secondary controls improve performance or relieve the pilot of heavy control forces: flaps, leading edge devices, spoilers and trim. Ailerons and rudder are primary controls; cowl flaps are engine cooling devices.",
-  "src": "OEG 2B-1 · FAA-H-8083-25",
+  "src": "OEG 2B-1 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -94,7 +94,7 @@
    "Reduces lift and increases parasite drag only"
   ],
   "why": "Flaps raise the lift and induced drag produced at a given angle of attack. That lets the airplane cruise fast with flaps retracted yet land slowly with them extended.",
-  "src": "OEG 2B-2 · FAA-H-8083-25",
+  "src": "OEG 2B-2 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -108,7 +108,7 @@
    "Plain, split, Fowler, and spoiler"
   ],
   "why": "The four common trailing-edge flaps are plain, split, slotted and Fowler. Krueger flaps and slats are leading edge devices; spoilers reduce lift.",
-  "src": "OEG 2B-2 · FAA-H-8083-25",
+  "src": "OEG 2B-2 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -122,7 +122,7 @@
    "Deflects only from the wing's lower surface, leaving a turbulent wake"
   ],
   "why": "A plain flap simply hinges down, adding camber; lift and drag both rise and the center of pressure moves aft, pitching the nose down. The other choices describe Fowler, slotted and split flaps.",
-  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "src": "OEG 2B-3 · FAA-H-8083-25C ch 6",
   "loc": "oeg 016"
  },
  {
@@ -136,7 +136,7 @@
    "It extends from the leading edge to raise the critical AOA"
   ],
   "why": "When lowered, a slotted flap opens a duct between the wing and the flap; lower-surface air flows through it and energizes the upper-surface boundary layer, delaying separation. It is the most popular flap today, and the Seneca uses slotted flaps.",
-  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "src": "OEG 2B-3 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -150,7 +150,7 @@
    "It is mounted on the leading edge to delay airflow separation"
   ],
   "why": "A Fowler flap is a slotted flap that first slides backward on tracks, enlarging the wing area, and then deflects downward, adding camber.",
-  "src": "OEG 2B-3 · FAA-H-8083-25",
+  "src": "OEG 2B-3 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -192,7 +192,7 @@
    "Up or down, depending on airspeed"
   ],
   "why": "A trim tab moves opposite to the way it pushes the surface. Full nose-down trim puts the tab full up, and the air load on it pushes the elevator trailing edge down.",
-  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "src": "OEG 2B-6 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -206,7 +206,7 @@
    "It stays fixed and can only be bent on the ground"
   ],
   "why": "A balance tab is linked to the control surface rod so it moves opposite to the surface, helping the pilot move it. An anti-servo tab moves the same way as the surface, which adds resistance instead.",
-  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "src": "OEG 2B-6 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -220,7 +220,7 @@
    "Its trailing edge moves up only when the autopilot is engaged"
   ],
   "why": "The anti-servo linkage forces the tab to move in the same direction as the stabilator trailing edge, which resists the movement and makes the surface less sensitive. The tab also works as the pitch trim device.",
-  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "src": "OEG 2B-6 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -234,7 +234,7 @@
    "A tab that is locked in place on the ground by a gust lock"
   ],
   "why": "A ground-adjustable tab cannot be moved in flight. It is bent one way or the other on the ground, and the right amount is found by trial and error.",
-  "src": "OEG 2B-6 · FAA-H-8083-25",
+  "src": "OEG 2B-6 · FAA-H-8083-25C ch 6",
   "loc": "oeg 017"
  },
  {
@@ -304,7 +304,7 @@
    "The exchange of intake and exhaust gases"
   ],
   "why": "The pistons move back and forth (reciprocate), and that motion produces the mechanical energy that does the work.",
-  "src": "OEG 2C-1 · FAA-H-8083-25",
+  "src": "OEG 2C-1 · FAA-H-8083-25C ch 7",
   "loc": "oeg 018"
  },
  {
@@ -318,7 +318,7 @@
    "Carburetor meters by engine RPM; injection meters by manifold pressure"
   ],
   "why": "A carburetor mixes fuel and air before the mixture enters the intake manifold. Fuel injection mixes just before each cylinder intake or injects directly into each cylinder.",
-  "src": "OEG 2C-2 · FAA-H-8083-25",
+  "src": "OEG 2C-2 · FAA-H-8083-25C ch 7",
   "loc": "oeg 018"
  },
  {
@@ -332,7 +332,7 @@
    "A rise in oil pressure"
   ],
   "why": "The governor holds RPM constant, so RPM won't drop at first. As ice restricts the induction airflow, manifold pressure falls.",
-  "src": "OEG 2C-2 · FAA-H-8083-25",
+  "src": "OEG 2C-2 · FAA-H-8083-25C ch 7",
   "loc": "oeg 018"
  },
  {
@@ -346,7 +346,7 @@
    "Cylinders sit in a single inline row laid flat in the nacelle"
   ],
   "why": "Each cylinder on one side faces a cylinder on the other side, so there is always an even number. Most are air cooled and mounted horizontally in airplanes.",
-  "src": "OEG 2C-3 · FAA-H-8083-25",
+  "src": "OEG 2C-3 · FAA-H-8083-25C ch 7",
   "loc": "oeg 018"
  },
  {
@@ -416,7 +416,7 @@
    "Lost to friction inside the engine"
   ],
   "why": "Brake horsepower is the usable power at the propeller (main drive) shaft. Power developed in the cylinders is indicated horsepower, and the propeller's useful output is thrust horsepower.",
-  "src": "OEG 2C-6 · FAA-H-8083-25",
+  "src": "OEG 2C-6 · FAA-H-8083-25C ch 7",
   "loc": "oeg 019"
  },
  {
@@ -444,7 +444,7 @@
    "A magneto is failing and backfiring into the induction"
   ],
   "why": "At a lower RPM the engine pumps less air, so there is less suction in the manifold behind the fixed throttle and manifold pressure creeps up. This is a normal response. Induction ice would lower manifold pressure.",
-  "src": "OEG 2C-8 · FAA-H-8083-25",
+  "src": "OEG 2C-8 · FAA-H-8083-25C ch 7",
   "loc": "oeg 019"
  },
  {
@@ -486,7 +486,7 @@
    "Drop to zero, then recover as RPM builds"
   ],
   "why": "Stopped, the gauge shows ambient pressure. Running, the engine sucks air past the nearly closed throttle, so manifold pressure sits well below ambient, about 12 inHg at idle. (The OEG's 2C-12 discussion of the start transient is muddled; at a steady idle the 2C-11 values are the ones to know.)",
-  "src": "OEG 2C-11 · FAA-H-8083-25",
+  "src": "OEG 2C-11 · FAA-H-8083-25C ch 7",
   "loc": "oeg 020"
  },
  {
@@ -500,7 +500,7 @@
    "No change, because the throttle hasn't moved"
   ],
   "why": "Once the engine stops pumping air, nothing creates suction in the manifold, so the gauge rises to the ambient pressure at that altitude. Manifold pressure alone is therefore a poor way to spot the failed engine.",
-  "src": "OEG 2C-11 · FAA-H-8083-25",
+  "src": "OEG 2C-11 · FAA-H-8083-25C ch 7",
   "loc": "oeg 020"
  },
  {
@@ -528,7 +528,7 @@
    "Reduce airspeed, enrich the mixture, or close the cowl flaps"
   ],
   "why": "More cooling airflow (higher airspeed, open cowl flaps), a richer mixture, and less power all lower engine temperature.",
-  "src": "OEG 2C-14 · FAA-H-8083-25",
+  "src": "OEG 2C-14 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -542,7 +542,7 @@
    "Direct extra cooling air over the oil cooler only"
   ],
   "why": "Cowl flaps are hinged covers over an opening through which hot air leaves the cowling. Open them to cool a hot engine; close them to restrict airflow and warm a cold one.",
-  "src": "OEG 2C-15 · FAA-H-8083-25",
+  "src": "OEG 2C-15 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -556,7 +556,7 @@
    "Oil temperature leaving the oil cooler, used to set cruise power"
   ],
   "why": "EGT changes with the fuel/air ratio entering the cylinders, so the pilot can use it as a guide for leaning.",
-  "src": "OEG 2C-16 · FAA-H-8083-25",
+  "src": "OEG 2C-16 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -584,7 +584,7 @@
    "Increase propeller efficiency in the thin air at high altitude"
   ],
   "why": "A turbocharger compresses induction air so the engine can develop sea-level or greater horsepower at higher altitudes. Cooling the compressed air is the intercooler's job.",
-  "src": "OEG 2C-18 · FAA-H-8083-25",
+  "src": "OEG 2C-18 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -598,7 +598,7 @@
    "An electric motor powered by the engine's alternator"
   ],
   "why": "Exhaust gas spins a turbine on one end of a shaft, and the impeller on the other end compresses induction air. A gear- or belt-driven compressor would be a supercharger.",
-  "src": "OEG 2C-18 · FAA-H-8083-25",
+  "src": "OEG 2C-18 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -612,7 +612,7 @@
    "It is routed through the intercooler, cooling the induction charge"
   ],
   "why": "The waste gate is a butterfly valve in the exhaust that controls how much exhaust reaches the turbine. Closed, most exhaust drives the turbine; open, exhaust bypasses it out the exhaust pipe.",
-  "src": "OEG 2C-19 · FAA-H-8083-25",
+  "src": "OEG 2C-19 · FAA-H-8083-25C ch 7",
   "loc": "oeg 021"
  },
  {
@@ -654,7 +654,7 @@
    "Heats the compressed induction air to prevent induction system icing"
   ],
   "why": "Compressing air heats it. An intercooler is a small heat exchanger that uses outside air to cool the compressed air before it reaches the fuel metering device, reducing the chance of detonation.",
-  "src": "OEG 2C-21 · FAA-H-8083-25",
+  "src": "OEG 2C-21 · FAA-H-8083-25C ch 7",
   "loc": "oeg 022"
  },
  {
@@ -710,7 +710,7 @@
    "It holds its last blade angle"
   ],
   "why": "In most singles, losing hub oil pressure lets the blades go to flat pitch/high RPM. Twin props are built the other way: they head toward high pitch and feather, which cuts drag from a dead engine and helps avoid a Vmc problem.",
-  "src": "OEG 2C-24 · FAA-H-8083-3",
+  "src": "OEG 2C-24 · FAA-H-8083-3C ch 13",
   "loc": "oeg 022"
  },
  {
@@ -780,7 +780,7 @@
    "The engine keeps idling while the blades streamline in the wind"
   ],
   "why": "A feathered prop stops turning and its blades line up with the relative wind, which minimizes drag from the dead engine.",
-  "src": "OEG 2C-29 · FAA-H-8083-3",
+  "src": "OEG 2C-29 · FAA-H-8083-3C ch 13",
   "loc": "oeg 023"
  },
  {
@@ -794,7 +794,7 @@
    "Locks the blades at their current angle"
   ],
   "why": "Most twins use counterweighted props in which oil pressure decreases pitch. Governor oil pressure pushes the blades toward low pitch/high RPM, away from feather.",
-  "src": "OEG 2C-30 · FAA-H-8083-3",
+  "src": "OEG 2C-30 · FAA-H-8083-3C ch 13",
   "loc": "oeg 023"
  },
  {
@@ -808,7 +808,7 @@
    "It goes to low pitch, since the counterweights need oil to work"
   ],
   "why": "In an oil-pressure-to-decrease-pitch design, a steady supply of high-pressure oil is all that keeps the blades out of feather. Lose oil pressure or the governor and the prop heads toward feather.",
-  "src": "OEG 2C-30 · FAA-H-8083-3",
+  "src": "OEG 2C-30 · FAA-H-8083-3C ch 13",
   "loc": "oeg 023"
  },
  {
@@ -822,7 +822,7 @@
    "Both push toward high pitch; only oil holds the blades out of feather"
   ],
   "why": "Aerodynamic forces on a windmilling prop drive the blades to low pitch. Centrifugal force on counterweights at the blade shanks drives them toward high pitch and is usually slightly stronger. (In the Seneca, POH 2-4 credits the dome's nitrogen charge with driving the prop toward feather; POH 9-6 gives that charge for counterweight-type props.)",
-  "src": "OEG 2C-31 · FAA-H-8083-3",
+  "src": "OEG 2C-31 · FAA-H-8083-3C ch 13",
   "loc": "oeg 023"
  },
  {
@@ -836,7 +836,7 @@
    "The spring is what blocks feathering below about 800 RPM"
   ],
   "why": "As the engine slows, centrifugal force on the counterweights weakens, so a spring or high-pressure air in the prop dome finishes driving the blades fully into feather.",
-  "src": "OEG 2C-32 · FAA-H-8083-3",
+  "src": "OEG 2C-32 · FAA-H-8083-3C ch 13",
   "loc": "oeg 023"
  },
  {
@@ -850,7 +850,7 @@
    "A spring starts the blades moving, then governor oil finishes the job"
   ],
   "why": "With the control fully aft all oil pressure is dumped, the counterweights begin moving the blades toward feather, and a spring or dome air charge completes it. The whole process can take up to about 10 seconds.",
-  "src": "OEG 2C-32 · FAA-H-8083-3",
+  "src": "OEG 2C-32 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -864,7 +864,7 @@
    "Pump the throttle several times to build governor oil pressure"
   ],
   "why": "A feathered engine isn't turning, so it makes no oil pressure. The starter turns it over, oil pressure builds and moves the blades out of feather, and the engine windmills, starts and runs.",
-  "src": "OEG 2C-33 · FAA-H-8083-3",
+  "src": "OEG 2C-33 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -878,7 +878,7 @@
    "Ignition off, throttle idle, mixture rich, prop control in feather"
   ],
   "why": "In the general procedure, ignition goes on before the engine is rotated, with the throttle at low idle, mixture rich and prop control forward, then the starter is engaged. Your school's Seneca air-start checklist differs: throttle open 1/4 inch and prop control full forward before engaging the starter.",
-  "src": "OEG 2C-33 · FAA-H-8083-3",
+  "src": "OEG 2C-33 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -892,7 +892,7 @@
    "A spring device that stops the blades feathering at engine shutdown"
   ],
   "why": "It holds a small reserve of engine oil pressurized by compressed air or nitrogen. Releasing it to the hub drives the blades toward low pitch so the prop windmills, allowing a restart with little or no starter use. The Seneca I POH lists no accumulator; it unfeathers with the starter.",
-  "src": "OEG 2C-34 · FAA-H-8083-3",
+  "src": "OEG 2C-34 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -906,7 +906,7 @@
    "Turn on that engine's electric fuel pump to prime it"
   ],
   "why": "Moving the prop control out of feather releases the accumulator pressure. Oil flows to the hub, drives the blades toward low pitch/high RPM, and the prop usually begins to windmill. With fuel and ignition, the engine starts.",
-  "src": "OEG 2C-34 · FAA-H-8083-3",
+  "src": "OEG 2C-34 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -920,7 +920,7 @@
    "Engage it; it then adjusts the master engine to match the slave"
   ],
   "why": "The pilot coarsely matches the RPMs and engages the system. It adjusts the 'slave' engine's RPM to precisely match the 'master' engine and holds that relationship.",
-  "src": "OEG 2C-35 · FAA-H-8083-3",
+  "src": "OEG 2C-35 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -934,7 +934,7 @@
    "Turn sync off and leave it off for the rest of the flight"
   ],
   "why": "Turn the synchronizer off when selecting a new RPM and turn it back on after the new RPM is set.",
-  "src": "OEG 2C-35 · FAA-H-8083-3",
+  "src": "OEG 2C-35 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -948,7 +948,7 @@
    "It matches RPM mechanically, with no electrical power needed"
   ],
   "why": "A synchronizer matches RPM. A synchrophaser also compares and adjusts the relative position (phase) of the blades, which reduces propeller noise and vibration significantly.",
-  "src": "OEG 2C-36 · FAA-H-8083-3",
+  "src": "OEG 2C-36 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -976,7 +976,7 @@
    "The dome's nitrogen charge is vented when the engine stops"
   ],
   "why": "A small pin in the pitch-change mechanism drops into place when centrifugal force is lost below about 800 RPM, so the blades stay out of feather as oil pressure falls to zero at shutdown.",
-  "src": "OEG 2C-38 · FAA-H-8083-3",
+  "src": "OEG 2C-38 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -990,7 +990,7 @@
    "It moves to low pitch and the engine overspeeds"
   ],
   "why": "The lockout pin engages as RPM falls below about 800, which stops the blades from feathering. That's why you must feather before RPM decays that far. The Seneca POH gives the same 800 RPM limit.",
-  "src": "OEG 2C-38 · FAA-H-8083-3",
+  "src": "OEG 2C-38 · FAA-H-8083-3C ch 13",
   "loc": "oeg 024"
  },
  {
@@ -1286,7 +1286,7 @@
    "The maximum speed with the wing flaps extended"
   ],
   "why": "VLE is the maximum speed at which the airplane can be flown with the gear extended. VLO is the maximum speed for operating (extending or retracting) the gear.",
-  "src": "OEG 2D-15 · FAA-H-8083-25",
+  "src": "OEG 2D-15 · FAA-H-8083-25C ch 8",
   "loc": "oeg 027"
  },
  {
@@ -1300,7 +1300,7 @@
    "Wing structural loads with the flaps extended"
   ],
   "why": "VLO protects the operating mechanism, such as the gear doors, from air loads while the gear is in transit. The OEG ties VLE to stability and controllability with the gear extended.",
-  "src": "OEG 2D-15 · FAA-H-8083-25",
+  "src": "OEG 2D-15 · FAA-H-8083-25C ch 11",
   "loc": "oeg 027"
  },
  {

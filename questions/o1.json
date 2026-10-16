@@ -51,8 +51,8 @@
    "A copy of the Type Certificate Data Sheet",
    "The pilot's logbook with flight review endorsement"
   ],
-  "why": "The OEG adds the compass deviation card (14 CFR 23.1547) and the external data plate/serial number (14 CFR 45.11) to the SPARROW documents. The logbooks and the TCDS are not on that list.",
-  "src": "OEG 1A-1 · 14 CFR 23.1547",
+  "why": "The OEG adds the compass deviation card and the external data plate/serial number (14 CFR 45.11) to the SPARROW documents. It cites 23.1547, a section removed when Amendment 23-64 rewrote Part 23 in 2017 (today's 23.2610 requires any placard needed for operation); older airplanes keep their original certification basis. The logbooks and the TCDS are not on that list.",
+  "src": "OEG 1A-1 · 14 CFR 23.1547 (pre-2017 Part 23; now 23.2610) · 45.11",
   "loc": "oeg 001"
  },
  {
@@ -93,8 +93,8 @@
    "Every 100 hours of time in service",
    "Every 6 calendar months"
   ],
-  "why": "The OEG's inspection list includes an ELT check of operation and battery condition every 12 calendar months (14 CFR 91.207). 24 calendar months is the altimeter/static and transponder interval.",
-  "src": "OEG 1A-2 · 14 CFR 91.207",
+  "why": "14 CFR 91.207(d) requires the ELT to be inspected within 12 calendar months after the last inspection for proper installation, battery corrosion, operation of the controls and crash sensor, and a sufficient signal from its antenna. Battery replacement is a separate rule (91.207(c)). 24 calendar months is the altimeter/static and transponder interval.",
+  "src": "OEG 1A-2 · 14 CFR 91.207(d)",
   "loc": "oeg 001"
  },
  {
@@ -121,8 +121,8 @@
    "A 200-hour inspection",
    "A second annual every 6 months"
   ],
-  "why": "An aircraft used for hire, or for flight instruction for hire in an aircraft the instructor provides, needs a 100-hour inspection in addition to the annual (14 CFR 91.409).",
-  "src": "OEG 1A-2 · 14 CFR 91.409",
+  "why": "14 CFR 91.409(b) adds a 100-hour inspection (an annual also counts) when the aircraft carries any person other than a crewmember for hire, or when a person gives flight instruction for hire in an aircraft that person provides. A school supplying both the twin and the instructor falls under the second case.",
+  "src": "OEG 1A-2 · 14 CFR 91.409(b)",
   "loc": "oeg 001"
  },
  {
@@ -135,8 +135,8 @@
    "Yes; every multi-engine airplane needs a 100-hour inspection",
    "No, but only if its annual was done within the last 6 months"
   ],
-  "why": "The OEG ties the 100-hour to use for hire or to flight instruction in an aircraft the CFI provides (14 CFR 91.409). When the student supplies the airplane, the annual and other applicable checks are what's required.",
-  "src": "OEG 1A-2 · 14 CFR 91.409",
+  "why": "91.409(b) requires the 100-hour only when the aircraft carries a person other than a crewmember for hire, or when the person giving flight instruction for hire provides the aircraft. When the student supplies the airplane, the annual and the other applicable checks are what's required.",
+  "src": "OEG 1A-2 · 14 CFR 91.409(b)",
   "loc": "oeg 001"
  },
  {
@@ -159,11 +159,11 @@
   "q": "Part 91 allows operation with certain inoperative equipment by which two methods?",
   "a": "An approved MEL (91.213(a)), or the no-MEL procedure of 91.213(d)",
   "d": [
-   "A special flight permit, or an FAA Form 337 field approval",
+   "An FAA Form 337 field approval, or an A&P's logbook sign-off",
    "The KOEL alone, or an INOP placard approved by the pilot in command",
    "The POH emergency checklist, or a waiver obtained from ATC"
   ],
-  "why": "14 CFR 91.213 lets inoperative items that aren't essential for safe flight be deferred either with an FAA-approved MEL or, with no MEL, by the 91.213(d) procedure. The OEG notes many applicants are weak on this rule.",
+  "why": "14 CFR 91.213 lets inoperative items be deferred either with an FAA-approved MEL (91.213(a)) or, with no MEL, by the 91.213(d) procedure. A special flight permit (91.213(e)) can also authorize a flight, such as a ferry to a repair base, but it is not a deferral method. The OEG notes many applicants are weak on this rule.",
   "src": "OEG 1A-3 · 14 CFR 91.213",
   "loc": "oeg 001"
  },
@@ -178,7 +178,7 @@
    "Get maintenance, obtain a special flight permit, or fly the airplane as is"
   ],
   "why": "For items found during preflight or before departure, the decision is to cancel, obtain maintenance before flight, or defer the item using the MEL or 91.213(d).",
-  "src": "OEG 1A-4 · FAA-H-8083-25",
+  "src": "OEG 1A-4 · FAA-H-8083-25C ch 9",
   "loc": "oeg 001"
  },
  {
@@ -192,7 +192,7 @@
    "Declare an emergency; the airplane is now unairworthy"
   ],
   "why": "Deferral under an MEL or 91.213(d) is a preflight tool for items found before departure. A failure that happens in flight is handled with the POH/AFM procedures.",
-  "src": "OEG 1A-4 · FAA-H-8083-25",
+  "src": "OEG 1A-4 · FAA-H-8083-25C ch 9",
   "loc": "oeg 001"
  },
  {
@@ -219,8 +219,8 @@
    "The pilot fixes it; preventive maintenance needs no record",
    "Only a mechanic holding an IA may approve the repair"
   ],
-  "why": "Preventive maintenance (14 CFR Part 43 Appendix A) may be done by a certificated pilot on an aircraft they own or operate, but the work must be logged. The OEG says the pilot may then return the airplane to airworthy condition.",
-  "src": "OEG 1A-5 · 14 CFR 91.213(d)",
+  "why": "Under 14 CFR 43.3(g) a certificated pilot (other than a sport pilot) may do preventive maintenance (Part 43 Appendix A) on an aircraft they own or operate that isn't used under Part 121, 129 or 135, and 43.7(f) lets a holder of at least a private certificate approve it for return to service. The 43.9 record entry (description, date, signature, certificate number and kind) is still required.",
+  "src": "OEG 1A-5 · 14 CFR 43.3(g), 43.7(f), 43.9",
   "loc": "oeg 002"
  },
  {
@@ -234,7 +234,7 @@
    "Any aircraft that the MEL holder happens to be flying"
   ],
   "why": "An approved MEL is tied to one airframe, identified by its serial and registration numbers. The master MEL (MMEL) for the make and model is only its basis, not authority to operate.",
-  "src": "OEG 1A-6 · FAA-H-8083-25",
+  "src": "OEG 1A-6 · FAA-H-8083-25C ch 9",
   "loc": "oeg 002"
  },
  {
@@ -248,7 +248,7 @@
    "As allowed to be inoperative for day VFR flight"
   ],
   "why": "An MEL works as a list of permissions: only the items listed, under their stated conditions, may be inoperative. Anything outside the list or its conditions must be operational.",
-  "src": "OEG 1A-6 · FAA-H-8083-25",
+  "src": "OEG 1A-6 · FAA-H-8083-25C ch 9",
   "loc": "oeg 002"
  },
  {
@@ -262,7 +262,7 @@
    "The MEL covers only the avionics; the equipment list covers the rest"
   ],
   "why": "The OEG warns not to confuse them. The equipment list (in the AFM) records installed equipment and marks some items required; the MEL is an FAA-approved authorization to fly with specific items inoperative.",
-  "src": "OEG 1A-6 · FAA-H-8083-25",
+  "src": "OEG 1A-6 · FAA-H-8083-25C ch 9",
   "loc": "oeg 002"
  },
  {
@@ -276,7 +276,7 @@
    "Defer per MEL, fly the day flight, then make the maintenance record entry"
   ],
   "why": "The OEG sequence: enter the discrepancy in the maintenance record, repair or defer under the MEL, then (once day flight is confirmed allowed) leave the switch OFF, open the circuit breaker or follow the procedures document, and placard the switch INOPERATIVE.",
-  "src": "OEG 1A-7 · FAA-H-8083-25",
+  "src": "OEG 1A-7 · FAA-H-8083-25C ch 9",
   "loc": "oeg 002"
  },
  {
@@ -289,8 +289,8 @@
    "An FAA Form 337 field approval",
    "An amended Type Certificate Data Sheet"
   ],
-  "why": "Once the operator requests an MEL and the FAA issues an LOA, the MEL applies to that aircraft and becomes mandatory.",
-  "src": "OEG 1A-8 · FAA-H-8083-25",
+  "why": "Under 91.213(a)(2) the LOA is issued by the responsible Flight Standards office on the airworthiness certificate holder's written request, and it must be in the aircraft. Once it is issued, the MEL applies to that aircraft and becomes mandatory.",
+  "src": "OEG 1A-8 · 14 CFR 91.213(a)(2) · FAA-H-8083-25C ch 9",
   "loc": "oeg 003"
  },
  {
@@ -304,7 +304,7 @@
    "Yes, if a mechanic agrees and signs the logbook"
   ],
   "why": "Once the LOA is issued the MEL is mandatory, and every deferral must follow its terms and the operator's procedures document.",
-  "src": "OEG 1A-8 · FAA-H-8083-25",
+  "src": "OEG 1A-8 · FAA-H-8083-25C ch 9",
   "loc": "oeg 003"
  },
  {
@@ -317,8 +317,8 @@
    "As an amendment to the type certificate for that whole model",
    "As a temporary airworthiness certificate for that aircraft"
   ],
-  "why": "The OEG says the FAA treats an approved MEL as a supplemental type certificate tied to one aircraft's serial and registration numbers, not to the whole model.",
-  "src": "OEG 1A-8 · FAA-H-8083-25",
+  "why": "91.213(a)(2) says the MEL and its letter of authorization together constitute a supplemental type certificate for that aircraft, identified by serial and registration number, not for the whole model.",
+  "src": "OEG 1A-8 · 14 CFR 91.213(a)(2) · FAA-H-8083-25C ch 9",
   "loc": "oeg 003"
  },
  {
@@ -332,7 +332,7 @@
    "Only items that are specifically listed on the Type Certificate Data Sheet"
   ],
   "why": "Per the OEG, other deactivations need a maintenance provider to decide whether the aircraft remains airworthy, disable or remove the item, placard it and make the logbook entry.",
-  "src": "OEG 1A-9 · FAA-H-8083-25, 14 CFR Part 43 App A",
+  "src": "OEG 1A-9 · FAA-H-8083-25C ch 9, 14 CFR Part 43 App A",
   "loc": "oeg 003"
  },
  {
@@ -346,7 +346,7 @@
    "Placarding it and noting it in the flight plan remarks"
   ],
   "why": "Deactivation means disabling the item, placarding it inoperative, and recording it in the maintenance logs. If it involves maintenance, it must be done and recorded under Part 43.",
-  "src": "OEG 1A-9 · FAA-H-8083-25",
+  "src": "OEG 1A-9 · FAA-H-8083-25C ch 9",
   "loc": "oeg 003"
  },
  {
@@ -408,15 +408,15 @@
  {
   "id": "o1-030",
   "topic": "pilot",
-  "q": "To carry passengers at night in a light twin, what recent experience does 14 CFR 61.57 require?",
-  "a": "Three takeoffs and landings at night in a multi-engine airplane within 90 days",
+  "q": "To carry passengers in a light twin between 1 hour after sunset and 1 hour before sunrise, what does 14 CFR 61.57(b) require within the preceding 90 days?",
+  "a": "3 takeoffs and 3 full-stop landings in that period, in a multiengine airplane",
   "d": [
-   "Three takeoffs and landings at night in any airplane within 90 days",
-   "Three takeoffs and landings at night in a twin within 6 calendar months",
-   "One takeoff and landing at night in a multi-engine airplane within 90 days"
+   "3 takeoffs and 3 full-stop landings in that period, in any airplane class",
+   "3 takeoffs and 3 touch-and-go landings at night, in a multiengine airplane",
+   "1 takeoff and 1 full-stop landing in that period, in a multiengine airplane"
   ],
-  "why": "Passenger currency is three takeoffs and landings in the preceding 90 days in the same category and class, done at night if the flight is at night (61.57(b) also requires the night landings to be to a full stop). Single-engine landings don't count for the twin.",
-  "src": "OEG 1B-2 · 14 CFR 61.57",
+  "why": "61.57(b) requires three takeoffs and three landings to a full stop, made between 1 hour after sunset and 1 hour before sunrise within the preceding 90 days, as sole manipulator, in the same category, class and type (if a type rating is required). Single-engine landings and touch-and-goes don't count for the twin.",
+  "src": "OEG 1B-2 · 14 CFR 61.57(b)",
   "loc": "oeg 003"
  },
  {
@@ -457,8 +457,8 @@
    "500 feet AGL",
    "1,000 feet AGL"
   ],
-  "why": "Simulated failures below 400 ft AGL call for extreme caution, and those below 200 ft AGL belong in simulators; a low-altitude engine failure isn't worth the risk in the airplane.",
-  "src": "OEG 1B-5 · FAA-P-8740-66",
+  "why": "Simulated failures below 400 ft AGL call for extreme caution, and those below 200 ft AGL belong in simulators; a low-altitude engine failure isn't worth the risk in the airplane. The current AFH (FAA-H-8083-3C ch 13) and the ACS set 400 ft AGL as the minimum for simulating an engine failure after liftoff in the airplane.",
+  "src": "OEG 1B-5 · FAA-P-8740-66 · FAA-H-8083-3C ch 13",
   "loc": "oeg 004"
  },
  {
@@ -584,7 +584,7 @@
    "It can unlatch the nosewheel steering and jam it off-center"
   ],
   "why": "Pivoting about a stationary inboard wheel puts loads on the landing gear it wasn't designed for.",
-  "src": "OEG 1C-2 · FAA-H-8083-3",
+  "src": "OEG 1C-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 004"
  },
  {
@@ -598,7 +598,7 @@
    "Use the checklist only if the failed engine can't be restarted"
   ],
   "why": "Time-critical items are flown from memory; once things settle, the written checklist is used to confirm each action. A checklist can be done-then-verify rather than read-and-do, but one is always used.",
-  "src": "OEG 1C-3 · FAA-H-8083-3",
+  "src": "OEG 1C-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 005"
  },
  {
@@ -654,7 +654,7 @@
    "The checklist must be read twice in a multi-engine airplane"
   ],
   "why": "Higher pattern and approach speeds leave less time, so an early start on the checklist gives room to plan, set up spacing and stay ahead of the airplane.",
-  "src": "OEG 1C-11 · FAA-H-8083-3",
+  "src": "OEG 1C-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 006"
  },
  {
@@ -752,7 +752,7 @@
    "Upon reaching Vyse, regardless of how much runway remains"
   ],
   "why": "Keep the gear down while a landing straight ahead on the remaining runway or overrun is still possible, and raise it once a positive rate of climb shows on the altimeter.",
-  "src": "OEG 1C-9, 1C-10 · FAA-H-8083-3",
+  "src": "OEG 1C-9, 1C-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 006"
  },
  {
@@ -766,7 +766,7 @@
    "Regulations require retraction before passing the departure end"
   ],
   "why": "On a very long runway, waiting until the end to raise the gear costs climb and acceleration for little benefit. The extra drag hurts even more in thin, high-density-altitude air.",
-  "src": "OEG 1C-10 · FAA-H-8083-3",
+  "src": "OEG 1C-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 006"
  },
  {
@@ -780,7 +780,7 @@
    "The gear may fail to lock up in thin air"
   ],
   "why": "At high density altitude some twins have so little excess power that gear drag alone prevents a climb, so waiting for a positive rate on the altimeter could mean waiting indefinitely.",
-  "src": "OEG 1C-10 · FAA-H-8083-3",
+  "src": "OEG 1C-10 · FAA-H-8083-3C ch 13",
   "loc": "oeg 006"
  },
  {

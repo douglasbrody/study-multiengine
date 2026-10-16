@@ -26,7 +26,7 @@
    "Reference landing speed, the final approach speed corrected for wind"
   ],
   "why": "VR is when you start the rotation; VLOF is when the wheels actually leave the surface. Depending on the manufacturer, takeoff performance data may be referenced to either one.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -40,7 +40,7 @@
    "Cruise climb: best balance of climb rate, cooling, and groundspeed"
   ],
   "why": "Vx maximizes altitude over a given horizontal distance (obstacle clearance); Vy maximizes altitude over a given time.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -54,7 +54,7 @@
    "Vsse"
   ],
   "why": "Vy is the best rate-of-climb speed: greatest altitude per unit of time. Vx gives the most altitude per distance, which is for obstacles.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -68,7 +68,7 @@
    "Minimum control speed with the critical engine inoperative"
   ],
   "why": "The 'se' suffix means single engine: Vxse is the one-engine best angle speed. Vyse is one-engine best rate, Vsse is the training speed, Vmc is control speed.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -82,7 +82,7 @@
    "Red: Vmc. Blue: Vxse"
   ],
   "why": "The red radial at the low end is the critical-engine-inoperative minimum control speed; the blue radial ('blue line') is the one-engine best rate-of-climb speed.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -96,7 +96,7 @@
    "Speed giving the best angle of climb with one engine inoperative"
   ],
   "why": "Vsse (once called safe single-engine speed) is the floor for simulated engine failures. The directional-control definition describes Vmc.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -140,7 +140,7 @@
    "1.3 times the clean (flaps-up) stall speed"
   ],
   "why": "The OEG defines VREF as 1.3 Vso (stall speed in the landing configuration), the final approach reference that is then adjusted for wind and gusts.",
-  "src": "OEG 1D-1 · FAA-H-8083-3",
+  "src": "OEG 1D-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -196,7 +196,7 @@
    "Runway needed to accelerate to Vyse on the ground and then stop with full braking"
   ],
   "why": "Accelerate-stop is the runway to accelerate to the manufacturer's specified speed (VR or VLOF), have an engine fail, and stop. Climbing to 50 feet on one engine is accelerate-go.",
-  "src": "OEG 1D-3 · FAA-H-8083-3",
+  "src": "OEG 1D-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -210,7 +210,7 @@
    "Acceptable if you rotate 5 knots below the published VR"
   ],
   "why": "It isn't prohibited for private carriage, but if an engine fails on the roll you may not be able to stop on the runway. If you go anyway, do so knowing the risk.",
-  "src": "OEG 1D-4 · FAA-H-8083-3",
+  "src": "OEG 1D-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 007"
  },
  {
@@ -252,7 +252,7 @@
    "Distance to reach VR or VLOF, lose an engine, and climb on one engine to 400 ft AGL"
   ],
   "why": "Accelerate-go assumes the failure at VR or VLOF and ends at 50 feet above the runway on the remaining engine, not at a safe maneuvering altitude.",
-  "src": "OEG 1D-7 · FAA-P-8740-66",
+  "src": "OEG 1D-7 · FAA-P-8740-66 · FAA-H-8083-3C ch 13",
   "loc": "oeg 008"
  },
  {
@@ -266,7 +266,7 @@
    "Obstacle clearance even with the gear down and the propeller windmilling"
   ],
   "why": "The chart only gets you to 50 feet, and only if you instantly recognize the failure, raise the gear, identify and feather the failed engine, and hold precise control while easing to Vyse. Density altitude and weight cut into it further.",
-  "src": "OEG 1D-8 · FAA-H-8083-3",
+  "src": "OEG 1D-8 · FAA-H-8083-3C ch 13",
   "loc": "oeg 008"
  },
  {
@@ -280,7 +280,7 @@
    "No; they are published only for twins over 6,000 lb max weight"
   ],
   "why": "Some manufacturers don't publish them, and published figures come from ideal test flying that an everyday airplane and pilot are unlikely to match.",
-  "src": "OEG 1D-9 · FAA-H-8083-3",
+  "src": "OEG 1D-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 008"
  },
  {
@@ -450,13 +450,13 @@
    "Plan to climb at Vxse instead, since Vxse is always well above Vmc"
   ],
   "why": "With Vx less than 5 knots above Vmc there is almost no margin if an engine fails. Flaps add drag and make it worse; Vxse is also often close to Vmc.",
-  "src": "OEG 1D-15 · FAA-H-8083-3",
+  "src": "OEG 1D-15 · FAA-H-8083-3C ch 13",
   "loc": "oeg 010"
  },
  {
   "id": "o2-033",
   "topic": "perf",
-  "q": "What four main factors determine climb performance?",
+  "q": "Per the OEG, what four main factors determine climb performance?",
   "a": "Airspeed, drag, power, and weight",
   "d": [
    "Airspeed, altitude, temperature, and humidity",
@@ -542,15 +542,15 @@
  {
   "id": "o2-039",
   "topic": "perf",
-  "q": "Which airplanes does the FAA require to demonstrate continued takeoff capability with one engine inoperative?",
+  "q": "Per the OEG, which airplanes does the FAA require to demonstrate continued takeoff capability with one engine inoperative?",
   "a": "Turboprop, turbojet, large (10+ passenger), and air taxi airplanes",
   "d": [
    "All multi-engine airplanes type-certificated after February 1991",
    "Any piston twin flown under IFR in Part 91 operations",
    "Only transport-category airplanes operated under Part 121"
   ],
-  "why": "Light piston twins in private use generally have no such requirement; turbine, larger passenger and air taxi airplanes must show they can continue a takeoff on one engine.",
-  "src": "OEG 1D-20 · 14 CFR Part 23",
+  "why": "Light piston twins in private use generally have no such requirement; the OEG names turbine, larger passenger and air taxi airplanes. Under today's Part 23 (Amendment 23-64), 23.2120(b) sets it by certification level: level 3 low-speed and level 1–2 high-speed twins need a 1% one-engine gradient at 400 ft with gear up and takeoff flaps, and level 3 high-speed and level 4 airplanes 2%.",
+  "src": "OEG 1D-20 · 14 CFR 23.2120(b)",
   "loc": "oeg 011"
  },
  {
@@ -564,7 +564,7 @@
    "About 189 fpm"
   ],
   "why": "Twins over 6,000 lb and/or with Vso above 61 knots must climb at least 0.027 Vso² fpm at 5,000 ft MSL: 0.027 x 70² = 132 fpm.",
-  "src": "OEG 1D-21 · 14 CFR Part 23",
+  "src": "OEG 1D-21 · historical 14 CFR Part 23 (now 23.2120) · FAA-H-8083-3C ch 13",
   "loc": "oeg 011"
  },
  {
@@ -577,22 +577,22 @@
    "As 50 feet per minute at 5,000 feet",
    "As 100 feet per minute at sea level"
   ],
-  "why": "The newer rule uses a 1.5 percent gradient. It is not a direct equivalent of the older 0.027 Vso² rate-of-climb formula.",
-  "src": "OEG 1D-21 · 14 CFR Part 23",
+  "why": "The historical rule uses a 1.5 percent gradient. It is not a direct equivalent of the older 0.027 Vso² rate-of-climb formula. Airplanes certificated since Amendment 23-64 (2017) meet 23.2120(b), which sets gradients by certification level.",
+  "src": "OEG 1D-21 · historical 14 CFR Part 23 (now 23.2120) · FAA-H-8083-3C ch 13",
   "loc": "oeg 011"
  },
  {
   "id": "o2-042",
   "topic": "perf",
-  "q": "A light twin has a max takeoff weight of 4,500 lb and a Vso of 58 knots. What one-engine climb at 5,000 ft MSL must it demonstrate?",
+  "q": "A light twin certificated under the historical (pre-2017) Part 23 rules has a 4,500-lb max takeoff weight and a 58-knot Vso. What one-engine climb at 5,000 ft MSL must it show?",
   "a": "None; the rate must only be determined, and it may be negative",
   "d": [
    "At least 50 fpm at 5,000 feet MSL, with the propeller feathered",
    "At least 0.027 Vso² fpm, the same as heavier twins",
    "At least a 1.5 percent gradient, regardless of certification date"
   ],
-  "why": "For light twins under 6,000 lb with Vso under 61 knots, the one-engine climb (or, for newer types, gradient) at 5,000 ft is simply determined. No positive climb is required at any altitude.",
-  "src": "OEG 1D-21 · 14 CFR Part 23",
+  "why": "For light twins of 6,000 lb or less with Vso of 61 knots or less, the one-engine climb (or, for newer types, gradient) at 5,000 ft is simply determined; no positive climb is required at any altitude. A twin certificated today under 23.2120(b)(1) needs a 1.5% gradient at 5,000 ft in cruise configuration unless it meets single-engine crashworthiness requirements.",
+  "src": "OEG 1D-21 · historical 14 CFR Part 23 · 23.2120(b)(1) · FAA-H-8083-3C ch 13",
   "loc": "oeg 011"
  },
  {
@@ -606,7 +606,7 @@
    "The date its standard airworthiness certificate was issued"
   ],
   "why": "Don't confuse model year with the type certification basis. Many current twins are certificated under the old Civil Air Regulations (CAR 3).",
-  "src": "OEG 1D-21 · 14 CFR Part 23",
+  "src": "OEG 1D-21 · historical 14 CFR Part 23 (now 23.2120) · FAA-H-8083-3C ch 13",
   "loc": "oeg 011"
  },
  {
@@ -620,7 +620,7 @@
    "Highest DA where Vy yields 100 fpm with the gear and flaps extended"
   ],
   "why": "Service ceiling uses a 100 fpm climb in the clean configuration. The altitude where no climb is possible is the absolute ceiling.",
-  "src": "OEG 1D-22 · FAA-H-8083-25",
+  "src": "OEG 1D-22 · FAA-H-8083-25C ch 11",
   "loc": "oeg 011"
  },
  {
@@ -662,7 +662,7 @@
    "Altitude where the twin can no longer climb faster than 50 fpm on both engines"
   ],
   "why": "Single-engine service ceiling uses 50 fpm with one engine inoperative. Zero climb on one engine is the single-engine absolute ceiling; 100 fpm is the all-engine service ceiling.",
-  "src": "OEG 1D-25 · FAA-H-8083-3",
+  "src": "OEG 1D-25 · FAA-H-8083-3C ch 13",
   "loc": "oeg 012"
  },
  {
@@ -676,7 +676,7 @@
    "15 feet of altitude gained per 100 feet of horizontal travel"
   ],
   "why": "As a percentage, climb gradient is altitude gain per 100 feet of horizontal distance. It can also be given in feet per nautical mile or as a ratio such as 50:1 (2 percent).",
-  "src": "OEG 1D-26 · FAA-H-8083-3",
+  "src": "OEG 1D-26 · FAA-H-8083-3C ch 13",
   "loc": "oeg 012"
  },
  {
@@ -776,7 +776,7 @@
    "Halfway down to the ceiling"
   ],
   "why": "The sink rate is highest right after the failure and tapers off as the airplane nears its single-engine absolute ceiling.",
-  "src": "OEG 1D-32 · FAA-H-8083-3",
+  "src": "OEG 1D-32 · FAA-H-8083-3C ch 13",
   "loc": "oeg 013"
  },
  {
@@ -804,7 +804,7 @@
    "At least 150 fpm, since such losses are limited to 25 percent"
   ],
   "why": "Turbulence, engine and prop wear, or sloppy airspeed, bank and rudder control can easily negate even 200 fpm. Read the fine print and add margin.",
-  "src": "OEG 1D-33 · POH/AFM",
+  "src": "OEG 1D-33 · FAA-H-8083-3C ch 13 · POH/AFM",
   "loc": "oeg 013"
  },
  {
@@ -832,7 +832,7 @@
    "Better climb angle but reduced climb rate"
   ],
   "why": "Extra weight raises stall, approach and landing speeds and lengthens the landing roll. It also shortens range, lowers cruise speed and maximum altitude, and reduces maneuverability.",
-  "src": "OEG 1E-1 · FAA-H-8083-25",
+  "src": "OEG 1E-1 · FAA-H-8083-25C ch 10",
   "loc": "oeg 013"
  },
  {
@@ -846,7 +846,7 @@
    "Normal takeoff and climb until above 5,000 ft density altitude"
   ],
   "why": "Overloading raises takeoff speed, lengthens the run, and reduces both rate and angle of climb, with extra load on the nose wheel as well.",
-  "src": "OEG 1E-1 · FAA-H-8083-25",
+  "src": "OEG 1E-1 · FAA-H-8083-25C ch 10",
   "loc": "oeg 013"
  },
  {
@@ -874,7 +874,7 @@
    "Faster cruise, greater stability, and higher Vmc"
   ],
   "why": "Forward CG adds drag (higher AOA to hold altitude), increases longitudinal stability, and lowers Vmc because the rudder is more effective.",
-  "src": "OEG 1E-2 · FAA-H-8083-3",
+  "src": "OEG 1E-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 013"
  },
  {
@@ -918,7 +918,7 @@
    "No effect; Vmc depends only on engine power"
   ],
   "why": "With the CG aft, the rudder's arm is shorter, so it yields less yawing moment and more speed is needed to keep directional control.",
-  "src": "OEG 1E-3 · FAA-H-8083-3",
+  "src": "OEG 1E-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -932,7 +932,7 @@
    "An excessive nose-down pitch tendency during the recovery"
   ],
   "why": "With an aft CG, raising the AOA tends to increase it further, so the airplane is less stable and harder to recover from a stall or spin.",
-  "src": "OEG 1E-3 · FAA-H-8083-3",
+  "src": "OEG 1E-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -946,7 +946,7 @@
    "Higher stall speed and lower cruise speed"
   ],
   "why": "Less tail-down force means less wing loading (lower stall speed) and a smaller AOA to hold altitude (less drag, faster cruise).",
-  "src": "OEG 1E-3 · FAA-H-8083-3",
+  "src": "OEG 1E-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -960,7 +960,7 @@
    "Standard airplane, unusable fuel, fluids, and undrainable oil only"
   ],
   "why": "Standard empty weight is the standard airplane with unusable fuel, full operating fluids and full oil. Basic empty weight adds the optional equipment installed.",
-  "src": "OEG 1E-4 · FAA-H-8083-3",
+  "src": "OEG 1E-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -974,7 +974,7 @@
    "Licensed includes full oil; basic includes only undrainable oil"
   ],
   "why": "Licensed empty weight (the older method) includes the standard airplane, optional equipment, full hydraulic fluid, unusable fuel and undrainable oil, but not full oil.",
-  "src": "OEG 1E-4 · FAA-H-8083-3",
+  "src": "OEG 1E-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -988,7 +988,7 @@
    "Optional equipment such as avionics"
   ],
   "why": "Licensed empty weight already counts unusable fuel, full hydraulic fluid and optional equipment, but only undrainable oil, so the usable oil must be added.",
-  "src": "OEG 1E-4 · FAA-H-8083-3",
+  "src": "OEG 1E-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1002,7 +1002,7 @@
    "Ice or frost that may accumulate on the airframe during taxi"
   ],
   "why": "Ramp weight lets you start above max takeoff weight, since taxi and runup fuel bring you down to it by the start of the takeoff run, which is where max takeoff weight applies.",
-  "src": "OEG 1E-5 · FAA-H-8083-3",
+  "src": "OEG 1E-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1016,7 +1016,7 @@
    "Landing overweight is prohibited under Part 91 in all cases"
   ],
   "why": "In an emergency, land; just recognize that landing above max landing weight eats into the airplane's designed structural margins, so touch down gently.",
-  "src": "OEG 1E-5 · FAA-H-8083-3",
+  "src": "OEG 1E-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1044,7 +1044,7 @@
    "Minimum weight the airplane must have before fuel is loaded"
   ],
   "why": "It's a computed figure; the airplane is never actually fuel-free when loaded. When a ZFW limit is published, any weight above it must be usable fuel.",
-  "src": "OEG 1E-5 · FAA-H-8083-3",
+  "src": "OEG 1E-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1058,7 +1058,7 @@
    "To limit loads on the landing gear and tires at touchdown"
   ],
   "why": "Payload carried in the fuselage loads the floor and wing spars in a way fuel weight doesn't, so the airplane-plus-payload weight is capped.",
-  "src": "OEG 1E-5 · FAA-H-8083-3",
+  "src": "OEG 1E-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1072,7 +1072,7 @@
    "Yes, as long as the loaded CG stays within the envelope"
   ],
   "why": "Any weight above the zero fuel weight must be usable fuel. Being under max takeoff weight doesn't fix too much payload.",
-  "src": "OEG 1E-5 · FAA-H-8083-3",
+  "src": "OEG 1E-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1086,7 +1086,7 @@
    "The weight of usable fuel and oil only"
   ],
   "why": "Payload is people and things. Adding usable fuel (or subtracting empty weight from max weight) gives useful load, a larger figure.",
-  "src": "OEG 1E-6 · FAA-H-8083-3",
+  "src": "OEG 1E-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {
@@ -1100,7 +1100,7 @@
    "1,250 lb"
   ],
   "why": "With full fuel, payload = max takeoff weight minus fueled airplane weight: 5,000 - (3,350 + 600) = 1,050 lb. 1,650 lb forgets the fuel.",
-  "src": "OEG 1E-6 · FAA-H-8083-3",
+  "src": "OEG 1E-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 014"
  },
  {

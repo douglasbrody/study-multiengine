@@ -1,0 +1,814 @@
+[
+ {
+  "id": "f2-001",
+  "topic": "pilot",
+  "q": "For the multiengine practical test, what must your instructor's 14 CFR 61.39(a)(6) endorsement certify?",
+  "a": "You trained within 2 calendar months before the month of application, and are prepared",
+  "d": [
+   "You trained within the 60 days before the test date, and are prepared for the test",
+   "You logged 3 hours of multiengine training in the 90 days before the practical test",
+   "You passed the ME knowledge test and are prepared for the practical test"
+  ],
+  "why": "61.39(a)(6): training received and logged within the 2 calendar months preceding the month of application, readiness for the practical test, and (only if a knowledge test was taken) knowledge of the deficient areas. A class add-on has no knowledge test (61.63(c)(4)), and the '3 hours in the preceding 2 calendar months' item belongs to the initial-certificate experience requirements (e.g. 61.109), which 61.63(c)(3) waives.",
+  "src": "14 CFR 61.39(a)(6) · 61.63(c)",
+  "loc": "cfr 61.39"
+ },
+ {
+  "id": "f2-002",
+  "topic": "pilot",
+  "q": "Your multiengine checkride is discontinued for weather on October 10, after you pass some areas. Under 14 CFR 61.43(f), how do you keep credit for them?",
+  "a": "Pass the remainder within 60 days after October 10",
+  "d": [
+   "Pass the remainder within 30 days after October 10",
+   "Pass the remainder within 90 days after October 10",
+   "Pass the remainder by the end of April, 6 calendar months later"
+  ],
+  "why": "61.43(f): credit for areas passed requires passing the rest within 60 days after the discontinuance date, presenting the Letter of Discontinuance (or Notice of Disapproval), any required training endorsement, and a signed application. Separately, 61.39(g)–(h) require all increments of a test to be finished within 2 calendar months after the month it began, or the whole test is retaken.",
+  "src": "14 CFR 61.43(f) · 61.39(g), (h)",
+  "loc": "cfr 61.43"
+ },
+ {
+  "id": "f2-003",
+  "topic": "pilot",
+  "q": "Before your multiengine checkride, may you act as PIC of the training twin on a solo flight?",
+  "a": "Yes, with the required training and an instructor's solo endorsement for it",
+  "d": [
+   "No; acting as PIC of a twin always requires the multiengine class rating",
+   "Yes; a private ASEL certificate allows solo flight in any airplane class",
+   "Yes, with your instructor's verbal approval, as long as no one else is aboard"
+  ],
+  "why": "61.31(d)(2) lets you serve as PIC without the class rating if you've received the training required for that certificate level and class and hold an authorized instructor's solo endorsement in that aircraft. You still can't carry another person or fly for compensation (61.31(c)). School or insurance rules may forbid it anyway.",
+  "src": "14 CFR 61.31(c), (d)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-004",
+  "topic": "pilot",
+  "q": "You hold ASEL only and are training in a twin. May you, as PIC, take a friend along as a passenger?",
+  "a": "No; carrying another person as PIC requires the class rating",
+  "d": [
+   "Yes, once your instructor gives you a multiengine solo endorsement",
+   "Yes, if the flight is day VFR and no compensation is involved",
+   "Yes, if the passenger also holds at least a private pilot certificate"
+  ],
+  "why": "61.31(c): without the category and class rating for the aircraft you may not act as PIC of an aircraft carrying another person or operated for compensation or hire. A solo endorsement under 61.31(d)(2) covers flights alone only.",
+  "src": "14 CFR 61.31(c)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-005",
+  "topic": "pilot",
+  "q": "Flying dual with your CFI in a light twin before you hold the multiengine rating, you're the sole manipulator. How may you log the time?",
+  "a": "As training received only; you aren't rated in the class, so not PIC",
+  "d": [
+   "As PIC, because you are the sole manipulator of the controls throughout",
+   "As both PIC and training received, since you are certificated",
+   "As second in command, because two pilots are on board"
+  ],
+  "why": "61.51(e)(1)(i) allows PIC time as sole manipulator only in an aircraft for which you are rated (class rating where one applies); training time is logged under 61.51(h). SIC time needs an aircraft or operation that requires two pilots (61.51(f)). Your CFI may log PIC as the authorized instructor (61.51(e)(3)). Once you hold AMEL, sole-manipulator time in a twin is PIC.",
+  "src": "14 CFR 61.51(e), (f), (h)",
+  "loc": "cfr 61.51"
+ },
+ {
+  "id": "f2-006",
+  "topic": "pilot",
+  "q": "Under 14 CFR 61.1, what makes a landplane a complex airplane?",
+  "a": "Retractable gear, flaps, and a controllable-pitch prop (or FADEC)",
+  "d": [
+   "More than one engine, or any engine of more than 200 horsepower",
+   "Retractable gear, flaps, and a turbocharged or supercharged engine",
+   "A controllable-pitch propeller and a max weight over 6,000 lb"
+  ],
+  "why": "61.1 defines a complex airplane as one with retractable landing gear, flaps and a controllable-pitch propeller, including one whose engine and prop are controlled by a FADEC-type system (a seaplane needs only flaps and a controllable-pitch prop). Engine count and horsepower aren't part of it; horsepower is the high-performance test.",
+  "src": "14 CFR 61.1 · 61.31(e)",
+  "loc": "cfr 61.1"
+ },
+ {
+  "id": "f2-007",
+  "topic": "pilot",
+  "q": "A light twin has two 200-hp engines, retractable gear, flaps and constant-speed props. Which 61.31 endorsement does acting as its PIC require?",
+  "a": "Complex only; neither engine has more than 200 horsepower",
+  "d": [
+   "High performance only, because total power is 400 horsepower",
+   "Both complex and high performance, because it is a twin",
+   "Neither; the multiengine class rating includes both"
+  ],
+  "why": "61.31(f) defines a high-performance airplane as one with an engine of more than 200 horsepower, so it is judged engine by engine, and 200 hp is not more than 200. Retractable gear, flaps and controllable-pitch props make it complex (61.1, 61.31(e)). The Seneca I, with two 200-hp engines (POH 1-2), is the same case. The class rating doesn't replace either endorsement.",
+  "src": "14 CFR 61.31(e), (f) · 61.1",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-008",
+  "topic": "pilot",
+  "q": "How does 14 CFR 61.31(f) define a high-performance airplane?",
+  "a": "An airplane with an engine of more than 200 horsepower",
+  "d": [
+   "An airplane with more than 200 horsepower in total",
+   "An airplane with any engine of 200 horsepower or more",
+   "An airplane with a turbocharged engine of any horsepower"
+  ],
+  "why": "The wording is per engine and 'more than' 200 hp: a 200-hp engine doesn't qualify, and neither does a twin with two 180-hp engines (360 hp total). Turbocharging isn't part of the definition.",
+  "src": "14 CFR 61.31(f)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-009",
+  "topic": "pilot",
+  "q": "How long is a 61.31 complex or high-performance logbook endorsement valid?",
+  "a": "Indefinitely; each is a one-time endorsement",
+  "d": [
+   "24 calendar months, renewed at each flight review",
+   "12 calendar months, renewed by an authorized instructor",
+   "Until 90 days pass without flying that kind of airplane"
+  ],
+  "why": "61.31(e)(1)(ii) and (f)(1)(ii) each call for a one-time endorsement after ground and flight training. Pilots who logged PIC time in such an airplane before August 4, 1997 are exempt (61.31(e)(2), (f)(2)). Staying proficient is a matter of recent experience and judgment, not renewal.",
+  "src": "14 CFR 61.31(e), (f)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-010",
+  "topic": "pilot",
+  "q": "Under 14 CFR 61.31(g), the high-altitude training and endorsement apply to acting as PIC of which aircraft?",
+  "a": "Pressurized aircraft with a service ceiling or max altitude above 25,000 ft",
+  "d": [
+   "Any aircraft operated in Class A airspace, at or above 18,000 ft MSL",
+   "Pressurized aircraft with a service ceiling or max altitude above 18,000 ft",
+   "Any aircraft whose occupants must be provided oxygen above 15,000 ft"
+  ],
+  "why": "61.31(g) covers a pressurized aircraft whose service ceiling or maximum operating altitude, whichever is lower, is above 25,000 ft MSL. It requires logged ground training (high-altitude aerodynamics and weather, respiration, hypoxia, decompression and more) and flight training in a pressurized aircraft, each with an endorsement.",
+  "src": "14 CFR 61.31(g)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-011",
+  "topic": "pilot",
+  "q": "What does 14 CFR 61.31(i) require before you act as PIC of a tailwheel airplane?",
+  "a": "Flight training and a logbook endorsement from an authorized instructor",
+  "d": [
+   "Ground training and a one-time endorsement, with no flight training needed",
+   "A practical test with an examiner for a tailwheel class rating",
+   "10 hours of dual instruction, logged in a tailwheel airplane"
+  ],
+  "why": "61.31(i) requires logged flight training, including normal and crosswind takeoffs and landings, wheel landings (unless the manufacturer recommends against them) and go-arounds, and an instructor's endorsement of proficiency. Tailwheel is an endorsement, not a class rating; PIC tailwheel time logged before April 15, 1991 is an exception.",
+  "src": "14 CFR 61.31(i)",
+  "loc": "cfr 61.31"
+ },
+ {
+  "id": "f2-012",
+  "topic": "pilot",
+  "q": "You pass your multiengine add-on practical test in October 2026. With no other review, when is your next flight review due?",
+  "a": "By the end of October 2028",
+  "d": [
+   "By the end of October 2027",
+   "When your last flight review would have run out",
+   "Right away; a practical test doesn't count as a review"
+  ],
+  "why": "61.56(d)(1): passing a practical test given by an examiner for a pilot certificate, rating or operating privilege within the period stands in for the flight review, so the 24-calendar-month clock restarts from the checkride month. Completing a phase of the FAA WINGS program also counts (61.56(e)).",
+  "src": "14 CFR 61.56(c), (d)",
+  "loc": "cfr 61.56"
+ },
+ {
+  "id": "f2-013",
+  "topic": "pilot",
+  "q": "What is the minimum content of a flight review under 14 CFR 61.56(a)?",
+  "a": "1 hour of ground and 1 hour of flight training, including Part 91 rules",
+  "d": [
+   "2 hours of flight training, including stalls and emergency procedures",
+   "1 hour of flight training plus a written test on Part 91 rules",
+   "1 hour of ground training and three takeoffs and landings to a full stop"
+  ],
+  "why": "The review is at least 1 hour of flight training and 1 hour of ground training, covering the current Part 91 general operating and flight rules and the maneuvers and procedures the instructor judges necessary. It must be given by an authorized instructor in an aircraft you're rated for and endorsed in your logbook (61.56(c)).",
+  "src": "14 CFR 61.56(a), (c)",
+  "loc": "cfr 61.56"
+ },
+ {
+  "id": "f2-014",
+  "topic": "pilot",
+  "q": "You're day current but not night current. May you land with passengers aboard 40 minutes after sunset, under 14 CFR 61.57(b)?",
+  "a": "Yes; it applies only from 1 hour after sunset to 1 hour before sunrise",
+  "d": [
+   "No; it applies from sunset to sunrise, when position lights are required",
+   "No; it applies from the end of evening civil twilight, when night begins",
+   "No; it applies from 30 minutes after sunset to 30 minutes before sunrise"
+  ],
+  "why": "61.57(b)'s passenger-carrying night currency covers 1 hour after sunset to 1 hour before sunrise. Other 'night' rules differ: position lights are required from sunset to sunrise (91.209), and night for logging time and for night VFR fuel and equipment begins at the end of evening civil twilight (14 CFR 1.1).",
+  "src": "14 CFR 61.57(b) · 91.209 · 1.1",
+  "loc": "cfr 61.57"
+ },
+ {
+  "id": "f2-015",
+  "topic": "pilot",
+  "q": "For logging night flight time, when does 14 CFR Part 1 say night begins?",
+  "a": "At the end of evening civil twilight",
+  "d": [
+   "At official sunset, local time",
+   "One hour after official sunset",
+   "Thirty minutes after official sunset"
+  ],
+  "why": "14 CFR 1.1: night is the time between the end of evening civil twilight and the beginning of morning civil twilight, as published in the Air Almanac, converted to local time. Passenger night currency (61.57(b)) instead uses 1 hour after sunset, and position lights (91.209) sunset to sunrise.",
+  "src": "14 CFR 1.1",
+  "loc": "cfr 1.1"
+ },
+ {
+  "id": "f2-016",
+  "topic": "pilot",
+  "q": "To act as PIC under IFR, what must you have logged in the 6 calendar months before the month of flight (61.57(c))?",
+  "a": "Six instrument approaches, holding, and intercepting and tracking courses",
+  "d": [
+   "Six approaches and six holding patterns, all in the same airplane class",
+   "Three instrument approaches, holding, and at least one approach in actual IMC",
+   "Six approaches, holding, and an instrument proficiency check with a CFII"
+  ],
+  "why": "61.57(c)(1) requires six instrument approaches, holding procedures and tasks, and intercepting and tracking courses with navigation systems, in actual or simulated conditions, in the aircraft category (airplane). They may also be done in an FFS, FTD or ATD representing the category, or any combination (61.57(c)(2)).",
+  "src": "14 CFR 61.57(c)",
+  "loc": "cfr 61.57"
+ },
+ {
+  "id": "f2-017",
+  "topic": "pilot",
+  "q": "Your last six approaches, holding and course tracking were logged in March 2026. Through what date are you instrument current to act as PIC under IFR?",
+  "a": "September 30, 2026",
+  "d": [
+   "August 31, 2026",
+   "March 31, 2027",
+   "June 30, 2026"
+  ],
+  "why": "The experience must fall within the 6 calendar months preceding the month of flight, so March counts for flights through September. From October you need the experience again: logged with a safety pilot or in a device until you've been out for more than 6 calendar months (through March 2027), after which an IPC is required (61.57(d)).",
+  "src": "14 CFR 61.57(c), (d)",
+  "loc": "cfr 61.57"
+ },
+ {
+  "id": "f2-018",
+  "topic": "pilot",
+  "q": "Under 14 CFR 61.57(d), when does regaining instrument currency require an instrument proficiency check?",
+  "a": "After more than six calendar months out of instrument currency",
+  "d": [
+   "As soon as the six-calendar-month instrument currency period lapses",
+   "After more than 90 days out of instrument currency",
+   "Only after 24 calendar months without any instrument flight"
+  ],
+  "why": "Once lapsed, you may still regain currency by logging the 61.57(c) tasks (with a safety pilot, or in a device) until you've been out for more than six calendar months; after that only an IPC restores it. The IPC covers the instrument ACS areas listed in Part 61 Appendix A and may be given by an examiner or an authorized instructor, among others.",
+  "src": "14 CFR 61.57(d)",
+  "loc": "cfr 61.57"
+ },
+ {
+  "id": "f2-019",
+  "topic": "pilot",
+  "q": "When acting as PIC, which must you have in your physical possession or readily accessible in the aircraft (14 CFR 61.3)?",
+  "a": "Pilot certificate, medical certificate (if required), and photo ID",
+  "d": [
+   "Pilot certificate, medical certificate, and your pilot logbook",
+   "Pilot certificate and medical; photo ID only for international flights",
+   "Pilot certificate, photo ID, and your flight review endorsement"
+  ],
+  "why": "61.3(a) requires your pilot certificate (or temporary certificate) and an acceptable photo ID such as a driver's license, government ID or passport; 61.3(c) requires a medical certificate or other documentation acceptable to the FAA when one is needed. A private or commercial pilot needn't carry a logbook, though it must be shown on reasonable request (61.51(i)).",
+  "src": "14 CFR 61.3(a), (c) · 61.51(i)",
+  "loc": "cfr 61.3"
+ },
+ {
+  "id": "f2-020",
+  "topic": "pilot",
+  "q": "Age 45, you received a second-class medical on March 10, 2025. Through when does it cover commercial privileges, and then private privileges?",
+  "a": "Commercial through March 31, 2026; private through March 31, 2027",
+  "d": [
+   "Commercial through March 10, 2026; private through March 10, 2027",
+   "Commercial through March 31, 2026; private through March 31, 2030",
+   "Commercial through March 31, 2027; private through March 31, 2027"
+  ],
+  "why": "61.23(d)(2): a second-class certificate supports commercial privileges through the end of the 12th month after the exam month. For private privileges it lasts through the end of the 24th month if you were 40 or older at the exam (the 60th month if under 40). Durations run to the end of the month, not to the exam date.",
+  "src": "14 CFR 61.23(d)",
+  "loc": "cfr 61.23"
+ },
+ {
+  "id": "f2-021",
+  "topic": "pilot",
+  "q": "You hold a commercial certificate and a current third-class medical only. May you act as PIC of a twin for compensation under commercial privileges?",
+  "a": "No; commercial privileges require at least a second-class medical",
+  "d": [
+   "Yes; any current medical certificate supports commercial privileges",
+   "Yes, provided you also meet all of the BasicMed requirements",
+   "Yes, if the flight is conducted entirely under day VFR"
+  ],
+  "why": "61.23(a)(2)(ii) requires at least a second-class medical to exercise commercial pilot privileges in an airplane; for that use it lasts through the end of the 12th month after the exam. A third-class certificate or BasicMed supports only private-level privileges (and a CFI acting as PIC).",
+  "src": "14 CFR 61.23(a)(2), (d)",
+  "loc": "cfr 61.23"
+ },
+ {
+  "id": "f2-022",
+  "topic": "pilot",
+  "q": "Under current BasicMed rules (14 CFR 61.113(i)), which aircraft limits apply?",
+  "a": "No more than 7 occupants, 6 passengers, and 12,500 lb max takeoff weight",
+  "d": [
+   "No more than 6 occupants, 5 passengers, and 6,000 lb max takeoff weight",
+   "No more than 4 occupants, 3 passengers, and 6,000 lb max takeoff weight",
+   "No more than 9 occupants, 8 passengers, and 12,500 lb max takeoff weight"
+  ],
+  "why": "Current 61.113(i)(1): an aircraft authorized to carry not more than 7 occupants, with a maximum takeoff weight of not more than 12,500 lb, operated with no more than 6 passengers on board (and not a Part 29 transport category rotorcraft). BasicMed originally allowed 6 occupants (5 passengers) and 6,000 lb; the limits were raised by a recent amendment (2024), so older study materials may still show the old figures. A typical light twin fits either way.",
+  "src": "14 CFR 61.113(i)",
+  "loc": "cfr 61.113"
+ },
+ {
+  "id": "f2-023",
+  "topic": "pilot",
+  "q": "Flying under BasicMed (14 CFR 61.113(i)), which operating limits apply?",
+  "a": "At or below 18,000 ft MSL and no faster than 250 knots indicated",
+  "d": [
+   "At or below 12,500 ft MSL and no faster than 200 knots indicated",
+   "Day VFR only, at or below 18,000 ft MSL, within the United States",
+   "At or below FL250, with no airspeed limit for piston airplanes"
+  ],
+  "why": "61.113(i)(2): no part of the flight above 18,000 ft MSL or faster than 250 knots indicated, and none outside the United States unless that country authorizes it; night and IFR are allowed. You also need a state-licensed physician's exam within 48 calendar months and the medical course within 24 calendar months (61.23(c)(3)), and BasicMed can't be used for commercial pilot privileges.",
+  "src": "14 CFR 61.113(i) · 61.23(c)(3)",
+  "loc": "cfr 61.113"
+ },
+ {
+  "id": "f2-024",
+  "topic": "pilot",
+  "q": "In an in-flight emergency requiring immediate action, what does 14 CFR 91.3(b) allow the PIC to do?",
+  "a": "Deviate from any Part 91 rule to the extent required to meet it",
+  "d": [
+   "Deviate from any rule, but only after declaring an emergency with ATC",
+   "Deviate from ATC clearances only, not from other Part 91 rules",
+   "Deviate from Part 91 rules only with ATC's approval of the deviation"
+  ],
+  "why": "91.3(a) makes the PIC directly responsible for, and the final authority as to, the operation of the aircraft; 91.3(b) allows deviation from any rule of Part 91 to the extent required to meet the emergency. Declaring an emergency is wise but isn't a precondition.",
+  "src": "14 CFR 91.3",
+  "loc": "cfr 91.3"
+ },
+ {
+  "id": "f2-025",
+  "topic": "pilot",
+  "q": "After deviating from a Part 91 rule in an emergency under 91.3(b), what reporting does 91.3(c) require?",
+  "a": "A written report of the deviation, if the Administrator requests it",
+  "d": [
+   "A written report to the local FSDO within 48 hours of every deviation",
+   "A written report to the NTSB within 10 days in every case",
+   "None; emergency deviations never need to be reported"
+  ],
+  "why": "Under 91.3(c) the PIC sends a written report of the deviation only upon the Administrator's request. If ATC gave you priority in an emergency, 91.123(d) adds a detailed report within 48 hours to that ATC facility's manager, again only if ATC requests it.",
+  "src": "14 CFR 91.3(c) · 91.123(d)",
+  "loc": "cfr 91.3"
+ },
+ {
+  "id": "f2-026",
+  "topic": "pilot",
+  "q": "Which is part of the 14 CFR Part 1 definition of the pilot in command?",
+  "a": "Has final authority and responsibility for the flight's operation and safety",
+  "d": [
+   "Is the most experienced pilot on board, based on total logged flight hours",
+   "Is the pilot occupying the left seat whenever the aircraft is being operated",
+   "Is whichever pilot manipulates the controls during takeoff and landing"
+  ],
+  "why": "14 CFR 1.1: the PIC has final authority and responsibility for the operation and safety of the flight, has been designated PIC before or during the flight, and holds the appropriate category, class and type rating, if appropriate, for the flight. Who may log PIC time (61.51(e)) is a separate question.",
+  "src": "14 CFR 1.1",
+  "loc": "cfr 1.1"
+ },
+ {
+  "id": "f2-027",
+  "topic": "pilot",
+  "q": "After you pass the checkride, how long is the temporary airman certificate valid (14 CFR 61.17)?",
+  "a": "Up to 120 days, or until the permanent certificate arrives",
+  "d": [
+   "Up to 90 days, or until the permanent certificate arrives",
+   "Up to 60 days, after which you must contact the FSDO",
+   "Up to 180 days, or until the permanent certificate arrives"
+  ],
+  "why": "61.17: a temporary certificate or rating is issued for up to 120 days. It expires on the date shown, on receipt of the permanent certificate, or on notice that the certificate or rating sought is denied or revoked.",
+  "src": "14 CFR 61.17",
+  "loc": "cfr 61.17"
+ },
+ {
+  "id": "f2-028",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.7, who is responsible for determining whether an aircraft is in condition for safe flight?",
+  "a": "The pilot in command",
+  "d": [
+   "The mechanic who signed the last inspection",
+   "The registered owner or operator",
+   "The flight school or FBO renting the aircraft"
+  ],
+  "why": "91.7(b) puts the condition-for-safe-flight decision on the PIC, who must also discontinue the flight when unairworthy mechanical, electrical or structural conditions occur. The owner or operator's separate duty (91.403(a)) is to maintain the aircraft in an airworthy condition.",
+  "src": "14 CFR 91.7",
+  "loc": "cfr 91.7"
+ },
+ {
+  "id": "f2-029",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.403(a), who is primarily responsible for maintaining an aircraft in airworthy condition, including AD compliance?",
+  "a": "The owner or operator",
+  "d": [
+   "The pilot in command of each flight",
+   "The mechanic who did the last annual",
+   "The manufacturer, through its service bulletins"
+  ],
+  "why": "91.403(a) makes the owner or operator primarily responsible for maintaining the aircraft in an airworthy condition, including compliance with Part 39 (airworthiness directives). The PIC still decides before each flight whether it is in condition for safe flight (91.7).",
+  "src": "14 CFR 91.403(a)",
+  "loc": "cfr 91.403"
+ },
+ {
+  "id": "f2-030",
+  "topic": "docs",
+  "q": "For every flight, local or not, what does 14 CFR 91.103 specifically require the PIC to become familiar with?",
+  "a": "Runway lengths at airports of intended use and takeoff/landing data",
+  "d": [
+   "Weather reports and forecasts, and the fuel requirements for the flight",
+   "Alternatives available if the planned flight cannot be completed",
+   "Any known traffic delays that ATC has advised you of"
+  ],
+  "why": "91.103 requires familiarity with all available information. For any flight it names runway lengths at airports of intended use and takeoff and landing distance data (from the AFM when it contains them). Weather, fuel requirements, alternatives and known ATC delays are named for IFR flights or flights not in the vicinity of an airport (91.103(a)).",
+  "src": "14 CFR 91.103",
+  "loc": "cfr 91.103"
+ },
+ {
+  "id": "f2-031",
+  "topic": "docs",
+  "q": "Before takeoff, what passenger briefing does 14 CFR 91.107 require the PIC to ensure?",
+  "a": "How to fasten and unfasten their safety belt and shoulder harness",
+  "d": [
+   "Location and use of the fire extinguisher and the first-aid kit",
+   "Location and operation of the emergency exits and the ELT switch",
+   "How to put on and use the supplemental oxygen masks, if installed"
+  ],
+  "why": "91.107(a)(1) requires each person on board to be briefed on fastening and unfastening the safety belt and, if installed, shoulder harness; (a)(2) requires notifying each person to fasten them before taxi, takeoff and landing. Good practice adds exits, the fire extinguisher and more, and the ACS expects a passenger briefing, but those aren't in 91.107.",
+  "src": "14 CFR 91.107(a)",
+  "loc": "cfr 91.107"
+ },
+ {
+  "id": "f2-032",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.107, when must each person aboard (age 2 or older) be in a seat with the safety belt fastened?",
+  "a": "During movement on the surface, takeoff, and landing",
+  "d": [
+   "During takeoff and landing only",
+   "From engine start until engine shutdown",
+   "Whenever the PIC directs it, such as in turbulence or on approach"
+  ],
+  "why": "91.107(a)(3): each person must occupy an approved seat or berth with the safety belt (and shoulder harness, if installed) secured during movement on the surface, takeoff and landing. A child under 2 may be held by an adult in an approved seat.",
+  "src": "14 CFR 91.107(a)(3)",
+  "loc": "cfr 91.107"
+ },
+ {
+  "id": "f2-033",
+  "topic": "docs",
+  "q": "You're planning a VFR flight at night in a twin. What fuel does 14 CFR 91.151 require at the start of the flight?",
+  "a": "Enough to reach the first planned landing point, plus 45 min at normal cruise",
+  "d": [
+   "Enough to reach the first planned landing point, plus 30 min at normal cruise",
+   "Enough to reach the destination and alternate, plus 45 min at normal cruise",
+   "Enough to reach the first planned landing point, plus 1 hour at economy cruise"
+  ],
+  "why": "91.151(a): considering wind and forecast weather, enough fuel to fly to the first point of intended landing and then, at normal cruising speed, 30 minutes more by day or 45 minutes at night. An alternate plus 45 minutes is the IFR rule (91.167).",
+  "src": "14 CFR 91.151(a)",
+  "loc": "cfr 91.151"
+ },
+ {
+  "id": "f2-034",
+  "topic": "docs",
+  "q": "In an airplane, under 14 CFR 91.167, when may your IFR fuel plan to a destination omit the leg to an alternate?",
+  "a": "It has an approach; 1 hr before to 1 hr after ETA, ceiling 2,000+ ft, vis 3+ sm",
+  "d": [
+   "It has an approach; at the ETA only, ceiling 1,000+ ft and visibility 3+ sm",
+   "It has an approach; 1 hr before to 1 hr after ETA, ceiling 2,000+ ft, vis 2+ sm",
+   "It is within 100 NM of departure, and the forecast at the ETA is VFR"
+  ],
+  "why": "91.167 requires fuel to the first airport of intended landing, then to the alternate, then 45 minutes at normal cruise. The alternate leg may be dropped when the destination has a standard or special instrument approach and forecasts show, from 1 hour before to 1 hour after ETA, a ceiling at least 2,000 ft above the airport and at least 3 sm visibility (the '1-2-3' rule).",
+  "src": "14 CFR 91.167",
+  "loc": "cfr 91.167"
+ },
+ {
+  "id": "f2-035",
+  "topic": "docs",
+  "q": "For day VFR, which instruments does 14 CFR 91.205(b) require for each engine of a typical air-cooled, normally aspirated light twin?",
+  "a": "Tachometer, oil pressure gauge, and oil temperature gauge",
+  "d": [
+   "Tachometer, cylinder head temperature gauge, and EGT gauge",
+   "Oil pressure gauge, fuel flow gauge, and manifold pressure gauge",
+   "Tachometer, fuel pressure gauge, and an hour meter"
+  ],
+  "why": "91.205(b) requires a tachometer for each engine, an oil pressure gauge for each engine using a pressure system and an oil temperature gauge for each air-cooled engine. A manifold pressure gauge is required only for each altitude engine (14 CFR 1.1: one that can produce its rated takeoff power from sea level up to an established higher altitude, as a turbocharged engine does), though the type certificate and equipment list may require more. Other day-VFR items include airspeed, altimeter, compass, fuel gauges and, with retractable gear, a gear position indicator.",
+  "src": "14 CFR 91.205(b) · 1.1",
+  "loc": "cfr 91.205"
+ },
+ {
+  "id": "f2-036",
+  "topic": "docs",
+  "q": "Besides the day-VFR items, what does 14 CFR 91.205(c) add for night VFR on a flight not for hire?",
+  "a": "Position and anticollision lights, adequate electrical power, spare fuses",
+  "d": [
+   "Position lights, a landing light, an attitude indicator, and a clock",
+   "Anticollision lights, a landing light, an alternate static source, and a DG",
+   "Position lights, a landing light, a turn coordinator, and spare fuses"
+  ],
+  "why": "91.205(c): approved position lights, an approved aviation red or white anticollision light system, an adequate source of electrical energy for all installed electrical and radio equipment, and one spare set of fuses (or three of each kind required) accessible in flight. An electric landing light is required only when the aircraft is operated for hire. (Small airplanes certificated after March 11, 1996 need the anticollision lights by day as well, 91.205(b)(11).)",
+  "src": "14 CFR 91.205(c)",
+  "loc": "cfr 91.205"
+ },
+ {
+  "id": "f2-037",
+  "topic": "docs",
+  "q": "Which group of items does 14 CFR 91.205(d) require for IFR but not for day VFR?",
+  "a": "Clock with seconds, slip-skid indicator, sensitive altimeter, alternator",
+  "d": [
+   "Clock with seconds, slip-skid indicator, DME, and a second VOR receiver",
+   "Sensitive altimeter, alternate static source, and an autopilot",
+   "A standby vacuum pump, an angle-of-attack indicator, and a second COM radio"
+  ],
+  "why": "91.205(d) ('GRABCARD'): generator or alternator of adequate capacity, two-way radio and navigation equipment suitable for the route, sensitive altimeter, ball (slip-skid indicator), clock with seconds, attitude indicator, rate-of-turn indicator and directional gyro. DME or RNAV is added only at and above FL240 when VOR navigation is required (91.205(e)).",
+  "src": "14 CFR 91.205(d), (e)",
+  "loc": "cfr 91.205"
+ },
+ {
+  "id": "f2-038",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.209, during what period must an airplane being operated have lighted position lights?",
+  "a": "From sunset to sunrise",
+  "d": [
+   "From the end of evening civil twilight to morning twilight",
+   "From 1 hour after sunset to 1 hour before sunrise",
+   "Only when flight visibility is below 3 statute miles"
+  ],
+  "why": "91.209(a) requires lighted position lights from sunset to sunrise (Alaska has its own definition). If the airplane has an anticollision light system it must be lit too, unless the PIC decides that turning it off is in the interest of safety (91.209(b)).",
+  "src": "14 CFR 91.209",
+  "loc": "cfr 91.209"
+ },
+ {
+  "id": "f2-039",
+  "topic": "docs",
+  "q": "Which of these flights may be made without an ELT aboard under 14 CFR 91.207?",
+  "a": "A training flight staying within 50 NM of the airport it departed",
+  "d": [
+   "A personal day VFR flight staying within 25 NM of home base",
+   "A ferry flight to the ELT repair shop carrying one passenger",
+   "Any flight in an airplane with a working Mode C transponder"
+  ],
+  "why": "91.207(f)(3) exempts training operations conducted entirely within a 50 NM radius of the airport where they began. A ferry flight to where the ELT can be repaired is allowed under 91.207(e), but no one other than required crewmembers may be carried.",
+  "src": "14 CFR 91.207(e), (f)",
+  "loc": "cfr 91.207"
+ },
+ {
+  "id": "f2-040",
+  "topic": "docs",
+  "q": "Your airplane's ELT has been removed for repair. Under 14 CFR 91.207(f)(10), what allows you to keep flying without it?",
+  "a": "A records entry and an 'ELT not installed' placard, for up to 90 days",
+  "d": [
+   "A records entry and an 'ELT inop' placard, for up to 30 days",
+   "A special flight permit from the responsible Flight Standards office",
+   "An INOP placard, with flights limited to within 50 NM for 10 days"
+  ],
+  "why": "91.207(f)(10): while the ELT is temporarily removed for inspection, repair, modification or replacement, the records must show the removal date, make, model, serial number and reason, a placard in view of the pilot must read 'ELT not installed', and the aircraft may not be operated more than 90 days after removal.",
+  "src": "14 CFR 91.207(f)(10)",
+  "loc": "cfr 91.207"
+ },
+ {
+  "id": "f2-041",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.207(c), when must ELT batteries be replaced (or recharged, if rechargeable)?",
+  "a": "After more than 1 cumulative hour of use, or at 50% of their useful life",
+  "d": [
+   "After any use at all, or at every annual inspection, regardless of their age",
+   "After 2 cumulative hours of use, or at 75% of their useful life",
+   "Only when the 12-month ELT inspection finds battery corrosion"
+  ],
+  "why": "91.207(c) requires replacement (or recharge) when the transmitter has been in use for more than 1 cumulative hour or when 50 percent of the battery's useful life, as set by the manufacturer, has expired. The new due date is marked on the outside of the transmitter and entered in the maintenance record. The Seneca POH's 2-year rule (POH 6-14) is 50 percent of a 4-year life.",
+  "src": "14 CFR 91.207(c)",
+  "loc": "cfr 91.207"
+ },
+ {
+  "id": "f2-042",
+  "topic": "docs",
+  "q": "Your school's twin, which needs 100-hour inspections, reaches 100 hours away from base. What does 14 CFR 91.409(b) allow?",
+  "a": "Up to 10 extra hours to reach an inspection site; they count toward the next 100",
+  "d": [
+   "Up to 10 extra hours to reach an inspection site; they don't count toward the next",
+   "Up to 25 extra hours, with a mechanic's logbook entry approving it",
+   "Only a ferry flight home under a special flight permit from the FSDO"
+  ],
+  "why": "91.409(b): the 100-hour limit may be exceeded by no more than 10 hours while en route to reach a place where the inspection can be done, and the excess must be included in computing the next 100 hours. An annual inspection also satisfies the 100-hour requirement.",
+  "src": "14 CFR 91.409(b)",
+  "loc": "cfr 91.409"
+ },
+ {
+  "id": "f2-043",
+  "topic": "docs",
+  "q": "Can a 100-hour inspection be counted as the annual inspection required by 14 CFR 91.409(a)?",
+  "a": "Only if done by a person authorized to do annuals and recorded as an annual",
+  "d": [
+   "Yes; any 100-hour inspection also satisfies the annual requirement",
+   "No; the annual must always be a separate, additional inspection",
+   "Yes, if it was done within the preceding 12 calendar months by any A&P mechanic"
+  ],
+  "why": "91.409(a): no 100-hour inspection may substitute for the annual unless it is performed by a person authorized to perform annual inspections (typically a mechanic with an Inspection Authorization) and entered as an 'annual' in the maintenance records. The reverse works: an annual satisfies the 100-hour (91.409(b)).",
+  "src": "14 CFR 91.409(a), (b)",
+  "loc": "cfr 91.409"
+ },
+ {
+  "id": "f2-044",
+  "topic": "docs",
+  "q": "Under 14 CFR 91.417(b), how long must the owner keep the record of an annual inspection?",
+  "a": "Until the work is repeated or superseded, or for 1 year after it was done",
+  "d": [
+   "For the life of the aircraft, transferring it with the aircraft when sold",
+   "For 24 calendar months after the inspection, then it may be discarded",
+   "For 5 years after the inspection, then it may be discarded"
+  ],
+  "why": "91.417(b)(1): records of maintenance, preventive maintenance, alterations and of the 100-hour, annual and other inspections are kept until the work is repeated or superseded, or for 1 year after it is done. The 91.417(a)(2) status records (total time, life-limited parts, overhaul times, inspection status, ADs, major alteration forms) go with the aircraft when sold.",
+  "src": "14 CFR 91.417(a), (b)",
+  "loc": "cfr 91.417"
+ },
+ {
+  "id": "f2-045",
+  "topic": "docs",
+  "q": "Which maintenance records must be retained and transferred with the aircraft when it is sold (14 CFR 91.417)?",
+  "a": "Total time, life-limited parts, overhaul times, inspection and AD status",
+  "d": [
+   "Every work order and parts invoice since the airplane was manufactured",
+   "Only the most recent annual inspection entry and the W&B report",
+   "Records of all preventive maintenance done in the past 12 calendar months"
+  ],
+  "why": "91.417(a)(2) lists total time in service of the airframe, each engine and propeller; current status of life-limited parts; time since overhaul of items with required overhaul times; current inspection status; current AD status; and copies of Form 337s for major alterations. 91.417(b)(2) requires these to be transferred with the aircraft.",
+  "src": "14 CFR 91.417(a)(2), (b)(2)",
+  "loc": "cfr 91.417"
+ },
+ {
+  "id": "f2-046",
+  "topic": "docs",
+  "q": "For each applicable AD, what must the owner's AD status record show (14 CFR 91.417(a)(2)(v))?",
+  "a": "AD number and revision date, method of compliance, and next due if recurring",
+  "d": [
+   "The AD number and a mechanic's signature, but not the compliance method used",
+   "Only the compliance date and the airframe hours at compliance",
+   "The AD number, plus a full copy of the AD text kept in the aircraft"
+  ],
+  "why": "91.417(a)(2)(v): the current status of applicable ADs including, for each, the method of compliance, the AD number and revision date, and for a recurring AD the time and date when the next action is required. Under 91.403(a) the owner or operator is primarily responsible for AD compliance.",
+  "src": "14 CFR 91.417(a)(2)(v)",
+  "loc": "cfr 91.417"
+ },
+ {
+  "id": "f2-047",
+  "topic": "docs",
+  "q": "An inoperative item was deferred under 91.213(d). Under 14 CFR 91.405(c), by when must it be repaired, replaced, removed or inspected?",
+  "a": "At the next required inspection",
+  "d": [
+   "Within 10 days of the deferral",
+   "Within 30 days or 100 hours, whichever comes first",
+   "Before the next flight that carries passengers"
+  ],
+  "why": "91.405(c) requires the owner or operator to have any item permitted to be inoperative by 91.213(d)(2) repaired, replaced, removed or inspected at the next required inspection, and 91.405(d) to make sure the INOPERATIVE placard required by 43.11 is installed.",
+  "src": "14 CFR 91.405(c), (d)",
+  "loc": "cfr 91.405"
+ },
+ {
+  "id": "f2-048",
+  "topic": "docs",
+  "q": "After maintenance that may have appreciably changed the flight characteristics, what does 14 CFR 91.407(b) require before carrying passengers?",
+  "a": "A rated pilot (private or higher) flies an ops check and logs it in the records",
+  "d": [
+   "A mechanic taxi-tests the airplane and signs a return-to-service entry",
+   "An FAA inspector or designated examiner flies the airplane and approves it",
+   "The owner files an FAA Form 337 before the next passenger flight"
+  ],
+  "why": "91.407(b): an appropriately rated pilot with at least a private certificate flies the aircraft, makes an operational check of the work, and logs the flight in the aircraft records before anyone but crewmembers is carried. The flight isn't needed if ground tests or inspection show conclusively the characteristics weren't changed (91.407(c)). Any maintenance also needs return-to-service approval and a record entry (91.407(a)).",
+  "src": "14 CFR 91.407",
+  "loc": "cfr 91.407"
+ },
+ {
+  "id": "f2-049",
+  "topic": "docs",
+  "q": "Which task is listed as preventive maintenance in 14 CFR Part 43 Appendix A?",
+  "a": "Replacing bulbs, reflectors and lenses of position and landing lights",
+  "d": [
+   "Replacing a hydraulic hose connection in the landing gear system",
+   "Replacing a cowling when it requires removing the propeller",
+   "Swapping a tray-mounted transponder or autopilot unit in the panel"
+  ],
+  "why": "Appendix A(c)(17) lists bulbs, reflectors and lenses of position and landing lights. The list excludes hydraulic hose connections ((c)(21)), cowlings that need the propeller removed or flight controls disconnected ((c)(19)), and, among tray-mounted panel units, autopilots, transponders and DME ((c)(31)). Other common items: servicing struts, adding hydraulic fluid, spark plugs, batteries and tires.",
+  "src": "14 CFR Part 43 App A(c)",
+  "loc": "cfr 43 app A"
+ },
+ {
+  "id": "f2-050",
+  "topic": "docs",
+  "q": "After you do preventive maintenance as a pilot, what must the maintenance record entry include (14 CFR 43.9)?",
+  "a": "Description, date completed, your signature, certificate number and kind",
+  "d": [
+   "Description and date only; a pilot's signature isn't part of the entry",
+   "Description, date, and an A&P's countersignature and certificate number",
+   "Tach time and the serial numbers of parts used, with no signature required"
+  ],
+  "why": "43.9(a): a description of the work (or reference to acceptable data), the date completed, the name of the person who did it if different, and the signature, certificate number and kind of certificate of the person approving it. The signature is the return to service for that work; 43.7(f) lets a holder of at least a private certificate give it after preventive maintenance under 43.3(g).",
+  "src": "14 CFR 43.9(a) · 43.7(f)",
+  "loc": "cfr 43.9"
+ },
+ {
+  "id": "f2-051",
+  "topic": "docs",
+  "q": "VFR at 10,500 ft MSL over terrain at 8,500 ft MSL, outside any Class B or C and any Mode C veil. Is a Mode C transponder required by 91.215?",
+  "a": "No; airspace at and below 2,500 ft above the surface is excluded",
+  "d": [
+   "Yes; Mode C is required everywhere at and above 10,000 ft MSL",
+   "No; Mode C is required only at and above 12,500 ft MSL",
+   "No; Mode C is required only in Class A, B and C airspace"
+  ],
+  "why": "91.215(b)(5)(i) requires Mode C in the 48 states and DC at and above 10,000 ft MSL, excluding the airspace at and below 2,500 ft above the surface; here you are 2,000 ft AGL. It is also required in Class A, B and C, within 30 NM of the Appendix D Class B airports from the surface to 10,000 ft MSL, and above Class B or C up to 10,000 ft. ADS-B Out (91.225) uses the same exclusion.",
+  "src": "14 CFR 91.215(b) · 91.225(d)",
+  "loc": "cfr 91.215"
+ },
+ {
+  "id": "f2-052",
+  "topic": "docs",
+  "q": "Your transponder fails before departure and the route requires one. When may you ask ATC for a deviation to fly to a repair shop (91.215(d))?",
+  "a": "At any time",
+  "d": [
+   "At least 1 hour before the proposed flight",
+   "At least 24 hours before the proposed flight",
+   "Only after first landing at the nearest airport"
+  ],
+  "why": "91.215(d)(2): for an inoperative transponder, the request to fly to the destination (with stops) or to a place where repairs can be made may be made at any time. For an aircraft with no transponder at all, it must be made at least 1 hour before the proposed operation (91.215(d)(3)).",
+  "src": "14 CFR 91.215(d)",
+  "loc": "cfr 91.215"
+ },
+ {
+  "id": "f2-053",
+  "topic": "docs",
+  "q": "Around a primary Class B airport listed in Part 91 Appendix D, how far out is a Mode C transponder required, from the surface to 10,000 ft MSL?",
+  "a": "Within 30 NM",
+  "d": [
+   "Within 20 NM",
+   "Within 10 NM",
+   "Within 40 NM"
+  ],
+  "why": "91.215(b)(2): within 30 NM of an Appendix D, section 1 airport from the surface up to 10,000 ft MSL (the 'Mode C veil'), whether or not you're inside the Class B itself. 91.225(d)(2) applies the same area to ADS-B Out.",
+  "src": "14 CFR 91.215(b)(2)",
+  "loc": "cfr 91.215"
+ },
+ {
+  "id": "f2-054",
+  "topic": "docs",
+  "q": "Flying a Part 91 light twin IFR, who may determine that a passenger's portable electronic device won't interfere with navigation or communication?",
+  "a": "The pilot in command or other operator of the aircraft",
+  "d": [
+   "Only the device manufacturer, through an FAA approval",
+   "Only an avionics repair station, after a ground test",
+   "No one; PEDs are prohibited in Part 91 IFR flight"
+  ],
+  "why": "91.21 bans PEDs on air carrier aircraft and on any other U.S. aircraft operated under IFR, except voice recorders, hearing aids, pacemakers, electric shavers and devices the operator determines won't interfere; for Part 91 aircraft the PIC or other operator may make that determination (91.21(c)). The rule doesn't apply to Part 91 VFR flights.",
+  "src": "14 CFR 91.21",
+  "loc": "cfr 91.21"
+ },
+ {
+  "id": "f2-055",
+  "topic": "docs",
+  "q": "Over a congested area, what minimum altitude does 14 CFR 91.119 require, except when necessary for takeoff or landing?",
+  "a": "1,000 ft above the highest obstacle within 2,000 ft horizontally",
+  "d": [
+   "1,000 ft above the highest obstacle within 1,000 ft horizontally",
+   "500 ft above the highest obstacle within 2,000 ft horizontally",
+   "2,000 ft above the surface, regardless of obstacles nearby"
+  ],
+  "why": "91.119(b) applies over congested areas or open-air assemblies of persons. Elsewhere it's 500 ft above the surface, or 500 ft from any person, vessel, vehicle or structure over open water or sparsely populated areas (91.119(c)); and anywhere, an altitude allowing an emergency landing without undue hazard if a power unit fails (91.119(a)).",
+  "src": "14 CFR 91.119",
+  "loc": "cfr 91.119"
+ },
+ {
+  "id": "f2-056",
+  "topic": "docs",
+  "q": "A mechanic opens and reconnects a static line (not just the drain or alternate static valve). What does 14 CFR 91.411 require before IFR flight in controlled airspace?",
+  "a": "A static system test and inspection per Part 43 Appendix E",
+  "d": [
+   "Nothing, as long as the 24-month altimeter check is current",
+   "A pilot's ground check of the altimeter against field elevation",
+   "Only a logbook entry stating the line was reconnected"
+  ],
+  "why": "91.411(a)(2): except for use of the system drain and alternate static valves, after any opening and closing of the static pressure system it must be tested and inspected per Part 43 Appendix E paragraph (a) before IFR flight in controlled airspace. A certificated mechanic with an airframe rating may do the static system test (91.411(b)(3)).",
+  "src": "14 CFR 91.411(a)(2), (b)",
+  "loc": "cfr 91.411"
+ },
+ {
+  "id": "f2-057",
+  "topic": "docs",
+  "q": "Checking a VOR for IFR at a VOT or a designated ground checkpoint, what is the maximum permissible bearing error (91.171)?",
+  "a": "±4 degrees",
+  "d": [
+   "±6 degrees",
+   "±2 degrees",
+   "±10 degrees"
+  ],
+  "why": "91.171(b): ±4° for a VOT or designated surface checkpoint; ±6° for a designated airborne checkpoint or an in-flight check over a ground point on an airway radial; dual VORs checked against each other may differ by no more than 4° (91.171(c)). The person checking logs the date, place, bearing error and signature (91.171(d)).",
+  "src": "14 CFR 91.171(b)–(d)",
+  "loc": "cfr 91.171"
+ },
+ {
+  "id": "f2-058",
+  "topic": "env",
+  "q": "In a pressurized airplane above FL250, what supplemental oxygen does 14 CFR 91.211(b) require in addition to the normal rules?",
+  "a": "A 10-minute supply for each occupant, for a descent after depressurization",
+  "d": [
+   "A 30-minute supply for each occupant, for a descent after depressurization",
+   "A 10-minute supply for the flight crew only, for a descent after decompression",
+   "A quick-donning mask for one pilot, but no supply for the passengers"
+  ],
+  "why": "91.211(b)(1)(i): above FL250, at least a 10-minute supply for each occupant, beyond any oxygen required by 91.211(a), must be available for a descent made necessary by loss of pressurization. Above FL350, one pilot at the controls must wear and use a mask unless the quick-donning conditions are met (91.211(b)(1)(ii)).",
+  "src": "14 CFR 91.211(b)",
+  "loc": "cfr 91.211"
+ }
+]

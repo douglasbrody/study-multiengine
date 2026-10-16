@@ -136,7 +136,7 @@
    "Vent air carries them to the sumps as fuel is burned"
   ],
   "why": "Strainers trap moisture and sediment, which settle to the bottom of the strainer assembly because they are heavier than fuel. A sump is a low point in a fuel system or tank, which is why you drain there.",
-  "src": "OEG 2E-7 · FAA-H-8083-25",
+  "src": "OEG 2E-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 028"
  },
  {
@@ -150,7 +150,7 @@
    "It preheats the fuel so it vaporizes in the carburetor"
   ],
   "why": "The primer draws fuel from the tanks and sprays it straight into the cylinders. It helps most in cold weather, when there isn't enough heat to vaporize fuel in the carburetor.",
-  "src": "OEG 2E-8 · FAA-H-8083-25",
+  "src": "OEG 2E-8 · FAA-H-8083-25C ch 7",
   "loc": "oeg 029"
  },
  {
@@ -206,7 +206,7 @@
    "To supply fuel pressure when an engine-driven pump fails"
   ],
   "why": "In most twins crossfeed is an emergency procedure that lets the operating engine use the dead engine's fuel. Some models also permit it for routine fuel balancing; the Seneca I POH (2-10) lists both single-engine range and fuel balance. Follow your POH limits.",
-  "src": "OEG 2E-11 · FAA-H-8083-3",
+  "src": "OEG 2E-11 · FAA-H-8083-3C ch 13",
   "loc": "oeg 029"
  },
  {
@@ -234,7 +234,7 @@
    "That the crossfeed check required before every flight is done"
   ],
   "why": "Moving the selectors on the ground proves nothing beyond freedom of handle motion. Verifying crossfeed takes a complete functional check with each engine running on crossfeed.",
-  "src": "OEG 2E-12 · FAA-H-8083-3",
+  "src": "OEG 2E-12 · FAA-H-8083-3C ch 13",
   "loc": "oeg 029"
  },
  {
@@ -248,7 +248,7 @@
    "Both together, at 1,000 RPM, for at least 5 minutes"
   ],
   "why": "Running each engine on its crossfeed source at moderate power for at least a minute ensures fuel flow is truly established from that source, not just from fuel already in the lines.",
-  "src": "OEG 2E-13 · FAA-H-8083-3",
+  "src": "OEG 2E-13 · FAA-H-8083-3C ch 13",
   "loc": "oeg 029"
  },
  {
@@ -262,7 +262,7 @@
    "Take off promptly while the engines are still warmed up"
   ],
   "why": "Once the crossfeed check is done, select the main (takeoff) tanks again and give each engine a minute or more at moderate power, proving it is feeding normally from the tanks you will take off on.",
-  "src": "OEG 2E-13 · FAA-H-8083-3",
+  "src": "OEG 2E-13 · FAA-H-8083-3C ch 13",
   "loc": "oeg 029"
  },
  {
@@ -276,7 +276,7 @@
    "No, because crossfeed lines are sealed and can't collect contamination"
   ],
   "why": "A full check usually isn't needed before each flight. But crossfeed lines that sit unused tend to collect water and debris, so use crossfeed occasionally and drain its external drains on preflight.",
-  "src": "OEG 2E-14 · FAA-H-8083-3",
+  "src": "OEG 2E-14 · FAA-H-8083-3C ch 13",
   "loc": "oeg 029"
  },
  {
@@ -332,7 +332,7 @@
    "Lubricate, cool, drive the vacuum pump, and heat the cabin"
   ],
   "why": "Oil lubricates moving parts, cools by reducing friction and removing heat from the cylinders, seals between the cylinder walls and pistons, and carries contaminants away.",
-  "src": "OEG 2E-17 · FAA-H-8083-25",
+  "src": "OEG 2E-17 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -346,7 +346,7 @@
    "Dry sump is for carbureted engines; wet sump is for fuel-injected ones"
   ],
   "why": "A dry-sump engine stores its oil in a separate tank and pumps it through the engine; a wet-sump engine carries its oil in a sump built into the engine itself.",
-  "src": "OEG 2E-18 · FAA-H-8083-25",
+  "src": "OEG 2E-18 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -360,7 +360,7 @@
    "Outside air temperature (OAT)"
   ],
   "why": "Oil temperature lags and only indirectly reflects engine heating, though you can use it if it's all you have. CHT reads cylinder temperature directly and right away.",
-  "src": "OEG 2E-19 · FAA-H-8083-25",
+  "src": "OEG 2E-19 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -374,7 +374,7 @@
    "A very rich mixture setting"
   ],
   "why": "High readings can come from a plugged oil line, low oil quantity, a blocked oil cooler, or a faulty gauge. Unusually low readings can mean improper oil viscosity in cold weather.",
-  "src": "OEG 2E-20 · FAA-H-8083-25",
+  "src": "OEG 2E-20 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -388,7 +388,7 @@
    "A partially blocked oil cooler on that engine"
   ],
   "why": "Low oil quantity, a plugged line, and a blocked cooler all drive oil temperature up. A low reading in cold weather may point to oil of the wrong viscosity.",
-  "src": "OEG 2E-20 · FAA-H-8083-25",
+  "src": "OEG 2E-20 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -402,7 +402,7 @@
    "The hydraulic filter"
   ],
   "why": "A basic system has a reservoir, a pump (hand, electric, or engine-driven), a filter to keep fluid clean, a selector valve to direct flow, a relief valve for excess pressure, and an actuator.",
-  "src": "OEG 2E-21 · FAA-H-8083-25",
+  "src": "OEG 2E-21 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -416,7 +416,7 @@
    "To store the fluid supply for the pump"
   ],
   "why": "The relief valve gives the system an outlet when pressure gets too high. The selector valve directs flow, the filter cleans the fluid, and the reservoir holds it.",
-  "src": "OEG 2E-21 · FAA-H-8083-25",
+  "src": "OEG 2E-21 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -430,7 +430,7 @@
    "A sensor that commands the hydraulic selector valve"
   ],
   "why": "A servo is a piston working inside a cylinder: fluid pressure on the piston produces the force that moves a system such as the landing gear or a flight control.",
-  "src": "OEG 2E-22 · FAA-H-8083-25",
+  "src": "OEG 2E-22 · FAA-H-8083-25C ch 7",
   "loc": "oeg 030"
  },
  {
@@ -444,7 +444,7 @@
    "It keeps pressure from exceeding the relief valve setting"
   ],
   "why": "A single-acting servo applies fluid force in one direction; a double-acting servo works in both. The selector valve chooses the direction, which gear extension and retraction require.",
-  "src": "OEG 2E-23 · FAA-H-8083-25",
+  "src": "OEG 2E-23 · FAA-H-8083-25C ch 7",
   "loc": "oeg 031"
  },
  {
@@ -458,7 +458,7 @@
    "Mineral-based MIL-H-5606, dyed blue"
   ],
   "why": "MIL-H-5606 is mineral-based, smells like penetrating oil, and is dyed red. Always use the fluid your POH/AFM specifies.",
-  "src": "OEG 2E-24 · FAA-H-8083-25 · FAA-H-8083-31",
+  "src": "OEG 2E-24 · FAA-H-8083-25C ch 7 · FAA-H-8083-31",
   "loc": "oeg 031"
  },
  {
@@ -486,7 +486,7 @@
    "The fuel boost and transfer pumps"
   ],
   "why": "Not every twin has a hydraulic system. Those that do commonly use it for the landing gear, and a few for the flaps. Know how your system works and how it can fail.",
-  "src": "OEG 2E-25 · FAA-H-8083-25 · POH/AFM",
+  "src": "OEG 2E-25 · FAA-H-8083-25C ch 7 · POH/AFM",
   "loc": "oeg 031"
  },
  {
@@ -500,7 +500,7 @@
    "It can bring a completely dead battery back up in flight"
   ],
   "why": "Most DC generators can't carry the full load at low RPM, so the battery makes up the difference. An alternator produces AC that is converted to DC, and its output stays more constant over a wide RPM range.",
-  "src": "OEG 2F-1 · FAA-H-8083-25",
+  "src": "OEG 2F-1 · FAA-H-8083-25C ch 7",
   "loc": "oeg 031"
  },
  {
@@ -514,7 +514,7 @@
    "The generator easily carries the load because the demand is so low"
   ],
   "why": "DC generators often can't produce enough current at low RPM, so the battery supplies the shortfall and can run down. Alternators avoid this by producing adequate output even at slower engine speeds.",
-  "src": "OEG 2F-1 · FAA-H-8083-25",
+  "src": "OEG 2F-1 · FAA-H-8083-25C ch 7",
   "loc": "oeg 031"
  },
  {
@@ -528,7 +528,7 @@
    "To trip a failed alternator off the bus automatically"
   ],
   "why": "Paralleling circuitry matches the output of each engine's alternator or generator so the load is split equally rather than one unit carrying most of it.",
-  "src": "OEG 2F-2 · FAA-H-8083-3",
+  "src": "OEG 2F-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 031"
  },
  {
@@ -542,7 +542,7 @@
    "Automatically balancing the load between both alternators"
   ],
   "why": "When one unit fails, the remaining one may not support the full load, so the pilot turns off nonessential equipment. The POH/AFM gives the system description and limits.",
-  "src": "OEG 2F-3 · FAA-H-8083-3",
+  "src": "OEG 2F-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 031"
  },
  {
@@ -556,7 +556,7 @@
    "Increase RPM so the remaining alternator can carry the entire load"
   ],
   "why": "Normally the failed unit is isolated and the other powers the system, but you may have to shed load: backup radios, unneeded interior or exterior lights, and deice equipment if it isn't needed. Watch the electrical load indications.",
-  "src": "OEG 2F-4 · FAA-H-8083-3",
+  "src": "OEG 2F-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 031"
  },
  {
@@ -570,7 +570,7 @@
    "Breakers trip at a lower current, so they protect better"
   ],
   "why": "Both protect circuits and equipment from electrical overload. A breaker can be manually reset rather than replaced, and placards at the panel identify each circuit by name and amperage limit.",
-  "src": "OEG 2F-5 · FAA-H-8083-25",
+  "src": "OEG 2F-5 · FAA-H-8083-25C ch 7",
   "loc": "oeg 031"
  },
  {
@@ -598,7 +598,7 @@
    "The voltage regulator is allowing an overcharge"
   ],
   "why": "A plus indication shows the battery's charging rate; a minus indication means the battery is supplying more than is being put back. The ammeter also shows whether the alternator/generator is producing enough power.",
-  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "src": "OEG 2F-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  },
  {
@@ -612,7 +612,7 @@
    "A tripped avionics circuit breaker"
   ],
   "why": "A full-scale minus deflection points to an alternator/generator malfunction. A full-scale positive deflection points to a regulator malfunction.",
-  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "src": "OEG 2F-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  },
  {
@@ -626,7 +626,7 @@
    "An electrical load beyond the alternator's capacity"
   ],
   "why": "A pegged positive reading means the regulator is letting excessive charge through. A pegged negative reading means the alternator/generator has failed, and an excessive load shows as a discharge.",
-  "src": "OEG 2F-7 · FAA-H-8083-25",
+  "src": "OEG 2F-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  },
  {
@@ -640,21 +640,21 @@
    "The alternator's maximum available output"
   ],
   "why": "A loadmeter's scale starts at zero and shows the load on the alternator/generator as a percentage of its capacity, from accessories plus battery charging. With everything off, only battery charging current remains.",
-  "src": "OEG 2F-8 · FAA-H-8083-25",
+  "src": "OEG 2F-8 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  },
  {
   "id": "o4-047",
   "topic": "elec",
-  "q": "In a 12-volt aircraft electrical system, about what voltage should the alternator system put out, and why?",
+  "q": "With a 12-volt battery, about what voltage should the aircraft's alternator system put out, and why?",
   "a": "About 14 volts, so it stays above battery voltage and charges it",
   "d": [
    "About 12 volts, so it exactly matches the battery voltage",
    "About 24 volts, so it can charge two 12-volt batteries wired in series",
    "About 10 volts, so the battery is never overcharged"
   ],
-  "why": "The voltage regulator stabilizes alternator/generator output to control the battery's charge rate. Output must be higher than battery voltage; a 12-volt battery is fed by roughly 14 volts.",
-  "src": "OEG 2F-9 · FAA-H-8083-25",
+  "why": "The voltage regulator stabilizes alternator/generator output to control the battery's charge rate. Output must be higher than battery voltage: a 12-volt battery is fed by roughly 14 volts, which is why the FAA calls it a 14-volt system.",
+  "src": "OEG 2F-9 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  },
  {
@@ -990,7 +990,7 @@
    "Envelope protection and yaw damping"
   ],
   "why": "Altitude and heading hold are the most common. More advanced systems add vertical speed and/or indicated airspeed hold, and most autopilots can also track navaids.",
-  "src": "OEG 2G-15 · FAA-H-8083-25",
+  "src": "OEG 2G-15 · FAA-H-8083-25C ch 6",
   "loc": "oeg 034"
  },
  {
@@ -1004,7 +1004,7 @@
    "A pitot tube blockage affecting the airspeed"
   ],
   "why": "With vacuum- or pressure-driven gyros, a pneumatic failure lets the gyros spin down and wander. If they feed the autopilot or flight director, the result is erratic movement or false indications.",
-  "src": "OEG 2G-16 · FAA-H-8083-25",
+  "src": "OEG 2G-16 · FAA-H-8083-25C ch 8",
   "loc": "oeg 034"
  },
  {
@@ -1018,7 +1018,7 @@
    "A timer that disengages the autopilot after a set period"
   ],
   "why": "Autopilots normally have a disconnect safety feature that can drop the system off automatically or on the pilot's command. Systems vary widely, so learn the disconnect procedure in your AFM/POH autopilot supplement.",
-  "src": "OEG 2G-17 · FAA-H-8083-25",
+  "src": "OEG 2G-17 · FAA-H-8083-25C ch 6",
   "loc": "oeg 035"
  },
  {
@@ -1032,7 +1032,7 @@
    "Yes, but only in roll; the pitch servo cannot be overpowered"
   ],
   "why": "Most autopilots can be manually overridden. Check your POH/AFM supplement for your system's specifics.",
-  "src": "OEG 2G-18 · FAA-H-8083-25",
+  "src": "OEG 2G-18 · FAA-H-8083-25C ch 6",
   "loc": "oeg 035"
  },
  {
@@ -1074,7 +1074,7 @@
    "Moves the elevator to damp out pitch oscillations"
   ],
   "why": "A yaw damper is a servo that drives the rudder in response to a sensed yaw rate, minimizing turbulence-induced motion about the vertical axis. Most can be engaged independently of the autopilot.",
-  "src": "OEG 2G-21 · FAA-H-8083-3",
+  "src": "OEG 2G-21 · FAA-H-8083-3C ch 13",
   "loc": "oeg 035"
  },
  {
@@ -1088,7 +1088,7 @@
    "During climbs and descents"
   ],
   "why": "Yaw dampers should be off for takeoff and landing, and there may be added restrictions during single-engine operation. Most work independently of the autopilot, so autopilot off doesn't mean yaw damper off.",
-  "src": "OEG 2G-21 · FAA-H-8083-3",
+  "src": "OEG 2G-21 · FAA-H-8083-3C ch 13",
   "loc": "oeg 035"
  },
  {
@@ -1116,7 +1116,7 @@
    "To open a circuit when its current exceeds the placarded limit"
   ],
   "why": "The regulator holds generator/alternator output steady, slightly above battery voltage, which sets how fast the battery charges. Rectifiers convert AC to DC, paralleling circuitry shares load, and breakers or fuses protect circuits.",
-  "src": "OEG 2F-9 · FAA-H-8083-25",
+  "src": "OEG 2F-9 · FAA-H-8083-25C ch 7",
   "loc": "oeg 032"
  }
 ]

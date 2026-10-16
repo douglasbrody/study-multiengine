@@ -10,7 +10,7 @@
    "Pitot tube and pitot heater; aneroid capsule and calibrated leak"
   ],
   "why": "The system has two halves: one senses ram (impact) pressure, the other senses undisturbed outside (static) pressure. Vacuum lines belong to the gyro instrument system, not the pitot-static system.",
-  "src": "OEG 2H-1 · FAA-H-8083-25",
+  "src": "OEG 2H-1 · FAA-H-8083-25C ch 8",
   "loc": "oeg 035"
  },
  {
@@ -24,7 +24,7 @@
    "Airspeed indicator, turn coordinator, and altimeter"
   ],
   "why": "The airspeed indicator, altimeter and VSI are pressure instruments. The attitude indicator, heading indicator and turn coordinator are gyroscopic and run on vacuum/pressure or electric power.",
-  "src": "OEG 2H-2 · FAA-H-8083-25",
+  "src": "OEG 2H-2 · FAA-H-8083-25C ch 8",
   "loc": "oeg 035"
  },
  {
@@ -38,7 +38,7 @@
    "Altimeter only; the VSI and airspeed indicator read normally"
   ],
   "why": "All three pitot-static instruments use static pressure. The altimeter and VSI use only static pressure, and the airspeed indicator compares pitot pressure with static pressure, so a blocked static port corrupts it too.",
-  "src": "OEG 2H-2, 2H-4 · FAA-H-8083-25",
+  "src": "OEG 2H-2, 2H-4 · FAA-H-8083-25C ch 8",
   "loc": "oeg 035"
  },
  {
@@ -52,7 +52,7 @@
    "Engine bleed air; it operates automatically in icing"
   ],
   "why": "Many airplanes have an electrically heated pitot tube for flight in visible moisture. The specific procedures for pitot heat come from the airplane's AFM/POH.",
-  "src": "OEG 2H-3 · FAA-H-8083-25",
+  "src": "OEG 2H-3 · FAA-H-8083-25C ch 8",
   "loc": "oeg 035"
  },
  {
@@ -66,7 +66,7 @@
    "A pressure gauge comparing static pressure with a sealed 29.92 inHg reference"
   ],
   "why": "The airspeed indicator shows the difference between impact (pitot) pressure and undisturbed static pressure, calibrated in mph, knots, or both. A calibrated leak is how a VSI works; sealed aneroids are the altimeter's element.",
-  "src": "OEG 2H-4 · FAA-H-8083-25",
+  "src": "OEG 2H-4 · FAA-H-8083-25C ch 8",
   "loc": "oeg 035"
  },
  {
@@ -94,7 +94,7 @@
    "From the pitot tube's drain hole"
   ],
   "why": "Most non-pressurized airplanes plumb the alternate static source to the cabin. A non-pressurized baggage compartment is the usual location in pressurized airplanes.",
-  "src": "OEG 2H-6 · FAA-H-8083-3",
+  "src": "OEG 2H-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 036"
  },
  {
@@ -108,7 +108,7 @@
    "To the engine induction air plenum"
   ],
   "why": "Pressurized cabin air is above outside pressure, so it would give false static readings. If an airplane's alternate source is inside the pressurized cabin, you may have to depressurize (and descend to a safe unpressurized altitude) to get correct indications.",
-  "src": "OEG 2H-6 · FAA-H-8083-3",
+  "src": "OEG 2H-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 036"
  },
  {
@@ -122,7 +122,7 @@
    "A mechanic must connect it; it can't be selected in flight"
   ],
   "why": "The alternate static source is a manual selection: the pilot opens a valve or fitting in the flight deck. Pitot heat protects the pitot tube (and heated static ports where fitted) but does not select alternate static.",
-  "src": "OEG 2H-6 · FAA-H-8083-3",
+  "src": "OEG 2H-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 036"
  },
  {
@@ -136,7 +136,7 @@
    "No change, because cabin pressure equals outside static pressure"
   ],
   "why": "Cabin static pressure is usually a little lower than outside static pressure. The altimeter reads that as higher altitude, the airspeed indicator sees a bigger pitot-static difference, and the VSI briefly shows a climb. Check the POH for your airplane's corrections.",
-  "src": "OEG 2H-7 · FAA-H-8083-25",
+  "src": "OEG 2H-7 · FAA-H-8083-25C ch 8",
   "loc": "oeg 036"
  },
  {
@@ -150,7 +150,7 @@
    "The alternate line contains a restrictor that delays readings"
   ],
   "why": "Airflow around the fuselage tends to lower the pressure inside an unpressurized cabin. The altimeter interprets lower pressure as greater altitude, and the same effect makes airspeed read high.",
-  "src": "OEG 2H-7 · FAA-H-8083-25",
+  "src": "OEG 2H-7 · FAA-H-8083-25C ch 8",
   "loc": "oeg 036"
  },
  {
@@ -192,7 +192,7 @@
    "Diaphragm is sealed and evacuated; case gets static pressure directly"
   ],
   "why": "When altitude changes, pressure inside the diaphragm changes at once while case pressure lags behind through the restricted orifice. The VSI displays that pressure difference as a rate of climb or descent.",
-  "src": "OEG 2H-9 · FAA-H-8083-25",
+  "src": "OEG 2H-9 · FAA-H-8083-25C ch 8",
   "loc": "oeg 036"
  },
  {
@@ -206,7 +206,7 @@
    "Turn coordinator, vertical speed indicator, and altimeter"
   ],
   "why": "Attitude and heading indicators are the classic gyro instruments, and some turn coordinators are gyroscopic too. Many modern airplanes no longer use vacuum gyros, so know which system your airplane has.",
-  "src": "OEG 2H-10 · FAA-H-8083-25",
+  "src": "OEG 2H-10 · FAA-H-8083-25C ch 8",
   "loc": "oeg 036"
  },
  {
@@ -248,7 +248,7 @@
    "A small electric motor in the case spins the rotor directly"
   ],
   "why": "Suction draws air across the rotor's vanes so it spins very fast, the way water turns a waterwheel. A common vacuum source is a vane-type pump driven by the engine and mounted on its accessory case.",
-  "src": "OEG 2H-12 · FAA-H-8083-25",
+  "src": "OEG 2H-12 · FAA-H-8083-25C ch 8",
   "loc": "oeg 037"
  },
  {
@@ -262,7 +262,7 @@
    "About 15 to 20 inHg"
   ],
   "why": "Installations differ, but the typical requirement is roughly 4.5 to 5.5 inHg of suction. Use the operating range in your own airplane's POH.",
-  "src": "OEG 2H-12 · FAA-H-8083-25",
+  "src": "OEG 2H-12 · FAA-H-8083-25C ch 8",
   "loc": "oeg 037"
  },
  {
@@ -276,7 +276,7 @@
    "Lower manifold pressure on the engine that drives the failed pump"
   ],
   "why": "A vacuum (suction) gauge marked with the normal range is generally provided, and some airplanes also have a light that comes on when vacuum drops below the acceptable level. A red X is how electronic displays flag a failed attitude source.",
-  "src": "OEG 2H-13 · FAA-H-8083-25",
+  "src": "OEG 2H-13 · FAA-H-8083-25C ch 8",
   "loc": "oeg 037"
  },
  {
@@ -402,7 +402,7 @@
    "A heat exchanger that uses hot engine oil to warm the cabin"
   ],
   "why": "It is essentially a small gasoline-fired furnace that warms air for the cabin and for windshield defogging. Most are thermostat-controlled and carry their own hour meter for maintenance tracking.",
-  "src": "OEG 2I-4 · FAA-H-8083-3",
+  "src": "OEG 2I-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 038"
  },
  {
@@ -416,7 +416,7 @@
    "To record overheat events for the mechanic"
   ],
   "why": "A separate meter records how long the heater itself has run, so heater maintenance can be based on its own time in service rather than engine or airframe time.",
-  "src": "OEG 2I-4 · FAA-H-8083-3",
+  "src": "OEG 2I-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 038"
  },
  {
@@ -444,7 +444,7 @@
    "No cool-down in flight; 30 seconds of fan on the ground"
   ],
   "why": "Typical heaters need at least 15 seconds of outside airflow through the unit in flight, or at least 2 minutes of ventilation fan on the ground. Skipping the cool-down usually trips the thermal (overheat) switch.",
-  "src": "OEG 2I-6 · FAA-H-8083-3",
+  "src": "OEG 2I-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 038"
  },
  {
@@ -458,7 +458,7 @@
    "The thermostat resets to its lowest setting for the next flight"
   ],
   "why": "On the ground the fan should run about 2 minutes after shutoff. Without that cool-down, residual heat usually trips the thermal switch, and the heater stays inoperative until the switch is reset.",
-  "src": "OEG 2I-6 · FAA-H-8083-3",
+  "src": "OEG 2I-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 038"
  },
  {
@@ -514,7 +514,7 @@
    "Only below 10,000 feet MSL with all ice protection switched on"
   ],
   "why": "Ice protection equipment, however complete it looks, doesn't by itself mean the airplane is certificated for icing. The AFM/POH, placards and manufacturer determine approval; an airplane certificated for it is FIKI-approved.",
-  "src": "OEG 2J-1 · FAA-H-8083-3",
+  "src": "OEG 2J-1 · FAA-H-8083-3C ch 13",
   "loc": "oeg 038"
  },
  {
@@ -528,7 +528,7 @@
    "Both remove ice, but anti-icing uses fluid and deicing uses heat"
   ],
   "why": "Anti-icing equipment keeps ice off protected surfaces to begin with (pitot heat, prop heat). Deicing equipment, such as pneumatic boots, sheds ice that has already accumulated.",
-  "src": "OEG 2J-2, 2J-4 · FAA-H-8083-3",
+  "src": "OEG 2J-2, 2J-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -542,7 +542,7 @@
    "Pitot heat, wing deice boots, alternate static, prop alcohol slingers"
   ],
   "why": "Typical anti-icing items are heated pitot tubes, heated or non-icing static ports and fuel vents, prop electrothermal boots or alcohol slingers, windshield alcohol or electric heat, defoggers, and heated stall warning lift detectors. Pneumatic wing and tail boots are deicing equipment.",
-  "src": "OEG 2J-2 · FAA-H-8083-3",
+  "src": "OEG 2J-2 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -556,7 +556,7 @@
    "When the airspeed begins to decay in the climb"
   ],
   "why": "Anti-icing equipment works by stopping ice before it forms, so it is most effective switched on before you fly into suspected icing (visible moisture near freezing), unless the POH/AFM says otherwise. Waiting for ice to appear defeats its purpose.",
-  "src": "OEG 2J-3 · FAA-H-8083-3",
+  "src": "OEG 2J-3 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -586,7 +586,7 @@
    "Engine induction inlets, fuel tank vents, and antennas"
   ],
   "why": "Surface deicing commonly protects the leading edges of both the wing and the tail (vertical and horizontal), usually with inflatable boots or alcohol-based fluid and occasionally with heated surfaces. Pitot tubes, static ports and stall warning detectors are protected by anti-icing heat instead.",
-  "src": "OEG 2J-4 · FAA-H-8083-3",
+  "src": "OEG 2J-4 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -600,7 +600,7 @@
    "They inflate with hydraulic fluid, then drain back to the reservoir"
   ],
   "why": "When the pilot activates them, air from the pneumatic pumps inflates the boots for a few seconds and cracks off the ice; vacuum then pulls them back flat. The pilot watches the ice and cycles them as the POH/AFM directs.",
-  "src": "OEG 2J-5 · FAA-H-8083-3",
+  "src": "OEG 2J-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -614,7 +614,7 @@
    "They're built to protect the propellers, not the wings or tail"
   ],
   "why": "Pneumatic boots crack off ice that has already accumulated on the wing and tail leading edges; they don't use heat and don't prevent ice from forming. The pilot watches the buildup and cycles them as the POH/AFM directs.",
-  "src": "OEG 2J-5 · FAA-H-8083-3",
+  "src": "OEG 2J-5 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -628,7 +628,7 @@
    "A second alternator, a propeller synchrophaser, and windshield wipers"
   ],
   "why": "Ice can block the normal induction and static sources and damage antennas, so icing-capable airplanes carry an alternate induction air source, an alternate static source, and ice-tolerant antennas.",
-  "src": "OEG 2J-6 · FAA-H-8083-3",
+  "src": "OEG 2J-6 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -642,7 +642,7 @@
    "Fuel vent icing; switch to the opposite tank and boost pump on"
   ],
   "why": "With a constant-speed prop the governor holds RPM, so ice blocking the normal induction source first shows up as lost manifold pressure. Select alternate air on a fuel-injected engine (carb heat if carbureted); some injected engines switch automatically.",
-  "src": "OEG 2J-7 · FAA-H-8083-3",
+  "src": "OEG 2J-7 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -656,7 +656,7 @@
    "A drop in oil pressure"
   ],
   "why": "With a fixed-pitch prop, restricted induction airflow reduces power and RPM falls. With a constant-speed prop the governor holds RPM, so the loss appears as lower manifold pressure instead.",
-  "src": "OEG 2J-7 · FAA-H-8083-3",
+  "src": "OEG 2J-7 · FAA-H-8083-3C ch 13",
   "loc": "oeg 039"
  },
  {
@@ -684,7 +684,7 @@
    "Keep it engaged but turn off the boots to reduce servo loads"
   ],
   "why": "Unless the POH/AFM recommends otherwise, the autopilot shouldn't be used in icing. It quietly trims out the changes ice causes, so the pilot may not notice ice building to a dangerous level.",
-  "src": "OEG 2J-9 · FAA-H-8083-3",
+  "src": "OEG 2J-9 · FAA-H-8083-3C ch 13",
   "loc": "oeg 040"
  },
  {
@@ -754,7 +754,7 @@
    "Continuous-flow, rebreather-bag, chemical candle, electrical pulse-demand"
   ],
   "why": "The regulator-based types are diluter-demand, pressure-demand, continuous-flow and electrical pulse-demand. Gaseous, liquid, chemical candles and molecular sieve generators are storage methods, not regulator types.",
-  "src": "OEG 2K-3 · FAA-H-8083-25",
+  "src": "OEG 2K-3 · FAA-H-8083-25C ch 7",
   "loc": "oeg 040"
  },
  {
@@ -768,7 +768,7 @@
    "5,000 to 6,000 psi"
   ],
   "why": "Aircraft oxygen is usually kept in high-pressure containers at 1,800 to 2,200 psi. Portable equipment typically consists of the container, a regulator, a mask outlet and a pressure gauge.",
-  "src": "OEG 2K-4 · FAA-H-8083-25",
+  "src": "OEG 2K-4 · FAA-H-8083-25C ch 7",
   "loc": "oeg 040"
  },
  {
@@ -779,10 +779,10 @@
   "d": [
    "Supplies oxygen under positive pressure; safe above 40,000 ft",
    "Flows pure oxygen steadily into a rebreather bag; safe to 25,000 ft",
-   "Pulses oxygen only on inhalation; safe to about 18,000 ft"
+   "Pulses oxygen from a battery-powered unit; safe to about 18,000 ft"
   ],
-  "why": "A diluter-demand regulator mixes oxygen with air to keep oxygen partial pressure constant as altitude changes, using a tight-sealing demand mask. It is safe up to 40,000 ft; positive-pressure delivery is the pressure-demand system.",
-  "src": "OEG 2K-5 · FAA-H-8083-25",
+  "why": "A diluter-demand regulator supplies oxygen only when you inhale and mixes it with cabin air according to altitude (up to 100 percent oxygen), using a tight-sealing demand mask. It is safe up to about 40,000 ft; positive-pressure delivery is the pressure-demand system.",
+  "src": "OEG 2K-5 · FAA-H-8083-25C ch 7",
   "loc": "oeg 040"
  },
  {
@@ -792,25 +792,25 @@
   "a": "It delivers oxygen under positive pressure above about 34,000 ft cabin altitude",
   "d": [
    "It mixes more cabin air with oxygen above about 34,000 ft cabin altitude",
-   "It delivers oxygen only during inhalation, below about 34,000 ft cabin altitude",
+   "It delivers oxygen in brief electrical pulses above about 34,000 ft cabin altitude",
    "It needs no tight mask seal, since oxygen flow is continuous at all altitudes"
   ],
-  "why": "Above about 34,000 ft cabin altitude the regulator supplies oxygen to the mask under pressure, which pressurizes the user's lungs. That positive pressure is what makes pressure-demand systems safe above 40,000 ft.",
-  "src": "OEG 2K-6 · FAA-H-8083-25",
+  "why": "Above about 34,000 ft cabin altitude the regulator supplies oxygen to the mask under pressure, which pressurizes the user's lungs; below that it works like a diluter-demand system. That positive pressure is what makes pressure-demand systems safe above 40,000 ft.",
+  "src": "OEG 2K-6 · FAA-H-8083-25C ch 7",
   "loc": "oeg 040"
  },
  {
   "id": "o5-058",
   "topic": "env",
   "q": "How does a continuous-flow oxygen system with a rebreather bag work, and where is it mainly used?",
-  "a": "Constant flow into a bag that mixes it with exhaled gas; airline passengers",
+  "a": "Steady flow fills a reservoir bag while you exhale; airline passengers",
   "d": [
    "Oxygen delivered only during inhalation; flight crews of light twins",
    "Oxygen delivered under positive pressure to the mask; military aircrews",
    "Oxygen diluted with cabin air on each demand; airline flight crews"
   ],
-  "why": "A continuous-flow system supplies a constant flow of pure oxygen into a rebreather bag, where it mixes with exhaled gases to give a healthy oxygen/air mix at the mask. It is used mainly in airline passenger cabins.",
-  "src": "OEG 2K-7 · FAA-H-8083-25",
+  "why": "Oxygen flows continuously into the mask's reservoir (rebreather) bag, which collects it while you exhale so more is available on the next inhalation; cabin air is added once the bag empties, and exhaled air goes to the cabin. These systems are usually provided for passengers, mainly in airline cabins. The OEG describes the bag as mixing oxygen with exhaled gas, but the current PHAK says exhaled air is released to the cabin.",
+  "src": "OEG 2K-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -824,7 +824,7 @@
    "It stores the oxygen as a liquid, so each cylinder holds much more"
   ],
   "why": "The unit detects the start of each inhalation and releases oxygen then, so nothing is wasted during the rest of the breathing cycle.",
-  "src": "OEG 2K-8 · FAA-H-8083-25",
+  "src": "OEG 2K-8 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -838,7 +838,7 @@
    "A cabin altitude switch opens a second oxygen cylinder"
   ],
   "why": "Most pulse-demand systems have a built-in barometer that automatically increases the amount of oxygen in each pulse as altitude increases.",
-  "src": "OEG 2K-8 · FAA-H-8083-25",
+  "src": "OEG 2K-8 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -908,7 +908,7 @@
    "The cabin, flight compartment, and engine nacelles"
   ],
   "why": "A typical system seals the cabin, flight compartment and baggage compartments into one unit that can hold air at a higher pressure than outside.",
-  "src": "OEG 2L-1 · FAA-H-8083-25",
+  "src": "OEG 2L-1 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -922,7 +922,7 @@
    "Ram air trapped by closing the outflow valve, raising cabin pressure"
   ],
   "why": "Piston airplanes may take air from each engine's turbocharger through a sonic venturi that limits flow. Turbine airplanes use compressor bleed air, and some older turbine models used superchargers.",
-  "src": "OEG 2L-2 · FAA-H-8083-25",
+  "src": "OEG 2L-2 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -936,7 +936,7 @@
    "About 12,500 feet"
   ],
   "why": "Roughly 8,000 ft cabin altitude at the maximum design cruising altitude is typical. That keeps cabin altitude from changing abruptly while still letting air flow through the cabin at a reasonable rate.",
-  "src": "OEG 2L-3 · FAA-H-8083-25",
+  "src": "OEG 2L-3 · FAA-H-8083-25C ch 7",
   "loc": "oeg 041"
  },
  {
@@ -950,7 +950,7 @@
    "The alternate static source has been left open"
   ],
   "why": "A system that can't hold about 8,000 ft or lower at or below its maximum design cruising altitude most likely has a leak or isn't producing enough pressure.",
-  "src": "OEG 2L-3 · FAA-H-8083-25",
+  "src": "OEG 2L-3 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -964,7 +964,7 @@
    "The highest altitude at which the cabin can stay pressurized"
   ],
   "why": "Cabin altitude states the pressure inside the cabin as the altitude that has that same pressure. The pressure difference between cabin and outside is the differential pressure.",
-  "src": "OEG 2L-4 · FAA-H-8083-25",
+  "src": "OEG 2L-4 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -978,7 +978,7 @@
    "The difference between the two engines' turbocharger outputs"
   ],
   "why": "In general it is the pressure difference across a wall; in pressurization systems it is cabin pressure compared with outside atmospheric pressure.",
-  "src": "OEG 2L-5 · FAA-H-8083-25",
+  "src": "OEG 2L-5 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -992,7 +992,7 @@
    "Hyperventilation"
   ],
   "why": "Decompression at altitude exposes everyone to very low pressure, so hypoxia is the main threat and oxygen must be used quickly to avoid unconsciousness. Evolved gas decompression sickness is a further risk.",
-  "src": "OEG 2L-6 · FAA-H-8083-25",
+  "src": "OEG 2L-6 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -1006,7 +1006,7 @@
    "Motion sickness from turbulence"
   ],
   "why": "A rapid loss of cabin pressure can let dissolved gas come out of solution in the body (evolved gas decompression sickness), in addition to the hypoxia threat.",
-  "src": "OEG 2L-6 · FAA-H-8083-25",
+  "src": "OEG 2L-6 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -1020,7 +1020,7 @@
    "Hold altitude, troubleshoot, then use oxygen if the cabin stays high"
   ],
   "why": "Using oxygen promptly keeps everyone conscious, and an emergency descent (if terrain allows) brings the airplane down to where hypoxia stops being a threat. Follow the AFM/POH for the airplane's own procedure.",
-  "src": "OEG 2L-6, 2L-7 · FAA-H-8083-25",
+  "src": "OEG 2L-6, 2L-7 · FAA-H-8083-25C ch 7",
   "loc": "oeg 042"
  },
  {
@@ -1034,7 +1034,7 @@
    "A container, chlorate candle, filter, and nasal cannula"
   ],
   "why": "A typical portable setup is a container, a regulator, a mask outlet and a pressure gauge. The oxygen itself is normally held in high-pressure containers at about 1,800 to 2,200 psi.",
-  "src": "OEG 2K-4 · FAA-H-8083-25",
+  "src": "OEG 2K-4 · FAA-H-8083-25C ch 7",
   "loc": "oeg 040"
  },
  {

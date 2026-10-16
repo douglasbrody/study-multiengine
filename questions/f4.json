@@ -1,0 +1,520 @@
+[
+ {
+  "id": "f4-001",
+  "topic": "acs",
+  "q": "A private pilot with an ASEL rating adds AMEL. Per the ACS add-on table, which Area IV takeoff and landing tasks are required?",
+  "a": "Normal and short-field takeoffs and landings only",
+  "d": [
+   "Normal and short-field, plus the go-around/rejected landing",
+   "Normal, soft-field, and short-field takeoffs and landings",
+   "Normal takeoff and landing, plus the go-around only"
+  ],
+  "why": "For an ASEL holder the table lists Area IV Tasks A, B, E and F: normal and short-field takeoff/climb and approach/landing. The go-around (IV.N) isn't on the required list, though the evaluator may test it. The Commercial add-on table lists the same four.",
+  "src": "Private ACS App 1 (AMEL add-on table) · Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-pvt p80 · acs-com p79"
+ },
+ {
+  "id": "f4-002",
+  "topic": "acs",
+  "q": "Adding AMEL to a Private or Commercial certificate that has ASEL, which Area IX Emergency Operations tasks does the ACS table require?",
+  "a": "Engine failure before Vmc, after liftoff, and OEI approach/landing",
+  "d": [
+   "Emergency descent plus engine failure after liftoff and OEI landing",
+   "Emergency descent, systems malfunctions, and emergency equipment",
+   "Engine failure after liftoff and the OEI approach/landing only"
+  ],
+  "why": "Both add-on tables list IX.E (engine failure before Vmc), IX.F (after liftoff) and IX.G (approach and landing with an inoperative engine) for an ASEL holder. The emergency descent (IX.A) is not on the add-on list, though the evaluator may include it.",
+  "src": "Private ACS App 1 (AMEL add-on table) · Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-pvt p80 · acs-com p79"
+ },
+ {
+  "id": "f4-003",
+  "topic": "acs",
+  "q": "On a multiengine add-on for a single-engine land pilot (Private or Commercial), which Area of Operation does the ACS table not require at all?",
+  "a": "Navigation",
+  "d": [
+   "Slow flight and stalls",
+   "Performance maneuvers",
+   "Preflight procedures"
+  ],
+  "why": "Area VI Navigation is 'None' at both levels, as are Areas III and VIII (and Private XI and XII, Commercial XI). Slow flight and stalls is 'All', Area V requires steep turns, and Area II requires preflight assessment, flight deck management, engine starting, taxiing and the before-takeoff check.",
+  "src": "Private ACS App 1 (AMEL add-on table) · Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-pvt p80 · acs-com p79"
+ },
+ {
+  "id": "f4-004",
+  "topic": "acs",
+  "q": "A commercial ASEL pilot adds AMEL. Which Commercial ACS Area V performance maneuvers will the evaluator require?",
+  "a": "Steep turns only",
+  "d": [
+   "Steep turns and chandelles",
+   "Chandelles and lazy eights",
+   "Steep turns and eights on pylons"
+  ],
+  "why": "The Commercial ACS says that for multiengine applicants only Area V Task A, steep turns (about 50° bank), is required, and the add-on table also lists only V.A. Chandelles, lazy eights, steep spirals and eights on pylons are single-engine tasks.",
+  "src": "Commercial ACS CA.V.A (App 3) · Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-com p85 · acs-com p79"
+ },
+ {
+  "id": "f4-005",
+  "topic": "acs",
+  "q": "A commercial ASEL pilot adds AMEL. Per the ACS add-on table, which Area VIII High-Altitude Operations tasks are required?",
+  "a": "None",
+  "d": [
+   "Supplemental oxygen only",
+   "Oxygen and pressurization",
+   "Pressurization, if equipped"
+  ],
+  "why": "The Commercial AMEL add-on table shows 'None' for Area VIII when the applicant holds ASEL, so the oxygen and pressurization tasks aren't required, though the evaluator may still ask. An initial Commercial test includes Area VIII.",
+  "src": "Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-com p79"
+ },
+ {
+  "id": "f4-006",
+  "topic": "acs",
+  "q": "On a multiengine add-on (ASEL held), which two Area I Preflight Preparation tasks does the ACS table require?",
+  "a": "Performance and limitations; operation of systems",
+  "d": [
+   "Weather information; cross-country flight planning",
+   "Pilot qualifications; airworthiness requirements",
+   "National airspace system; human factors"
+  ],
+  "why": "Both add-on tables list Area I Tasks F and G for an ASEL holder: the twin's performance and limitations and its systems. The other Area I tasks were covered on your original certificate, though the evaluator may still ask about them.",
+  "src": "Private ACS App 1 (AMEL add-on table) · Commercial ACS App 1 (AMEL add-on table)",
+  "loc": "acs-pvt p80 · acs-com p79"
+ },
+ {
+  "id": "f4-007",
+  "topic": "acs",
+  "q": "On your AMEL add-on, the examiner asks for an emergency descent, which the add-on table doesn't list. Per the ACS, may they?",
+  "a": "Yes; the table is a minimum and other tasks may be evaluated",
+  "d": [
+   "No; only the tasks listed in the add-on table may be tested",
+   "Only if you failed that task on an earlier practical test",
+   "Only if the airplane's POH has an emergency descent procedure"
+  ],
+  "why": "The Additional Rating Task Table section says the evaluator must evaluate the listed Areas of Operation and Tasks and may evaluate the applicant's competence in the remaining ones.",
+  "src": "Private ACS App 1 · Commercial ACS App 1",
+  "loc": "acs-pvt p77 · acs-com p76"
+ },
+ {
+  "id": "f4-008",
+  "topic": "acs",
+  "q": "An instrument-rated private ASEL pilot who has never demonstrated instrument proficiency in a twin adds AMEL. Which Area X tasks are required?",
+  "a": "All four, including the two OEI instrument tasks",
+  "d": [
+   "Only OEI maneuvering and the Vmc demonstration",
+   "OEI maneuvering, Vmc demo, and OEI flight by instruments",
+   "None; the instrument tasks are left for an IPC in the twin"
+  ],
+  "why": "The add-on table marks Area X 'All', with a footnote: Tasks C and D don't apply only to applicants with no instrument rating or who already showed instrument proficiency in a multiengine airplane. This applicant must fly X.C (OEI by instruments) and X.D (OEI instrument approach); without them, Appendix 3 says the certificate is limited to multiengine flight in VFR conditions only.",
+  "src": "Private ACS App 1 (AMEL add-on table) · Private ACS PA.X.C, PA.X.D (App 3)",
+  "loc": "acs-pvt p80 · acs-pvt p87"
+ },
+ {
+  "id": "f4-009",
+  "topic": "acs",
+  "q": "You're instrument rated and add AMEL to your ASEL certificate without demonstrating instrument proficiency in a twin. Per the ACS, what limitation results?",
+  "a": "Multiengine flight is limited to VFR conditions only",
+  "d": [
+   "Multiengine flight is limited to center-thrust airplanes",
+   "Multiengine flight is limited to daytime operations",
+   "None, since instrument currency covers both classes"
+  ],
+  "why": "ACS Appendix 3 (notes to X.C and X.D): an applicant who holds both single- and multiengine ratings but hasn't demonstrated instrument proficiency in a multiengine aircraft gets a certificate limiting multiengine flight to VFR conditions only, the 'Airplane Multiengine VFR Only' limitation. Flying X.C and X.D on the test is how you demonstrate it; 61.57 instrument currency is a separate issue.",
+  "src": "Private ACS PA.X.C, PA.X.D (App 3) · Commercial ACS CA.X.C, CA.X.D (App 3)",
+  "loc": "acs-pvt p87 · acs-com p86"
+ },
+ {
+  "id": "f4-010",
+  "topic": "acs",
+  "q": "To remove an 'Airplane Multiengine VFR Only' limitation, what must you demonstrate, and in what airplane?",
+  "a": "The two OEI instrument tasks, in a twin with a published Vmc",
+  "d": [
+   "An instrument proficiency check, in any multiengine airplane",
+   "The Vmc demo and OEI maneuvering, in any multiengine airplane",
+   "The full instrument practical test, in a twin with a published Vmc"
+  ],
+  "why": "Removal requires Area X Task C (OEI flight solely by instruments) and Task D (OEI instrument approach and landing), from the Private or Commercial ACS to match your certificate level, flown in a multiengine airplane with a manufacturer's published Vmc.",
+  "src": "Private ACS App 1 (Removal of VFR Only) · Commercial ACS App 1",
+  "loc": "acs-pvt p82 · acs-com p81"
+ },
+ {
+  "id": "f4-011",
+  "topic": "acs",
+  "q": "Per the ACS, when is a 'Limited to Center Thrust' limitation placed on a new AMEL rating?",
+  "a": "When the test airplane has no manufacturer's published Vmc",
+  "d": [
+   "When the test airplane has counter-rotating propellers",
+   "When the applicant holds no instrument–airplane rating",
+   "When the Vmc demonstration is discussed only during the oral"
+  ],
+  "why": "If the twin used for the test doesn't publish a Vmc (on the type certificate data sheet or in the AFM), as with a centerline-thrust twin, the limitation is added unless the applicant already showed competence in a twin with a published Vmc. The Seneca publishes Vmc (80 MPH), so it doesn't apply there.",
+  "src": "Private ACS App 3 · Commercial ACS App 3 · Private ACS App 1 (Removal of Center Thrust)",
+  "loc": "acs-pvt p85 · acs-pvt p82"
+ },
+ {
+  "id": "f4-012",
+  "topic": "acs",
+  "q": "A pilot with no instrument rating holds AMEL 'Limited to Center Thrust'. Which tasks, flown in a twin with a published Vmc, remove it?",
+  "a": "Engine failures (IX.E–G), OEI maneuvering, and the Vmc demo",
+  "d": [
+   "Only the Vmc demonstration, with no other engine-out tasks",
+   "OEI maneuvering and the Vmc demo, but no engine-failure tasks",
+   "The complete add-on test, including all of Areas IV and VII"
+  ],
+  "why": "The removal table lists IX.E (failure before Vmc), IX.F (after liftoff), IX.G (OEI approach and landing), X.A (maneuvering with one engine inoperative) and X.B (Vmc demonstration). An instrument-rated pilot who hasn't shown instrument proficiency in such a twin also flies the VFR-only tasks, X.C and X.D.",
+  "src": "Private ACS App 1 (Removal of Center Thrust) · Commercial ACS App 1",
+  "loc": "acs-pvt p82 · acs-com p81"
+ },
+ {
+  "id": "f4-013",
+  "topic": "acs",
+  "q": "You hold an unrestricted private AMEL rating earned in a Seneca. You take a commercial AMEL test in a twin with no published Vmc. Is a center-thrust limitation added?",
+  "a": "No; you already showed competence in a twin with a published Vmc",
+  "d": [
+   "Yes; the limitation depends only on the airplane used for this test",
+   "Yes, unless the evaluator waives the Vmc demonstration",
+   "No; the limitation applies only to private pilot certificates"
+  ],
+  "why": "Appendix 3 of both the Private and Commercial ACS: the limitation is added when the test airplane publishes no Vmc, unless the applicant has previously demonstrated competence in a multiengine airplane with a published Vmc. Your Seneca private AMEL test did that.",
+  "src": "Commercial ACS App 3 · Private ACS App 3",
+  "loc": "acs-com p84 · acs-pvt p85"
+ },
+ {
+  "id": "f4-014",
+  "topic": "acs",
+  "q": "Per the ACS, what must the airplane you supply for an AMEL practical test allow?",
+  "a": "Demonstration of propeller feathering in flight",
+  "d": [
+   "A positive single-engine climb at maximum gross weight",
+   "Approved flight into known icing conditions",
+   "Full IFR operations with a working autopilot"
+  ],
+  "why": "Appendix 2: the applicant must supply an airplane that does not prohibit demonstrating in-flight feathering (the one exception is an unrestricted AMEL holder adding AMES). Maneuvering with One Engine Inoperative (X.A) includes an actual feather and restart.",
+  "src": "Private ACS App 2 · Commercial ACS App 2",
+  "loc": "acs-pvt p84 · acs-com p83"
+ },
+ {
+  "id": "f4-015",
+  "topic": "acs",
+  "q": "Where the test calls for failing the most critical engine after liftoff, what does the ACS say the evaluator must consider?",
+  "a": "Local atmospheric conditions, terrain, and the type of aircraft",
+  "d": [
+   "Your total multiengine flight time and your recent flight experience",
+   "Only the tower's traffic and the departure runway in use",
+   "The fuel on board and the failure you say you prefer"
+  ],
+  "why": "Appendix 2 Multiengine Considerations: the evaluator must weigh local atmospheric conditions, terrain and aircraft type, and must not simulate the failure until at least 400 feet AGL and at least Vsse, Vxse or Vyse.",
+  "src": "Private ACS PA.IX.F (App 2) · Commercial ACS CA.IX.F (App 2)",
+  "loc": "acs-pvt p84 · acs-com p83"
+ },
+ {
+  "id": "f4-016",
+  "topic": "acs",
+  "q": "For each required task, what is the minimum the evaluator must test, per the ACS?",
+  "a": "One knowledge element, one risk element, and all skill elements",
+  "d": [
+   "Every single knowledge, risk management, and skill element listed",
+   "One element of each type: knowledge, risk, and skill",
+   "All knowledge elements, plus whichever skills are flown"
+  ],
+  "why": "The evaluator samples: at least one knowledge element, at least one risk management element, all skill elements unless noted, plus any elements missed on the knowledge test. A class add-on has no knowledge test, so that last item doesn't apply.",
+  "src": "Private ACS App 1 · Commercial ACS App 1",
+  "loc": "acs-pvt p74 · acs-com p73"
+ },
+ {
+  "id": "f4-017",
+  "topic": "pilot",
+  "q": "A private pilot with an ASEL rating adds AMEL at the private level. What does 14 CFR 61.63(c) require?",
+  "a": "An instructor endorsement and the practical test; no knowledge test",
+  "d": [
+   "A knowledge test, an instructor endorsement, and the practical test",
+   "Only the practical test; no instructor endorsement is needed",
+   "An endorsement, minimum ME training hours, and the practical test"
+  ],
+  "why": "61.63(c): an endorsement that you are competent in the knowledge areas and proficient in the areas of operation, and a passed practical test. You need not meet the certificate's specified training-time minimums or take another knowledge test, since you already hold an airplane rating at that level.",
+  "src": "14 CFR 61.63(c) · Private ACS App 1",
+  "loc": "cfr 61.63 · acs-pvt p74"
+ },
+ {
+  "id": "f4-018",
+  "topic": "acs",
+  "q": "On a simulated engine failure after liftoff, reading the checklist would be unsafe. Per the ACS, how is your checklist use evaluated?",
+  "a": "Memory items performed, then the checklist reviewed when able",
+  "d": [
+   "You must read each checklist item aloud before acting on it",
+   "Checklist use is not evaluated at all during the emergency tasks",
+   "The evaluator reads the checklist and you perform the items"
+  ],
+  "why": "Appendix 2 Use of Checklists: where reading the checklist is impractical or unsafe, the evaluator assesses your performance of the published or recommended immediate-action memory items, along with your review of the checklist once conditions permit.",
+  "src": "Private ACS App 2 · Commercial ACS App 2",
+  "loc": "acs-pvt p83 · acs-com p82"
+ },
+ {
+  "id": "f4-019",
+  "topic": "acs",
+  "q": "In the FAA's three-step exchange of flight controls (ACS Appendix 2), what is the third step?",
+  "a": "The first pilot says 'You have the flight controls' again",
+  "d": [
+   "The second pilot answers 'I have the flight controls' aloud",
+   "The first pilot lets go of the controls without speaking",
+   "The second pilot shakes the yoke to confirm control"
+  ],
+  "why": "Step 1: 'You have the flight controls.' Step 2: the other pilot answers 'I have the flight controls.' Step 3: the first pilot again says 'You have the flight controls' and visually confirms the exchange. Brief it before flight; it applies during the checkride too.",
+  "src": "Private ACS App 2 · Commercial ACS App 2",
+  "loc": "acs-pvt p83 · acs-com p82"
+ },
+ {
+  "id": "f4-020",
+  "topic": "acs",
+  "q": "Which does the ACS list as a typical ground for unsatisfactory performance?",
+  "a": "Not correcting promptly when a tolerance is exceeded",
+  "d": [
+   "A single brief excursion beyond a tolerance, promptly corrected",
+   "Asking the evaluator to repeat an instruction you didn't hear",
+   "Reviewing the checklist once the memory items are done"
+  ],
+  "why": "The list: any action or inaction that requires the evaluator to intervene to keep the flight safe, failure to clear the area, consistently exceeding tolerances, failure to take prompt corrective action when tolerances are exceeded, and failure to exercise risk management.",
+  "src": "Private ACS App 1 · Commercial ACS App 1",
+  "loc": "acs-pvt p77 · acs-com p75"
+ },
+ {
+  "id": "f4-021",
+  "topic": "acs",
+  "q": "Per the ACS, can the flight portion begin if the ground (oral) portion is unsatisfactory?",
+  "a": "No; the ground portion must be passed first",
+  "d": [
+   "Yes; the oral is graded only after the flight",
+   "Yes, if the weak area is retested in flight",
+   "Yes, unless more than one Area was missed"
+  ],
+  "why": "The ground portion lets the evaluator decide whether you are ready for the flight, and you must pass it before beginning the flight portion. Oral questioning then continues throughout the test.",
+  "src": "Private ACS App 1 · Commercial ACS App 1",
+  "loc": "acs-pvt p75 · acs-com p74"
+ },
+ {
+  "id": "f4-022",
+  "topic": "acs",
+  "q": "Recovering from a Commercial accelerated stall in a twin, the ACS says it is acceptable to delay adding power until the airplane is:",
+  "a": "Wings level, above Vmc, and responding normally",
+  "d": [
+   "Climbing at Vy with the stall warning silent",
+   "Back at the entry altitude, heading, and airspeed",
+   "Below maneuvering speed with the nose level"
+  ],
+  "why": "Commercial ACS Appendix 3 (CA.VII.D): in a multiengine airplane the recovery is at the first indication of a stall, and delaying power until wings level, above Vmc and responding normally to control inputs is acceptable; delay high power if the airplane isn't above Vmc and responding as expected. Entry power keeps airspeed at or below Va.",
+  "src": "Commercial ACS CA.VII.D (App 3)",
+  "loc": "acs-com p85"
+ },
+ {
+  "id": "f4-023",
+  "topic": "acs",
+  "q": "Under the current Commercial ACS, in which stall tasks may the evaluator call for recovery at the first indication instead of a full stall?",
+  "a": "Both power-off and power-on stalls",
+  "d": [
+   "Power-on stalls only",
+   "Power-off stalls only",
+   "Neither; both require a full stall"
+  ],
+  "why": "FAA-S-ACS-7B (Nov 2023): CA.VII.B and CA.VII.C both say recover at the first indication or after a full stall, as the evaluator specifies (the accelerated stall is first indication only). The OEG excerpt, from an older edition, shows full-stall recovery for the Commercial power-off stall. Private applicants recover after the full stall in both.",
+  "src": "Commercial ACS CA.VII.B, CA.VII.C · Private ACS PA.VII.B, PA.VII.C",
+  "loc": "acs-com p53 · acs-com p55"
+ },
+ {
+  "id": "f4-024",
+  "topic": "acs",
+  "q": "Per the ACS Vmc Demonstration task, which of these must you be able to explain?",
+  "a": "How Vmc differs from stall speed",
+  "d": [
+   "How to compute Vmc for today's conditions",
+   "Why Vmc is higher with the prop feathered",
+   "Why Vmc rises as the CG moves forward"
+  ],
+  "why": "X.B knowledge elements: factors affecting Vmc and how it differs from stall speed; Vmc (red line), Vyse (blue line) and Vsse; the cause of loss of directional control below Vmc; and proper entry and safe recovery. Feathering lowers Vmc, and a forward CG lowers it too.",
+  "src": "Private ACS PA.X.B · Commercial ACS CA.X.B",
+  "loc": "acs-pvt p67"
+ },
+ {
+  "id": "f4-025",
+  "topic": "acs",
+  "q": "The ACS Engine Failure After Liftoff task lists which takeoff distances as knowledge elements?",
+  "a": "Accelerate-stop and accelerate-go distances",
+  "d": [
+   "Ground roll and distance over a 50-foot obstacle",
+   "Accelerate-stop distance only",
+   "Single-engine landing distance over 50 feet"
+  ],
+  "why": "IX.F.K3 lists accelerate/stop and accelerate/go distances; the Engine Failure During Takeoff Before Vmc task (IX.E.K3) lists accelerate/stop distance. The Seneca I POH has an accelerate-stop chart but no accelerate-go chart, so be ready to explain what that means.",
+  "src": "Private ACS PA.IX.F, PA.IX.E · Commercial ACS CA.IX.F, CA.IX.E",
+  "loc": "acs-pvt p63 · acs-pvt p62"
+ },
+ {
+  "id": "f4-026",
+  "topic": "acs",
+  "q": "The ACS engine-out tasks ask you to explain the importance of drag reduction. Which item is on that list?",
+  "a": "The control input for zero sideslip",
+  "d": [
+   "Leaning the operating engine's mixture",
+   "Opening the operating engine's cowl flap",
+   "Reducing power on the operating engine"
+  ],
+  "why": "PA.X.A.K4 (also IX.F.K5 and IX.G.K4): propeller feathering, gear and flap retraction, and the manufacturer's recommended control input and its relation to zero sideslip. Reducing power on the good engine is for loss of directional control, not drag.",
+  "src": "Private ACS PA.X.A, PA.IX.F, PA.IX.G · Commercial ACS CA.X.A",
+  "loc": "acs-pvt p66 · acs-pvt p63"
+ },
+ {
+  "id": "f4-027",
+  "topic": "acs",
+  "q": "On a long single-engine leg on instruments, you plan when to crossfeed. Which ACS risk element of OEI flight by instruments (X.C) are you managing?",
+  "a": "Fuel management during single-engine operation",
+  "d": [
+   "Identification of the inoperative engine",
+   "Configuring the airplane for the landing",
+   "Collision hazards with traffic in the terminal area"
+  ],
+  "why": "X.C risk elements: identifying the inoperative engine; inability to climb or hold altitude; low-altitude maneuvering (stall, spin, CFIT); distractions and loss of situational awareness; and fuel management during single-engine operation.",
+  "src": "Private ACS PA.X.C · Commercial ACS CA.X.C",
+  "loc": "acs-pvt p68"
+ },
+ {
+  "id": "f4-028",
+  "topic": "acs",
+  "q": "Which risk element appears in both engine-inoperative approach tasks, the visual one (IX.G) and the instrument one (X.D)?",
+  "a": "A go-around with an inoperative engine",
+  "d": [
+   "Fuel management during single-engine flight",
+   "Wake turbulence behind a departing heavy",
+   "Runway incursion at the hold-short line"
+  ],
+  "why": "IX.G.R6 lists a possible single-engine go-around and X.D.R6 lists performing a go-around/rejected landing with an engine failure. Fuel management is an X.C risk element; it isn't listed in either approach task.",
+  "src": "Private ACS PA.IX.G, PA.X.D · Commercial ACS CA.IX.G, CA.X.D",
+  "loc": "acs-pvt p64 · acs-pvt p69"
+ },
+ {
+  "id": "f4-029",
+  "topic": "acs",
+  "q": "How does the ACS Instrument Approach and Landing with an Inoperative Engine task end?",
+  "a": "With a landing",
+  "d": [
+   "With a missed approach",
+   "With a two-engine go-around",
+   "With a low approach to the DA"
+  ],
+  "why": "X.D skill elements end with executing a landing and completing the checklists. You must arrive at the MDA or DA positioned to land straight-in or circling, with ¾-scale or better guidance on the final segment.",
+  "src": "Private ACS PA.X.D · Commercial ACS CA.X.D",
+  "loc": "acs-pvt p70"
+ },
+ {
+  "id": "f4-030",
+  "topic": "acs",
+  "q": "Which does the ACS list as a situation that would require an emergency descent?",
+  "a": "Smoke or an engine fire",
+  "d": [
+   "A single alternator failure",
+   "A vacuum pump failure",
+   "Moderate turbulence in cruise"
+  ],
+  "why": "IX.A.K1 gives depressurization, smoke, or engine fire as examples. You then fly the POH configuration and airspeed (+0/−10 knots) at 30° to 45° of bank and level off within ±100 feet.",
+  "src": "Private ACS PA.IX.A · Commercial ACS CA.IX.A",
+  "loc": "acs-pvt p59"
+ },
+ {
+  "id": "f4-031",
+  "topic": "acs",
+  "q": "For the OEI instrument tasks on your checkride, who must furnish the view-limiting device?",
+  "a": "You, the applicant",
+  "d": [
+   "The examiner",
+   "The aircraft owner",
+   "No one; it's optional"
+  ],
+  "why": "14 CFR 61.45(d)(2) and ACS Appendix 3: the applicant provides a view-limiting device that blocks outside reference without restricting the evaluator's lookout, and the two of you brief when it goes on and comes off.",
+  "src": "Private ACS App 3 · Commercial ACS App 3 · 14 CFR 61.45(d)",
+  "loc": "acs-pvt p85 · acs-com p84"
+ },
+ {
+  "id": "f4-032",
+  "topic": "acs",
+  "q": "Your twin has a simple autopilot. Per the ACS, how should you expect it to figure in the checkride?",
+  "a": "You're expected to show automation management with it",
+  "d": [
+   "Autopilot use is prohibited throughout a practical test",
+   "It may be used in cruise only, never on an approach",
+   "It is tested only on Commercial, not Private, checkrides"
+  ],
+  "why": "Appendix 3: you're expected to demonstrate automation management skills with installed equipment such as an autopilot, and the evaluator tests your knowledge of the systems installed and operative, in the oral and in flight.",
+  "src": "Private ACS App 3 · Commercial ACS App 3",
+  "loc": "acs-pvt p85 · acs-com p84"
+ },
+ {
+  "id": "f4-033",
+  "topic": "acs",
+  "q": "Your twin's autopilot is inoperative and properly deferred under 14 CFR 91.213. Per the ACS, can the checkride go ahead?",
+  "a": "Yes, if it isn't needed for any required task",
+  "d": [
+   "No; all installed equipment must work on a checkride",
+   "Yes, but only once an A&P removes the autopilot",
+   "Only if the examiner issues a special flight permit"
+  ],
+  "why": "Appendix 3: if the airplane can be operated under 91.213, it must be determined whether any inoperative equipment is required to complete the test; the inoperative equipment must not interfere with practical test requirements.",
+  "src": "Private ACS App 3 · Commercial ACS App 3 · 14 CFR 91.213",
+  "loc": "acs-pvt p85 · acs-com p84"
+ },
+ {
+  "id": "f4-034",
+  "topic": "acs",
+  "q": "Per the ACS, why may the evaluator deliberately add distractions during the flight portion?",
+  "a": "To check situational awareness while you divide your attention",
+  "d": [
+   "To make up for any tasks that weren't covered in the ground portion",
+   "To see how long you can fly before exceeding a tolerance",
+   "Only to simulate failures that the POH does not cover"
+  ],
+  "why": "Appendix 2 Use of Distractions: many accidents follow distraction in critical phases, so the evaluator should add realistic distractions to evaluate situational awareness and control technique while dividing attention inside and outside the flight deck.",
+  "src": "Private ACS App 2 · Commercial ACS App 2",
+  "loc": "acs-pvt p83 · acs-com p82"
+ },
+ {
+  "id": "f4-035",
+  "topic": "acs",
+  "q": "Can the flight portion of your multiengine practical test be done in an FAA-approved aviation training device (ATD)?",
+  "a": "No; an ATD can't be used for a practical test",
+  "d": [
+   "Yes, for the engine-failure tasks only",
+   "Yes, if the ATD's letter of authorization allows it",
+   "Yes, for up to half of the flight tasks"
+  ],
+  "why": "Appendix 3: ATDs can't be used for a practical test, a 61.58 proficiency check, or the flight portion of a flight review. A full flight simulator or flight training device can be used only within an FAA-approved training program (61.64 for these tests).",
+  "src": "Private ACS App 3 · Commercial ACS App 3",
+  "loc": "acs-pvt p85 · acs-com p84"
+ },
+ {
+  "id": "f4-036",
+  "topic": "acs",
+  "q": "Traffic forces the examiner to stop your Vmc demo partway through, before any deviation. Per the ACS, what happens?",
+  "a": "You repeat the task, or the part not completed",
+  "d": [
+   "The task is graded unsatisfactory as incomplete",
+   "It is recorded as not tested and then skipped",
+   "You get a practice run, then a graded repeat"
+  ],
+  "why": "Appendix 1: if a task is incomplete or the outcome is uncertain, the evaluator must require you to repeat that task or portions of it. This doesn't permit instruction, practice, or repeating an unsatisfactory task.",
+  "src": "Private ACS App 1 · Commercial ACS App 1",
+  "loc": "acs-pvt p76 · acs-com p75"
+ },
+ {
+  "id": "f4-037",
+  "topic": "acs",
+  "q": "An engine starts running rough and the checkride is stopped, though you've done well so far. What do you receive?",
+  "a": "A Letter of Discontinuance listing the Areas completed",
+  "d": [
+   "A Notice of Disapproval listing the Areas not yet tested",
+   "A temporary certificate limited to the tasks passed",
+   "Nothing; the whole test must be taken again"
+  ],
+  "why": "Appendix 1: a test stopped for reasons other than unsatisfactory performance (equipment failure, weather, illness) ends with a Letter of Discontinuance listing the Areas completed and the time remaining to finish for credit. 14 CFR 61.43(e)(2) allows the discontinuance; under 61.43(f) you keep credit if you pass the rest within 60 days.",
+  "src": "Private ACS App 1 · Commercial ACS App 1 · 14 CFR 61.43(e), (f)",
+  "loc": "acs-pvt p77 · acs-com p76"
+ }
+]
